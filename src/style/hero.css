@@ -1,0 +1,116 @@
+#hero {
+  min-height: calc(100dvh - 10px);
+  padding-top: 10px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #111827;
+  margin: 0px 167px;
+  text-align: center;
+  width: 32rem;
+}
+
+.hero-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 39px;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #6B7280;
+}
+
+.hero-subtitle-2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #9CA3AF;
+  margin: 5px 31rem;
+}
+  
+.hero-button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 39px;
+  width: 32vw;
+}
+
+.button-one {
+  background-color: #3B82F6;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.button-two {
+  background-color: #ffffff;
+  color: #111827;
+  padding: 20px 30px;
+  border-radius: 999px;
+  text-decoration: none;
+  
+}
+
+
+@media (max-width: 768px) {
+  #hero {
+    height: 100dvh;
+    background-color: #fff;
+  }
+  
+  .hero-title {
+    margin: 0rem 0;
+    text-align: center;
+    width: 100%;
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle-container {
+    margin: 0rem 2rem;
+    text-align: center;
+  }
+
+  .hero-subtitle{
+    color: #111827;
+    font-size: 1.125rem;
+  }
+  .hero-subtitle-2{
+    margin: 5px 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.625;
+    text-wrap: balance;
+    
+  }
+  .hero-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 39px;
+    width: 80vw;
+    gap: 2rem;
+  }
+  .button-one {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+  .button-two {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+}

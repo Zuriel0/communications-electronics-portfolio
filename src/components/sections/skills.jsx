@@ -1,5 +1,6 @@
 import { skills } from "../../data/skills";
 import Technical_Cards from "../ui/Technical_Cards";
+import "../../style/skills.css";
 
 function Skills() {
     return (

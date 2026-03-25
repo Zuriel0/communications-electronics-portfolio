@@ -1,7 +1,10 @@
+import "../../style/about.css";
+import { FiCamera } from "react-icons/fi";
+
 
 function About() {
     return(
-    <section className="section"> 
+    <section className="section-about"> 
         <div className="about-container">
             <h2>About Me</h2>
         </div>
@@ -12,7 +15,7 @@ function About() {
         </div>
 
         <div className="about-image-container">
-            <img src="" alt="" />
+            <FiCamera size={100} color="gray" />
         </div>
     </section>
   );

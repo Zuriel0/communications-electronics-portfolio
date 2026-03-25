@@ -3,7 +3,7 @@ import SocialCard from '../ui/social_log_crd'
 import ContactInfo from '../ui/Contac_Info'
 import ContactFrom from '../ui/Contact_from'
 import Button from '../ui/button'
-
+import "../../style/contac.css";
 
 
 function Contact (){

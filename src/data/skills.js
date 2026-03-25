@@ -1,5 +1,7 @@
 import { IoCodeSharp, IoHardwareChipSharp, IoFlashSharp, IoServerSharp } from "react-icons/io5"
 import { LuCircuitBoard } from "react-icons/lu";
+import { MdOutlineSettingsInputAntenna } from "react-icons/md";
+
 
 export const skills = [
   {
@@ -25,5 +27,11 @@ export const skills = [
     title: "Dabase",
     icon: IoServerSharp,
     technologies: ["PCB", "Instrumentación", "Sensores"]
-  }
+  },
+ {
+    id: 5,
+    title: "Comunicaciones",
+    icon: MdOutlineSettingsInputAntenna,
+    technologies: ["PCB", "Instrumentación", "Sensores"]
+  } 
 ]

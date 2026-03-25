@@ -1,0 +1,152 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 4rem;
+}
+
+.contact-head {
+  margin: 20px 0px;
+  padding-top: 10px;
+  width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-title h2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.contact-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.contact-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;  
+}
+
+.social-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.social-container-icon a{
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.contactfrom-container{
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.conatcfrom-input{
+  width: 100%;
+  margin-bottom: 1rem;
+
+}
+
+.input-contact{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 15px;
+  border: 1px solid #e5e7eb;
+}
+
+.input-contact-label{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.conatcfrom-input input{
+  width: 100%;
+}
+
+.conatcfrom-input textarea{
+  width: 100%;
+}
+
+.button-send{
+  display:block;
+  color: #fff;
+  background-color: #3B82F6;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.button-send:hover{
+  background-color: #2563eb;
+  color: #fff;
+  transform: scale(1.05); 
+}
+
+@media (max-width: 768px) {
+
+
+  .contact-head {
+    max-width: 22rem;
+    width: 100%;
+  }
+
+  .contact-body {
+    max-width: 22rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .contact-form {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .conatcfrom-input input {
+    width: 20rem;
+  }
+  
+  .conatcfrom-input textarea {
+    width: 20rem;
+  }
+  
+  .button-send{
+    max-width: 20rem;
+    width: 100%;
+  }
+}

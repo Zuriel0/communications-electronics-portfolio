@@ -1,5 +1,6 @@
 import { timelineData } from "../../data/timelineData";
 import TimelineCard from "../ui/timelineCard";
+import "../../style/timelineseccion.css";
 
 function TimelineSection() {
     return (
