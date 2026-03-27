@@ -5,14 +5,14 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  background-color: #f7f9fa;
+  background-color: var(--bg-color-3);
   padding-bottom: 4rem;
   }
   
   .skills-title {
     font-size: 2.1rem;
     font-weight: 700;
-    color: #111827;
+    color: var(--text-primary);
     margin: 10px 0px;
     padding-top: 10px;
     width: 72rem;
@@ -34,9 +34,15 @@
   
   .technical-card {
     border-radius: 16px;
-    background-color: #FFFFFF;
-    border: 1px solid #E5E7EB;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
     padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .technical-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   }
   
   
@@ -46,8 +52,8 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: #3B82F6;
-    background-color: #EFF6FF;
+    color: var(--accent-color);
+    background-color: rgba(41, 151, 255, 0.1);
     width: 60px;
     height: 60px;
     margin: 25px 10px 0px 25px;
@@ -58,7 +64,7 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
-  color: #111827;
+  color: var(--text-primary);
   margin: 25px 10px 10px 25px;
 }
 
@@ -77,9 +83,9 @@
 .technical-card .skill-tag {
   font-size: 1.0rem;
   font-weight: 400;
-  color: #4B5563;
-  background-color: #F3F4F6;
-  border-radius: 8px;
+  color: var(--text-primary);
+  background-color: var(--surface-hover);
+  border: 1px solid var(--border-color);
   padding: 5px 10px 5px 10px;
 }
 

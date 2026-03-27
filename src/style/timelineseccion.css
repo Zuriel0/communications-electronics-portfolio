@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #f7f9fa;
+  background-color: var(--bg-color-3);
   padding-bottom: 4rem;
 }
 
@@ -21,7 +21,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 48px;
-  color: #111827;
+  color: var(--text-primary);
 }
 
 .timeline {
@@ -38,7 +38,7 @@
   bottom: 0;
   left: 50%;
   width: 1px;
-  background: #d1d5db;
+  background: var(--border-color);
   transform: translateX(-50%);
 }
 
@@ -63,9 +63,9 @@
   top: 50%;
   width: 12px;
   height: 12px;
-  background: #3b82f6;
+  background: var(--accent-color);
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 4px solid var(--surface-color);
   transform: translateX(-50%);
   z-index: 2;
 }
@@ -80,11 +80,11 @@
 
 .timeline-card {
   width: calc(50% - 40px);
-  background: white;
-  border: 1px solid #e5e7eb;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
   border-radius: 16px;
   padding: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .timeline-period-contend.left {
@@ -101,8 +101,8 @@
   display: inline-block;
   margin-bottom: 16px;
   padding: 6px 12px;
-  background: #eff6ff;
-  color: #2563eb;
+  background: rgba(41, 151, 255, 0.1);
+  color: var(--accent-color);
   border-radius: 999px;
   font-size: 14px;
   font-weight: 600;
@@ -111,19 +111,19 @@
 .timeline-card h3 {
   margin: 0 0 6px;
   font-size: 20px;
-  color: #111827;
+  color: var(--text-primary);
 }
 
 .timeline-card h4 {
   margin: 0 0 16px;
   font-size: 16px;
   font-weight: 500;
-  color: #6b7280;
+  color: var(--text-secondary);
 }
 
 .timeline-card p {
   margin: 0;
-  color: #4b5563;
+  color: var(--text-secondary);
   line-height: 1.6;
 }
 
