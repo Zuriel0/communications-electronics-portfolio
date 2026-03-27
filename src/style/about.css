@@ -23,7 +23,7 @@
   .about-text-container p {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     margin: 20px 5px;
     text-align: justify;
     width: 72rem;

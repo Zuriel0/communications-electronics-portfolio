@@ -101,6 +101,7 @@
 .button-send{
   display:block;
   background-color: var(--text-primary);
+  color: var(--bg-color-1);
   border-radius: 15px;
   padding: 1rem;
   font-size: 1.2rem;
