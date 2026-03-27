@@ -4,7 +4,7 @@ import { FiCamera } from "react-icons/fi";
 
 function About() {
     return(
-    <section className="section-about"> 
+    <section id="about" className="section-about"> 
         <div className="about-container">
             <h2>About Me</h2>
         </div>

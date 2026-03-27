@@ -8,7 +8,7 @@ import "../../style/contac.css";
 
 function Contact (){
     return(
-        <secction className="contact-section">
+        <section id="contact" className="contact-section">
             <div className="contact-head">
                 <div className="contact-title">
                     <h2>Get In Touch</h2>
@@ -38,7 +38,7 @@ function Contact (){
                     <Button text="Send Message" link="#" styloBtn="button-send" />
                 </div>
             </div>
-        </secction>
+        </section>
     )
 }
 

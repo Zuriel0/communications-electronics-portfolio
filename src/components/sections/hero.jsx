@@ -10,8 +10,8 @@ function Hero() {
                 <p className="hero-subtitle-2">Designing technology, solving complex engineering problems, and building innovative systems.</p>
             </div>
             <div className="hero-button-container">
-                <Button text="View Projects" link="#" styloBtn="button-one" />
-                <Button text="Contact" link="#" styloBtn="button-two" />
+                <Button text="View Projects" link="#projects" styloBtn="button-one" />
+                <Button text="Contact" link="#contact" styloBtn="button-two" />
             </div>
         </section>
     );

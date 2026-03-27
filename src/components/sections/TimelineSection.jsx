@@ -4,7 +4,7 @@ import "../../style/timelineseccion.css";
 
 function TimelineSection() {
     return (
-        <section className="timeline-section">
+        <section id="experience" className="timeline-section">
             <div className="timeline-title">
                 <h2>Experience & Education</h2>
             </div>
