@@ -1,21 +1,36 @@
+import { useState } from "react";
 import "../../style/about.css";
 import { FiCamera } from "react-icons/fi";
 
+const images = import.meta.glob("../../assets/images/anxzu.png", { eager: true });
+const anxzuImageUrl = images["../../assets/images/anxzu.png"]?.default;
 
 function About() {
+    const [imageError, setImageError] = useState(false);
+
     return(
     <section id="about" className="section-about"> 
         <div className="about-container">
             <h2>About Me</h2>
         </div>
         <div className="about-text-container">
-            <p>I am a passionate Communications and Electronics Engineer dedicated to bridging the gap between hardware and software. With a strong foundation in electronic design, signal processing, and embedded systems, I thrive on creating robust solutions for complex technical challenges</p>
-            <p>My expertise spans across designing intricate circuit layouts, developing efficient communication protocols, and programming microcontrollers to bring hardware to life. I believe in a holistic approach to engineering, where understanding the physical layer is just as important as the software that controls it.</p>
-            <p>Whether it's developing IoT sensor networks, optimizing RF communication systems, or building autonomous control platforms, I am driven by a relentless curiosity and a commitment to technological innovation. I am constantly exploring new tools and methodologies to push the boundaries of what's possible in modern engineering.</p>
+            <p>I am an Electronics and Communications Engineer with a computing-oriented background and professional experience in telecom pre-sales, networking, infrastructure, frontend development, and technical support. Throughout my career, I have worked on connectivity solutions, LAN-to-LAN architectures, captive portal implementations, network equipment configuration, troubleshooting, and process automation tools.</p>
+            <p>My profile combines expertise in networking, Linux server administration, databases, web development, and technical documentation, allowing me to contribute from both a technical and strategic perspective. I am a problem-solving professional who enjoys analyzing requirements and designing tailored technology solutions that align with business needs.</p>
+            
         </div>
 
         <div className="about-image-container">
-            <FiCamera size={100} color="gray" />
+            {anxzuImageUrl && !imageError ? (
+                <img 
+                    src={anxzuImageUrl} 
+                    alt="Profile Anxzu" 
+                    className="profile-image" 
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    onError={() => setImageError(true)} 
+                />
+            ) : (
+                <FiCamera size={100} color="gray" />
+            )}
         </div>
     </section>
   );

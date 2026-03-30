@@ -1,4 +1,5 @@
 import { MdArrowRightAlt } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function ProjectsCard({image, title, description, competences, link}) {
     return (
@@ -18,7 +19,7 @@ function ProjectsCard({image, title, description, competences, link}) {
                 </div>
             </div>
             <div className="projects-card-button">
-                <span href={link} target="_blank" className="button-project">Ver Proyecto</span>
+                <Link to={link} className="button-project">View Project</Link>
                 <MdArrowRightAlt size={24}/>
             </div>
 

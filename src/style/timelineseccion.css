@@ -127,6 +127,11 @@
   line-height: 1.6;
 }
 
+.timeline-description {
+  text-align: justify;
+  text-wrap: balance;
+}
+
 
 
 @media (max-width: 768px) {
@@ -161,6 +166,9 @@
     justify-content: flex-start !important;
     margin-right: 3rem;
     margin-left: 0;
+  }
+  .timeline-period-contend.right {
+    justify-content: flex-end !important;
   }
   .timeline-dot.right {
     left: 5.3%;

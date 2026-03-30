@@ -7,7 +7,7 @@ function Hero() {
             <h1 className="hero-title">Andres Zuriel Macias Rios</h1>
             <div className="hero-subtitle-container">
                 <p className="hero-subtitle">Communications and Electronics Engineer</p>
-                <p className="hero-subtitle-2">Designing technology, solving complex engineering problems, and building innovative systems.</p>
+                <p className="hero-subtitle-2">Designing technology, solving engineering problems, and building innovative systems.</p>
             </div>
             <div className="hero-button-container">
                 <Button text="View Projects" link="#projects" styloBtn="button-one" />

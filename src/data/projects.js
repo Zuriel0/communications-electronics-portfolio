@@ -5,7 +5,7 @@ export const projects = [
         title: "IoT Environmental Monitoring System",
         description: "Real-time sensor network for environmental data collection and analysis, featuring low-power communication and cloud integration.",
         competences: ["Arduino", "Python", "MQTT","Cloud"],
-        link: "#"
+        link: "/projects/concurrencia"
     },
     {
         id: 2,
