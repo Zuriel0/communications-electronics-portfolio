@@ -1,0 +1,126 @@
+
+
+.introduce-container{
+    background-color: var(--bg-color-3);
+    min-height: calc(100dvh - 10px);
+    padding-top: 10px;
+    width: 100%;
+}
+
+.introduce-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80dvh;
+    width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+@keyframes elegantGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.introduce-content h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    width: 55rem;
+    text-align: center;
+    background: linear-gradient(135deg, #f5f5f7 0%, #86868b 50%, #2997ff 100%);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: elegantGradient 8s ease infinite;
+    text-transform: capitalize;
+}
+
+.introduce-content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+
+/* Problema */
+
+.problema-container{
+    background-color: var(--bg-color-2);
+    min-height: calc(100dvh - 10px);
+    padding-top: 10px;
+    width: 100%;
+}
+
+.problema-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    width: 72rem;
+}
+
+.problema-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.problema-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+
+/* Solucion */
+
+.solucion-container{
+    background-color: var(--bg-color-3);
+    min-height: calc(100dvh - 10px);
+    padding-top: 10px;
+    width: 100%;
+}
+
+.solucion-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    width: 72rem;
+}
+
+.solucion-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.solucion-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    text-align: justify;
+}
