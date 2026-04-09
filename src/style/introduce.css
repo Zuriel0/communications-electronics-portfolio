@@ -124,3 +124,120 @@
     margin-top: 2rem;
     text-align: justify;
 }
+
+/* High Level */
+
+.high-level-container{
+    background-color: var(--bg-color-2);
+    min-height: calc(100dvh - 10px);
+    padding-top: 10px;
+    width: 100%;
+}
+
+.high-level-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    width: 72rem;
+}
+
+.high-level-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.high-level-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+/* Flow System */
+
+.flow-system-container{
+    background-color: var(--bg-color-2);
+    min-height: calc(100dvh - 10px);
+    padding-top: 10px;
+    width: 100%;
+}
+
+.flow-system-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+    width: 72rem;
+}
+
+.flow-system-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.flow-system-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .introduce-content,
+    .problema-content,
+    .solucion-content,
+    .high-level-content,
+    .flow-system-content {
+        width: 82%;
+    }
+
+    .introduce-content h1,
+    .introduce-content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .introduce-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .introduce-content p,
+    .problema-description,
+    .solucion-description,
+    .high-level-description,
+    .flow-system-description {
+        text-align: justify;
+        font-size: 1.05rem;
+        text-wrap: center;
+    }
+
+    .problema-title,
+    .solucion-title,
+    .high-level-title,
+    .flow-system-title {
+        font-size: 2.2rem;
+    }
+
+    .problema-subtitle,
+    .solucion-subtitle,
+    .flow-system-subtitle {
+        font-size: 1.4rem;
+        text-align: left;
+    }
+}

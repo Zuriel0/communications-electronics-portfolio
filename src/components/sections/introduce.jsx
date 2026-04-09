@@ -2,6 +2,7 @@ import "../../style/introduce.css";
 import LoadBalancerTraceabilityDiagram from "../ui/graphics/flow_loadbalance";
 import BusinessFlowDiagram from "../ui/graphics/bussiness_flow";
 import LogicFlow from "../ui/graphics/logic_flow";
+import HighLevelArchitecture from "../ui/graphics/highlevel_flow";
 
 function Introduce() {
     return (
@@ -52,7 +53,38 @@ function Introduce() {
                     <p className="solucion-description">Monitorea concurrentemente los seis servidores web, permitiendo identificar en cuál de ellos fue procesada la petición que el balanceador distribuyó dinámicamente. Al mismo tiempo, supervisa el servidor RADIUS activo para seguir la continuidad del flujo de autenticación cuando la fase web concluye correctamente.</p>
                 </div>
             </section>
-
+            <section id="highLevel" className="high-level-container">
+                <div className="high-level-content">
+                    <h2 className="high-level-title">Arquitectura de alto nivel</h2>
+                    <p className="high-level-description">La solución está diseñada como una herramienta de consola ejecutada desde Ubuntu, responsable de orquestar la búsqueda de una MAC address en múltiples servidores remotos. A nivel general, el sistema carga una configuración externa, valida la entrada, inicia conexiones SSH concurrentes hacia el grupo web y el servidor RADIUS activo, monitorea logs en tiempo real y centraliza los resultados en una sola salida de consola.</p>
+                    <HighLevelArchitecture />
+                    <br /><br />
+                    <h3 className="solucion-subtitle">
+                        1. Orquestación local
+                    </h3>
+                    <p className="solucion-description">La ejecución comienza en Ubuntu mediante un script principal que coordina validación, configuración, concurrencia y salida.</p>
+                    <h3 className="solucion-subtitle">
+                        2. Configuración desacoplada
+                    </h3>
+                    <p className="solucion-description">Los datos de conexión, el servidor RADIUS activo y las políticas del grupo web se definen externamente, evitando hardcodeo y facilitando cambios operativos.</p>
+                    <h3 className="solucion-subtitle">
+                        3. Monitoreo distribuido
+                    </h3>
+                    <p className="solucion-description">La solución se conecta en paralelo a 6 servidores web y 1 servidor RADIUS activo para observar múltiples puntos del flujo sin depender de búsquedas manuales secuenciales.</p>
+                    <h3 className="solucion-subtitle">
+                        4. Salida centralizada
+                    </h3>
+                    <p className="solucion-description">Todos los eventos detectados regresan a una sola consola, donde se identifican por servidor, tipo de origen y coincidencia encontrada.</p>
+                </div>
+            </section>
+            <section id="flowSystem" className="flow-system-container">
+                <div className="flow-system-content">
+                    <h2 className="flow-system-title">Flujo del sistema</h2>
+                    <h3 className="flow-system-subtitle">Secuencia operativa desde la búsqueda de una MAC hasta la detección del evento</h3>
+                    <p className="flow-system-description">La solución sigue una secuencia operativa clara: recibe una MAC address, prepara la búsqueda, inicia el monitoreo concurrente sobre los servidores relevantes y centraliza las coincidencias encontradas en una única salida. Esto permite seguir el recorrido lógico del proceso, desde la capa web hasta la capa de autenticación, reduciendo el tiempo necesario para ubicar en qué servidor apareció la solicitud buscada.</p>
+                    
+                </div>
+            </section>
         </section>
     );
 }

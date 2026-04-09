@@ -1,4 +1,4 @@
-import React, { memo, useMemo } from 'react';
+import React, { memo, useMemo, useState, useEffect } from 'react';
 import {
   Background,
   Controls,
@@ -358,6 +358,14 @@ const initialEdges = [
 function ParallelMonitoringDiagram() {
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const defaultEdgeOptions = useMemo(
     () => ({
@@ -370,18 +378,17 @@ function ParallelMonitoringDiagram() {
     <div
       style={{
         width: '100%',
-        height: 660,
+        height: isMobile ? '550px' : 660,
         background:
           'radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 24%), #05070b',
         borderRadius: 28,
         overflow: 'hidden',
         border: '1px solid rgba(255,255,255,0.08)',
-        display: 'flex',
-        flexDirection: 'column',
       }}
     >
       <div
         style={{
+          position: 'absolute',
           zIndex: 10,
           padding: '24px 26px',
           pointerEvents: 'none',
@@ -403,8 +410,7 @@ function ParallelMonitoringDiagram() {
         </div>
       </div>
 
-      <div style={{ flex: 1, position: 'relative' }}>
-        <ReactFlow
+      <ReactFlow
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
@@ -412,12 +418,14 @@ function ParallelMonitoringDiagram() {
         onEdgesChange={onEdgesChange}
         defaultEdgeOptions={defaultEdgeOptions}
         fitView
-        fitViewOptions={{ padding: 0.12 }}
+        fitViewOptions={{ padding: 0.05 }}
         nodesDraggable={false}
         nodesConnectable={false}
         elementsSelectable={false}
-        zoomOnScroll={true}
-        panOnDrag={true}
+        zoomOnScroll={!isMobile}
+        panOnDrag={!isMobile}
+        minZoom={isMobile ? 0.05 : 0.35}
+        maxZoom={1.5}
         colorMode="dark"
       >
         <Background gap={24} size={1} color="rgba(255,255,255,0.07)" />
@@ -436,7 +444,6 @@ function ParallelMonitoringDiagram() {
           }}
         /> */}
         </ReactFlow>
-      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useState, useEffect } from 'react';
 import {
   Background,
   Controls,
@@ -302,12 +302,20 @@ const initialEdges = [
 function MacTracingParallelFlow() {
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <div
       style={{
         width: '100%',
-        height: 690,
+        height: isMobile ? '550px' : '690px',
         background:
           'radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 24%), #05070b',
         borderRadius: 28,
@@ -340,24 +348,26 @@ function MacTracingParallelFlow() {
       </div>
 
       <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        nodeTypes={nodeTypes}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        fitView
-        fitViewOptions={{ padding: 0.14 }}
-        nodesDraggable={false}
-        nodesConnectable={false}
-        elementsSelectable={false}
-        zoomOnScroll={false}
-        panOnDrag={false}
-        colorMode="dark"
-        defaultEdgeOptions={{ type: 'smoothstep' }}
-      >
-        <Background gap={24} size={1} color="rgba(255,255,255,0.07)" />
-        <Controls showInteractive={false} />
-      </ReactFlow>
+          nodes={nodes}
+          edges={edges}
+          nodeTypes={nodeTypes}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          fitView
+          fitViewOptions={{ padding: 0.05 }}
+          nodesDraggable={false}
+          nodesConnectable={false}
+          elementsSelectable={false}
+          zoomOnScroll={!isMobile}
+          panOnDrag={!isMobile}
+          minZoom={isMobile ? 0.05 : 0.35}
+          maxZoom={1.5}
+          colorMode="dark"
+          defaultEdgeOptions={{ type: 'smoothstep' }}
+        >
+          <Background gap={24} size={1} color="rgba(255,255,255,0.07)" />
+          <Controls showInteractive={false} />
+        </ReactFlow>
     </div>
   );
 }

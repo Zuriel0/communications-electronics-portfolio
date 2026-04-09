@@ -44,20 +44,35 @@
 .projects-card {
   display: flex;
   flex-direction: column;
-  background: var(--surface-color);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   min-height: 48rem;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   overflow: hidden;
-  border: 1px solid var(--border-color);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), border-color 0.5s ease, background 0.5s ease;
   cursor: pointer;
+  opacity: 0;
+}
+
+.reveal-section.visible .projects-card {
+  animation: appleFadeUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
 .projects-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
-  border-color: var(--text-secondary);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(145deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0) 100%), var(--surface-color);
+}
+
+.projects-card .projects-card-image {
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.projects-card:hover .projects-card-image {
+  transform: scale(1.05);
 }
 
 .projects-card-image{  
@@ -135,10 +150,51 @@
   justify-content: flex-start;
   align-items: center;
   margin: 2rem;
+  margin-top: auto;
 }
 
 .button-project{
   color: var(--accent-color);
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.projects-card:hover .button-project {
+  text-shadow: 0 0 12px rgba(41, 151, 255, 0.4);
+}
+
+.button-project:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.projects-card-button svg {
+  transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+  color: inherit;
+}
+
+.projects-card:hover .projects-card-button svg {
+  transform: translateX(6px);
+}
+
+.reveal-section .projects-title,
+.reveal-section .projects-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.reveal-section .projects-text {
+  transition-delay: 0.1s;
+}
+.reveal-section.visible .projects-title,
+.reveal-section.visible .projects-text {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 768px) {

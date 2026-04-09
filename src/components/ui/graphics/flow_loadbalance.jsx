@@ -222,8 +222,16 @@ function LoadBalancerTraceabilityDiagram() {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const [activeServerIndex, setActiveServerIndex] = useState(1);
+  const [isMobile, setIsMobile] = useState(false);
 
   const serverIds = useMemo(() => ['ws1', 'ws2', 'ws3'], []);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -277,7 +285,7 @@ function LoadBalancerTraceabilityDiagram() {
     <div
       style={{
         width: '100%',
-        height: '760px',
+        height: isMobile ? '550px' : '760px',
         background:
           'radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 25%), #05070b',
         borderRadius: 28,
@@ -289,7 +297,7 @@ function LoadBalancerTraceabilityDiagram() {
         style={{
           position: 'absolute',
           zIndex: 10,
-          padding: '26px 28px',
+          padding: '24px 28px',
           pointerEvents: 'none',
         }}
       >
@@ -303,39 +311,40 @@ function LoadBalancerTraceabilityDiagram() {
       </div>
 
       <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        nodeTypes={nodeTypes}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        fitView
-        fitViewOptions={{ padding: 0.18 }}
-        nodesDraggable={false}
-        nodesConnectable={false}
-        elementsSelectable={false}
-        zoomOnScroll={false}
-        panOnDrag={false}
-        colorMode="dark"
-        defaultEdgeOptions={{
-          type: 'smoothstep',
-        }}
-      >
-        <Background
-          gap={24}
-          size={1}
-          color="rgba(255,255,255,0.08)"
-        />
-        <Controls showInteractive={false} />
-        {/* <MiniMap
-          pannable
-          zoomable
-          style={{
-            background: 'rgba(255,255,255,0.04)',
-            border: '1px solid rgba(255,255,255,0.08)',
+          nodes={nodes}
+          edges={edges}
+          nodeTypes={nodeTypes}
+          onNodesChange={onNodesChange}
+          onEdgesChange={onEdgesChange}
+          fitView
+          fitViewOptions={{ padding: 0.05 }}
+          nodesDraggable={false}
+          nodesConnectable={false}
+          elementsSelectable={false}
+          zoomOnScroll={false}
+          panOnDrag={false}
+          minZoom={isMobile ? 0.05 : 0.2}
+          colorMode="dark"
+          defaultEdgeOptions={{
+            type: 'smoothstep',
           }}
-          nodeColor={() => 'rgba(255,255,255,0.45)'}
-        /> */}
-      </ReactFlow>
+        >
+          <Background
+            gap={24}
+            size={1}
+            color="rgba(255,255,255,0.08)"
+          />
+          <Controls showInteractive={false} />
+          {/* <MiniMap
+            pannable
+            zoomable
+            style={{
+              background: 'rgba(255,255,255,0.04)',
+              border: '1px solid rgba(255,255,255,0.08)',
+            }}
+            nodeColor={() => 'rgba(255,255,255,0.45)'}
+          /> */}
+        </ReactFlow>
     </div>
   );
 }

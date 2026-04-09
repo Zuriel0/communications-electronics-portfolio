@@ -1,6 +1,6 @@
-function Technical_Cards({icon : Icon, title, technologies}) {
+function Technical_Cards({index, icon : Icon, title, technologies}) {
     return (
-        <div className="technical-card">
+        <div className="technical-card" style={{ animationDelay: `${index * 0.1}s` }}>
             <div className="icon">
                 <div>
                     <Icon size={24}/>

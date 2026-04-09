@@ -1,9 +1,9 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-function ProjectsCard({image, title, description, competences, link}) {
+function ProjectsCard({index, image, title, description, competences, link}) {
     return (
-        <div className="projects-card">
+        <div className="projects-card" style={{ animationDelay: `${index * 0.15}s` }}>
             <div className="projects-card-image">
                 <div className="projects-card-image-content">
                     <span className="projects-card-image-content-text">{image}</span>
@@ -19,8 +19,9 @@ function ProjectsCard({image, title, description, competences, link}) {
                 </div>
             </div>
             <div className="projects-card-button">
-                <Link to={link} className="button-project">View Project</Link>
-                <MdArrowRightAlt size={24}/>
+                <Link to={link} className="button-project">View Project
+                    <MdArrowRightAlt size={24}/>
+                </Link>
             </div>
 
         </div>
