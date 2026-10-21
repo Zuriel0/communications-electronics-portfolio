@@ -79,10 +79,11 @@ function Introduce() {
             </section>
             <section id="flowSystem" className="flow-system-container">
                 <div className="flow-system-content">
-                    <h2 className="flow-system-title">Flujo del sistema</h2>
-                    <h3 className="flow-system-subtitle">Secuencia operativa desde la búsqueda de una MAC hasta la detección del evento</h3>
-                    <p className="flow-system-description">La solución sigue una secuencia operativa clara: recibe una MAC address, prepara la búsqueda, inicia el monitoreo concurrente sobre los servidores relevantes y centraliza las coincidencias encontradas en una única salida. Esto permite seguir el recorrido lógico del proceso, desde la capa web hasta la capa de autenticación, reduciendo el tiempo necesario para ubicar en qué servidor apareció la solicitud buscada.</p>
-                    
+                    <h2 className="flow-system-title">Flujo funcional del sistema</h2>
+                    <p className="flow-system-description">El sistema inicia cuando el operador ingresa una MAC address desde la terminal. A partir de ese momento, la herramienta valida el formato de entrada, normaliza la MAC y carga la configuración necesaria para identificar los servidores web, el servidor RADIUS activo y las reglas de ejecución.</p>
+                    <p className="flow-system-description">Después, construye los patrones de búsqueda y lanza de forma concurrente el monitoreo de los seis servidores web y del servidor RADIUS definido para la ejecución. Cada conexión remota observa logs en tiempo real a través de SSH, permitiendo detectar rápidamente en qué punto del flujo aparece la MAC buscada.</p>
+                    <p className="flow-system-description">Cuando se encuentra una coincidencia, la salida se centraliza en una sola consola indicando el servidor origen, el tipo de servidor y la línea correspondiente. En el grupo web, el sistema puede conservar únicamente el nodo que detectó el evento y detener los demás, mientras que el servidor RADIUS permanece independiente y continúa activo.</p>
+                    <p className="flow-system-description">Este diseño permite seguir el flujo natural del proceso: primero la atención en la capa web y posteriormente, cuando la operación se completa correctamente, la solicitud asociada a la autenticación en RADIUS. El resultado es una trazabilidad más rápida, centralizada y operativamente eficiente.</p>
                 </div>
             </section>
         </section>

@@ -15,19 +15,19 @@ export const skills = [
     id: 1,
     title: "Communications",
     icon: MdOutlineSettingsInputAntenna,
-    technologies: ["LAN-to-LAN", "VLAN", "BGP"]
+    technologies: ["LAN-to-LAN", "VLAN", "BGP", "OSPF"]
   },
   {
     id: 2,
     title: "Networking",
     icon: TbNetwork,
-    technologies: ["Captive Portals", "RIP2", "Structured Cabling"]
+    technologies: ["Captive Portals", "Structured Cabling"]
   },
   {
     id: 3,
     title: "Web Development",
     icon: FaCode,
-    technologies: ["React", "JavaScript", "PHP"]
+    technologies: ["React", "JavaScript", "PHP", "BASH"]
   },
   {
     id: 4,

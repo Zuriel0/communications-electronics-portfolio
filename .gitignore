@@ -32,7 +32,4 @@ dist-ssr
 .eslintcache
 
 # Archivos de Windows
-Thumbs.db
-
-# Archivos de VITE
-anxzu.png
+Thumbs.db
