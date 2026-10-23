@@ -1,4 +1,3 @@
 
 > portafoli_vite_appl@0.0.0 lint
 > eslint .
-

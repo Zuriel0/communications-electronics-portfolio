@@ -1,0 +1,2094 @@
+{
+  "branch": "codex/anx-001-redesign-audit",
+  "refs": {
+    "main": "b0d4e2bbc438aa53ea20d7d4f0c95a96aab5bf74",
+    "dark-theme": "5510d78c667d49107d8d595a1ae667d6ce221ee1",
+    "codex/anx-001-redesign-audit": "5510d78c667d49107d8d595a1ae667d6ce221ee1",
+    "origin/main": "b0d4e2bbc438aa53ea20d7d4f0c95a96aab5bf74",
+    "origin/dark-theme": "5510d78c667d49107d8d595a1ae667d6ce221ee1"
+  },
+  "status": "M index.html\n M package-lock.json\n M src/App.jsx\n M src/components/layout/navbar.jsx\n M src/components/layout/navbar_project.jsx\n M src/components/sections/TimelineSection.jsx\n M src/components/sections/about.jsx\n M src/components/sections/contac.jsx\n M src/components/sections/hero.jsx\n M src/components/sections/introduce.jsx\n M src/components/sections/introduce_metodologia.jsx\n M src/components/sections/projects.jsx\n M src/components/sections/skills.jsx\n M src/components/ui/Contac_Info.jsx\n M src/components/ui/Technical_Cards.jsx\n M src/components/ui/TimelineCard.jsx\n M src/components/ui/button.jsx\n M src/components/ui/graphics/bussiness_flow.jsx\n M src/components/ui/graphics/flow_loadbalance.jsx\n M src/components/ui/graphics/highlevel_flow.jsx\n M src/components/ui/graphics/logic_flow.jsx\n M src/components/ui/graphics/metodologia_problem_flow.jsx\n M src/components/ui/graphics/metodologia_solution_flow.jsx\n M src/components/ui/projects_card.jsx\n M src/components/ui/social_log_crd.jsx\n M src/components/utils/ScrollToTop.jsx\n M src/index.css\n M src/pages/Home.jsx\n M src/pages/projects/Concurrencia.jsx\n M src/pages/projects/Metodologia.jsx\n M src/style/about.css\n M src/style/contac.css\n M src/style/hero.css\n M src/style/introduce.css\n M src/style/layout/navbar.css\n M src/style/projects.css\n M src/style/skills.css\n M src/style/timelineseccion.css\n M vite.config.js\n?? .agents/\n?? docs/\n?? public/Inter-OFL.txt\n?? public/robots.txt\n?? public/sitemap.xml\n?? scripts/\n?? skills-lock.json\n?? src/assets/fonts/\n?? src/assets/images/credentials/\n?? src/assets/images/portrait/\n?? src/components/layout/Navigation.jsx\n?? src/components/layout/ProjectRoute.jsx\n?? src/components/sections/Credentials.jsx\n?? src/components/sections/HeroVariant.jsx\n?? src/components/sections/ImmersiveHero.jsx\n?? src/components/sections/heroMotion.js\n?? src/components/sections/immersiveHeroMotion.js\n?? src/components/ui/AccessibleIconLink.jsx\n?? src/components/ui/ActionLink.jsx\n?? src/components/ui/CaseStudy.jsx\n?? src/components/ui/ConnectionDiagram.jsx\n?? src/components/ui/ConnectionSculpture.jsx\n?? src/components/ui/Container.jsx\n?? src/components/ui/CredentialEntry.jsx\n?? src/components/ui/DiagramPlaybackControls.jsx\n?? src/components/ui/EngineeringFlowEdge.jsx\n?? src/components/ui/ProjectVisual.jsx\n?? src/components/ui/SectionHeading.jsx\n?? src/components/ui/Surface.jsx\n?? src/components/ui/engineeringEdgeTypes.js\n?? src/components/utils/PageMetadata.jsx\n?? src/data/credentials.js\n?? src/data/navigation.js\n?? src/data/pageMetadata.js\n?? src/data/professionalProfile.js\n?? src/hooks/\n?? src/style/case-study.css\n?? src/style/credentials.css\n?? src/style/engineering-flows.css\n?? src/style/hero-immersive.css\n?? src/style/project-route.css\n?? src/styles/\n?? src/utils/\n?? tests/",
+  "ignored": [
+    "!! dist/",
+    "!! node_modules/"
+  ],
+  "untracked": [
+    ".agents/skills/frontend-design/LICENSE.txt",
+    ".agents/skills/frontend-design/SKILL.md",
+    ".agents/skills/ui-ux-pro-max/SKILL.md",
+    ".agents/skills/ui-ux-pro-max/data/app-interface.csv",
+    ".agents/skills/ui-ux-pro-max/data/catalog-summary.json",
+    ".agents/skills/ui-ux-pro-max/data/charts.csv",
+    ".agents/skills/ui-ux-pro-max/data/colors.csv",
+    ".agents/skills/ui-ux-pro-max/data/data-provenance.json",
+    ".agents/skills/ui-ux-pro-max/data/google-font-licenses.json",
+    ".agents/skills/ui-ux-pro-max/data/google-fonts.csv",
+    ".agents/skills/ui-ux-pro-max/data/icons.csv",
+    ".agents/skills/ui-ux-pro-max/data/landing.csv",
+    ".agents/skills/ui-ux-pro-max/data/motion.csv",
+    ".agents/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+    ".agents/skills/ui-ux-pro-max/data/products.csv",
+    ".agents/skills/ui-ux-pro-max/data/react-performance.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/angular.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/astro.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/react.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/uno.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/vue.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/winui.csv",
+    ".agents/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+    ".agents/skills/ui-ux-pro-max/data/styles.csv",
+    ".agents/skills/ui-ux-pro-max/data/typography.csv",
+    ".agents/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+    ".agents/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+    ".agents/skills/ui-ux-pro-max/references/pro-rules.md",
+    ".agents/skills/ui-ux-pro-max/references/quick-reference.md",
+    ".agents/skills/ui-ux-pro-max/scripts/core.py",
+    ".agents/skills/ui-ux-pro-max/scripts/design_system.py",
+    ".agents/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+    ".agents/skills/ui-ux-pro-max/scripts/search.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_core.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+    ".agents/skills/ui-ux-pro-max/scripts/validate_data.py",
+    "docs/redesign/anx-003-report.md",
+    "docs/redesign/anx-004-report.md",
+    "docs/redesign/anx-005-report.md",
+    "docs/redesign/anx-006-report.md",
+    "docs/redesign/anx-007-report.md",
+    "docs/redesign/anx-008-report.md",
+    "docs/redesign/anx-009-report.md",
+    "docs/redesign/anx-010-report.md",
+    "docs/redesign/audit.md",
+    "docs/redesign/case-study-concurrencia.md",
+    "docs/redesign/case-study-metodologia.md",
+    "docs/redesign/design-system.md",
+    "docs/redesign/professional-evidence.md",
+    "docs/redesign/release-checklist.md",
+    "docs/redesign/reports/anx-002-contact-mobile.jpg",
+    "docs/redesign/reports/anx-002-desktop.jpg",
+    "docs/redesign/reports/anx-003-desktop-1024.jpg",
+    "docs/redesign/reports/anx-003-desktop.jpg",
+    "docs/redesign/reports/anx-003-mobile.jpg",
+    "docs/redesign/reports/anx-004-about-desktop.jpg",
+    "docs/redesign/reports/anx-004-about-mobile.jpg",
+    "docs/redesign/reports/anx-004-bundles.json",
+    "docs/redesign/reports/anx-004-connection-desktop.jpg",
+    "docs/redesign/reports/anx-004-load-error.jpg",
+    "docs/redesign/reports/anx-004-loading.jpg",
+    "docs/redesign/reports/anx-004-method-desktop.jpg",
+    "docs/redesign/reports/anx-004-projects-desktop.jpg",
+    "docs/redesign/reports/anx-004-projects-mobile.jpg",
+    "docs/redesign/reports/anx-005-bundles.json",
+    "docs/redesign/reports/anx-005-capabilities-desktop.jpg",
+    "docs/redesign/reports/anx-005-capabilities-mobile.jpg",
+    "docs/redesign/reports/anx-005-contact-desktop.jpg",
+    "docs/redesign/reports/anx-005-contact-mobile.jpg",
+    "docs/redesign/reports/anx-005-experience-contact.jpg",
+    "docs/redesign/reports/anx-005-experience-desktop.jpg",
+    "docs/redesign/reports/anx-005-experience-mobile.jpg",
+    "docs/redesign/reports/anx-005-home-full.jpg",
+    "docs/redesign/reports/anx-005-projects-capabilities.jpg",
+    "docs/redesign/reports/anx-005-validation.json",
+    "docs/redesign/reports/anx-006-baseline-concurrencia-mobile.json",
+    "docs/redesign/reports/anx-006-baseline-home-mobile-0.devtoolslog.json",
+    "docs/redesign/reports/anx-006-baseline-home-mobile-0.trace.json",
+    "docs/redesign/reports/anx-006-baseline-home-mobile.report.html",
+    "docs/redesign/reports/anx-006-baseline-home-mobile.report.json",
+    "docs/redesign/reports/anx-006-build-final.json",
+    "docs/redesign/reports/anx-006-bundles.json",
+    "docs/redesign/reports/anx-006-candidate-before-aria.zip",
+    "docs/redesign/reports/anx-006-candidate-before-fit.zip",
+    "docs/redesign/reports/anx-006-chunk-error-mobile.jpg",
+    "docs/redesign/reports/anx-006-chunks.txt",
+    "docs/redesign/reports/anx-006-concurrencia-desktop.jpg",
+    "docs/redesign/reports/anx-006-concurrencia-mobile.jpg",
+    "docs/redesign/reports/anx-006-diagram-after.jpg",
+    "docs/redesign/reports/anx-006-diagram-before.jpg",
+    "docs/redesign/reports/anx-006-home-desktop.jpg",
+    "docs/redesign/reports/anx-006-home-mobile-viewport.jpg",
+    "docs/redesign/reports/anx-006-home-mobile.jpg",
+    "docs/redesign/reports/anx-006-home-tablet-viewport.jpg",
+    "docs/redesign/reports/anx-006-intermediate-mixed-build.zip",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-1.json",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-2.json",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-3.json",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-1.html",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-1.json",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-2.json",
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-3.json",
+    "docs/redesign/reports/anx-006-lighthouse/home-desktop-1.json",
+    "docs/redesign/reports/anx-006-lighthouse/home-desktop-2.json",
+    "docs/redesign/reports/anx-006-lighthouse/home-desktop-3.json",
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-1.html",
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-1.json",
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-2.json",
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-3.json",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-1.json",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-2.json",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-3.json",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-1.html",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-1.json",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-2.json",
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-3.json",
+    "docs/redesign/reports/anx-006-lint.txt",
+    "docs/redesign/reports/anx-006-loading-mobile.jpg",
+    "docs/redesign/reports/anx-006-method-fit-mobile.jpg",
+    "docs/redesign/reports/anx-006-metodologia-desktop.jpg",
+    "docs/redesign/reports/anx-006-metodologia-mobile-before-fit.jpg",
+    "docs/redesign/reports/anx-006-metodologia-mobile.jpg",
+    "docs/redesign/reports/anx-006-metrics.json",
+    "docs/redesign/reports/anx-006-playback-paused.jpg",
+    "docs/redesign/reports/anx-006-refined-home-mobile.json",
+    "docs/redesign/reports/anx-006-tests.txt",
+    "docs/redesign/reports/anx-006-validation.json",
+    "docs/redesign/reports/anx-007-build-before.json",
+    "docs/redesign/reports/anx-007-build-final.json",
+    "docs/redesign/reports/anx-007-chunks.txt",
+    "docs/redesign/reports/anx-007-classic-desktop.jpg",
+    "docs/redesign/reports/anx-007-classic-mobile.jpg",
+    "docs/redesign/reports/anx-007-cpu-prototype.json",
+    "docs/redesign/reports/anx-007-cpu.json",
+    "docs/redesign/reports/anx-007-immersive-desktop.jpg",
+    "docs/redesign/reports/anx-007-immersive-mobile.jpg",
+    "docs/redesign/reports/anx-007-immersive-tablet.jpg",
+    "docs/redesign/reports/anx-007-lighthouse/classic-desktop-1.json",
+    "docs/redesign/reports/anx-007-lighthouse/classic-desktop-2.json",
+    "docs/redesign/reports/anx-007-lighthouse/classic-desktop-3.json",
+    "docs/redesign/reports/anx-007-lighthouse/classic-mobile-1.json",
+    "docs/redesign/reports/anx-007-lighthouse/classic-mobile-2.json",
+    "docs/redesign/reports/anx-007-lighthouse/classic-mobile-3.json",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-1.html",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-1.json",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-2.json",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-3.json",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-1.html",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-1.json",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-2.json",
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-3.json",
+    "docs/redesign/reports/anx-007-metrics.json",
+    "docs/redesign/reports/anx-007-mobile-cta.jpg",
+    "docs/redesign/reports/anx-007-paused-mobile.jpg",
+    "docs/redesign/reports/anx-007-pointer-desktop.jpg",
+    "docs/redesign/reports/anx-007-reduced-motion.jpg",
+    "docs/redesign/reports/anx-007-reduced-motion.json",
+    "docs/redesign/reports/anx-007-scroll-desktop.jpg",
+    "docs/redesign/reports/anx-007-tests.txt",
+    "docs/redesign/reports/anx-007-validation.json",
+    "docs/redesign/reports/anx-008-build-before.json",
+    "docs/redesign/reports/anx-008-build-final.json",
+    "docs/redesign/reports/anx-008-build.txt",
+    "docs/redesign/reports/anx-008-bundles.json",
+    "docs/redesign/reports/anx-008-business-desktop.jpg",
+    "docs/redesign/reports/anx-008-business-mobile.jpg",
+    "docs/redesign/reports/anx-008-chunks.txt",
+    "docs/redesign/reports/anx-008-cpu-dashes.json",
+    "docs/redesign/reports/anx-008-cpu-method.py",
+    "docs/redesign/reports/anx-008-cpu-signals-promoted-preflight.json",
+    "docs/redesign/reports/anx-008-cpu-signals-unpromoted.json",
+    "docs/redesign/reports/anx-008-cpu.json",
+    "docs/redesign/reports/anx-008-diff.txt",
+    "docs/redesign/reports/anx-008-highlevel-desktop.jpg",
+    "docs/redesign/reports/anx-008-highlevel-mobile.jpg",
+    "docs/redesign/reports/anx-008-imports.txt",
+    "docs/redesign/reports/anx-008-integrity.json",
+    "docs/redesign/reports/anx-008-integrity.txt",
+    "docs/redesign/reports/anx-008-lint.txt",
+    "docs/redesign/reports/anx-008-loadbalance-dashes-before.jpg",
+    "docs/redesign/reports/anx-008-loadbalance-desktop.jpg",
+    "docs/redesign/reports/anx-008-loadbalance-mobile.jpg",
+    "docs/redesign/reports/anx-008-logic-desktop.jpg",
+    "docs/redesign/reports/anx-008-logic-mobile.jpg",
+    "docs/redesign/reports/anx-008-methodology-problem-desktop.jpg",
+    "docs/redesign/reports/anx-008-methodology-problem-mobile.jpg",
+    "docs/redesign/reports/anx-008-methodology-solution-desktop.jpg",
+    "docs/redesign/reports/anx-008-methodology-solution-mobile.jpg",
+    "docs/redesign/reports/anx-008-motion-a.jpg",
+    "docs/redesign/reports/anx-008-motion-b.jpg",
+    "docs/redesign/reports/anx-008-paused-desktop.jpg",
+    "docs/redesign/reports/anx-008-reduced-concurrencia.jpg",
+    "docs/redesign/reports/anx-008-reduced-concurrencia.json",
+    "docs/redesign/reports/anx-008-reduced-metodologia.jpg",
+    "docs/redesign/reports/anx-008-reduced-metodologia.json",
+    "docs/redesign/reports/anx-008-tests.txt",
+    "docs/redesign/reports/anx-008-validation.json",
+    "docs/redesign/reports/anx-009-about-desktop.jpg",
+    "docs/redesign/reports/anx-009-about-mobile.jpg",
+    "docs/redesign/reports/anx-009-build-final.json",
+    "docs/redesign/reports/anx-009-build.txt",
+    "docs/redesign/reports/anx-009-bundles.json",
+    "docs/redesign/reports/anx-009-chunks.txt",
+    "docs/redesign/reports/anx-009-completed-courses-desktop.jpg",
+    "docs/redesign/reports/anx-009-completed-courses-mobile.jpg",
+    "docs/redesign/reports/anx-009-credentials-desktop.jpg",
+    "docs/redesign/reports/anx-009-credentials-mobile.jpg",
+    "docs/redesign/reports/anx-009-credly-profile.jpg",
+    "docs/redesign/reports/anx-009-credly-sources.json",
+    "docs/redesign/reports/anx-009-diff.txt",
+    "docs/redesign/reports/anx-009-expanded-desktop.jpg",
+    "docs/redesign/reports/anx-009-home-desktop-preflight.json",
+    "docs/redesign/reports/anx-009-home-desktop.json",
+    "docs/redesign/reports/anx-009-home-mobile-preflight.json",
+    "docs/redesign/reports/anx-009-home-mobile.json",
+    "docs/redesign/reports/anx-009-imports.txt",
+    "docs/redesign/reports/anx-009-lint.txt",
+    "docs/redesign/reports/anx-009-metrics.json",
+    "docs/redesign/reports/anx-009-preservation.json",
+    "docs/redesign/reports/anx-009-reduced-credentials.jpg",
+    "docs/redesign/reports/anx-009-reduced-credentials.json",
+    "docs/redesign/reports/anx-009-skills-desktop.jpg",
+    "docs/redesign/reports/anx-009-skills-mobile.jpg",
+    "docs/redesign/reports/anx-009-skills.csv",
+    "docs/redesign/reports/anx-009-skills.json",
+    "docs/redesign/reports/anx-009-tests.txt",
+    "docs/redesign/reports/anx-009-validation.json",
+    "docs/redesign/reports/anx-010-architecture-desktop.jpg",
+    "docs/redesign/reports/anx-010-architecture-mobile.jpg",
+    "docs/redesign/reports/anx-010-build-before.json",
+    "docs/redesign/reports/anx-010-build-final.json",
+    "docs/redesign/reports/anx-010-build.txt",
+    "docs/redesign/reports/anx-010-bundles.json",
+    "docs/redesign/reports/anx-010-chunks.txt",
+    "docs/redesign/reports/anx-010-concurrencia-desktop-full.jpg",
+    "docs/redesign/reports/anx-010-concurrencia-desktop.jpg",
+    "docs/redesign/reports/anx-010-concurrencia-mobile-full.jpg",
+    "docs/redesign/reports/anx-010-concurrencia-mobile.jpg",
+    "docs/redesign/reports/anx-010-concurrencia-mobile.json",
+    "docs/redesign/reports/anx-010-diff.txt",
+    "docs/redesign/reports/anx-010-lint.txt",
+    "docs/redesign/reports/anx-010-loading-mobile.jpg",
+    "docs/redesign/reports/anx-010-metodologia-desktop-full.jpg",
+    "docs/redesign/reports/anx-010-metodologia-desktop.jpg",
+    "docs/redesign/reports/anx-010-metodologia-mobile-full.jpg",
+    "docs/redesign/reports/anx-010-metodologia-mobile.jpg",
+    "docs/redesign/reports/anx-010-metodologia-mobile.json",
+    "docs/redesign/reports/anx-010-metodologia-outcome-mobile.jpg",
+    "docs/redesign/reports/anx-010-metodologia-process-desktop.jpg",
+    "docs/redesign/reports/anx-010-metrics.json",
+    "docs/redesign/reports/anx-010-preservation.json",
+    "docs/redesign/reports/anx-010-reduced-concurrencia.jpg",
+    "docs/redesign/reports/anx-010-reduced-concurrencia.json",
+    "docs/redesign/reports/anx-010-reduced-metodologia.jpg",
+    "docs/redesign/reports/anx-010-reduced-metodologia.json",
+    "docs/redesign/reports/anx-010-source-inventory.json",
+    "docs/redesign/reports/anx-010-tests.txt",
+    "docs/redesign/reports/anx-010-validation.json",
+    "docs/redesign/roadmap.md",
+    "public/Inter-OFL.txt",
+    "public/robots.txt",
+    "public/sitemap.xml",
+    "scripts/check-project-chunks.mjs",
+    "scripts/page-head.mjs",
+    "skills-lock.json",
+    "src/assets/fonts/inter-latin.woff2",
+    "src/assets/images/credentials/06a8654d-f93b-412e-bae7-59156fb14189.png",
+    "src/assets/images/credentials/359ec1bd-5afd-4e86-ac6b-0516a337e8ec.png",
+    "src/assets/images/credentials/70fbf77b-7650-41d5-95cc-c6f1f492cff2.png",
+    "src/assets/images/credentials/72a5814e-c56b-4e7c-b590-7fdda6b29453.png",
+    "src/assets/images/credentials/9713e1b5-af12-4bff-b04c-f82e4aca6387.png",
+    "src/assets/images/credentials/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d.png",
+    "src/assets/images/credentials/a6f95950-f997-4619-93bd-12ef2e803049.png",
+    "src/assets/images/credentials/b331b024-6ee7-4b66-b904-a1a0c9f90309.png",
+    "src/assets/images/credentials/b536a83a-c05d-49f8-9290-ae87cc042b9e.png",
+    "src/assets/images/credentials/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1.png",
+    "src/assets/images/credentials/c6d728e5-93bf-4e18-9699-75f50775ab14.png",
+    "src/assets/images/credentials/c8c68512-e2cc-4e49-80bd-3f2197afb2bf.png",
+    "src/assets/images/credentials/df1a5877-1721-47db-a196-ea4e17f3a745.png",
+    "src/assets/images/credentials/df473e2c-6a24-475a-8b94-49b17985c053.png",
+    "src/assets/images/credentials/f15f1dee-8498-4e20-942f-7833f0486abe.png",
+    "src/assets/images/credentials/f9b4484a-3cad-4609-9856-f8c7cf66fc72.png",
+    "src/assets/images/credentials/fb4349ee-b599-4ae1-88a8-902a545f063a.png",
+    "src/assets/images/credentials/fc048a96-ef41-48c4-9943-16269ab6085c.png",
+    "src/assets/images/portrait/anxzu-1024.jpg",
+    "src/assets/images/portrait/anxzu-480.jpg",
+    "src/assets/images/portrait/anxzu-768.jpg",
+    "src/components/layout/Navigation.jsx",
+    "src/components/layout/ProjectRoute.jsx",
+    "src/components/sections/Credentials.jsx",
+    "src/components/sections/HeroVariant.jsx",
+    "src/components/sections/ImmersiveHero.jsx",
+    "src/components/sections/heroMotion.js",
+    "src/components/sections/immersiveHeroMotion.js",
+    "src/components/ui/AccessibleIconLink.jsx",
+    "src/components/ui/ActionLink.jsx",
+    "src/components/ui/CaseStudy.jsx",
+    "src/components/ui/ConnectionDiagram.jsx",
+    "src/components/ui/ConnectionSculpture.jsx",
+    "src/components/ui/Container.jsx",
+    "src/components/ui/CredentialEntry.jsx",
+    "src/components/ui/DiagramPlaybackControls.jsx",
+    "src/components/ui/EngineeringFlowEdge.jsx",
+    "src/components/ui/ProjectVisual.jsx",
+    "src/components/ui/SectionHeading.jsx",
+    "src/components/ui/Surface.jsx",
+    "src/components/ui/engineeringEdgeTypes.js",
+    "src/components/utils/PageMetadata.jsx",
+    "src/data/credentials.js",
+    "src/data/navigation.js",
+    "src/data/pageMetadata.js",
+    "src/data/professionalProfile.js",
+    "src/hooks/useDiagramPlayback.js",
+    "src/hooks/useReducedMotion.js",
+    "src/style/case-study.css",
+    "src/style/credentials.css",
+    "src/style/engineering-flows.css",
+    "src/style/hero-immersive.css",
+    "src/style/project-route.css",
+    "src/styles/base.css",
+    "src/styles/fonts.css",
+    "src/styles/tokens.css",
+    "src/utils/credentialStatus.js",
+    "src/utils/diagramPlayback.js",
+    "src/utils/diagramVisibility.js",
+    "src/utils/engineeringFlows.js",
+    "tests/credentials.test.js",
+    "tests/engineering-flows.test.js",
+    "tests/foundations.test.js",
+    "tests/hero-motion.test.js",
+    "tests/immersive-hero.test.js",
+    "tests/page-metadata.test.js"
+  ],
+  "files": {
+    ".gitignore": {
+      "bytes": 423,
+      "sha256": "43be016c2a8d58276393368be8d128250435d6a12a363d58278e11b5617928ad"
+    },
+    "README.md": {
+      "bytes": 4769,
+      "sha256": "bb5f23e36db1cfa943072dc55e659042b74f956b36f5bb3328a94bde530213e9"
+    },
+    "build.txt": {
+      "bytes": 187,
+      "sha256": "4bb57bc48062861a4dbf1b2e88374c41cb6731c534e3588355747d48d56f8d07"
+    },
+    "eslint.config.js": {
+      "bytes": 842,
+      "sha256": "cbccab7b8b58670fef6a613da5cb1873df3df2a7a6ebd1c613f47fde06bd4fb9"
+    },
+    "index.html": {
+      "bytes": 1200,
+      "sha256": "7639e2c774c6b510f8006ecb39065882f230894a1a61aaf79b9120b126fb651f"
+    },
+    "package-lock.json": {
+      "bytes": 112095,
+      "sha256": "503362866a16d76568d3d7f71325e3732e067f456cdef3914e06012d30f47127"
+    },
+    "package.json": {
+      "bytes": 712,
+      "sha256": "30e4d94bdf5318706845d1880dc236d7adeb6f1cd498138295f6dead3a046a10"
+    },
+    "public/.htaccess": {
+      "bytes": 214,
+      "sha256": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258"
+    },
+    "public/_redirects": {
+      "bytes": 24,
+      "sha256": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c"
+    },
+    "src/App.jsx": {
+      "bytes": 853,
+      "sha256": "6961f7c13e167a8dc1387460e085fb8282e3aa30d0854d105dd703b8e018bc36"
+    },
+    "src/assets/icons/AX.svg": {
+      "bytes": 2241,
+      "sha256": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7"
+    },
+    "src/assets/images/anxzu.png": {
+      "bytes": 1653473,
+      "sha256": "b703cc8edcae9af7f0cb17019a09e51ea2bfd09156ce1d6619288a4fc165e69a"
+    },
+    "src/components/layout/navbar.jsx": {
+      "bytes": 186,
+      "sha256": "77c78d6fc8e68d915b6c2be5891ccc132263a56b3225b728a10c94755de12c35"
+    },
+    "src/components/layout/navbar_project.jsx": {
+      "bytes": 290,
+      "sha256": "8dc6128c91b6e22efc610e3c8d944ca15ceae5b5b3da4a7254ea80e9415ca8b8"
+    },
+    "src/components/sections/TimelineSection.jsx": {
+      "bytes": 718,
+      "sha256": "0b389f790d5a097d3504c1d093c0c9ac99bea1a282c1e50f72176ba4d34e72a3"
+    },
+    "src/components/sections/about.jsx": {
+      "bytes": 2042,
+      "sha256": "e7a4f423f9ec3fc99340523f249011a500be17ecd1bdd219a99cd5c6e2b4b9f2"
+    },
+    "src/components/sections/contac.jsx": {
+      "bytes": 2115,
+      "sha256": "9f19b76afe85827298af2e0e2dfae421b64fde6ea533ac0938d895d79d100418"
+    },
+    "src/components/sections/hero.jsx": {
+      "bytes": 2959,
+      "sha256": "81a71a65e4cb5cd34b4063aee38d9a6637429741ccfd083347d633f66ee7f9df"
+    },
+    "src/components/sections/introduce.jsx": {
+      "bytes": 9567,
+      "sha256": "1a39bb6f6b9888b761e30e68b9a542f0924aaaa2d3b1b3849847c082f6b3fb76"
+    },
+    "src/components/sections/introduce_metodologia.jsx": {
+      "bytes": 7693,
+      "sha256": "71c9d4160dcb8e5f7e7579d2e4d494f4a7c554dec4cdbc56111b7c2f27ddcece"
+    },
+    "src/components/sections/projects.jsx": {
+      "bytes": 658,
+      "sha256": "ffdc58fc37a5d56fbd356f28df22ebcf22c67b691c029eda4f933d05cdaaf203"
+    },
+    "src/components/sections/skills.jsx": {
+      "bytes": 1755,
+      "sha256": "afbb0f182cae3562d192688fce10a48bb97626c9bd421038eeb01a387ccfb86a"
+    },
+    "src/components/ui/Contac_Info.jsx": {
+      "bytes": 205,
+      "sha256": "85726d3f839ddbd6d21fa337203ba3dea3623e2805e9451322d65398b45ceb09"
+    },
+    "src/components/ui/Contact_from.jsx": {
+      "bytes": 910,
+      "sha256": "f2da4316a3fe452e42483a24bbb0b96dba13cd84124b45fe8ec024815e5403db"
+    },
+    "src/components/ui/Technical_Cards.jsx": {
+      "bytes": 345,
+      "sha256": "fe7ee2d2d9648474b7e48343986b951754e8ffc0aef5825f70f5a6c53b259fdf"
+    },
+    "src/components/ui/TimelineCard.jsx": {
+      "bytes": 604,
+      "sha256": "269803bfc3b12dc09ac3de6926f3e7e34b29177c07965b989faf868a83e3e6a0"
+    },
+    "src/components/ui/button.jsx": {
+      "bytes": 194,
+      "sha256": "758f9ee37bba20f53df6904d9119f4901cbf5e5167a4a9180fcdd6289ee703df"
+    },
+    "src/components/ui/graphics/bussiness_flow.jsx": {
+      "bytes": 13273,
+      "sha256": "015ea3cc2140e33fc66d4a1c34a053ea9003f56be2898b5fcd5055b424bb93c7"
+    },
+    "src/components/ui/graphics/flow_loadbalance.jsx": {
+      "bytes": 9986,
+      "sha256": "06ecbcd0963c4c97c4cb59cc3c7489968139577a06553b5b263bc689cfb34db5"
+    },
+    "src/components/ui/graphics/highlevel_flow.jsx": {
+      "bytes": 16180,
+      "sha256": "a908bccfc8c687414c155d45c9e6521df099e4d6395b9ae73a23de4e44804ebe"
+    },
+    "src/components/ui/graphics/logic_flow.jsx": {
+      "bytes": 10748,
+      "sha256": "69c65221c27a48f7eb6f73aa22d4b697b1fb1c9839424fb465294671cbef9cbe"
+    },
+    "src/components/ui/graphics/metodologia_problem_flow.jsx": {
+      "bytes": 6910,
+      "sha256": "250b5059c9c9afee902d605f45284be0271dd6fef6321317fc93ef12e3121cb4"
+    },
+    "src/components/ui/graphics/metodologia_solution_flow.jsx": {
+      "bytes": 6881,
+      "sha256": "160933900777c91a17fedc1ccf2a4537ba5e859bc310f3815ba744bcae88cf07"
+    },
+    "src/components/ui/projects_card.jsx": {
+      "bytes": 968,
+      "sha256": "2be339099c2763eec2042df6c9d362d44cafb1c8e87bfb0716254af505d56e2a"
+    },
+    "src/components/ui/social_log_crd.jsx": {
+      "bytes": 245,
+      "sha256": "4c93ee17e1bf55e42d103cddab221675e0bd32ea5ba520fcd8706ab22814395f"
+    },
+    "src/components/utils/ScrollToTop.jsx": {
+      "bytes": 2038,
+      "sha256": "8ab449f4efa8f996ae175c7ed3cc7fedf327d32fae35f6b415a783bbb2e43b0e"
+    },
+    "src/data/info_contac.js": {
+      "bytes": 55,
+      "sha256": "bd17fc70a588399a15e13ad7f7ac4ae170d5faad0d44144382f1490bed8fdb99"
+    },
+    "src/data/projects.js": {
+      "bytes": 1196,
+      "sha256": "1d7438ec7e94872040afe3c51ef2a15420850c02f4b91b8265a4d219181fc020"
+    },
+    "src/data/skills.js": {
+      "bytes": 1469,
+      "sha256": "77f37b75c77fa7a2e2021508a2d5661f2c156e9bfc0abe88e627b7ef88467150"
+    },
+    "src/data/social_profiles.js": {
+      "bytes": 504,
+      "sha256": "9fd660958eb983f86149118f5014d7532f8ce8e442ec0349f7201765fb0ef420"
+    },
+    "src/data/timelineData.js": {
+      "bytes": 1758,
+      "sha256": "aee90fcfed6d679e5cb9ea559b06e7831f076080ddd40b86c98c338cb26034b6"
+    },
+    "src/index.css": {
+      "bytes": 90,
+      "sha256": "230a5f4f00c46465092b64dbf452661b3da1978b7fa2ad5ab81f0a99278bc3d6"
+    },
+    "src/main.jsx": {
+      "bytes": 283,
+      "sha256": "25939b4e69be62cfd6d09b11e6a2f5dddd1d02635b531de694bc808a9b69cd56"
+    },
+    "src/pages/Home.jsx": {
+      "bytes": 835,
+      "sha256": "d5dc6c278da3dd975545e744b6eac5c2f8d5c0e89906e0efb5e507630c65f870"
+    },
+    "src/pages/projects/Concurrencia.jsx": {
+      "bytes": 319,
+      "sha256": "ae87c3d0ba06fcc04759a06e3cf9b28f0cf75981a020e43012bf52e72ad914ad"
+    },
+    "src/pages/projects/Metodologia.jsx": {
+      "bytes": 344,
+      "sha256": "13e4f4cc833fc3bc5868699303dbadb5ba701415ed3b3c6d6f742097c9ba7172"
+    },
+    "src/style/about.css": {
+      "bytes": 3723,
+      "sha256": "0b94733c8982833a2cf35822925625c366c597a8f05471eb1ee4b2c5dba19f90"
+    },
+    "src/style/contac.css": {
+      "bytes": 3085,
+      "sha256": "085193c761e3e36e7792d0f503aeab3fd7578fac75429810016f20df075fccb0"
+    },
+    "src/style/hero.css": {
+      "bytes": 5490,
+      "sha256": "dd758be68ec664d0003de0e08bf4c4cc5a4942847cd56be239dc638f7e4e5214"
+    },
+    "src/style/introduce.css": {
+      "bytes": 1779,
+      "sha256": "4f158d16df604783fe7c78623c959c1b656f331ee8c5dff751eafb4e5ff90373"
+    },
+    "src/style/layout/navbar.css": {
+      "bytes": 2845,
+      "sha256": "626be0233a1b2f6525195af30fc15d798ab4082e8bee24dfead952b1c20ed891"
+    },
+    "src/style/projects.css": {
+      "bytes": 5588,
+      "sha256": "e25ee89f38f65f412e9b9fc86888f6230b419e42e0b62600313daca4c0a9c6e1"
+    },
+    "src/style/skills.css": {
+      "bytes": 3224,
+      "sha256": "67a5fdc5ad46ef43869e29e2cdde1034f1220b862901f4a3647b9fa183c2d3f6"
+    },
+    "src/style/timelineseccion.css": {
+      "bytes": 3166,
+      "sha256": "e1b7a1f6e59306d62393c605f86da14b03553ac5d75fb6a9f2a0cadf024d16cd"
+    },
+    "vite.config.js": {
+      "bytes": 259,
+      "sha256": "01a6952347451137e8cae546dd942d4e9581bb6bfb74286ffd39c8880c929955"
+    },
+    ".agents/skills/frontend-design/LICENSE.txt": {
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    ".agents/skills/frontend-design/SKILL.md": {
+      "bytes": 9390,
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+    },
+    ".agents/skills/ui-ux-pro-max/SKILL.md": {
+      "bytes": 15969,
+      "sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+    },
+    ".agents/skills/ui-ux-pro-max/data/app-interface.csv": {
+      "bytes": 11046,
+      "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08"
+    },
+    ".agents/skills/ui-ux-pro-max/data/catalog-summary.json": {
+      "bytes": 2392,
+      "sha256": "6638da97231c07fb5cef3cd9d3ce483ca7b2f9748980f8c27490eb03968d8894"
+    },
+    ".agents/skills/ui-ux-pro-max/data/charts.csv": {
+      "bytes": 23365,
+      "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a"
+    },
+    ".agents/skills/ui-ux-pro-max/data/colors.csv": {
+      "bytes": 37940,
+      "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c"
+    },
+    ".agents/skills/ui-ux-pro-max/data/data-provenance.json": {
+      "bytes": 36686,
+      "sha256": "e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0"
+    },
+    ".agents/skills/ui-ux-pro-max/data/google-font-licenses.json": {
+      "bytes": 433127,
+      "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a"
+    },
+    ".agents/skills/ui-ux-pro-max/data/google-fonts.csv": {
+      "bytes": 747241,
+      "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03"
+    },
+    ".agents/skills/ui-ux-pro-max/data/icons.csv": {
+      "bytes": 57945,
+      "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc"
+    },
+    ".agents/skills/ui-ux-pro-max/data/landing.csv": {
+      "bytes": 25449,
+      "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0"
+    },
+    ".agents/skills/ui-ux-pro-max/data/motion.csv": {
+      "bytes": 14679,
+      "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb"
+    },
+    ".agents/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json": {
+      "bytes": 823933,
+      "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236"
+    },
+    ".agents/skills/ui-ux-pro-max/data/products.csv": {
+      "bytes": 75623,
+      "sha256": "42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70"
+    },
+    ".agents/skills/ui-ux-pro-max/data/react-performance.csv": {
+      "bytes": 15080,
+      "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/angular.csv": {
+      "bytes": 19863,
+      "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/astro.csv": {
+      "bytes": 14591,
+      "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/avalonia.csv": {
+      "bytes": 27327,
+      "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/flutter.csv": {
+      "bytes": 14192,
+      "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv": {
+      "bytes": 16551,
+      "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/javafx.csv": {
+      "bytes": 33577,
+      "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv": {
+      "bytes": 12295,
+      "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/laravel.csv": {
+      "bytes": 20163,
+      "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/nextjs.csv": {
+      "bytes": 18687,
+      "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv": {
+      "bytes": 28700,
+      "sha256": "fce682a338cfcdbf35d318d20e5befbe7b5d81b05abc37f87677a6d9cde84dc6"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv": {
+      "bytes": 23014,
+      "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/react-native.csv": {
+      "bytes": 14049,
+      "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/react.csv": {
+      "bytes": 21166,
+      "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/shadcn.csv": {
+      "bytes": 23184,
+      "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/svelte.csv": {
+      "bytes": 15078,
+      "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/swiftui.csv": {
+      "bytes": 15323,
+      "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/threejs.csv": {
+      "bytes": 46769,
+      "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/uno.csv": {
+      "bytes": 30091,
+      "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/uwp.csv": {
+      "bytes": 24692,
+      "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/vue.csv": {
+      "bytes": 12813,
+      "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/winui.csv": {
+      "bytes": 27890,
+      "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85"
+    },
+    ".agents/skills/ui-ux-pro-max/data/stacks/wpf.csv": {
+      "bytes": 24158,
+      "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7"
+    },
+    ".agents/skills/ui-ux-pro-max/data/styles.csv": {
+      "bytes": 149478,
+      "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7"
+    },
+    ".agents/skills/ui-ux-pro-max/data/typography.csv": {
+      "bytes": 49997,
+      "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8"
+    },
+    ".agents/skills/ui-ux-pro-max/data/ui-reasoning.csv": {
+      "bytes": 77360,
+      "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a"
+    },
+    ".agents/skills/ui-ux-pro-max/data/ux-guidelines.csv": {
+      "bytes": 27516,
+      "sha256": "ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5"
+    },
+    ".agents/skills/ui-ux-pro-max/references/pro-rules.md": {
+      "bytes": 10909,
+      "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23"
+    },
+    ".agents/skills/ui-ux-pro-max/references/quick-reference.md": {
+      "bytes": 24526,
+      "sha256": "0609bc7c89dacb40472465d8fc14257b56b2c43439660fc8d6fa3b8c022e1876"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/core.py": {
+      "bytes": 41236,
+      "sha256": "c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/design_system.py": {
+      "bytes": 71537,
+      "sha256": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/reasoning_contract.py": {
+      "bytes": 5824,
+      "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/search.py": {
+      "bytes": 9373,
+      "sha256": "d54e648fe0ec2932cac66684220cc17be4bd4b4eba1d23d3195d509d398db374"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json": {
+      "bytes": 1079,
+      "sha256": "22d8dc81a7d6827b7e8b64b53e7d184210fb9759e8e294e0d5133c81cc460176"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json": {
+      "bytes": 1772,
+      "sha256": "c608ad5c4084ebc50a4bbbfb69ea2456c01fd5519c457e18410fffd250ae948f"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv": {
+      "bytes": 480,
+      "sha256": "4e0761b839dc6b2187a370e82eddc0aed8a7ff10c09e28dd814bb3656dac595b"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json": {
+      "bytes": 328,
+      "sha256": "30bffc29ae348416a2de2f9c6c418e768e4578f136b0f4bac5d2f70124f2e9ba"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json": {
+      "bytes": 97,
+      "sha256": "6243a48a4619986768c4628e2d0c98ff195beba71ba9be5df8f0c52fc6d90c0b"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv": {
+      "bytes": 495,
+      "sha256": "68362c9a700c13b96f000784a0198c1c7e117a7088a01c85744e44233038fe9d"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json": {
+      "bytes": 571,
+      "sha256": "ae4d0bb076240824e1b643c2270d1f8cc0952a69502ec1e622b7dedd85b930bb"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json": {
+      "bytes": 370,
+      "sha256": "500588c757d6de03e3d7e69b27a8b8b1f88ccf6bb0333e4c1e9b0d6a4f112475"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json": {
+      "bytes": 87,
+      "sha256": "d79f2ee0afdbc2f87776733e145df3538a16a25d7c2fba0056bb48295dad0ded"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json": {
+      "bytes": 81,
+      "sha256": "1c57a1d76bcc0cdd3632d4c18b9c0e79576b4591df39831c9607e5d0eb4f2cec"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json": {
+      "bytes": 89426,
+      "sha256": "0df200fc54c1cb97a52d6775e7f501509163cea8f8b73fd7268429bc1f835afe"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json": {
+      "bytes": 36734,
+      "sha256": "e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json": {
+      "bytes": 5079,
+      "sha256": "1fbe8623fe3e49c8d828139bca9df69043746e488e8bf09d93dfb9cbc31f5cef"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py": {
+      "bytes": 19466,
+      "sha256": "3e2ca5d12702318f641ae62d0c14f22a3bcc84d84e79b863c0e947d475604adb"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py": {
+      "bytes": 2947,
+      "sha256": "fa6ff09f0ec2c99013588c77397f5082dddebe8f467e94c5f8378ec9595f4989"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_core.py": {
+      "bytes": 16680,
+      "sha256": "3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py": {
+      "bytes": 8954,
+      "sha256": "3ffc6b4905c9ea26d7ac4527ab154d153584231aee71b2ae4bd017977fa09cc5"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py": {
+      "bytes": 19513,
+      "sha256": "0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py": {
+      "bytes": 9815,
+      "sha256": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py": {
+      "bytes": 2261,
+      "sha256": "83d09ffe8cfbf7b265f362129f061dfe8e5e167ce5db43adaead197cabc9ca38"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py": {
+      "bytes": 8375,
+      "sha256": "3942845712b9a829323cd3568511483135f2a8c7cd79ccf61679da4b0f624dbb"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py": {
+      "bytes": 8430,
+      "sha256": "2fe56a4d6fe5fff15ff592274b0eeaba925146cefea6c0fa29d8f1b77c9aca1f"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py": {
+      "bytes": 4305,
+      "sha256": "7cec24b94be771bc60bc84f8993e614bb16d4047930e1dd3d3bed91628311d44"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py": {
+      "bytes": 7425,
+      "sha256": "cd14d0092e8a454d213aa104b53e4e70ba698491fa00fde9fdec5ca8a3d70011"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py": {
+      "bytes": 5874,
+      "sha256": "b51d32ee8a15505b87cb81957fb2d1b385e041e8beb4463c311d236bfd29ebd4"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py": {
+      "bytes": 7701,
+      "sha256": "74897571398585f27e2c35d09d81b0a531c8c774f4a2967e5e1b1d1b05a483d9"
+    },
+    ".agents/skills/ui-ux-pro-max/scripts/validate_data.py": {
+      "bytes": 52230,
+      "sha256": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8"
+    },
+    "docs/redesign/anx-003-report.md": {
+      "bytes": 14144,
+      "sha256": "37b5682c179d3e04a6e8c0333c39a4cd118f7805b82907569b42208ad490946d"
+    },
+    "docs/redesign/anx-004-report.md": {
+      "bytes": 18611,
+      "sha256": "c319779bc42ca33f496414a50c3661c90cb27d11a2da0a5bcbb474ef50b2d453"
+    },
+    "docs/redesign/anx-005-report.md": {
+      "bytes": 17604,
+      "sha256": "0932b7ddb1d4c34665606feda3180a990f13d84ff6fdf9522af718ceb4d20706"
+    },
+    "docs/redesign/anx-006-report.md": {
+      "bytes": 27130,
+      "sha256": "58f931b3814cda124be72f9431fd76079e7cbc0a3d4b923d9c827505ce47bcc9"
+    },
+    "docs/redesign/anx-007-report.md": {
+      "bytes": 22119,
+      "sha256": "f6f93e26e01b8c5c690d466ca0648384e0ca74340114e83c370564ada72e59b9"
+    },
+    "docs/redesign/anx-008-report.md": {
+      "bytes": 21161,
+      "sha256": "e8ac836a40e95dc6d2e6ac0c52449e48e0ea3437af8dbde9f0bb07fe81f92fab"
+    },
+    "docs/redesign/anx-009-report.md": {
+      "bytes": 39289,
+      "sha256": "5fec5aa51086bb5422601d10024e127fe6ab57a6f3e81da7a4f4c12c192e1f65"
+    },
+    "docs/redesign/anx-010-report.md": {
+      "bytes": 21872,
+      "sha256": "175267a5c259f68b42fb631c93e87848a9e74346ef4ae942ea90f9bb23ed581e"
+    },
+    "docs/redesign/audit.md": {
+      "bytes": 39279,
+      "sha256": "a11b8bde82f4433c0d9bd236c79d5aebe5a2b87554911212aad65409023f5264"
+    },
+    "docs/redesign/case-study-concurrencia.md": {
+      "bytes": 10573,
+      "sha256": "d99c98e3422fc624c4eab3fa316c2389cb2b3a6d9364e1b550bc40d947624238"
+    },
+    "docs/redesign/case-study-metodologia.md": {
+      "bytes": 8073,
+      "sha256": "5c22cf0e10bc0d136061776b9aebfea91ace17369c418106ab82a11ac00811ad"
+    },
+    "docs/redesign/design-system.md": {
+      "bytes": 14870,
+      "sha256": "e6398236fecca534f348d9064fee90e0bfb632a2d719b2d8863ea1d6c9387b11"
+    },
+    "docs/redesign/professional-evidence.md": {
+      "bytes": 7996,
+      "sha256": "93ecb8970cb63ac07541555fd44854b7df473508c0a8ab7bf07f31c7f0fd5ff9"
+    },
+    "docs/redesign/release-checklist.md": {
+      "bytes": 8067,
+      "sha256": "96e91f8f0095b0b30124d89b2f0ecbc5a771b6b9c1a497dfd926d12fdd119969"
+    },
+    "docs/redesign/reports/anx-002-contact-mobile.jpg": {
+      "bytes": 20180,
+      "sha256": "f1d8852ae853def9c30c70dfa2e10599a32dc9df21960c3aa451819d139d6ce0"
+    },
+    "docs/redesign/reports/anx-002-desktop.jpg": {
+      "bytes": 33485,
+      "sha256": "b942d6ffe870213d809fb8af15dcb88417cc668fe1ebc0b71ff14dde19eed479"
+    },
+    "docs/redesign/reports/anx-003-desktop-1024.jpg": {
+      "bytes": 34131,
+      "sha256": "f5c2213dc582c78922bff1eec6b11e546df7d4e65e256a5d1411da21c33e5a4e"
+    },
+    "docs/redesign/reports/anx-003-desktop.jpg": {
+      "bytes": 40497,
+      "sha256": "1ed20d0d56475f34109c6dcd3f5a5439c04a4e42b5bae121a23712b9175c8aec"
+    },
+    "docs/redesign/reports/anx-003-mobile.jpg": {
+      "bytes": 25370,
+      "sha256": "d37e1119f0e3f92cd034ccc56d43194051ef1e9a8b8751c2b2a10b8197f2fdc2"
+    },
+    "docs/redesign/reports/anx-004-about-desktop.jpg": {
+      "bytes": 127095,
+      "sha256": "5204344bf7877172a131f62b06872c9a64d503ccc0aae891dd9d770b4dfda50b"
+    },
+    "docs/redesign/reports/anx-004-about-mobile.jpg": {
+      "bytes": 42710,
+      "sha256": "9c373469fe1167422061a2279cf0d3ed2ac32339a07de3d33fa7cdad4bc6498d"
+    },
+    "docs/redesign/reports/anx-004-bundles.json": {
+      "bytes": 2363,
+      "sha256": "cc42f7a66df327f02379ba42cfead7f477697b0b462ba2e923249cf9b1cfbde2"
+    },
+    "docs/redesign/reports/anx-004-connection-desktop.jpg": {
+      "bytes": 49018,
+      "sha256": "f641bb6f7e6d9aa50ec7a86f3a1f6c5e4699124981f7d5b8f48f994fc1f973a5"
+    },
+    "docs/redesign/reports/anx-004-load-error.jpg": {
+      "bytes": 21598,
+      "sha256": "c1553e0b569ce519afd2ad440ff04d6ec2532b4cacca57e7d5139c72a91691ba"
+    },
+    "docs/redesign/reports/anx-004-loading.jpg": {
+      "bytes": 34564,
+      "sha256": "f7661e035a8bf50d6c6212e141d377d9a2bdac7ba6553aff485f49f179b411d4"
+    },
+    "docs/redesign/reports/anx-004-method-desktop.jpg": {
+      "bytes": 68698,
+      "sha256": "678ce3bf586cdece65012390066f383b7430deab2e00c69e3561e178e9320d78"
+    },
+    "docs/redesign/reports/anx-004-projects-desktop.jpg": {
+      "bytes": 70498,
+      "sha256": "ba264e23251e0b22e48b676b6a8ce113badb0f7b76866823f3edfd3c56ef936b"
+    },
+    "docs/redesign/reports/anx-004-projects-mobile.jpg": {
+      "bytes": 23848,
+      "sha256": "25834b526fd131af9e2b99510fe2896721458304a273e5ce1c1d8d185a6f6062"
+    },
+    "docs/redesign/reports/anx-005-bundles.json": {
+      "bytes": 1706,
+      "sha256": "a683ca2016bff3fe870e37aaab3e0e9219475ab51658e3da6a3e4f8c7d7438e5"
+    },
+    "docs/redesign/reports/anx-005-capabilities-desktop.jpg": {
+      "bytes": 58795,
+      "sha256": "86c07278a43d1198fd7c38fc58e0de945c32bceb587c878fc5cfee0e6beac310"
+    },
+    "docs/redesign/reports/anx-005-capabilities-mobile.jpg": {
+      "bytes": 24805,
+      "sha256": "7f6a2395a1e70fedd24aa7ee3969f892d9ec6c7eee47c29d319dd1109322f936"
+    },
+    "docs/redesign/reports/anx-005-contact-desktop.jpg": {
+      "bytes": 54580,
+      "sha256": "82ed49f0fcc78a1f0fd0135e8540c672a0f86c4c468ed5d657b36c781c41c1d4"
+    },
+    "docs/redesign/reports/anx-005-contact-mobile.jpg": {
+      "bytes": 21884,
+      "sha256": "8b7389c8585c4d6c4d75856a23f46a45d22c4020d189cab21c4f1cdd79cd0e4e"
+    },
+    "docs/redesign/reports/anx-005-experience-contact.jpg": {
+      "bytes": 65102,
+      "sha256": "9e4bd57ff323fab47db9a281085df6aaef8a8ce4e646fedb7baf27f137f9dd28"
+    },
+    "docs/redesign/reports/anx-005-experience-desktop.jpg": {
+      "bytes": 58448,
+      "sha256": "9aeabcc167a9c04cdbbe99a528450b330d0871bdacbc5776b4559b328bf029be"
+    },
+    "docs/redesign/reports/anx-005-experience-mobile.jpg": {
+      "bytes": 33631,
+      "sha256": "7614e16bcbc5ad5a0a15132cf8263ce79e51f3dce6f796c8a895834ebdfbf4ed"
+    },
+    "docs/redesign/reports/anx-005-home-full.jpg": {
+      "bytes": 586354,
+      "sha256": "f76e15f7992213d819725590ff120675485407344cd3e7ae92c3f1592b882c6a"
+    },
+    "docs/redesign/reports/anx-005-projects-capabilities.jpg": {
+      "bytes": 65856,
+      "sha256": "b89bd183ca7ed5c965a3a64e20786ac57ff01085042da4339ac54715d7eb75dc"
+    },
+    "docs/redesign/reports/anx-005-validation.json": {
+      "bytes": 8610,
+      "sha256": "a733b580a8840b62e0ea93fa4362ec49d19d25e10449b8ffb30643818d50c3d5"
+    },
+    "docs/redesign/reports/anx-006-baseline-concurrencia-mobile.json": {
+      "bytes": 589956,
+      "sha256": "968fb04a868f2f38ced62730cd03c5b6b2312c7f3dccba6bad7ad2bea231c0bc"
+    },
+    "docs/redesign/reports/anx-006-baseline-home-mobile-0.devtoolslog.json": {
+      "bytes": 50521,
+      "sha256": "1da2be26bffcbb52f0276b765ee7aa6ede55792b3c0bd9b1a698ba47f44291ef"
+    },
+    "docs/redesign/reports/anx-006-baseline-home-mobile-0.trace.json": {
+      "bytes": 2548798,
+      "sha256": "bef2dacef83dddbbd6dd33f8600d7e6cf53a8e647cec4c92993b2e2799318a7d"
+    },
+    "docs/redesign/reports/anx-006-baseline-home-mobile.report.html": {
+      "bytes": 597854,
+      "sha256": "5020cd52eb61c98fdab85483996223b1a0a60d56d31fce204e330efcf69fc234"
+    },
+    "docs/redesign/reports/anx-006-baseline-home-mobile.report.json": {
+      "bytes": 499358,
+      "sha256": "56934b3813f4419f8e7f2e9467a633d5f72e8bd1efa1b95a71cf1d2ed6b549e1"
+    },
+    "docs/redesign/reports/anx-006-build-final.json": {
+      "bytes": 2719,
+      "sha256": "1283c61c8b82cba788d7a8a74fa03f5c14c8758233a9eabb3b77bf11e34838ea"
+    },
+    "docs/redesign/reports/anx-006-bundles.json": {
+      "bytes": 4230,
+      "sha256": "b588934f7ed21d5bff6e2436e405a9353b1736a2c9724ec2af86f02bb5d89639"
+    },
+    "docs/redesign/reports/anx-006-candidate-before-aria.zip": {
+      "bytes": 1531830,
+      "sha256": "c1f0c3e9deb73675db35d722a3a29c77e96e65275ee2f98a1abf07b103f2f028"
+    },
+    "docs/redesign/reports/anx-006-candidate-before-fit.zip": {
+      "bytes": 1538538,
+      "sha256": "8555788093f4992348d465b9ac80829fb5cd278b7187e3c9e4646aaedf7d1c9e"
+    },
+    "docs/redesign/reports/anx-006-chunk-error-mobile.jpg": {
+      "bytes": 21598,
+      "sha256": "c1553e0b569ce519afd2ad440ff04d6ec2532b4cacca57e7d5139c72a91691ba"
+    },
+    "docs/redesign/reports/anx-006-chunks.txt": {
+      "bytes": 543,
+      "sha256": "9cad3ef72ee95fe780a1e108c00775ecaa51016ccde90445de856f9bdad379ff"
+    },
+    "docs/redesign/reports/anx-006-concurrencia-desktop.jpg": {
+      "bytes": 1088531,
+      "sha256": "25c7274584cee3b62ed0471300b21756055c5abf18e4d8fa4a4e265aca4ad59a"
+    },
+    "docs/redesign/reports/anx-006-concurrencia-mobile.jpg": {
+      "bytes": 735364,
+      "sha256": "7ebdcea13d072918dced05ff69213479c4883d7e51edee78129e3b9ff0857ede"
+    },
+    "docs/redesign/reports/anx-006-diagram-after.jpg": {
+      "bytes": 71726,
+      "sha256": "dd8b7c122c7654ba9aa979e740b932f4064fb10aca2907b0c43ff7a5dcb232ce"
+    },
+    "docs/redesign/reports/anx-006-diagram-before.jpg": {
+      "bytes": 78929,
+      "sha256": "7a1a7103aeaada505380d0217b943ae44acffeba9b26efb63132f5747374cc11"
+    },
+    "docs/redesign/reports/anx-006-home-desktop.jpg": {
+      "bytes": 588960,
+      "sha256": "440550930a65046b29dc63e2a07a4fb1bca3553faaea6aeecb060f9d26ba886d"
+    },
+    "docs/redesign/reports/anx-006-home-mobile-viewport.jpg": {
+      "bytes": 28309,
+      "sha256": "b1de23b1fdae6bac9a53cd6a1fbb23984e48c94e5288267db88b46978321829d"
+    },
+    "docs/redesign/reports/anx-006-home-mobile.jpg": {
+      "bytes": 399374,
+      "sha256": "f1482cd03e44ce1520b7164e761a3e199ff0eac4b74a664419c4bdac51854492"
+    },
+    "docs/redesign/reports/anx-006-home-tablet-viewport.jpg": {
+      "bytes": 23994,
+      "sha256": "ef9464bcbebff9a85023a0aff9b6c7570864f08f800cac92a1e809be40063168"
+    },
+    "docs/redesign/reports/anx-006-intermediate-mixed-build.zip": {
+      "bytes": 1516517,
+      "sha256": "199111ff7ab1705df0a5320cda25c62585cad809f8169f9f66fb2fabf0dea55a"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-1.json": {
+      "bytes": 525157,
+      "sha256": "a43a7bdfd817d9d3a27676d1eace8056aff5a6da46a75f515224044acc486107"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-2.json": {
+      "bytes": 524561,
+      "sha256": "585273e51b64e991fe4806df96fc30b35cc1df3cec7684c2a32e5f09ddf8d721"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-3.json": {
+      "bytes": 525137,
+      "sha256": "f3421c683e15eb6b96b19a8ec388c3a0b16801b0ca2154427b07f2ffa016d7a0"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-1.html": {
+      "bytes": 642594,
+      "sha256": "5cbcc016e543ce922bbea9b4e6c659f09be02bc5543b343fb171c7adae0d08f9"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-1.json": {
+      "bytes": 542981,
+      "sha256": "f8f1f889908d5051cd262f33846abe445af0abf3e97017feb8a8e808f1d19d23"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-2.json": {
+      "bytes": 558164,
+      "sha256": "26bcb2c25849aad73ac0f567b7740d6b9051fccc70c98888f036e6717216b322"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-3.json": {
+      "bytes": 543058,
+      "sha256": "c6abf36dc6b4ee27bedeb4616551b0374d30f3339d74e7ad7ccd4692e16ec590"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-desktop-1.json": {
+      "bytes": 486040,
+      "sha256": "4f49ae007692cc749612ebb88f58b84607657565f600f6d8c937de74de14c84f"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-desktop-2.json": {
+      "bytes": 486102,
+      "sha256": "c744707fbbcb2fcfc2d1063128bce4029ccc888077718a6b9af3bf89034a1006"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-desktop-3.json": {
+      "bytes": 486058,
+      "sha256": "ff6a302aec11d0cdc0e129667427c0e4a892bb29826ccc9b27e7e8977fbc0d3c"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-1.html": {
+      "bytes": 589108,
+      "sha256": "a4b1e570261df8f9dc485084f8672a9bfdbd2d15976982608e2dbcfada2980a0"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-1.json": {
+      "bytes": 486357,
+      "sha256": "8b1fa2d6002db816d81a1cac398c36615390614841de3ebbceb5d8e871f23efc"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-2.json": {
+      "bytes": 486240,
+      "sha256": "5dc9ab0858c164cea8aa9f8a80b9c3745f71f575cecaf02612b61664fdb78451"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/home-mobile-3.json": {
+      "bytes": 486471,
+      "sha256": "2823423d25ea395f206b5483a6eb5462b8ad4868a1e79e2b451fadad4f06ddf7"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-1.json": {
+      "bytes": 516533,
+      "sha256": "5998d204305e92a260dfada2fb19827dbe55d8a268bfdde8c1b2e0c8bf86c986"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-2.json": {
+      "bytes": 516798,
+      "sha256": "b464ace27bdf7c8486e00d2df20e4429037091ec9e164f23b60ae3d504de422b"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-3.json": {
+      "bytes": 516636,
+      "sha256": "95972b26feb5151a0624763b6cb7b02e688299589338b18334b3aa8895c7eaf2"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-1.html": {
+      "bytes": 640106,
+      "sha256": "49ad7722c7f76f1f4e3b157095803a0ceb2e00a1a4be2784c2dc4ddc2e9231e5"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-1.json": {
+      "bytes": 538637,
+      "sha256": "c039080ddc457e96fcc87be3f691493f968074213fdbbfbff7267c31046d1beb"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-2.json": {
+      "bytes": 538720,
+      "sha256": "51d4bfda1f9724eac5d4a6a1e91b279ba8abcd97189ab1e2e05e9f23604eb9d9"
+    },
+    "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-3.json": {
+      "bytes": 538605,
+      "sha256": "e99d4e6ae3780d71b260b1030fc90478e1712311665aca074bae7c131fa39f90"
+    },
+    "docs/redesign/reports/anx-006-lint.txt": {
+      "bytes": 46,
+      "sha256": "da6cd68e035e29c87e59dddbcbd43101d7f8c8853aea97e361c423184596882b"
+    },
+    "docs/redesign/reports/anx-006-loading-mobile.jpg": {
+      "bytes": 16945,
+      "sha256": "499a2704d51ea5afa677478f5ab7e45490ceac3b9d944950f3cd3538cdde809f"
+    },
+    "docs/redesign/reports/anx-006-method-fit-mobile.jpg": {
+      "bytes": 21832,
+      "sha256": "127e93d96086d285d15ff265f57989acfab462c8dbe74e8d9023bac5f95494c3"
+    },
+    "docs/redesign/reports/anx-006-metodologia-desktop.jpg": {
+      "bytes": 561177,
+      "sha256": "2167a9e816bdb4754e4b53f5e86e10b8a56cf4d281a9cafd39ee8652ea69bcc2"
+    },
+    "docs/redesign/reports/anx-006-metodologia-mobile-before-fit.jpg": {
+      "bytes": 396990,
+      "sha256": "95a585b7cc4a7b1e4c403e59c92bdd009a14ef3744b49b0a8ccda4269d4f8151"
+    },
+    "docs/redesign/reports/anx-006-metodologia-mobile.jpg": {
+      "bytes": 379785,
+      "sha256": "eb07f0396abae51ed4e861ae2f3666302177734a9ff7fc506ea3653ab6406da1"
+    },
+    "docs/redesign/reports/anx-006-metrics.json": {
+      "bytes": 27426,
+      "sha256": "c405a24b7ab84712cdc2ed6d7e8c03e8b80f1392fef83cf8c06d6b2881185593"
+    },
+    "docs/redesign/reports/anx-006-playback-paused.jpg": {
+      "bytes": 93044,
+      "sha256": "c159c89f8eabda08d8f1e89879d7148fc2deda8722456bd203503c0a0a668d47"
+    },
+    "docs/redesign/reports/anx-006-refined-home-mobile.json": {
+      "bytes": 485517,
+      "sha256": "317cc1968125108fa8f7cccf8c6bca806c9b47e83757b2937e386bb8d288c570"
+    },
+    "docs/redesign/reports/anx-006-tests.txt": {
+      "bytes": 1314,
+      "sha256": "93389f435f0864d72b944d6931a842f2648c0011d1f50143c50c24b5c6577fc3"
+    },
+    "docs/redesign/reports/anx-006-validation.json": {
+      "bytes": 33260,
+      "sha256": "3a9f49a8ae1f5cfec5f7ec93d3d7caf88379e2184acccff6f95f512ccb4cefbd"
+    },
+    "docs/redesign/reports/anx-007-build-before.json": {
+      "bytes": 699,
+      "sha256": "3c360b9766a2f30e888776ba3365280cb9d3d0412952ada50f77463c97b4cb1d"
+    },
+    "docs/redesign/reports/anx-007-build-final.json": {
+      "bytes": 2719,
+      "sha256": "011da4e3e70392ec220115c84ba3db5b87605937bab9b2698b7ec382cfaa5358"
+    },
+    "docs/redesign/reports/anx-007-chunks.txt": {
+      "bytes": 543,
+      "sha256": "6cb5f9cdfd86571e63537d9697ca30e07e2eecc99fd8c7112d95767ce575cbc4"
+    },
+    "docs/redesign/reports/anx-007-classic-desktop.jpg": {
+      "bytes": 48911,
+      "sha256": "897040f61f5fcbadb37aa4e68753f71bbff80d89c001e88b789cab6b90d880ac"
+    },
+    "docs/redesign/reports/anx-007-classic-mobile.jpg": {
+      "bytes": 26008,
+      "sha256": "e706a20884ae800fd7d572dd3d62cb6f05af2717ddce2bf3581046793a16521a"
+    },
+    "docs/redesign/reports/anx-007-cpu-prototype.json": {
+      "bytes": 10336,
+      "sha256": "d61019d99e6ac94ba5ba3d7b5eb2d9d9e9f4ea0c0f53158645ed06dd41c484a3"
+    },
+    "docs/redesign/reports/anx-007-cpu.json": {
+      "bytes": 10370,
+      "sha256": "55314af04a61e422b27f453818c9b0393a04b4b603d4ceaa10ace8024217ae2a"
+    },
+    "docs/redesign/reports/anx-007-immersive-desktop.jpg": {
+      "bytes": 74533,
+      "sha256": "deb77a4f790997da8bebf42fe7d94faf4cc3eb43de00309068cd95a870392c15"
+    },
+    "docs/redesign/reports/anx-007-immersive-mobile.jpg": {
+      "bytes": 30036,
+      "sha256": "b9a997bd901e7db8ba7c9aa6d23f50aaf855796e951e8fdb002456ca7d2491a2"
+    },
+    "docs/redesign/reports/anx-007-immersive-tablet.jpg": {
+      "bytes": 49189,
+      "sha256": "fc0a81520cd8e17e25222020f6bec395d22909129837fe631ed9178312f5ca9e"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/classic-desktop-1.json": {
+      "bytes": 488801,
+      "sha256": "d1b949c37c5a95e704d0128623142f60499af794816540f9f121ea7ad09bec49"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/classic-desktop-2.json": {
+      "bytes": 488946,
+      "sha256": "a27726b7fe3cefa9f683c1e1f89aa5f52dab74199c1d2f50914d4d3e9e39f39e"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/classic-desktop-3.json": {
+      "bytes": 488849,
+      "sha256": "df429c5caf2d977a9848613128d3549025527ef163ea11102a97f9999d708656"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/classic-mobile-1.json": {
+      "bytes": 489399,
+      "sha256": "42215dd2039b259a62d830b2c154c58d9cc5727f593ee2055159e5dbecd54ee4"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/classic-mobile-2.json": {
+      "bytes": 489222,
+      "sha256": "32eda235193e8c5e391c6544eafc819c36eab36f75e5fca262b8db6bf8a50e46"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/classic-mobile-3.json": {
+      "bytes": 489148,
+      "sha256": "585064ea6a4671036fd7bd9e8179ab3ad3f0500f51bd93348bafab726a5344fc"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-1.html": {
+      "bytes": 650036,
+      "sha256": "63b0beeaf43f6570ea65e1c3b200ff6835d34e3b74e4eb5874fc356b8fcdb14b"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-1.json": {
+      "bytes": 548957,
+      "sha256": "7ef4d8c3f28fd0cc775ae3622eec6dc5112719564928e095b405beb304286a63"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-2.json": {
+      "bytes": 548908,
+      "sha256": "139d0d78c282b64bc94c7b41d535ef3305baa8540c33ea4b8ecd0f4ebcbbacba"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-desktop-3.json": {
+      "bytes": 549021,
+      "sha256": "e31755ccf6814ec8138d41eab53af47af98fa2e1fea9577782f95e475c47e60c"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-1.html": {
+      "bytes": 622382,
+      "sha256": "2028660cfe33fa09d47d44fbeb564fe925f9ee7ac675629bac87b03dd7880d0a"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-1.json": {
+      "bytes": 520849,
+      "sha256": "7c1f97f725f71174ee8d3b12639771435c7d9b8ce7f7a3b15a8c5a4b3f0aea92"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-2.json": {
+      "bytes": 521117,
+      "sha256": "457b859021aa0f283b6609cf273ca9662597c622ce826f7769d31e0d45f6346a"
+    },
+    "docs/redesign/reports/anx-007-lighthouse/immersive-mobile-3.json": {
+      "bytes": 520906,
+      "sha256": "a8e67f66a38b1fe2184ac349ba7ba4fa07eb1393a236ee7005cc81af1d5e3c1c"
+    },
+    "docs/redesign/reports/anx-007-metrics.json": {
+      "bytes": 18190,
+      "sha256": "8d0e88263248985ba14c67b43808379ba93433e7d61ec6fea86436b5e68ba68e"
+    },
+    "docs/redesign/reports/anx-007-mobile-cta.jpg": {
+      "bytes": 28070,
+      "sha256": "7d69737d3bfe9ed7b40db39d5bb41a300a37c9e5a32bc480b3f2e0e36f3d4ad5"
+    },
+    "docs/redesign/reports/anx-007-paused-mobile.jpg": {
+      "bytes": 30783,
+      "sha256": "787940d14cb5a9b4d8c6743ab7fa741d11545ac4f09ba5cad9a1a6ae0e45b311"
+    },
+    "docs/redesign/reports/anx-007-pointer-desktop.jpg": {
+      "bytes": 74269,
+      "sha256": "7c2bb6c0f171d30aaadfe5db93be8c47cb172b381a27ff6d1c9bbd18f57e2466"
+    },
+    "docs/redesign/reports/anx-007-reduced-motion.jpg": {
+      "bytes": 18756,
+      "sha256": "d14600b8b3c352a4341ececbf7a4d66ac5ca0321eb812167f88ebd52ce69e69c"
+    },
+    "docs/redesign/reports/anx-007-reduced-motion.json": {
+      "bytes": 566921,
+      "sha256": "fc91090748e4b06540577038d4663b1c91f58f1adf0ef84575df9005863705bd"
+    },
+    "docs/redesign/reports/anx-007-scroll-desktop.jpg": {
+      "bytes": 104089,
+      "sha256": "2070be4bf0f747e4bd50787284ac2deed771aae09242f31a5003ee4d87dca799"
+    },
+    "docs/redesign/reports/anx-007-tests.txt": {
+      "bytes": 1705,
+      "sha256": "f395ec45707554e950508bd36b5e2f120f2cf5778597fa11d51156f0e25a2554"
+    },
+    "docs/redesign/reports/anx-007-validation.json": {
+      "bytes": 31511,
+      "sha256": "d7533f31537420c59c7bbfd5717a34eb3c745d4066cd7a67e506d5b8bf2a38d6"
+    },
+    "docs/redesign/reports/anx-008-build-before.json": {
+      "bytes": 699,
+      "sha256": "589d8412432f8716b2aa27af227a933bde69bad7e54f7f62174403447706286b"
+    },
+    "docs/redesign/reports/anx-008-build-final.json": {
+      "bytes": 2587,
+      "sha256": "415eafbf44180edf2e1856dbf4e3a9c249f6ce75e034c35f1ea580cdfcb8da62"
+    },
+    "docs/redesign/reports/anx-008-build.txt": {
+      "bytes": 1104,
+      "sha256": "143182d38a08a37864b57290e9f3c8a2b1a9813036bfe25366b02d2de0d66ab0"
+    },
+    "docs/redesign/reports/anx-008-bundles.json": {
+      "bytes": 1334,
+      "sha256": "929e80631d696929081fb04c9827d404bfd846d89a5dc136ab01dab99b85c783"
+    },
+    "docs/redesign/reports/anx-008-business-desktop.jpg": {
+      "bytes": 120686,
+      "sha256": "7275f739098be66b17b453461186bd9368aea40a12b03f54512b9174a83a2285"
+    },
+    "docs/redesign/reports/anx-008-business-mobile.jpg": {
+      "bytes": 35323,
+      "sha256": "030a7c1e509722191b104ae1365ab148b613637e016e83c30353cb1893e4cdf8"
+    },
+    "docs/redesign/reports/anx-008-chunks.txt": {
+      "bytes": 543,
+      "sha256": "a42f0342a5f3a223ec5585d636d0b5e16658fd002c96a008ee9702316280a8f5"
+    },
+    "docs/redesign/reports/anx-008-cpu-dashes.json": {
+      "bytes": 16576,
+      "sha256": "e375e783e0da52dcd317a63137d74577c97b109af4d270ee6cdf49ee8179fa15"
+    },
+    "docs/redesign/reports/anx-008-cpu-method.py": {
+      "bytes": 3467,
+      "sha256": "79c2daa59cb4f1a30fca6440ae85e7d048df3cc0cb72418e3665dea5e474c397"
+    },
+    "docs/redesign/reports/anx-008-cpu-signals-promoted-preflight.json": {
+      "bytes": 16907,
+      "sha256": "089077e19facda2741d01550a2ebf5a9d474d3c4afe3d310aa17582bdff20f3c"
+    },
+    "docs/redesign/reports/anx-008-cpu-signals-unpromoted.json": {
+      "bytes": 16675,
+      "sha256": "7bdacc7c16ae3be6912f3b1ca1f8cedbcff9379b2c90c4737ddf56f30a0b93ab"
+    },
+    "docs/redesign/reports/anx-008-cpu.json": {
+      "bytes": 19484,
+      "sha256": "bb35786c294dc63045a4f6fd55a110bf341206ce100c013066f7d5932ad419a1"
+    },
+    "docs/redesign/reports/anx-008-diff.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/redesign/reports/anx-008-highlevel-desktop.jpg": {
+      "bytes": 93768,
+      "sha256": "ebef99b89dde528f9fa5b6aea7a83725ab17b927284ef176247bfa6c52bf9909"
+    },
+    "docs/redesign/reports/anx-008-highlevel-mobile.jpg": {
+      "bytes": 32759,
+      "sha256": "c82dfeb299f0c7e3c8602236660c9d48d4e3ebda512d0f10c85c9c14150bdb93"
+    },
+    "docs/redesign/reports/anx-008-imports.txt": {
+      "bytes": 183,
+      "sha256": "9d3b63d0c3d57a10c81131393290518c1c9e450b496be118103cbba401755f3d"
+    },
+    "docs/redesign/reports/anx-008-integrity.json": {
+      "bytes": 1086,
+      "sha256": "4a1a1830a48c3083d06acfd99786dc81158db988a78cc6c611edc3c488bbc7a3"
+    },
+    "docs/redesign/reports/anx-008-integrity.txt": {
+      "bytes": 1026,
+      "sha256": "c8a9746070a3f0c15a30557672f67f49347a06b622aa98a066c43c4c18290f17"
+    },
+    "docs/redesign/reports/anx-008-lint.txt": {
+      "bytes": 46,
+      "sha256": "da6cd68e035e29c87e59dddbcbd43101d7f8c8853aea97e361c423184596882b"
+    },
+    "docs/redesign/reports/anx-008-loadbalance-dashes-before.jpg": {
+      "bytes": 117663,
+      "sha256": "b6c120df48df33eba65e28d867e9aad3b7be09bfccf709ad9c8feec6e37e52e3"
+    },
+    "docs/redesign/reports/anx-008-loadbalance-desktop.jpg": {
+      "bytes": 117736,
+      "sha256": "b3421d38602b5da863768ae72045db2e4647bf8c32ae94b66a1bfa660d283c69"
+    },
+    "docs/redesign/reports/anx-008-loadbalance-mobile.jpg": {
+      "bytes": 36543,
+      "sha256": "3eff60b68a03943264b6b6fbae5a8e92d5dcb5773e7c7d7269fa0ad152924271"
+    },
+    "docs/redesign/reports/anx-008-logic-desktop.jpg": {
+      "bytes": 94513,
+      "sha256": "b5e7ce9d407cb144d80d79475973434a508bc5908bcbf193e3eaa8c24e1f4ae8"
+    },
+    "docs/redesign/reports/anx-008-logic-mobile.jpg": {
+      "bytes": 28753,
+      "sha256": "c93ff556c23f3706d42e4ade7c6ad4ba362b392811f1b05f826418d7468c0e78"
+    },
+    "docs/redesign/reports/anx-008-methodology-problem-desktop.jpg": {
+      "bytes": 73301,
+      "sha256": "18916e4c78ca1e275fa79e70fe8fea42267a573bce3ad5790eb0b181308710b2"
+    },
+    "docs/redesign/reports/anx-008-methodology-problem-mobile.jpg": {
+      "bytes": 34858,
+      "sha256": "649f2c046e2831a5d4b41916aec4730e81cd9ea63980b7fabb3e43db2caa96b2"
+    },
+    "docs/redesign/reports/anx-008-methodology-solution-desktop.jpg": {
+      "bytes": 55069,
+      "sha256": "5af3fb4059e4ccb5f420e23f907dff0be52e15a76476df2ccc9c6edb02bab691"
+    },
+    "docs/redesign/reports/anx-008-methodology-solution-mobile.jpg": {
+      "bytes": 29953,
+      "sha256": "0cfe380944c7aa5e1866a226803d71f9a450c060723d6e9c18c2f577728cc8ef"
+    },
+    "docs/redesign/reports/anx-008-motion-a.jpg": {
+      "bytes": 61038,
+      "sha256": "28ac4d880e239463736f3f3e5619a61c0b76f64efe878924b6a7ec74391cab12"
+    },
+    "docs/redesign/reports/anx-008-motion-b.jpg": {
+      "bytes": 61031,
+      "sha256": "706cb8793335b2313b663e3b791afb35dffae2c38905e733cc7b495a21da14c4"
+    },
+    "docs/redesign/reports/anx-008-paused-desktop.jpg": {
+      "bytes": 73520,
+      "sha256": "4faa2580d76ae8eef2d9a5323721d09a0e1d6a6d77583c3332458d5fb199bbe2"
+    },
+    "docs/redesign/reports/anx-008-reduced-concurrencia.jpg": {
+      "bytes": 28269,
+      "sha256": "36d79541f484caa874d82883fbd104b3dbce80cace251640c39c78ea4ab2a5d2"
+    },
+    "docs/redesign/reports/anx-008-reduced-concurrencia.json": {
+      "bytes": 1063618,
+      "sha256": "a235228ef95ca5c4624cf2827db748adb481d28b322d8ac95b3e59137549e31d"
+    },
+    "docs/redesign/reports/anx-008-reduced-metodologia.jpg": {
+      "bytes": 14138,
+      "sha256": "d357a3ef58046e50e8185be7913b05d65e4af26b14e58931700335a23e4c7d53"
+    },
+    "docs/redesign/reports/anx-008-reduced-metodologia.json": {
+      "bytes": 647171,
+      "sha256": "e3be65373ba31596e6589f262ee105e487099e6bcdd44e4495a37409f3798990"
+    },
+    "docs/redesign/reports/anx-008-tests.txt": {
+      "bytes": 2555,
+      "sha256": "1061b669fbb7cdf134083b9d8cf0ec8d6bdaddf794e7a059ac70b4fc1c6840dc"
+    },
+    "docs/redesign/reports/anx-008-validation.json": {
+      "bytes": 44776,
+      "sha256": "741160ab8dca85c9805248d85921344f111ca0879c4b593397e6a59cfdd14bb8"
+    },
+    "docs/redesign/reports/anx-009-about-desktop.jpg": {
+      "bytes": 157184,
+      "sha256": "1b407fcfdff174e23bddc26006ad067925b9e5c4107a499656e40472b2b8360a"
+    },
+    "docs/redesign/reports/anx-009-about-mobile.jpg": {
+      "bytes": 88506,
+      "sha256": "0f530c2927bfa18e3545dfdef5c762f482f036cddc8af92802474e2db9607dd7"
+    },
+    "docs/redesign/reports/anx-009-build-final.json": {
+      "bytes": 5654,
+      "sha256": "3d4164113efe9c2a0b9ad31ea1029537b900135d5a5ccbde6e474db4e71f4d89"
+    },
+    "docs/redesign/reports/anx-009-build.txt": {
+      "bytes": 2804,
+      "sha256": "d22db4710ac08ef74d5a52e919b0f6aecb5cd7636dfb0b501d08bd4950228eab"
+    },
+    "docs/redesign/reports/anx-009-bundles.json": {
+      "bytes": 1404,
+      "sha256": "27307cfa0991166c30bc056cfd788d4926323753f34794ec926e389234257547"
+    },
+    "docs/redesign/reports/anx-009-chunks.txt": {
+      "bytes": 543,
+      "sha256": "017b0ed8a269c3ebaf400387bfa7b8eaa419f069109de9346fdddf4d9e94c197"
+    },
+    "docs/redesign/reports/anx-009-completed-courses-desktop.jpg": {
+      "bytes": 91731,
+      "sha256": "78c6a4c0e1a580f3f186cb99f0ad217bf99ccf950b8db53c971b7b089ce6784b"
+    },
+    "docs/redesign/reports/anx-009-completed-courses-mobile.jpg": {
+      "bytes": 51742,
+      "sha256": "37139b91c915b0708916e26e9e4ea1e28699069ed5d9b3a3039dfc8e0b070c4c"
+    },
+    "docs/redesign/reports/anx-009-credentials-desktop.jpg": {
+      "bytes": 114502,
+      "sha256": "ed2783226664124db41785351c6c85815d597f9a38ffb39beade875af56e6d6c"
+    },
+    "docs/redesign/reports/anx-009-credentials-mobile.jpg": {
+      "bytes": 63773,
+      "sha256": "cb3b1f329689ea308bb368afaaa384c96b6748383beaac607148db1d08759819"
+    },
+    "docs/redesign/reports/anx-009-credly-profile.jpg": {
+      "bytes": 100364,
+      "sha256": "fd220044a3df794e05c704c139a127115652c0ac97cf5fb70c13ebb7dfd9d49b"
+    },
+    "docs/redesign/reports/anx-009-credly-sources.json": {
+      "bytes": 19569,
+      "sha256": "b99275c258887b6f710b2b758e0ed8048f7f3b0e83fbbff8f64789836bb17f35"
+    },
+    "docs/redesign/reports/anx-009-diff.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/redesign/reports/anx-009-expanded-desktop.jpg": {
+      "bytes": 75333,
+      "sha256": "7a56e98820885252137245d4fe5cfa2d9eb099e76d6ad6c71184030da836cb10"
+    },
+    "docs/redesign/reports/anx-009-home-desktop-preflight.json": {
+      "bytes": 573806,
+      "sha256": "6a7c25c7219a1d65b5dfbae1928f4b84ca9973f772139488627b7f059d932cdb"
+    },
+    "docs/redesign/reports/anx-009-home-desktop.json": {
+      "bytes": 567673,
+      "sha256": "b68a16a2bca73e74ccabb342dbc45523f552efb72ce243fbc8b5b19c1a56d909"
+    },
+    "docs/redesign/reports/anx-009-home-mobile-preflight.json": {
+      "bytes": 539799,
+      "sha256": "f74ea008e49ed0fad4d792a4f6f38d4e65d1cce465bb9bb68ce04030b2e0f87f"
+    },
+    "docs/redesign/reports/anx-009-home-mobile.json": {
+      "bytes": 534278,
+      "sha256": "a01917da3d251152af087aea88c474b230c8947cbf58fd967831ac5c271c0d3d"
+    },
+    "docs/redesign/reports/anx-009-imports.txt": {
+      "bytes": 183,
+      "sha256": "ff44132c2b2d484daa1c741d8460d0d2afac2a50a30dbab2699d117ac821e6b5"
+    },
+    "docs/redesign/reports/anx-009-lint.txt": {
+      "bytes": 46,
+      "sha256": "da6cd68e035e29c87e59dddbcbd43101d7f8c8853aea97e361c423184596882b"
+    },
+    "docs/redesign/reports/anx-009-metrics.json": {
+      "bytes": 1331,
+      "sha256": "acf306b1d685c258005cdf3180d79a2b02352b4efa07f3b51df3557e7926fcac"
+    },
+    "docs/redesign/reports/anx-009-preservation.json": {
+      "bytes": 393,
+      "sha256": "14b4d290b185a4d1302b6ae9c2a87c38ff02252c00450df9be642d8ead8a22f7"
+    },
+    "docs/redesign/reports/anx-009-reduced-credentials.jpg": {
+      "bytes": 27987,
+      "sha256": "f37e97131ed0d6f5bbaeb02c118a81a7dd0d9c8427e7321a4e8220ed39bba3d9"
+    },
+    "docs/redesign/reports/anx-009-reduced-credentials.json": {
+      "bytes": 775283,
+      "sha256": "f68e71c4301a54c795fdf5baaf7b083bbc3c95d3abd7e3eaccede7dbcd600df9"
+    },
+    "docs/redesign/reports/anx-009-skills-desktop.jpg": {
+      "bytes": 107916,
+      "sha256": "3036bc27f56260e8b9f5d2bb84fa71fb2c298304da2a4f4b31e20fd39be31bf1"
+    },
+    "docs/redesign/reports/anx-009-skills-mobile.jpg": {
+      "bytes": 54756,
+      "sha256": "bad4b091eb8b3270f24b2100cb2e351e6629a8faa419b554b46ade5dbf80aab5"
+    },
+    "docs/redesign/reports/anx-009-skills.csv": {
+      "bytes": 11352,
+      "sha256": "551dcf6f6cfc35d5f175b2911c3a710a09cb72af6d3235ffbdffaa2a23cccc13"
+    },
+    "docs/redesign/reports/anx-009-skills.json": {
+      "bytes": 18521,
+      "sha256": "529c732d7fd0750c6ba065110fbe3425f1defced86e238bc69ceb3598e27b064"
+    },
+    "docs/redesign/reports/anx-009-tests.txt": {
+      "bytes": 2655,
+      "sha256": "63c6aabc1f1ce5b838ed6783b776c214547719086c09840fbb89a3900c800858"
+    },
+    "docs/redesign/reports/anx-009-validation.json": {
+      "bytes": 46491,
+      "sha256": "5ed9a0595f9b81017c0936b4666ca7bac7278db2bcf47ed869c177ce39d51cac"
+    },
+    "docs/redesign/reports/anx-010-architecture-desktop.jpg": {
+      "bytes": 122414,
+      "sha256": "cbdc2ed08249cdb7c9ed2197ab5ab6a417d69a24b8947cc6cc5c0c3de67521e8"
+    },
+    "docs/redesign/reports/anx-010-architecture-mobile.jpg": {
+      "bytes": 52354,
+      "sha256": "305505574b2cb14f46edd6878f07baad99010ccecf2abc265826b334d098a61c"
+    },
+    "docs/redesign/reports/anx-010-build-before.json": {
+      "bytes": 5654,
+      "sha256": "3d4164113efe9c2a0b9ad31ea1029537b900135d5a5ccbde6e474db4e71f4d89"
+    },
+    "docs/redesign/reports/anx-010-build-final.json": {
+      "bytes": 5794,
+      "sha256": "f29497a6e4daf3728c50d581c76dd4d3303a3fb95f9808c575e6cde96984a399"
+    },
+    "docs/redesign/reports/anx-010-build.txt": {
+      "bytes": 2909,
+      "sha256": "9a85576df9681031cd8f27efba0f89cb9e843d04767d02b52a272e6ad39068c0"
+    },
+    "docs/redesign/reports/anx-010-bundles.json": {
+      "bytes": 1875,
+      "sha256": "7e2bfe63e4a50c5211b49b485f1876fea2cbc3ab567714ff65d20f3ae9685066"
+    },
+    "docs/redesign/reports/anx-010-chunks.txt": {
+      "bytes": 555,
+      "sha256": "c5d3624ecf50362c56a4be2795bedbba19e1dc57feb351384029c30a968e69f3"
+    },
+    "docs/redesign/reports/anx-010-concurrencia-desktop-full.jpg": {
+      "bytes": 962756,
+      "sha256": "24443c2ccf513433847f3dc04cf70490644de1ce650e5a53657bfc9dba2ffaa9"
+    },
+    "docs/redesign/reports/anx-010-concurrencia-desktop.jpg": {
+      "bytes": 89653,
+      "sha256": "92a23173182ceea9edc218c0b89753ba52e1e13eb50388a3a29ae6b3faefe9cb"
+    },
+    "docs/redesign/reports/anx-010-concurrencia-mobile-full.jpg": {
+      "bytes": 607552,
+      "sha256": "df478c036da0e2fc22560ede6c92638bc2be32b06ab60ef98d6589681aed02d2"
+    },
+    "docs/redesign/reports/anx-010-concurrencia-mobile.jpg": {
+      "bytes": 74207,
+      "sha256": "5c76fed287a4c46182e89f15914ca8550405b3f3aaa0f353e23a20ad030c7f37"
+    },
+    "docs/redesign/reports/anx-010-concurrencia-mobile.json": {
+      "bytes": 889449,
+      "sha256": "766436ad2b1d8eec0cf97448fd8ac4962a89ddb6cdddf6b3019e67000147192e"
+    },
+    "docs/redesign/reports/anx-010-diff.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/redesign/reports/anx-010-lint.txt": {
+      "bytes": 46,
+      "sha256": "da6cd68e035e29c87e59dddbcbd43101d7f8c8853aea97e361c423184596882b"
+    },
+    "docs/redesign/reports/anx-010-loading-mobile.jpg": {
+      "bytes": 17809,
+      "sha256": "637579dbd5d59c4515203f5bf44178f422a0d433de3d280ff3a6e675c93ef9fc"
+    },
+    "docs/redesign/reports/anx-010-metodologia-desktop-full.jpg": {
+      "bytes": 666939,
+      "sha256": "b481f0a3e7ae1f5f9a1690543353102bf7aaa6656739b462e7382a9c03ced128"
+    },
+    "docs/redesign/reports/anx-010-metodologia-desktop.jpg": {
+      "bytes": 92265,
+      "sha256": "5d59af839bd100bf17a9e734c10056ced44a23120855d30b1fe72efdd4dd6965"
+    },
+    "docs/redesign/reports/anx-010-metodologia-mobile-full.jpg": {
+      "bytes": 445936,
+      "sha256": "6565660c55a71bb49b3d55a3cafe7f85a349da5756cdcc7d25a131f6a437a879"
+    },
+    "docs/redesign/reports/anx-010-metodologia-mobile.jpg": {
+      "bytes": 73267,
+      "sha256": "9dabdb1dc0df21b0b5f838e87b0c40807578f8307dd24eeb8b533e7186fd9f68"
+    },
+    "docs/redesign/reports/anx-010-metodologia-mobile.json": {
+      "bytes": 793760,
+      "sha256": "fd02fb12cc6245517d313cca5bb4aacfaa53176ba6cdb9f7ecb3a5a38d2937dd"
+    },
+    "docs/redesign/reports/anx-010-metodologia-outcome-mobile.jpg": {
+      "bytes": 46200,
+      "sha256": "dc14a8c6c9bf183c9ee8266d52c6ede04ec458a873fd16643169be3561ef08d4"
+    },
+    "docs/redesign/reports/anx-010-metodologia-process-desktop.jpg": {
+      "bytes": 84763,
+      "sha256": "8431e50acbf352716bceae56750167ff1d1f137219e09c24fb0451c9d1b02ba1"
+    },
+    "docs/redesign/reports/anx-010-metrics.json": {
+      "bytes": 9552,
+      "sha256": "5876acb651f6a76f35e2bc242f6f87311265841e5de239c6814b4e3c5f4e4afe"
+    },
+    "docs/redesign/reports/anx-010-preservation.json": {
+      "bytes": 37454,
+      "sha256": "51e6ddfa070eb54ad80267cf355a823115e84583ee010c50dc9da6e50f90af5f"
+    },
+    "docs/redesign/reports/anx-010-reduced-concurrencia.jpg": {
+      "bytes": 13172,
+      "sha256": "5d28dad92d7d51f299349ba2ff6df99fcd0d2160f7b2489891e8981327848e43"
+    },
+    "docs/redesign/reports/anx-010-reduced-concurrencia.json": {
+      "bytes": 697895,
+      "sha256": "6b1248df40c1e6828201493ec5703841c3285b76c3045140597f088a592071b4"
+    },
+    "docs/redesign/reports/anx-010-reduced-metodologia.jpg": {
+      "bytes": 11263,
+      "sha256": "b74b2885603bfbc05b077938a83188b8b83f214557a89d7ca66d6fd750b7b2d9"
+    },
+    "docs/redesign/reports/anx-010-reduced-metodologia.json": {
+      "bytes": 601607,
+      "sha256": "bb375209db3290e7bab7aec0f6e1dc0e6eb8969a17d90e7cacd52540bfaaba9c"
+    },
+    "docs/redesign/reports/anx-010-source-inventory.json": {
+      "bytes": 87809,
+      "sha256": "406ba6964f18ba1a0a70e0baaf040126b920d0c8ef10c31770e517f0079bfe73"
+    },
+    "docs/redesign/reports/anx-010-tests.txt": {
+      "bytes": 2654,
+      "sha256": "3016611ceae9bbd8eaa2f1d6e04449ea1fd0914302c68ba28ce91b1474d9234f"
+    },
+    "docs/redesign/reports/anx-010-validation.json": {
+      "bytes": 10676,
+      "sha256": "fc93b18dce8dc367606f8bb0d4ee3d8fd3b7ccef65897e072b15cc200d53ed8f"
+    },
+    "docs/redesign/roadmap.md": {
+      "bytes": 20366,
+      "sha256": "7c9c896cdbe9baebb29b386f96f6de64992c3ee766cd041074ff8e2d3bdd862e"
+    },
+    "public/Inter-OFL.txt": {
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    "public/robots.txt": {
+      "bytes": 62,
+      "sha256": "2d0b448b86e71239f9452c6327065cdad41159f088810e88d2c671c1e37b8a92"
+    },
+    "public/sitemap.xml": {
+      "bytes": 280,
+      "sha256": "45fbfa7bfceeea465489514e5fc6d862ba4b9e5ea08f8b94fce98697d67aeecf"
+    },
+    "scripts/check-project-chunks.mjs": {
+      "bytes": 2291,
+      "sha256": "64d6e9504e1886408144ddb167e19ea391a91a1dce9d6b446dd6dd24d5311e9c"
+    },
+    "scripts/page-head.mjs": {
+      "bytes": 2297,
+      "sha256": "6c5587208fb15f4526e3810dc69e591be452425745dfe8bd025580d3f4c655aa"
+    },
+    "skills-lock.json": {
+      "bytes": 544,
+      "sha256": "0f26e98e9b28e30e30b14e18d40f1e69ab9025e47ebab842861543cca6de73db"
+    },
+    "src/assets/fonts/inter-latin.woff2": {
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+    },
+    "src/assets/images/credentials/06a8654d-f93b-412e-bae7-59156fb14189.png": {
+      "bytes": 88308,
+      "sha256": "9291d8941be6feea8a436784f90cb493c166b9e0e213bdc67f30cc295a56a260"
+    },
+    "src/assets/images/credentials/359ec1bd-5afd-4e86-ac6b-0516a337e8ec.png": {
+      "bytes": 134646,
+      "sha256": "961bca1da62fd2b80a2c0b1ccddad340c579b26acc5d16e5fe90e91e995d5e1b"
+    },
+    "src/assets/images/credentials/70fbf77b-7650-41d5-95cc-c6f1f492cff2.png": {
+      "bytes": 53494,
+      "sha256": "65ce44cdd0f28bd48c2dc811dec95716f661f24e771ec02479991e2f29b35f51"
+    },
+    "src/assets/images/credentials/72a5814e-c56b-4e7c-b590-7fdda6b29453.png": {
+      "bytes": 87016,
+      "sha256": "5c18e9750eeeca4c448e6e6a86e9bddb749bd018ac65881061515458a00f89b3"
+    },
+    "src/assets/images/credentials/9713e1b5-af12-4bff-b04c-f82e4aca6387.png": {
+      "bytes": 55483,
+      "sha256": "665bd2010d04778b0f124a686ae30170fe7b6c25e5981637e7b91a217c8d603f"
+    },
+    "src/assets/images/credentials/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d.png": {
+      "bytes": 708802,
+      "sha256": "7427d95f046ddcebbdc3459e7246253ef247ce3886701b8b1b088d0e18d6d07b"
+    },
+    "src/assets/images/credentials/a6f95950-f997-4619-93bd-12ef2e803049.png": {
+      "bytes": 54067,
+      "sha256": "ffb4c3c56affce76cd1abef683a33773fe250f6e1ea414004b10354ab65bfa20"
+    },
+    "src/assets/images/credentials/b331b024-6ee7-4b66-b904-a1a0c9f90309.png": {
+      "bytes": 89746,
+      "sha256": "655b2638d25ce39a93a21810ab90e9f9c4919d053ea2e42c70a862013cd17f18"
+    },
+    "src/assets/images/credentials/b536a83a-c05d-49f8-9290-ae87cc042b9e.png": {
+      "bytes": 111772,
+      "sha256": "fe459e260413ff2b3e263997f6ccd8f8daec806f1900b233b70b5795a7a3c6cc"
+    },
+    "src/assets/images/credentials/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1.png": {
+      "bytes": 89362,
+      "sha256": "3a8cd16bb8f64c497d185ee57291bbfbf2b0b76e6010bee916a5827870cd8ae4"
+    },
+    "src/assets/images/credentials/c6d728e5-93bf-4e18-9699-75f50775ab14.png": {
+      "bytes": 91645,
+      "sha256": "3666e29ec2724576fd770b85ef3038e86831feba30703e05d805833a9fe0a0e7"
+    },
+    "src/assets/images/credentials/c8c68512-e2cc-4e49-80bd-3f2197afb2bf.png": {
+      "bytes": 86726,
+      "sha256": "b5ab58d38052e729c4c21f88a3b59a603c61b45057c5c00bd222944777993652"
+    },
+    "src/assets/images/credentials/df1a5877-1721-47db-a196-ea4e17f3a745.png": {
+      "bytes": 85545,
+      "sha256": "b101cb6e3dafc257fd8c1a7c5db97d86420a2355bbeaae4980442ae4c2290f24"
+    },
+    "src/assets/images/credentials/df473e2c-6a24-475a-8b94-49b17985c053.png": {
+      "bytes": 1271113,
+      "sha256": "cb01d98a3c7bf3f6f065598b664863211652b98edd345e508bdc18dfea462617"
+    },
+    "src/assets/images/credentials/f15f1dee-8498-4e20-942f-7833f0486abe.png": {
+      "bytes": 144166,
+      "sha256": "0b44cc6189cc170991c7dbb189a8f977745c8feb22c0d2dba1b66db50d1b1471"
+    },
+    "src/assets/images/credentials/f9b4484a-3cad-4609-9856-f8c7cf66fc72.png": {
+      "bytes": 57864,
+      "sha256": "e0fd8e289e3c2c9be11cccb23ba9c9049b5bfc81dcc518b864174839fdebea67"
+    },
+    "src/assets/images/credentials/fb4349ee-b599-4ae1-88a8-902a545f063a.png": {
+      "bytes": 45798,
+      "sha256": "c2f013a1cdf3de2b8021db543d426932b5d28fe7b34d3dd1a3b02f61d098e6ed"
+    },
+    "src/assets/images/credentials/fc048a96-ef41-48c4-9943-16269ab6085c.png": {
+      "bytes": 399305,
+      "sha256": "c4e66aece9b892c1eefec87c7c4237776d7d5bcfc93be9728605ab1a6ea5615d"
+    },
+    "src/assets/images/portrait/anxzu-1024.jpg": {
+      "bytes": 455950,
+      "sha256": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac"
+    },
+    "src/assets/images/portrait/anxzu-480.jpg": {
+      "bytes": 157315,
+      "sha256": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac"
+    },
+    "src/assets/images/portrait/anxzu-768.jpg": {
+      "bytes": 305451,
+      "sha256": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730"
+    },
+    "src/components/layout/Navigation.jsx": {
+      "bytes": 2677,
+      "sha256": "bba14fd33af78f441a478ddfeac64df99b35238280af5ff0575e24fdfed330c8"
+    },
+    "src/components/layout/ProjectRoute.jsx": {
+      "bytes": 1852,
+      "sha256": "ad242f18c65295dc04082e611f900d30d5fd0c072a4cf9f3d99d20180abbe15e"
+    },
+    "src/components/sections/Credentials.jsx": {
+      "bytes": 3423,
+      "sha256": "b455465f5a4fe52eb72544a43af75857b8635d168b50a1a92fec448e52309f96"
+    },
+    "src/components/sections/HeroVariant.jsx": {
+      "bytes": 560,
+      "sha256": "a28b6994e16b5c8c60b4b23990f59def42d4008fb4e2f83c765297886e129d0a"
+    },
+    "src/components/sections/ImmersiveHero.jsx": {
+      "bytes": 2514,
+      "sha256": "eb589e057b44daddef25b1dac6be55e54ccfa9a00352b1db034c12c15ae44d24"
+    },
+    "src/components/sections/heroMotion.js": {
+      "bytes": 1157,
+      "sha256": "976ae0f11dfa474309648795f0fcdd23a17ad0274913d26b623d5dfe591f4902"
+    },
+    "src/components/sections/immersiveHeroMotion.js": {
+      "bytes": 3596,
+      "sha256": "13fbc75ddd5e65b8a206b7678b6506292f45b60df2ca270672208333215bf2b4"
+    },
+    "src/components/ui/AccessibleIconLink.jsx": {
+      "bytes": 279,
+      "sha256": "27434b49225ed81b4709440692037b35fa46aba6eed556db6f8893331a7cb8ca"
+    },
+    "src/components/ui/ActionLink.jsx": {
+      "bytes": 1041,
+      "sha256": "0b462bacbce4664df37762e96ac74a331e108c699f8c204c23c258f82184e385"
+    },
+    "src/components/ui/CaseStudy.jsx": {
+      "bytes": 2167,
+      "sha256": "730c2c125762db7e042ef6c489140259d2fc3d4db05bb02f2cb33c2067521b85"
+    },
+    "src/components/ui/ConnectionDiagram.jsx": {
+      "bytes": 1307,
+      "sha256": "53cedc27f768222f993d299f29f822e1793080fe7ce49cc4db4e206eb9c668cb"
+    },
+    "src/components/ui/ConnectionSculpture.jsx": {
+      "bytes": 2247,
+      "sha256": "5c0fbc3bb97b398b1d7377853ba545b068b41f712fc8080cad7807d031070a2c"
+    },
+    "src/components/ui/Container.jsx": {
+      "bytes": 235,
+      "sha256": "23290afaf8377e97cbfd5b520bf8210645fe4a5fedda492882b7e4c3ad94a429"
+    },
+    "src/components/ui/CredentialEntry.jsx": {
+      "bytes": 1885,
+      "sha256": "e9eef1972d7340ab4561b4149986bd56ea18758e8c15b6e34a307bfbee596846"
+    },
+    "src/components/ui/DiagramPlaybackControls.jsx": {
+      "bytes": 1026,
+      "sha256": "2320c5b2b1fc5c53f4d22f7e640e88fbf6c109da485ea8f711a39e917c7095c1"
+    },
+    "src/components/ui/EngineeringFlowEdge.jsx": {
+      "bytes": 1598,
+      "sha256": "cbba563e4161e2882bf7ec3ea6c4e9bed46278a51f345049145e3b982513b9bb"
+    },
+    "src/components/ui/ProjectVisual.jsx": {
+      "bytes": 2411,
+      "sha256": "4ffc24d00418d189129d9d73695bcc80089a7d6f3abb48669f366bcab56b3a6a"
+    },
+    "src/components/ui/SectionHeading.jsx": {
+      "bytes": 229,
+      "sha256": "a84f5af1b6f33527059c7b844446e3458e77d1381a918947c1f08146384b77fd"
+    },
+    "src/components/ui/Surface.jsx": {
+      "bytes": 204,
+      "sha256": "bd370ca7fa4b74a932f94fd6aabcaff60112d34474769ea6d8aa27e8f561931b"
+    },
+    "src/components/ui/engineeringEdgeTypes.js": {
+      "bytes": 132,
+      "sha256": "a1eb6dedbc33d8f5698a5c216af45642ef466072524c2f6f6ccb3ac765dbb932"
+    },
+    "src/components/utils/PageMetadata.jsx": {
+      "bytes": 2466,
+      "sha256": "158171203b2b5bce530debc9fb90baae72b19057be091ce03e48eec4bc64b132"
+    },
+    "src/data/credentials.js": {
+      "bytes": 11334,
+      "sha256": "e5922f81b28d78d024c09be24b3a5c1b0e4df1311df3b2dbce8d269395a09b6b"
+    },
+    "src/data/navigation.js": {
+      "bytes": 633,
+      "sha256": "68ad1a0d25ebb6b79c963f6768fd89335def5f1d63b36160b6811aee27bd87f0"
+    },
+    "src/data/pageMetadata.js": {
+      "bytes": 1311,
+      "sha256": "fbb75d3e6ea825f37805a5968a9d431d4994e7918acc03187102365c6275ce96"
+    },
+    "src/data/professionalProfile.js": {
+      "bytes": 2356,
+      "sha256": "40af5cb72d9f067bf281aef276ab7b5ef3674c2efe2240111694ecdc799efdea"
+    },
+    "src/hooks/useDiagramPlayback.js": {
+      "bytes": 880,
+      "sha256": "46fb5331a69b3f7a1c36a731ac79a4546dba506a84c060fe95a7dba87dd4fb54"
+    },
+    "src/hooks/useReducedMotion.js": {
+      "bytes": 500,
+      "sha256": "a45d19eb2f910c43c8dbb54f63c1d9c604e3d539e9f8f1c2cb5cc2a4f8c0fd4a"
+    },
+    "src/style/case-study.css": {
+      "bytes": 5387,
+      "sha256": "3a4981832fab0000f129da0e1b9e4e9500ed45c257489953da6bdbe511c64da9"
+    },
+    "src/style/credentials.css": {
+      "bytes": 5414,
+      "sha256": "90becacab973bdc565721cd80b1e36e41b2ca4663b26fbc8af838101ca00db93"
+    },
+    "src/style/engineering-flows.css": {
+      "bytes": 1574,
+      "sha256": "5fa20b8a7aaf573f4721017e9f59c9024d5ae51a8ca8c4e538f7c88b2bdb578a"
+    },
+    "src/style/hero-immersive.css": {
+      "bytes": 7022,
+      "sha256": "6fce9d95a998535c24a720768acbd3fbda22f14e4d083551170f6a6f94548d62"
+    },
+    "src/style/project-route.css": {
+      "bytes": 517,
+      "sha256": "cf1874e0f4757774086559a8a5182e09979e5462ec41df8b83cceae6548b3ad3"
+    },
+    "src/styles/base.css": {
+      "bytes": 6004,
+      "sha256": "cfcdd3d3c81704d0f78f76b907e5803479179dce183f01e66e571d0a4106ac41"
+    },
+    "src/styles/fonts.css": {
+      "bytes": 250,
+      "sha256": "ba96ce786cb856fa648cba2c37e2a2d1d8a579418a3fbf6e81b7f394d4e5f8b9"
+    },
+    "src/styles/tokens.css": {
+      "bytes": 3577,
+      "sha256": "c0f2a348290c1fa4b97c4fa98a66196da6847d7446446e4ddc649c0ab2551ffc"
+    },
+    "src/utils/credentialStatus.js": {
+      "bytes": 467,
+      "sha256": "ea38f2792968272d5111b4958edbe081102f362682e4be40e31e0c49d36a07c5"
+    },
+    "src/utils/diagramPlayback.js": {
+      "bytes": 596,
+      "sha256": "ae05019bce25f1f6863fc9773ee46139584b42d12254729f1bdf28a2241bad9b"
+    },
+    "src/utils/diagramVisibility.js": {
+      "bytes": 2044,
+      "sha256": "b7260f7f6ee9d124ae33b241ad8e4f5a05251251c0c5f4136e963a0349a9fc05"
+    },
+    "src/utils/engineeringFlows.js": {
+      "bytes": 1626,
+      "sha256": "b366f0746ff3ae001465f20b3836a3d66c02c8c58f4ad58145be2d018586b69e"
+    },
+    "tests/credentials.test.js": {
+      "bytes": 687,
+      "sha256": "f8c012419d6f925ee2bd5bd59743ecc5a6d52b12ea1a72bf7ce467d60727b296"
+    },
+    "tests/engineering-flows.test.js": {
+      "bytes": 7460,
+      "sha256": "85cc5a4c3ed92ec742eb3dcd348563c7d1a2045b88bfb61e5b782f050b60deac"
+    },
+    "tests/foundations.test.js": {
+      "bytes": 3550,
+      "sha256": "9397963cfe46c7f33dfcabfcd3de6db41b2550a5ad64a22c43d2e75ab0cde277"
+    },
+    "tests/hero-motion.test.js": {
+      "bytes": 3106,
+      "sha256": "f2400b3e156d4b8d1a60e371b5afc42f72f743ba3825905777b7c838f9866d31"
+    },
+    "tests/immersive-hero.test.js": {
+      "bytes": 4848,
+      "sha256": "328fb36c4df3e2794284a49da34f2bdd846ab5cab2f0b0a73907e3d1e0779000"
+    },
+    "tests/page-metadata.test.js": {
+      "bytes": 3293,
+      "sha256": "8a582b687babaaca2d3e2e5bbd9e52602c86c9970864219ad3f092c95bc813ca"
+    }
+  }
+}

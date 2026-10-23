@@ -1,0 +1,6 @@
+{
+  "scannedFiles": 426,
+  "riskyPaths": [],
+  "patternFindings": [],
+  "note": "Heuristic scan; values are never printed. Public contact names, credential badge metadata and npm integrity hashes are not secrets. Local skill/runtime directories will not be released."
+}
