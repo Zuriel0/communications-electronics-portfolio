@@ -1,0 +1,10 @@
+{
+  "capabilityCategories": 8,
+  "originalTechnologies": 25,
+  "timelineRecords": 4,
+  "individualCredentials": 18,
+  "capabilitiesExact": true,
+  "timelineExact": true,
+  "publicCredentialMetadataExact": true,
+  "method": "Original AST text fields compared to rendered DOM, credentials compared to captured individual public pages. Source SHA256 separately protects all preexisting files."
+}

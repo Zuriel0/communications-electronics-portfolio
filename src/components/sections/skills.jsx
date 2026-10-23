@@ -1,40 +1,32 @@
-import { useEffect, useRef } from "react";
-import { skills } from "../../data/skills";
-import Technical_Cards from "../ui/Technical_Cards";
-import "../../style/skills.css";
+import { skills } from '../../data/skills';
+import { capabilityFamilies } from '../../data/professionalProfile';
+import Technical_Cards from '../ui/Technical_Cards';
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
+import ActionLink from '../ui/ActionLink';
+import { FiArrowDown } from 'react-icons/fi';
+import '../../style/skills.css';
 
-function Skills() {
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("visible");
-                }
-            },
-            { threshold: 0.15 }
-        );
-
-        if (sectionRef.current) {
-            observer.observe(sectionRef.current);
-        }
-
-        return () => observer.disconnect();
-    }, []);
-
-    return (
-        <section id="skills" ref={sectionRef} className="skills-container reveal-section">
-            <div className="skills-title">
-                <h1>Habilidades</h1>
+export default function Skills() {
+  return (
+    <section id="skills" tabIndex={-1} className="skills-container" data-theme="light" aria-labelledby="skills-title">
+      <Container>
+        <SectionHeading title="Capabilities" id="skills-title" className="capabilities-heading" />
+        <div className="capability-families">
+          {capabilityFamilies.map(family => (
+            <div className="capability-family" key={family.title}>
+              <div className="capability-family-heading"><h3>{family.title}</h3><p>{family.context}</p></div>
+              {family.ids.length ? <ul className="capability-entries">
+                {family.ids.map(id => <Technical_Cards key={id} {...skills.find(skill => skill.id === id)} />)}
+              </ul> : <div className="capability-approach"><h4>Constraint-led development</h4><ul>{family.approach.map(step => <li key={step}>{step}</li>)}</ul><ActionLink href={family.evidence.href}>{family.evidence.label}</ActionLink></div>}
             </div>
-            <div className="skills-cards-container">
-                {skills.map((skill, index) => (
-                    <Technical_Cards key={skill.id} index={index} icon={skill.icon} title={skill.title} technologies={skill.technologies} />
-                ))}
-            </div>
-        </section>
-    );
+          ))}
+        </div>
+        <div className="capabilities-next">
+          <ActionLink href="#credentials">View credentials <FiArrowDown aria-hidden="true" focusable="false" /></ActionLink>
+          <ActionLink href="#experience">View experience <FiArrowDown aria-hidden="true" focusable="false" /></ActionLink>
+        </div>
+      </Container>
+    </section>
+  );
 }
-
-export default Skills;

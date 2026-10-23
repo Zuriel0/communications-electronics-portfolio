@@ -1,4 +1,4 @@
-import React, { memo, useState, useEffect } from 'react';
+import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
   Controls,
@@ -9,6 +9,10 @@ import {
   useEdgesState,
   useNodesState,
 } from '@xyflow/react';
+import useDiagramPlayback from '../../../hooks/useDiagramPlayback';
+import { decorateFlowEdges } from '../../../utils/engineeringFlows';
+import DiagramPlaybackControls from '../DiagramPlaybackControls';
+import { engineeringEdgeTypes } from '../engineeringEdgeTypes';
 import '@xyflow/react/dist/style.css';
 
 const cardBase = {
@@ -300,9 +304,12 @@ const initialEdges = [
 ];
 
 function MacTracingParallelFlow() {
+  const frameRef = useRef(null);
+  const playback = useDiagramPlayback(frameRef, 'logic');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
-  const [isMobile, setIsMobile] = useState(false);
+  const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'logic', playback.step), [edges, playback.step]);
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -312,9 +319,15 @@ function MacTracingParallelFlow() {
   }, []);
 
   return (
+    <div className="diagram-scene">
+      <DiagramPlaybackControls playback={playback} id="diagram-logic" title="Flujo de trazabilidad por MAC" />
     <div
+      ref={frameRef} id="diagram-logic" tabIndex={-1} role="group" aria-label="Flujo de trazabilidad por MAC"
+      data-playing={playback.playing}
+      className="diagram-frame"
       style={{
         width: '100%',
+        position: 'relative',
         height: isMobile ? '550px' : '690px',
         background:
           'radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 24%), #05070b',
@@ -324,6 +337,7 @@ function MacTracingParallelFlow() {
       }}
     >
       <div
+        className="diagram-caption"
         style={{
           position: 'absolute',
           zIndex: 10,
@@ -348,8 +362,11 @@ function MacTracingParallelFlow() {
       </div>
 
       <ReactFlow
+        edgeTypes={engineeringEdgeTypes}
+        id="rf-logic"
+        key={isMobile ? 'mobile' : 'desktop'}
           nodes={nodes}
-          edges={edges}
+          edges={animatedEdges}
           nodeTypes={nodeTypes}
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}
@@ -358,7 +375,8 @@ function MacTracingParallelFlow() {
           nodesDraggable={false}
           nodesConnectable={false}
           elementsSelectable={false}
-          zoomOnScroll={!isMobile}
+          zoomOnScroll={false}
+          preventScrolling={false}
           panOnDrag={!isMobile}
           minZoom={isMobile ? 0.05 : 0.35}
           maxZoom={1.5}
@@ -368,6 +386,7 @@ function MacTracingParallelFlow() {
           <Background gap={24} size={1} color="rgba(255,255,255,0.07)" />
           <Controls showInteractive={false} />
         </ReactFlow>
+    </div>
     </div>
   );
 }

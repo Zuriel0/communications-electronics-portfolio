@@ -1,4 +1,4 @@
-import React, { memo, useState, useEffect } from 'react';
+import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
   Controls,
@@ -9,6 +9,10 @@ import {
   useEdgesState,
   useNodesState,
 } from '@xyflow/react';
+import useDiagramPlayback from '../../../hooks/useDiagramPlayback';
+import { decorateFlowEdges } from '../../../utils/engineeringFlows';
+import DiagramPlaybackControls from '../DiagramPlaybackControls';
+import { engineeringEdgeTypes } from '../engineeringEdgeTypes';
 import '@xyflow/react/dist/style.css';
 
 const StepNode = memo(({ data }) => {
@@ -53,7 +57,7 @@ const initialNodes = [
   {
     id: 'b',
     type: 'stepNode',
-    position: { x: 420, y: 240 },
+    position: { x: 420, y: 308 },
     data: {
       kicker: 'Paso 2',
       label: 'Identificación de patrones y restricciones',
@@ -64,7 +68,7 @@ const initialNodes = [
   {
     id: 'c',
     type: 'stepNode',
-    position: { x: 420, y: 420 },
+    position: { x: 420, y: 556 },
     data: {
       kicker: 'Paso 3',
       label: 'Construcción de contexto técnico',
@@ -75,7 +79,7 @@ const initialNodes = [
   {
     id: 'd',
     type: 'stepNode',
-    position: { x: 420, y: 600 },
+    position: { x: 420, y: 804 },
     data: {
       kicker: 'Paso 4',
       label: 'Generación asistida por IA',
@@ -86,7 +90,7 @@ const initialNodes = [
   {
     id: 'e',
     type: 'stepNode',
-    position: { x: 420, y: 780 },
+    position: { x: 420, y: 1052 },
     data: {
       kicker: 'Paso 5',
       label: 'Ajuste y validación manual',
@@ -97,7 +101,7 @@ const initialNodes = [
   {
     id: 'f',
     type: 'stepNode',
-    position: { x: 420, y: 960 },
+    position: { x: 420, y: 1300 },
     data: {
       kicker: 'Resultado',
       label: 'Personalización no invasiva lista para integrar',
@@ -151,9 +155,12 @@ const initialEdges = [
 ];
 
 function SolutionFlowContent() {
+  const frameRef = useRef(null);
+  const playback = useDiagramPlayback(frameRef, 'methodology');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
-  const [isMobile, setIsMobile] = useState(false);
+  const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'methodology', playback.step), [edges, playback.step]);
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -163,7 +170,12 @@ function SolutionFlowContent() {
   }, []);
 
   return (
+    <div className="diagram-scene">
+      <DiagramPlaybackControls playback={playback} id="diagram-methodology-solution" title="Metodología: solución" />
     <div
+      ref={frameRef} id="diagram-methodology-solution" tabIndex={-1} role="group" aria-label="Metodología: solución"
+      data-playing={playback.playing}
+      className="diagram-frame"
       style={{
         width: '100%',
         height: isMobile ? '650px' : 1180,
@@ -174,7 +186,7 @@ function SolutionFlowContent() {
         position: 'relative',
       }}
     >
-      <div style={{ position: 'absolute', zIndex: 10, padding: '24px 26px', pointerEvents: 'none' }}>
+      <div className="diagram-caption" style={{ position: 'absolute', zIndex: 10, padding: '24px 26px', pointerEvents: 'none' }}>
         <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}>
           Flujo de personalización no invasiva
         </div>
@@ -183,12 +195,16 @@ function SolutionFlowContent() {
         </div>
       </div>
       <ReactFlow
+        edgeTypes={engineeringEdgeTypes}
+        id="rf-methodology-solution"
+        key={isMobile ? 'mobile' : 'desktop'}
         nodes={nodes}
-        edges={edges}
+        edges={animatedEdges}
         nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         fitView
+        minZoom={0.1}
         fitViewOptions={{ padding: 0.2 }}
         nodesDraggable={false}
         nodesConnectable={false}
@@ -201,6 +217,7 @@ function SolutionFlowContent() {
         <Background gap={28} size={1} color="rgba(255,255,255,0.07)" />
         <Controls showInteractive={false} />
       </ReactFlow>
+    </div>
     </div>
   );
 }

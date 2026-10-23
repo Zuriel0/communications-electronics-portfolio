@@ -1,9 +1,3 @@
-function Button({text, link, styloBtn}) {
-    return (
-        <a href={link} className={styloBtn}>
-                {text}
-        </a>
-    );
+export default function Button({ children, className = '', type = 'button', ...props }) {
+  return <button {...props} type={type} className={`button ${className}`.trim()}>{children}</button>;
 }
-
-export default Button

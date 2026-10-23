@@ -1,15 +1,3 @@
-function ContactInfo (){
-    return (
-        <div className="conatctinfo-container">
-            <div className="contactinfo-title">
-                <h3>Contact Information</h3>
-            </div>
-            <div className="contactinfo-text">
-                <p>andres.macias@anxzu.com</p>
-                <p>Mexico</p>
-            </div>
-        </div>
-    )
+export default function ContactInfo() {
+  return <div className="contact-info"><h3>Contact Information</h3><p><a href="mailto:andres.macias@anxzu.com">andres.macias@anxzu.com</a></p><p>Mexico</p></div>;
 }
-
-export default ContactInfo;

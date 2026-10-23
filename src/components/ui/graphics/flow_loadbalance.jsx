@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useMemo, useState } from 'react';
+import React, { memo, useRef, useEffect, useMemo, useState } from 'react';
 import {
   Background,
   Controls,
@@ -10,6 +10,10 @@ import {
   useEdgesState,
   useNodesState,
 } from '@xyflow/react';
+import useDiagramPlayback from '../../../hooks/useDiagramPlayback';
+import { decorateFlowEdges } from '../../../utils/engineeringFlows';
+import DiagramPlaybackControls from '../DiagramPlaybackControls';
+import { engineeringEdgeTypes } from '../engineeringEdgeTypes';
 import '@xyflow/react/dist/style.css';
 
 const CARD_BASE = {
@@ -219,10 +223,13 @@ const initialEdges = [
 ];
 
 function LoadBalancerTraceabilityDiagram() {
+  const frameRef = useRef(null);
+  const playback = useDiagramPlayback(frameRef, 'balance', 1);
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-  const [activeServerIndex, setActiveServerIndex] = useState(1);
-  const [isMobile, setIsMobile] = useState(false);
+  const activeServerIndex = playback.step;
+  const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'balance', playback.step), [edges, playback.step]);
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   const serverIds = useMemo(() => ['ws1', 'ws2', 'ws3'], []);
 
@@ -232,14 +239,6 @@ function LoadBalancerTraceabilityDiagram() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveServerIndex((prev) => (prev + 1) % serverIds.length);
-    }, 1800);
-
-    return () => clearInterval(interval);
-  }, [serverIds.length]);
 
   useEffect(() => {
     const activeId = serverIds[activeServerIndex];
@@ -282,9 +281,15 @@ function LoadBalancerTraceabilityDiagram() {
   }, [activeServerIndex, serverIds, setEdges, setNodes]);
 
   return (
+    <div className="diagram-scene">
+      <DiagramPlaybackControls playback={playback} id="diagram-loadbalance" title="Trazabilidad en arquitectura horizontal" simulation />
     <div
+      ref={frameRef} id="diagram-loadbalance" tabIndex={-1} role="group" aria-label="Trazabilidad en arquitectura horizontal"
+      data-playing={playback.playing}
+      className="diagram-frame diagram-player"
       style={{
         width: '100%',
+        position: 'relative',
         height: isMobile ? '550px' : '760px',
         background:
           'radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 25%), #05070b',
@@ -294,6 +299,7 @@ function LoadBalancerTraceabilityDiagram() {
       }}
     >
       <div
+        className="diagram-caption"
         style={{
           position: 'absolute',
           zIndex: 10,
@@ -311,8 +317,11 @@ function LoadBalancerTraceabilityDiagram() {
       </div>
 
       <ReactFlow
+        edgeTypes={engineeringEdgeTypes}
+        id="rf-loadbalance"
+        key={isMobile ? 'mobile' : 'desktop'}
           nodes={nodes}
-          edges={edges}
+          edges={animatedEdges}
           nodeTypes={nodeTypes}
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}
@@ -322,6 +331,7 @@ function LoadBalancerTraceabilityDiagram() {
           nodesConnectable={false}
           elementsSelectable={false}
           zoomOnScroll={false}
+          preventScrolling={false}
           panOnDrag={false}
           minZoom={isMobile ? 0.05 : 0.2}
           colorMode="dark"
@@ -345,6 +355,7 @@ function LoadBalancerTraceabilityDiagram() {
             nodeColor={() => 'rgba(255,255,255,0.45)'}
           /> */}
         </ReactFlow>
+    </div>
     </div>
   );
 }

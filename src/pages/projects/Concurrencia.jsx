@@ -7,7 +7,7 @@ function ProjectDetail() {
   return (
     <>
       <Navbar />
-      <Introduce />
+      <main id="main-content" tabIndex={-1} lang="en"><Introduce /></main>
 
     
 

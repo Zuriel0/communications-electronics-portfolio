@@ -1,0 +1,211 @@
+/* Scoped variant. The ANX-003 composition and stylesheet remain available. */
+#hero.hero-immersive {
+  isolation: isolate;
+  min-height: max(52rem, 100svh);
+  padding-block: calc(var(--header-height) + var(--space-8)) var(--space-7);
+}
+
+.hero-immersive .hero-content {
+  position: relative;
+  z-index: 1;
+  gap: clamp(8rem, 20vh, 13rem);
+}
+
+.hero-immersive .hero-masthead {
+  display: block;
+  transform: none;
+  animation: none;
+}
+
+.hero-immersive .hero-title {
+  font-size: clamp(var(--text-display-xl), 20vw, 16rem);
+  animation: none;
+  opacity: calc(1 - var(--scene-progress, 0) * .15);
+  transform: translateY(calc(var(--scene-progress, 0) * -12px));
+}
+
+.hero-immersive .hero-profile { max-width: 29rem; }
+.hero-immersive .hero-presentation { gap: var(--space-7); }
+
+.hero-sculpture {
+  position: absolute;
+  z-index: 0;
+  inset: 5% 0 7% 34%;
+  pointer-events: none;
+  overflow: clip;
+  display: grid;
+  place-items: center;
+  perspective: 1100px;
+}
+
+.sculpture-light {
+  position: absolute;
+  inset: 12% 2% 2%;
+  background: radial-gradient(ellipse at 58% 50%, color-mix(in srgb, var(--accent) 8%, transparent), transparent 63%);
+}
+
+.sculpture-transport, .sculpture-pointer, .sculpture-orbit, .sculpture-rig {
+  transform-style: preserve-3d;
+}
+
+.sculpture-transport {
+  --plane-gap: 52px;
+  width: clamp(25rem, 40vw, 38rem);
+  aspect-ratio: 1;
+  transform: translate3d(calc(var(--scene-progress, 0) * -50px), calc(var(--scene-progress, 0) * 130px), 0) rotateZ(calc(var(--scene-progress, 0) * 36deg)) scale(calc(1 - var(--scene-progress, 0) * .14));
+}
+
+.sculpture-pointer {
+  width: 100%;
+  height: 100%;
+  transform: rotateX(calc(var(--pointer-y, 0) * -6deg)) rotateY(calc(var(--pointer-x, 0) * 9deg));
+}
+
+.sculpture-orbit {
+  width: 100%;
+  height: 100%;
+  animation: core-suspend 12s ease-in-out infinite alternate;
+  animation-play-state: paused;
+  will-change: transform;
+}
+
+.sculpture-rig {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(58deg) rotateY(-12deg) rotateZ(-32deg);
+}
+
+.core-plane {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  transform: translateZ(calc((var(--plane) - 1.5) * var(--plane-gap)));
+  stroke-width: 1.2;
+}
+
+.core-frame { stroke: var(--accent); fill: var(--background-primary); fill-opacity: .28; stroke-opacity: .65; }
+.core-inset { stroke: var(--border); stroke-opacity: .45; }
+.core-traces { stroke: var(--accent); stroke-opacity: .24; }
+.core-terminal { fill: var(--background-primary); stroke: var(--accent); stroke-width: 1.6; }
+.core-hub { fill: var(--surface); stroke: var(--text-primary); stroke-opacity: .8; }
+.core-center { fill: var(--accent); }
+.core-plane--0 .core-frame { stroke-opacity: .3; }
+.core-plane--3 .core-frame { stroke: var(--text-primary); stroke-opacity: .85; }
+
+.core-signal {
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-dasharray: 9 91;
+  stroke-dashoffset: calc(var(--plane) * 24);
+}
+
+/* HTML relays use transform/opacity; SVG path geometry and dashes stay static. */
+.core-beacon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin: -5px;
+  transform: translateZ(calc((var(--plane) - 1.5) * var(--plane-gap)));
+}
+.core-beacon::after {
+  content: '';
+  position: absolute;
+  inset: -7px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-pill);
+  opacity: 0;
+  animation: core-relay 8s ease-in-out infinite;
+  animation-delay: calc(var(--plane) * -2s);
+  animation-play-state: paused;
+  will-change: transform, opacity;
+}
+
+.core-via {
+  position: absolute;
+  width: 1px;
+  height: calc(var(--plane-gap) * 3);
+  background: var(--border);
+  transform-origin: top;
+  transform: translateZ(calc(var(--plane-gap) * -1.5)) rotateX(90deg);
+  opacity: .5;
+}
+
+.sculpture-continuation {
+  position: absolute;
+  bottom: 0;
+  width: 54%;
+  height: 24%;
+  stroke: var(--accent);
+  stroke-width: 1;
+  opacity: calc(var(--scene-progress, 0) * .55);
+  transform: translateY(calc((1 - var(--scene-progress, 0)) * 32px));
+}
+
+[data-motion-running='true'] .sculpture-orbit,
+[data-motion-running='true'] .core-beacon::after { animation-play-state: running; }
+
+.hero-motion-control { margin-top: calc(-1 * var(--space-7)); }
+.hero-pause {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  color: var(--text-secondary);
+  font-size: var(--text-label);
+  background: var(--background-primary);
+}
+
+@keyframes core-suspend {
+  from { transform: translateY(-12px) rotateY(-9deg) rotateZ(-4deg); }
+  to { transform: translateY(12px) rotateY(9deg) rotateZ(5deg); }
+}
+@keyframes core-relay {
+  0%, 65%, 100% { opacity: 0; transform: scale(.6); }
+  20% { opacity: .8; transform: scale(1); }
+  45% { opacity: 0; transform: scale(1.8); }
+}
+
+/* A deliberate static composition also works without animation or JS effects. */
+.hero-immersive[data-static='true'] .sculpture-transport,
+.hero-immersive[data-static='true'] .sculpture-pointer { transform: none; }
+.hero-immersive[data-static='true'] .hero-title { transform: none; opacity: 1; }
+
+@media (max-width: 59.999rem) {
+  #hero.hero-immersive { min-height: 100svh; padding-top: calc(var(--header-height) + var(--space-7)); }
+  .hero-immersive .hero-content { gap: var(--space-8); }
+  .hero-immersive .hero-masthead { padding-bottom: clamp(16rem, 45vw, 24rem); }
+  .hero-immersive .hero-title { font-size: clamp(var(--text-display-xl), 25vw, 14rem); }
+  .hero-sculpture { inset: 18% 0 auto; height: clamp(23rem, 55vw, 34rem); }
+  .sculpture-transport { --plane-gap: 38px; width: clamp(20rem, 57vw, 30rem); }
+  .hero-immersive .hero-presentation { grid-template-columns: minmax(0, 1fr) auto; align-items: end; }
+  .hero-immersive .hero-button-container { flex-direction: column; }
+  .hero-motion-control { margin-top: 0; }
+}
+
+@media (max-width: 39.999rem) {
+  .hero-immersive .hero-content { gap: var(--space-6); }
+  .hero-immersive .hero-masthead { padding-bottom: 13rem; }
+  .hero-immersive .hero-title { font-size: clamp(var(--text-display-xl), 25vw, 10rem); }
+  .hero-sculpture { inset: 13rem 0 auto; height: 20rem; }
+  .sculpture-transport { --plane-gap: 29px; width: 20rem; }
+  .sculpture-rig { transform: rotateX(55deg) rotateY(-10deg) rotateZ(-32deg); }
+  .hero-immersive .hero-presentation { grid-template-columns: minmax(0, 1fr); gap: var(--space-6); }
+  .hero-immersive .hero-profile { max-width: 29rem; }
+  .hero-immersive .hero-button-container { width: 100%; }
+  .hero-motion-control { display: flex; justify-content: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-immersive .sculpture-transport,
+  .hero-immersive .sculpture-pointer,
+  .hero-immersive .sculpture-orbit { transform: none; animation: none; }
+  .hero-immersive .core-signal { animation: none; stroke-dasharray: none; opacity: .65; }
+  .hero-immersive .core-beacon::after { animation: none; opacity: 0; }
+  .hero-immersive .sculpture-continuation { opacity: .3; transform: none; }
+  .hero-immersive .hero-title { transform: none; opacity: 1; }
+}

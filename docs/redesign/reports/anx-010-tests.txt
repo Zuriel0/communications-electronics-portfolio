@@ -1,0 +1,35 @@
+✔ credential dates distinguish an unspecified expiry from a current or expired date (27.916541ms)
+✔ autoplay waits for a useful viewport intersection and cancels work on exit (2.281083ms)
+✔ hidden tab pauses CSS and timer; repeated visibility notifications do not duplicate intervals (0.784167ms)
+✔ paused prevents autoplay, including after hidden/visible (0.104084ms)
+✔ reducedMotion prevents autoplay, including after hidden/visible (0.077792ms)
+✔ switching to static mode cancels an active interval; manual intent remains authoritative (0.109958ms)
+✔ fallback without IntersectionObserver is event driven and removes its listeners (0.262166ms)
+✔ Web destination is exclusive; monitoring branches remain independent (0.742542ms)
+✔ methodology advances through five directed transfers without skipping the six steps (0.087042ms)
+✔ edge presentation never creates a transfer or changes model connections and labels (0.347583ms)
+✔ dark: normal text, accents, focus and boundaries meet contrast budgets (2.446ms)
+✔ light: normal text, accents, focus and boundaries meet contrast budgets (0.197625ms)
+✔ reduced motion never starts playback, including when the tab becomes visible (0.321083ms)
+✔ hidden tabs pause playback; resume does not duplicate timers; cleanup stops it (0.178792ms)
+✔ reduced motion: no fallback animation work is scheduled (0.713417ms)
+✔ native timeline: no fallback animation work is scheduled (0.071584ms)
+✔ fallback clamps progress, batches scroll work and cleans up pending work (0.233ms)
+✔ switching to reduced motion removes a running fallback without leaving transforms behind (0.081292ms)
+✔ static/reduced/paused composition schedules no frames or input subscriptions (0.729542ms)
+✔ pointer depth is bounded, interpolated and stops requesting frames after settling (1.460334ms)
+✔ touch/coarse pointers do not drive perspective; scroll stays batched and clamped (0.18975ms)
+✔ hidden tab and offscreen scene pause CSS, cancel work and resume without duplicate frames (0.141917ms)
+✔ the three public routes have distinct titles and descriptions in their content language (0.545459ms)
+✔ unknown paths are not indexed as portfolio pages (0.094459ms)
+✔ static route directories preserve the project navigation when a host adds a trailing slash (0.439375ms)
+✔ static project HTML has one correct title, language and description before React runs (0.634ms)
+✔ Preview serves the static project head on the original public URLs without requiring a slash (0.178041ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 87.520083

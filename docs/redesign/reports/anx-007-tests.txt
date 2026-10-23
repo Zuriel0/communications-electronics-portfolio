@@ -1,0 +1,25 @@
+✔ dark: normal text, accents, focus and boundaries meet contrast budgets (1.16875ms)
+✔ light: normal text, accents, focus and boundaries meet contrast budgets (0.184708ms)
+✔ reduced motion never starts playback, including when the tab becomes visible (0.4205ms)
+✔ hidden tabs pause playback; resume does not duplicate timers; cleanup stops it (0.205375ms)
+✔ reduced motion: no fallback animation work is scheduled (0.441ms)
+✔ native timeline: no fallback animation work is scheduled (0.055583ms)
+✔ fallback clamps progress, batches scroll work and cleans up pending work (0.196333ms)
+✔ switching to reduced motion removes a running fallback without leaving transforms behind (0.068458ms)
+✔ static/reduced/paused composition schedules no frames or input subscriptions (0.497ms)
+✔ pointer depth is bounded, interpolated and stops requesting frames after settling (0.6885ms)
+✔ touch/coarse pointers do not drive perspective; scroll stays batched and clamped (0.195042ms)
+✔ hidden tab and offscreen scene pause CSS, cancel work and resume without duplicate frames (0.132917ms)
+✔ the three public routes have distinct titles and descriptions in their content language (0.559459ms)
+✔ unknown paths are not indexed as portfolio pages (0.145792ms)
+✔ static route directories preserve the project navigation when a host adds a trailing slash (0.431167ms)
+✔ static project HTML has one correct title, language and description before React runs (0.454166ms)
+✔ Preview serves the static project head on the original public URLs without requiring a slash (0.131292ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43.427458

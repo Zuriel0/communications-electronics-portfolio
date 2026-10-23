@@ -1,0 +1,59 @@
+{
+  "method": "File bytes, decimal kB. Build asset weights, not Web Vitals or measured transferred bytes.",
+  "before": {
+    "index.html": 578,
+    "_redirects": 24,
+    ".htaccess": 214,
+    "assets/anxzu-480-D9Ta-Nth.jpg": 157315,
+    "assets/index-2KdRo4pJ.css": 24594,
+    "assets/style-zfM0SEWa.css": 17425,
+    "assets/anxzu-1024-bLlLDyaE.jpg": 455950,
+    "assets/Concurrencia-BCu_sBKk.js": 40485,
+    "assets/anxzu-768-DTErN6Kh.jpg": 305451,
+    "assets/AX-BL9tpoD4.svg": 2241,
+    "assets/index-Dr8y6tYB.js": 263877,
+    "assets/Metodologia-CFZggoCX.js": 13694,
+    "assets/style-C7Z2X2AB.js": 176460,
+    ".vite/manifest.json": 1878
+  },
+  "after": {
+    "index.html": 578,
+    "_redirects": 24,
+    ".htaccess": 214,
+    "assets/anxzu-480-D9Ta-Nth.jpg": 157315,
+    "assets/Concurrencia-BqUwMoY7.js": 40485,
+    "assets/style-zfM0SEWa.css": 17425,
+    "assets/anxzu-1024-bLlLDyaE.jpg": 455950,
+    "assets/Metodologia-PmwAvLdS.js": 13694,
+    "assets/index-g_FgIJuY.css": 30088,
+    "assets/index-DHOIBMyc.js": 265349,
+    "assets/anxzu-768-DTErN6Kh.jpg": 305451,
+    "assets/style-BqtgH5yF.js": 176460,
+    "assets/AX-BL9tpoD4.svg": 2241,
+    ".vite/manifest.json": 1878
+  },
+  "chunkIsolation": {
+    "initialFiles": [
+      "assets/index-DHOIBMyc.js"
+    ],
+    "routes": [
+      {
+        "file": "assets/Concurrencia-BqUwMoY7.js",
+        "imports": [
+          "assets/index-DHOIBMyc.js",
+          "assets/style-BqtgH5yF.js"
+        ]
+      },
+      {
+        "file": "assets/Metodologia-PmwAvLdS.js",
+        "imports": [
+          "assets/index-DHOIBMyc.js",
+          "assets/style-BqtgH5yF.js"
+        ]
+      }
+    ],
+    "flowFiles": [
+      "assets/style-BqtgH5yF.js"
+    ]
+  }
+}

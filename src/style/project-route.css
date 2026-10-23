@@ -1,0 +1,11 @@
+.project-route-state {
+  min-height: 100svh;
+  padding-block: calc(var(--header-height) + var(--space-8)) var(--space-8);
+  display: flex;
+  align-items: center;
+  background: var(--background-primary);
+}
+.project-route-state h1 { margin-block: var(--space-5); }
+.project-route-state p { max-width: var(--reading-width); color: var(--text-secondary); }
+.project-route-status { font-size: var(--text-label); }
+.project-route-actions { display: flex; flex-wrap: wrap; gap: var(--space-5); margin-top: var(--space-6); }

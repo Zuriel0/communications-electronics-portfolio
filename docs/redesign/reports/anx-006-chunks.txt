@@ -1,0 +1,25 @@
+PASS: home excludes React Flow/d3/zustand; both dynamic project routes retain their diagrams.
+{
+  "initialFiles": [
+    "assets/index-Dj-hLoX5.js"
+  ],
+  "routes": [
+    {
+      "file": "assets/Concurrencia-DA8N5KCQ.js",
+      "imports": [
+        "assets/index-Dj-hLoX5.js",
+        "assets/style-oToVaKQS.js"
+      ]
+    },
+    {
+      "file": "assets/Metodologia-BMENUbBa.js",
+      "imports": [
+        "assets/index-Dj-hLoX5.js",
+        "assets/style-oToVaKQS.js"
+      ]
+    }
+  ],
+  "flowFiles": [
+    "assets/style-oToVaKQS.js"
+  ]
+}

@@ -1,0 +1,112 @@
+:root {
+  --color-obsidian: #090a0c;
+  --color-graphite: #1c1e23;
+  --color-pearl: #f5f5f7;
+  --color-silver: #8c96a6;
+  --color-ice-blue: #81afff;
+  --color-slate: #525b6b;
+  --color-blue-deep: #2458a6;
+  --color-white: #ffffff;
+  --color-line-dark: #6c7a90;
+  --color-line-light: #69768a;
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-regular: 400;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --text-display-xl: clamp(3rem, 1.5rem + 6vw, 7rem);
+  --text-display-l: clamp(2.5rem, 1.5rem + 3.5vw, 5rem);
+  --text-h1: clamp(2.125rem, 1.5rem + 2.5vw, 4rem);
+  --text-h2: clamp(1.875rem, 1.25rem + 2vw, 3rem);
+  --text-h3: clamp(1.25rem, 1.1rem + .65vw, 1.625rem);
+  --text-body-lg: clamp(1.125rem, 1rem + .3vw, 1.25rem);
+  --text-body: clamp(1rem, .95rem + .15vw, 1.0625rem);
+  --text-caption: clamp(.8125rem, .78rem + .1vw, .875rem);
+  --text-label: clamp(.875rem, .825rem + .2vw, 1rem);
+  --leading-display: 1.06;
+  --leading-heading: 1.2;
+  --leading-body: 1.65;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --content-max: 72rem;
+  --content-narrow: 48rem;
+  --reading-width: 68ch;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --section-space: clamp(4rem, 8vw, 7rem);
+  --header-height: 5rem;
+  --touch-target: 2.75rem;
+  --radius-sm: .5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 999px;
+  --border-width: 1px;
+  --focus-width: 3px;
+  --focus-offset: 4px;
+  /* Custom properties cannot be used as media query conditions. */
+  --breakpoint-small: 40rem;
+  --breakpoint-nav: 60rem;
+  --breakpoint-wide: 75rem;
+  --z-content: 0;
+  --z-header: 20;
+  --z-skip-link: 30;
+  --duration-hover: 200ms;
+  --duration-menu: 300ms;
+  --duration-card: 400ms;
+  --duration-editorial: 650ms;
+  --ease-standard: cubic-bezier(.2, .7, .2, 1);
+  --ease-exit: cubic-bezier(.4, 0, 1, 1);
+}
+:root, [data-theme='dark'] {
+  color-scheme: dark;
+  --background-primary: var(--color-obsidian);
+  --background-secondary: #111318;
+  --surface: var(--color-graphite);
+  --text-primary: var(--color-pearl);
+  --text-secondary: var(--color-silver);
+  --accent: var(--color-ice-blue);
+  --border: var(--color-line-dark);
+  --focus: var(--color-ice-blue);
+  --selection: var(--color-ice-blue);
+  --selection-text: var(--color-obsidian);
+  --interactive-hover: #22262e;
+  --interactive-active: #282d36;
+  --on-accent: var(--color-obsidian);
+  --accent-hover: #adcaff;
+  --accent-active: #c9dcff;
+}
+[data-theme='light'] {
+  color-scheme: light;
+  --background-primary: var(--color-pearl);
+  --background-secondary: #e9ebef;
+  --surface: var(--color-white);
+  --text-primary: var(--color-obsidian);
+  --text-secondary: var(--color-slate);
+  --accent: var(--color-blue-deep);
+  --border: var(--color-line-light);
+  --focus: var(--color-blue-deep);
+  --selection: var(--color-blue-deep);
+  --selection-text: var(--color-white);
+  --interactive-hover: #e3e7ed;
+  --interactive-active: #d4dbe5;
+  --on-accent: var(--color-white);
+  --accent-hover: #1d4a8d;
+  --accent-active: #163b72;
+}
+/* Aliases resolve in the nearest theme, including scoped Surfaces. */
+:root, [data-theme] {
+  --bg-color: var(--background-primary);
+  --bg-color-1: var(--background-primary);
+  --bg-color-2: var(--background-secondary);
+  --bg-color-3: var(--background-primary);
+  --surface-color: var(--surface);
+  --surface-hover: var(--interactive-hover);
+  --accent-color: var(--accent);
+  --border-color: var(--border);
+}

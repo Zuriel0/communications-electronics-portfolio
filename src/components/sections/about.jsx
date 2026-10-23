@@ -1,39 +1,37 @@
-import { useState } from "react";
-import "../../style/about.css";
-import { FiCamera } from "react-icons/fi";
+import { useState } from 'react';
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
+import ConnectionDiagram from '../ui/ConnectionDiagram';
+import portrait480 from '../../assets/images/portrait/anxzu-480.jpg';
+import portrait768 from '../../assets/images/portrait/anxzu-768.jpg';
+import portrait1024 from '../../assets/images/portrait/anxzu-1024.jpg';
+import { FiCamera } from 'react-icons/fi';
+import { professionalProfile } from '../../data/professionalProfile';
+import '../../style/about.css';
 
-const images = import.meta.glob("../../assets/images/anxzu.png", { eager: true });
-const anxzuImageUrl = images["../../assets/images/anxzu.png"]?.default;
-
-function About() {
-    const [imageError, setImageError] = useState(false);
-
-    return(
-    <section id="about" className="section-about"> 
-        <div className="about-container">
-            <h2>About Me</h2>
+export default function About() {
+  const [imageError, setImageError] = useState(false);
+  return (
+    <section id="about" tabIndex={-1} className="section-about" aria-labelledby="about-title">
+      <Container>
+        <SectionHeading title="About Me" id="about-title" className="about-heading" />
+        <div className="about-layout">
+          <figure className="about-portrait">
+            <div className="about-image-container">
+              {!imageError ? <img src={portrait768} srcSet={`${portrait480} 480w, ${portrait768} 768w, ${portrait1024} 1024w`} sizes="(min-width: 960px) 420px, (min-width: 640px) 400px, calc(100vw - 40px)" alt="Andres Zuriel Macias Rios" className="profile-image" width={1024} height={1536} loading="lazy" decoding="async" onError={() => setImageError(true)} /> : <FiCamera size={64} role="img" aria-label="Profile image unavailable" />}
+            </div>
+            <figcaption>Andres Zuriel Macias Rios</figcaption>
+          </figure>
+          <div className="about-text-container">
+            <h3 className="about-profession">{professionalProfile.title}</h3>
+            {professionalProfile.summary.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
+            <dl className="professional-focus">
+              {professionalProfile.focusAreas.map(area => <div key={area.title}><dt>{area.title}</dt><dd>{area.context}</dd></div>)}
+            </dl>
+          </div>
         </div>
-        <div className="about-text-container">
-            <p>I am an Electronics and Communications Engineer with a computing-oriented background and professional experience in telecom pre-sales, networking, infrastructure, frontend development, and technical support. Throughout my career, I have worked on connectivity solutions, LAN-to-LAN architectures, captive portal implementations, network equipment configuration, troubleshooting, and process automation tools.</p>
-            <p>My profile combines expertise in networking, Linux server administration, databases, web development, and technical documentation, allowing me to contribute from both a technical and strategic perspective. I am a problem-solving professional who enjoys analyzing requirements and designing tailored technology solutions that align with business needs.</p>
-            
-        </div>
-
-        <div className="about-image-container">
-            {anxzuImageUrl && !imageError ? (
-                <img 
-                    src={anxzuImageUrl} 
-                    alt="Profile Anxzu" 
-                    className="profile-image" 
-                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                    onError={() => setImageError(true)} 
-                />
-            ) : (
-                <FiCamera size={100} color="gray" />
-            )}
-        </div>
+        <ConnectionDiagram />
+      </Container>
     </section>
   );
-};
-
-export default About;
+}

@@ -5,7 +5,7 @@ function Metodologia() {
   return (
     <>
       <Navbar />
-      <IntroduceMetodologia />
+      <main id="main-content" tabIndex={-1} lang="en"><IntroduceMetodologia /></main>
     </>
   );
 }

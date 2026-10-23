@@ -1,4 +1,4 @@
-import React, { memo, useMemo, useState, useEffect } from 'react';
+import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
   Controls,
@@ -10,6 +10,10 @@ import {
   useEdgesState,
   useNodesState,
 } from '@xyflow/react';
+import useDiagramPlayback from '../../../hooks/useDiagramPlayback';
+import { decorateFlowEdges } from '../../../utils/engineeringFlows';
+import DiagramPlaybackControls from '../DiagramPlaybackControls';
+import { engineeringEdgeTypes } from '../engineeringEdgeTypes';
 import '@xyflow/react/dist/style.css';
 
 const glassCard = {
@@ -356,9 +360,12 @@ const initialEdges = [
 ];
 
 function ParallelMonitoringDiagram() {
+  const frameRef = useRef(null);
+  const playback = useDiagramPlayback(frameRef, 'business');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
-  const [isMobile, setIsMobile] = useState(false);
+  const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'business', playback.step), [edges, playback.step]);
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -375,9 +382,15 @@ function ParallelMonitoringDiagram() {
   );
 
   return (
+    <div className="diagram-scene">
+      <DiagramPlaybackControls playback={playback} id="diagram-business" title="Flujo secuencial y monitoreo paralelo" />
     <div
+      ref={frameRef} id="diagram-business" tabIndex={-1} role="group" aria-label="Flujo secuencial y monitoreo paralelo"
+      data-playing={playback.playing}
+      className="diagram-frame"
       style={{
         width: '100%',
+        position: 'relative',
         height: isMobile ? '550px' : 660,
         background:
           'radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 24%), #05070b',
@@ -387,6 +400,7 @@ function ParallelMonitoringDiagram() {
       }}
     >
       <div
+        className="diagram-caption"
         style={{
           position: 'absolute',
           zIndex: 10,
@@ -411,8 +425,11 @@ function ParallelMonitoringDiagram() {
       </div>
 
       <ReactFlow
+        edgeTypes={engineeringEdgeTypes}
+        id="rf-business"
+        key={isMobile ? 'mobile' : 'desktop'}
         nodes={nodes}
-        edges={edges}
+        edges={animatedEdges}
         nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
@@ -422,7 +439,8 @@ function ParallelMonitoringDiagram() {
         nodesDraggable={false}
         nodesConnectable={false}
         elementsSelectable={false}
-        zoomOnScroll={!isMobile}
+        zoomOnScroll={false}
+        preventScrolling={false}
         panOnDrag={!isMobile}
         minZoom={isMobile ? 0.05 : 0.35}
         maxZoom={1.5}
@@ -444,6 +462,7 @@ function ParallelMonitoringDiagram() {
           }}
         /> */}
         </ReactFlow>
+    </div>
     </div>
   );
 }

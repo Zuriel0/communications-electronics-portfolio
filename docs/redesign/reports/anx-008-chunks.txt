@@ -1,0 +1,25 @@
+PASS: home excludes React Flow/d3/zustand; both dynamic project routes retain their diagrams.
+{
+  "initialFiles": [
+    "assets/index-Bdl0Jfwi.js"
+  ],
+  "routes": [
+    {
+      "file": "assets/Concurrencia-DAmNFuV3.js",
+      "imports": [
+        "assets/index-Bdl0Jfwi.js",
+        "assets/style-BvfWx5IH.js"
+      ]
+    },
+    {
+      "file": "assets/Metodologia-3a8UVMMZ.js",
+      "imports": [
+        "assets/index-Bdl0Jfwi.js",
+        "assets/style-BvfWx5IH.js"
+      ]
+    }
+  ],
+  "flowFiles": [
+    "assets/style-BvfWx5IH.js"
+  ]
+}

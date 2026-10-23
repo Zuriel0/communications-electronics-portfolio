@@ -1,0 +1,365 @@
+{
+  "method": "Approximate aggregate CPU time of a fresh Chrome headless process tree from ps, after 3s warmup, eight ~1s samples per run, three alternating runs per variant. 100% equals one CPU core. No scroll or cursor input; not GPU utilization or FPS. Other normal host apps remain open.",
+  "chromeFlags": [
+    "--headless=new",
+    "--no-first-run",
+    "--disable-background-networking",
+    "--window-size=1440,900"
+  ],
+  "results": [
+    {
+      "variant": "classic",
+      "repeat": 1,
+      "samples": [
+        {
+          "wallSeconds": 1.0268833330000002,
+          "cpuSeconds": 0.02999999999999997,
+          "oneCorePercent": 2.9214613808519148,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0387915839999993,
+          "cpuSeconds": 0.030000000000000027,
+          "oneCorePercent": 2.8879710292300604,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0401254160000004,
+          "cpuSeconds": 0.020000000000000004,
+          "oneCorePercent": 1.922845042755882,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0314876249999996,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9694735794818685,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0394896670000007,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0412711249999997,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0420503750000005,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.036659792,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.964636622079002,
+          "processes": 9
+        }
+      ],
+      "cpuSeconds": 0.10000000000000002,
+      "wallSeconds": 8.296758917000002,
+      "oneCorePercent": 1.2052899330978595
+    },
+    {
+      "variant": "immersive",
+      "repeat": 1,
+      "samples": [
+        {
+          "wallSeconds": 1.036640125,
+          "cpuSeconds": 0.4799999999999999,
+          "oneCorePercent": 46.30343630582503,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0326661249999987,
+          "cpuSeconds": 0.5200000000000001,
+          "oneCorePercent": 50.35509419852431,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0377871670000012,
+          "cpuSeconds": 0.4999999999999999,
+          "oneCorePercent": 48.17943562025173,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.037813958000001,
+          "cpuSeconds": 0.44000000000000006,
+          "oneCorePercent": 42.39680885078245,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0404424999999975,
+          "cpuSeconds": 0.5,
+          "oneCorePercent": 48.05647597056072,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0364864580000024,
+          "cpuSeconds": 0.51,
+          "oneCorePercent": 49.20469496380037,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0338227499999988,
+          "cpuSeconds": 0.47,
+          "oneCorePercent": 45.46233868426677,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0346497499999998,
+          "cpuSeconds": 0.45999999999999996,
+          "oneCorePercent": 44.45948979352676,
+          "processes": 9
+        }
+      ],
+      "cpuSeconds": 3.88,
+      "wallSeconds": 8.290308833,
+      "oneCorePercent": 46.801634030272325
+    },
+    {
+      "variant": "classic",
+      "repeat": 2,
+      "samples": [
+        {
+          "wallSeconds": 1.0350323340000003,
+          "cpuSeconds": 0.029999999999999957,
+          "oneCorePercent": 2.8984601750615404,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.032695540999999,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9683396124976605,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.034034792,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9670854479333622,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0364374579999982,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9648435535412718,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0282775840000014,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.972500048197102,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.039017416,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0386062500000008,
+          "cpuSeconds": 0.020000000000000018,
+          "oneCorePercent": 1.9256575819758452,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0394959169999964,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        }
+      ],
+      "cpuSeconds": 0.09000000000000001,
+      "wallSeconds": 8.283597291999996,
+      "oneCorePercent": 1.086484492515333
+    },
+    {
+      "variant": "immersive",
+      "repeat": 2,
+      "samples": [
+        {
+          "wallSeconds": 1.032280292000003,
+          "cpuSeconds": 0.31999999999999995,
+          "oneCorePercent": 30.999332495248204,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.023979040999997,
+          "cpuSeconds": 0.38,
+          "oneCorePercent": 37.110134561826555,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.03232225,
+          "cpuSeconds": 0.44000000000000006,
+          "oneCorePercent": 42.62234975561169,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0358301670000003,
+          "cpuSeconds": 0.39,
+          "oneCorePercent": 37.65095982187202,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.035159667000002,
+          "cpuSeconds": 0.29000000000000015,
+          "oneCorePercent": 28.01500186347577,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0293301660000012,
+          "cpuSeconds": 0.3999999999999997,
+          "oneCorePercent": 38.86022320266861,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0296487920000033,
+          "cpuSeconds": 0.3900000000000001,
+          "oneCorePercent": 37.87699291546383,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0312206669999995,
+          "cpuSeconds": 0.40000000000000013,
+          "oneCorePercent": 38.78898210638755,
+          "processes": 9
+        }
+      ],
+      "cpuSeconds": 3.01,
+      "wallSeconds": 8.249771042000006,
+      "oneCorePercent": 36.48586105815466
+    },
+    {
+      "variant": "classic",
+      "repeat": 3,
+      "samples": [
+        {
+          "wallSeconds": 1.0342804579999978,
+          "cpuSeconds": 0.039999999999999966,
+          "oneCorePercent": 3.867422969331598,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0348821250000029,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9662936249865154,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0383306250000004,
+          "cpuSeconds": 0.01999999999999999,
+          "oneCorePercent": 1.9261687480324472,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0304037499999978,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0352772079999966,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.038439375000003,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.036227334000003,
+          "cpuSeconds": 0.040000000000000036,
+          "oneCorePercent": 3.8601568099534345,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0336226659999994,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        }
+      ],
+      "cpuSeconds": 0.11,
+      "wallSeconds": 8.281463541,
+      "oneCorePercent": 1.3282676359729202
+    },
+    {
+      "variant": "immersive",
+      "repeat": 3,
+      "samples": [
+        {
+          "wallSeconds": 1.0366171249999994,
+          "cpuSeconds": 0.5000000000000001,
+          "oneCorePercent": 48.2338163186336,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0307220830000006,
+          "cpuSeconds": 0.4,
+          "oneCorePercent": 38.80774523000103,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0376709579999996,
+          "cpuSeconds": 0.44000000000000006,
+          "oneCorePercent": 42.402651496390845,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0399103340000053,
+          "cpuSeconds": 0.45999999999999996,
+          "oneCorePercent": 44.23458301742366,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0264616250000032,
+          "cpuSeconds": 0.48999999999999977,
+          "oneCorePercent": 47.73680652698519,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.032071290999994,
+          "cpuSeconds": 0.3799999999999999,
+          "oneCorePercent": 36.81916194295167,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.029945459000004,
+          "cpuSeconds": 0.44999999999999996,
+          "oneCorePercent": 43.691633966415516,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0327231659999967,
+          "cpuSeconds": 0.4800000000000004,
+          "oneCorePercent": 46.479058067339025,
+          "processes": 9
+        }
+      ],
+      "cpuSeconds": 3.6000000000000005,
+      "wallSeconds": 8.266122041000003,
+      "oneCorePercent": 43.55125634661555
+    }
+  ],
+  "summary": {
+    "classic": {
+      "medianOneCorePercent": 1.2052899330978595,
+      "min": 1.086484492515333,
+      "max": 1.3282676359729202
+    },
+    "immersive": {
+      "medianOneCorePercent": 43.55125634661555,
+      "min": 36.48586105815466,
+      "max": 46.801634030272325
+    }
+  }
+}

@@ -1,0 +1,1056 @@
+{
+  "homeMatrix": [
+    {
+      "capabilities": 8,
+      "client": 305,
+      "experience": 4,
+      "flows": 0,
+      "h1": 1,
+      "heroAvailable": 265,
+      "heroWidth": 257.609375,
+      "main": 1,
+      "route": "/",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "capabilities": 8,
+      "client": 360,
+      "experience": 4,
+      "flows": 0,
+      "h1": 1,
+      "heroAvailable": 320,
+      "heroWidth": 301.890625,
+      "main": 1,
+      "route": "/",
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "capabilities": 8,
+      "client": 753,
+      "experience": 4,
+      "flows": 0,
+      "h1": 1,
+      "heroAvailable": 439.6875,
+      "heroWidth": 420.421875,
+      "main": 1,
+      "route": "/",
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "capabilities": 8,
+      "client": 1009,
+      "experience": 4,
+      "flows": 0,
+      "h1": 1,
+      "heroAvailable": 596.71875,
+      "heroWidth": 550.25,
+      "main": 1,
+      "route": "/",
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "capabilities": 8,
+      "client": 1425,
+      "experience": 4,
+      "flows": 0,
+      "h1": 1,
+      "heroAvailable": 746.65625,
+      "heroWidth": 710.984375,
+      "main": 1,
+      "route": "/",
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "capabilities": 8,
+      "client": 1905,
+      "experience": 4,
+      "flows": 0,
+      "h1": 1,
+      "heroAvailable": 746.65625,
+      "heroWidth": 721.296875,
+      "main": 1,
+      "route": "/",
+      "scroll": 1905,
+      "width": 1920
+    }
+  ],
+  "concurrenciaMatrix": [
+    {
+      "client": 305,
+      "flows": 4,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 435.4375
+        },
+        {
+          "gap": 0,
+          "height": 436.34375
+        },
+        {
+          "gap": 0,
+          "height": 459.4375
+        },
+        {
+          "gap": 0,
+          "height": 413.25
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/concurrencia",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 360,
+      "flows": 4,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 482.46875
+        },
+        {
+          "gap": 0,
+          "height": 459.375
+        },
+        {
+          "gap": 0,
+          "height": 482.46875
+        },
+        {
+          "gap": 0,
+          "height": 459.375
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/concurrencia",
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 753,
+      "flows": 4,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 416.296875
+        },
+        {
+          "gap": 0,
+          "height": 392
+        },
+        {
+          "gap": 0,
+          "height": 416.296875
+        },
+        {
+          "gap": 0,
+          "height": 392
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/concurrencia",
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "flows": 4,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 622.59375
+        },
+        {
+          "gap": 0,
+          "height": 522.59375
+        },
+        {
+          "gap": 0,
+          "height": 552.59375
+        },
+        {
+          "gap": 0,
+          "height": 682.59375
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/concurrencia",
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1425,
+      "flows": 4,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 618.03125
+        },
+        {
+          "gap": 0,
+          "height": 518.03125
+        },
+        {
+          "gap": 0,
+          "height": 548.03125
+        },
+        {
+          "gap": 0,
+          "height": 678.03125
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/concurrencia",
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "client": 1905,
+      "flows": 4,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 618.03125
+        },
+        {
+          "gap": 0,
+          "height": 518.03125
+        },
+        {
+          "gap": 0,
+          "height": 548.03125
+        },
+        {
+          "gap": 0,
+          "height": 678.03125
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/concurrencia",
+      "scroll": 1905,
+      "width": 1920
+    }
+  ],
+  "metodologiaMatrix": [
+    {
+      "client": 305,
+      "flows": 2,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 504.71875,
+          "minimumNodeGap": 17.1630859375,
+          "nodesInside": true
+        },
+        {
+          "gap": 0,
+          "height": 527.8125,
+          "minimumNodeGap": 23.7353515625,
+          "nodesInside": true
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/metodologia",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 360,
+      "flows": 2,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 551.75,
+          "minimumNodeGap": 18.752685546875,
+          "nodesInside": true
+        },
+        {
+          "gap": 0,
+          "height": 551.75,
+          "minimumNodeGap": 24.814453125,
+          "nodesInside": true
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/metodologia",
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 753,
+      "flows": 2,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 540.59375,
+          "minimumNodeGap": 18.385986328125,
+          "nodesInside": true
+        },
+        {
+          "gap": 0,
+          "height": 540.59375,
+          "minimumNodeGap": 24.32861328125,
+          "nodesInside": true
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/metodologia",
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "flows": 2,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 987.75,
+          "minimumNodeGap": 33.592041015625,
+          "nodesInside": true
+        },
+        {
+          "gap": 0,
+          "height": 1067.75,
+          "minimumNodeGap": 48.01025390625,
+          "nodesInside": true
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/metodologia",
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1425,
+      "flows": 2,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 984.421875,
+          "minimumNodeGap": 33.428955078125,
+          "nodesInside": true
+        },
+        {
+          "gap": 0,
+          "height": 1064.421875,
+          "minimumNodeGap": 47.90283203125,
+          "nodesInside": true
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/metodologia",
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "client": 1905,
+      "flows": 2,
+      "frames": [
+        {
+          "gap": 0,
+          "height": 984.421875,
+          "minimumNodeGap": 33.428955078125,
+          "nodesInside": true
+        },
+        {
+          "gap": 0,
+          "height": 1064.421875,
+          "minimumNodeGap": 47.90283203125,
+          "nodesInside": true
+        }
+      ],
+      "h1": 1,
+      "main": 1,
+      "route": "/projects/metodologia",
+      "scroll": 1905,
+      "width": 1920
+    }
+  ],
+  "concurrenciaControls": [
+    {
+      "diagram": 1,
+      "before": "transform: translate(141.117px, 14px) scale(0.67583);",
+      "after": "transform: translate(54.3402px, -45px) scale(0.810997);",
+      "fit": "transform: translate(161.708px, 28px) scale(0.643757);"
+    },
+    {
+      "diagram": 2,
+      "before": "transform: translate(219.692px, -193.833px) scale(0.490079);",
+      "after": "transform: translate(148.631px, -284.4px) scale(0.588095);",
+      "fit": "transform: translate(235.516px, -172.667px) scale(0.468254);"
+    },
+    {
+      "diagram": 3,
+      "before": "transform: translate(2.91209px, 62.6286px) scale(0.602198);",
+      "after": "transform: translate(-111.505px, 20.3543px) scale(0.722637);",
+      "fit": "transform: translate(29.011px, 72.2714px) scale(0.574725);"
+    },
+    {
+      "diagram": 4,
+      "before": "transform: translate(17.4615px, 1.76923px) scale(0.526923);",
+      "after": "transform: translate(-94.0462px, -65.6769px) scale(0.632308);",
+      "fit": "transform: translate(41.9423px, 17.1538px) scale(0.502885);"
+    }
+  ],
+  "metodologiaControls": [
+    {
+      "diagram": 1,
+      "before": "transform: translate(-283.879px, 15.1616px) scale(0.79798);",
+      "after": "transform: translate(-455.655px, -80.2061px) scale(0.957576);",
+      "fit": "transform: translate(72.697px, -28.404px) scale(0.905051);"
+    },
+    {
+      "diagram": 2,
+      "before": "transform: translate(-289.679px, 38.7706px) scale(0.787156);",
+      "after": "transform: translate(-462.615px, -59.8752px) scale(0.944587);",
+      "fit": "transform: translate(68.7982px, -4.2844px) scale(0.888073);"
+    }
+  ],
+  "homeSemantics": {
+    "canonical": [
+      "https://anxzu.com/"
+    ],
+    "externalLinks": [
+      {
+        "href": "https://github.com/Zuriel0",
+        "label": "GitHub",
+        "rel": "noopener noreferrer",
+        "target": "_blank"
+      },
+      {
+        "href": "https://www.linkedin.com/in/andr%C3%A9s-zuriel-mac%C3%ADas-r%C3%ADos",
+        "label": "LinkedIn",
+        "rel": "noopener noreferrer",
+        "target": "_blank"
+      }
+    ],
+    "h1": 1,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "ANXZU"
+      },
+      {
+        "tag": "H2",
+        "text": "About Me"
+      },
+      {
+        "tag": "H2",
+        "text": "Featured Projects"
+      },
+      {
+        "tag": "H3",
+        "text": "Concurrent log monitor via SSH"
+      },
+      {
+        "tag": "H3",
+        "text": "AI-assisted customization methodology"
+      },
+      {
+        "tag": "H2",
+        "text": "Capabilities"
+      },
+      {
+        "tag": "H3",
+        "text": "Networks"
+      },
+      {
+        "tag": "H4",
+        "text": "Communications"
+      },
+      {
+        "tag": "H4",
+        "text": "Networking"
+      },
+      {
+        "tag": "H3",
+        "text": "Systems & solutions"
+      },
+      {
+        "tag": "H4",
+        "text": "Infrastructure"
+      },
+      {
+        "tag": "H4",
+        "text": "Cybersecurity"
+      },
+      {
+        "tag": "H4",
+        "text": "Technical Pre-Sales"
+      },
+      {
+        "tag": "H3",
+        "text": "Software"
+      },
+      {
+        "tag": "H4",
+        "text": "Web Development"
+      },
+      {
+        "tag": "H4",
+        "text": "Databases"
+      },
+      {
+        "tag": "H4",
+        "text": "Platforms & Tools"
+      },
+      {
+        "tag": "H2",
+        "text": "Professional experience"
+      },
+      {
+        "tag": "H3",
+        "text": "DataWifi"
+      },
+      {
+        "tag": "H3",
+        "text": "Servnet"
+      },
+      {
+        "tag": "H3",
+        "text": "End To End"
+      },
+      {
+        "tag": "H3",
+        "text": "M.T. de México"
+      },
+      {
+        "tag": "H2",
+        "text": "Let's connect."
+      }
+    ],
+    "images": [
+      {
+        "alt": "Andres Zuriel Macias Rios",
+        "complete": true,
+        "loaded": true
+      }
+    ],
+    "internalLinks": [
+      {
+        "exists": true,
+        "href": "#main-content"
+      },
+      {
+        "exists": true,
+        "href": "#hero"
+      },
+      {
+        "exists": true,
+        "href": "#about"
+      },
+      {
+        "exists": true,
+        "href": "#projects"
+      },
+      {
+        "exists": true,
+        "href": "#skills"
+      },
+      {
+        "exists": true,
+        "href": "#experience"
+      },
+      {
+        "exists": true,
+        "href": "#contact"
+      },
+      {
+        "exists": true,
+        "href": "#projects"
+      },
+      {
+        "exists": true,
+        "href": "#contact"
+      },
+      {
+        "exists": true,
+        "href": "#experience"
+      },
+      {
+        "exists": true,
+        "href": "#hero"
+      }
+    ],
+    "lang": "en",
+    "mail": [
+      {
+        "href": "mailto:andres.macias@anxzu.com",
+        "text": "andres.macias@anxzu.com"
+      }
+    ],
+    "main": 1,
+    "route": "/",
+    "sections": [
+      {
+        "count": 1,
+        "id": "hero"
+      },
+      {
+        "count": 1,
+        "id": "about"
+      },
+      {
+        "count": 1,
+        "id": "projects"
+      },
+      {
+        "count": 1,
+        "id": "skills"
+      },
+      {
+        "count": 1,
+        "id": "experience"
+      },
+      {
+        "count": 1,
+        "id": "contact"
+      }
+    ],
+    "title": "ANXZU — The Art of Engineering"
+  },
+  "motion": {
+    "heroStart": {
+      "animationDuration": "0.65s",
+      "heroOpacity": "1",
+      "heroTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "reducedMotion": false,
+      "supportsTimeline": true
+    },
+    "heroScroll": {
+      "heroOpacity": "0.872123",
+      "heroTransform": "matrix(1, 0, 0, 1, 0, -10.2302)",
+      "scrollY": 500
+    },
+    "experience": {
+      "animation": "experience-progress",
+      "focus": "experience",
+      "hash": "#experience",
+      "line": "matrix(1, 0, 0, 0.133851, 0, 0)"
+    },
+    "experienceAfterScroll": {
+      "line": "matrix(1, 0, 0, 0.475327, 0, 0)",
+      "scrollY": 5378
+    },
+    "limitation": "DOM states during native scroll; not FPS, video or reduced-motion emulation."
+  },
+  "menuRaceAfter": {
+    "active": "View Projects ",
+    "expanded": "false",
+    "inert": true,
+    "visibility": "visible"
+  },
+  "contactKeyboard": [
+    {
+      "height": 58.890625,
+      "href": "mailto:andres.macias@anxzu.com",
+      "outline": "rgb(129, 175, 255) solid 3px",
+      "text": "andres.macias@anxzu.com",
+      "top": 391.71875
+    },
+    {
+      "height": 44,
+      "href": "https://github.com/Zuriel0",
+      "outline": "rgb(129, 175, 255) solid 3px",
+      "text": "GitHub",
+      "top": 391.71875
+    },
+    {
+      "height": 44,
+      "href": "https://www.linkedin.com/in/andrés-zuriel-macías-ríos",
+      "outline": "rgb(129, 175, 255) solid 3px",
+      "text": "LinkedIn",
+      "top": 391.71875
+    },
+    {
+      "height": 44,
+      "href": "#hero",
+      "outline": "rgb(129, 175, 255) solid 3px",
+      "text": "Back to top ",
+      "top": 831.859375
+    }
+  ],
+  "wheelBefore": {
+    "before": {
+      "scrollY": 2495,
+      "transform": "transform: translate(123.313px, -246.667px) scale(0.623016);",
+      "x": 942.5,
+      "y": 555.58125
+    },
+    "after": {
+      "scrollY": 2495,
+      "transform": "transform: translate(390.953px, 5.13885px) scale(0.378231);"
+    }
+  },
+  "wheelAfter": {
+    "before": {
+      "scrollY": 2495,
+      "transform": "transform: translate(123.313px, -246.667px) scale(0.623016);",
+      "x": 942.5,
+      "y": 555.58125
+    },
+    "after": {
+      "scrollY": 2855,
+      "transform": "transform: translate(123.313px, -246.667px) scale(0.623016);"
+    }
+  },
+  "mobileFitBefore": {
+    "width": 375,
+    "diagram1": {
+      "canvasTop": 134.875,
+      "canvasBottom": 686.625,
+      "nodeBottom": 1003.6380615234376
+    },
+    "diagram2": {
+      "canvasTop": 2604.125,
+      "canvasBottom": 3155.875,
+      "nodeBottom": 3547.891357421875
+    }
+  },
+  "mobileFitAfter": [
+    {
+      "canvasBottom": 3822.625,
+      "canvasTop": 3270.875,
+      "minimumGap": 18.752685546875,
+      "nodeBottom": 3776.779541015625,
+      "nodeTop": 3316.875
+    },
+    {
+      "canvasBottom": 6291.875,
+      "canvasTop": 5740.125,
+      "minimumGap": 24.814453125,
+      "nodeBottom": 6246.029296875,
+      "nodeTop": 5786.125
+    }
+  ],
+  "diagramContent": [
+    {
+      "file": "bussiness_flow.jsx",
+      "nodeCount": 9,
+      "nodeContentPreserved": true,
+      "edgesPreserved": true
+    },
+    {
+      "file": "flow_loadbalance.jsx",
+      "nodeCount": 6,
+      "nodeContentPreserved": true,
+      "edgesPreserved": true
+    },
+    {
+      "file": "highlevel_flow.jsx",
+      "nodeCount": 12,
+      "nodeContentPreserved": true,
+      "edgesPreserved": true
+    },
+    {
+      "file": "logic_flow.jsx",
+      "nodeCount": 7,
+      "nodeContentPreserved": true,
+      "edgesPreserved": true
+    },
+    {
+      "file": "metodologia_problem_flow.jsx",
+      "nodeCount": 6,
+      "nodeContentPreserved": true,
+      "edgesPreserved": true
+    },
+    {
+      "file": "metodologia_solution_flow.jsx",
+      "nodeCount": 6,
+      "nodeContentPreserved": true,
+      "edgesPreserved": true
+    }
+  ],
+  "imports": {
+    "files": 55,
+    "checked": 89,
+    "errors": [],
+    "method": "Parse static and literal dynamic relative imports, resolve files and compare each path segment to exact filesystem entries."
+  },
+  "http": [
+    {
+      "path": "/",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/",
+      "type": "text/html",
+      "title": "ANXZU — The Art of Engineering",
+      "lang": "en",
+      "descriptions": 1,
+      "ogTitles": 1,
+      "canonicals": [
+        "https://anxzu.com/"
+      ],
+      "ogUrl": "https://anxzu.com/"
+    },
+    {
+      "path": "/projects/concurrencia",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/projects/concurrencia",
+      "type": "text/html;charset=utf-8",
+      "title": "Monitor concurrente de logs por SSH | ANXZU",
+      "lang": "es",
+      "descriptions": 1,
+      "ogTitles": 1,
+      "canonicals": [
+        "https://anxzu.com/projects/concurrencia"
+      ],
+      "ogUrl": "https://anxzu.com/projects/concurrencia"
+    },
+    {
+      "path": "/projects/concurrencia/",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/projects/concurrencia/",
+      "type": "text/html;charset=utf-8",
+      "title": "Monitor concurrente de logs por SSH | ANXZU",
+      "lang": "es",
+      "descriptions": 1,
+      "ogTitles": 1,
+      "canonicals": [
+        "https://anxzu.com/projects/concurrencia"
+      ],
+      "ogUrl": "https://anxzu.com/projects/concurrencia"
+    },
+    {
+      "path": "/projects/metodologia",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/projects/metodologia",
+      "type": "text/html;charset=utf-8",
+      "title": "Personalización no invasiva asistida por IA | ANXZU",
+      "lang": "es",
+      "descriptions": 1,
+      "ogTitles": 1,
+      "canonicals": [
+        "https://anxzu.com/projects/metodologia"
+      ],
+      "ogUrl": "https://anxzu.com/projects/metodologia"
+    },
+    {
+      "path": "/projects/metodologia/",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/projects/metodologia/",
+      "type": "text/html;charset=utf-8",
+      "title": "Personalización no invasiva asistida por IA | ANXZU",
+      "lang": "es",
+      "descriptions": 1,
+      "ogTitles": 1,
+      "canonicals": [
+        "https://anxzu.com/projects/metodologia"
+      ],
+      "ogUrl": "https://anxzu.com/projects/metodologia"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/robots.txt",
+      "type": "text/plain",
+      "descriptions": 0,
+      "ogTitles": 0,
+      "canonicals": [],
+      "body": "User-agent: *\nAllow: /\nSitemap: https://anxzu.com/sitemap.xml\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/sitemap.xml",
+      "type": "text/xml",
+      "descriptions": 0,
+      "ogTitles": 0,
+      "canonicals": [],
+      "sitemapUrls": [
+        "https://anxzu.com/",
+        "https://anxzu.com/projects/concurrencia",
+        "https://anxzu.com/projects/metodologia"
+      ]
+    },
+    {
+      "path": "/Inter-OFL.txt",
+      "status": 200,
+      "url": "http://127.0.0.1:4173/Inter-OFL.txt",
+      "type": "text/plain",
+      "descriptions": 0,
+      "ogTitles": 0,
+      "canonicals": []
+    }
+  ],
+  "lazyDelay": {
+    "flows": 2,
+    "focus": "solucion",
+    "hash": "#solucion",
+    "lang": "es",
+    "targetTop": 103.625
+  },
+  "lazyError": {
+    "alert": "Unable to load this project.",
+    "backLink": "/#projects",
+    "flows": 0,
+    "lang": "en",
+    "reloadHeight": 52.390625
+  },
+  "lazyRecovery": {
+    "error": false,
+    "flows": 2,
+    "focus": "solucion",
+    "hash": "#solucion",
+    "targetTop": 103.625
+  },
+  "preservation": {
+    "baselineFiles": 105,
+    "changed": [
+      "src/index.css",
+      "src/App.jsx",
+      "src/style/projects.css",
+      "src/styles/base.css",
+      "src/components/ui/graphics/metodologia_solution_flow.jsx",
+      "src/components/ui/graphics/bussiness_flow.jsx",
+      "src/components/ui/graphics/flow_loadbalance.jsx",
+      "src/components/ui/graphics/highlevel_flow.jsx",
+      "src/components/ui/graphics/metodologia_problem_flow.jsx",
+      "src/components/ui/graphics/logic_flow.jsx",
+      "src/components/sections/introduce_metodologia.jsx",
+      "src/components/layout/Navigation.jsx",
+      "src/components/layout/ProjectRoute.jsx",
+      "src/data/navigation.js",
+      "index.html",
+      "vite.config.js"
+    ],
+    "unchanged": 89,
+    "missing": [],
+    "baselineSHA256": {
+      "src/index.css": "19a416fb92cd0464405064b3b5bd307a32954d00e1f01d9c7e73d3d09f50a914",
+      "src/main.jsx": "25939b4e69be62cfd6d09b11e6a2f5dddd1d02635b531de694bc808a9b69cd56",
+      "src/App.jsx": "74294cebbfb3259cd0662ed387b9cf4c84636b7d04ecd4320cb5257c86a7c805",
+      "src/utils/diagramPlayback.js": "ae05019bce25f1f6863fc9773ee46139584b42d12254729f1bdf28a2241bad9b",
+      "src/style/contac.css": "085193c761e3e36e7792d0f503aeab3fd7578fac75429810016f20df075fccb0",
+      "src/style/introduce.css": "4f158d16df604783fe7c78623c959c1b656f331ee8c5dff751eafb4e5ff90373",
+      "src/style/hero.css": "dd758be68ec664d0003de0e08bf4c4cc5a4942847cd56be239dc638f7e4e5214",
+      "src/style/projects.css": "779ed3aa4a8460bdf682ecab0dc2f56815577561fc47c8833a4a3c3982466b45",
+      "src/style/project-route.css": "cf1874e0f4757774086559a8a5182e09979e5462ec41df8b83cceae6548b3ad3",
+      "src/style/timelineseccion.css": "e1b7a1f6e59306d62393c605f86da14b03553ac5d75fb6a9f2a0cadf024d16cd",
+      "src/style/about.css": "b41c6c585c1b16986a73abc73cefecc50d82eacc9156264208a4e13bf4c26298",
+      "src/style/skills.css": "428fd71f2ed8a22878b01700a8baafa9d19846413878afcf264c3a0ad2ce6d89",
+      "src/style/layout/navbar.css": "626be0233a1b2f6525195af30fc15d798ab4082e8bee24dfead952b1c20ed891",
+      "src/styles/tokens.css": "c0f2a348290c1fa4b97c4fa98a66196da6847d7446446e4ddc649c0ab2551ffc",
+      "src/styles/base.css": "161f06018bf6d4c979c79d17da988b7e46f29441dbdc25b7a50925158ebae912",
+      "src/components/ui/Technical_Cards.jsx": "fe7ee2d2d9648474b7e48343986b951754e8ffc0aef5825f70f5a6c53b259fdf",
+      "src/components/ui/ConnectionDiagram.jsx": "53cedc27f768222f993d299f29f822e1793080fe7ce49cc4db4e206eb9c668cb",
+      "src/components/ui/button.jsx": "758f9ee37bba20f53df6904d9119f4901cbf5e5167a4a9180fcdd6289ee703df",
+      "src/components/ui/ActionLink.jsx": "0b462bacbce4664df37762e96ac74a331e108c699f8c204c23c258f82184e385",
+      "src/components/ui/Contact_from.jsx": "f2da4316a3fe452e42483a24bbb0b96dba13cd84124b45fe8ec024815e5403db",
+      "src/components/ui/AccessibleIconLink.jsx": "27434b49225ed81b4709440692037b35fa46aba6eed556db6f8893331a7cb8ca",
+      "src/components/ui/Contac_Info.jsx": "85726d3f839ddbd6d21fa337203ba3dea3623e2805e9451322d65398b45ceb09",
+      "src/components/ui/Container.jsx": "23290afaf8377e97cbfd5b520bf8210645fe4a5fedda492882b7e4c3ad94a429",
+      "src/components/ui/projects_card.jsx": "2be339099c2763eec2042df6c9d362d44cafb1c8e87bfb0716254af505d56e2a",
+      "src/components/ui/TimelineCard.jsx": "269803bfc3b12dc09ac3de6926f3e7e34b29177c07965b989faf868a83e3e6a0",
+      "src/components/ui/Surface.jsx": "bd370ca7fa4b74a932f94fd6aabcaff60112d34474769ea6d8aa27e8f561931b",
+      "src/components/ui/ProjectVisual.jsx": "4ffc24d00418d189129d9d73695bcc80089a7d6f3abb48669f366bcab56b3a6a",
+      "src/components/ui/SectionHeading.jsx": "a84f5af1b6f33527059c7b844446e3458e77d1381a918947c1f08146384b77fd",
+      "src/components/ui/social_log_crd.jsx": "4c93ee17e1bf55e42d103cddab221675e0bd32ea5ba520fcd8706ab22814395f",
+      "src/components/ui/graphics/metodologia_solution_flow.jsx": "2df92841bd790425aa1f3671345af521a780f5f9d1aa50f7967985ff0c4e16f5",
+      "src/components/ui/graphics/bussiness_flow.jsx": "0752b826ea29d503c8a972cb1d71d216f5a831e20450e4c6585b575c0c2fc083",
+      "src/components/ui/graphics/flow_loadbalance.jsx": "0a4f851e9b5af77f1e49ce1cc031e637a9813a9d765a331441367ac145f182cf",
+      "src/components/ui/graphics/highlevel_flow.jsx": "a148d04e1a9e4e0e88d20d21c69b4b16139e4ccd7c94624befcb54a12fe9bddd",
+      "src/components/ui/graphics/metodologia_problem_flow.jsx": "c9bee168376568a7c9914c973151c5c5dd21ee69d7bc6c0a3f2237415f999c88",
+      "src/components/ui/graphics/logic_flow.jsx": "66a195a05debdd72971195366a678051d9b78bf9a51a9cf39ac1d79b1df61394",
+      "src/components/sections/introduce_metodologia.jsx": "79a5327fdad17face150ab4e0ff86dc27999aba13cd0986d94bb2b181c8c57c9",
+      "src/components/sections/about.jsx": "20d273f327ab66c2959ee0232b330f37e3988f59688a425f2fea773633efed29",
+      "src/components/sections/skills.jsx": "1b7aa99107901bcca020839ffed2b6aef5490fe68c1646295e8b1e810b858397",
+      "src/components/sections/hero.jsx": "81a71a65e4cb5cd34b4063aee38d9a6637429741ccfd083347d633f66ee7f9df",
+      "src/components/sections/projects.jsx": "ffdc58fc37a5d56fbd356f28df22ebcf22c67b691c029eda4f933d05cdaaf203",
+      "src/components/sections/contac.jsx": "9f19b76afe85827298af2e0e2dfae421b64fde6ea533ac0938d895d79d100418",
+      "src/components/sections/heroMotion.js": "976ae0f11dfa474309648795f0fcdd23a17ad0274913d26b623d5dfe591f4902",
+      "src/components/sections/TimelineSection.jsx": "0b389f790d5a097d3504c1d093c0c9ac99bea1a282c1e50f72176ba4d34e72a3",
+      "src/components/sections/introduce.jsx": "e131bafe35de29e5a1888df03a6fb03da452b1b37e345f1f6892e314dc89f364",
+      "src/components/layout/Navigation.jsx": "3ecf615537636cbc2299059ab01960cc7194adee5daeadebca9ef94a7f184e30",
+      "src/components/layout/ProjectRoute.jsx": "be5fceb1de874a924742cb40c5da6d310840c0793fe413059c10d584b5f76cdf",
+      "src/components/layout/navbar.jsx": "77c78d6fc8e68d915b6c2be5891ccc132263a56b3225b728a10c94755de12c35",
+      "src/components/layout/navbar_project.jsx": "8dc6128c91b6e22efc610e3c8d944ca15ceae5b5b3da4a7254ea80e9415ca8b8",
+      "src/components/utils/ScrollToTop.jsx": "8ab449f4efa8f996ae175c7ed3cc7fedf327d32fae35f6b415a783bbb2e43b0e",
+      "src/hooks/useReducedMotion.js": "a45d19eb2f910c43c8dbb54f63c1d9c604e3d539e9f8f1c2cb5cc2a4f8c0fd4a",
+      "src/data/social_profiles.js": "9fd660958eb983f86149118f5014d7532f8ce8e442ec0349f7201765fb0ef420",
+      "src/data/timelineData.js": "aee90fcfed6d679e5cb9ea559b06e7831f076080ddd40b86c98c338cb26034b6",
+      "src/data/skills.js": "77f37b75c77fa7a2e2021508a2d5661f2c156e9bfc0abe88e627b7ef88467150",
+      "src/data/info_contac.js": "bd17fc70a588399a15e13ad7f7ac4ae170d5faad0d44144382f1490bed8fdb99",
+      "src/data/projects.js": "1d7438ec7e94872040afe3c51ef2a15420850c02f4b91b8265a4d219181fc020",
+      "src/data/navigation.js": "95c3efb160fdba14c072278f80990c24cd9770ee9f9f6afdbee39efa917b24f4",
+      "src/assets/images/anxzu.png": "b703cc8edcae9af7f0cb17019a09e51ea2bfd09156ce1d6619288a4fc165e69a",
+      "src/assets/images/portrait/anxzu-768.jpg": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730",
+      "src/assets/images/portrait/anxzu-480.jpg": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac",
+      "src/assets/images/portrait/anxzu-1024.jpg": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac",
+      "src/assets/icons/AX.svg": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7",
+      "src/pages/Home.jsx": "8fd540a8e15a811d29d8d603e9f5b2965b8deb6b3682c1145f6d0ba5a3482952",
+      "src/pages/projects/Concurrencia.jsx": "0f82e49dccdbb29b37e7c00e1645cf01c4cabd1a4c895ce27942ee5cde0c7503",
+      "src/pages/projects/Metodologia.jsx": "3450f840d8b2629cd7d41261fa6ac8df4fd2175041e260f63080a15d609a67e2",
+      "tests/foundations.test.js": "9397963cfe46c7f33dfcabfcd3de6db41b2550a5ad64a22c43d2e75ab0cde277",
+      "tests/hero-motion.test.js": "f2400b3e156d4b8d1a60e371b5afc42f72f743ba3825905777b7c838f9866d31",
+      "public/_redirects": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c",
+      "public/.htaccess": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258",
+      "docs/redesign/anx-005-report.md": "0932b7ddb1d4c34665606feda3180a990f13d84ff6fdf9522af718ceb4d20706",
+      "docs/redesign/anx-003-report.md": "37b5682c179d3e04a6e8c0333c39a4cd118f7805b82907569b42208ad490946d",
+      "docs/redesign/anx-004-report.md": "c319779bc42ca33f496414a50c3661c90cb27d11a2da0a5bcbb474ef50b2d453",
+      "docs/redesign/audit.md": "a11b8bde82f4433c0d9bd236c79d5aebe5a2b87554911212aad65409023f5264",
+      "docs/redesign/roadmap.md": "7c9c896cdbe9baebb29b386f96f6de64992c3ee766cd041074ff8e2d3bdd862e",
+      "docs/redesign/design-system.md": "e6398236fecca534f348d9064fee90e0bfb632a2d719b2d8863ea1d6c9387b11",
+      "docs/redesign/reports/anx-005-contact-mobile.jpg": "8b7389c8585c4d6c4d75856a23f46a45d22c4020d189cab21c4f1cdd79cd0e4e",
+      "docs/redesign/reports/anx-002-desktop.jpg": "b942d6ffe870213d809fb8af15dcb88417cc668fe1ebc0b71ff14dde19eed479",
+      "docs/redesign/reports/anx-004-connection-desktop.jpg": "f641bb6f7e6d9aa50ec7a86f3a1f6c5e4699124981f7d5b8f48f994fc1f973a5",
+      "docs/redesign/reports/anx-004-about-mobile.jpg": "9c373469fe1167422061a2279cf0d3ed2ac32339a07de3d33fa7cdad4bc6498d",
+      "docs/redesign/reports/anx-004-about-desktop.jpg": "5204344bf7877172a131f62b06872c9a64d503ccc0aae891dd9d770b4dfda50b",
+      "docs/redesign/reports/anx-005-experience-mobile.jpg": "7614e16bcbc5ad5a0a15132cf8263ce79e51f3dce6f796c8a895834ebdfbf4ed",
+      "docs/redesign/reports/anx-005-capabilities-mobile.jpg": "7f6a2395a1e70fedd24aa7ee3969f892d9ec6c7eee47c29d319dd1109322f936",
+      "docs/redesign/reports/anx-005-contact-desktop.jpg": "82ed49f0fcc78a1f0fd0135e8540c672a0f86c4c468ed5d657b36c781c41c1d4",
+      "docs/redesign/reports/anx-003-mobile.jpg": "d37e1119f0e3f92cd034ccc56d43194051ef1e9a8b8751c2b2a10b8197f2fdc2",
+      "docs/redesign/reports/anx-005-validation.json": "a733b580a8840b62e0ea93fa4362ec49d19d25e10449b8ffb30643818d50c3d5",
+      "docs/redesign/reports/anx-004-load-error.jpg": "c1553e0b569ce519afd2ad440ff04d6ec2532b4cacca57e7d5139c72a91691ba",
+      "docs/redesign/reports/anx-004-method-desktop.jpg": "678ce3bf586cdece65012390066f383b7430deab2e00c69e3561e178e9320d78",
+      "docs/redesign/reports/anx-005-bundles.json": "a683ca2016bff3fe870e37aaab3e0e9219475ab51658e3da6a3e4f8c7d7438e5",
+      "docs/redesign/reports/anx-004-projects-mobile.jpg": "25834b526fd131af9e2b99510fe2896721458304a273e5ce1c1d8d185a6f6062",
+      "docs/redesign/reports/anx-005-projects-capabilities.jpg": "b89bd183ca7ed5c965a3a64e20786ac57ff01085042da4339ac54715d7eb75dc",
+      "docs/redesign/reports/anx-004-bundles.json": "cc42f7a66df327f02379ba42cfead7f477697b0b462ba2e923249cf9b1cfbde2",
+      "docs/redesign/reports/anx-004-loading.jpg": "f7661e035a8bf50d6c6212e141d377d9a2bdac7ba6553aff485f49f179b411d4",
+      "docs/redesign/reports/anx-005-experience-desktop.jpg": "9aeabcc167a9c04cdbbe99a528450b330d0871bdacbc5776b4559b328bf029be",
+      "docs/redesign/reports/anx-002-contact-mobile.jpg": "f1d8852ae853def9c30c70dfa2e10599a32dc9df21960c3aa451819d139d6ce0",
+      "docs/redesign/reports/anx-003-desktop.jpg": "1ed20d0d56475f34109c6dcd3f5a5439c04a4e42b5bae121a23712b9175c8aec",
+      "docs/redesign/reports/anx-005-experience-contact.jpg": "9e4bd57ff323fab47db9a281085df6aaef8a8ce4e646fedb7baf27f137f9dd28",
+      "docs/redesign/reports/anx-004-projects-desktop.jpg": "ba264e23251e0b22e48b676b6a8ce113badb0f7b76866823f3edfd3c56ef936b",
+      "docs/redesign/reports/anx-005-capabilities-desktop.jpg": "86c07278a43d1198fd7c38fc58e0de945c32bceb587c878fc5cfee0e6beac310",
+      "docs/redesign/reports/anx-005-home-full.jpg": "f76e15f7992213d819725590ff120675485407344cd3e7ae92c3f1592b882c6a",
+      "docs/redesign/reports/anx-003-desktop-1024.jpg": "f5c2213dc582c78922bff1eec6b11e546df7d4e65e256a5d1411da21c33e5a4e",
+      "scripts/check-project-chunks.mjs": "64d6e9504e1886408144ddb167e19ea391a91a1dce9d6b446dd6dd24d5311e9c",
+      "package.json": "30e4d94bdf5318706845d1880dc236d7adeb6f1cd498138295f6dead3a046a10",
+      "package-lock.json": "503362866a16d76568d3d7f71325e3732e067f456cdef3914e06012d30f47127",
+      "index.html": "4232a6e36589be925e02a53f6c40a5907573657332a44bd3dbd8ee8d488860fc",
+      "vite.config.js": "72e78d2368a7dffa8472499ff70e7b91bd272c89993b68789770e9791aa383bf",
+      "skills-lock.json": "0f26e98e9b28e30e30b14e18d40f1e69ab9025e47ebab842861543cca6de73db"
+    }
+  },
+  "automatedChecks": {
+    "lint": "passed",
+    "build": "passed: npm run build -- --manifest",
+    "tests": "13 passed",
+    "chunks": "passed: home excludes React Flow/d3/zustand",
+    "diffCheck": "passed"
+  },
+  "limitations": [
+    "IAB viewport checks are not physical touch/device tests.",
+    "Reduced-motion preference, Safari and native 200/400 percent zoom were not executed.",
+    "No screen reader, field INP, continuous FPS or video evidence.",
+    "QA console errors from deliberately failed chunk requests are expected; excluded from normal route console results."
+  ]
+}
