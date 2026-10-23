@@ -1,0 +1,15 @@
+{
+  "sourceBaseline": "74a8250",
+  "sourceWhitespaceOnly": [
+    "src/components/ui/graphics/highlevel_flow.jsx",
+    "src/data/skills.js",
+    "src/pages/projects/Concurrencia.jsx"
+  ],
+  "runtimeOutputDifference": [],
+  "unusedOriginalAssetsRetained": [
+    "public/vite.svg",
+    "src/assets/react.svg",
+    "src/style/contact.css"
+  ],
+  "note": "Original Hero, six Flow models/controllers and professional/Credly data preserved. Highlevel Flow has only a blank-line trailing-space normalization."
+}

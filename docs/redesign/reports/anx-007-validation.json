@@ -1,0 +1,661 @@
+{
+  "matrix": [
+    {
+      "variant": "classic",
+      "width": 320,
+      "client": 305,
+      "cta": [
+        {
+          "height": 50.390625,
+          "text": "View Projects ",
+          "width": 265
+        },
+        {
+          "height": 52.390625,
+          "text": "Contact",
+          "width": 265
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 900,
+      "ids": true,
+      "main": 1,
+      "scroll": 305,
+      "titleAvailable": 265,
+      "titleWidth": 257.609375
+    },
+    {
+      "variant": "classic",
+      "width": 375,
+      "client": 360,
+      "cta": [
+        {
+          "height": 50.390625,
+          "text": "View Projects ",
+          "width": 320
+        },
+        {
+          "height": 52.390625,
+          "text": "Contact",
+          "width": 320
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 900,
+      "ids": true,
+      "main": 1,
+      "scroll": 360,
+      "titleAvailable": 320,
+      "titleWidth": 301.890625
+    },
+    {
+      "variant": "classic",
+      "width": 768,
+      "client": 753,
+      "cta": [
+        {
+          "height": 52.984375,
+          "text": "View Projects ",
+          "width": 184.171875
+        },
+        {
+          "height": 52.984375,
+          "text": "Contact",
+          "width": 112.546875
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 900,
+      "ids": true,
+      "main": 1,
+      "scroll": 753,
+      "titleAvailable": 439.6875,
+      "titleWidth": 420.421875
+    },
+    {
+      "variant": "classic",
+      "width": 1024,
+      "client": 1009,
+      "cta": [
+        {
+          "height": 53.609375,
+          "text": "View Projects ",
+          "width": 186.6875
+        },
+        {
+          "height": 53.609375,
+          "text": "Contact",
+          "width": 114
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 900,
+      "ids": true,
+      "main": 1,
+      "scroll": 1009,
+      "titleAvailable": 596.71875,
+      "titleWidth": 550.25
+    },
+    {
+      "variant": "classic",
+      "width": 1440,
+      "client": 1425,
+      "cta": [
+        {
+          "height": 54.046875,
+          "text": "View Projects ",
+          "width": 188.46875
+        },
+        {
+          "height": 54.046875,
+          "text": "Contact",
+          "width": 115.046875
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 900,
+      "ids": true,
+      "main": 1,
+      "scroll": 1425,
+      "titleAvailable": 746.65625,
+      "titleWidth": 710.984375
+    },
+    {
+      "variant": "classic",
+      "width": 1920,
+      "client": 1905,
+      "cta": [
+        {
+          "height": 54.046875,
+          "text": "View Projects ",
+          "width": 188.46875
+        },
+        {
+          "height": 54.046875,
+          "text": "Contact",
+          "width": 115.046875
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 900,
+      "ids": true,
+      "main": 1,
+      "scroll": 1905,
+      "titleAvailable": 746.65625,
+      "titleWidth": 721.296875
+    },
+    {
+      "variant": "immersive",
+      "width": 320,
+      "client": 305,
+      "cta": [
+        {
+          "height": 50.390625,
+          "text": "View Projects ",
+          "width": 265
+        },
+        {
+          "height": 52.390625,
+          "text": "Contact",
+          "width": 265
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 969.5,
+      "ids": true,
+      "main": 1,
+      "pauseHeight": 44,
+      "scroll": 305,
+      "titleAvailable": 265,
+      "titleWidth": 257.609375
+    },
+    {
+      "variant": "immersive",
+      "width": 375,
+      "client": 360,
+      "cta": [
+        {
+          "height": 50.390625,
+          "text": "View Projects ",
+          "width": 320
+        },
+        {
+          "height": 52.390625,
+          "text": "Contact",
+          "width": 320
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 981.328125,
+      "ids": true,
+      "main": 1,
+      "pauseHeight": 44,
+      "scroll": 360,
+      "titleAvailable": 320,
+      "titleWidth": 301.890625
+    },
+    {
+      "variant": "immersive",
+      "width": 768,
+      "client": 753,
+      "cta": [
+        {
+          "height": 50.984375,
+          "text": "View Projects ",
+          "width": 184.171875
+        },
+        {
+          "height": 52.984375,
+          "text": "Contact",
+          "width": 184.171875
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 1059.234375,
+      "ids": true,
+      "main": 1,
+      "pauseHeight": 44,
+      "scroll": 753,
+      "titleAvailable": 691.546875,
+      "titleWidth": 618.25
+    },
+    {
+      "variant": "immersive",
+      "width": 1024,
+      "client": 1009,
+      "cta": [
+        {
+          "height": 53.609375,
+          "text": "View Projects ",
+          "width": 186.6875
+        },
+        {
+          "height": 53.609375,
+          "text": "Contact",
+          "width": 114
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 929.75,
+      "ids": true,
+      "main": 1,
+      "pauseHeight": 44,
+      "scroll": 1009,
+      "titleAvailable": 927.078125,
+      "titleWidth": 659.46875
+    },
+    {
+      "variant": "immersive",
+      "width": 1440,
+      "client": 1425,
+      "cta": [
+        {
+          "height": 54.046875,
+          "text": "View Projects ",
+          "width": 188.46875
+        },
+        {
+          "height": 54.046875,
+          "text": "Contact",
+          "width": 115.046875
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 979.640625,
+      "ids": true,
+      "main": 1,
+      "pauseHeight": 44.390625,
+      "scroll": 1425,
+      "titleAvailable": 1152,
+      "titleWidth": 824.34375
+    },
+    {
+      "variant": "immersive",
+      "width": 1920,
+      "client": 1905,
+      "cta": [
+        {
+          "height": 54.046875,
+          "text": "View Projects ",
+          "width": 188.46875
+        },
+        {
+          "height": 54.046875,
+          "text": "Contact",
+          "width": 115.046875
+        }
+      ],
+      "flows": 0,
+      "h1": 1,
+      "heroHeight": 979.640625,
+      "ids": true,
+      "main": 1,
+      "pauseHeight": 44.390625,
+      "scroll": 1905,
+      "titleAvailable": 1152,
+      "titleWidth": 824.34375
+    }
+  ],
+  "pointerPrototype": {
+    "right": {
+      "transform": "matrix3d(0.994694, 0.00417351, -0.102793, 0, 0, 0.999177, 0.0405678, 0, 0.102878, -0.0403525, 0.993875, 0, 0, 0, 0, 1)",
+      "x": "0.6561",
+      "y": "-0.3875"
+    },
+    "left": {
+      "transform": "matrix3d(0.99812, -0.000700167, 0.0612815, 0, 0, 0.999935, 0.0114247, 0, -0.0612855, -0.0114032, 0.998055, 0, 0, 0, 0, 1)",
+      "x": "-0.3904",
+      "y": "-0.1091"
+    },
+    "method": "Documented coordinate clicks move the actual browser pointer before click; DOM computed transforms recorded. No synthetic events injected."
+  },
+  "playbackPrototype": {
+    "paused": {
+      "focus": "button hero-pause",
+      "orbit": "paused",
+      "outline": "3px",
+      "pressed": "true",
+      "running": "false",
+      "signals": [
+        "paused",
+        "paused",
+        "paused",
+        "paused"
+      ],
+      "static": "true"
+    },
+    "resumed": {
+      "orbit": "running",
+      "running": "true"
+    },
+    "offscreen": {
+      "focus": "projects",
+      "hash": "#projects",
+      "orbit": "paused",
+      "running": "false",
+      "targetTop": 104.21875
+    }
+  },
+  "finalPause": {
+    "focus": "button hero-pause",
+    "orbit": "paused",
+    "outline": "3px",
+    "pressed": "true",
+    "relays": [
+      "paused",
+      "paused",
+      "paused",
+      "paused"
+    ],
+    "running": "false"
+  },
+  "motionFinal": {
+    "ambient": {
+      "orbit": "matrix3d(0.999887, 0.00124438, 0.014964, 0, -0.00124424, 0.999999, -1.86209e-05, 0, -0.014964, 0, 0.999888, 0, 0, -1.14321, 0, 1)",
+      "progress": "0.0000",
+      "relays": [
+        "running",
+        "running",
+        "running",
+        "running"
+      ],
+      "running": "true"
+    },
+    "pointer": {
+      "orbit": "matrix3d(0.999615, -0.00493569, 0.027321, 0, 0.00493385, 0.999988, 0.00013485, 0, -0.0273213, 0, 0.999627, 0, 0, -2.08745, 0, 1)",
+      "pointerTransform": "matrix3d(0.995758, 0.003545, -0.0919443, 0, 0, 0.999258, 0.0385273, 0, 0.0920126, -0.0383639, 0.995019, 0, 0, 0, 0, 1)",
+      "pointerX": "0.5866",
+      "pointerY": "-0.3680"
+    },
+    "scroll": {
+      "aboutTop": 569.640625,
+      "continuationOpacity": "0.28556",
+      "progress": "0.5192",
+      "scrollY": 450,
+      "transport": "matrix(0.878405, 0.297173, -0.297173, 0.878405, -25.96, 67.496)"
+    }
+  },
+  "visibilityAttempt": {
+    "before": {
+      "orbit": "running",
+      "running": "true",
+      "visibility": "visible"
+    },
+    "otherTabActive": {
+      "orbit": "running",
+      "running": "true",
+      "visibility": "visible"
+    },
+    "restored": {
+      "orbit": "running",
+      "running": "true",
+      "visibility": "visible"
+    }
+  },
+  "keyboard": {
+    "menu": {
+      "focus": "View Projects ",
+      "menuExpanded": "false",
+      "outline": "3px"
+    },
+    "contact": {
+      "focus": "contact",
+      "hash": "#contact",
+      "top": 104.34375
+    }
+  },
+  "routes": {
+    "projects": [
+      {
+        "client": 360,
+        "flows": 4,
+        "focus": "highLevel",
+        "h1": 1,
+        "hash": "#highLevel",
+        "lang": "es",
+        "main": 1,
+        "path": "/projects/concurrencia",
+        "scroll": 360,
+        "title": "Monitor concurrente de logs por SSH | ANXZU"
+      },
+      {
+        "client": 360,
+        "flows": 2,
+        "focus": "solucion",
+        "h1": 1,
+        "hash": "#solucion",
+        "lang": "es",
+        "main": 1,
+        "path": "/projects/metodologia",
+        "scroll": 360,
+        "title": "Personalización no invasiva asistida por IA | ANXZU"
+      }
+    ],
+    "home": {
+      "flow": 0,
+      "h1": 1,
+      "immersive": true,
+      "path": "/"
+    },
+    "consoleErrorsObserved": []
+  },
+  "preservation": {
+    "baselineFiles": 168,
+    "changed": [
+      "src/pages/Home.jsx"
+    ],
+    "unchanged": 167,
+    "missing": [],
+    "baselineSHA256": {
+      "src/index.css": "230a5f4f00c46465092b64dbf452661b3da1978b7fa2ad5ab81f0a99278bc3d6",
+      "src/main.jsx": "25939b4e69be62cfd6d09b11e6a2f5dddd1d02635b531de694bc808a9b69cd56",
+      "src/App.jsx": "6961f7c13e167a8dc1387460e085fb8282e3aa30d0854d105dd703b8e018bc36",
+      "src/utils/diagramPlayback.js": "ae05019bce25f1f6863fc9773ee46139584b42d12254729f1bdf28a2241bad9b",
+      "src/style/contac.css": "085193c761e3e36e7792d0f503aeab3fd7578fac75429810016f20df075fccb0",
+      "src/style/introduce.css": "4f158d16df604783fe7c78623c959c1b656f331ee8c5dff751eafb4e5ff90373",
+      "src/style/hero.css": "dd758be68ec664d0003de0e08bf4c4cc5a4942847cd56be239dc638f7e4e5214",
+      "src/style/projects.css": "e25ee89f38f65f412e9b9fc86888f6230b419e42e0b62600313daca4c0a9c6e1",
+      "src/style/project-route.css": "cf1874e0f4757774086559a8a5182e09979e5462ec41df8b83cceae6548b3ad3",
+      "src/style/timelineseccion.css": "e1b7a1f6e59306d62393c605f86da14b03553ac5d75fb6a9f2a0cadf024d16cd",
+      "src/style/about.css": "b41c6c585c1b16986a73abc73cefecc50d82eacc9156264208a4e13bf4c26298",
+      "src/style/skills.css": "428fd71f2ed8a22878b01700a8baafa9d19846413878afcf264c3a0ad2ce6d89",
+      "src/style/layout/navbar.css": "626be0233a1b2f6525195af30fc15d798ab4082e8bee24dfead952b1c20ed891",
+      "src/styles/tokens.css": "c0f2a348290c1fa4b97c4fa98a66196da6847d7446446e4ddc649c0ab2551ffc",
+      "src/styles/fonts.css": "ba96ce786cb856fa648cba2c37e2a2d1d8a579418a3fbf6e81b7f394d4e5f8b9",
+      "src/styles/base.css": "c6c715ca279cec85a509c9d6e82501791a6afe225921206ba7f1ebf043482282",
+      "src/components/ui/Technical_Cards.jsx": "fe7ee2d2d9648474b7e48343986b951754e8ffc0aef5825f70f5a6c53b259fdf",
+      "src/components/ui/ConnectionDiagram.jsx": "53cedc27f768222f993d299f29f822e1793080fe7ce49cc4db4e206eb9c668cb",
+      "src/components/ui/button.jsx": "758f9ee37bba20f53df6904d9119f4901cbf5e5167a4a9180fcdd6289ee703df",
+      "src/components/ui/ActionLink.jsx": "0b462bacbce4664df37762e96ac74a331e108c699f8c204c23c258f82184e385",
+      "src/components/ui/Contact_from.jsx": "f2da4316a3fe452e42483a24bbb0b96dba13cd84124b45fe8ec024815e5403db",
+      "src/components/ui/AccessibleIconLink.jsx": "27434b49225ed81b4709440692037b35fa46aba6eed556db6f8893331a7cb8ca",
+      "src/components/ui/Contac_Info.jsx": "85726d3f839ddbd6d21fa337203ba3dea3623e2805e9451322d65398b45ceb09",
+      "src/components/ui/Container.jsx": "23290afaf8377e97cbfd5b520bf8210645fe4a5fedda492882b7e4c3ad94a429",
+      "src/components/ui/projects_card.jsx": "2be339099c2763eec2042df6c9d362d44cafb1c8e87bfb0716254af505d56e2a",
+      "src/components/ui/TimelineCard.jsx": "269803bfc3b12dc09ac3de6926f3e7e34b29177c07965b989faf868a83e3e6a0",
+      "src/components/ui/Surface.jsx": "bd370ca7fa4b74a932f94fd6aabcaff60112d34474769ea6d8aa27e8f561931b",
+      "src/components/ui/ProjectVisual.jsx": "4ffc24d00418d189129d9d73695bcc80089a7d6f3abb48669f366bcab56b3a6a",
+      "src/components/ui/SectionHeading.jsx": "a84f5af1b6f33527059c7b844446e3458e77d1381a918947c1f08146384b77fd",
+      "src/components/ui/social_log_crd.jsx": "4c93ee17e1bf55e42d103cddab221675e0bd32ea5ba520fcd8706ab22814395f",
+      "src/components/ui/graphics/metodologia_solution_flow.jsx": "499bf152358f3ba5549aedc2038badb37b3f914161c8597401d694725f7b7661",
+      "src/components/ui/graphics/bussiness_flow.jsx": "329a9a0fd27d91948ad8ff00233149ef1c3af38fa76a8e946ec470a303f9f4b4",
+      "src/components/ui/graphics/flow_loadbalance.jsx": "fa90704dc3eda0aadd4a8394b737d4642f6e03b62143424b4431015d1849b9e6",
+      "src/components/ui/graphics/highlevel_flow.jsx": "3f053a06af6324e806743181a8f71e926c448359262ad8fab100f6327fbb3bf6",
+      "src/components/ui/graphics/metodologia_problem_flow.jsx": "17163baf8cf103b413956e768bac1dc95c145498cca67c69dd34d0165760804d",
+      "src/components/ui/graphics/logic_flow.jsx": "6e9f59ce4c27e301552bf25d58a1e9dbdcd3c8d90c68954bb16c0937fd46a5ac",
+      "src/components/sections/introduce_metodologia.jsx": "fcfd4f2966243191546dcc5c89a6fa1a1dadc28b213dc35b57b17fd3f59d586a",
+      "src/components/sections/about.jsx": "20d273f327ab66c2959ee0232b330f37e3988f59688a425f2fea773633efed29",
+      "src/components/sections/skills.jsx": "1b7aa99107901bcca020839ffed2b6aef5490fe68c1646295e8b1e810b858397",
+      "src/components/sections/hero.jsx": "81a71a65e4cb5cd34b4063aee38d9a6637429741ccfd083347d633f66ee7f9df",
+      "src/components/sections/projects.jsx": "ffdc58fc37a5d56fbd356f28df22ebcf22c67b691c029eda4f933d05cdaaf203",
+      "src/components/sections/contac.jsx": "9f19b76afe85827298af2e0e2dfae421b64fde6ea533ac0938d895d79d100418",
+      "src/components/sections/heroMotion.js": "976ae0f11dfa474309648795f0fcdd23a17ad0274913d26b623d5dfe591f4902",
+      "src/components/sections/TimelineSection.jsx": "0b389f790d5a097d3504c1d093c0c9ac99bea1a282c1e50f72176ba4d34e72a3",
+      "src/components/sections/introduce.jsx": "e131bafe35de29e5a1888df03a6fb03da452b1b37e345f1f6892e314dc89f364",
+      "src/components/layout/Navigation.jsx": "1ba7eec8498e8cf980dd8eb371a4ef58da2c90a3fab7f54413c38943da11d46f",
+      "src/components/layout/ProjectRoute.jsx": "ad242f18c65295dc04082e611f900d30d5fd0c072a4cf9f3d99d20180abbe15e",
+      "src/components/layout/navbar.jsx": "77c78d6fc8e68d915b6c2be5891ccc132263a56b3225b728a10c94755de12c35",
+      "src/components/layout/navbar_project.jsx": "8dc6128c91b6e22efc610e3c8d944ca15ceae5b5b3da4a7254ea80e9415ca8b8",
+      "src/components/utils/PageMetadata.jsx": "158171203b2b5bce530debc9fb90baae72b19057be091ce03e48eec4bc64b132",
+      "src/components/utils/ScrollToTop.jsx": "8ab449f4efa8f996ae175c7ed3cc7fedf327d32fae35f6b415a783bbb2e43b0e",
+      "src/hooks/useReducedMotion.js": "a45d19eb2f910c43c8dbb54f63c1d9c604e3d539e9f8f1c2cb5cc2a4f8c0fd4a",
+      "src/data/social_profiles.js": "9fd660958eb983f86149118f5014d7532f8ce8e442ec0349f7201765fb0ef420",
+      "src/data/pageMetadata.js": "db352fb02958f6cb28ff37809cf72018426a1e7eaed97e106e7e3b0fb87d436c",
+      "src/data/timelineData.js": "aee90fcfed6d679e5cb9ea559b06e7831f076080ddd40b86c98c338cb26034b6",
+      "src/data/skills.js": "77f37b75c77fa7a2e2021508a2d5661f2c156e9bfc0abe88e627b7ef88467150",
+      "src/data/info_contac.js": "bd17fc70a588399a15e13ad7f7ac4ae170d5faad0d44144382f1490bed8fdb99",
+      "src/data/projects.js": "1d7438ec7e94872040afe3c51ef2a15420850c02f4b91b8265a4d219181fc020",
+      "src/data/navigation.js": "9bffe8cfc7a06c8fe068d3afd113438ebbc85d555e10d9717e60cd2409c35612",
+      "src/assets/images/anxzu.png": "b703cc8edcae9af7f0cb17019a09e51ea2bfd09156ce1d6619288a4fc165e69a",
+      "src/assets/images/portrait/anxzu-768.jpg": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730",
+      "src/assets/images/portrait/anxzu-480.jpg": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac",
+      "src/assets/images/portrait/anxzu-1024.jpg": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac",
+      "src/assets/icons/AX.svg": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7",
+      "src/assets/fonts/inter-latin.woff2": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "src/pages/Home.jsx": "8fd540a8e15a811d29d8d603e9f5b2965b8deb6b3682c1145f6d0ba5a3482952",
+      "src/pages/projects/Concurrencia.jsx": "0f82e49dccdbb29b37e7c00e1645cf01c4cabd1a4c895ce27942ee5cde0c7503",
+      "src/pages/projects/Metodologia.jsx": "3450f840d8b2629cd7d41261fa6ac8df4fd2175041e260f63080a15d609a67e2",
+      "tests/foundations.test.js": "9397963cfe46c7f33dfcabfcd3de6db41b2550a5ad64a22c43d2e75ab0cde277",
+      "tests/page-metadata.test.js": "27a122e71ff260e4da1141e395a7cdc6009fb856d71e73202c4849cbeae271ce",
+      "tests/hero-motion.test.js": "f2400b3e156d4b8d1a60e371b5afc42f72f743ba3825905777b7c838f9866d31",
+      "scripts/check-project-chunks.mjs": "64d6e9504e1886408144ddb167e19ea391a91a1dce9d6b446dd6dd24d5311e9c",
+      "scripts/page-head.mjs": "6c5587208fb15f4526e3810dc69e591be452425745dfe8bd025580d3f4c655aa",
+      "public/Inter-OFL.txt": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "public/_redirects": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c",
+      "public/sitemap.xml": "45fbfa7bfceeea465489514e5fc6d862ba4b9e5ea08f8b94fce98697d67aeecf",
+      "public/robots.txt": "2d0b448b86e71239f9452c6327065cdad41159f088810e88d2c671c1e37b8a92",
+      "public/.htaccess": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258",
+      "docs/redesign/anx-005-report.md": "0932b7ddb1d4c34665606feda3180a990f13d84ff6fdf9522af718ceb4d20706",
+      "docs/redesign/anx-003-report.md": "37b5682c179d3e04a6e8c0333c39a4cd118f7805b82907569b42208ad490946d",
+      "docs/redesign/anx-004-report.md": "c319779bc42ca33f496414a50c3661c90cb27d11a2da0a5bcbb474ef50b2d453",
+      "docs/redesign/audit.md": "a11b8bde82f4433c0d9bd236c79d5aebe5a2b87554911212aad65409023f5264",
+      "docs/redesign/roadmap.md": "7c9c896cdbe9baebb29b386f96f6de64992c3ee766cd041074ff8e2d3bdd862e",
+      "docs/redesign/design-system.md": "e6398236fecca534f348d9064fee90e0bfb632a2d719b2d8863ea1d6c9387b11",
+      "docs/redesign/release-checklist.md": "96e91f8f0095b0b30124d89b2f0ecbc5a771b6b9c1a497dfd926d12fdd119969",
+      "docs/redesign/anx-006-report.md": "58f931b3814cda124be72f9431fd76079e7cbc0a3d4b923d9c827505ce47bcc9",
+      "docs/redesign/reports/anx-005-contact-mobile.jpg": "8b7389c8585c4d6c4d75856a23f46a45d22c4020d189cab21c4f1cdd79cd0e4e",
+      "docs/redesign/reports/anx-006-home-mobile.jpg": "f1482cd03e44ce1520b7164e761a3e199ff0eac4b74a664419c4bdac51854492",
+      "docs/redesign/reports/anx-006-home-tablet-viewport.jpg": "ef9464bcbebff9a85023a0aff9b6c7570864f08f800cac92a1e809be40063168",
+      "docs/redesign/reports/anx-006-chunk-error-mobile.jpg": "c1553e0b569ce519afd2ad440ff04d6ec2532b4cacca57e7d5139c72a91691ba",
+      "docs/redesign/reports/anx-002-desktop.jpg": "b942d6ffe870213d809fb8af15dcb88417cc668fe1ebc0b71ff14dde19eed479",
+      "docs/redesign/reports/anx-006-diagram-before.jpg": "7a1a7103aeaada505380d0217b943ae44acffeba9b26efb63132f5747374cc11",
+      "docs/redesign/reports/anx-006-metodologia-desktop.jpg": "2167a9e816bdb4754e4b53f5e86e10b8a56cf4d281a9cafd39ee8652ea69bcc2",
+      "docs/redesign/reports/anx-006-baseline-home-mobile.report.html": "5020cd52eb61c98fdab85483996223b1a0a60d56d31fce204e330efcf69fc234",
+      "docs/redesign/reports/anx-006-baseline-home-mobile-0.trace.json": "bef2dacef83dddbbd6dd33f8600d7e6cf53a8e647cec4c92993b2e2799318a7d",
+      "docs/redesign/reports/anx-004-connection-desktop.jpg": "f641bb6f7e6d9aa50ec7a86f3a1f6c5e4699124981f7d5b8f48f994fc1f973a5",
+      "docs/redesign/reports/anx-004-about-mobile.jpg": "9c373469fe1167422061a2279cf0d3ed2ac32339a07de3d33fa7cdad4bc6498d",
+      "docs/redesign/reports/anx-004-about-desktop.jpg": "5204344bf7877172a131f62b06872c9a64d503ccc0aae891dd9d770b4dfda50b",
+      "docs/redesign/reports/anx-005-experience-mobile.jpg": "7614e16bcbc5ad5a0a15132cf8263ce79e51f3dce6f796c8a895834ebdfbf4ed",
+      "docs/redesign/reports/anx-005-capabilities-mobile.jpg": "7f6a2395a1e70fedd24aa7ee3969f892d9ec6c7eee47c29d319dd1109322f936",
+      "docs/redesign/reports/anx-006-intermediate-mixed-build.zip": "199111ff7ab1705df0a5320cda25c62585cad809f8169f9f66fb2fabf0dea55a",
+      "docs/redesign/reports/anx-006-diagram-after.jpg": "dd8b7c122c7654ba9aa979e740b932f4064fb10aca2907b0c43ff7a5dcb232ce",
+      "docs/redesign/reports/anx-006-metrics.json": "c405a24b7ab84712cdc2ed6d7e8c03e8b80f1392fef83cf8c06d6b2881185593",
+      "docs/redesign/reports/anx-005-contact-desktop.jpg": "82ed49f0fcc78a1f0fd0135e8540c672a0f86c4c468ed5d657b36c781c41c1d4",
+      "docs/redesign/reports/anx-003-mobile.jpg": "d37e1119f0e3f92cd034ccc56d43194051ef1e9a8b8751c2b2a10b8197f2fdc2",
+      "docs/redesign/reports/anx-006-candidate-before-aria.zip": "c1f0c3e9deb73675db35d722a3a29c77e96e65275ee2f98a1abf07b103f2f028",
+      "docs/redesign/reports/anx-005-validation.json": "a733b580a8840b62e0ea93fa4362ec49d19d25e10449b8ffb30643818d50c3d5",
+      "docs/redesign/reports/anx-004-load-error.jpg": "c1553e0b569ce519afd2ad440ff04d6ec2532b4cacca57e7d5139c72a91691ba",
+      "docs/redesign/reports/anx-006-baseline-home-mobile-0.devtoolslog.json": "1da2be26bffcbb52f0276b765ee7aa6ede55792b3c0bd9b1a698ba47f44291ef",
+      "docs/redesign/reports/anx-004-method-desktop.jpg": "678ce3bf586cdece65012390066f383b7430deab2e00c69e3561e178e9320d78",
+      "docs/redesign/reports/anx-006-playback-paused.jpg": "c159c89f8eabda08d8f1e89879d7148fc2deda8722456bd203503c0a0a668d47",
+      "docs/redesign/reports/anx-005-bundles.json": "a683ca2016bff3fe870e37aaab3e0e9219475ab51658e3da6a3e4f8c7d7438e5",
+      "docs/redesign/reports/anx-006-lint.txt": "da6cd68e035e29c87e59dddbcbd43101d7f8c8853aea97e361c423184596882b",
+      "docs/redesign/reports/anx-004-projects-mobile.jpg": "25834b526fd131af9e2b99510fe2896721458304a273e5ce1c1d8d185a6f6062",
+      "docs/redesign/reports/anx-005-projects-capabilities.jpg": "b89bd183ca7ed5c965a3a64e20786ac57ff01085042da4339ac54715d7eb75dc",
+      "docs/redesign/reports/anx-004-bundles.json": "cc42f7a66df327f02379ba42cfead7f477697b0b462ba2e923249cf9b1cfbde2",
+      "docs/redesign/reports/anx-006-metodologia-mobile-before-fit.jpg": "95a585b7cc4a7b1e4c403e59c92bdd009a14ef3744b49b0a8ccda4269d4f8151",
+      "docs/redesign/reports/anx-006-home-desktop.jpg": "440550930a65046b29dc63e2a07a4fb1bca3553faaea6aeecb060f9d26ba886d",
+      "docs/redesign/reports/anx-006-baseline-concurrencia-mobile.json": "968fb04a868f2f38ced62730cd03c5b6b2312c7f3dccba6bad7ad2bea231c0bc",
+      "docs/redesign/reports/anx-006-metodologia-mobile.jpg": "eb07f0396abae51ed4e861ae2f3666302177734a9ff7fc506ea3653ab6406da1",
+      "docs/redesign/reports/anx-006-bundles.json": "b588934f7ed21d5bff6e2436e405a9353b1736a2c9724ec2af86f02bb5d89639",
+      "docs/redesign/reports/anx-004-loading.jpg": "f7661e035a8bf50d6c6212e141d377d9a2bdac7ba6553aff485f49f179b411d4",
+      "docs/redesign/reports/anx-005-experience-desktop.jpg": "9aeabcc167a9c04cdbbe99a528450b330d0871bdacbc5776b4559b328bf029be",
+      "docs/redesign/reports/anx-002-contact-mobile.jpg": "f1d8852ae853def9c30c70dfa2e10599a32dc9df21960c3aa451819d139d6ce0",
+      "docs/redesign/reports/anx-006-refined-home-mobile.json": "317cc1968125108fa8f7cccf8c6bca806c9b47e83757b2937e386bb8d288c570",
+      "docs/redesign/reports/anx-003-desktop.jpg": "1ed20d0d56475f34109c6dcd3f5a5439c04a4e42b5bae121a23712b9175c8aec",
+      "docs/redesign/reports/anx-006-concurrencia-mobile.jpg": "7ebdcea13d072918dced05ff69213479c4883d7e51edee78129e3b9ff0857ede",
+      "docs/redesign/reports/anx-006-concurrencia-desktop.jpg": "25c7274584cee3b62ed0471300b21756055c5abf18e4d8fa4a4e265aca4ad59a",
+      "docs/redesign/reports/anx-006-home-mobile-viewport.jpg": "b1de23b1fdae6bac9a53cd6a1fbb23984e48c94e5288267db88b46978321829d",
+      "docs/redesign/reports/anx-006-candidate-before-fit.zip": "8555788093f4992348d465b9ac80829fb5cd278b7187e3c9e4646aaedf7d1c9e",
+      "docs/redesign/reports/anx-006-tests.txt": "93389f435f0864d72b944d6931a842f2648c0011d1f50143c50c24b5c6577fc3",
+      "docs/redesign/reports/anx-006-method-fit-mobile.jpg": "127e93d96086d285d15ff265f57989acfab462c8dbe74e8d9023bac5f95494c3",
+      "docs/redesign/reports/anx-006-build-final.json": "1283c61c8b82cba788d7a8a74fa03f5c14c8758233a9eabb3b77bf11e34838ea",
+      "docs/redesign/reports/anx-005-experience-contact.jpg": "9e4bd57ff323fab47db9a281085df6aaef8a8ce4e646fedb7baf27f137f9dd28",
+      "docs/redesign/reports/anx-004-projects-desktop.jpg": "ba264e23251e0b22e48b676b6a8ce113badb0f7b76866823f3edfd3c56ef936b",
+      "docs/redesign/reports/anx-005-capabilities-desktop.jpg": "86c07278a43d1198fd7c38fc58e0de945c32bceb587c878fc5cfee0e6beac310",
+      "docs/redesign/reports/anx-005-home-full.jpg": "f76e15f7992213d819725590ff120675485407344cd3e7ae92c3f1592b882c6a",
+      "docs/redesign/reports/anx-006-chunks.txt": "9cad3ef72ee95fe780a1e108c00775ecaa51016ccde90445de856f9bdad379ff",
+      "docs/redesign/reports/anx-006-baseline-home-mobile.report.json": "56934b3813f4419f8e7f2e9467a633d5f72e8bd1efa1b95a71cf1d2ed6b549e1",
+      "docs/redesign/reports/anx-006-loading-mobile.jpg": "499a2704d51ea5afa677478f5ab7e45490ceac3b9d944950f3cd3538cdde809f",
+      "docs/redesign/reports/anx-006-validation.json": "3a9f49a8ae1f5cfec5f7ec93d3d7caf88379e2184acccff6f95f512ccb4cefbd",
+      "docs/redesign/reports/anx-003-desktop-1024.jpg": "f5c2213dc582c78922bff1eec6b11e546df7d4e65e256a5d1411da21c33e5a4e",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-1.json": "c039080ddc457e96fcc87be3f691493f968074213fdbbfbff7267c31046d1beb",
+      "docs/redesign/reports/anx-006-lighthouse/home-mobile-1.json": "8b1fa2d6002db816d81a1cac398c36615390614841de3ebbceb5d8e871f23efc",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-1.json": "f8f1f889908d5051cd262f33846abe445af0abf3e97017feb8a8e808f1d19d23",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-3.json": "f3421c683e15eb6b96b19a8ec388c3a0b16801b0ca2154427b07f2ffa016d7a0",
+      "docs/redesign/reports/anx-006-lighthouse/home-desktop-2.json": "c744707fbbcb2fcfc2d1063128bce4029ccc888077718a6b9af3bf89034a1006",
+      "docs/redesign/reports/anx-006-lighthouse/home-desktop-3.json": "ff6a302aec11d0cdc0e129667427c0e4a892bb29826ccc9b27e7e8977fbc0d3c",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-2.json": "585273e51b64e991fe4806df96fc30b35cc1df3cec7684c2a32e5f09ddf8d721",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-1.json": "5998d204305e92a260dfada2fb19827dbe55d8a268bfdde8c1b2e0c8bf86c986",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-3.json": "c6abf36dc6b4ee27bedeb4616551b0374d30f3339d74e7ad7ccd4692e16ec590",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-2.json": "b464ace27bdf7c8486e00d2df20e4429037091ec9e164f23b60ae3d504de422b",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-desktop-1.json": "a43a7bdfd817d9d3a27676d1eace8056aff5a6da46a75f515224044acc486107",
+      "docs/redesign/reports/anx-006-lighthouse/home-desktop-1.json": "4f49ae007692cc749612ebb88f58b84607657565f600f6d8c937de74de14c84f",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-2.json": "26bcb2c25849aad73ac0f567b7740d6b9051fccc70c98888f036e6717216b322",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-desktop-3.json": "95972b26feb5151a0624763b6cb7b02e688299589338b18334b3aa8895c7eaf2",
+      "docs/redesign/reports/anx-006-lighthouse/concurrencia-mobile-1.html": "5cbcc016e543ce922bbea9b4e6c659f09be02bc5543b343fb171c7adae0d08f9",
+      "docs/redesign/reports/anx-006-lighthouse/home-mobile-1.html": "a4b1e570261df8f9dc485084f8672a9bfdbd2d15976982608e2dbcfada2980a0",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-2.json": "51d4bfda1f9724eac5d4a6a1e91b279ba8abcd97189ab1e2e05e9f23604eb9d9",
+      "docs/redesign/reports/anx-006-lighthouse/home-mobile-2.json": "5dc9ab0858c164cea8aa9f8a80b9c3745f71f575cecaf02612b61664fdb78451",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-1.html": "49ad7722c7f76f1f4e3b157095803a0ceb2e00a1a4be2784c2dc4ddc2e9231e5",
+      "docs/redesign/reports/anx-006-lighthouse/home-mobile-3.json": "2823423d25ea395f206b5483a6eb5462b8ad4868a1e79e2b451fadad4f06ddf7",
+      "docs/redesign/reports/anx-006-lighthouse/metodologia-mobile-3.json": "e99d4e6ae3780d71b260b1030fc90478e1712311665aca074bae7c131fa39f90",
+      "package.json": "30e4d94bdf5318706845d1880dc236d7adeb6f1cd498138295f6dead3a046a10",
+      "package-lock.json": "503362866a16d76568d3d7f71325e3732e067f456cdef3914e06012d30f47127",
+      "index.html": "7639e2c774c6b510f8006ecb39065882f230894a1a61aaf79b9120b126fb651f",
+      "vite.config.js": "01a6952347451137e8cae546dd942d4e9581bb6bfb74286ffd39c8880c929955",
+      "skills-lock.json": "0f26e98e9b28e30e30b14e18d40f1e69ab9025e47ebab842861543cca6de73db"
+    }
+  },
+  "professionalCopy": {
+    "hero-name": true,
+    "hero-subtitle": true,
+    "hero-subtitle-2": true
+  },
+  "reducedMotion": {
+    "method": "Additional Chrome headless Lighthouse launch with --force-prefers-reduced-motion, desktop height1200. Screenshot visibly renders Motion reduced. Excluded from comparative metrics. Live preference switching not tested.",
+    "report": "anx-007-reduced-motion.json",
+    "screenshot": "anx-007-reduced-motion.jpg"
+  },
+  "automatedChecks": {
+    "lint": "passed",
+    "build": "passed: npm run build -- --manifest",
+    "tests": "17 passed",
+    "chunks": "passed: home excludes Flow/d3/zustand",
+    "diffCheck": "passed"
+  },
+  "limitations": [
+    "Viewport checks are not physical touch device tests.",
+    "Opening another IAB tab kept document.visibilityState visible; real tab hiding is not approved from that attempt. Controller visibility transitions are unit-tested.",
+    "Reduced preference startup was checked with Chrome flag; live media preference switching remains manual.",
+    "No screen reader, Safari GUI, energy/GPU measurement, video or continuous scroll FPS profile.",
+    "CPU process-tree measurements are approximate headless samples, not battery or Web Vitals."
+  ],
+  "imports": {
+    "files": 60,
+    "checked": 100,
+    "errors": [],
+    "method": "Parse static and literal dynamic relative imports, resolve files and compare each path segment to exact filesystem entries."
+  }
+}

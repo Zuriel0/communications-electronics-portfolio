@@ -1,0 +1,335 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: var(--header-height);
+}
+
+body {
+  margin: 0;
+  background: var(--background-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: var(--font-regular);
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  min-width: 0;
+}
+
+section, [id] {
+  scroll-margin-top: var(--space-5);
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4 {
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-heading);
+}
+
+h1 {
+  font-size: var(--text-h1);
+  letter-spacing: -.04em;
+}
+
+h2 {
+  font-size: var(--text-h2);
+  letter-spacing: -.035em;
+}
+
+h3 {
+  font-size: var(--text-h3);
+  letter-spacing: -.02em;
+}
+
+h4 {
+  font-size: var(--text-body-lg);
+}
+
+p {
+  text-align: left;
+}
+
+p + p {
+  margin-top: var(--space-5);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: .2em;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: var(--focus-width) solid var(--focus);
+  outline-offset: var(--focus-offset);
+}
+
+::selection {
+  color: var(--selection-text);
+  background: var(--selection);
+}
+
+.container {
+  width: min(calc(100% - 2 * var(--gutter)), var(--content-max));
+  margin-inline: auto;
+  min-width: 0;
+}
+
+.container--narrow {
+  max-width: var(--content-narrow);
+}
+
+.section-heading {
+  margin-bottom: var(--space-7);
+}
+
+.section-heading p {
+  margin-top: var(--space-4);
+  max-width: var(--reading-width);
+  color: var(--text-secondary);
+}
+
+.surface {
+  background: var(--surface);
+  color: var(--text-primary);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.type-display-xl {
+  font-size: var(--text-display-xl);
+  line-height: var(--leading-display);
+  letter-spacing: -.055em;
+}
+
+.type-display-l {
+  font-size: var(--text-display-l);
+  line-height: var(--leading-display);
+  letter-spacing: -.05em;
+}
+
+.type-h1 {
+  font-size: var(--text-h1);
+}
+
+.type-h2 {
+  font-size: var(--text-h2);
+}
+
+.type-h3 {
+  font-size: var(--text-h3);
+}
+
+.type-body-lg {
+  font-size: var(--text-body-lg);
+}
+
+.type-body {
+  font-size: var(--text-body);
+}
+
+.type-caption {
+  font-size: var(--text-caption);
+}
+
+.type-label {
+  font-size: var(--text-label);
+  font-weight: var(--font-semibold);
+}
+
+.action-link, .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--touch-target);
+  min-width: var(--touch-target);
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-semibold);
+  text-decoration: none;
+  transition: color var(--duration-hover) var(--ease-standard), background-color var(--duration-hover) var(--ease-standard), border-color var(--duration-hover) var(--ease-standard);
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
+
+.button {
+  padding: var(--space-3) var(--space-5);
+  border: var(--border-width) solid var(--border);
+  color: var(--text-primary);
+  background: var(--surface);
+}
+
+.button:hover:not(:disabled) {
+  background: var(--interactive-hover);
+}
+
+.button:active:not(:disabled) {
+  background: var(--interactive-active);
+}
+
+.action-link[aria-disabled='true'], .button:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+.action-link--primary {
+  padding: var(--space-3) var(--space-5);
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.action-link--primary:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
+
+.action-link--primary:active {
+  background: var(--accent-active);
+}
+
+.action-link--secondary {
+  padding: var(--space-3) var(--space-5);
+  border: var(--border-width) solid var(--border);
+  color: var(--text-primary);
+}
+
+.action-link--secondary:hover {
+  background: var(--interactive-hover);
+  text-decoration: none;
+}
+
+.action-link--secondary:active {
+  background: var(--interactive-active);
+}
+
+.icon-link {
+  width: var(--touch-target);
+  height: var(--touch-target);
+  color: var(--text-primary);
+  border: var(--border-width) solid var(--border);
+}
+
+.icon-link:hover, .icon-link:active {
+  background: var(--interactive-hover);
+}
+
+.skip-link {
+  position: fixed;
+  top: var(--space-3);
+  left: var(--gutter);
+  padding: var(--space-3) var(--space-5);
+  color: var(--on-accent);
+  background: var(--accent);
+  border-radius: var(--radius-sm);
+  transform: translateY(-200%);
+  z-index: var(--z-skip-link);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.anchor-alias {
+  display: block;
+  height: 0;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.skill-tag {
+  color: var(--text-secondary);
+  font-size: var(--text-caption);
+}
+
+.react-flow .react-flow__controls button {
+  width: var(--touch-target);
+  height: var(--touch-target);
+}
+
+.react-flow__controls {
+  --focus: var(--color-ice-blue);
+}
+
+/* Technical diagrams reserve caption space independently of the canvas. */
+.diagram-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.diagram-frame > .diagram-caption {
+  position: relative !important;
+  flex: 0 0 auto;
+  padding: var(--space-5) !important;
+}
+
+.diagram-caption > :first-child {
+  font-size: var(--text-h3) !important;
+  line-height: var(--leading-heading);
+}
+
+.diagram-caption > :nth-child(2) {
+  color: var(--text-secondary) !important;
+  font-size: var(--text-label);
+  line-height: var(--leading-body) !important;
+}
+
+.diagram-frame > .react-flow {
+  flex: 1;
+  min-height: 0;
+  height: auto !important;
+}
+
+.react-flow .react-flow__edge.animated path {
+  animation: none;
+}
+
+@media (max-width: 39.999rem) {
+  .diagram-frame {
+    min-height: 44rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+}

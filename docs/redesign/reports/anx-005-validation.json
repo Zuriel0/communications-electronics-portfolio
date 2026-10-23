@@ -1,0 +1,410 @@
+{
+  "matrix": {
+    "home": [
+      {
+        "client": 305,
+        "experience": 4,
+        "flow": 0,
+        "overflow": [],
+        "scroll": 305,
+        "skills": 8,
+        "viewport": 320
+      },
+      {
+        "client": 360,
+        "experience": 4,
+        "flow": 0,
+        "overflow": [],
+        "scroll": 360,
+        "skills": 8,
+        "viewport": 375
+      },
+      {
+        "client": 753,
+        "experience": 4,
+        "flow": 0,
+        "overflow": [],
+        "scroll": 753,
+        "skills": 8,
+        "viewport": 768
+      },
+      {
+        "client": 1009,
+        "experience": 4,
+        "flow": 0,
+        "overflow": [],
+        "scroll": 1009,
+        "skills": 8,
+        "viewport": 1024
+      },
+      {
+        "client": 1425,
+        "experience": 4,
+        "flow": 0,
+        "overflow": [],
+        "scroll": 1425,
+        "skills": 8,
+        "viewport": 1440
+      }
+    ],
+    "concurrencia": [
+      {
+        "anchors": [
+          [
+            "#introduce",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 305,
+        "flow": 4,
+        "h1": 1,
+        "route": "/projects/concurrencia",
+        "scroll": 305,
+        "viewport": 320
+      },
+      {
+        "anchors": [
+          [
+            "#introduce",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 360,
+        "flow": 4,
+        "h1": 1,
+        "route": "/projects/concurrencia",
+        "scroll": 360,
+        "viewport": 375
+      },
+      {
+        "anchors": [
+          [
+            "#introduce",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 753,
+        "flow": 4,
+        "h1": 1,
+        "route": "/projects/concurrencia",
+        "scroll": 753,
+        "viewport": 768
+      },
+      {
+        "anchors": [
+          [
+            "#introduce",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 1009,
+        "flow": 4,
+        "h1": 1,
+        "route": "/projects/concurrencia",
+        "scroll": 1009,
+        "viewport": 1024
+      },
+      {
+        "anchors": [
+          [
+            "#introduce",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 1425,
+        "flow": 4,
+        "h1": 1,
+        "route": "/projects/concurrencia",
+        "scroll": 1425,
+        "viewport": 1440
+      }
+    ],
+    "metodologia": [
+      {
+        "anchors": [
+          [
+            "#metodologia",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 305,
+        "flow": 2,
+        "h1": 1,
+        "route": "/projects/metodologia",
+        "scroll": 305,
+        "viewport": 320
+      },
+      {
+        "anchors": [
+          [
+            "#metodologia",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 360,
+        "flow": 2,
+        "h1": 1,
+        "route": "/projects/metodologia",
+        "scroll": 360,
+        "viewport": 375
+      },
+      {
+        "anchors": [
+          [
+            "#metodologia",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 753,
+        "flow": 2,
+        "h1": 1,
+        "route": "/projects/metodologia",
+        "scroll": 753,
+        "viewport": 768
+      },
+      {
+        "anchors": [
+          [
+            "#metodologia",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 1009,
+        "flow": 2,
+        "h1": 1,
+        "route": "/projects/metodologia",
+        "scroll": 1009,
+        "viewport": 1024
+      },
+      {
+        "anchors": [
+          [
+            "#metodologia",
+            true
+          ],
+          [
+            "#problema",
+            true
+          ],
+          [
+            "#solucion",
+            true
+          ]
+        ],
+        "client": 1425,
+        "flow": 2,
+        "h1": 1,
+        "route": "/projects/metodologia",
+        "scroll": 1425,
+        "viewport": 1440
+      }
+    ]
+  },
+  "contrast": [
+    {
+      "id": "skills",
+      "colors": {
+        "--accent": "#2458a6",
+        "--background-primary": "#f5f5f7",
+        "--border": "#69768a",
+        "--focus": "#2458a6",
+        "--interactive-active": "#d4dbe5",
+        "--interactive-hover": "#e3e7ed",
+        "--text-primary": "#090a0c",
+        "--text-secondary": "#525b6b"
+      },
+      "ratios": [
+        {
+          "state": "--background-primary",
+          "primary": 18.19,
+          "secondary": 6.29,
+          "accentFocus": 6.38,
+          "border": 4.23
+        },
+        {
+          "state": "--interactive-hover",
+          "primary": 15.96,
+          "secondary": 5.52,
+          "accentFocus": 5.6,
+          "border": 3.71
+        },
+        {
+          "state": "--interactive-active",
+          "primary": 14.21,
+          "secondary": 4.91,
+          "accentFocus": 4.99,
+          "border": 3.3
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "colors": {
+        "--accent": "#2458a6",
+        "--background-primary": "#f5f5f7",
+        "--border": "#69768a",
+        "--focus": "#2458a6",
+        "--interactive-active": "#d4dbe5",
+        "--interactive-hover": "#e3e7ed",
+        "--text-primary": "#090a0c",
+        "--text-secondary": "#525b6b"
+      },
+      "ratios": [
+        {
+          "state": "--background-primary",
+          "primary": 18.19,
+          "secondary": 6.29,
+          "accentFocus": 6.38,
+          "border": 4.23
+        },
+        {
+          "state": "--interactive-hover",
+          "primary": 15.96,
+          "secondary": 5.52,
+          "accentFocus": 5.6,
+          "border": 3.71
+        },
+        {
+          "state": "--interactive-active",
+          "primary": 14.21,
+          "secondary": 4.91,
+          "accentFocus": 4.99,
+          "border": 3.3
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "colors": {
+        "--accent": "#81afff",
+        "--background-primary": "#090a0c",
+        "--border": "#6c7a90",
+        "--focus": "#81afff",
+        "--interactive-active": "#282d36",
+        "--interactive-hover": "#22262e",
+        "--text-primary": "#f5f5f7",
+        "--text-secondary": "#8c96a6"
+      },
+      "ratios": [
+        {
+          "state": "--background-primary",
+          "primary": 18.19,
+          "secondary": 6.63,
+          "accentFocus": 8.97,
+          "border": 4.55
+        },
+        {
+          "state": "--interactive-hover",
+          "primary": 13.93,
+          "secondary": 5.08,
+          "accentFocus": 6.87,
+          "border": 3.48
+        },
+        {
+          "state": "--interactive-active",
+          "primary": 12.7,
+          "secondary": 4.63,
+          "accentFocus": 6.26,
+          "border": 3.18
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "manifestFiles": 91,
+    "changed": [
+      "src/style/contac.css",
+      "src/style/timelineseccion.css",
+      "src/style/skills.css",
+      "src/components/ui/Technical_Cards.jsx",
+      "src/components/ui/TimelineCard.jsx",
+      "src/components/sections/skills.jsx",
+      "src/components/sections/contac.jsx",
+      "src/components/sections/TimelineSection.jsx"
+    ],
+    "unchanged": 83,
+    "missing": []
+  },
+  "contentComparison": {
+    "categoriesExact": 8,
+    "experienceRecordsExact": 4,
+    "method": "Exact DOM text and technology list comparison against original data, with only the presentation order of skills changed."
+  },
+  "limitations": [
+    "Reduced motion media preference not emulated by connected browser",
+    "No Lighthouse/Web Vitals/FPS measurements",
+    "No screen reader or physical device testing"
+  ]
+}

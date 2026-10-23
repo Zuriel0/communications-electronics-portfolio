@@ -1,0 +1,53 @@
+{
+  "method": "Lighthouse 13.5.0, installed Chrome 155, final build. One sample per normal profile, plus separate reduced-motion hash probe. Not medians, field Web Vitals, CPU or FPS.",
+  "metrics": [
+    {
+      "profile": "home-mobile",
+      "timestamp": "2026-10-23T15:12:32.316Z",
+      "scores": {
+        "performance": 99.0,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 2026.7592,
+      "cls": 0,
+      "tbtMs": 14,
+      "badgeRequests": 0,
+      "colorContrast": 1,
+      "labelContentNameMatch": 1
+    },
+    {
+      "profile": "home-desktop",
+      "timestamp": "2026-10-23T15:12:42.374Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 421.6791,
+      "cls": 0,
+      "tbtMs": 0,
+      "badgeRequests": 0,
+      "colorContrast": 1,
+      "labelContentNameMatch": 1
+    },
+    {
+      "profile": "reduced-credentials",
+      "timestamp": "2026-10-23T15:12:52.399Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcpMs": 422.7406,
+      "cls": 0,
+      "tbtMs": 0,
+      "badgeRequests": 5,
+      "colorContrast": 1,
+      "labelContentNameMatch": 1
+    }
+  ]
+}

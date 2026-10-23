@@ -1,0 +1,6 @@
+{
+  files: 67,
+  checked: 129,
+  errors: [],
+  method: 'Parse static and literal dynamic relative imports, resolve files and compare each path segment to exact filesystem entries.'
+}

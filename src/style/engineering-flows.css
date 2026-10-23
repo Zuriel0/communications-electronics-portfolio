@@ -1,0 +1,43 @@
+.diagram-motion-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-block: var(--space-4);
+}
+.diagram-motion-note { color: var(--text-secondary); font-size: var(--text-label); }
+.diagram-motion-button { display: inline-flex; align-items: center; gap: var(--space-2); font-size: var(--text-label); }
+.diagram-frame[id^='diagram-'] {
+  /* Deep links also leave the preceding pause control below the fixed header. */
+  scroll-margin-top: calc(var(--touch-target) + var(--space-7));
+}
+
+/* Native SmoothStep geometry and static SVG strokes; only the small HTML signal moves. */
+.diagram-frame .diagram-edge--flow .react-flow__edge-path {
+  /* Existing edges have inline colors/dashes; override only the active path. */
+  stroke: var(--accent) !important;
+}
+.diagram-flow-signal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 24%, transparent);
+  pointer-events: none;
+  visibility: hidden;
+  offset-rotate: 0deg;
+  animation: engineering-flow 1.6s linear infinite paused;
+}
+@supports (offset-path: path('M0 0 L1 1')) {
+  .diagram-frame[data-playing='true'] .diagram-flow-signal {
+    visibility: visible;
+    animation-play-state: running;
+    will-change: transform;
+  }
+}
+@keyframes engineering-flow { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+@media (prefers-reduced-motion: reduce) {
+  .diagram-frame .diagram-flow-signal { animation: none; visibility: hidden; }
+}

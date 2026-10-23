@@ -1,0 +1,56 @@
+[
+  {
+    "label": "JS inicial",
+    "before": 273859,
+    "after": 273875,
+    "delta": 16,
+    "gzipAfter": 87564,
+    "beforeFile": "assets/index-BkOlccHi.js",
+    "afterFile": "assets/index-Bdl0Jfwi.js"
+  },
+  {
+    "label": "CSS inicial",
+    "before": 37015,
+    "after": 36746,
+    "delta": -269,
+    "gzipAfter": 7337,
+    "beforeFile": "assets/index-DwK_wjDS.css",
+    "afterFile": "assets/index-DkrgwFfN.css"
+  },
+  {
+    "label": "JS compartido proyectos",
+    "before": 176460,
+    "after": 180584,
+    "delta": 4124,
+    "gzipAfter": 59084,
+    "beforeFile": "assets/style-D7njPAj0.js",
+    "afterFile": "assets/style-BvfWx5IH.js"
+  },
+  {
+    "label": "CSS diferido React Flow/diagramas",
+    "before": 17425,
+    "after": 18568,
+    "delta": 1143,
+    "gzipAfter": 3430,
+    "beforeFile": "assets/style-zfM0SEWa.css",
+    "afterFile": "assets/style-Bgq5NQpM.css"
+  },
+  {
+    "label": "Concurrencia",
+    "before": 41301,
+    "after": 42236,
+    "delta": 935,
+    "gzipAfter": 9236,
+    "beforeFile": "assets/Concurrencia-Bu5rks2j.js",
+    "afterFile": "assets/Concurrencia-DAmNFuV3.js"
+  },
+  {
+    "label": "Metodolog\u00eda",
+    "before": 13962,
+    "after": 14793,
+    "delta": 831,
+    "gzipAfter": 3538,
+    "beforeFile": "assets/Metodologia-CzqZRqwh.js",
+    "afterFile": "assets/Metodologia-3a8UVMMZ.js"
+  }
+]

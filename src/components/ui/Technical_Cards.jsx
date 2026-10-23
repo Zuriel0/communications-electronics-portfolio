@@ -1,21 +1,10 @@
-function Technical_Cards({icon : Icon, title, technologies}) {
-    return (
-        <div className="technical-card">
-            <div className="icon">
-                <div>
-                    <Icon size={24}/>
-                </div>
-            </div>
-            <div className="title">{title}</div>
-            <div className="skill-tags">
-                {technologies.map((tech, index) => (
-                <span key={index} className="skill-tag">
-                    {tech}
-                </span>
-                ))}
-        </div>
-        </div>
-    );
+export default function Technical_Cards({ icon: Icon, title, technologies }) {
+  return (
+    <li className="capability-entry">
+      <h4><Icon size={20} aria-hidden="true" focusable="false" />{title}</h4>
+      <ul className="capability-technologies">
+        {technologies.map(tech => <li key={tech}>{tech}</li>)}
+      </ul>
+    </li>
+  );
 }
-
-export default Technical_Cards;

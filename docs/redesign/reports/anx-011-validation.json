@@ -1,0 +1,459 @@
+{
+  "responsive": [
+    {
+      "route": "/",
+      "width": 320,
+      "client": 305,
+      "diagrams": 0,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 305
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "client": 360,
+      "diagrams": 0,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 360
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "client": 753,
+      "diagrams": 0,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 753
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "client": 1009,
+      "diagrams": 0,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 1009
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "client": 1425,
+      "diagrams": 0,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 1425
+    },
+    {
+      "route": "/projects/concurrencia",
+      "width": 320,
+      "client": 305,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 305
+    },
+    {
+      "route": "/projects/concurrencia",
+      "width": 375,
+      "client": 360,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 360
+    },
+    {
+      "route": "/projects/concurrencia",
+      "width": 768,
+      "client": 753,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 753
+    },
+    {
+      "route": "/projects/concurrencia",
+      "width": 1024,
+      "client": 1009,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 1009
+    },
+    {
+      "route": "/projects/concurrencia",
+      "width": 1440,
+      "client": 1425,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 1425
+    },
+    {
+      "route": "/projects/metodologia",
+      "width": 320,
+      "client": 305,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 305
+    },
+    {
+      "route": "/projects/metodologia",
+      "width": 375,
+      "client": 360,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 360
+    },
+    {
+      "route": "/projects/metodologia",
+      "width": 768,
+      "client": 753,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 753
+    },
+    {
+      "route": "/projects/metodologia",
+      "width": 1024,
+      "client": 1009,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 1009
+    },
+    {
+      "route": "/projects/metodologia",
+      "width": 1440,
+      "client": 1425,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "lang": "en",
+      "main": 1,
+      "scroll": 1425
+    }
+  ],
+  "diagrams": [
+    {
+      "route": "concurrencia",
+      "id": "diagram-loadbalance",
+      "before": {
+        "active": [
+          "client-lb",
+          "lb-ws2"
+        ],
+        "playing": [
+          "diagram-loadbalance"
+        ]
+      },
+      "after": [
+        "client-lb",
+        "lb-ws3"
+      ],
+      "paused": "false",
+      "zoomBefore": "translate(-2.09967px, 118.794px) scale(0.252492)",
+      "zoomAfter": "translate(-34.3196px, 94.3528px) scale(0.30299)",
+      "resumed": "true"
+    },
+    {
+      "route": "concurrencia",
+      "id": "diagram-business",
+      "before": {
+        "active": [
+          "e1",
+          "m1",
+          "m2"
+        ],
+        "playing": [
+          "diagram-business"
+        ]
+      },
+      "after": [
+        "e2",
+        "m1",
+        "m2"
+      ],
+      "paused": "false",
+      "zoomBefore": "translate(7px, 26.1345px) scale(0.209655)",
+      "zoomAfter": "translate(-23.4px, -14.5386px) scale(0.251586)",
+      "resumed": "true"
+    },
+    {
+      "route": "concurrencia",
+      "id": "diagram-logic",
+      "before": {
+        "active": [
+          "mac-ssh"
+        ],
+        "playing": [
+          "diagram-logic"
+        ]
+      },
+      "after": [
+        "ssh-web",
+        "ssh-radius"
+      ],
+      "paused": "false",
+      "zoomBefore": "translate(0.318681px, 182.371px) scale(0.167033)",
+      "zoomAfter": "translate(-31.4176px, 170.646px) scale(0.20044)",
+      "resumed": "true"
+    },
+    {
+      "route": "concurrencia",
+      "id": "diagram-highlevel",
+      "before": {
+        "active": [
+          "user-terminal"
+        ],
+        "playing": [
+          "diagram-highlevel"
+        ]
+      },
+      "after": [
+        "terminal-orchestrator",
+        "config-orchestrator"
+      ],
+      "paused": "false",
+      "zoomBefore": "translate(5.07692px, 135.962px) scale(0.146154)",
+      "zoomAfter": "translate(-25.7077px, 117.254px) scale(0.175385)",
+      "resumed": "true"
+    },
+    {
+      "route": "metodologia",
+      "id": "diagram-methodology-problem",
+      "before": {
+        "active": [
+          "a-b"
+        ],
+        "playing": [
+          "diagram-methodology-problem"
+        ]
+      },
+      "after": [
+        "b-c"
+      ],
+      "paused": "false",
+      "zoomBefore": "translate(-19.5315px, 20.2657px) scale(0.321678)",
+      "zoomAfter": "translate(-55.2378px, -30.8811px) scale(0.386014)",
+      "resumed": "true"
+    },
+    {
+      "route": "metodologia",
+      "id": "diagram-methodology-solution",
+      "before": {
+        "active": [
+          "a-b"
+        ],
+        "playing": [
+          "diagram-methodology-solution"
+        ]
+      },
+      "after": [
+        "b-c"
+      ],
+      "paused": "false",
+      "zoomBefore": "translate(-24.3566px, 26.6993px) scale(0.321678)",
+      "zoomAfter": "translate(-61.028px, -23.1608px) scale(0.386014)",
+      "resumed": "true"
+    }
+  ],
+  "hero": {
+    "default": {
+      "immersive": true,
+      "rig": "matrix3d(0.985336, -0.0696159, 0.155777, 0, 0.0687619, 0.997574, 0.010871, 0, -0.156156, 0, 0.987732, 0, 0, -11.9785, 0, 1)",
+      "running": "true"
+    },
+    "pause": {
+      "focus": "3px",
+      "pressed": "true",
+      "running": "false"
+    },
+    "resume": {
+      "pressed": "false",
+      "running": "true"
+    },
+    "classic": {
+      "classic": true,
+      "ctas": [
+        "#projects",
+        "#contact"
+      ],
+      "name": "Andres Zuriel Macias Rios"
+    },
+    "cta": {
+      "focus": "projects",
+      "hash": "#projects",
+      "heroRunning": "false",
+      "top": 104.453125
+    }
+  },
+  "credentials": {
+    "entries": 18,
+    "focus": "3px",
+    "open": true,
+    "urls": [
+      {
+        "href": "https://www.credly.com/badges/c8c68512-e2cc-4e49-80bd-3f2197afb2bf",
+        "name": "Verify credential: Extreme Fabric - Installation and Configuration on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/b536a83a-c05d-49f8-9290-ae87cc042b9e",
+        "name": "Verify credential: Extreme Certified Professional in Solutions Design 2026 on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/c6d728e5-93bf-4e18-9699-75f50775ab14",
+        "name": "Verify credential: Extreme Certified Professional in Solutions Selling 2026 on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/fc048a96-ef41-48c4-9943-16269ab6085c",
+        "name": "Verify credential: Extreme Platform ONE Introduction – Solutions Selling on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/f15f1dee-8498-4e20-942f-7833f0486abe",
+        "name": "Verify credential: Extreme Certified Associate in ExtremeCloud SD-WAN on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d",
+        "name": "Verify credential: Extreme Certified Associate in Network Security Basics on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/b331b024-6ee7-4b66-b904-a1a0c9f90309",
+        "name": "Verify credential: Extreme Certified Associate in Solutions Selling 2026 on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/f9b4484a-3cad-4609-9856-f8c7cf66fc72",
+        "name": "Verify credential: Extreme Certified Associate in ExtremeCloud IQ - Site Engine on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/359ec1bd-5afd-4e86-ac6b-0516a337e8ec",
+        "name": "Verify credential: Extreme Certified Associate in ExtremeControl on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/72a5814e-c56b-4e7c-b590-7fdda6b29453",
+        "name": "Verify credential: Extreme Certified Associate in Extreme Switching on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/06a8654d-f93b-412e-bae7-59156fb14189",
+        "name": "Verify credential: Extreme Certified Associate in Extreme Fabric Connect on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/a6f95950-f997-4619-93bd-12ef2e803049",
+        "name": "Verify credential: Extreme Certified Associate in ExtremeCloud IQ on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1",
+        "name": "Verify credential: Extreme Networks Associate - Building Scalable and Mission Critical Networks on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/df1a5877-1721-47db-a196-ea4e17f3a745",
+        "name": "Verify credential: Extreme Networks Associate - Advance Your Career on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/70fbf77b-7650-41d5-95cc-c6f1f492cff2",
+        "name": "Verify credential: Extreme Networks Associate - Building Secure and Robust Wireless Networks on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/9713e1b5-af12-4bff-b04c-f82e4aca6387",
+        "name": "Verify credential: Extreme Networks Associate - Introduction to Future Networking on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/df473e2c-6a24-475a-8b94-49b17985c053",
+        "name": "Verify credential: Extreme Platform ONE Introduction – Solutions Design on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.credly.com/badges/fb4349ee-b599-4ae1-88a8-902a545f063a",
+        "name": "Verify credential: Python Essentials 1 on Credly (opens in a new tab)",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  },
+  "credentialsURLsMatchSource": true,
+  "keyboard": {
+    "menu": {
+      "expanded": "false",
+      "label": "Open menu",
+      "outline": "3px"
+    },
+    "skip": {
+      "id": "main-content",
+      "outline": "3px"
+    }
+  },
+  "deepReloads": [
+    {
+      "route": "concurrencia",
+      "id": "highLevel",
+      "canonical": "https://anxzu.com/projects/concurrencia",
+      "description": "Engineering case study: Ubuntu, Bash and SSH log monitoring across six web servers and one active RADIUS target, with MAC search and independent supervision.",
+      "focus": "highLevel",
+      "top": 104.03125
+    },
+    {
+      "route": "metodologia",
+      "id": "introduce",
+      "canonical": "https://anxzu.com/projects/metodologia",
+      "description": "A six-stage engineering methodology for constrained platforms: native-interface analysis, technical context, AI-assisted generation and human validation.",
+      "focus": "introduce",
+      "top": 104
+    },
+    {
+      "route": "metodologia",
+      "id": "solucion",
+      "canonical": "https://anxzu.com/projects/metodologia",
+      "description": "A six-stage engineering methodology for constrained platforms: native-interface analysis, technical context, AI-assisted generation and human validation.",
+      "focus": "solucion",
+      "top": 104.1875
+    }
+  ],
+  "console": []
+}

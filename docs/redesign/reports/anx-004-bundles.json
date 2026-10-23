@@ -1,0 +1,119 @@
+{
+  "before": {
+    "index.html": {
+      "bytes": 578,
+      "gzip": 372
+    },
+    "_redirects": {
+      "bytes": 24,
+      "gzip": 41
+    },
+    ".htaccess": {
+      "bytes": 214,
+      "gzip": 141
+    },
+    "assets/index-682zwbCw.js": {
+      "bytes": 488367,
+      "gzip": 151480
+    },
+    "assets/anxzu-hDnGdcjS.png": {
+      "bytes": 1653473,
+      "gzip": 1499493
+    },
+    "assets/index-BTjsI64b.css": {
+      "bytes": 35415,
+      "gzip": 6883
+    },
+    "assets/AX-BL9tpoD4.svg": {
+      "bytes": 2241,
+      "gzip": 1260
+    },
+    ".vite/manifest.json": {
+      "bytes": 507,
+      "gzip": 226
+    }
+  },
+  "after": {
+    "index.html": {
+      "bytes": 578,
+      "gzip": 372
+    },
+    "_redirects": {
+      "bytes": 24,
+      "gzip": 41
+    },
+    ".htaccess": {
+      "bytes": 214,
+      "gzip": 141
+    },
+    "assets/anxzu-480-D9Ta-Nth.jpg": {
+      "bytes": 157315,
+      "gzip": 157036
+    },
+    "assets/index-2KdRo4pJ.css": {
+      "bytes": 24594,
+      "gzip": 5336
+    },
+    "assets/style-zfM0SEWa.css": {
+      "bytes": 17425,
+      "gzip": 3066
+    },
+    "assets/anxzu-1024-bLlLDyaE.jpg": {
+      "bytes": 455950,
+      "gzip": 455376
+    },
+    "assets/Concurrencia-BCu_sBKk.js": {
+      "bytes": 40485,
+      "gzip": 9072
+    },
+    "assets/anxzu-768-DTErN6Kh.jpg": {
+      "bytes": 305451,
+      "gzip": 305015
+    },
+    "assets/AX-BL9tpoD4.svg": {
+      "bytes": 2241,
+      "gzip": 1260
+    },
+    "assets/index-Dr8y6tYB.js": {
+      "bytes": 263877,
+      "gzip": 85010
+    },
+    "assets/Metodologia-CFZggoCX.js": {
+      "bytes": 13694,
+      "gzip": 3293
+    },
+    "assets/style-C7Z2X2AB.js": {
+      "bytes": 176460,
+      "gzip": 57606
+    },
+    ".vite/manifest.json": {
+      "bytes": 1878,
+      "gzip": 465
+    }
+  },
+  "chunkIsolation": {
+    "initialFiles": [
+      "assets/index-Dr8y6tYB.js"
+    ],
+    "routes": [
+      {
+        "file": "assets/Concurrencia-BCu_sBKk.js",
+        "imports": [
+          "assets/index-Dr8y6tYB.js",
+          "assets/style-C7Z2X2AB.js"
+        ]
+      },
+      {
+        "file": "assets/Metodologia-CFZggoCX.js",
+        "imports": [
+          "assets/index-Dr8y6tYB.js",
+          "assets/style-C7Z2X2AB.js"
+        ]
+      }
+    ],
+    "flowFiles": [
+      "assets/style-C7Z2X2AB.js"
+    ]
+  },
+  "method": "bytes on disk and gzip level 6, measured locally; not Web Vitals"
+}

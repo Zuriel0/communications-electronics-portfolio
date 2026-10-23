@@ -1,0 +1,486 @@
+{
+  "responsive": [
+    {
+      "route": "concurrencia",
+      "width": 320,
+      "brokenHashes": [],
+      "client": 305,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 305,
+      "spanishFigures": 4,
+      "titleScroll": 265,
+      "titleWidth": 265
+    },
+    {
+      "route": "concurrencia",
+      "width": 375,
+      "brokenHashes": [],
+      "client": 360,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 360,
+      "spanishFigures": 4,
+      "titleScroll": 320,
+      "titleWidth": 320
+    },
+    {
+      "route": "concurrencia",
+      "width": 768,
+      "brokenHashes": [],
+      "client": 753,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 753,
+      "spanishFigures": 4,
+      "titleScroll": 638,
+      "titleWidth": 637.71875
+    },
+    {
+      "route": "concurrencia",
+      "width": 1024,
+      "brokenHashes": [],
+      "client": 1009,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 1009,
+      "spanishFigures": 4,
+      "titleScroll": 750,
+      "titleWidth": 750.03125
+    },
+    {
+      "route": "concurrencia",
+      "width": 1440,
+      "brokenHashes": [],
+      "client": 1425,
+      "diagrams": 4,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 1425,
+      "spanishFigures": 4,
+      "titleScroll": 933,
+      "titleWidth": 932.53125
+    },
+    {
+      "route": "metodologia",
+      "width": 320,
+      "brokenHashes": [],
+      "client": 305,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 305,
+      "spanishFigures": 2,
+      "titleScroll": 265,
+      "titleWidth": 265
+    },
+    {
+      "route": "metodologia",
+      "width": 375,
+      "brokenHashes": [],
+      "client": 360,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 360,
+      "spanishFigures": 2,
+      "titleScroll": 320,
+      "titleWidth": 320
+    },
+    {
+      "route": "metodologia",
+      "width": 768,
+      "brokenHashes": [],
+      "client": 753,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 753,
+      "spanishFigures": 2,
+      "titleScroll": 638,
+      "titleWidth": 637.71875
+    },
+    {
+      "route": "metodologia",
+      "width": 1024,
+      "brokenHashes": [],
+      "client": 1009,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 1009,
+      "spanishFigures": 2,
+      "titleScroll": 750,
+      "titleWidth": 750.03125
+    },
+    {
+      "route": "metodologia",
+      "width": 1440,
+      "brokenHashes": [],
+      "client": 1425,
+      "diagrams": 2,
+      "duplicates": [],
+      "h1": 1,
+      "language": "en",
+      "main": 1,
+      "markers": false,
+      "scroll": 1425,
+      "spanishFigures": 2,
+      "titleScroll": 933,
+      "titleWidth": 932.53125
+    }
+  ],
+  "diagrams": [
+    {
+      "route": "concurrencia",
+      "id": "diagram-loadbalance",
+      "before": {
+        "active": [
+          "client-lb",
+          "lb-ws2"
+        ],
+        "otherPlaying": [
+          "diagram-loadbalance"
+        ],
+        "zoom": "translate(-2.09967px, 118.794px) scale(0.252492)"
+      },
+      "after": [
+        "client-lb",
+        "lb-ws3"
+      ],
+      "paused": {
+        "focus": "3px",
+        "playing": "false",
+        "pressed": "true",
+        "signals": [
+          "paused",
+          "paused"
+        ]
+      },
+      "zoomed": "translate(-34.3196px, 94.3528px) scale(0.30299)",
+      "resumed": "true"
+    },
+    {
+      "route": "concurrencia",
+      "id": "diagram-business",
+      "before": {
+        "active": [
+          "e1",
+          "m1",
+          "m2"
+        ],
+        "otherPlaying": [
+          "diagram-business"
+        ],
+        "zoom": "translate(7px, 26.1345px) scale(0.209655)"
+      },
+      "after": [
+        "e2",
+        "m1",
+        "m2"
+      ],
+      "paused": {
+        "focus": "3px",
+        "playing": "false",
+        "pressed": "true",
+        "signals": [
+          "paused",
+          "paused",
+          "paused"
+        ]
+      },
+      "zoomed": "translate(-23.4px, -14.5386px) scale(0.251586)",
+      "resumed": "true"
+    },
+    {
+      "route": "concurrencia",
+      "id": "diagram-logic",
+      "before": {
+        "active": [
+          "mac-ssh"
+        ],
+        "otherPlaying": [
+          "diagram-logic"
+        ],
+        "zoom": "translate(0.318681px, 182.371px) scale(0.167033)"
+      },
+      "after": [
+        "ssh-web",
+        "ssh-radius"
+      ],
+      "paused": {
+        "focus": "3px",
+        "playing": "false",
+        "pressed": "true",
+        "signals": [
+          "paused",
+          "paused"
+        ]
+      },
+      "zoomed": "translate(-31.4176px, 170.646px) scale(0.20044)",
+      "resumed": "true"
+    },
+    {
+      "route": "concurrencia",
+      "id": "diagram-highlevel",
+      "before": {
+        "active": [
+          "user-terminal"
+        ],
+        "otherPlaying": [
+          "diagram-highlevel"
+        ],
+        "zoom": "translate(5.07692px, 135.962px) scale(0.146154)"
+      },
+      "after": [
+        "terminal-orchestrator",
+        "config-orchestrator"
+      ],
+      "paused": {
+        "focus": "3px",
+        "playing": "false",
+        "pressed": "true",
+        "signals": [
+          "paused",
+          "paused"
+        ]
+      },
+      "zoomed": "translate(-25.7077px, 117.254px) scale(0.175385)",
+      "resumed": "true"
+    },
+    {
+      "route": "metodologia",
+      "id": "diagram-methodology-problem",
+      "before": {
+        "active": [
+          "a-b"
+        ],
+        "otherPlaying": [
+          "diagram-methodology-problem"
+        ],
+        "zoom": "translate(-19.5315px, 20.2657px) scale(0.321678)"
+      },
+      "after": [
+        "b-c"
+      ],
+      "paused": {
+        "focus": "3px",
+        "playing": "false",
+        "pressed": "true",
+        "signals": [
+          "paused"
+        ]
+      },
+      "zoomed": "translate(-55.2378px, -30.8811px) scale(0.386014)",
+      "resumed": "true"
+    },
+    {
+      "route": "metodologia",
+      "id": "diagram-methodology-solution",
+      "before": {
+        "active": [
+          "a-b"
+        ],
+        "otherPlaying": [
+          "diagram-methodology-solution"
+        ],
+        "zoom": "translate(-24.3566px, 26.6993px) scale(0.321678)"
+      },
+      "after": [
+        "b-c"
+      ],
+      "paused": {
+        "focus": "3px",
+        "playing": "false",
+        "pressed": "true",
+        "signals": [
+          "paused"
+        ]
+      },
+      "zoomed": "translate(-61.028px, -23.1608px) scale(0.386014)",
+      "resumed": "true"
+    }
+  ],
+  "hashReloads": [
+    {
+      "route": "concurrencia",
+      "id": "introduce",
+      "exists": 1,
+      "focused": "introduce",
+      "top": 0
+    },
+    {
+      "route": "concurrencia",
+      "id": "problema",
+      "exists": 1,
+      "focused": "problema",
+      "top": 104.203125
+    },
+    {
+      "route": "concurrencia",
+      "id": "solucion",
+      "exists": 1,
+      "focused": "solucion",
+      "top": 104.015625
+    },
+    {
+      "route": "concurrencia",
+      "id": "highLevel",
+      "exists": 1,
+      "focused": "highLevel",
+      "top": 104.03125
+    },
+    {
+      "route": "concurrencia",
+      "id": "flowSystem",
+      "exists": 1,
+      "focused": "flowSystem",
+      "top": 103.75
+    },
+    {
+      "route": "metodologia",
+      "id": "metodologia",
+      "exists": 1,
+      "focused": "metodologia",
+      "top": 0
+    },
+    {
+      "route": "metodologia",
+      "id": "introduce",
+      "exists": 1,
+      "focused": "introduce",
+      "top": 104
+    },
+    {
+      "route": "metodologia",
+      "id": "problema",
+      "exists": 1,
+      "focused": "problema",
+      "top": 103.671875
+    },
+    {
+      "route": "metodologia",
+      "id": "solucion",
+      "exists": 1,
+      "focused": "solucion",
+      "top": 104.1875
+    }
+  ],
+  "keyboard": {
+    "menu": {
+      "expanded": "false",
+      "focus": "Open menu",
+      "outline": "3px"
+    },
+    "outcome": {
+      "focus": "outcome",
+      "hash": "#outcome",
+      "text": "A reported change in the work required.\n\nThe existing project account reports less time per customization after adopting the methodology. The comparison is self-reported and is not a controlled benchmark.\n\nPrevious process\n8–14 hours / project\nWith the methodology\n1–2 hours / project\nRead the figures in context\n\nThese ranges describe the owner-reported experience. They do not establish a verified percentage saving, comparable task complexity or a guaranteed result for another project.\n\nThe documented process outcome is a repeatable path from native-interface analysis to a manually reviewed customization ready for integration.",
+      "top": 104.0625
+    },
+    "crossCase": {
+      "diagrams": 4,
+      "focus": "main-content",
+      "path": "/projects/concurrencia"
+    },
+    "backToProjects": {
+      "credentials": true,
+      "diagrams": 0,
+      "focus": "projects",
+      "hash": "#projects",
+      "hero": true,
+      "path": "/"
+    },
+    "skip": {
+      "focused": "main-content",
+      "outline": "3px"
+    },
+    "nextTab": {
+      "href": "/#projects",
+      "label": "Back to projects",
+      "outline": "3px"
+    }
+  },
+  "lifecycle": {
+    "offscreen": [
+      {
+        "id": "diagram-methodology-problem",
+        "playing": "false"
+      },
+      {
+        "id": "diagram-methodology-solution",
+        "playing": "false"
+      }
+    ],
+    "manualPauseRetained": {
+      "playing": "false",
+      "pressed": "true"
+    }
+  },
+  "console": [],
+  "touchTargets": [
+    {
+      "height": 44,
+      "text": "Back to projects"
+    },
+    {
+      "height": 44,
+      "text": "Challenge"
+    },
+    {
+      "height": 44,
+      "text": "Architecture"
+    },
+    {
+      "height": 44,
+      "text": "Workflow"
+    },
+    {
+      "height": 44,
+      "text": "Decisions"
+    },
+    {
+      "height": 44,
+      "text": "Outcome"
+    },
+    {
+      "height": 44,
+      "text": "Back to projects"
+    },
+    {
+      "height": 44,
+      "text": "Explore the customization methodology↗"
+    }
+  ]
+}

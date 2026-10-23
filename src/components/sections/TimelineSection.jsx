@@ -1,29 +1,18 @@
-import { timelineData } from "../../data/timelineData";
-import TimelineCard from "../ui/timelineCard";
+import { timelineData } from '../../data/timelineData';
+import TimelineCard from '../ui/TimelineCard';
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
+import '../../style/timelineseccion.css';
 
-function TimelineSection() {
-    return (
-        <section className="timeline-section">
-            <div className="timeline-title">
-                <h2>Experience & Education</h2>
-            </div>
-            <div className="timeline-wrapper">
-
-                <div className="timeline">
-                {timelineData.map((item, index) => (
-                    <TimelineCard
-                    key={item.id}
-                    period={item.period}
-                    title={item.title}
-                    organization={item.organization}
-                    description={item.description}
-                    side={index % 2 === 0 ? 'left' : 'right'}
-                    />
-                ))}
-                </div>
-            </div>
-        </section>
-    )
+export default function TimelineSection() {
+  return (
+    <section id="experience" tabIndex={-1} className="timeline-section" data-theme="light" aria-labelledby="experience-title">
+      <Container>
+        <SectionHeading title="Professional experience" id="experience-title" className="experience-heading" />
+        <ol className="timeline">
+          {timelineData.map(item => <TimelineCard key={item.id} {...item} />)}
+        </ol>
+      </Container>
+    </section>
+  );
 }
-
-export default TimelineSection

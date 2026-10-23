@@ -1,0 +1,82 @@
+{
+  "Inter-OFL.txt": {
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  "index.html": {
+    "bytes": 1298,
+    "sha256": "3d88fa048f9330911bc5a23ae14edd3c867a4018784c7711a72bde3065700390"
+  },
+  "_redirects": {
+    "bytes": 24,
+    "sha256": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c"
+  },
+  "sitemap.xml": {
+    "bytes": 280,
+    "sha256": "45fbfa7bfceeea465489514e5fc6d862ba4b9e5ea08f8b94fce98697d67aeecf"
+  },
+  "robots.txt": {
+    "bytes": 62,
+    "sha256": "2d0b448b86e71239f9452c6327065cdad41159f088810e88d2c671c1e37b8a92"
+  },
+  ".htaccess": {
+    "bytes": 214,
+    "sha256": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258"
+  },
+  "projects/concurrencia/index.html": {
+    "bytes": 1352,
+    "sha256": "471bc4a40e9610e7a4525b4b4b2dba1b5487634b196db44f11a6b9b7f63422ef"
+  },
+  "projects/metodologia/index.html": {
+    "bytes": 1380,
+    "sha256": "8420833264e4db1ff8be1eb97dab54e36d1c7c122f8cdafcdd42958993333307"
+  },
+  "assets/anxzu-480-D9Ta-Nth.jpg": {
+    "bytes": 157315,
+    "sha256": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac"
+  },
+  "assets/index-4eKRXhft.css": {
+    "bytes": 31148,
+    "sha256": "f3675cf86700def9e8293304d393a6a0cef3b70134149b21cab071110b2ebeb6"
+  },
+  "assets/style-zfM0SEWa.css": {
+    "bytes": 17425,
+    "sha256": "52f8730dc35ef7a8702fc043f4eedb542387ca0219d4ea22e0b0360d01de98f2"
+  },
+  "assets/anxzu-1024-bLlLDyaE.jpg": {
+    "bytes": 455950,
+    "sha256": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac"
+  },
+  "assets/style-oToVaKQS.js": {
+    "bytes": 176460,
+    "sha256": "b1e1cadbcc694766f773ac2165b831304e5ca816ed615366c42fd5a2becbbaed"
+  },
+  "assets/inter-latin-8kRkwJBP.woff2": {
+    "bytes": 48432,
+    "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+  },
+  "assets/Metodologia-BMENUbBa.js": {
+    "bytes": 13962,
+    "sha256": "85c6d5f0db6973f3c67d72d90c68ce100b4eaf781820dcf69801fb31a6589a66"
+  },
+  "assets/anxzu-768-DTErN6Kh.jpg": {
+    "bytes": 305451,
+    "sha256": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730"
+  },
+  "assets/Concurrencia-DA8N5KCQ.js": {
+    "bytes": 41301,
+    "sha256": "1556fe38b83f79f5c0b12a29ceb61a1a34878b52b9853013df6bcd1692a61535"
+  },
+  "assets/AX-BL9tpoD4.svg": {
+    "bytes": 2241,
+    "sha256": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7"
+  },
+  "assets/index-Dj-hLoX5.js": {
+    "bytes": 267884,
+    "sha256": "0e71a093a002b1a7ee36dfdc258752058d28af2a40683cec2f6d717666bf8ce3"
+  },
+  ".vite/manifest.json": {
+    "bytes": 2065,
+    "sha256": "81ccb2bd19ff455d01b7b99b5a31d7543c8cbe0be315b5961303847065e0e6b8"
+  }
+}

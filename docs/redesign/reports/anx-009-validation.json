@@ -1,0 +1,1560 @@
+{
+  "baseline": {
+    "files": 254,
+    "changed": [
+      "src/style/about.css",
+      "src/style/skills.css",
+      "src/components/sections/about.jsx",
+      "src/components/sections/skills.jsx",
+      "src/components/layout/Navigation.jsx",
+      "src/pages/Home.jsx"
+    ],
+    "unchanged": 248,
+    "protectedHeroAndSixDiagramsUnchanged": true
+  },
+  "content": {
+    "capabilities": [
+      {
+        "technologies": [
+          "LAN-to-LAN",
+          "VLAN",
+          "BGP",
+          "OSPF"
+        ],
+        "title": "Communications"
+      },
+      {
+        "technologies": [
+          "Captive Portals",
+          "Structured Cabling"
+        ],
+        "title": "Networking"
+      },
+      {
+        "technologies": [
+          "Debian Linux",
+          "NAS",
+          "Apache"
+        ],
+        "title": "Infrastructure"
+      },
+      {
+        "technologies": [
+          "Perimeter Security",
+          "Troubleshooting",
+          "Technical Support"
+        ],
+        "title": "Cybersecurity"
+      },
+      {
+        "technologies": [
+          "React",
+          "JavaScript",
+          "PHP",
+          "BASH"
+        ],
+        "title": "Web Development"
+      },
+      {
+        "technologies": [
+          "MariaDB",
+          "SQL Queries",
+          "PHP Integration"
+        ],
+        "title": "Databases"
+      },
+      {
+        "technologies": [
+          "WordPress",
+          "Shopify",
+          "Salesforce"
+        ],
+        "title": "Platforms & Tools"
+      },
+      {
+        "technologies": [
+          "SOW",
+          "Site Surveys",
+          "RFP Support"
+        ],
+        "title": "Technical Pre-Sales"
+      }
+    ],
+    "credentials": [
+      {
+        "dates": [
+          "2026-10-16"
+        ],
+        "href": "https://www.credly.com/badges/c8c68512-e2cc-4e49-80bd-3f2197afb2bf",
+        "image": "/assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Fabric - Installation and Configuration"
+      },
+      {
+        "dates": [
+          "2026-09-09",
+          "2029-09-09"
+        ],
+        "href": "https://www.credly.com/badges/b536a83a-c05d-49f8-9290-ae87cc042b9e",
+        "image": "/assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Professional in Solutions Design 2026"
+      },
+      {
+        "dates": [
+          "2026-09-02",
+          "2029-09-02"
+        ],
+        "href": "https://www.credly.com/badges/c6d728e5-93bf-4e18-9699-75f50775ab14",
+        "image": "/assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Professional in Solutions Selling 2026"
+      },
+      {
+        "dates": [
+          "2026-09-11",
+          "2029-09-11"
+        ],
+        "href": "https://www.credly.com/badges/fc048a96-ef41-48c4-9943-16269ab6085c",
+        "image": "/assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Platform ONE Introduction – Solutions Selling"
+      },
+      {
+        "dates": [
+          "2026-09-01"
+        ],
+        "href": "https://www.credly.com/badges/f15f1dee-8498-4e20-942f-7833f0486abe",
+        "image": "/assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in ExtremeCloud SD-WAN"
+      },
+      {
+        "dates": [
+          "2026-09-01"
+        ],
+        "href": "https://www.credly.com/badges/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d",
+        "image": "/assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in Network Security Basics"
+      },
+      {
+        "dates": [
+          "2026-09-01"
+        ],
+        "href": "https://www.credly.com/badges/b331b024-6ee7-4b66-b904-a1a0c9f90309",
+        "image": "/assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in Solutions Selling 2026"
+      },
+      {
+        "dates": [
+          "2026-08-28"
+        ],
+        "href": "https://www.credly.com/badges/f9b4484a-3cad-4609-9856-f8c7cf66fc72",
+        "image": "/assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in ExtremeCloud IQ - Site Engine"
+      },
+      {
+        "dates": [
+          "2026-08-28"
+        ],
+        "href": "https://www.credly.com/badges/359ec1bd-5afd-4e86-ac6b-0516a337e8ec",
+        "image": "/assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in ExtremeControl"
+      },
+      {
+        "dates": [
+          "2026-08-28"
+        ],
+        "href": "https://www.credly.com/badges/72a5814e-c56b-4e7c-b590-7fdda6b29453",
+        "image": "/assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in Extreme Switching"
+      },
+      {
+        "dates": [
+          "2026-08-25"
+        ],
+        "href": "https://www.credly.com/badges/06a8654d-f93b-412e-bae7-59156fb14189",
+        "image": "/assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in Extreme Fabric Connect"
+      },
+      {
+        "dates": [
+          "2026-08-24"
+        ],
+        "href": "https://www.credly.com/badges/a6f95950-f997-4619-93bd-12ef2e803049",
+        "image": "/assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Certified Associate in ExtremeCloud IQ"
+      },
+      {
+        "dates": [
+          "2026-08-21"
+        ],
+        "href": "https://www.credly.com/badges/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1",
+        "image": "/assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Networks Associate - Building Scalable and Mission Critical Networks"
+      },
+      {
+        "dates": [
+          "2026-08-18"
+        ],
+        "href": "https://www.credly.com/badges/df1a5877-1721-47db-a196-ea4e17f3a745",
+        "image": "/assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Networks Associate - Advance Your Career"
+      },
+      {
+        "dates": [
+          "2026-08-17"
+        ],
+        "href": "https://www.credly.com/badges/70fbf77b-7650-41d5-95cc-c6f1f492cff2",
+        "image": "/assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Networks Associate - Building Secure and Robust Wireless Networks"
+      },
+      {
+        "dates": [
+          "2026-08-13"
+        ],
+        "href": "https://www.credly.com/badges/9713e1b5-af12-4bff-b04c-f82e4aca6387",
+        "image": "/assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Networks Associate - Introduction to Future Networking"
+      },
+      {
+        "dates": [
+          "2026-09-14"
+        ],
+        "href": "https://www.credly.com/badges/df473e2c-6a24-475a-8b94-49b17985c053",
+        "image": "/assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+        "issuer": "Extreme Networks",
+        "name": "Extreme Platform ONE Introduction – Solutions Design"
+      },
+      {
+        "dates": [
+          "2023-04-26"
+        ],
+        "href": "https://www.credly.com/badges/fb4349ee-b599-4ae1-88a8-902a545f063a",
+        "image": "/assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+        "issuer": "Cisco",
+        "name": "Python Essentials 1"
+      }
+    ],
+    "families": [
+      "Networking & Telecommunications",
+      "Cloud & Infrastructure",
+      "Software & Automation",
+      "Solutions Architecture & Presales",
+      "AI-Assisted Engineering"
+    ],
+    "styles": [
+      {
+        "background": "rgb(245, 245, 247)",
+        "class": "skills-container",
+        "color": "rgb(9, 10, 12)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "color": "rgb(82, 91, 107)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "color": "rgb(82, 91, 107)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "color": "rgb(82, 91, 107)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "color": "rgb(82, 91, 107)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "",
+        "color": "rgb(82, 91, 107)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgb(9, 10, 12)",
+        "class": "credentials-section",
+        "color": "rgb(245, 245, 247)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "action-link credential-verify",
+        "color": "rgb(129, 175, 255)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "credentials-checked",
+        "color": "rgb(140, 150, 166)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "credential-issuer",
+        "color": "rgb(140, 150, 166)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "action-link credential-verify",
+        "color": "rgb(129, 175, 255)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "class": "credential-issuer",
+        "color": "rgb(140, 150, 166)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif"
+      }
+    ],
+    "timeline": [
+      {
+        "description": "I support commercial processes by validating technical requirements for captive portal implementations. I participate in preliminary solution design, multi-brand controller configuration, demo support, and the management of strategic accounts as part of the company’s expansion in Mexico.",
+        "organization": "DataWifi",
+        "period": "2025 - Actualidad",
+        "title": "Presales Engineer Sr."
+      },
+      {
+        "description": "I led the creation of the pre-sales area, standardizing services, architectures, and technical documentation. I contributed to the sizing of special projects, profitability analysis, requirements gathering, and the development of proposals for connectivity, IP telephony, cybersecurity, and enterprise networking solutions.",
+        "organization": "Servnet",
+        "period": "2023 - 2025",
+        "title": "Presales Engineer"
+      },
+      {
+        "description": "I developed internal projects focused on process automation using React, while also providing technical support, functional analysis, and commercial support through technical proposals and quotations.",
+        "organization": "End To End",
+        "period": "2022 - 2023",
+        "title": "Engineer"
+      },
+      {
+        "description": "I developed a NAS storage solution based on Debian, integrating SAMBA, Apache, MariaDB, and PHP. I also implemented network segmentation with VLANs, dynamic routing, and a management panel for handling users, privileges, and RAID configurations.",
+        "organization": "M.T. de México",
+        "period": "2022 - 2022",
+        "title": "External Consultant in Storage Infrastructure and Data Management"
+      }
+    ],
+    "contrastPairs": [
+      {
+        "background": "rgb(9, 10, 12)",
+        "color": "rgb(245, 245, 247)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": "#credentials",
+        "ratio": 18.189000770168846
+      },
+      {
+        "background": "rgb(9, 10, 12)",
+        "color": "rgb(140, 150, 166)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": ".credential-issuer",
+        "ratio": 6.6283061527789835
+      },
+      {
+        "background": "rgb(9, 10, 12)",
+        "color": "rgb(140, 150, 166)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": ".credentials-checked",
+        "ratio": 6.6283061527789835
+      },
+      {
+        "background": "rgb(9, 10, 12)",
+        "color": "rgb(129, 175, 255)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": ".credential-verify",
+        "ratio": 8.968262600992468
+      },
+      {
+        "background": "rgb(245, 245, 247)",
+        "color": "rgb(9, 10, 12)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": "#skills",
+        "ratio": 18.189000770168846
+      },
+      {
+        "background": "rgb(245, 245, 247)",
+        "color": "rgb(82, 91, 107)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": ".capability-family-heading p",
+        "ratio": 6.287361283879857
+      },
+      {
+        "background": "rgb(17, 19, 24)",
+        "color": "rgb(140, 150, 166)",
+        "font": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+        "selector": ".about-text-container p + p",
+        "ratio": 6.218751692765355
+      }
+    ]
+  },
+  "preservation": {
+    "capabilityCategories": 8,
+    "originalTechnologies": 25,
+    "timelineRecords": 4,
+    "individualCredentials": 18,
+    "capabilitiesExact": true,
+    "timelineExact": true,
+    "publicCredentialMetadataExact": true,
+    "method": "Original AST text fields compared to rendered DOM, credentials compared to captured individual public pages. Source SHA256 separately protects all preexisting files."
+  },
+  "responsive": {
+    "method": "Requested and actual widths, closed/open native details. getClientRects layoutBoxCount is NOT a paint/accessibility visibility check; closed details focus exclusion was verified by actual Tab navigation.",
+    "cases": [
+      {
+        "requested": 320,
+        "closed": {
+          "client": 305,
+          "inner": 320,
+          "open": false,
+          "scroll": 305,
+          "layoutBoxCount": 18
+        },
+        "expanded": {
+          "client": 305,
+          "duplicateIDs": [],
+          "entries": 18,
+          "h1": 1,
+          "inner": 320,
+          "links": [
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 226.890625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            }
+          ],
+          "main": 1,
+          "open": true,
+          "overflowTitles": [],
+          "scroll": 305,
+          "layoutBoxCount": 18
+        }
+      },
+      {
+        "requested": 375,
+        "closed": {
+          "client": 360,
+          "inner": 375,
+          "open": false,
+          "scroll": 360,
+          "layoutBoxCount": 18
+        },
+        "expanded": {
+          "client": 360,
+          "duplicateIDs": [],
+          "entries": 18,
+          "h1": 1,
+          "inner": 375,
+          "links": [
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 226.890625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 155.734375
+            }
+          ],
+          "main": 1,
+          "open": true,
+          "overflowTitles": [],
+          "scroll": 360,
+          "layoutBoxCount": 18
+        }
+      },
+      {
+        "requested": 768,
+        "closed": {
+          "client": 753,
+          "inner": 768,
+          "open": false,
+          "scroll": 753,
+          "layoutBoxCount": 18
+        },
+        "expanded": {
+          "client": 753,
+          "duplicateIDs": [],
+          "entries": 18,
+          "h1": 1,
+          "inner": 768,
+          "links": [
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 231.234375
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 158.53125
+            }
+          ],
+          "main": 1,
+          "open": true,
+          "overflowTitles": [],
+          "scroll": 753,
+          "layoutBoxCount": 18
+        }
+      },
+      {
+        "requested": 1024,
+        "closed": {
+          "client": 1009,
+          "inner": 1024,
+          "open": false,
+          "scroll": 1009,
+          "layoutBoxCount": 18
+        },
+        "expanded": {
+          "client": 1009,
+          "duplicateIDs": [],
+          "entries": 18,
+          "h1": 1,
+          "inner": 1024,
+          "links": [
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 235.953125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 161.5625
+            }
+          ],
+          "main": 1,
+          "open": true,
+          "overflowTitles": [],
+          "scroll": 1009,
+          "layoutBoxCount": 18
+        }
+      },
+      {
+        "requested": 1440,
+        "closed": {
+          "client": 1425,
+          "inner": 1440,
+          "open": false,
+          "scroll": 1425,
+          "layoutBoxCount": 18
+        },
+        "expanded": {
+          "client": 1425,
+          "duplicateIDs": [],
+          "entries": 18,
+          "h1": 1,
+          "inner": 1440,
+          "links": [
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 239.3125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            }
+          ],
+          "main": 1,
+          "open": true,
+          "overflowTitles": [],
+          "scroll": 1425,
+          "layoutBoxCount": 18
+        }
+      },
+      {
+        "requested": 1920,
+        "closed": {
+          "client": 1905,
+          "inner": 1920,
+          "open": false,
+          "scroll": 1905,
+          "layoutBoxCount": 18
+        },
+        "expanded": {
+          "client": 1905,
+          "duplicateIDs": [],
+          "entries": 18,
+          "h1": 1,
+          "inner": 1920,
+          "links": [
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 239.3125
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            },
+            {
+              "height": 44,
+              "labelIncludesVisible": true,
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+              "width": 163.71875
+            }
+          ],
+          "main": 1,
+          "open": true,
+          "overflowTitles": [],
+          "scroll": 1905,
+          "layoutBoxCount": 18
+        }
+      }
+    ]
+  },
+  "keyboard": {
+    "closedTab": {
+      "focus": "3px",
+      "href": "https://www.credly.com/badges/df473e2c-6a24-475a-8b94-49b17985c053",
+      "label": "Verify credential: Extreme Platform ONE Introduction – Solutions Design on Credly (opens in a new tab)",
+      "open": false,
+      "top": 948.921875
+    },
+    "openTab": {
+      "focus": "3px",
+      "href": "https://www.credly.com/badges/fc048a96-ef41-48c4-9943-16269ab6085c",
+      "label": "Verify credential: Extreme Platform ONE Introduction – Solutions Selling on Credly (opens in a new tab)",
+      "open": true,
+      "top": 781.6875
+    },
+    "internalLink": {
+      "focus": "credentials",
+      "hash": "#credentials"
+    },
+    "menuOpen": "true",
+    "menuClosed": {
+      "expanded": "false",
+      "label": "Open menu"
+    },
+    "space": {
+      "spaceOpen": "",
+      "spaceClosed": null
+    }
+  },
+  "regressions": {
+    "diagrams": [
+      {
+        "route": "concurrencia",
+        "id": "loadbalance",
+        "client": 360,
+        "graphs": 4,
+        "playing": [
+          "diagram-loadbalance"
+        ],
+        "scroll": 360,
+        "signals": [
+          "running",
+          "running"
+        ]
+      },
+      {
+        "route": "concurrencia",
+        "id": "business",
+        "client": 360,
+        "graphs": 4,
+        "playing": [
+          "diagram-business"
+        ],
+        "scroll": 360,
+        "signals": [
+          "running",
+          "running",
+          "running"
+        ]
+      },
+      {
+        "route": "concurrencia",
+        "id": "logic",
+        "client": 360,
+        "graphs": 4,
+        "playing": [
+          "diagram-logic"
+        ],
+        "scroll": 360,
+        "signals": [
+          "running",
+          "running"
+        ]
+      },
+      {
+        "route": "concurrencia",
+        "id": "highlevel",
+        "client": 360,
+        "graphs": 4,
+        "playing": [
+          "diagram-highlevel"
+        ],
+        "scroll": 360,
+        "signals": [
+          "running",
+          "running"
+        ]
+      },
+      {
+        "route": "metodologia",
+        "id": "methodology-problem",
+        "client": 360,
+        "graphs": 2,
+        "playing": [
+          "diagram-methodology-problem"
+        ],
+        "scroll": 360,
+        "signals": [
+          "running"
+        ]
+      },
+      {
+        "route": "metodologia",
+        "id": "methodology-solution",
+        "client": 360,
+        "graphs": 2,
+        "playing": [
+          "diagram-methodology-solution"
+        ],
+        "scroll": 360,
+        "signals": [
+          "running"
+        ]
+      }
+    ],
+    "hero": {
+      "heroRunning": "true",
+      "heroPaused": "false",
+      "heroResumed": "true"
+    },
+    "console": []
+  },
+  "captures": [
+    {
+      "label": "desktop",
+      "hash": "about",
+      "client": 1425,
+      "height": 1400,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "label": "desktop",
+      "hash": "skills",
+      "client": 1425,
+      "height": 1400,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "label": "desktop",
+      "hash": "credentials",
+      "client": 1425,
+      "height": 1400,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "label": "desktop",
+      "hash": "completed-courses",
+      "client": 1425,
+      "height": 1400,
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "label": "mobile",
+      "hash": "about",
+      "client": 360,
+      "height": 1600,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "label": "mobile",
+      "hash": "skills",
+      "client": 360,
+      "height": 1600,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "label": "mobile",
+      "hash": "credentials",
+      "client": 360,
+      "height": 1600,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "label": "mobile",
+      "hash": "completed-courses",
+      "client": 360,
+      "height": 1600,
+      "scroll": 360,
+      "width": 375
+    }
+  ],
+  "imports": {
+    "files": 73,
+    "checked": 160,
+    "errors": [],
+    "method": "Parse static and literal dynamic relative imports, resolve files and compare each path segment to exact filesystem entries."
+  }
+}

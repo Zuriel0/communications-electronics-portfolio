@@ -1,0 +1,452 @@
+[
+  {
+    "habilidad": "Conectividad",
+    "tecnologia": "LAN-to-LAN",
+    "contexto": "Soluciones de conectividad descritas en biografía; preventa Servnet",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/skills.js; About anterior; src/data/timelineData.js",
+    "verificacion": "Respaldada por declaración existente; sin validación laboral externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Segmentación",
+    "tecnologia": "VLAN",
+    "contexto": "Implementación NAS, M.T. de México",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js [id4]",
+    "verificacion": "Responsabilidad explícita en registro; sin prueba externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Routing",
+    "tecnologia": "BGP",
+    "contexto": "Inventario de capacidades; no hay caso específico del protocolo",
+    "tipo": "Contexto por confirmar",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Declarada anteriormente; se conserva sin atribuir producción, empresa o nivel",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Routing",
+    "tecnologia": "OSPF",
+    "contexto": "Inventario de capacidades; no hay caso específico del protocolo",
+    "tipo": "Contexto por confirmar",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Declarada anteriormente; se conserva sin atribuir producción, empresa o nivel",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Wi-Fi empresarial",
+    "tecnologia": "Controladores multimarcas; Wireless Networks",
+    "contexto": "Portales cautivos en DataWifi; formación Wireless de Extreme",
+    "tipo": "Profesional general / formación",
+    "evidencia": "src/data/timelineData.js [id1]; Credly 70fbf77b-7650-41d5-95cc-c6f1f492cff2",
+    "verificacion": "Contexto de controladores declarado y formación pública; no acredita fabricante en producción",
+    "inventario": "A/D"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "MikroTik",
+    "contexto": "Sin material específico localizado",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia en fuentes inspeccionadas",
+    "verificacion": "No incorporar como nueva habilidad hasta confirmar contexto y evidencia",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "Fortinet",
+    "contexto": "Sin material específico localizado",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia en fuentes inspeccionadas",
+    "verificacion": "No incorporar como nueva habilidad hasta confirmar contexto y evidencia",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "Aruba",
+    "contexto": "Sin material específico localizado",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia en fuentes inspeccionadas",
+    "verificacion": "No incorporar como nueva habilidad hasta confirmar contexto y evidencia",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "Ruckus",
+    "contexto": "Sin material específico localizado",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia en fuentes inspeccionadas",
+    "verificacion": "No incorporar como nueva habilidad hasta confirmar contexto y evidencia",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "Huawei",
+    "contexto": "Sin material específico localizado",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia en fuentes inspeccionadas",
+    "verificacion": "No incorporar como nueva habilidad hasta confirmar contexto y evidencia",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "Extreme Networks",
+    "contexto": "Fabric, switching, SD-WAN, control, gestión y preventa",
+    "tipo": "Formación / credenciales",
+    "evidencia": "18 páginas públicas; 17 insignias Extreme Networks",
+    "verificacion": "Credenciales públicas verificadas; no se infiere despliegue profesional",
+    "inventario": "D"
+  },
+  {
+    "habilidad": "Redes por fabricante",
+    "tecnologia": "Cisco networking / CCNA",
+    "contexto": "La insignia Cisco localizada corresponde a Python",
+    "tipo": "Pendiente",
+    "evidencia": "Python Essentials 1 no es CCNA",
+    "verificacion": "Sin credencial CCNA ni evidencia de redes Cisco; no incorporar esa afirmación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Autenticación y observabilidad",
+    "tecnologia": "RADIUS",
+    "contexto": "Caso de monitoreo: 2 disponibles, 1 activo; grupo independiente de Web",
+    "tipo": "Proyecto documentado",
+    "evidencia": "src/data/projects.js; /projects/concurrencia",
+    "verificacion": "Caso publicado, no se dispone del script ni de vínculo laboral verificable",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Acceso Wi-Fi",
+    "tecnologia": "Portales cautivos",
+    "contexto": "Requisitos, diseño preliminar y controladores DataWifi",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js [id1]; src/data/skills.js",
+    "verificacion": "Responsabilidad explícita en registro, sin validación laboral externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Infraestructura física",
+    "tecnologia": "Structured Cabling",
+    "contexto": "Capacidad previamente declarada",
+    "tipo": "Contexto por confirmar",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Se conserva inventario; proyecto y alcance por confirmar",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "AWS VPC",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "AWS EC2",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "AWS IAM",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "AWS S3",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "AWS NAT Gateway",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "Cloud networking",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Cloud",
+    "tecnologia": "Cloud network security",
+    "contexto": "Sin laboratorio, curso, configuración o despliegue documentado",
+    "tipo": "Pendiente",
+    "evidencia": "No hay materiales AWS en repo ni en las 18 insignias públicas",
+    "verificacion": "No publicar como capacidad ni experiencia de producción; confirmar si laboratorio o formación",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Frontend y automatización",
+    "tecnologia": "React",
+    "contexto": "Automatización interna End To End y este portafolio",
+    "tipo": "Profesional declarada / proyecto",
+    "evidencia": "src/data/timelineData.js [id3]; src/**/*.jsx; package.json",
+    "verificacion": "Uso observable en repo y función laboral declarada",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Desarrollo web",
+    "tecnologia": "JavaScript",
+    "contexto": "Interfaz del portafolio; capacidad existente",
+    "tipo": "Proyecto / inventario",
+    "evidencia": "src/data/skills.js; src/**/*.js,jsx",
+    "verificacion": "Uso observable; no se asigna a un empleador por inferencia",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Runtime y tooling",
+    "tecnologia": "Node.js",
+    "contexto": "Scripts de build/QA en Node; no hay servicio backend documentado",
+    "tipo": "Proyecto tooling; backend pendiente",
+    "evidencia": "scripts/*.mjs; package.json",
+    "verificacion": "Herramienta de entorno observable; no se añade dominio de backend como capacidad",
+    "inventario": "B/C"
+  },
+  {
+    "habilidad": "Automatización de consola",
+    "tecnologia": "Bash / SSH / Ubuntu",
+    "contexto": "Monitoreo concurrente de logs por MAC",
+    "tipo": "Proyecto documentado",
+    "evidencia": "src/data/projects.js; /projects/concurrencia",
+    "verificacion": "Caso publicado; código de implementación del monitor no disponible",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Programación",
+    "tecnologia": "Python",
+    "contexto": "Python Essentials 1, emitido por Cisco el 2023-04-26",
+    "tipo": "Formación",
+    "evidencia": "https://www.credly.com/badges/fb4349ee-b599-4ae1-88a8-902a545f063a",
+    "verificacion": "Formación pública completada; no acredita uso profesional ni CCNA",
+    "inventario": "D"
+  },
+  {
+    "habilidad": "Backend web",
+    "tecnologia": "PHP",
+    "contexto": "Solución NAS Debian, gestión de usuarios y datos",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js [id4]; src/data/skills.js",
+    "verificacion": "Explícito en registro profesional; no verificado externamente",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Datos",
+    "tecnologia": "SQL / MariaDB / PHP Integration",
+    "contexto": "Solución NAS y consultas declaradas",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js [id4]; src/data/skills.js",
+    "verificacion": "MariaDB explícito; consultas e integración ya declaradas",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Software",
+    "tecnologia": "PostgreSQL",
+    "contexto": "Sin aplicación concreta documentada",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia específica en fuentes inspeccionadas",
+    "verificacion": "No incorporar automáticamente",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Software",
+    "tecnologia": "Docker",
+    "contexto": "Sin aplicación concreta documentada",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia específica en fuentes inspeccionadas",
+    "verificacion": "No incorporar automáticamente",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Software",
+    "tecnologia": "APIs REST",
+    "contexto": "Sin aplicación concreta documentada",
+    "tipo": "Pendiente",
+    "evidencia": "Sin evidencia específica en fuentes inspeccionadas",
+    "verificacion": "No incorporar automáticamente",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Control de versiones",
+    "tecnologia": "Git",
+    "contexto": "Repositorio actual y competencia del caso SSH",
+    "tipo": "Proyecto",
+    "evidencia": "src/data/projects.js; repositorio Git",
+    "verificacion": "Evidencia de proyecto, no experiencia laboral específica",
+    "inventario": "A/B"
+  },
+  {
+    "habilidad": "Infraestructura y servicios",
+    "tecnologia": "Debian Linux / NAS / SAMBA / Apache / RAID",
+    "contexto": "Solución de almacenamiento M.T. de México",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js [id4]; src/data/skills.js",
+    "verificacion": "Registro profesional explícito; SAMBA y RAID listos para ampliar inventario sin inferir cloud",
+    "inventario": "A/B"
+  },
+  {
+    "habilidad": "Seguridad y soporte",
+    "tecnologia": "Perimeter Security / Troubleshooting / Technical Support",
+    "contexto": "Propuestas de ciberseguridad, soporte y diagnóstico",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js; src/data/skills.js",
+    "verificacion": "Áreas generales respaldadas; no implica certificación o fabricante",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Plataformas",
+    "tecnologia": "WordPress / Shopify / Salesforce",
+    "contexto": "Inventario anterior; sin proyecto nominal asociado",
+    "tipo": "Contexto por confirmar",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Conservadas; sin nueva atribución de empleo o alcance",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Preventa",
+    "tecnologia": "RFP Support",
+    "contexto": "Capacidad previamente declarada",
+    "tipo": "Profesional declarada, contexto específico pendiente",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Se conserva declaración; confirmar entregable, empresa y alcance",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Preventa",
+    "tecnologia": "SOW",
+    "contexto": "Capacidad previamente declarada",
+    "tipo": "Profesional declarada, contexto específico pendiente",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Se conserva declaración; confirmar entregable, empresa y alcance",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Preventa",
+    "tecnologia": "Site Surveys",
+    "contexto": "Capacidad previamente declarada",
+    "tipo": "Profesional declarada, contexto específico pendiente",
+    "evidencia": "src/data/skills.js",
+    "verificacion": "Se conserva declaración; confirmar entregable, empresa y alcance",
+    "inventario": "A/C"
+  },
+  {
+    "habilidad": "Arquitectura y preventa",
+    "tecnologia": "Levantamientos",
+    "contexto": "Requirements gathering en Servnet",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js",
+    "verificacion": "Responsabilidades explícitas; sin métricas nuevas ni validación externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Arquitectura y preventa",
+    "tecnologia": "Dimensionamiento",
+    "contexto": "Sizing of special projects en Servnet",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js",
+    "verificacion": "Responsabilidades explícitas; sin métricas nuevas ni validación externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Arquitectura y preventa",
+    "tecnologia": "Propuestas",
+    "contexto": "Servnet y End To End",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js",
+    "verificacion": "Responsabilidades explícitas; sin métricas nuevas ni validación externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "Arquitectura y preventa",
+    "tecnologia": "Diseño técnico",
+    "contexto": "Preliminary solution design DataWifi; architectures Servnet",
+    "tipo": "Profesional declarada",
+    "evidencia": "src/data/timelineData.js",
+    "verificacion": "Responsabilidades explícitas; sin métricas nuevas ni validación externa",
+    "inventario": "A"
+  },
+  {
+    "habilidad": "AI-Assisted Engineering",
+    "tecnologia": "Análisis de restricciones",
+    "contexto": "Personalización no invasiva de plataformas",
+    "tipo": "Proyecto documentado",
+    "evidencia": "src/components/sections/introduce_metodologia.jsx; /projects/metodologia",
+    "verificacion": "Metodología descrita; no se infiere empleo, producto de IA propio ni nuevas métricas",
+    "inventario": "A/B"
+  },
+  {
+    "habilidad": "AI-Assisted Engineering",
+    "tecnologia": "Contexto técnico",
+    "contexto": "Personalización no invasiva de plataformas",
+    "tipo": "Proyecto documentado",
+    "evidencia": "src/components/sections/introduce_metodologia.jsx; /projects/metodologia",
+    "verificacion": "Metodología descrita; no se infiere empleo, producto de IA propio ni nuevas métricas",
+    "inventario": "A/B"
+  },
+  {
+    "habilidad": "AI-Assisted Engineering",
+    "tecnologia": "Generación asistida por IA",
+    "contexto": "Personalización no invasiva de plataformas",
+    "tipo": "Proyecto documentado",
+    "evidencia": "src/components/sections/introduce_metodologia.jsx; /projects/metodologia",
+    "verificacion": "Metodología descrita; no se infiere empleo, producto de IA propio ni nuevas métricas",
+    "inventario": "A/B"
+  },
+  {
+    "habilidad": "AI-Assisted Engineering",
+    "tecnologia": "Validación humana",
+    "contexto": "Personalización no invasiva de plataformas",
+    "tipo": "Proyecto documentado",
+    "evidencia": "src/components/sections/introduce_metodologia.jsx; /projects/metodologia",
+    "verificacion": "Metodología descrita; no se infiere empleo, producto de IA propio ni nuevas métricas",
+    "inventario": "A/B"
+  },
+  {
+    "habilidad": "Formación académica",
+    "tecnologia": "Programa / institución / fechas / título documental",
+    "contexto": "Profesión confirmada por el propietario; sin registro académico individual",
+    "tipo": "Pendiente",
+    "evidencia": "Brief ANX-009; no diploma ni institución en repo",
+    "verificacion": "No inventar institución, grado, fechas o laboratorio",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Formación activa",
+    "tecnologia": "Curso o laboratorio en progreso",
+    "contexto": "Ningún curso activo documentado",
+    "tipo": "Pendiente",
+    "evidencia": "Sin registro de matrícula, programa activo o alcance de laboratorio",
+    "verificacion": "learningInProgress vacío; no inferir de cursos completados",
+    "inventario": "C"
+  },
+  {
+    "habilidad": "Otras capacidades del README",
+    "tecnologia": "C/C++ / ensamblado / Arduino / instrumentación",
+    "contexto": "Enumeración general; no implementación específica inspeccionada",
+    "tipo": "Contexto por confirmar",
+    "evidencia": "README.md [Características]",
+    "verificacion": "No se eliminan del README; no se amplían automáticamente en la interfaz",
+    "inventario": "B/C"
+  }
+]

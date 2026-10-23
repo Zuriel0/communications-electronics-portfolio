@@ -1,0 +1,44 @@
+[
+  {
+    file: 'src/components/ui/graphics/metodologia_solution_flow.jsx',
+    nodes: 6,
+    edges: 5,
+    staticDefinitionsPreserved: true,
+    canvasOptionsPreserved: true
+  },
+  {
+    file: 'src/components/ui/graphics/bussiness_flow.jsx',
+    nodes: 9,
+    edges: 5,
+    staticDefinitionsPreserved: true,
+    canvasOptionsPreserved: true
+  },
+  {
+    file: 'src/components/ui/graphics/flow_loadbalance.jsx',
+    nodes: 6,
+    edges: 4,
+    staticDefinitionsPreserved: true,
+    canvasOptionsPreserved: true
+  },
+  {
+    file: 'src/components/ui/graphics/highlevel_flow.jsx',
+    nodes: 12,
+    edges: 11,
+    staticDefinitionsPreserved: true,
+    canvasOptionsPreserved: true
+  },
+  {
+    file: 'src/components/ui/graphics/metodologia_problem_flow.jsx',
+    nodes: 6,
+    edges: 5,
+    staticDefinitionsPreserved: true,
+    canvasOptionsPreserved: true
+  },
+  {
+    file: 'src/components/ui/graphics/logic_flow.jsx',
+    nodes: 7,
+    edges: 7,
+    staticDefinitionsPreserved: true,
+    canvasOptionsPreserved: true
+  }
+]

@@ -1,0 +1,8 @@
+/* Existing Inter variable Latin face, self-hosted; license: /Inter-OFL.txt. */
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('../assets/fonts/inter-latin.woff2') format('woff2');
+}

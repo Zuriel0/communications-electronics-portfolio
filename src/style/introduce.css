@@ -1,0 +1,62 @@
+.introduce-container, .metodologia-container {
+  min-height: 100svh;
+  padding-block: calc(var(--header-height) + var(--space-8)) var(--space-8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--background-primary);
+}
+
+.introduce-content, .metodologia-content,
+.problema-content, .solucion-content, .high-level-content, .flow-system-content {
+  width: min(calc(100% - 2 * var(--gutter)), var(--content-max));
+  margin-inline: auto;
+  min-width: 0;
+}
+
+.introduce-content h1, .metodologia-content h1 {
+  max-width: 22ch;
+  margin-inline: auto;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.introduce-content p, .metodologia-content p {
+  max-width: var(--reading-width);
+  margin: var(--space-6) auto 0;
+  font-size: var(--text-body-lg);
+  text-align: left;
+}
+
+.problema-container, .solucion-container, .high-level-container, .flow-system-container {
+  padding-block: var(--section-space);
+}
+
+.problema-container, .high-level-container {
+  background: var(--background-secondary);
+}
+
+.problema-content + .problema-content, .solucion-content + .solucion-content {
+  margin-top: var(--space-8);
+}
+
+.problema-title, .solucion-title, .high-level-title, .flow-system-title {
+  margin-bottom: var(--space-6);
+}
+
+.problema-subtitle, .solucion-subtitle, .high-level-subtitle, .flow-system-subtitle {
+  max-width: var(--reading-width);
+  margin-top: var(--space-6);
+}
+
+.problema-description, .solucion-description, .high-level-description, .flow-system-description {
+  max-width: var(--reading-width);
+  font-size: var(--text-body-lg);
+  margin-top: var(--space-5);
+  text-align: left;
+}
+
+.problema-content > div[style], .solucion-content > div[style], .high-level-content > div[style] {
+  margin-top: var(--space-7);
+  max-width: 100%;
+}

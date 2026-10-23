@@ -33,3 +33,15 @@ dist-ssr
 
 # Archivos de Windows
 Thumbs.db
+
+
+# Local agent tooling and private/runtime directories (preserved locally)
+.agents/
+.codex/
+.aws/
+.ssh/
+skills-lock.json
+*.pem
+*.p12
+*.pfx
+*.key

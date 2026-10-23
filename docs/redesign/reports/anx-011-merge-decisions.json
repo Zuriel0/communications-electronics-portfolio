@@ -1,0 +1,135 @@
+{
+  "strategy": "Unrelated-history merge: main root history retained as first parent; redesign second parent already contains dark-theme. No global ours/theirs strategy. Explicit per-path decisions.",
+  "resolutions": [
+    {
+      "path": ".gitignore",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Combine main LF formatting with reviewed local/private exclusions."
+    },
+    {
+      "path": "README.md",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Replace historical generic instructions with release-specific documentation; preserve hosting guidance via configuration references."
+    },
+    {
+      "path": "index.html",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Retain local font preload and reviewed SEO metadata."
+    },
+    {
+      "path": "package-lock.json",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Retain existing redesign lock, including pre-existing dependency resolution updates; validate with npm ci."
+    },
+    {
+      "path": "package.json",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "React Router and React Flow are required by the reviewed three-route implementation; main omitted them."
+    },
+    {
+      "path": "src/components/layout/navbar.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep accessible shared Navigation adapter."
+    },
+    {
+      "path": "src/components/sections/TimelineSection.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep current professional chronology and accessible editorial hierarchy."
+    },
+    {
+      "path": "src/components/sections/about.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep owner-reviewed profile, real portrait, context and five focus areas."
+    },
+    {
+      "path": "src/components/sections/contac.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep actual contact links and honest mailto action; no fake form."
+    },
+    {
+      "path": "src/components/sections/hero.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep preserved classic Hero for reversibility; immersive integration uses separate modules."
+    },
+    {
+      "path": "src/components/sections/projects.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep two verified-scope case entries and actual routes instead of placeholder projects."
+    },
+    {
+      "path": "src/components/sections/skills.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep eight original categories with ANX-009 professional/context grouping."
+    },
+    {
+      "path": "src/components/ui/Contac_Info.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep accessible actionable contact content."
+    },
+    {
+      "path": "src/components/ui/Technical_Cards.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep semantic capability lists used by current Skills."
+    },
+    {
+      "path": "src/components/ui/TimelineCard.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep accessible chronology component."
+    },
+    {
+      "path": "src/components/ui/button.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep native button action semantics."
+    },
+    {
+      "path": "src/components/ui/projects_card.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep editorial project showcase and working Router links."
+    },
+    {
+      "path": "src/components/ui/social_log_crd.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep named external links and safe rel attributes."
+    },
+    {
+      "path": "src/data/projects.js",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Preserve owner-reviewed SSH/methodology cases, not old IoT/SDR/control placeholders."
+    },
+    {
+      "path": "src/data/skills.js",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Preserve reviewed capabilities; do not import generic unverified old technologies."
+    },
+    {
+      "path": "src/data/social_profiles.js",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Preserve actual GitHub/LinkedIn/email destinations rather than older placeholders."
+    },
+    {
+      "path": "src/data/timelineData.js",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Preserve four reviewed employment declarations rather than unrelated generic responsibility text."
+    },
+    {
+      "path": "src/index.css",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep tokens/font/base imports instead of monolithic older stylesheet."
+    },
+    {
+      "path": "src/main.jsx",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep BrowserRouter entry required for all three routes."
+    },
+    {
+      "path": "vite.config.js",
+      "selectedSource": "codex/anx-001-redesign-audit",
+      "reason": "Keep route metadata/Preview plugin and original route base."
+    }
+  ],
+  "mainOnlyAssetsRetained": [
+    "public/vite.svg",
+    "src/assets/react.svg",
+    "src/style/contact.css"
+  ]
+}

@@ -4,19 +4,19 @@ export const Social = [
     {
         id : 1,
         icon : FaGithub,
-        link : "https://github.com/ZurielMacias",
+        link : "https://github.com/Zuriel0",
         name : "Github"
     },
     {
         id : 2,
         icon : FaLinkedin,
-        link : "https://www.linkedin.com/in/zuriel-macias-9a0b3b1b3/",
+        link : "https://www.linkedin.com/in/andrés-zuriel-macías-ríos",
         name : "Linkedin" 
     },
     {
         id: 3,
         icon : FaEnvelope,
-        link : "[EMAIL_ADDRESS]",
+        link : "mailto:andres.macias@anxzu.com",
         name : "Email" 
     }
 ]

@@ -1,0 +1,561 @@
+{
+  "cleanupWarnings": [
+    {
+      "scenario": "balance-active",
+      "repeat": 3,
+      "message": "[Errno 1] Operation not permitted",
+      "note": "Chrome parent terminated; OS refused a remaining process-group signal. No unrelated process was targeted."
+    }
+  ],
+  "method": "Approximate aggregate CPU of fresh Chrome headless process trees from ps. 3s warmup, eight ~1s samples, three alternating repeats per scenario; 1440x1000, no input. 100% equals one core. All-static uses browser reduced-motion flag, not a claim that manual pause was clicked in this process. Manual pause was separately checked in the controlled browser. Four Concurrencia diagrams mounted; only named diagram visible in active scenarios. No GPU/energy/FPS inference.",
+  "results": [
+    {
+      "scenario": "all-static",
+      "repeat": 1,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-loadbalance",
+      "reducedMotion": true,
+      "samples": [
+        {
+          "wallSeconds": 1.0267345000000003,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9739616229901699,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0270203750000002,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9736905170941722,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0267565419999993,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0224473750000005,
+          "cpuSeconds": 0.009999999999999981,
+          "oneCorePercent": 0.9780454470822986,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0225989999999996,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9779004282225988,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0212404999999993,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0261682500000013,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0233258749999994,
+          "cpuSeconds": 0.020000000000000018,
+          "oneCorePercent": 1.9544116384235892,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.196292417,
+      "cpuSeconds": 0.060000000000000026,
+      "oneCorePercent": 0.7320383039964937
+    },
+    {
+      "scenario": "balance-active",
+      "repeat": 1,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-loadbalance",
+      "reducedMotion": false,
+      "samples": [
+        {
+          "wallSeconds": 1.0184893339999999,
+          "cpuSeconds": 0.18,
+          "oneCorePercent": 17.673233679637143,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0192837499999996,
+          "cpuSeconds": 0.18,
+          "oneCorePercent": 17.65945939979913,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0220002500000014,
+          "cpuSeconds": 0.19,
+          "oneCorePercent": 18.590993495353818,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0199526659999982,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.6283154438071,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0184577499999996,
+          "cpuSeconds": 0.18000000000000005,
+          "oneCorePercent": 17.67378175481507,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.026645000000002,
+          "cpuSeconds": 0.17999999999999994,
+          "oneCorePercent": 17.532837543649418,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0228016669999995,
+          "cpuSeconds": 0.18000000000000005,
+          "oneCorePercent": 17.59871985034613,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0228325829999996,
+          "cpuSeconds": 0.20000000000000018,
+          "oneCorePercent": 19.553542126453774,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.170463,
+      "cpuSeconds": 1.4800000000000004,
+      "oneCorePercent": 18.11402854403723
+    },
+    {
+      "scenario": "business-active",
+      "repeat": 1,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-business",
+      "reducedMotion": false,
+      "samples": [
+        {
+          "wallSeconds": 1.0153714590000007,
+          "cpuSeconds": 0.16999999999999998,
+          "oneCorePercent": 16.742641177586997,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.018529707999999,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.6543405172822,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0200829999999996,
+          "cpuSeconds": 0.20000000000000018,
+          "oneCorePercent": 19.60624772690068,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0265883749999993,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.507904884467454,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0217982079999999,
+          "cpuSeconds": 0.20999999999999985,
+          "oneCorePercent": 20.552003160295214,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0241496250000033,
+          "cpuSeconds": 0.20000000000000007,
+          "oneCorePercent": 19.528396546549477,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0196015000000003,
+          "cpuSeconds": 0.19000000000000017,
+          "oneCorePercent": 18.634731314145785,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.025761750000001,
+          "cpuSeconds": 0.22999999999999987,
+          "oneCorePercent": 22.422360748000173,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.171883625000003,
+      "cpuSeconds": 1.58,
+      "oneCorePercent": 19.33458762391516
+    },
+    {
+      "scenario": "all-static",
+      "repeat": 2,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-loadbalance",
+      "reducedMotion": true,
+      "samples": [
+        {
+          "wallSeconds": 1.0310892919999972,
+          "cpuSeconds": 0.009999999999999953,
+          "oneCorePercent": 0.9698481089453483,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0204148330000038,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9799935944286662,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0207614579999955,
+          "cpuSeconds": 0.030000000000000027,
+          "oneCorePercent": 2.9389824395192004,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0252244590000004,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0253751250000036,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0223147079999961,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0294634170000023,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9713798309746043,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0293938749999967,
+          "cpuSeconds": 0.020000000000000018,
+          "oneCorePercent": 1.9428909075255651,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.204037166999996,
+      "cpuSeconds": 0.08000000000000002,
+      "oneCorePercent": 0.9751296632564374
+    },
+    {
+      "scenario": "balance-active",
+      "repeat": 2,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-loadbalance",
+      "reducedMotion": false,
+      "samples": [
+        {
+          "wallSeconds": 1.019910374999995,
+          "cpuSeconds": 0.18,
+          "oneCorePercent": 17.648609565325863,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0222053750000057,
+          "cpuSeconds": 0.19,
+          "oneCorePercent": 18.587262858014117,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0272295829999933,
+          "cpuSeconds": 0.19,
+          "oneCorePercent": 18.496352046746033,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0228622920000063,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.575325484771977,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0176926249999951,
+          "cpuSeconds": 0.18000000000000005,
+          "oneCorePercent": 17.687069315256252,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0230408330000031,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.57208372053311,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0208397500000004,
+          "cpuSeconds": 0.19000000000000006,
+          "oneCorePercent": 18.612127907440907,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.017404207999995,
+          "cpuSeconds": 0.18000000000000016,
+          "oneCorePercent": 17.692083302254343,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.171185040999994,
+      "cpuSeconds": 1.4900000000000002,
+      "oneCorePercent": 18.23480918035425
+    },
+    {
+      "scenario": "business-active",
+      "repeat": 2,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-business",
+      "reducedMotion": false,
+      "samples": [
+        {
+          "wallSeconds": 1.0209322500000013,
+          "cpuSeconds": 0.16999999999999998,
+          "oneCorePercent": 16.651447733186973,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0267988750000043,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.50411065165991,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0214969159999967,
+          "cpuSeconds": 0.20000000000000007,
+          "oneCorePercent": 19.579109527140336,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0195795420000024,
+          "cpuSeconds": 0.19000000000000006,
+          "oneCorePercent": 18.635132637841767,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.023178332999997,
+          "cpuSeconds": 0.20999999999999985,
+          "oneCorePercent": 20.52428137177925,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0196030839999963,
+          "cpuSeconds": 0.20000000000000007,
+          "oneCorePercent": 19.615476172883053,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0226745410000007,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.57873569573879,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0192112090000052,
+          "cpuSeconds": 0.22000000000000008,
+          "oneCorePercent": 21.58531990791704,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.173474750000004,
+      "cpuSeconds": 1.5700000000000003,
+      "oneCorePercent": 19.208476786448745
+    },
+    {
+      "scenario": "all-static",
+      "repeat": 3,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-loadbalance",
+      "reducedMotion": true,
+      "samples": [
+        {
+          "wallSeconds": 1.0274812500000081,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9732537698376423,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0250475409999922,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9755645079880334,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0237041670000053,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9768447098643056,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.031393499999993,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0259135000000015,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.022210874999999,
+          "cpuSeconds": 0,
+          "oneCorePercent": 0.0,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.025161292000007,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9754562602037787,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0268672079999988,
+          "cpuSeconds": 0.010000000000000009,
+          "oneCorePercent": 0.9738357522855108,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.207779333000005,
+      "cpuSeconds": 0.050000000000000044,
+      "oneCorePercent": 0.609178170750415
+    },
+    {
+      "scenario": "balance-active",
+      "repeat": 3,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-loadbalance",
+      "reducedMotion": false,
+      "samples": [
+        {
+          "wallSeconds": 1.0263739160000114,
+          "cpuSeconds": 0.18,
+          "oneCorePercent": 17.537468284608863,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0236972919999943,
+          "cpuSeconds": 0.18,
+          "oneCorePercent": 17.583322863767133,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0168784579999937,
+          "cpuSeconds": 0.20000000000000012,
+          "oneCorePercent": 19.668033915612888,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0262878340000015,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.513324791103358,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0242439160000032,
+          "cpuSeconds": 0.18000000000000005,
+          "oneCorePercent": 17.573938901483256,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.024091416999994,
+          "cpuSeconds": 0.16999999999999993,
+          "oneCorePercent": 16.600080537536712,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.018610792000004,
+          "cpuSeconds": 0.19000000000000006,
+          "oneCorePercent": 18.65285558451057,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0263287500000047,
+          "cpuSeconds": 0.17999999999999994,
+          "oneCorePercent": 17.538240061968363,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.186512375000007,
+      "cpuSeconds": 1.47,
+      "oneCorePercent": 17.956364476881387
+    },
+    {
+      "scenario": "business-active",
+      "repeat": 3,
+      "url": "http://127.0.0.1:4173/projects/concurrencia#diagram-business",
+      "reducedMotion": false,
+      "samples": [
+        {
+          "wallSeconds": 1.024582874999993,
+          "cpuSeconds": 0.1700000000000001,
+          "oneCorePercent": 16.592118036327832,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.023323542,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.56695289435645,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.018719500000003,
+          "cpuSeconds": 0.20000000000000007,
+          "oneCorePercent": 19.632489610731852,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0253801659999908,
+          "cpuSeconds": 0.18999999999999995,
+          "oneCorePercent": 18.52971281287702,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0265304170000036,
+          "cpuSeconds": 0.21000000000000008,
+          "oneCorePercent": 20.457260352179055,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0253025000000093,
+          "cpuSeconds": 0.19999999999999984,
+          "oneCorePercent": 19.506438343805662,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.0205303749999928,
+          "cpuSeconds": 0.2200000000000002,
+          "oneCorePercent": 21.557418121925256,
+          "processes": 9
+        },
+        {
+          "wallSeconds": 1.019678166999995,
+          "cpuSeconds": 0.19999999999999984,
+          "oneCorePercent": 19.614031806567144,
+          "processes": 9
+        }
+      ],
+      "wallSeconds": 8.184047541999988,
+      "cpuSeconds": 1.58,
+      "oneCorePercent": 19.305850703964573
+    }
+  ],
+  "summary": {
+    "all-static": {
+      "medianOneCorePercent": 0.7320383039964937,
+      "min": 0.609178170750415,
+      "max": 0.9751296632564374
+    },
+    "balance-active": {
+      "medianOneCorePercent": 18.11402854403723,
+      "min": 17.956364476881387,
+      "max": 18.23480918035425
+    },
+    "business-active": {
+      "medianOneCorePercent": 19.305850703964573,
+      "min": 19.208476786448745,
+      "max": 19.33458762391516
+    }
+  }
+}

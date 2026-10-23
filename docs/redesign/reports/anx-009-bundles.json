@@ -1,0 +1,55 @@
+{
+  "comparedTo": "ANX-008 final",
+  "unit": "raw bytes, not transfer or Web Vitals",
+  "assets": [
+    {
+      "asset": "JS inicial",
+      "before": 273875,
+      "after": 288564,
+      "delta": 14689,
+      "beforeFile": "assets/index-Bdl0Jfwi.js",
+      "afterFile": "assets/index-BjswdMLS.js"
+    },
+    {
+      "asset": "CSS inicial",
+      "before": 36746,
+      "after": 42567,
+      "delta": 5821,
+      "beforeFile": "assets/index-DkrgwFfN.css",
+      "afterFile": "assets/index-gw02jUtW.css"
+    },
+    {
+      "asset": "React Flow compartido",
+      "before": 180584,
+      "after": 180584,
+      "delta": 0,
+      "beforeFile": "assets/style-BvfWx5IH.js",
+      "afterFile": "assets/style-CcmLAKc0.js"
+    },
+    {
+      "asset": "CSS de gráficos",
+      "before": 18568,
+      "after": 18568,
+      "delta": 0,
+      "beforeFile": "assets/style-Bgq5NQpM.css",
+      "afterFile": "assets/style-Bgq5NQpM.css"
+    },
+    {
+      "asset": "Concurrencia",
+      "before": 42236,
+      "after": 42236,
+      "delta": 0,
+      "beforeFile": "assets/Concurrencia-DAmNFuV3.js",
+      "afterFile": "assets/Concurrencia-CKOVWvKY.js"
+    },
+    {
+      "asset": "Metodología",
+      "before": 14793,
+      "after": 14793,
+      "delta": 0,
+      "beforeFile": "assets/Metodologia-3a8UVMMZ.js",
+      "afterFile": "assets/Metodologia-CnoA-o8j.js"
+    }
+  ],
+  "newOfficialBadgeImagesBytes": 3654858
+}
