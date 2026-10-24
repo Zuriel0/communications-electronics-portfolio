@@ -1,33 +1,35 @@
+import Text from "../../i18n/Text.jsx";
+import useTranslation from "../../i18n/useTranslation.js";
 import { useState } from 'react';
 import { FiArrowUpRight } from 'react-icons/fi';
 import ActionLink from './ActionLink';
 import { credentialStatus, formatCredentialDate } from '../../utils/credentialStatus';
 
 export default function CredentialEntry({ credential, prominent = false }) {
+  const { t, language } = useTranslation();
   const [imageError, setImageError] = useState(false);
   const status = credentialStatus(credential);
   return (
     <li className={`credential-entry${prominent ? ' credential-entry--prominent' : ''}`}>
       <div className="credential-artwork">
-        {imageError ? <p className="credential-image-fallback">Official badge image unavailable</p> : (
-          <img src={credential.image} alt={`Official badge: ${credential.name}`} width={340} height={340}
+        <Text>{imageError ? <p className="credential-image-fallback"><Text>{"Official badge image unavailable"}</Text></p> : (
+          <img src={credential.image} alt={t("Official badge: {0}",[credential.name])} width={340} height={340}
             loading="lazy" decoding="async" onError={() => setImageError(true)} />
-        )}
+        )}</Text>
       </div>
       <div className="credential-copy">
-        <p className="credential-issuer">{credential.issuer}</p>
-        <h4>{credential.name}</h4>
+        <p className="credential-issuer"><Text>{credential.issuer}</Text></p>
+        <h4 lang="en"><Text>{credential.name}</Text></h4>
         <dl className="credential-dates">
-          <div><dt>Issued</dt><dd><time dateTime={credential.issuedOn}>{formatCredentialDate(credential.issuedOn)}</time></dd></div>
+          <div><dt><Text>{"Issued"}</Text></dt><dd><time dateTime={credential.issuedOn}><Text>{formatCredentialDate(credential.issuedOn, language)}</Text></time></dd></div>
           <div>
-            <dt>{status === 'expired' ? 'Expired' : 'Expiry'}</dt>
-            <dd>{credential.expiresOn ? <time dateTime={credential.expiresOn}>{formatCredentialDate(credential.expiresOn)}</time> : 'Not listed by issuer'}</dd>
+            <dt><Text>{status === 'expired' ? 'Expired' : 'Expiry'}</Text></dt>
+            <dd><Text>{credential.expiresOn ? <time dateTime={credential.expiresOn}><Text>{formatCredentialDate(credential.expiresOn, language)}</Text></time> : 'Not listed by issuer'}</Text></dd>
           </div>
         </dl>
-        {status === 'expired' && <p className="credential-expired">Expired credential. Retained as a record of learning.</p>}
+        <Text>{status === 'expired' && <p className="credential-expired"><Text>{"Expired credential. Retained as a record of learning."}</Text></p>}</Text>
         <ActionLink href={credential.url} target="_blank" className="credential-verify"
-          aria-label={`Verify credential: ${credential.name} on Credly (opens in a new tab)`}>
-          Verify credential <FiArrowUpRight aria-hidden="true" focusable="false" />
+          aria-label={t("Verify credential: {0} on Credly (opens in a new tab)",[credential.name])}><Text>{"Verify credential"}</Text>{' '}<FiArrowUpRight aria-hidden="true" focusable="false" />
         </ActionLink>
       </div>
     </li>

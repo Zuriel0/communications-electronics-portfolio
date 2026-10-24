@@ -1,3 +1,5 @@
+import useTranslation from '../../i18n/useTranslation';
+import Text from "../../i18n/Text.jsx";
 import { BaseEdge, getSmoothStepPath, useViewport, ViewportPortal } from '@xyflow/react';
 
 function FlowSignal({ path }) {
@@ -17,6 +19,7 @@ export default function EngineeringFlowEdge({
   sourceX, sourceY, sourcePosition, targetX, targetY, targetPosition,
   pathOptions, data, ...edgeProps
 }) {
+  const { t } = useTranslation();
   // Use the native SmoothStep calculation, including its original label position.
   const [path, labelX, labelY] = getSmoothStepPath({
     sourceX, sourceY, sourcePosition, targetX, targetY, targetPosition,
@@ -33,12 +36,12 @@ export default function EngineeringFlowEdge({
     <>
       <BaseEdge
         path={path} labelX={labelX} labelY={labelY}
-        label={label} labelStyle={labelStyle} labelShowBg={labelShowBg}
+        label={t(label)} labelStyle={labelStyle} labelShowBg={labelShowBg}
         labelBgStyle={labelBgStyle} labelBgPadding={labelBgPadding}
         labelBgBorderRadius={labelBgBorderRadius} style={style}
         markerStart={markerStart} markerEnd={markerEnd} interactionWidth={interactionWidth}
       />
-      {data?.flowActive && <FlowSignal path={path} />}
+      <Text>{data?.flowActive && <FlowSignal path={path} />}</Text>
     </>
   );
 }

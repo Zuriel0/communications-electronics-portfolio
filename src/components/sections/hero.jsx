@@ -1,3 +1,4 @@
+import Text from "../../i18n/Text.jsx";
 import { useEffect, useRef } from 'react';
 import { FiArrowUpRight } from 'react-icons/fi';
 import ActionLink from '../ui/ActionLink';
@@ -19,8 +20,8 @@ export default function Hero() {
       <Container className="hero-content">
         <div className="hero-masthead">
           <div className="hero-identity">
-            <p className="hero-concept">The Art of Engineering</p>
-            <h1 id="hero-title" className="hero-title"><span className="hero-wordmark">ANXZU</span></h1>
+            <p className="hero-concept"><Text>{"The Art of Engineering"}</Text></p>
+            <h1 id="hero-title" className="hero-title"><span className="hero-wordmark"><Text>{"ANXZU"}</Text></span></h1>
           </div>
           <div className="hero-connections" aria-hidden="true">
             <svg className="hero-circuit" viewBox="0 0 600 260" fill="none" focusable="false">
@@ -44,13 +45,13 @@ export default function Hero() {
         </div>
         <div className="hero-presentation">
           <div className="hero-profile">
-            <p className="hero-name">Andres Zuriel Macias Rios</p>
-            <p className="hero-subtitle">Communications and Electronics Engineer</p>
-            <p className="hero-subtitle-2">Designing technology, solving engineering problems, and building innovative systems.</p>
+            <p className="hero-name"><Text>{"Andres Zuriel Macias Rios"}</Text></p>
+            <p className="hero-subtitle"><Text>{"Communications and Electronics Engineer"}</Text></p>
+            <p className="hero-subtitle-2"><Text>{"Designing technology, solving engineering problems, and building innovative systems."}</Text></p>
           </div>
           <div className="hero-button-container">
-            <ActionLink href="#projects" className="action-link--primary hero-project-link">View Projects <FiArrowUpRight className="hero-cta-icon" size={20} aria-hidden="true" /></ActionLink>
-            <ActionLink href="#contact" className="action-link--secondary">Contact</ActionLink>
+            <ActionLink href="#projects" className="action-link--primary hero-project-link"><Text>{"View Projects"}</Text>{' '}<FiArrowUpRight className="hero-cta-icon" size={20} aria-hidden="true" /></ActionLink>
+            <ActionLink href="#contact" className="action-link--secondary"><Text>{"Contact"}</Text></ActionLink>
           </div>
         </div>
       </Container>

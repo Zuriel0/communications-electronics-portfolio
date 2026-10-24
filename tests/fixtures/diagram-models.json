@@ -1,0 +1,62 @@
+{
+  "src/components/ui/graphics/bussiness_flow.jsx": {
+    "initialNodes": {
+      "count": 9,
+      "sha256": "9befc93058a74f8dded223ddc5c36be68c3f7dc05cdf9a56cdff70c6de9b993e"
+    },
+    "initialEdges": {
+      "count": 5,
+      "sha256": "e1e15976aa689d53af40fc08475463b88716bfc992410a1b441a5da94685364f"
+    }
+  },
+  "src/components/ui/graphics/flow_loadbalance.jsx": {
+    "initialNodes": {
+      "count": 6,
+      "sha256": "5fbe07ac5dd1d23fa6002bd560879ec52f6f3148761e36c1b0462aac6d8eb2f6"
+    },
+    "initialEdges": {
+      "count": 4,
+      "sha256": "067fff27c31b59c3997cb25f5c2a934bbccf60485e8ad4bacd053247d5467afd"
+    }
+  },
+  "src/components/ui/graphics/highlevel_flow.jsx": {
+    "initialNodes": {
+      "count": 12,
+      "sha256": "468bc03f2fdd3ee8dcc1c110dc8720e7ac8ccd7a65d810e6e161d3d41d0242fd"
+    },
+    "initialEdges": {
+      "count": 11,
+      "sha256": "7c42444e8ab5abb3518d96ce8aef07925d86b27fb277bad9f46bc67c144c8a5e"
+    }
+  },
+  "src/components/ui/graphics/logic_flow.jsx": {
+    "initialNodes": {
+      "count": 7,
+      "sha256": "3edcb79c4d822a51920878f5e1d1d693926751221c7830975f827381ab1b6ade"
+    },
+    "initialEdges": {
+      "count": 7,
+      "sha256": "6143d18f7eb607aef0f39e93e8a39640aa8c2e6abb7950a1e78c7ad92772578b"
+    }
+  },
+  "src/components/ui/graphics/metodologia_problem_flow.jsx": {
+    "initialNodes": {
+      "count": 6,
+      "sha256": "ad16af3784e4d7994dd7e2c6402095e18ad96c49511542cda472d4ae7a3f9eb6"
+    },
+    "initialEdges": {
+      "count": 5,
+      "sha256": "246dc3214d6e47264569d9049ef279718e626083960193cf69e708df970a3944"
+    }
+  },
+  "src/components/ui/graphics/metodologia_solution_flow.jsx": {
+    "initialNodes": {
+      "count": 6,
+      "sha256": "8af0c3d85142b61d74e5834956bc72e241952c5e3658627b24a5244349e8934d"
+    },
+    "initialEdges": {
+      "count": 5,
+      "sha256": "246dc3214d6e47264569d9049ef279718e626083960193cf69e708df970a3944"
+    }
+  }
+}

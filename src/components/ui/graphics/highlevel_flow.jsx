@@ -1,3 +1,7 @@
+import useFlowEdges from '../../../i18n/useFlowEdges';
+import Text from "../../../i18n/Text.jsx";
+import useTranslation from "../../../i18n/useTranslation.js";
+import useFlowLabels from "../../../i18n/useFlowLabels.js";
 import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
@@ -61,15 +65,15 @@ const BlockNode = memo(({ data }) => {
       <Handle type="target" id="bottom-in" position={Position.Bottom} style={{ opacity: 0 }} />
       <Handle type="source" id="bottom-out" position={Position.Bottom} style={{ opacity: 0 }} />
 
-      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 6 }}>{data.kicker}</div>
+      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 6 }}><Text>{data.kicker}</Text></div>
       <div style={{ fontSize: data.titleSize || 18, fontWeight: 700, marginBottom: 8 }}>
-        {data.label}
+        <Text>{data.label}</Text>
       </div>
       <div style={{ fontSize: 13, lineHeight: 1.5, opacity: 0.82 }}>
-        {data.description}
+        <Text>{data.description}</Text>
       </div>
 
-      {data.badge && (
+      <Text>{data.badge && (
         <div
           style={{
             marginTop: 14,
@@ -81,9 +85,9 @@ const BlockNode = memo(({ data }) => {
             border: '1px solid rgba(255,255,255,0.10)',
           }}
         >
-          {data.badge}
+          <Text>{data.badge}</Text>
         </div>
-      )}
+      )}</Text>
     </div>
   );
 });
@@ -99,10 +103,10 @@ const ZoneNode = memo(({ data }) => {
         pointerEvents: 'none',
       }}
     >
-      <div style={{ fontSize: 12, opacity: 0.56, marginBottom: 6 }}>{data.kicker}</div>
-      <div style={{ fontSize: 22, fontWeight: 700 }}>{data.label}</div>
+      <div style={{ fontSize: 12, opacity: 0.56, marginBottom: 6 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 22, fontWeight: 700 }}><Text>{data.label}</Text></div>
       <div style={{ fontSize: 13, opacity: 0.72, marginTop: 6, maxWidth: 420 }}>
-        {data.description}
+        <Text>{data.description}</Text>
       </div>
     </div>
   );
@@ -478,11 +482,14 @@ const initialEdges = [
 ];
 
 function HighLevelMacArchitectureDiagram() {
+  const { t } = useTranslation();
+  const flowLabels = useFlowLabels();
   const frameRef = useRef(null);
   const playback = useDiagramPlayback(frameRef, 'architecture');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
   const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'architecture', playback.step), [edges, playback.step]);
+  const localizedEdges = useFlowEdges(animatedEdges);
   const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
@@ -494,9 +501,9 @@ function HighLevelMacArchitectureDiagram() {
 
   return (
     <div className="diagram-scene">
-      <DiagramPlaybackControls playback={playback} id="diagram-highlevel" title="Arquitectura de alto nivel" />
+      <DiagramPlaybackControls playback={playback} id="diagram-highlevel" title={t("Arquitectura de alto nivel")} />
     <div
-      ref={frameRef} id="diagram-highlevel" tabIndex={-1} role="group" aria-label="Arquitectura de alto nivel"
+      ref={frameRef} id="diagram-highlevel" tabIndex={-1} role="group" aria-label={t("Arquitectura de alto nivel")}
       data-playing={playback.playing}
       className="diagram-frame"
       style={{
@@ -519,9 +526,7 @@ function HighLevelMacArchitectureDiagram() {
           pointerEvents: 'none',
         }}
       >
-        <div style={{ color: '#fff', fontSize: 30, fontWeight: 700 }}>
-          Arquitectura de alto nivel de la solución
-        </div>
+        <div style={{ color: '#fff', fontSize: 30, fontWeight: 700 }}><Text>{"Arquitectura de alto nivel de la solución"}</Text></div>
         <div
           style={{
             color: 'rgba(255,255,255,0.64)',
@@ -529,18 +534,14 @@ function HighLevelMacArchitectureDiagram() {
             maxWidth: 1050,
             lineHeight: 1.5,
           }}
-        >
-          El operador ejecuta la herramienta en Ubuntu, el orquestador interpreta la configuración,
-          abre conexiones SSH hacia Web y RADIUS, observa logs remotos y concentra el resultado
-          en una consola local.
-        </div>
+        ><Text>{"El operador ejecuta la herramienta en Ubuntu, el orquestador interpreta la configuración, abre conexiones SSH hacia Web y RADIUS, observa logs remotos y concentra el resultado en una consola local."}</Text></div>
       </div>
-        <ReactFlow
+        <ReactFlow ariaLabelConfig={flowLabels}
         edgeTypes={engineeringEdgeTypes}
         id="rf-highlevel"
         key={isMobile ? 'mobile' : 'desktop'}
           nodes={nodes}
-          edges={animatedEdges}
+          edges={localizedEdges}
           nodeTypes={nodeTypes}
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}

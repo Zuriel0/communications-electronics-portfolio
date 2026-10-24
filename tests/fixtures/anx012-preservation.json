@@ -1,0 +1,17 @@
+{
+  "files": {
+    "src/hooks/useDiagramPlayback.js": "46fb5331a69b3f7a1c36a731ac79a4546dba506a84c060fe95a7dba87dd4fb54",
+    "src/hooks/useReducedMotion.js": "a45d19eb2f910c43c8dbb54f63c1d9c604e3d539e9f8f1c2cb5cc2a4f8c0fd4a",
+    "src/utils/diagramPlayback.js": "ae05019bce25f1f6863fc9773ee46139584b42d12254729f1bdf28a2241bad9b",
+    "src/utils/diagramVisibility.js": "b7260f7f6ee9d124ae33b241ad8e4f5a05251251c0c5f4136e963a0349a9fc05",
+    "src/utils/engineeringFlows.js": "b366f0746ff3ae001465f20b3836a3d66c02c8c58f4ad58145be2d018586b69e",
+    "src/components/sections/immersiveHeroMotion.js": "13fbc75ddd5e65b8a206b7678b6506292f45b60df2ca270672208333215bf2b4",
+    "src/components/sections/heroMotion.js": "976ae0f11dfa474309648795f0fcdd23a17ad0274913d26b623d5dfe591f4902",
+    "src/data/skills.js": "13297f9b6ece0d77ccfcbe87c3aefacde894c5e4d2fedab37fa4d03d93e7f179",
+    "src/data/timelineData.js": "aee90fcfed6d679e5cb9ea559b06e7831f076080ddd40b86c98c338cb26034b6"
+  },
+  "credentials": {
+    "count": 18,
+    "sha256": "43c238e3f8e7bfd27b813e5a5fa73cb6274eee8747f686731c938bfb15e5025a"
+  }
+}

@@ -1,3 +1,7 @@
+import useFlowEdges from '../../../i18n/useFlowEdges';
+import Text from "../../../i18n/Text.jsx";
+import useTranslation from "../../../i18n/useTranslation.js";
+import useFlowLabels from "../../../i18n/useFlowLabels.js";
 import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
@@ -41,13 +45,13 @@ const FlowNode = memo(({ data }) => {
       <Handle type="source" id="bottom" position={Position.Bottom} style={{ opacity: 0 }} />
       <Handle type="target" id="top" position={Position.Top} style={{ opacity: 0 }} />
 
-      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}>{data.kicker}</div>
-      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>{data.label}</div>
+      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}><Text>{data.label}</Text></div>
       <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.8 }}>
-        {data.description}
+        <Text>{data.description}</Text>
       </div>
 
-      {data.badge && (
+      <Text>{data.badge && (
         <div
           style={{
             marginTop: 14,
@@ -59,9 +63,9 @@ const FlowNode = memo(({ data }) => {
             border: '1px solid rgba(255,255,255,0.08)',
           }}
         >
-          {data.badge}
+          <Text>{data.badge}</Text>
         </div>
-      )}
+      )}</Text>
     </div>
   );
 });
@@ -79,9 +83,9 @@ const NoteNode = memo(({ data }) => {
       }}
     >
       <Handle type="target" position={Position.Left} style={{ opacity: 0 }} />
-      <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}>{data.kicker}</div>
-      <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 8 }}>{data.label}</div>
-      <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.8 }}>{data.description}</div>
+      <div style={{ fontSize: 12, opacity: 0.6, marginBottom: 6 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 8 }}><Text>{data.label}</Text></div>
+      <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.8 }}><Text>{data.description}</Text></div>
     </div>
   );
 });
@@ -304,11 +308,14 @@ const initialEdges = [
 ];
 
 function MacTracingParallelFlow() {
+  const { t } = useTranslation();
+  const flowLabels = useFlowLabels();
   const frameRef = useRef(null);
   const playback = useDiagramPlayback(frameRef, 'logic');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
   const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'logic', playback.step), [edges, playback.step]);
+  const localizedEdges = useFlowEdges(animatedEdges);
   const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
@@ -320,9 +327,9 @@ function MacTracingParallelFlow() {
 
   return (
     <div className="diagram-scene">
-      <DiagramPlaybackControls playback={playback} id="diagram-logic" title="Flujo de trazabilidad por MAC" />
+      <DiagramPlaybackControls playback={playback} id="diagram-logic" title={t("Flujo de trazabilidad por MAC")} />
     <div
-      ref={frameRef} id="diagram-logic" tabIndex={-1} role="group" aria-label="Flujo de trazabilidad por MAC"
+      ref={frameRef} id="diagram-logic" tabIndex={-1} role="group" aria-label={t("Flujo de trazabilidad por MAC")}
       data-playing={playback.playing}
       className="diagram-frame"
       style={{
@@ -345,9 +352,7 @@ function MacTracingParallelFlow() {
           pointerEvents: 'none',
         }}
       >
-        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}>
-          Flujo de trazabilidad por MAC
-        </div>
+        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}><Text>{"Flujo de trazabilidad por MAC"}</Text></div>
         <div
           style={{
             color: 'rgba(255,255,255,0.62)',
@@ -355,18 +360,15 @@ function MacTracingParallelFlow() {
             maxWidth: 980,
             lineHeight: 1.45,
           }}
-        >
-          Desde SSH se dispara el monitoreo en paralelo sobre Web x6 y RADIUS x1;
-          ambos alimentan la detección de coincidencias y la salida se centraliza al final.
-        </div>
+        ><Text>{"Desde SSH se dispara el monitoreo en paralelo sobre Web x6 y RADIUS x1; ambos alimentan la detección de coincidencias y la salida se centraliza al final."}</Text></div>
       </div>
 
-      <ReactFlow
+      <ReactFlow ariaLabelConfig={flowLabels}
         edgeTypes={engineeringEdgeTypes}
         id="rf-logic"
         key={isMobile ? 'mobile' : 'desktop'}
           nodes={nodes}
-          edges={animatedEdges}
+          edges={localizedEdges}
           nodeTypes={nodeTypes}
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}

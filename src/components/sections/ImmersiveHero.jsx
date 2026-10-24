@@ -1,3 +1,4 @@
+import Text from "../../i18n/Text.jsx";
 import { useEffect, useRef, useState } from 'react';
 import { FiArrowUpRight, FiPause, FiPlay } from 'react-icons/fi';
 import ActionLink from '../ui/ActionLink';
@@ -23,25 +24,25 @@ export default function ImmersiveHero() {
       <Container className="hero-content">
         <div className="hero-masthead">
           <div className="hero-identity">
-            <p className="hero-concept">The Art of Engineering</p>
-            <h1 id="hero-title" className="hero-title"><span className="hero-wordmark">ANXZU</span></h1>
+            <p className="hero-concept"><Text>{"The Art of Engineering"}</Text></p>
+            <h1 id="hero-title" className="hero-title"><span className="hero-wordmark"><Text>{"ANXZU"}</Text></span></h1>
           </div>
         </div>
         <div className="hero-presentation">
           <div className="hero-profile">
-            <p className="hero-name">Andres Zuriel Macias Rios</p>
-            <p className="hero-subtitle">Communications and Electronics Engineer</p>
-            <p className="hero-subtitle-2">Designing technology, solving engineering problems, and building innovative systems.</p>
+            <p className="hero-name"><Text>{"Andres Zuriel Macias Rios"}</Text></p>
+            <p className="hero-subtitle"><Text>{"Communications and Electronics Engineer"}</Text></p>
+            <p className="hero-subtitle-2"><Text>{"Designing technology, solving engineering problems, and building innovative systems."}</Text></p>
           </div>
           <div className="hero-button-container">
-            <ActionLink href="#projects" className="action-link--primary hero-project-link">View Projects <FiArrowUpRight className="hero-cta-icon" size={20} aria-hidden="true" /></ActionLink>
-            <ActionLink href="#contact" className="action-link--secondary">Contact</ActionLink>
+            <ActionLink href="#projects" className="action-link--primary hero-project-link"><Text>{"View Projects"}</Text>{' '}<FiArrowUpRight className="hero-cta-icon" size={20} aria-hidden="true" /></ActionLink>
+            <ActionLink href="#contact" className="action-link--secondary"><Text>{"Contact"}</Text></ActionLink>
           </div>
         </div>
         <div className="hero-motion-control">
           <Button className="hero-pause" disabled={reducedMotion} aria-pressed={paused} onClick={() => setPaused(value => !value)}>
-            {staticScene ? <FiPlay size={16} aria-hidden="true" /> : <FiPause size={16} aria-hidden="true" />}
-            {reducedMotion ? 'Motion reduced' : paused ? 'Resume motion' : 'Pause motion'}
+            <Text>{staticScene ? <FiPlay size={16} aria-hidden="true" /> : <FiPause size={16} aria-hidden="true" />}</Text>
+            <Text>{reducedMotion ? 'Motion reduced' : paused ? 'Resume motion' : 'Pause motion'}</Text>
           </Button>
         </div>
       </Container>

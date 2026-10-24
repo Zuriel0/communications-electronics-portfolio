@@ -2,15 +2,16 @@ export const professionalProfile = {
   name: 'Andres Zuriel Macias Rios',
   title: 'Communications & Electronics Engineer',
   summary: [
-    'With a background in computing, I connect technical requirements with practical solutions in networking, telecommunications and infrastructure. My professional experience spans technical presales, LAN-to-LAN connectivity, captive portals, network configuration, Linux-based services and databases, React automation, troubleshooting and technical support.',
-    'I bring solution design, implementation and documentation into the same engineering process. My project work explores concurrent SSH monitoring and AI-assisted customization, with explicit constraints and human validation. Cloud is an area of focus alongside my documented infrastructure experience.',
+    'I design, implement, integrate and validate technical solutions across networking, telecommunications, Linux infrastructure and software. My professional experience connects requirements gathering and technical presales with solution design, configuration, troubleshooting and documentation.',
+    'My project work brings these disciplines together: Nodalume combines a captive-portal backend, databases, RADIUS and a React console in a laboratory environment; ANXZU and my AI-assisted customization methodology extend that practice into interface development, automation and human-reviewed delivery. Hands-on AWS networking labs support my preparation for AWS Certified Solutions Architect – Associate.',
   ],
   focusAreas: [
-    { title: 'Networking & Telecommunications', context: 'Professional practice' },
-    { title: 'Cloud & Infrastructure', context: 'Infrastructure practice; cloud development focus' },
-    { title: 'Software & Automation', context: 'Professional practice and projects' },
-    { title: 'Solutions Architecture & Presales', context: 'Professional practice' },
-    { title: 'AI-Assisted Engineering', context: 'Engineering project methodology' },
+    { title: 'Networking & Telecommunications', context: 'Professional Experience' },
+    { title: 'AWS & Cloud Architecture', context: 'Hands-On Labs' },
+    { title: 'Backend Engineering & Databases', context: 'Personal Projects' },
+    { title: 'Infrastructure, Linux & Virtualization', context: 'Professional Experience and Hands-On Labs' },
+    { title: 'Software Development & AI-Assisted Engineering', context: 'Professional Experience and Personal Projects' },
+    { title: 'Solutions Architecture & Technical Presales', context: 'Professional Experience' },
   ],
   // No institution, degree dates or active coursework have been documented yet.
   education: [],

@@ -1,11 +1,14 @@
+import useTranslation from '../../i18n/useTranslation';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { getPageMetadata } from '../../data/pageMetadata';
 
 export default function PageMetadata() {
+  const { language, t } = useTranslation();
   const { pathname } = useLocation();
   useEffect(() => {
-    const page = getPageMetadata(pathname);
+    const source = getPageMetadata(pathname);
+    const page = { ...source, title: t(source.title), description: t(source.description), lang: language, locale: language === 'es' ? 'es_MX' : 'en_US' };
     const previous = { title: document.title, lang: document.documentElement.lang };
     document.title = page.title;
     document.documentElement.lang = page.lang;
@@ -54,6 +57,6 @@ export default function PageMetadata() {
         if (!canonical.isConnected) document.head.append(canonical);
       }
     };
-  }, [pathname]);
+  }, [pathname, language, t]);
   return null;
 }

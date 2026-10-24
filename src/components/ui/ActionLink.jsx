@@ -1,8 +1,9 @@
+import Text from "../../i18n/Text.jsx";
 import { Link } from 'react-router-dom';
 
 export default function ActionLink({ href, children, className = '', disabled = false, onClick, target, rel, ...props }) {
   const classes = `action-link ${className}`.trim();
-  if (disabled) return <span {...props} className={classes} role="link" aria-disabled="true">{children}</span>;
+  if (disabled) return <span {...props} className={classes} role="link" aria-disabled="true"><Text>{children}</Text></span>;
 
   function handleClick(event) {
     onClick?.(event);
@@ -12,7 +13,7 @@ export default function ActionLink({ href, children, className = '', disabled = 
   }
   const safeRel = target === '_blank' ? ['noopener', 'noreferrer', rel].filter(Boolean).join(' ') : rel;
   if (href?.startsWith('/') && !href.startsWith('//')) {
-    return <Link {...props} to={href} className={classes} onClick={onClick} target={target} rel={safeRel}>{children}</Link>;
+    return <Link {...props} to={href} className={classes} onClick={onClick} target={target} rel={safeRel}><Text>{children}</Text></Link>;
   }
-  return <a {...props} href={href} className={classes} onClick={handleClick} target={target} rel={safeRel}>{children}</a>;
+  return <a {...props} href={href} className={classes} onClick={handleClick} target={target} rel={safeRel}><Text>{children}</Text></a>;
 }

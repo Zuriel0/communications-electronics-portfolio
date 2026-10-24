@@ -1,3 +1,7 @@
+import useFlowEdges from '../../../i18n/useFlowEdges';
+import Text from "../../../i18n/Text.jsx";
+import useTranslation from "../../../i18n/useTranslation.js";
+import useFlowLabels from "../../../i18n/useFlowLabels.js";
 import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
@@ -33,9 +37,9 @@ const StepNode = memo(({ data }) => {
     >
       <Handle type="target" position={Position.Top} style={{ opacity: 0 }} />
       <Handle type="source" position={Position.Bottom} style={{ opacity: 0 }} />
-      <div style={{ fontSize: 12, opacity: 0.65, marginBottom: 8 }}>{data.kicker}</div>
-      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>{data.label}</div>
-      <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.82 }}>{data.description}</div>
+      <div style={{ fontSize: 12, opacity: 0.65, marginBottom: 8 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}><Text>{data.label}</Text></div>
+      <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.82 }}><Text>{data.description}</Text></div>
     </div>
   );
 });
@@ -155,11 +159,14 @@ const initialEdges = [
 ];
 
 function SolutionFlowContent() {
+  const { t } = useTranslation();
+  const flowLabels = useFlowLabels();
   const frameRef = useRef(null);
   const playback = useDiagramPlayback(frameRef, 'methodology');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
   const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'methodology', playback.step), [edges, playback.step]);
+  const localizedEdges = useFlowEdges(animatedEdges);
   const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
@@ -171,9 +178,9 @@ function SolutionFlowContent() {
 
   return (
     <div className="diagram-scene">
-      <DiagramPlaybackControls playback={playback} id="diagram-methodology-solution" title="Metodología: solución" />
+      <DiagramPlaybackControls playback={playback} id="diagram-methodology-solution" title={t("Metodología: solución")} />
     <div
-      ref={frameRef} id="diagram-methodology-solution" tabIndex={-1} role="group" aria-label="Metodología: solución"
+      ref={frameRef} id="diagram-methodology-solution" tabIndex={-1} role="group" aria-label={t("Metodología: solución")}
       data-playing={playback.playing}
       className="diagram-frame"
       style={{
@@ -187,19 +194,15 @@ function SolutionFlowContent() {
       }}
     >
       <div className="diagram-caption" style={{ position: 'absolute', zIndex: 10, padding: '24px 26px', pointerEvents: 'none' }}>
-        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}>
-          Flujo de personalización no invasiva
-        </div>
-        <div style={{ color: 'rgba(255,255,255,0.62)', marginTop: 8, maxWidth: 760, lineHeight: 1.45 }}>
-          Desde el análisis inicial hasta una solución lista para integrar.
-        </div>
+        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}><Text>{"Flujo de personalización no invasiva"}</Text></div>
+        <div style={{ color: 'rgba(255,255,255,0.62)', marginTop: 8, maxWidth: 760, lineHeight: 1.45 }}><Text>{"Desde el análisis inicial hasta una solución lista para integrar."}</Text></div>
       </div>
-      <ReactFlow
+      <ReactFlow ariaLabelConfig={flowLabels}
         edgeTypes={engineeringEdgeTypes}
         id="rf-methodology-solution"
         key={isMobile ? 'mobile' : 'desktop'}
         nodes={nodes}
-        edges={animatedEdges}
+        edges={localizedEdges}
         nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}

@@ -1,3 +1,4 @@
+import Text from "../../i18n/Text.jsx";
 // Four connected planes: a conceptual transfer of signals, not a real topology.
 const terminals = [[88, 88], [412, 88], [412, 412], [88, 412]];
 const routes = [
@@ -15,21 +16,21 @@ export default function ConnectionSculpture() {
         <div className="sculpture-pointer">
           <div className="sculpture-orbit">
             <div className="sculpture-rig">
-              {[0, 1, 2, 3].map(plane => (
+              <Text>{[0, 1, 2, 3].map(plane => (
                 <svg key={plane} className={`core-plane core-plane--${plane}`} viewBox="0 0 500 500" fill="none" focusable="false" style={{ '--plane': plane }}>
                   <rect className="core-frame" x="88" y="88" width="324" height="324" rx="36" />
                   <rect className="core-inset" x="108" y="108" width="284" height="284" rx="25" />
                   <g className="core-traces" strokeLinecap="round" strokeLinejoin="round">
-                    {routes.map(route => <path key={route} d={route} />)}
+                    <Text>{routes.map(route => <path key={route} d={route} />)}</Text>
                   </g>
                   <path className="core-signal" pathLength="100" d={routes[plane]} strokeLinecap="round" />
-                  {terminals.map(([cx, cy]) => <circle className="core-terminal" key={`${cx}-${cy}`} cx={cx} cy={cy} r="5" />)}
+                  <Text>{terminals.map(([cx, cy]) => <circle className="core-terminal" key={`${cx}-${cy}`} cx={cx} cy={cy} r="5" />)}</Text>
                   <path className="core-hub" d="M250 222L278 250L250 278L222 250Z" />
                   <circle className="core-center" cx="250" cy="250" r="5" />
                 </svg>
-              ))}
-              {[0, 1, 2, 3].map(plane => <span key={plane} className="core-beacon" style={{ '--plane': plane }} />)}
-              {terminals.map(([x, y]) => <span key={`${x}-${y}`} className="core-via" style={{ left: `${x / 5}%`, top: `${y / 5}%` }} />)}
+              ))}</Text>
+              <Text>{[0, 1, 2, 3].map(plane => <span key={plane} className="core-beacon" style={{ '--plane': plane }} />)}</Text>
+              <Text>{terminals.map(([x, y]) => <span key={`${x}-${y}`} className="core-via" style={{ left: `${x / 5}%`, top: `${y / 5}%` }} />)}</Text>
             </div>
           </div>
         </div>

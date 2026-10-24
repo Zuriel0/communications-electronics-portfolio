@@ -1,3 +1,7 @@
+import useFlowEdges from '../../../i18n/useFlowEdges';
+import Text from "../../../i18n/Text.jsx";
+import useTranslation from "../../../i18n/useTranslation.js";
+import useFlowLabels from "../../../i18n/useFlowLabels.js";
 import React, { memo, useRef, useMemo, useState, useEffect } from 'react';
 import {
   Background,
@@ -51,13 +55,13 @@ const StepNode = memo(({ data }) => {
     >
       <Handle type="target" position={Position.Left} id="left" style={{ opacity: 0 }} />
       <Handle type="target" position={Position.Top} id="top" style={{ opacity: 0 }} />
-      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}>{data.kicker}</div>
-      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>{data.label}</div>
+      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}><Text>{data.label}</Text></div>
       <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.78 }}>
-        {data.description}
+        <Text>{data.description}</Text>
       </div>
 
-      {data.badge && (
+      <Text>{data.badge && (
         <div
           style={{
             marginTop: 14,
@@ -69,9 +73,9 @@ const StepNode = memo(({ data }) => {
             border: '1px solid rgba(255,255,255,0.08)',
           }}
         >
-          {data.badge}
+          <Text>{data.badge}</Text>
         </div>
-      )}
+      )}</Text>
 
       <Handle type="source" position={Position.Right} id="right" style={{ opacity: 0 }} />
       <Handle type="source" position={Position.Bottom} id="bottom" style={{ opacity: 0 }} />
@@ -92,10 +96,10 @@ const MonitorNode = memo(({ data }) => {
     >
       <Handle type="target" position={Position.Left} id="left" style={{ opacity: 0 }} />
       <Handle type="source" position={Position.Bottom} id="bottom" style={{ opacity: 0 }} />
-      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}>Monitoreo</div>
-      <div style={{ fontSize: 17, fontWeight: 700, marginBottom: 8 }}>{data.label}</div>
+      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}><Text>{"Monitoreo"}</Text></div>
+      <div style={{ fontSize: 17, fontWeight: 700, marginBottom: 8 }}><Text>{data.label}</Text></div>
       <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.78 }}>
-        {data.description}
+        <Text>{data.description}</Text>
       </div>
     </div>
   );
@@ -112,10 +116,10 @@ const ZoneNode = memo(({ data }) => {
         pointerEvents: 'none',
       }}
     >
-      <div style={{ fontSize: 13, opacity: 0.6, marginBottom: 8 }}>{data.kicker}</div>
-      <div style={{ fontSize: 20, fontWeight: 700 }}>{data.label}</div>
+      <div style={{ fontSize: 13, opacity: 0.6, marginBottom: 8 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 20, fontWeight: 700 }}><Text>{data.label}</Text></div>
       <div style={{ fontSize: 13, opacity: 0.72, marginTop: 6, maxWidth: 360 }}>
-        {data.description}
+        <Text>{data.description}</Text>
       </div>
     </div>
   );
@@ -132,14 +136,9 @@ const NoteNode = memo(() => {
         boxShadow: '0 0 30px rgba(253,224,71,0.08)',
       }}
     >
-      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}>Lectura del diagrama</div>
-      <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 10 }}>
-        Secuencial en negocio, paralelo en observabilidad
-      </div>
-      <div style={{ fontSize: 13, lineHeight: 1.5, opacity: 0.8 }}>
-        El negocio avanza paso a paso desde la web hasta RADIUS. La observabilidad, en cambio,
-        sigue ambos dominios al mismo tiempo mediante dos grupos independientes.
-      </div>
+      <div style={{ fontSize: 12, opacity: 0.62, marginBottom: 8 }}><Text>{"Lectura del diagrama"}</Text></div>
+      <div style={{ fontSize: 20, fontWeight: 700, marginBottom: 10 }}><Text>{"Secuencial en negocio, paralelo en observabilidad"}</Text></div>
+      <div style={{ fontSize: 13, lineHeight: 1.5, opacity: 0.8 }}><Text>{"El negocio avanza paso a paso desde la web hasta RADIUS. La observabilidad, en cambio, sigue ambos dominios al mismo tiempo mediante dos grupos independientes."}</Text></div>
     </div>
   );
 });
@@ -360,11 +359,14 @@ const initialEdges = [
 ];
 
 function ParallelMonitoringDiagram() {
+  const { t } = useTranslation();
+  const flowLabels = useFlowLabels();
   const frameRef = useRef(null);
   const playback = useDiagramPlayback(frameRef, 'business');
   const [nodes, , onNodesChange] = useNodesState(initialNodes);
   const [edges, , onEdgesChange] = useEdgesState(initialEdges);
   const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'business', playback.step), [edges, playback.step]);
+  const localizedEdges = useFlowEdges(animatedEdges);
   const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   useEffect(() => {
@@ -383,9 +385,9 @@ function ParallelMonitoringDiagram() {
 
   return (
     <div className="diagram-scene">
-      <DiagramPlaybackControls playback={playback} id="diagram-business" title="Flujo secuencial y monitoreo paralelo" />
+      <DiagramPlaybackControls playback={playback} id="diagram-business" title={t("Flujo secuencial y monitoreo paralelo")} />
     <div
-      ref={frameRef} id="diagram-business" tabIndex={-1} role="group" aria-label="Flujo secuencial y monitoreo paralelo"
+      ref={frameRef} id="diagram-business" tabIndex={-1} role="group" aria-label={t("Flujo secuencial y monitoreo paralelo")}
       data-playing={playback.playing}
       className="diagram-frame"
       style={{
@@ -408,9 +410,7 @@ function ParallelMonitoringDiagram() {
           pointerEvents: 'none',
         }}
       >
-        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}>
-          Flujo secuencial + monitoreo paralelo
-        </div>
+        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}><Text>{"Flujo secuencial + monitoreo paralelo"}</Text></div>
         <div
           style={{
             color: 'rgba(255,255,255,0.62)',
@@ -418,18 +418,15 @@ function ParallelMonitoringDiagram() {
             maxWidth: 860,
             lineHeight: 1.45,
           }}
-        >
-          El negocio avanza primero por la capa web y después hacia RADIUS. La solución observa
-          ambos dominios al mismo tiempo, manteniendo independencia entre el grupo web y el grupo RADIUS.
-        </div>
+        ><Text>{"El negocio avanza primero por la capa web y después hacia RADIUS. La solución observa ambos dominios al mismo tiempo, manteniendo independencia entre el grupo web y el grupo RADIUS."}</Text></div>
       </div>
 
-      <ReactFlow
+      <ReactFlow ariaLabelConfig={flowLabels}
         edgeTypes={engineeringEdgeTypes}
         id="rf-business"
         key={isMobile ? 'mobile' : 'desktop'}
         nodes={nodes}
-        edges={animatedEdges}
+        edges={localizedEdges}
         nodeTypes={nodeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}

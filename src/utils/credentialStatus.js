@@ -4,7 +4,7 @@ export function credentialStatus(credential, today = new Date().toISOString().sl
   return credential.expiresOn < today ? 'expired' : 'dated';
 }
 
-export function formatCredentialDate(date) {
-  return new Intl.DateTimeFormat('en', { dateStyle: 'medium', timeZone: 'UTC' })
+export function formatCredentialDate(date, language = 'en') {
+  return new Intl.DateTimeFormat(language, { dateStyle: 'medium', timeZone: 'UTC' })
     .format(new Date(`${date}T00:00:00Z`));
 }

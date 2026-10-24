@@ -11,7 +11,7 @@ function Home() {
     return (
         <>
             <Navbar />
-            <main id="main-content" tabIndex={-1} lang="en">
+            <main id="main-content" tabIndex={-1} >
             <Hero />
             <About />
             <Projects />

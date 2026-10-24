@@ -260,3 +260,14 @@ export const credentials = [
 
 // Do not infer current study from completed badges or areas of interest.
 export const learningInProgress = [];
+
+// Preparation is deliberately separate from earned Credly records; no badge or achievement date.
+export const certificationPreparation = [{
+  id: 'aws-saa-preparation',
+  name: 'AWS Certified Solutions Architect – Associate',
+  examCode: 'SAA-C03',
+  issuer: 'Amazon Web Services',
+  kind: 'certification-preparation',
+  status: 'in-preparation',
+  url: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/',
+}];

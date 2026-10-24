@@ -1,3 +1,7 @@
+import useFlowEdges from '../../../i18n/useFlowEdges';
+import Text from "../../../i18n/Text.jsx";
+import useTranslation from "../../../i18n/useTranslation.js";
+import useFlowLabels from "../../../i18n/useFlowLabels.js";
 import React, { memo, useRef, useEffect, useMemo, useState } from 'react';
 import {
   Background,
@@ -48,11 +52,11 @@ const ServiceNode = memo(({ data }) => {
         style={{ opacity: 0, width: 8, height: 8 }}
       />
 
-      <div style={{ fontSize: 15, opacity: 0.7, marginBottom: 8 }}>{data.kicker}</div>
-      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}>{data.label}</div>
-      <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.75 }}>{data.description}</div>
+      <div style={{ fontSize: 15, opacity: 0.7, marginBottom: 8 }}><Text>{data.kicker}</Text></div>
+      <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 8 }}><Text>{data.label}</Text></div>
+      <div style={{ fontSize: 13, lineHeight: 1.45, opacity: 0.75 }}><Text>{data.description}</Text></div>
 
-      {data.badge && (
+      <Text>{data.badge && (
         <div
           style={{
             marginTop: 14,
@@ -66,9 +70,9 @@ const ServiceNode = memo(({ data }) => {
             border: '1px solid rgba(255,255,255,0.10)',
           }}
         >
-          {data.badge}
+          <Text>{data.badge}</Text>
         </div>
-      )}
+      )}</Text>
 
       <Handle
         type="source"
@@ -90,15 +94,9 @@ const InfoNode = memo(() => {
         boxShadow: '0 0 32px rgba(255, 215, 128, 0.10)',
       }}
     >
-      <div style={{ fontSize: 13, opacity: 0.65, marginBottom: 8 }}>Problema operativo</div>
-      <div style={{ fontSize: 22, fontWeight: 700, marginBottom: 10 }}>
-        ¿En cuál servidor quedó esa MAC?
-      </div>
-      <div style={{ fontSize: 13, lineHeight: 1.5, opacity: 0.78 }}>
-        Como el balanceador decide el destino en tiempo real, no puedes saber de antemano
-        dónde fue procesada la solicitud. Necesitas correlación centralizada o revisar logs
-        de varios servidores.
-      </div>
+      <div style={{ fontSize: 13, opacity: 0.65, marginBottom: 8 }}><Text>{"Problema operativo"}</Text></div>
+      <div style={{ fontSize: 22, fontWeight: 700, marginBottom: 10 }}><Text>{"¿En cuál servidor quedó esa MAC?"}</Text></div>
+      <div style={{ fontSize: 13, lineHeight: 1.5, opacity: 0.78 }}><Text>{"Como el balanceador decide el destino en tiempo real, no puedes saber de antemano dónde fue procesada la solicitud. Necesitas correlación centralizada o revisar logs de varios servidores."}</Text></div>
     </div>
   );
 });
@@ -223,12 +221,15 @@ const initialEdges = [
 ];
 
 function LoadBalancerTraceabilityDiagram() {
+  const { t } = useTranslation();
+  const flowLabels = useFlowLabels();
   const frameRef = useRef(null);
   const playback = useDiagramPlayback(frameRef, 'balance', 1);
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const activeServerIndex = playback.step;
   const animatedEdges = useMemo(() => decorateFlowEdges(edges, 'balance', playback.step), [edges, playback.step]);
+  const localizedEdges = useFlowEdges(animatedEdges);
   const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.innerWidth <= 768);
 
   const serverIds = useMemo(() => ['ws1', 'ws2', 'ws3'], []);
@@ -282,9 +283,9 @@ function LoadBalancerTraceabilityDiagram() {
 
   return (
     <div className="diagram-scene">
-      <DiagramPlaybackControls playback={playback} id="diagram-loadbalance" title="Trazabilidad en arquitectura horizontal" simulation />
+      <DiagramPlaybackControls playback={playback} id="diagram-loadbalance" title={t("Trazabilidad en arquitectura horizontal")} simulation />
     <div
-      ref={frameRef} id="diagram-loadbalance" tabIndex={-1} role="group" aria-label="Trazabilidad en arquitectura horizontal"
+      ref={frameRef} id="diagram-loadbalance" tabIndex={-1} role="group" aria-label={t("Trazabilidad en arquitectura horizontal")}
       data-playing={playback.playing}
       className="diagram-frame diagram-player"
       style={{
@@ -307,21 +308,16 @@ function LoadBalancerTraceabilityDiagram() {
           pointerEvents: 'none',
         }}
       >
-        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}>
-          Trazabilidad en arquitectura horizontal
-        </div>
-        <div style={{ color: 'rgba(255,255,255,0.62)', marginTop: 8, maxWidth: 700 }}>
-          Varios servidores web cumplen la misma función. El balanceador decide a cuál
-          enviar la petición, lo que dificulta saber dónde buscar una MAC específica.
-        </div>
+        <div style={{ color: '#fff', fontSize: 28, fontWeight: 700 }}><Text>{"Trazabilidad en arquitectura horizontal"}</Text></div>
+        <div style={{ color: 'rgba(255,255,255,0.62)', marginTop: 8, maxWidth: 700 }}><Text>{"Varios servidores web cumplen la misma función. El balanceador decide a cuál enviar la petición, lo que dificulta saber dónde buscar una MAC específica."}</Text></div>
       </div>
 
-      <ReactFlow
+      <ReactFlow ariaLabelConfig={flowLabels}
         edgeTypes={engineeringEdgeTypes}
         id="rf-loadbalance"
         key={isMobile ? 'mobile' : 'desktop'}
           nodes={nodes}
-          edges={animatedEdges}
+          edges={localizedEdges}
           nodeTypes={nodeTypes}
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}
