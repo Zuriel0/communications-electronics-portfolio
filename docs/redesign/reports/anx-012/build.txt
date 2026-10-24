@@ -1,0 +1,43 @@
+
+> portafoli_vite_appl@0.0.0 build
+> vite build --manifest
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 315 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                    1.30 kB │ gzip:   0.56 kB
+dist/projects/concurrencia/index.html                              1.36 kB │ gzip:   0.57 kB
+dist/projects/metodologia/index.html                               1.36 kB │ gzip:   0.57 kB
+dist/assets/AX-BL9tpoD4.svg                                        2.24 kB │ gzip:   1.26 kB
+dist/.vite/manifest.json                                           7.59 kB │ gzip:   1.39 kB
+dist/assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png     45.80 kB
+dist/assets/inter-latin-8kRkwJBP.woff2                            48.43 kB
+dist/assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png     53.49 kB
+dist/assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png     54.07 kB
+dist/assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png     55.48 kB
+dist/assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png     57.86 kB
+dist/assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png     85.55 kB
+dist/assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png     86.73 kB
+dist/assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png     87.02 kB
+dist/assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png     88.31 kB
+dist/assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png     89.36 kB
+dist/assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png     89.75 kB
+dist/assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png     91.65 kB
+dist/assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png    111.77 kB
+dist/assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png    134.65 kB
+dist/assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png    144.17 kB
+dist/assets/anxzu-480-D9Ta-Nth.jpg                               157.32 kB
+dist/assets/anxzu-768-DTErN6Kh.jpg                               305.45 kB
+dist/assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png    399.31 kB
+dist/assets/anxzu-1024-bLlLDyaE.jpg                              455.95 kB
+dist/assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png    708.80 kB
+dist/assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png  1,271.11 kB
+dist/assets/CaseStudy-DsM9Y4dG.css                                21.77 kB │ gzip:   4.04 kB
+dist/assets/index-DlaZ41Kf.css                                    44.63 kB │ gzip:   8.52 kB
+dist/assets/Metodologia-QHE2T2E2.js                               17.36 kB │ gzip:   4.71 kB
+dist/assets/Concurrencia-DgFlhAQu.js                              43.06 kB │ gzip:   9.92 kB
+dist/assets/CaseStudy-8jz-LUw0.js                                257.20 kB │ gzip:  79.63 kB
+dist/assets/index-DrQltq3E.js                                    342.06 kB │ gzip: 103.28 kB
+✓ built in 1.19s

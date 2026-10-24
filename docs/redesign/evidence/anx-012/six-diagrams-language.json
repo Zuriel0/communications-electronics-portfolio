@@ -1,0 +1,128 @@
+[
+  {
+    "id": "diagram-loadbalance",
+    "wasPlaying": "true",
+    "before": {
+      "active": [
+        "client-lb",
+        "lb-ws2"
+      ],
+      "playing": "false",
+      "transform": "translate(141.117px, 14px) scale(0.67583)"
+    },
+    "after": {
+      "active": [
+        "client-lb",
+        "lb-ws2"
+      ],
+      "playing": "false",
+      "transform": "translate(141.117px, 14px) scale(0.67583)"
+    },
+    "same": true,
+    "paused": "true"
+  },
+  {
+    "id": "diagram-business",
+    "wasPlaying": "true",
+    "before": {
+      "active": [
+        "e1",
+        "m1",
+        "m2"
+      ],
+      "playing": "false",
+      "transform": "translate(219.692px, -193.833px) scale(0.490079)"
+    },
+    "after": {
+      "active": [
+        "e1",
+        "m1",
+        "m2"
+      ],
+      "playing": "false",
+      "transform": "translate(219.692px, -193.833px) scale(0.490079)"
+    },
+    "same": true,
+    "paused": "true"
+  },
+  {
+    "id": "diagram-logic",
+    "wasPlaying": "true",
+    "before": {
+      "active": [
+        "mac-ssh"
+      ],
+      "playing": "false",
+      "transform": "translate(2.91209px, 62.6286px) scale(0.602198)"
+    },
+    "after": {
+      "active": [
+        "mac-ssh"
+      ],
+      "playing": "false",
+      "transform": "translate(2.91209px, 62.6286px) scale(0.602198)"
+    },
+    "same": true,
+    "paused": "true"
+  },
+  {
+    "id": "diagram-highlevel",
+    "wasPlaying": "true",
+    "before": {
+      "active": [
+        "user-terminal"
+      ],
+      "playing": "false",
+      "transform": "translate(17.4615px, 1.76923px) scale(0.526923)"
+    },
+    "after": {
+      "active": [
+        "user-terminal"
+      ],
+      "playing": "false",
+      "transform": "translate(17.4615px, 1.76923px) scale(0.526923)"
+    },
+    "same": true,
+    "paused": "true"
+  },
+  {
+    "id": "diagram-methodology-problem",
+    "wasPlaying": "true",
+    "before": {
+      "active": [
+        "a-b"
+      ],
+      "playing": "false",
+      "transform": "translate(256.748px, 36.1259px) scale(0.573427)"
+    },
+    "after": {
+      "active": [
+        "a-b"
+      ],
+      "playing": "false",
+      "transform": "translate(256.748px, 36.1259px) scale(0.573427)"
+    },
+    "same": true,
+    "paused": "true"
+  },
+  {
+    "id": "diagram-methodology-solution",
+    "wasPlaying": "true",
+    "before": {
+      "active": [
+        "a-b"
+      ],
+      "playing": "false",
+      "transform": "translate(-16.458px, 51.7413px) scale(0.620979)"
+    },
+    "after": {
+      "active": [
+        "a-b"
+      ],
+      "playing": "false",
+      "transform": "translate(-16.458px, 51.7413px) scale(0.620979)"
+    },
+    "same": true,
+    "paused": "true"
+  }
+]

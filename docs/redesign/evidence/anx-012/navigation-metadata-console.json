@@ -1,0 +1,16 @@
+{
+  "menuOpen": "true",
+  "keyboard": {
+    "expanded": "false",
+    "focus": "button menu-toggle",
+    "language": "es"
+  },
+  "persisted": {
+    "canonical": "https://anxzu.com/",
+    "description": "Andres Zuriel Macias Rios, Ingeniero en Comunicaciones y Electrónica. Explora proyectos de redes, infraestructura Linux, software y preventa técnica.",
+    "language": "es",
+    "og": "es_MX",
+    "selected": "ES"
+  },
+  "browserLogs": []
+}

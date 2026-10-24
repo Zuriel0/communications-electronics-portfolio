@@ -1,0 +1,542 @@
+[
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "en",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 305,
+    "title": "ANXZU — The Art of Engineering",
+    "width": 305,
+    "requestedWidth": 320
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "es",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 305,
+    "title": "ANXZU — El arte de la ingeniería",
+    "width": 305,
+    "requestedWidth": 320
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "en",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 360,
+    "title": "ANXZU — The Art of Engineering",
+    "width": 360,
+    "requestedWidth": 375
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "es",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 360,
+    "title": "ANXZU — El arte de la ingeniería",
+    "width": 360,
+    "requestedWidth": 375
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "en",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 753,
+    "title": "ANXZU — The Art of Engineering",
+    "width": 753,
+    "requestedWidth": 768
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "es",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 753,
+    "title": "ANXZU — El arte de la ingeniería",
+    "width": 753,
+    "requestedWidth": 768
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "en",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 1009,
+    "title": "ANXZU — The Art of Engineering",
+    "width": 1009,
+    "requestedWidth": 1024
+  },
+  {
+    "buttons": [
+      {
+        "height": 44,
+        "selected": "false",
+        "width": 44
+      },
+      {
+        "height": 44,
+        "selected": "true",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "es",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 1009,
+    "title": "ANXZU — El arte de la ingeniería",
+    "width": 1009,
+    "requestedWidth": 1024
+  },
+  {
+    "buttons": [
+      {
+        "height": 44.390625,
+        "selected": "true",
+        "width": 44
+      },
+      {
+        "height": 44.390625,
+        "selected": "false",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "en",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 1425,
+    "title": "ANXZU — The Art of Engineering",
+    "width": 1425,
+    "requestedWidth": 1440
+  },
+  {
+    "buttons": [
+      {
+        "height": 44.390625,
+        "selected": "false",
+        "width": 44
+      },
+      {
+        "height": 44.390625,
+        "selected": "true",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "es",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 1425,
+    "title": "ANXZU — El arte de la ingeniería",
+    "width": 1425,
+    "requestedWidth": 1440
+  },
+  {
+    "buttons": [
+      {
+        "height": 44.390625,
+        "selected": "true",
+        "width": 44
+      },
+      {
+        "height": 44.390625,
+        "selected": "false",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "en",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 1905,
+    "title": "ANXZU — The Art of Engineering",
+    "width": 1905,
+    "requestedWidth": 1920
+  },
+  {
+    "buttons": [
+      {
+        "height": 44.390625,
+        "selected": "false",
+        "width": 44
+      },
+      {
+        "height": 44.390625,
+        "selected": "true",
+        "width": 44
+      }
+    ],
+    "diagrams": 0,
+    "h1": "ANXZU",
+    "language": "es",
+    "overflow": [],
+    "route": "/",
+    "scrollWidth": 1905,
+    "title": "ANXZU — El arte de la ingeniería",
+    "width": 1905,
+    "requestedWidth": 1920
+  },
+  {
+    "diagrams": 4,
+    "h1": "Concurrent log monitor via SSH.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 305,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "width": 305,
+    "requestedWidth": 320
+  },
+  {
+    "diagrams": 4,
+    "h1": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 305,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "width": 305,
+    "requestedWidth": 320
+  },
+  {
+    "diagrams": 4,
+    "h1": "Concurrent log monitor via SSH.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 360,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "width": 360,
+    "requestedWidth": 375
+  },
+  {
+    "diagrams": 4,
+    "h1": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 360,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "width": 360,
+    "requestedWidth": 375
+  },
+  {
+    "diagrams": 4,
+    "h1": "Concurrent log monitor via SSH.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 753,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "width": 753,
+    "requestedWidth": 768
+  },
+  {
+    "diagrams": 4,
+    "h1": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 753,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "width": 753,
+    "requestedWidth": 768
+  },
+  {
+    "diagrams": 4,
+    "h1": "Concurrent log monitor via SSH.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 1009,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "width": 1009,
+    "requestedWidth": 1024
+  },
+  {
+    "diagrams": 4,
+    "h1": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 1009,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "width": 1009,
+    "requestedWidth": 1024
+  },
+  {
+    "diagrams": 4,
+    "h1": "Concurrent log monitor via SSH.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 1425,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "width": 1425,
+    "requestedWidth": 1440
+  },
+  {
+    "diagrams": 4,
+    "h1": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 1425,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "width": 1425,
+    "requestedWidth": 1440
+  },
+  {
+    "diagrams": 4,
+    "h1": "Concurrent log monitor via SSH.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 1905,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "width": 1905,
+    "requestedWidth": 1920
+  },
+  {
+    "diagrams": 4,
+    "h1": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/concurrencia",
+    "scrollWidth": 1905,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "width": 1905,
+    "requestedWidth": 1920
+  },
+  {
+    "diagrams": 2,
+    "h1": "AI-assisted customization methodology.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 305,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "width": 305,
+    "requestedWidth": 320
+  },
+  {
+    "diagrams": 2,
+    "h1": "Metodología de personalización asistida por IA.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 305,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "width": 305,
+    "requestedWidth": 320
+  },
+  {
+    "diagrams": 2,
+    "h1": "AI-assisted customization methodology.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 360,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "width": 360,
+    "requestedWidth": 375
+  },
+  {
+    "diagrams": 2,
+    "h1": "Metodología de personalización asistida por IA.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 360,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "width": 360,
+    "requestedWidth": 375
+  },
+  {
+    "diagrams": 2,
+    "h1": "AI-assisted customization methodology.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 753,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "width": 753,
+    "requestedWidth": 768
+  },
+  {
+    "diagrams": 2,
+    "h1": "Metodología de personalización asistida por IA.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 753,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "width": 753,
+    "requestedWidth": 768
+  },
+  {
+    "diagrams": 2,
+    "h1": "AI-assisted customization methodology.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 1009,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "width": 1009,
+    "requestedWidth": 1024
+  },
+  {
+    "diagrams": 2,
+    "h1": "Metodología de personalización asistida por IA.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 1009,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "width": 1009,
+    "requestedWidth": 1024
+  },
+  {
+    "diagrams": 2,
+    "h1": "AI-assisted customization methodology.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 1425,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "width": 1425,
+    "requestedWidth": 1440
+  },
+  {
+    "diagrams": 2,
+    "h1": "Metodología de personalización asistida por IA.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 1425,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "width": 1425,
+    "requestedWidth": 1440
+  },
+  {
+    "diagrams": 2,
+    "h1": "AI-assisted customization methodology.",
+    "language": "en",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 1905,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "width": 1905,
+    "requestedWidth": 1920
+  },
+  {
+    "diagrams": 2,
+    "h1": "Metodología de personalización asistida por IA.",
+    "language": "es",
+    "overflow": [],
+    "route": "/projects/metodologia",
+    "scrollWidth": 1905,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "width": 1905,
+    "requestedWidth": 1920
+  }
+]
