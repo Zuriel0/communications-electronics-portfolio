@@ -5,6 +5,7 @@ import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { createServer } from 'vite';
 import { createLanguageStore, languageKey } from '../src/i18n/languageStore.js';
+import { defineMessages } from '../src/i18n/catalog.js';
 import { translate } from '../src/i18n/translate.js';
 import en from '../src/i18n/locales/en.js';
 import es from '../src/i18n/locales/es.js';
@@ -122,4 +123,11 @@ test('actual React pages render in both languages with one retained store across
       }
     }
   } finally { await server.close(); }
+});
+
+
+test('compact catalogs derive source values, retain corrections and reject ambiguous duplicate sources', () => {
+  const messages = defineMessages({ fromEnglish: { Hello:'Hola' }, fromSpanish: { Adiós:'Goodbye' }, spanishCorrections: { Adiós:'Hasta luego' } });
+  assert.deepEqual(messages, { en:{ Hello:'Hello', Adiós:'Goodbye' }, es:{ Hello:'Hola', Adiós:'Hasta luego' } });
+  assert.throws(() => defineMessages({ fromEnglish:{ Hello:'Hola' }, fromSpanish:{ Hello:'Hello' } }), /Duplicate message/);
 });

@@ -25,7 +25,7 @@ export default function IntroduceMetodologia() {
         facts={[
           ['Core constraint', 'Original source code remains unchanged'],
           ['Approach', 'External customization, guided by technical context'],
-          ['AI’s role', 'Assist generation; human review precedes integration'],
+          ['AI’s role', 'Assists generation; human review precedes integration'],
           ['Project status', 'Completed'],
         ]}
         links={[
