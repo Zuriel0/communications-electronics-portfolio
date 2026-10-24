@@ -1,0 +1,505 @@
+El arte de la ingeniería
+
+ANXZU
+
+Andres Zuriel Macias Rios
+
+Ingeniero en Comunicaciones y Electrónica
+
+Diseño tecnología, resuelvo problemas de ingeniería y construyo sistemas innovadores.
+
+Ver proyectos
+Contacto
+Pausar movimiento
+Sobre mí
+Andres Zuriel Macias Rios
+Ingeniero en Comunicaciones y Electrónica
+
+Diseño, implemento, integro y valido soluciones de redes, telecomunicaciones, infraestructura Linux y software. Mi experiencia profesional conecta el levantamiento de requisitos y la preventa técnica con el diseño, la configuración, el diagnóstico y la documentación de soluciones.
+
+Mis proyectos reúnen estas disciplinas: Nodalume integra un backend de portal cautivo, bases de datos, RADIUS y una consola React en un entorno de laboratorio. ANXZU y mi metodología de personalización asistida por IA amplían esta práctica al desarrollo de interfaces, la automatización y las entregas con revisión humana. Los laboratorios de redes en AWS respaldan mi preparación para AWS Certified Solutions Architect – Associate.
+
+Redes y telecomunicaciones
+Experiencia profesional
+AWS y arquitectura en la nube
+Laboratorios prácticos
+Ingeniería backend y bases de datos
+Proyectos personales
+Infraestructura, Linux y virtualización
+Experiencia profesional y laboratorios prácticos
+Desarrollo de software e ingeniería asistida por IA
+Experiencia profesional y proyectos personales
+Arquitectura de soluciones y preventa técnica
+Experiencia profesional
+
+Redes
+
+Infraestructura
+
+Software
+
+Una conexión conceptual entre sistemas.
+Proyectos destacados
+
+Estos son algunos de mis proyectos:
+
+Ubuntu
+SSH
+
+Web ×6
+
+RADIUS ×1
+
+Servidor activo
+Salida centralizada
+Monitoreo paralelo. Una vista consolidada.
+Monitor concurrente de logs vía SSH
+
+Herramienta de línea de comandos para monitorear logs remotos en tiempo real desde Ubuntu, con conexiones SSH concurrentes a seis servidores web y un servidor RADIUS activo. Busca una dirección MAC específica, identifica el servidor de origen y aplica reglas de ejecución diferenciadas para cada grupo.
+
+Bash
+React Flow
+Programación concurrente
+Ubuntu
+Servidores
+Git
+Ver proyecto
+Análisis
+Restricciones
+Contexto técnico
+Generación con IA
+Validación manual
+Integración
+Del contexto técnico a una solución validada.
+Metodología de personalización asistida por IA
+
+Metodología reutilizable para personalizar plataformas restringidas sin modificar su código fuente original. Combina inyección externa de código, documentación del contexto técnico y generación asistida por IA. Según la experiencia reportada, el tiempo pasó de 8–14 a 1–2 horas por proyecto.
+
+IA
+Inyección de código
+Optimización de flujos de trabajo
+Estrategia técnica
+Documentación
+Ver proyecto
+Capacidades profesionales
+
+Diseñar, implementar, integrar y validar. Cada área identifica el contexto en el que se aplica.
+
+Redes y telecomunicaciones
+
+Diseño, integración y diagnóstico de conectividad, acceso y autenticación en redes empresariales.
+
+Experiencia profesional
+LAN/WAN empresarial
+Ruteo y conmutación
+VLAN y segmentación de redes
+BGP y fundamentos de ruteo
+Wi-Fi empresarial
+RADIUS / AAA
+Portales cautivos
+Diagnóstico de redes
+Seguridad de redes
+Fortinet
+Cisco
+Aruba
+Ruckus
+Huawei
+
+Fortinet: implementación de portal cautivo. Cisco: configuración básica de portales cautivos, VLAN y ruteo estático y dinámico. Aruba, Ruckus y Huawei: administración de Wi-Fi.
+
+Credenciales verificadas
+Extreme Networks
+
+Los registros públicos del emisor respaldan la formación en redes y diseño de soluciones.
+
+Proyectos personales
+MikroTik
+
+Nodalume integra MikroTik en un laboratorio de portal cautivo autohospedado.
+
+Explorar el caso de monitoreo SSH
+AWS y arquitectura en la nube
+
+Laboratorios prácticos de redes y control de acceso en us-east-1: VPC 10.20.0.0/16, subredes públicas y privadas, EC2, IAM, S3 y un Gateway Endpoint para S3.
+
+Laboratorios prácticos
+Amazon VPC
+Subredes públicas y privadas
+Amazon EC2
+Roles y políticas IAM
+Amazon S3
+Internet Gateway
+NAT Gateway
+Gateway Endpoints de VPC para S3
+Tablas de ruteo
+Grupos de seguridad
+ACL de red
+Redes privadas en la nube
+Seguridad básica en la nube y mínimo privilegio
+
+Práctica de laboratorio; no se declara experiencia de despliegue de AWS en producción.
+
+Ver preparación de certificación
+Ingeniería backend y bases de datos
+
+Nodalume es un proyecto de portal cautivo autohospedado con consola React, servicios backend e integración RADIUS.
+
+Proyectos personales
+Node.js
+Express
+API REST
+PostgreSQL
+SQL
+Gestión de sesiones
+Diseño de aplicaciones multitenant
+Integración de servicios backend
+Laboratorios prácticos
+FreeRADIUS
+Autenticación y registro de uso (accounting) RADIUS
+Docker Compose
+Servicios Linux
+
+En los laboratorios de Nodalume se validaron autenticación, autorización, políticas de sesión y registros de uso (accounting) RADIUS. No se declara producción comercial ni adopción por clientes.
+
+Infraestructura, Linux y virtualización
+
+Despliegue de servicios Linux y de red, configuración de redes virtuales y diagnóstico de conectividad en entornos de prueba basados en Debian.
+
+Experiencia profesional
+Debian Linux
+Administración Linux
+Despliegue de servicios de red
+Laboratorios prácticos
+Docker
+Docker Compose
+VMware Workstation
+Microsoft Hyper-V
+Virtualización con UTM
+Configuración de redes virtuales
+Appliances virtuales
+Diagnóstico de conectividad de máquinas virtuales
+
+Máquinas virtuales Debian, controladoras de prueba y servicios de red. Este alcance no incluye experiencia en ESXi, vSphere o Kubernetes.
+
+Desarrollo de software e ingeniería asistida por IA
+
+Desde prototipos de interfaz hasta servicios integrados: implementación, documentación, revisión y pruebas en ANXZU, Nodalume y la metodología de personalización.
+
+Experiencia profesional
+React
+Automatización
+Documentación técnica
+Proyectos personales
+JavaScript
+Node.js
+Git / GitHub
+Desarrollo frontend
+Desarrollo backend
+Programación asistida por IA
+Diseño de prompts para flujos técnicos
+Desarrollo asistido por agentes
+Revisión y validación de código
+Prototipado UI/UX
+Pruebas de software
+
+La IA asiste los flujos de ingeniería; la revisión y validación humanas siguen siendo responsabilidades explícitas.
+
+Explorar la metodología de personalización
+Arquitectura de soluciones y preventa técnica
+
+Conecto requisitos, viabilidad técnica y alcance de implementación en telecomunicaciones y diseño de soluciones B2B.
+
+Experiencia profesional
+Levantamiento de requisitos
+Análisis de RFP
+Matrices de cumplimiento técnico
+Dimensionamiento de soluciones
+Arquitectura de redes
+Propuestas técnicas
+SOW
+Levantamientos en sitio
+Evaluación de fabricantes
+Demostraciones técnicas
+Diagramas de red
+Diseño de soluciones B2B
+Tecnologías adicionales y capacidades anteriores
+
+El inventario original de capacidades se conserva con su contexto previo.
+
+Comunicaciones
+LAN-to-LAN
+VLAN
+BGP
+OSPF
+Redes
+Portales cautivos
+Cableado estructurado
+Desarrollo web
+React
+JavaScript
+PHP
+BASH
+Infraestructura
+Debian Linux
+NAS
+Apache
+Bases de datos
+MariaDB
+Consultas SQL
+Integración PHP
+Ciberseguridad
+Seguridad perimetral
+Diagnóstico y resolución de problemas
+Soporte técnico
+Plataformas y herramientas
+WordPress
+Shopify
+Salesforce
+Preventa técnica
+SOW
+Levantamientos en sitio
+Soporte de RFP
+Ver credenciales
+Ver experiencia
+Experiencia profesional
+
+2025
+- Actualidad
+
+DataWifi
+
+Ingeniero de preventa sénior
+
+Apoyo los procesos comerciales mediante la validación de requisitos técnicos para implementar portales cautivos. Participo en el diseño preliminar de soluciones, la configuración de controladoras de distintas marcas, el soporte de demostraciones y la gestión de cuentas estratégicas como parte de la expansión de la empresa en México.
+
+2023
+- 2025
+
+Servnet
+
+Ingeniero de preventa
+
+Lideré la creación del área de preventa, estandarizando servicios, arquitecturas y documentación técnica. Contribuí al dimensionamiento de proyectos especiales, análisis de rentabilidad, levantamiento de requisitos y elaboración de propuestas de conectividad, telefonía IP, ciberseguridad y redes empresariales.
+
+2022
+- 2023
+
+End To End
+
+Ingeniero
+
+Desarrollé proyectos internos de automatización de procesos con React y brindé soporte técnico, análisis funcional y apoyo comercial mediante propuestas técnicas y cotizaciones.
+
+2022
+- 2022
+
+M.T. de México
+
+Consultor externo en infraestructura de almacenamiento y gestión de datos
+
+Desarrollé una solución de almacenamiento NAS basada en Debian, integrando SAMBA, Apache, MariaDB y PHP. También implementé segmentación de red con VLAN, ruteo dinámico y un panel de administración de usuarios, privilegios y configuraciones RAID.
+
+Credenciales y aprendizaje continuo
+
+La práctica de ingeniería crece mediante el aprendizaje continuo. Estos registros de los emisores documentan certificaciones y cursos completados, cada uno con su alcance y enlace de verificación.
+
+Ver perfil público en Credly
+
+Registros consultados 23 oct 2026.
+
+Credenciales verificadas
+
+Extreme Networks
+
+Extreme Fabric - Installation and Configuration
+Emisión
+16 oct 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Professional in Solutions Design 2026
+Emisión
+9 sept 2026
+Vencimiento
+9 sept 2029
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Professional in Solutions Selling 2026
+Emisión
+2 sept 2026
+Vencimiento
+2 sept 2029
+Verificar credencial
+Explorar 13 credenciales verificadas adicionales
+
+Extreme Networks
+
+Extreme Platform ONE Introduction – Solutions Selling
+Emisión
+11 sept 2026
+Vencimiento
+11 sept 2029
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeCloud SD-WAN
+Emisión
+1 sept 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in Network Security Basics
+Emisión
+1 sept 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in Solutions Selling 2026
+Emisión
+1 sept 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeCloud IQ - Site Engine
+Emisión
+28 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeControl
+Emisión
+28 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in Extreme Switching
+Emisión
+28 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in Extreme Fabric Connect
+Emisión
+25 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeCloud IQ
+Emisión
+24 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Networks Associate - Building Scalable and Mission Critical Networks
+Emisión
+21 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Networks Associate - Advance Your Career
+Emisión
+18 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Networks Associate - Building Secure and Robust Wireless Networks
+Emisión
+17 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Extreme Networks
+
+Extreme Networks Associate - Introduction to Future Networking
+Emisión
+13 ago 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+Cursos completados
+
+Insignias de formación emitidas, presentadas por separado de las certificaciones profesionales.
+
+Extreme Networks
+
+Extreme Platform ONE Introduction – Solutions Design
+Emisión
+14 sept 2026
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+
+Cisco
+
+Python Essentials 1
+Emisión
+26 abr 2023
+Vencimiento
+No indicado por el emisor
+Verificar credencial
+Preparación actual
+
+Certificación en preparación / En preparación
+
+AWS Certified Solutions Architect – Associate
+
+Amazon Web Services · SAA-C03
+
+Los laboratorios prácticos de redes en AWS respaldan esta preparación. Esta certificación aún no se ha obtenido.
+
+Ver detalles de la certificación
+Conversemos.
+
+¿Tienes un proyecto en mente o quieres colaborar?
+
+andres.macias@anxzu.com
+
+Abre tu aplicación de correo.
+
+GitHub
+LinkedIn
+
+México
+
+ANXZU
+
+El arte de la ingeniería
+
+Volver al inicio

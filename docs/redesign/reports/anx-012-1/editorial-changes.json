@@ -1,0 +1,56 @@
+[
+  {
+    "catalog": "es",
+    "source": "Multi-Tenant Application Design",
+    "before": "Diseño de aplicaciones multiinquilino",
+    "after": "Diseño de aplicaciones multitenant"
+  },
+  {
+    "catalog": "es",
+    "source": "Nodalume lab work has validated authentication, authorization, session policies and RADIUS accounting. No commercial production or customer adoption is claimed.",
+    "before": "En los laboratorios de Nodalume se validaron autenticación, autorización, políticas de sesión y accounting RADIUS. No se declara producción comercial ni adopción por clientes.",
+    "after": "En los laboratorios de Nodalume se validaron autenticación, autorización, políticas de sesión y registros de uso (accounting) RADIUS. No se declara producción comercial ni adopción por clientes."
+  },
+  {
+    "catalog": "es",
+    "source": "RADIUS Authentication and Accounting",
+    "before": "Autenticación y accounting RADIUS",
+    "after": "Autenticación y registro de uso (accounting) RADIUS"
+  },
+  {
+    "catalog": "pen",
+    "source": "Assist generation; human review precedes integration",
+    "before": "Assist generation; human review precedes integration",
+    "after": null
+  },
+  {
+    "catalog": "pen",
+    "source": "Assists generation; human review precedes integration",
+    "before": null,
+    "after": "Assists generation; human review precedes integration"
+  },
+  {
+    "catalog": "pes",
+    "source": "Assist generation; human review precedes integration",
+    "before": "Asistencia en la generación; revisión humana antes de integrar",
+    "after": null
+  },
+  {
+    "catalog": "pes",
+    "source": "Puede conservar el servidor web que hizo match y detener solo los demás, sin afectar RADIUS.",
+    "before": "Puede conservar el servidor web que hizo match y detener solo los demás, sin afectar RADIUS.",
+    "after": "Puede conservar la búsqueda del servidor web que encontró la coincidencia y detener las demás búsquedas web, sin afectar RADIUS."
+  },
+  {
+    "catalog": "pes",
+    "source": "The solid business path is conditional: authentication follows successful web processing. The separate observation branches explain why RADIUS monitoring can remain active while Web monitoring changes.",
+    "before": "La ruta de negocio continua es condicional: la autenticación sigue al procesamiento web exitoso. Las ramas de observación independientes explican por qué el monitoreo RADIUS puede seguir activo mientras cambia el monitoreo web.",
+    "after": "El recorrido de negocio, dibujado con línea continua, es condicional: la autenticación sigue al procesamiento web exitoso. Las ramas de observación independientes explican por qué el monitoreo RADIUS puede seguir activo mientras cambia el monitoreo web."
+  },
+  {
+    "catalog": "pes",
+    "source": "Assists generation; human review precedes integration",
+    "before": null,
+    "after": "Asistencia en la generación; revisión humana antes de integrar"
+  }
+]

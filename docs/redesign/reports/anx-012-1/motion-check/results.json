@@ -1,0 +1,163 @@
+[
+  {
+    "route": "home",
+    "fetchTime": "2026-10-24T20:04:58.704Z",
+    "lighthouseVersion": "13.5.0",
+    "audit": {
+      "id": "anx-reduced-motion",
+      "title": "Reduced motion presents static content",
+      "description": "Checks the actual media preference, Hero and six graph playback controls.",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "debugdata",
+        "state": {
+          "reducedMotion": true,
+          "language": "en",
+          "heroStatic": "true",
+          "heroControl": {
+            "disabled": true,
+            "text": "Motion reduced"
+          },
+          "diagrams": []
+        }
+      }
+    }
+  },
+  {
+    "route": "concurrencia",
+    "fetchTime": "2026-10-24T20:06:39.879Z",
+    "lighthouseVersion": "13.5.0",
+    "audit": {
+      "id": "anx-reduced-motion",
+      "title": "Reduced motion presents static content",
+      "description": "Checks the actual media preference, Hero and six graph playback controls.",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "debugdata",
+        "state": {
+          "reducedMotion": true,
+          "language": "en",
+          "heroStatic": null,
+          "heroControl": null,
+          "diagrams": [
+            {
+              "id": "diagram-loadbalance",
+              "playing": "false",
+              "nodes": 6,
+              "edges": 4,
+              "controlDisabled": true,
+              "signals": [
+                {
+                  "animation": "none",
+                  "state": "running"
+                },
+                {
+                  "animation": "none",
+                  "state": "running"
+                }
+              ]
+            },
+            {
+              "id": "diagram-business",
+              "playing": "false",
+              "nodes": 9,
+              "edges": 5,
+              "controlDisabled": true,
+              "signals": [
+                {
+                  "animation": "none",
+                  "state": "running"
+                },
+                {
+                  "animation": "none",
+                  "state": "running"
+                },
+                {
+                  "animation": "none",
+                  "state": "running"
+                }
+              ]
+            },
+            {
+              "id": "diagram-highlevel",
+              "playing": "false",
+              "nodes": 12,
+              "edges": 11,
+              "controlDisabled": true,
+              "signals": [
+                {
+                  "animation": "none",
+                  "state": "running"
+                }
+              ]
+            },
+            {
+              "id": "diagram-logic",
+              "playing": "false",
+              "nodes": 7,
+              "edges": 6,
+              "controlDisabled": true,
+              "signals": [
+                {
+                  "animation": "none",
+                  "state": "running"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "route": "metodologia",
+    "fetchTime": "2026-10-24T20:06:49.372Z",
+    "lighthouseVersion": "13.5.0",
+    "audit": {
+      "id": "anx-reduced-motion",
+      "title": "Reduced motion presents static content",
+      "description": "Checks the actual media preference, Hero and six graph playback controls.",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "debugdata",
+        "state": {
+          "reducedMotion": true,
+          "language": "en",
+          "heroStatic": null,
+          "heroControl": null,
+          "diagrams": [
+            {
+              "id": "diagram-methodology-problem",
+              "playing": "false",
+              "nodes": 6,
+              "edges": 5,
+              "controlDisabled": true,
+              "signals": [
+                {
+                  "animation": "none",
+                  "state": "running"
+                }
+              ]
+            },
+            {
+              "id": "diagram-methodology-solution",
+              "playing": "false",
+              "nodes": 6,
+              "edges": 5,
+              "controlDisabled": true,
+              "signals": [
+                {
+                  "animation": "none",
+                  "state": "running"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

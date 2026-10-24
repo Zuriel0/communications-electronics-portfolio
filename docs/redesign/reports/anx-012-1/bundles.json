@@ -1,0 +1,149 @@
+{
+  "method": "Built bytes and gzip level 9 locally, with one runtime for v1.0.0 and final. ANX-012 values are its recorded build. This is not transfer, Web Vitals or a causal Lighthouse measurement of the deduplication alone.",
+  "rows": [
+    {
+      "resource": "initial JS",
+      "baseline": {
+        "name": "initial JS",
+        "file": "assets/index-C65xXIVP.js",
+        "bytes": 288593,
+        "gzip9": 91420,
+        "sha256": "d5c1994147fb07f487f23042a3f951f5481904f73ab682bdecee7da21dfc6f2e"
+      },
+      "anx012": {
+        "bytes": 342060,
+        "gzip9": 103100
+      },
+      "candidate": {
+        "name": "initial JS",
+        "file": "assets/index-XDcRipZe.js",
+        "bytes": 321620,
+        "gzip9": 101618,
+        "sha256": "7c8014fe100977ca2615fac3e00bb89f96990cd6b1bc2c8d494b8b01206ae348"
+      },
+      "deltaFrom012": -20440,
+      "percentFrom012": -5.98,
+      "deltaFromV1": 33027
+    },
+    {
+      "resource": "initial CSS",
+      "baseline": {
+        "name": "initial CSS",
+        "file": "assets/index-gw02jUtW.css",
+        "bytes": 42567,
+        "gzip9": 8171,
+        "sha256": "8cef49b4af1459d2c5a172a643733c60cd3aa4a72b6b0aa7ab60eafccdfead83"
+      },
+      "anx012": {
+        "bytes": 44625,
+        "gzip9": 8498
+      },
+      "candidate": {
+        "name": "initial CSS",
+        "file": "assets/index-DlaZ41Kf.css",
+        "bytes": 44625,
+        "gzip9": 8498,
+        "sha256": "d68fc959e657eeb3e1f64f524080176eee401f10c2fe067611ce6986dd3c0dbe"
+      },
+      "deltaFrom012": 0,
+      "percentFrom012": 0,
+      "deltaFromV1": 2058
+    },
+    {
+      "resource": "Concurrencia",
+      "baseline": {
+        "name": "Concurrencia",
+        "file": "assets/Concurrencia-DJWB9-qz.js",
+        "bytes": 41107,
+        "gzip9": 9750,
+        "sha256": "7adda50d2453379696e258992899cf81ed34c59f715cd7f40fbc1a1a9c28f7e4"
+      },
+      "anx012": {
+        "bytes": 43058,
+        "gzip9": 9876
+      },
+      "candidate": {
+        "name": "Concurrencia",
+        "file": "assets/Concurrencia-XfPudlBa.js",
+        "bytes": 43058,
+        "gzip9": 9875,
+        "sha256": "9412cff88a31a473968ab5ad210bd56019713811f4d581a89e9f8758955439a6"
+      },
+      "deltaFrom012": 0,
+      "percentFrom012": 0,
+      "deltaFromV1": 1951
+    },
+    {
+      "resource": "Metodologia",
+      "baseline": {
+        "name": "Metodologia",
+        "file": "assets/Metodologia-DBPbl9v5.js",
+        "bytes": 16489,
+        "gzip9": 4598,
+        "sha256": "8c6c26187e6c1b6ffb5021e89b5a431bc83b32bdc8ae53015815abb049d97f60"
+      },
+      "anx012": {
+        "bytes": 17362,
+        "gzip9": 4701
+      },
+      "candidate": {
+        "name": "Metodologia",
+        "file": "assets/Metodologia-CPYzX9s-.js",
+        "bytes": 17363,
+        "gzip9": 4700,
+        "sha256": "cdcbe3c150fa018d780242bcdd2cfdcfca8707650f85877d45328d03541b07b1"
+      },
+      "deltaFrom012": 1,
+      "percentFrom012": 0.01,
+      "deltaFromV1": 874
+    },
+    {
+      "resource": "shared case JS",
+      "baseline": {
+        "name": "shared case JS",
+        "file": "assets/CaseStudy-M95QZUOR.js",
+        "bytes": 182432,
+        "gzip9": 59856,
+        "sha256": "b3a878cf223c0b034800bb40803a50a03a19f5675d3962daab79268449e370d0"
+      },
+      "anx012": {
+        "bytes": 257199,
+        "gzip9": 79527
+      },
+      "candidate": {
+        "name": "shared case JS",
+        "file": "assets/CaseStudy-BHSvw-EZ.js",
+        "bytes": 221176,
+        "gzip9": 72741,
+        "sha256": "c89d66e9d96a9981ac1f865ea6d13535d1f46ed6f615bc555989bd75d5545361"
+      },
+      "deltaFrom012": -36023,
+      "percentFrom012": -14.01,
+      "deltaFromV1": 38744
+    },
+    {
+      "resource": "shared case CSS",
+      "baseline": {
+        "name": "shared case CSS",
+        "file": "assets/CaseStudy-DsM9Y4dG.css",
+        "bytes": 21769,
+        "gzip9": 4026,
+        "sha256": "c607f548e5f455542e9c419ad939dbf7ef53fd33461be6849c76d130f26dbcce"
+      },
+      "anx012": {
+        "bytes": 21769,
+        "gzip9": 4026
+      },
+      "candidate": {
+        "name": "shared case CSS",
+        "file": "assets/CaseStudy-DsM9Y4dG.css",
+        "bytes": 21769,
+        "gzip9": 4026,
+        "sha256": "c607f548e5f455542e9c419ad939dbf7ef53fd33461be6849c76d130f26dbcce"
+      },
+      "deltaFrom012": 0,
+      "percentFrom012": 0,
+      "deltaFromV1": 0
+    }
+  ]
+}

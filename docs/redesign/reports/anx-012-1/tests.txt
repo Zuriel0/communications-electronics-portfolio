@@ -1,0 +1,44 @@
+✔ credential dates distinguish an unspecified expiry from a current or expired date (9.512584ms)
+✔ autoplay waits for a useful viewport intersection and cancels work on exit (0.9135ms)
+✔ hidden tab pauses CSS and timer; repeated visibility notifications do not duplicate intervals (0.664375ms)
+✔ paused prevents autoplay, including after hidden/visible (0.118ms)
+✔ reducedMotion prevents autoplay, including after hidden/visible (0.07575ms)
+✔ switching to static mode cancels an active interval; manual intent remains authoritative (0.105375ms)
+✔ fallback without IntersectionObserver is event driven and removes its listeners (0.162625ms)
+✔ Web destination is exclusive; monitoring branches remain independent (0.535958ms)
+✔ methodology advances through five directed transfers without skipping the six steps (0.067417ms)
+✔ edge presentation never creates a transfer or changes model connections and labels (0.200875ms)
+✔ dark: normal text, accents, focus and boundaries meet contrast budgets (1.389084ms)
+✔ light: normal text, accents, focus and boundaries meet contrast budgets (0.182208ms)
+✔ reduced motion never starts playback, including when the tab becomes visible (0.334583ms)
+✔ hidden tabs pause playback; resume does not duplicate timers; cleanup stops it (0.185208ms)
+✔ reduced motion: no fallback animation work is scheduled (0.449959ms)
+✔ native timeline: no fallback animation work is scheduled (0.056084ms)
+✔ fallback clamps progress, batches scroll work and cleans up pending work (0.236792ms)
+✔ switching to reduced motion removes a running fallback without leaving transforms behind (0.070375ms)
+✔ language preference is deferred, persisted, validated and retained across subscribers/routes (0.493875ms)
+✔ blocked storage and invalid saved languages retain an operable in-memory fallback (0.076917ms)
+✔ EN/ES keys and substitution slots match in both independently loaded catalogs (0.816292ms)
+✔ application copy, content arrays and all diagram labels have translations or explicit invariant names (96.865792ms)
+✔ six graph models retain all 46 nodes and 37 edges byte-for-byte after AST normalization (19.620042ms)
+✔ animation controllers, original skill inventory, experience dates and 18 Credly records are preserved (1.991041ms)
+✔ date-only credential display follows the interface language without shifting the day (8.509334ms)
+✔ actual React pages render in both languages with one retained store across all routes (371.748584ms)
+✔ compact catalogs derive source values, retain corrections and reject ambiguous duplicate sources (0.307292ms)
+✔ static/reduced/paused composition schedules no frames or input subscriptions (0.747417ms)
+✔ pointer depth is bounded, interpolated and stops requesting frames after settling (1.204916ms)
+✔ touch/coarse pointers do not drive perspective; scroll stays batched and clamped (0.225375ms)
+✔ hidden tab and offscreen scene pause CSS, cancel work and resume without duplicate frames (0.154084ms)
+✔ the three public routes have distinct titles and descriptions in their content language (0.479417ms)
+✔ unknown paths are not indexed as portfolio pages (0.126584ms)
+✔ static route directories preserve the project navigation when a host adds a trailing slash (0.43575ms)
+✔ static project HTML has one correct title, language and description before React runs (0.51225ms)
+✔ Preview serves the static project head on the original public URLs without requiring a slash (0.223959ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 664.348542

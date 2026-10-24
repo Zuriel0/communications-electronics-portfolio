@@ -1,0 +1,505 @@
+The Art of Engineering
+
+ANXZU
+
+Andres Zuriel Macias Rios
+
+Communications and Electronics Engineer
+
+Designing technology, solving engineering problems, and building innovative systems.
+
+View Projects
+Contact
+Pause motion
+About Me
+Andres Zuriel Macias Rios
+Communications & Electronics Engineer
+
+I design, implement, integrate and validate technical solutions across networking, telecommunications, Linux infrastructure and software. My professional experience connects requirements gathering and technical presales with solution design, configuration, troubleshooting and documentation.
+
+My project work brings these disciplines together: Nodalume combines a captive-portal backend, databases, RADIUS and a React console in a laboratory environment; ANXZU and my AI-assisted customization methodology extend that practice into interface development, automation and human-reviewed delivery. Hands-on AWS networking labs support my preparation for AWS Certified Solutions Architect – Associate.
+
+Networking & Telecommunications
+Professional Experience
+AWS & Cloud Architecture
+Hands-On Labs
+Backend Engineering & Databases
+Personal Projects
+Infrastructure, Linux & Virtualization
+Professional Experience and Hands-On Labs
+Software Development & AI-Assisted Engineering
+Professional Experience and Personal Projects
+Solutions Architecture & Technical Presales
+Professional Experience
+
+Networking
+
+Infrastructure
+
+Software
+
+A conceptual connection between systems.
+Featured Projects
+
+Here are some of my projects:
+
+Ubuntu
+SSH
+
+Web ×6
+
+RADIUS ×1
+
+Active server
+Centralized output
+Parallel monitoring. One consolidated view.
+Concurrent log monitor via SSH
+
+A command-line tool for monitoring remote logs in real time from Ubuntu, connecting concurrently via SSH to 6 web servers and 1 active RADIUS server. The system searches for a specific MAC address, identifies the source server, and applies differentiated execution rules for each group.
+
+Bash
+React Flow
+Concurrent programming
+Ubuntu
+Servers
+Git
+View Project
+Analysis
+Constraints
+Technical context
+AI generation
+Manual validation
+Integration
+From technical context to a validated solution.
+AI-assisted customization methodology
+
+A reusable methodology for customizing restricted digital platforms without modifying the original source code. It combines external code injection, technical context documentation, and AI-assisted generation to reduce implementation time from 8–14 hours to 1–2 hours per project.
+
+AI
+Code injection
+Workflow optimization
+Technical strategy
+Documentation
+View Project
+Professional capabilities
+
+Design, implement, integrate and validate. Each area identifies the context behind the work.
+
+Networking & Telecommunications
+
+Designing, integrating and troubleshooting enterprise connectivity, access and authentication.
+
+Professional Experience
+Enterprise LAN/WAN
+Routing and Switching
+VLAN and Network Segmentation
+BGP and Routing Fundamentals
+Enterprise Wi-Fi
+RADIUS / AAA
+Captive Portals
+Network Troubleshooting
+Network Security
+Fortinet
+Cisco
+Aruba
+Ruckus
+Huawei
+
+Fortinet: captive-portal implementation. Cisco: basic captive portals, VLANs, static and dynamic routing. Aruba, Ruckus and Huawei: Wi-Fi administration.
+
+Verified Credentials
+Extreme Networks
+
+Public issuer records document networking and solution-design training.
+
+Personal Projects
+MikroTik
+
+Nodalume integrates MikroTik in a self-hosted captive-portal laboratory.
+
+Explore the SSH monitoring case
+AWS & Cloud Architecture
+
+Hands-on network and access-control labs in us-east-1: a 10.20.0.0/16 VPC, public/private subnets, EC2, IAM, S3 and an S3 Gateway Endpoint.
+
+Hands-On Labs
+Amazon VPC
+Public and Private Subnets
+Amazon EC2
+IAM Roles and Policies
+Amazon S3
+Internet Gateway
+NAT Gateway
+VPC Gateway Endpoints for S3
+Route Tables
+Security Groups
+Network ACLs
+Private Cloud Networking
+Basic Cloud Security and Least Privilege
+
+Laboratory practice; no AWS production deployment is claimed.
+
+View certification preparation
+Backend Engineering & Databases
+
+Nodalume is a self-hosted captive-portal software project with a React console, backend services and RADIUS integration.
+
+Personal Projects
+Node.js
+Express
+REST APIs
+PostgreSQL
+SQL
+Session Management
+Multi-Tenant Application Design
+Backend Service Integration
+Hands-On Labs
+FreeRADIUS
+RADIUS Authentication and Accounting
+Docker Compose
+Linux Services
+
+Nodalume lab work has validated authentication, authorization, session policies and RADIUS accounting. No commercial production or customer adoption is claimed.
+
+Infrastructure, Linux & Virtualization
+
+Deploying Linux and network services, configuring virtual networks and diagnosing connectivity in Debian-based test environments.
+
+Professional Experience
+Debian Linux
+Linux Administration
+Networking Services Deployment
+Hands-On Labs
+Docker
+Docker Compose
+VMware Workstation
+Microsoft Hyper-V
+UTM Virtualization
+Virtual Network Configuration
+Virtual Appliances
+Troubleshooting of VM Connectivity
+
+Debian virtual machines, test controllers and network services. Scope is not extended to ESXi, vSphere or Kubernetes.
+
+Software Development & AI-Assisted Engineering
+
+From interface prototypes to integrated services: implementation, documentation, review and testing across ANXZU, Nodalume and the customization methodology.
+
+Professional Experience
+React
+Automation
+Technical Documentation
+Personal Projects
+JavaScript
+Node.js
+Git / GitHub
+Frontend Development
+Backend Development
+AI-Assisted Coding
+Prompt Engineering for Technical Workflows
+Agent-Assisted Development
+Code Review and Validation
+UI/UX Prototyping
+Software Testing
+
+AI assists engineering workflows; human review and validation remain explicit responsibilities.
+
+Explore the customization methodology
+Solutions Architecture & Technical Presales
+
+Connecting requirements, technical feasibility and implementation scope in telecommunications and B2B solution design.
+
+Professional Experience
+Requirements Gathering
+RFP Analysis
+Technical Compliance Matrices
+Solution Sizing
+Network Architecture
+Technical Proposals
+SOW
+Site Surveys
+Vendor Evaluation
+Technical Demonstrations
+Network Diagrams
+B2B Solution Design
+Additional technologies & previous capabilities
+
+The original capability inventory remains available with its existing context.
+
+Communications
+LAN-to-LAN
+VLAN
+BGP
+OSPF
+Networking
+Captive Portals
+Structured Cabling
+Web Development
+React
+JavaScript
+PHP
+BASH
+Infrastructure
+Debian Linux
+NAS
+Apache
+Databases
+MariaDB
+SQL Queries
+PHP Integration
+Cybersecurity
+Perimeter Security
+Troubleshooting
+Technical Support
+Platforms & Tools
+WordPress
+Shopify
+Salesforce
+Technical Pre-Sales
+SOW
+Site Surveys
+RFP Support
+View credentials
+View experience
+Professional experience
+
+2025
+- Present
+
+DataWifi
+
+Presales Engineer Sr.
+
+I support commercial processes by validating technical requirements for captive portal implementations. I participate in preliminary solution design, multi-brand controller configuration, demo support, and the management of strategic accounts as part of the company’s expansion in Mexico.
+
+2023
+- 2025
+
+Servnet
+
+Presales Engineer
+
+I led the creation of the pre-sales area, standardizing services, architectures, and technical documentation. I contributed to the sizing of special projects, profitability analysis, requirements gathering, and the development of proposals for connectivity, IP telephony, cybersecurity, and enterprise networking solutions.
+
+2022
+- 2023
+
+End To End
+
+Engineer
+
+I developed internal projects focused on process automation using React, while also providing technical support, functional analysis, and commercial support through technical proposals and quotations.
+
+2022
+- 2022
+
+M.T. de México
+
+External Consultant in Storage Infrastructure and Data Management
+
+I developed a NAS storage solution based on Debian, integrating SAMBA, Apache, MariaDB, and PHP. I also implemented network segmentation with VLANs, dynamic routing, and a management panel for handling users, privileges, and RAID configurations.
+
+Credentials & continuous learning
+
+Engineering practice grows through deliberate learning. These issuer records document certifications and completed courses, each with its own scope and verification link.
+
+View public Credly profile
+
+Records checked Oct 23, 2026.
+
+Verified Credentials
+
+Extreme Networks
+
+Extreme Fabric - Installation and Configuration
+Issued
+Oct 16, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Professional in Solutions Design 2026
+Issued
+Sep 9, 2026
+Expiry
+Sep 9, 2029
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Professional in Solutions Selling 2026
+Issued
+Sep 2, 2026
+Expiry
+Sep 2, 2029
+Verify credential
+Explore 13 more verified credentials
+
+Extreme Networks
+
+Extreme Platform ONE Introduction – Solutions Selling
+Issued
+Sep 11, 2026
+Expiry
+Sep 11, 2029
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeCloud SD-WAN
+Issued
+Sep 1, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in Network Security Basics
+Issued
+Sep 1, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in Solutions Selling 2026
+Issued
+Sep 1, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeCloud IQ - Site Engine
+Issued
+Aug 28, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeControl
+Issued
+Aug 28, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in Extreme Switching
+Issued
+Aug 28, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in Extreme Fabric Connect
+Issued
+Aug 25, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Certified Associate in ExtremeCloud IQ
+Issued
+Aug 24, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Networks Associate - Building Scalable and Mission Critical Networks
+Issued
+Aug 21, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Networks Associate - Advance Your Career
+Issued
+Aug 18, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Networks Associate - Building Secure and Robust Wireless Networks
+Issued
+Aug 17, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Extreme Networks
+
+Extreme Networks Associate - Introduction to Future Networking
+Issued
+Aug 13, 2026
+Expiry
+Not listed by issuer
+Verify credential
+Completed Courses
+
+Issued learning badges, presented separately from professional certifications.
+
+Extreme Networks
+
+Extreme Platform ONE Introduction – Solutions Design
+Issued
+Sep 14, 2026
+Expiry
+Not listed by issuer
+Verify credential
+
+Cisco
+
+Python Essentials 1
+Issued
+Apr 26, 2023
+Expiry
+Not listed by issuer
+Verify credential
+Currently Preparing
+
+Certification in Preparation / In preparation
+
+AWS Certified Solutions Architect – Associate
+
+Amazon Web Services · SAA-C03
+
+Hands-on AWS networking labs support this preparation. This certification has not been earned.
+
+View certification details
+Let's connect.
+
+Have a project in mind or want to collaborate?
+
+andres.macias@anxzu.com
+
+Opens your email app.
+
+GitHub
+LinkedIn
+
+Mexico
+
+ANXZU
+
+The Art of Engineering
+
+Back to top

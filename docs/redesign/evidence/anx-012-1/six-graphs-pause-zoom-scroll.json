@@ -1,0 +1,146 @@
+[
+  {
+    "id": "diagram-loadbalance",
+    "autoplay": "true",
+    "before": {
+      "edges": [
+        "client-lb",
+        "lb-ws2"
+      ],
+      "hash": "#diagram-loadbalance",
+      "playing": "false",
+      "top": -93.859375,
+      "transform": "translate(54.3402px, -45px) scale(0.810997)"
+    },
+    "after": {
+      "edges": [
+        "client-lb",
+        "lb-ws2"
+      ],
+      "hash": "#diagram-loadbalance",
+      "playing": "false",
+      "top": -93.859375,
+      "transform": "translate(54.3402px, -45px) scale(0.810997)"
+    },
+    "paused": "true"
+  },
+  {
+    "id": "diagram-business",
+    "autoplay": "true",
+    "before": {
+      "edges": [
+        "e1",
+        "m1",
+        "m2"
+      ],
+      "hash": "#diagram-business",
+      "playing": "false",
+      "top": 6.046875,
+      "transform": "translate(148.631px, -284.4px) scale(0.588095)"
+    },
+    "after": {
+      "edges": [
+        "e1",
+        "m1",
+        "m2"
+      ],
+      "hash": "#diagram-business",
+      "playing": "false",
+      "top": 6.046875,
+      "transform": "translate(148.631px, -284.4px) scale(0.588095)"
+    },
+    "paused": "true"
+  },
+  {
+    "id": "diagram-logic",
+    "autoplay": "true",
+    "before": {
+      "edges": [
+        "mac-ssh"
+      ],
+      "hash": "#diagram-logic",
+      "playing": "false",
+      "top": -23.6875,
+      "transform": "translate(-111.505px, 13.4892px) scale(0.722637)"
+    },
+    "after": {
+      "edges": [
+        "mac-ssh"
+      ],
+      "hash": "#diagram-logic",
+      "playing": "false",
+      "top": -23.6875,
+      "transform": "translate(-111.505px, 13.4892px) scale(0.722637)"
+    },
+    "paused": "true"
+  },
+  {
+    "id": "diagram-highlevel",
+    "autoplay": "true",
+    "before": {
+      "edges": [
+        "user-terminal"
+      ],
+      "hash": "#diagram-highlevel",
+      "playing": "false",
+      "top": -153.71875,
+      "transform": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+    },
+    "after": {
+      "edges": [
+        "user-terminal"
+      ],
+      "hash": "#diagram-highlevel",
+      "playing": "false",
+      "top": -153.71875,
+      "transform": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+    },
+    "paused": "true"
+  },
+  {
+    "id": "diagram-methodology-problem",
+    "autoplay": "true",
+    "before": {
+      "edges": [
+        "a-b"
+      ],
+      "hash": "#diagram-methodology-problem",
+      "playing": "false",
+      "top": -433.625,
+      "transform": "translate(193.098px, -55.049px) scale(0.688112)"
+    },
+    "after": {
+      "edges": [
+        "a-b"
+      ],
+      "hash": "#diagram-methodology-problem",
+      "playing": "false",
+      "top": -433.625,
+      "transform": "translate(193.098px, -55.049px) scale(0.688112)"
+    },
+    "paused": "true"
+  },
+  {
+    "id": "diagram-methodology-solution",
+    "autoplay": "true",
+    "before": {
+      "edges": [
+        "a-b"
+      ],
+      "hash": "#diagram-methodology-solution",
+      "playing": "false",
+      "top": -513.90625,
+      "transform": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+    },
+    "after": {
+      "edges": [
+        "a-b"
+      ],
+      "hash": "#diagram-methodology-solution",
+      "playing": "false",
+      "top": -513.90625,
+      "transform": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+    },
+    "paused": "true"
+  }
+]

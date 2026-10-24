@@ -1,0 +1,154 @@
+Back to projects
+AI-assisted customization methodology.
+
+Customize the experience while preserving the base. A six-stage method for working with platforms whose original source code cannot be modified.
+
+I designed the methodology around native-interface analysis, reusable technical context and human validation. This case study presents the process and outcomes from my project account.
+
+Core constraint
+Original source code remains unchanged
+Approach
+External customization, guided by technical context
+AI’s role
+Assists generation; human review precedes integration
+Project status
+Completed
+Challenge
+Process
+Decisions
+Reported outcome
+A fixed foundation. A different experience.
+
+The original platform’s source code could not be changed directly. Customization had to work through an external intervention while respecting the existing hierarchy, dependencies and behavior of the native interface.
+
+The repeated work
+
+Each new customization involved manual analysis, adaptation and repeated checks. The existing account describes a process that depended heavily on technical memory and made knowledge difficult to reuse.
+
+The restriction shapes the method.
+
+The first diagram shows why understanding the existing page comes before proposing a change. It carries the same six-stage sequence as the solution: a constrained starting point leads to analysis, contextual generation, manual review and an integration-ready customization.
+
+Illustrative flow
+Pause connections
+Non-invasive customization flow
+From initial analysis to a customization ready for integration.
+Step 1
+Native-page analysis
+The original page is reviewed to understand its structure and behavior.
+Step 2
+Identifying patterns and constraints
+Visual and technical rules and integration constraints are identified.
+Step 3
+Building technical context
+The information needed to guide the solution is organized.
+Step 4
+AI-assisted generation
+An initial implementation is proposed with AI assistance.
+Step 5
+Manual adjustment and validation
+Details are refined and the final result is validated.
+Result
+Non-invasive customization ready for integration
+The solution is ready for integration while preserving the base page.
+React Flow
+
+This is the constraint-led view of the method, not a separate algorithm. The endpoint is a customization ready to integrate; the illustration does not establish a production deployment.
+
+Six stages. One deliberate sequence.
+
+The method turns repeated analysis into explicit technical context. AI contributes an initial proposal within that context. Human refinement and validation remain between generation and integration.
+
+Analysis
+
+Study the native page to understand its structure, behavior and possible intervention points.
+
+Constraints
+
+Identify visual and technical patterns, dependencies and integration limits that the customization must respect.
+
+Technical Context
+
+Organize those patterns and restrictions into documented context that can guide a solution and support reuse.
+
+AI-Assisted Generation
+
+Use that context to generate an initial implementation proposal with AI assistance. The proposal remains subject to human review.
+
+Manual Validation
+
+Refine the proposal and manually validate the result against the native page and its constraints.
+
+Integration
+
+Prepare the reviewed customization for incorporation while preserving the original base and behavior.
+
+Illustrative flow
+Pause connections
+Non-invasive customization flow
+From initial analysis to a solution ready for integration.
+Step 1
+Native-page analysis
+The base page is studied to understand its structure, behavior and intervention points.
+Step 2
+Identifying patterns and constraints
+Visual and technical rules and integration constraints are identified.
+Step 3
+Building technical context
+The information needed to guide the solution is organized.
+Step 4
+AI-assisted generation
+An initial proposal is generated with AI assistance.
+Step 5
+Manual adjustment and validation
+Details are refined and the final solution is validated.
+Result
+Non-invasive customization ready for integration
+The solution is ready for integration while preserving the original page.
+React Flow
+
+The solution view refines the same sequence from native-page analysis to a reviewed, integration-ready change. Generation is one stage; it does not replace constraint analysis or manual validation.
+
+The context is part of the engineering.
+Understand before generating
+The native page and its restrictions establish the boundaries of the change. Documenting that context gives the AI-assisted proposal a specific system to work within.
+Reuse knowledge, not just output
+The account describes reusable patterns and technical documentation as a response to repeated analysis. The method makes that knowledge available beyond a single customization.
+Keep review in the sequence
+The generated proposal is refined and validated manually before integration. AI assists implementation; responsibility for reviewing the change remains human.
+An external layer, with a defined boundary.
+
+The documented approach combines external code intervention, native-interface analysis, contextual documentation and assisted generation. It preserves the original source rather than replacing the platform’s base implementation.
+
+Manual adjustment and validation are part of the method. The diagrams describe this workflow; they are not records of an executed validation suite.
+
+Contribution and scope
+
+My contribution described here is the methodology design. The case focuses on the engineering process without assigning it to a particular client, platform, programming language or AI provider.
+
+A reported change in the work required.
+
+The existing project account reports less time per customization after adopting the methodology. The comparison is self-reported and is not a controlled benchmark.
+
+Previous process
+8–14 hours / project
+With the methodology
+1–2 hours / project
+Read the figures in context
+
+These ranges describe the owner-reported experience. They do not establish a verified percentage saving, comparable task complexity or a guaranteed result for another project.
+
+The documented process outcome is a repeatable path from native-interface analysis to a manually reviewed customization ready for integration.
+
+Generation is one part of the process.
+Skills demonstrated in the project
+
+Constraint analysis, native-interface analysis, technical documentation, AI-assisted generation, human review and integration planning.
+
+Design takeaway
+
+The six stages keep understanding the system and reviewing the change visible as engineering work. A generated proposal is an input to that process, rather than its conclusion.
+
+Back to projects
+Explore the concurrent log monitor
+↗

@@ -1,0 +1,272 @@
+Volver a proyectos
+Monitor concurrente de logs vía SSH.
+
+Una dirección MAC. Varios destinos posibles. Una herramienta de línea de comandos que reúne las búsquedas de logs remotos en una sola vista operativa.
+
+Desarrollé la herramienta de monitoreo para buscar en logs web y de autenticación desde Ubuntu. Este caso describe el diseño y el flujo de trabajo según el relato de mi proyecto.
+
+Entorno
+Ubuntu, Bash y SSH
+Alcance del monitoreo
+Seis servidores web; un servidor RADIUS activo
+Selección RADIUS
+Dos servidores disponibles, uno seleccionado por ejecución
+Estado del proyecto
+Completado
+Desafío
+Arquitectura
+Flujo de trabajo
+Decisiones
+Resultado
+Encontrar una petición sin conocer su destino.
+
+Un balanceador decide qué servidor web atiende cada petición entrante. Al investigar una dirección MAC, el operador no sabe de antemano qué servidor contiene el evento relevante. Revisar cada máquina por separado dispersa la investigación entre varias fuentes de logs.
+
+El desafío de ingeniería
+
+Observar todos los posibles destinos web conservando la visibilidad de autenticación. Una coincidencia web debe identificar el origen sin terminar la supervisión RADIUS.
+
+Recorrido ilustrativo
+Pausar simulación
+Trazabilidad en arquitectura horizontal
+Varios servidores web cumplen la misma función. El balanceador decide a cuál enviar la petición, lo que dificulta saber dónde buscar una MAC específica.
+Origen
+Cliente
+Solicitud entrante con una MAC específica.
+MAC: AA:BB:CC:11:22:33
+Decisión
+Balanceador de carga
+Selecciona dinámicamente el servidor que atenderá la petición.
+Ruteo dinámico
+Destino
+Servidor web 1
+Misma función que los demás servidores.
+Misma función
+Destino
+Servidor web 2
+Misma función que los demás servidores.
+Procesando solicitud
+Destino
+Servidor web 3
+Misma función que los demás servidores.
+Misma función
+Problema operativo
+¿En cuál servidor quedó esa MAC?
+Como el balanceador decide el destino en tiempo real, no puedes saber de antemano dónde fue procesada la solicitud. Necesitas correlación centralizada o revisar logs de varios servidores.
+React Flow
+
+El diagrama representa la incertidumbre del destino: una petición llega a un servidor web seleccionado. Los tres destinos dibujados son representativos; el alcance real es de seis servidores web. La animación ilustra el ruteo, no tráfico en vivo.
+
+La secuencia del negocio y el orden del monitoreo son distintos.
+
+El flujo de negocio documentado avanza de una operación web exitosa a la autenticación RADIUS. La observación abarca ambos dominios de forma concurrente mediante grupos independientes. Iniciar ambos observadores no convierte la transacción de negocio en paralela.
+
+Recorrido ilustrativo
+Pausar conexiones
+Flujo secuencial + monitoreo paralelo
+El negocio avanza primero por la capa web y después hacia RADIUS. La solución observa ambos dominios al mismo tiempo, manteniendo independencia entre el grupo web y el grupo RADIUS.
+1. interacción web
+2. si web termina bien → RADIUS
+3. autenticación confirmada
+Dominio 1
+Capa Web
+Aquí inicia la interacción del usuario y se valida que la navegación/servicio concluyan correctamente.
+Dominio 2
+Capa RADIUS
+Posteriormente se genera la solicitud hacia RADIUS y se confirma la autenticación.
+Inicio
+Petición web del usuario
+El usuario inicia la interacción por medio de la navegación o del servicio web.
+Paso 1
+Validación web
+Navegación / servicio web correcto
+Solo si la operación web concluye correctamente, el flujo continúa hacia autenticación.
+Paso 2
+Autenticación
+Solicitud a RADIUS
+Después del éxito en la capa web, se dispara la solicitud de autenticación a RADIUS.
+Paso 3
+Confirmación
+Autenticación confirmada
+RADIUS confirma la autenticación y se cierra el flujo operativo de negocio.
+Paso 4
+Monitoreo
+Grupo de monitoreo Web
+Observa el dominio web sin depender del grupo RADIUS.
+Monitoreo
+Grupo de monitoreo RADIUS
+Observa autenticación en paralelo, con independencia del grupo web.
+Lectura del diagrama
+Secuencial en negocio, paralelo en observabilidad
+El negocio avanza paso a paso desde la web hasta RADIUS. La observabilidad, en cambio, sigue ambos dominios al mismo tiempo mediante dos grupos independientes.
+React Flow
+
+El recorrido de negocio, dibujado con línea continua, es condicional: la autenticación sigue al procesamiento web exitoso. Las ramas de observación independientes explican por qué el monitoreo RADIUS puede seguir activo mientras cambia el monitoreo web.
+
+Orquestación local. Observación distribuida.
+
+La herramienta se ejecuta en una terminal Ubuntu. Bash coordina el flujo documentado, SSH proporciona el acceso remoto y la configuración externa define destinos, parámetros de conexión y política web opcional. Las coincidencias regresan a una consola central con su identidad de origen.
+
+Entrada: validar y normalizar la dirección MAC antes de preparar la búsqueda.
+Cobertura: monitorear seis servidores web de forma concurrente y un RADIUS configurado entre dos destinos disponibles.
+Independencia: mantener separados los grupos de observación web y RADIUS.
+Salida: conservar el servidor de origen, el tipo de fuente y la línea coincidente en una consola.
+El límite entre la herramienta y su entorno.
+
+El lado local contiene al operador, la configuración, el orquestador y la consola. El lado remoto contiene las conexiones SSH y las fuentes de logs observadas. La infraestructura monitoreada es el contexto operativo del proyecto.
+
+Recorrido ilustrativo
+Pausar conexiones
+Arquitectura de alto nivel de la solución
+El operador ejecuta la herramienta en Ubuntu, el orquestador interpreta la configuración, abre conexiones SSH hacia Web y RADIUS, observa logs remotos y concentra el resultado en una consola local.
+lee logs web
+lee logs radius
+coincidencias web
+coincidencias radius
+centraliza salida
+ejecución local
+lanza herramienta
+lee configuración
+abre sesiones remotas
+monitorea web
+monitorea radius
+Zona 1
+Entorno local
+Aquí vive la herramienta, la configuración y la salida visible para el operador.
+Zona 2
+Infraestructura remota
+Conexiones SSH, grupos monitoreados y fuentes de log remotas.
+Inicio
+Usuario / Operador
+Ejecuta la herramienta e ingresa la MAC.
+Entorno
+Terminal Ubuntu
+Entorno local donde corre la solución.
+Entrada auxiliar
+Configuración externa
+Define servidores web, servidores RADIUS, servidor RADIUS activo, políticas de ejecución y parámetros de conexión.
+Componente central
+Orquestador principal
+Coordina toda la ejecución: recibe entradas, interpreta configuración, abre conexiones remotas, consolida coincidencias y envía el resultado a la consola.
+Punto focal del flujo
+Salida
+Consola de salida
+Muestra coincidencias, servidor origen y la MAC resaltada.
+Transporte
+Conexiones SSH
+Canal de comunicación entre el sistema local y los servidores remotos.
+Grupo remoto
+Grupo Web
+6 servidores web monitoreados en paralelo.
+6 nodos
+Grupo remoto
+Grupo RADIUS
+2 servidores disponibles, pero solo 1 activo por ejecución.
+2 nodos / 1 activo
+Logs remotos
+/var/log/nginx/access.log
+Fuente de búsqueda para coincidencias del dominio web.
+Logs remotos
+/var/log/freeradius/radius.log
+Fuente de búsqueda para coincidencias del dominio RADIUS.
+React Flow
+
+Sigue al orquestador local hacia los dos grupos de observación remota y de vuelta a la consola. Las rutas de logs son etiquetas de la arquitectura documentada; por sí solas no prueban un producto desplegado, una versión ni una responsabilidad de administración.
+
+De una dirección MAC a una coincidencia rastreable.
+Preparar la búsqueda
+
+Recibir, validar y normalizar la MAC. Cargar el inventario de servidores, el RADIUS activo, los parámetros de conexión y la política web.
+
+Observar las fuentes remotas
+
+Preparar los patrones de búsqueda e iniciar el monitoreo concurrente de logs por SSH en el grupo web y el RADIUS seleccionado.
+
+Conservar el origen
+
+Reunir las líneas coincidentes en la consola con la identidad del servidor y el tipo de fuente para conservar su origen.
+
+Aplicar la política web opcional
+
+Cuando se habilita esta política, continuar la búsqueda en el servidor web que encontró la coincidencia y detener las demás búsquedas web. El monitoreo RADIUS continúa de forma independiente.
+
+Una política para las búsquedas
+
+Acotar el grupo web afecta a las sesiones de monitoreo, no apaga servidores web. Tampoco modifica el servicio de autenticación ni implica conmutación automática de RADIUS.
+
+La entrada y la configuración preceden a la observación. La concurrencia describe el monitoreo remoto, no todas las operaciones de la herramienta.
+
+Recorrido ilustrativo
+Pausar conexiones
+Flujo de trazabilidad por MAC
+Desde SSH se dispara el monitoreo en paralelo sobre Web x6 y RADIUS x1; ambos alimentan la detección de coincidencias y la salida se centraliza al final.
+monitoreo web
+monitoreo RADIUS
+coincidencias centralizadas
+Entrada
+MAC ingresada
+Valida y normaliza la MAC recibida por consola.
+Paso 1
+Conectividad
+SSH
+Abre sesiones remotas directas o mediante alias SSH.
+Paso 2
+Monitoreo paralelo
+Web x6
+Monitorea concurrentemente los 6 nodos web para ubicar dónde atendió la petición.
+Paso 3
+Monitoreo paralelo
+RADIUS x1
+Observa el servidor RADIUS activo, con soporte principal y respaldo.
+Paso 4
+Correlación
+Detección de coincidencias
+Busca en tiempo real líneas relacionadas con la MAC en ambos dominios.
+Paso 5
+Salida
+Consola centralizada
+Muestra origen lógico, tipo de servidor y línea detectada, resaltando la MAC.
+Paso 6
+Regla opcional
+Política sobre el grupo Web
+Puede conservar la búsqueda del servidor web que encontró la coincidencia y detener las demás búsquedas web, sin afectar RADIUS.
+React Flow
+
+Las dos ramas SSH representan observación independiente. Sus coincidencias convergen en una salida compartida. La política web opcional es una regla de referencia, no una transferencia adicional; la animación ilustrativa no es un registro de ejecución.
+
+Decisiones que preservan la visibilidad.
+Buscar en los posibles destinos
+La observación web concurrente resuelve la incertidumbre del balanceo. El operador no necesita elegir el servidor correcto antes de iniciar la búsqueda.
+Mantener independientes los dominios de observación
+Una coincidencia permite acotar el monitoreo web sin perder la visibilidad de autenticación. La política opcional tiene un límite definido: las demás búsquedas web, sin afectar RADIUS.
+Hacer configurable el destino activo
+El diseño documentado selecciona un servidor RADIUS en cada ejecución. Dos destinos disponibles permiten una elección configurable; esto no implica conmutación automática.
+Centralizar sin perder el origen
+Una sola consola reúne las coincidencias conservando el servidor y el tipo de fuente. La consolidación permite rastrear cada evento hasta su origen.
+Alcance de implementación.
+
+El relato describe una herramienta Bash en Ubuntu, con observación remota de logs por SSH y selección de servidores y políticas mediante configuración externa. Mi contribución descrita aquí es la herramienta de monitoreo.
+
+Los diagramas explican ese diseño. Son recursos de presentación, no scripts ejecutables ni registros de una prueba.
+
+Tecnología en contexto
+
+Bash aporta la automatización; Ubuntu es el entorno de ejecución local; SSH conecta la herramienta con las fuentes remotas. RADIUS identifica el dominio de autenticación. React Flow se utiliza para los diagramas de este caso de estudio, no para el monitor de línea de comandos.
+
+Una vista operativa que conserva el origen.
+
+El resultado reportado es un flujo de búsqueda centralizada en lugar de revisiones manuales por servidor: las coincidencias de MAC, sus servidores de origen y el contexto web/RADIUS pueden revisarse juntos.
+
+Es un resultado cualitativo del relato de mi proyecto, no una prueba cronometrada de diagnóstico ni una medición de confiabilidad.
+
+Capacidades demostradas en el proyecto
+
+Automatización en shell, observación remota por SSH, diagnóstico por MAC, diseño de políticas de monitoreo y comunicación de arquitectura técnica.
+
+Lección de diseño
+
+La secuencia del negocio, la observación concurrente y la supervisión independiente describen responsabilidades distintas. Hacer explícitos esos límites es fundamental para interpretar esta arquitectura.
+
+Volver a proyectos
+Explorar la metodología de personalización
+↗

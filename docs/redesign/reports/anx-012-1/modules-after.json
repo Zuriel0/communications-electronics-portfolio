@@ -1,0 +1,1121 @@
+[
+  {
+    "file": "assets/index-XDcRipZe.js",
+    "entry": true,
+    "bytes": 321396,
+    "gzip9": 101488,
+    "imports": [],
+    "dynamicImports": [
+      "assets/Concurrencia-XfPudlBa.js",
+      "assets/Metodologia-CPYzX9s-.js"
+    ],
+    "modules": [
+      {
+        "id": "node_modules/react-dom/cjs/react-dom-client.production.js",
+        "bytes": 552879
+      },
+      {
+        "id": "node_modules/react-router/dist/development/chunk-OB3PAWPO.mjs",
+        "bytes": 84470
+      },
+      {
+        "id": "src/i18n/locales/common.js",
+        "bytes": 23324
+      },
+      {
+        "id": "node_modules/react/cjs/react.production.js",
+        "bytes": 18321
+      },
+      {
+        "id": "node_modules/scheduler/cjs/scheduler.production.js",
+        "bytes": 11182
+      },
+      {
+        "id": "src/data/credentials.js",
+        "bytes": 9964
+      },
+      {
+        "id": "node_modules/react-dom/cjs/react-dom.production.js",
+        "bytes": 7216
+      },
+      {
+        "id": "src/components/sections/Credentials.jsx",
+        "bytes": 7080
+      },
+      {
+        "id": "src/data/capabilities.js",
+        "bytes": 4638
+      },
+      {
+        "id": "src/components/ui/ProjectVisual.jsx",
+        "bytes": 4624
+      },
+      {
+        "id": "src/components/sections/hero.jsx",
+        "bytes": 4481
+      },
+      {
+        "id": "src/components/sections/skills.jsx",
+        "bytes": 4135
+      },
+      {
+        "id": "node_modules/react-icons/fa/index.mjs",
+        "bytes": 3874
+      },
+      {
+        "id": "node_modules/react-icons/lib/iconBase.mjs",
+        "bytes": 3594
+      },
+      {
+        "id": "src/components/sections/ImmersiveHero.jsx",
+        "bytes": 3590
+      },
+      {
+        "id": "src/components/layout/Navigation.jsx",
+        "bytes": 3589
+      },
+      {
+        "id": "src/components/sections/immersiveHeroMotion.js",
+        "bytes": 3588
+      },
+      {
+        "id": "src/components/ui/CredentialEntry.jsx",
+        "bytes": 3558
+      },
+      {
+        "id": "src/components/sections/contac.jsx",
+        "bytes": 3383
+      },
+      {
+        "id": "node_modules/react-icons/fi/index.mjs",
+        "bytes": 3350
+      },
+      {
+        "id": "src/components/ui/ConnectionSculpture.jsx",
+        "bytes": 3078
+      },
+      {
+        "id": "src/components/ui/ConnectionDiagram.jsx",
+        "bytes": 2756
+      },
+      {
+        "id": "src/components/sections/about.jsx",
+        "bytes": 2735
+      },
+      {
+        "id": "src/components/utils/PageMetadata.jsx",
+        "bytes": 2550
+      },
+      {
+        "id": "src/components/layout/ProjectRoute.jsx",
+        "bytes": 2549
+      },
+      {
+        "id": "\u0000vite/preload-helper.js",
+        "bytes": 1877
+      },
+      {
+        "id": "src/data/timelineData.js",
+        "bytes": 1749
+      },
+      {
+        "id": "src/components/utils/ScrollToTop.jsx",
+        "bytes": 1694
+      },
+      {
+        "id": "src/components/ui/projects_card.jsx",
+        "bytes": 1599
+      },
+      {
+        "id": "src/data/professionalProfile.js",
+        "bytes": 1397
+      },
+      {
+        "id": "src/components/ui/TimelineCard.jsx",
+        "bytes": 1355
+      },
+      {
+        "id": "node_modules/react-icons/tb/index.mjs",
+        "bytes": 1341
+      },
+      {
+        "id": "node_modules/react/cjs/react-jsx-runtime.production.js",
+        "bytes": 1294
+      },
+      {
+        "id": "src/data/pageMetadata.js",
+        "bytes": 1287
+      },
+      {
+        "id": "src/components/ui/ActionLink.jsx",
+        "bytes": 1240
+      },
+      {
+        "id": "src/data/projects.js",
+        "bytes": 1186
+      },
+      {
+        "id": "src/App.jsx",
+        "bytes": 1169
+      },
+      {
+        "id": "\u0000vite/modulepreload-polyfill.js",
+        "bytes": 1168
+      },
+      {
+        "id": "src/components/sections/heroMotion.js",
+        "bytes": 1149
+      },
+      {
+        "id": "node_modules/react-icons/md/index.mjs",
+        "bytes": 1115
+      },
+      {
+        "id": "src/i18n/LanguageProvider.jsx",
+        "bytes": 1090
+      },
+      {
+        "id": "src/data/skills.js",
+        "bytes": 1084
+      },
+      {
+        "id": "src/i18n/languageStore.js",
+        "bytes": 931
+      },
+      {
+        "id": "src/components/sections/projects.jsx",
+        "bytes": 788
+      },
+      {
+        "id": "src/i18n/LanguageSelector.jsx",
+        "bytes": 749
+      },
+      {
+        "id": "src/components/ui/Technical_Cards.jsx",
+        "bytes": 741
+      },
+      {
+        "id": "src/components/sections/TimelineSection.jsx",
+        "bytes": 738
+      },
+      {
+        "id": "src/pages/Home.jsx",
+        "bytes": 699
+      },
+      {
+        "id": "src/i18n/catalog.js",
+        "bytes": 690
+      },
+      {
+        "id": "src/data/navigation.js",
+        "bytes": 618
+      },
+      {
+        "id": "node_modules/react-dom/index.js",
+        "bytes": 520
+      },
+      {
+        "id": "node_modules/react-dom/client.js",
+        "bytes": 512
+      },
+      {
+        "id": "src/i18n/translate.js",
+        "bytes": 479
+      },
+      {
+        "id": "src/utils/credentialStatus.js",
+        "bytes": 473
+      },
+      {
+        "id": "src/hooks/useReducedMotion.js",
+        "bytes": 450
+      },
+      {
+        "id": "src/components/ui/SectionHeading.jsx",
+        "bytes": 425
+      },
+      {
+        "id": "src/data/social_profiles.js",
+        "bytes": 424
+      },
+      {
+        "id": "node_modules/react-icons/bi/index.mjs",
+        "bytes": 403
+      },
+      {
+        "id": "src/i18n/useTranslation.js",
+        "bytes": 395
+      },
+      {
+        "id": "src/components/sections/HeroVariant.jsx",
+        "bytes": 364
+      },
+      {
+        "id": "src/components/ui/Container.jsx",
+        "bytes": 312
+      },
+      {
+        "id": "src/components/ui/button.jsx",
+        "bytes": 264
+      },
+      {
+        "id": "src/main.jsx",
+        "bytes": 251
+      },
+      {
+        "id": "node_modules/react/jsx-runtime.js",
+        "bytes": 239
+      },
+      {
+        "id": "node_modules/react-icons/lib/iconContext.mjs",
+        "bytes": 231
+      },
+      {
+        "id": "node_modules/scheduler/index.js",
+        "bytes": 226
+      },
+      {
+        "id": "src/i18n/Text.jsx",
+        "bytes": 209
+      },
+      {
+        "id": "node_modules/react/index.js",
+        "bytes": 194
+      },
+      {
+        "id": "src/components/layout/navbar_project.jsx",
+        "bytes": 166
+      },
+      {
+        "id": "\u0000commonjsHelpers.js",
+        "bytes": 140
+      },
+      {
+        "id": "src/components/layout/navbar.jsx",
+        "bytes": 120
+      },
+      {
+        "id": "src/i18n/contexts.js",
+        "bytes": 115
+      },
+      {
+        "id": "\u0000node_modules/react/index.js?commonjs-es-import",
+        "bytes": 107
+      },
+      {
+        "id": "\u0000node_modules/react-dom/client.js?commonjs-es-import",
+        "bytes": 106
+      },
+      {
+        "id": "src/assets/images/portrait/anxzu-1024.jpg",
+        "bytes": 48
+      },
+      {
+        "id": "src/assets/images/portrait/anxzu-480.jpg",
+        "bytes": 47
+      },
+      {
+        "id": "src/assets/images/portrait/anxzu-768.jpg",
+        "bytes": 47
+      },
+      {
+        "id": "\u0000node_modules/react/jsx-runtime.js?commonjs-es-import",
+        "bytes": 44
+      },
+      {
+        "id": "src/assets/images/credentials/72a5814e-c56b-4e7c-b590-7fdda6b29453.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/06a8654d-f93b-412e-bae7-59156fb14189.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/a6f95950-f997-4619-93bd-12ef2e803049.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/df1a5877-1721-47db-a196-ea4e17f3a745.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/70fbf77b-7650-41d5-95cc-c6f1f492cff2.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/9713e1b5-af12-4bff-b04c-f82e4aca6387.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/fb4349ee-b599-4ae1-88a8-902a545f063a.png",
+        "bytes": 43
+      },
+      {
+        "id": "src/assets/images/credentials/c8c68512-e2cc-4e49-80bd-3f2197afb2bf.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/df473e2c-6a24-475a-8b94-49b17985c053.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/fc048a96-ef41-48c4-9943-16269ab6085c.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/b536a83a-c05d-49f8-9290-ae87cc042b9e.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/c6d728e5-93bf-4e18-9699-75f50775ab14.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/f15f1dee-8498-4e20-942f-7833f0486abe.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/b331b024-6ee7-4b66-b904-a1a0c9f90309.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/f9b4484a-3cad-4609-9856-f8c7cf66fc72.png",
+        "bytes": 42
+      },
+      {
+        "id": "src/assets/images/credentials/359ec1bd-5afd-4e86-ac6b-0516a337e8ec.png",
+        "bytes": 42
+      },
+      {
+        "id": "\u0000node_modules/react/cjs/react-jsx-runtime.production.js?commonjs-exports",
+        "bytes": 36
+      },
+      {
+        "id": "\u0000node_modules/react-dom/cjs/react-dom-client.production.js?commonjs-exports",
+        "bytes": 35
+      },
+      {
+        "id": "\u0000node_modules/react/jsx-runtime.js?commonjs-module",
+        "bytes": 31
+      },
+      {
+        "id": "\u0000node_modules/scheduler/index.js?commonjs-module",
+        "bytes": 30
+      },
+      {
+        "id": "\u0000node_modules/scheduler/cjs/scheduler.production.js?commonjs-exports",
+        "bytes": 30
+      },
+      {
+        "id": "\u0000node_modules/react-dom/index.js?commonjs-module",
+        "bytes": 29
+      },
+      {
+        "id": "\u0000node_modules/react-dom/cjs/react-dom.production.js?commonjs-exports",
+        "bytes": 29
+      },
+      {
+        "id": "\u0000node_modules/react-dom/client.js?commonjs-module",
+        "bytes": 27
+      },
+      {
+        "id": "\u0000node_modules/react/index.js?commonjs-module",
+        "bytes": 26
+      },
+      {
+        "id": "\u0000node_modules/react/cjs/react.production.js?commonjs-exports",
+        "bytes": 26
+      },
+      {
+        "id": "src/i18n/locales/en.js",
+        "bytes": 23
+      },
+      {
+        "id": "src/i18n/locales/es.js",
+        "bytes": 23
+      },
+      {
+        "id": "src/index.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/layout/navbar.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/hero.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/hero-immersive.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/about.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/skills.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/projects.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/timelineseccion.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/contac.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/credentials.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/project-route.css",
+        "bytes": 0
+      },
+      {
+        "id": "index.html",
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "file": "assets/Concurrencia-XfPudlBa.js",
+    "entry": false,
+    "bytes": 43058,
+    "gzip9": 9875,
+    "imports": [
+      "assets/index-XDcRipZe.js",
+      "assets/CaseStudy-BHSvw-EZ.js"
+    ],
+    "dynamicImports": [],
+    "modules": [
+      {
+        "id": "src/components/ui/graphics/highlevel_flow.jsx",
+        "bytes": 17836
+      },
+      {
+        "id": "src/components/sections/introduce.jsx",
+        "bytes": 15567
+      },
+      {
+        "id": "src/components/ui/graphics/bussiness_flow.jsx",
+        "bytes": 15415
+      },
+      {
+        "id": "src/components/ui/graphics/logic_flow.jsx",
+        "bytes": 12556
+      },
+      {
+        "id": "src/components/ui/graphics/flow_loadbalance.jsx",
+        "bytes": 11342
+      },
+      {
+        "id": "src/pages/projects/Concurrencia.jsx",
+        "bytes": 410
+      }
+    ]
+  },
+  {
+    "file": "assets/Metodologia-CPYzX9s-.js",
+    "entry": false,
+    "bytes": 17363,
+    "gzip9": 4700,
+    "imports": [
+      "assets/index-XDcRipZe.js",
+      "assets/CaseStudy-BHSvw-EZ.js"
+    ],
+    "dynamicImports": [],
+    "modules": [
+      {
+        "id": "src/components/sections/introduce_metodologia.jsx",
+        "bytes": 12096
+      },
+      {
+        "id": "src/components/ui/graphics/metodologia_problem_flow.jsx",
+        "bytes": 7858
+      },
+      {
+        "id": "src/components/ui/graphics/metodologia_solution_flow.jsx",
+        "bytes": 7793
+      },
+      {
+        "id": "src/pages/projects/Metodologia.jsx",
+        "bytes": 419
+      }
+    ]
+  },
+  {
+    "file": "assets/CaseStudy-BHSvw-EZ.js",
+    "entry": false,
+    "bytes": 221176,
+    "gzip9": 72741,
+    "imports": [
+      "assets/index-XDcRipZe.js"
+    ],
+    "dynamicImports": [],
+    "modules": [
+      {
+        "id": "node_modules/@xyflow/react/dist/esm/index.js",
+        "bytes": 145357
+      },
+      {
+        "id": "node_modules/@xyflow/system/dist/esm/index.js",
+        "bytes": 103417
+      },
+      {
+        "id": "src/i18n/locales/projects.js",
+        "bytes": 38835
+      },
+      {
+        "id": "node_modules/d3-zoom/src/zoom.js",
+        "bytes": 15242
+      },
+      {
+        "id": "node_modules/d3-color/src/color.js",
+        "bytes": 10969
+      },
+      {
+        "id": "node_modules/d3-drag/src/drag.js",
+        "bytes": 5292
+      },
+      {
+        "id": "src/components/ui/CaseStudy.jsx",
+        "bytes": 4559
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/schedule.js",
+        "bytes": 4460
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/data.js",
+        "bytes": 4066
+      },
+      {
+        "id": "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.production.js",
+        "bytes": 2977
+      },
+      {
+        "id": "node_modules/d3-timer/src/timer.js",
+        "bytes": 2889
+      },
+      {
+        "id": "node_modules/d3-dispatch/src/dispatch.js",
+        "bytes": 2730
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/style.js",
+        "bytes": 2540
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/attr.js",
+        "bytes": 2472
+      },
+      {
+        "id": "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js",
+        "bytes": 2342
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/transform/index.js",
+        "bytes": 2038
+      },
+      {
+        "id": "src/utils/diagramVisibility.js",
+        "bytes": 2036
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/on.js",
+        "bytes": 2024
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/tween.js",
+        "bytes": 1978
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/classed.js",
+        "bytes": 1742
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/string.js",
+        "bytes": 1739
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/zoom.js",
+        "bytes": 1657
+      },
+      {
+        "id": "src/components/ui/EngineeringFlowEdge.jsx",
+        "bytes": 1615
+      },
+      {
+        "id": "src/utils/engineeringFlows.js",
+        "bytes": 1604
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/attr.js",
+        "bytes": 1444
+      },
+      {
+        "id": "node_modules/zustand/esm/vanilla.mjs",
+        "bytes": 1398
+      },
+      {
+        "id": "node_modules/d3-zoom/src/transform.js",
+        "bytes": 1369
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/index.js",
+        "bytes": 1300
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/index.js",
+        "bytes": 1262
+      },
+      {
+        "id": "src/components/ui/DiagramPlaybackControls.jsx",
+        "bytes": 1198
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/attrTween.js",
+        "bytes": 1112
+      },
+      {
+        "id": "node_modules/d3-drag/src/event.js",
+        "bytes": 969
+      },
+      {
+        "id": "node_modules/zustand/esm/shallow.mjs",
+        "bytes": 945
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/style.js",
+        "bytes": 935
+      },
+      {
+        "id": "node_modules/zustand/esm/traditional.mjs",
+        "bytes": 930
+      },
+      {
+        "id": "node_modules/d3-transition/src/selection/transition.js",
+        "bytes": 915
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/dispatch.js",
+        "bytes": 856
+      },
+      {
+        "id": "node_modules/d3-drag/src/nodrag.js",
+        "bytes": 820
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/on.js",
+        "bytes": 805
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/end.js",
+        "bytes": 796
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/selectAll.js",
+        "bytes": 767
+      },
+      {
+        "id": "src/i18n/useFlowLabels.js",
+        "bytes": 763
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/styleTween.js",
+        "bytes": 748
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/enter.js",
+        "bytes": 720
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/select.js",
+        "bytes": 710
+      },
+      {
+        "id": "src/hooks/useDiagramPlayback.js",
+        "bytes": 691
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/transform/decompose.js",
+        "bytes": 661
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/sort.js",
+        "bytes": 646
+      },
+      {
+        "id": "node_modules/d3-selection/src/pointer.js",
+        "bytes": 643
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/property.js",
+        "bytes": 620
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/selectAll.js",
+        "bytes": 619
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/transform/parse.js",
+        "bytes": 619
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/merge.js",
+        "bytes": 617
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/transition.js",
+        "bytes": 611
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/merge.js",
+        "bytes": 608
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/textTween.js",
+        "bytes": 604
+      },
+      {
+        "id": "node_modules/d3-transition/src/interrupt.js",
+        "bytes": 603
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/select.js",
+        "bytes": 584
+      },
+      {
+        "id": "node_modules/d3-selection/src/creator.js",
+        "bytes": 580
+      },
+      {
+        "id": "node_modules/d3-selection/src/array.js",
+        "bytes": 550
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/text.js",
+        "bytes": 535
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/value.js",
+        "bytes": 528
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/html.js",
+        "bytes": 519
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/join.js",
+        "bytes": 508
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/rgb.js",
+        "bytes": 502
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/filter.js",
+        "bytes": 501
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/duration.js",
+        "bytes": 494
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/color.js",
+        "bytes": 484
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/filter.js",
+        "bytes": 479
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/delay.js",
+        "bytes": 472
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/clone.js",
+        "bytes": 453
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/text.js",
+        "bytes": 436
+      },
+      {
+        "id": "node_modules/d3-zoom/src/event.js",
+        "bytes": 427
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/insert.js",
+        "bytes": 398
+      },
+      {
+        "id": "node_modules/classcat/index.js",
+        "bytes": 397
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/selectChildren.js",
+        "bytes": 385
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/order.js",
+        "bytes": 380
+      },
+      {
+        "id": "node_modules/d3-drag/src/noevent.js",
+        "bytes": 371
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/selectChild.js",
+        "bytes": 364
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/object.js",
+        "bytes": 359
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/array.js",
+        "bytes": 347
+      },
+      {
+        "id": "src/i18n/useFlowEdges.js",
+        "bytes": 330
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/easeVarying.js",
+        "bytes": 328
+      },
+      {
+        "id": "node_modules/d3-color/src/define.js",
+        "bytes": 324
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/numberArray.js",
+        "bytes": 321
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/ease.js",
+        "bytes": 310
+      },
+      {
+        "id": "node_modules/d3-selection/src/namespace.js",
+        "bytes": 302
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/each.js",
+        "bytes": 288
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/remove.js",
+        "bytes": 286
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/node.js",
+        "bytes": 257
+      },
+      {
+        "id": "node_modules/d3-selection/src/namespaces.js",
+        "bytes": 250
+      },
+      {
+        "id": "node_modules/use-sync-external-store/shim/with-selector.js",
+        "bytes": 250
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/iterator.js",
+        "bytes": 234
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/interpolate.js",
+        "bytes": 218
+      },
+      {
+        "id": "node_modules/d3-selection/src/window.js",
+        "bytes": 214
+      },
+      {
+        "id": "node_modules/use-sync-external-store/shim/index.js",
+        "bytes": 206
+      },
+      {
+        "id": "node_modules/d3-timer/src/timeout.js",
+        "bytes": 203
+      },
+      {
+        "id": "node_modules/d3-selection/src/select.js",
+        "bytes": 202
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/append.js",
+        "bytes": 201
+      },
+      {
+        "id": "node_modules/d3-selection/src/matcher.js",
+        "bytes": 195
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/lower.js",
+        "bytes": 171
+      },
+      {
+        "id": "src/i18n/ProjectMessages.jsx",
+        "bytes": 167
+      },
+      {
+        "id": "node_modules/d3-selection/src/selectorAll.js",
+        "bytes": 167
+      },
+      {
+        "id": "node_modules/d3-zoom/src/noevent.js",
+        "bytes": 160
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/remove.js",
+        "bytes": 154
+      },
+      {
+        "id": "node_modules/d3-selection/src/selector.js",
+        "bytes": 145
+      },
+      {
+        "id": "\u0000node_modules/use-sync-external-store/shim/with-selector.js?commonjs-es-import",
+        "bytes": 143
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/raise.js",
+        "bytes": 138
+      },
+      {
+        "id": "node_modules/d3-transition/src/transition/selection.js",
+        "bytes": 138
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/call.js",
+        "bytes": 133
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/size.js",
+        "bytes": 133
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/date.js",
+        "bytes": 133
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/datum.js",
+        "bytes": 132
+      },
+      {
+        "id": "node_modules/d3-selection/src/sourceEvent.js",
+        "bytes": 129
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/number.js",
+        "bytes": 112
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/exit.js",
+        "bytes": 110
+      },
+      {
+        "id": "node_modules/d3-transition/src/selection/index.js",
+        "bytes": 107
+      },
+      {
+        "id": "node_modules/d3-transition/src/selection/interrupt.js",
+        "bytes": 103
+      },
+      {
+        "id": "node_modules/d3-ease/src/cubic.js",
+        "bytes": 91
+      },
+      {
+        "id": "node_modules/d3-selection/src/constant.js",
+        "bytes": 67
+      },
+      {
+        "id": "src/components/ui/engineeringEdgeTypes.js",
+        "bytes": 66
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/sparse.js",
+        "bytes": 62
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/nodes.js",
+        "bytes": 57
+      },
+      {
+        "id": "node_modules/d3-selection/src/selection/empty.js",
+        "bytes": 53
+      },
+      {
+        "id": "\u0000node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js?commonjs-exports",
+        "bytes": 45
+      },
+      {
+        "id": "\u0000node_modules/react-dom/index.js?commonjs-es-import",
+        "bytes": 40
+      },
+      {
+        "id": "\u0000node_modules/use-sync-external-store/shim/with-selector.js?commonjs-module",
+        "bytes": 33
+      },
+      {
+        "id": "\u0000node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.production.js?commonjs-exports",
+        "bytes": 33
+      },
+      {
+        "id": "node_modules/d3-drag/src/constant.js",
+        "bytes": 32
+      },
+      {
+        "id": "node_modules/d3-interpolate/src/constant.js",
+        "bytes": 32
+      },
+      {
+        "id": "node_modules/d3-zoom/src/constant.js",
+        "bytes": 30
+      },
+      {
+        "id": "src/i18n/locales/projects.en.js",
+        "bytes": 25
+      },
+      {
+        "id": "src/i18n/locales/projects.es.js",
+        "bytes": 25
+      },
+      {
+        "id": "\u0000node_modules/use-sync-external-store/shim/index.js?commonjs-module",
+        "bytes": 25
+      },
+      {
+        "id": "src/style/engineering-flows.css",
+        "bytes": 0
+      },
+      {
+        "id": "node_modules/@xyflow/react/dist/style.css",
+        "bytes": 0
+      },
+      {
+        "id": "src/style/case-study.css",
+        "bytes": 0
+      }
+    ]
+  }
+]

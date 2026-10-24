@@ -1,0 +1,30 @@
+{
+  "backState": {
+    "focus": "projects",
+    "lang": "es",
+    "url": "http://127.0.0.1:4173/#projects"
+  },
+  "heroBefore": "true",
+  "heroAfter": {
+    "focus": "es",
+    "hash": "#hero",
+    "paused": "true",
+    "static": "true"
+  },
+  "firstLink": {
+    "href": "#about",
+    "text": "Perfil"
+  },
+  "menuEN": "About\nProjects\nSkills\nExperience\nContact",
+  "closed": {
+    "focus": "button menu-toggle",
+    "open": "false"
+  },
+  "persistence": {
+    "lang": "es",
+    "selected": "ES",
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "url": "http://127.0.0.1:4173/projects/metodologia#diagram-methodology-solution"
+  },
+  "logs": []
+}

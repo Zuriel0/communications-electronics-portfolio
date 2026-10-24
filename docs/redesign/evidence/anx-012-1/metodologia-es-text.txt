@@ -1,0 +1,154 @@
+Volver a proyectos
+Metodología de personalización asistida por IA.
+
+Personalizar la experiencia conservando la base. Un método de seis etapas para trabajar con plataformas cuyo código fuente original no puede modificarse.
+
+Diseñé la metodología en torno al análisis de la interfaz nativa, el contexto técnico reutilizable y la validación humana. Este caso presenta el proceso y los resultados según el relato de mi proyecto.
+
+Restricción principal
+El código fuente original se conserva
+Enfoque
+Personalización externa guiada por el contexto técnico
+El papel de la IA
+Asistencia en la generación; revisión humana antes de integrar
+Estado del proyecto
+Completado
+Desafío
+Proceso
+Decisiones
+Resultado reportado
+Una base estable. Una experiencia distinta.
+
+El código fuente de la plataforma original no podía modificarse directamente. La personalización debía realizarse mediante una intervención externa que respetara la jerarquía, las dependencias y el comportamiento de la interfaz nativa.
+
+El trabajo repetido
+
+Cada nueva personalización requería análisis manual, adaptación y comprobaciones repetidas. El relato existente describe un proceso muy dependiente de la memoria técnica, que dificultaba reutilizar el conocimiento.
+
+La restricción define el método.
+
+El primer diagrama muestra por qué comprender la página existente precede a proponer un cambio. Sigue las mismas seis etapas de la solución: un inicio restringido lleva al análisis, la generación contextual, la revisión manual y una personalización lista para integrar.
+
+Recorrido ilustrativo
+Pausar conexiones
+Flujo de personalización no invasiva
+Del análisis inicial hasta una personalización lista para integrar.
+Paso 1
+Análisis de la página nativa
+Se revisa la página original para entender su estructura y comportamiento.
+Paso 2
+Identificación de patrones y restricciones
+Se detectan reglas visuales, técnicas y limitaciones de integración.
+Paso 3
+Construcción de contexto técnico
+Se organiza la información necesaria para guiar la solución.
+Paso 4
+Generación asistida por IA
+Se propone una primera implementación apoyada en IA.
+Paso 5
+Ajuste y validación manual
+Se corrigen detalles y se valida el resultado final.
+Resultado
+Personalización no invasiva lista para integrar
+La solución queda preparada para incorporarse sin alterar de forma agresiva la página base.
+React Flow
+
+Esta es la vista del método desde sus restricciones, no un algoritmo distinto. El resultado es una personalización lista para integrar; la ilustración no demuestra un despliegue en producción.
+
+Seis etapas. Una secuencia deliberada.
+
+El método convierte el análisis repetido en contexto técnico explícito. La IA aporta una propuesta inicial dentro de ese contexto. El refinamiento y la validación humanos permanecen entre la generación y la integración.
+
+Análisis
+
+Estudiar la página nativa para comprender su estructura, comportamiento y posibles puntos de intervención.
+
+Restricciones
+
+Identificar patrones visuales y técnicos, dependencias y límites de integración que la personalización debe respetar.
+
+Contexto técnico
+
+Organizar esos patrones y restricciones en un contexto documentado que guíe la solución y permita reutilizar el conocimiento.
+
+Generación asistida por IA
+
+Usar ese contexto para generar una propuesta de implementación inicial con asistencia de IA. La propuesta sigue sujeta a revisión humana.
+
+Validación manual
+
+Refinar la propuesta y validar manualmente el resultado frente a la página nativa y sus restricciones.
+
+Integración
+
+Preparar la personalización revisada para incorporarla conservando la base y el comportamiento originales.
+
+Recorrido ilustrativo
+Pausar conexiones
+Flujo de personalización no invasiva
+Desde el análisis inicial hasta una solución lista para integrar.
+Paso 1
+Análisis de la página nativa
+Se estudia la página base para entender su estructura, comportamiento y puntos de intervención.
+Paso 2
+Identificación de patrones y restricciones
+Se detectan reglas visuales, técnicas y limitaciones de integración.
+Paso 3
+Construcción de contexto técnico
+Se organiza la información necesaria para orientar la solución.
+Paso 4
+Generación asistida por IA
+Se genera una propuesta inicial apoyada por IA.
+Paso 5
+Ajuste y validación manual
+Se refinan detalles y se valida la solución final.
+Resultado
+Personalización no invasiva lista para integrar
+La solución queda preparada para integrarse sin alterar agresivamente la página original.
+React Flow
+
+La vista de solución refina la misma secuencia desde el análisis de la página nativa hasta un cambio revisado y listo para integrar. La generación es una etapa; no sustituye el análisis de restricciones ni la validación manual.
+
+El contexto es parte de la ingeniería.
+Comprender antes de generar
+La página nativa y sus restricciones establecen los límites del cambio. Documentar ese contexto sitúa la propuesta asistida por IA dentro de un sistema concreto.
+Reutilizar el conocimiento, además del resultado
+El relato describe patrones reutilizables y documentación técnica como respuesta al análisis repetido. El método permite aprovechar ese conocimiento en más de una personalización.
+Mantener la revisión en la secuencia
+La propuesta generada se refina y valida manualmente antes de integrarla. La IA asiste la implementación; la responsabilidad de revisar el cambio sigue siendo humana.
+Una capa externa con un límite definido.
+
+El enfoque documentado combina intervención externa de código, análisis de la interfaz nativa, documentación contextual y generación asistida. Conserva el código original sin sustituir la implementación base de la plataforma.
+
+El ajuste y la validación manual forman parte del método. Los diagramas describen este flujo de trabajo; no son registros de una suite de validación ejecutada.
+
+Contribución y alcance
+
+Mi contribución descrita aquí es el diseño de la metodología. El caso se centra en el proceso de ingeniería sin atribuirlo a un cliente, plataforma, lenguaje o proveedor de IA específico.
+
+Un cambio reportado en el esfuerzo necesario.
+
+El relato del proyecto reporta menos tiempo por personalización tras adoptar la metodología. La comparación es autorreportada y no es una prueba controlada.
+
+Proceso anterior
+8–14 horas / proyecto
+Con la metodología
+1–2 horas / proyecto
+Interpretar las cifras en su contexto
+
+Estos rangos describen la experiencia reportada por el propietario. No establecen un porcentaje de ahorro verificado, una complejidad comparable entre tareas ni un resultado garantizado para otro proyecto.
+
+El resultado documentado es un proceso repetible desde el análisis de la interfaz nativa hasta una personalización revisada manualmente y lista para integrar.
+
+La generación es una parte del proceso.
+Capacidades demostradas en el proyecto
+
+Análisis de restricciones y de la interfaz nativa, documentación técnica, generación asistida por IA, revisión humana y planificación de integración.
+
+Lección de diseño
+
+Las seis etapas hacen visibles la comprensión del sistema y la revisión del cambio como trabajo de ingeniería. Una propuesta generada es una entrada de ese proceso, no su conclusión.
+
+Volver a proyectos
+Explorar el monitor concurrente de logs
+↗

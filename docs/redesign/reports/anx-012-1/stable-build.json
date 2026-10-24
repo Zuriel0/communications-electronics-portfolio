@@ -1,0 +1,14 @@
+{
+  "candidateEntryMatchesAll18Reports": true,
+  "entry": {
+    "name": "initial JS",
+    "file": "assets/index-XDcRipZe.js",
+    "bytes": 321620,
+    "gzip9": 101618,
+    "sha256": "7c8014fe100977ca2615fac3e00bb89f96990cd6b1bc2c8d494b8b01206ae348"
+  },
+  "baselineCommit": "5e388c925ec2a705bb1a019711452c72aa51c1ea",
+  "ANX012Commit": "0c28be3",
+  "baselineLockMatches": true,
+  "warnings": []
+}

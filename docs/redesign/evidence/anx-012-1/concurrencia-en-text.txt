@@ -1,0 +1,272 @@
+Back to projects
+Concurrent log monitor via SSH.
+
+One MAC address. Multiple possible destinations. A command-line tool that brings remote log searches into a single operational view.
+
+I developed the monitoring tool to search across web and authentication logs from Ubuntu. This case study describes the design and workflow from my project account.
+
+Environment
+Ubuntu, Bash and SSH
+Monitoring scope
+Six web servers; one active RADIUS server
+RADIUS selection
+Two available servers, one selected per run
+Project status
+Completed
+Challenge
+Architecture
+Workflow
+Decisions
+Outcome
+Finding a request without knowing its destination.
+
+A load balancer decides which web server handles an incoming request. When investigating a specific MAC address, the operator cannot know in advance which server holds the relevant event. Checking each machine separately divides the investigation across multiple log sources.
+
+The engineering challenge
+
+Observe every possible web destination while retaining visibility into authentication. A web match should identify the source without ending RADIUS supervision.
+
+Illustrative flow
+Pause simulation
+Traceability across a horizontal architecture
+Several web servers perform the same function. The load balancer selects the destination, making it difficult to know where to search for a specific MAC address.
+Origin
+Client
+Incoming request with a specific MAC address.
+MAC: AA:BB:CC:11:22:33
+Decision
+Load Balancer
+Dynamically selects the server that will handle the request.
+Dynamic routing
+Destination
+Web Server 1
+Performs the same function as the other servers.
+Same function
+Destination
+Web Server 2
+Performs the same function as the other servers.
+Processing request
+Destination
+Web Server 3
+Performs the same function as the other servers.
+Same function
+Operational problem
+Which server holds that MAC address?
+Because the load balancer selects the destination in real time, the processing server is not known in advance. Centralized correlation or checking several server logs is required.
+React Flow
+
+Read this as destination uncertainty: one request reaches one selected web server. The three drawn destinations are representative; the monitoring scope in this project is six web servers. The animation illustrates routing, not live traffic.
+
+Business order and monitoring order are different.
+
+The documented business flow moves from a successful web operation to RADIUS authentication. Observation spans both domains concurrently, through independent Web and RADIUS monitoring groups. Starting both observers does not make the business transaction itself parallel.
+
+Illustrative flow
+Pause connections
+Sequential flow + parallel monitoring
+The business transaction proceeds through Web first, then RADIUS. The solution observes both domains concurrently, keeping the Web and RADIUS groups independent.
+1. web interaction
+2. on web success → RADIUS
+3. authentication confirmed
+Domain 1
+Web layer
+User interaction starts here; navigation or service completion is validated.
+Domain 2
+RADIUS layer
+A RADIUS request follows and authentication is confirmed.
+Start
+User web request
+The user begins the interaction through web navigation or a web service.
+Step 1
+Web validation
+Web navigation / service successful
+The flow continues to authentication only if the web operation succeeds.
+Step 2
+Authentication
+RADIUS request
+After the web operation succeeds, an authentication request is sent to RADIUS.
+Step 3
+Confirmation
+Authentication confirmed
+RADIUS confirms authentication and completes the business flow.
+Step 4
+Monitoring
+Web monitoring group
+Observes the Web domain independently of the RADIUS group.
+Monitoring
+RADIUS monitoring group
+Observes authentication concurrently, independently of the Web group.
+Reading the diagram
+Sequential business flow, parallel observation
+The business transaction moves step by step from Web to RADIUS. Observation covers both domains concurrently through two independent groups.
+React Flow
+
+The solid business path is conditional: authentication follows successful web processing. The separate observation branches explain why RADIUS monitoring can remain active while Web monitoring changes.
+
+Local orchestration. Distributed observation.
+
+The tool runs in an Ubuntu terminal. Bash coordinates the documented workflow, SSH provides remote access, and external configuration defines the targets, connection parameters and optional Web policy. Matches return to a central console with their source identity.
+
+Input: validate and normalize the MAC address before preparing the search.
+Coverage: monitor six web servers concurrently and one configured RADIUS server from two available targets.
+Independence: keep the Web and RADIUS observation groups separate.
+Output: retain server origin, source type and the matching log line in one console.
+The boundary between the tool and its environment.
+
+The local side contains the operator, configuration, orchestrator and console. The remote side contains the SSH connections and log sources being observed. The monitored service infrastructure is the project’s operating context.
+
+Illustrative flow
+Pause connections
+High-level solution architecture
+The operator runs the tool on Ubuntu. The orchestrator reads configuration, opens SSH connections to Web and RADIUS, observes remote logs and consolidates results in a local console.
+reads Web logs
+reads RADIUS logs
+Web matches
+RADIUS matches
+centralizes output
+local execution
+starts tool
+reads configuration
+opens remote sessions
+monitors Web
+monitors RADIUS
+Zone 1
+Local environment
+Hosts the tool, configuration and output visible to the operator.
+Zone 2
+Remote infrastructure
+SSH connections, monitored groups and remote log sources.
+Start
+User / Operator
+Runs the tool and enters the MAC address.
+Environment
+Ubuntu Terminal
+Local environment where the solution runs.
+Auxiliary input
+External configuration
+Defines web servers, RADIUS servers, the active RADIUS target, execution policies and connection parameters.
+Central component
+Main orchestrator
+Coordinates execution: receives input, reads configuration, opens remote connections, consolidates matches and sends the result to the console.
+Flow focal point
+Output
+Output console
+Shows matches, their source server and the highlighted MAC address.
+Transport
+SSH connections
+Communication channel between the local system and remote servers.
+Remote group
+Web group
+6 web servers monitored in parallel.
+6 nodes
+Remote group
+RADIUS group
+2 available servers, but only 1 active per run.
+2 nodes / 1 active
+Remote logs
+/var/log/nginx/access.log
+Log source for matches in the Web domain.
+Remote logs
+/var/log/freeradius/radius.log
+Log source for matches in the RADIUS domain.
+React Flow
+
+Follow the local orchestrator to the two remote observation groups, then back to the console. The log paths are labels from the documented architecture; they do not independently establish a deployed product, version or administration responsibility.
+
+From a MAC address to a traceable match.
+Prepare the search
+
+Receive, validate and normalize the MAC. Load the server inventory, active RADIUS target, connection parameters and Web policy.
+
+Observe the remote sources
+
+Prepare the search patterns and initiate concurrent SSH-based log monitoring across the Web group and selected RADIUS target.
+
+Keep the source attached
+
+Bring matching lines into the console with the server identity and source type, so centralization preserves their origin.
+
+Apply the optional Web policy
+
+Keep monitoring the web server that matched and stop the other web searches when this policy is enabled. RADIUS monitoring continues independently.
+
+A policy for searches
+
+Narrowing the Web group concerns monitoring sessions, not shutting down web servers. It does not change the authentication service or imply automatic RADIUS failover.
+
+Input and configuration precede observation. Concurrency describes remote monitoring, rather than every operation in the tool.
+
+Illustrative flow
+Pause connections
+MAC traceability flow
+SSH starts parallel monitoring of Web x6 and RADIUS x1; both feed match detection and the output is centralized.
+Web monitoring
+RADIUS monitoring
+centralized matches
+Input
+Entered MAC
+Validates and normalizes the MAC address received through the console.
+Step 1
+Connectivity
+SSH
+Opens remote sessions directly or through SSH aliases.
+Step 2
+Parallel monitoring
+Web x6
+Monitors all 6 web nodes concurrently to identify which handled the request.
+Step 3
+Parallel monitoring
+RADIUS x1
+Observes the active RADIUS server, with primary and backup targets available.
+Step 4
+Correlation
+Match detection
+Searches both domains for MAC-related lines in real time.
+Step 5
+Output
+Centralized console
+Shows logical origin, server type and matching line, highlighting the MAC address.
+Step 6
+Optional rule
+Web group policy
+Can retain the matching web server's search and stop only the other web searches, without affecting RADIUS.
+React Flow
+
+The two SSH branches represent independent observation. Their matches converge on a shared output. The optional Web policy is a reference rule, not an extra data-transfer path; the illustrative animation is not an execution log.
+
+Decisions that preserve visibility.
+Search the possible destinations
+Concurrent Web observation addresses the uncertainty of load balancing. The operator does not need to choose the correct web server before starting the search.
+Keep observation domains independent
+A match can narrow Web monitoring without removing the authentication view. The optional policy has a defined boundary: other Web searches, not RADIUS.
+Make the active target configurable
+The documented design selects one RADIUS server for each run. Two available targets support a configurable choice; this is not a claim of automatic failover.
+Centralize without losing origin
+A single console gathers the matches while retaining the server and source type. Consolidation remains useful because an event can still be traced to its source.
+Implementation scope.
+
+The project account describes a Bash tool on Ubuntu, with remote log observation over SSH and externally defined server selection and policy. My contribution described here is the monitoring tool.
+
+The diagrams explain that design. They are presentation artifacts, rather than executable scripts or records of a test run.
+
+Technology in context
+
+Bash provides automation; Ubuntu is the local execution environment; SSH connects the local tool to remote sources. RADIUS identifies the authentication domain. React Flow powers this case study’s diagrams, rather than the command-line monitor.
+
+One operational view, with the source intact.
+
+The reported outcome is a centralized search workflow in place of separate manual server checks: MAC-related matches, their source servers and the Web/RADIUS context can be reviewed together.
+
+This is a qualitative outcome from my project account, rather than a timed diagnostic benchmark or a measured reliability claim.
+
+Skills demonstrated in the project
+
+Shell automation, remote observation over SSH, MAC-oriented troubleshooting, monitoring policy design and technical architecture communication.
+
+Design takeaway
+
+Business sequence, concurrent observation and independent supervision describe different responsibilities. Making those boundaries explicit is central to reading this architecture correctly.
+
+Back to projects
+Explore the customization methodology
+↗
