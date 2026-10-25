@@ -1,9 +1,11 @@
 import Text from "../../i18n/Text.jsx";
 import useTranslation from "../../i18n/useTranslation.js";
+import NodalumeMark from './NodalumeMark';
 const steps = ['Analysis', 'Constraints', 'Technical context', 'AI generation', 'Manual validation', 'Integration'];
 
 export default function ProjectVisual({ projectId }) {
   const { t } = useTranslation();
+  if (projectId === 3) return <figure className="project-visual project-visual--nodalume" aria-label={t('Portal, services and network access: conceptual relationships in the Nodalume lab.')}><NodalumeMark /><figcaption>{t('A platform of connected responsibilities.')}</figcaption></figure>;
   if (projectId === 1) {
     return (
       <figure className="project-visual project-visual--monitor" aria-label={t("Simplified monitoring flow: Ubuntu connects via SSH to six web servers and one active RADIUS server, returning a centralized output.")}>

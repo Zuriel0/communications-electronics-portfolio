@@ -14,5 +14,13 @@ export const projects = [
         description: "A reusable methodology for customizing restricted digital platforms without modifying the original source code. It combines external code injection, technical context documentation, and AI-assisted generation to reduce implementation time from 8–14 hours to 1–2 hours per project.",
         competences: ["AI", "Code injection", "Workflow optimization", "Technical strategy", "Documentation"],
         link: "/projects/metodologia"
+    },
+    {
+        id: 3,
+        image: "Nodalume",
+        title: "Nodalume",
+        description: "A self-hosted captive portal platform project connecting backend services, network access and product design. Current lab implementation, visual builder concepts and future cloud direction are presented separately.",
+        competences: ["Node.js", "PostgreSQL", "FreeRADIUS", "MikroTik", "Docker Compose"],
+        link: "/projects/nodalume"
     }
 ]

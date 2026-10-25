@@ -1,0 +1,47 @@
+PASS: home excludes React Flow/d3/zustand; editorial project chunks exclude React Flow; six original diagrams and the shared Nodalume diagram module retain their graph runtime.
+{
+  "initialFiles": [
+    "assets/index-BHyknxkY.js"
+  ],
+  "routes": [
+    {
+      "file": "assets/Concurrencia-CLqyCIJg.js",
+      "imports": [
+        "assets/index-BHyknxkY.js",
+        "assets/ProjectMessages-CH6kJp5S.js",
+        "assets/CaseStudy-BhGTHTRm.js"
+      ],
+      "dynamicImports": [
+        "assets/flow_loadbalance-CbyXi4Wg.js",
+        "assets/bussiness_flow-RSEgqAO9.js",
+        "assets/logic_flow-D57TWTZ8.js",
+        "assets/highlevel_flow-CyTNhU_F.js"
+      ]
+    },
+    {
+      "file": "assets/Nodalume-C2B20d8x.js",
+      "imports": [
+        "assets/index-BHyknxkY.js",
+        "assets/CaseStudy-BhGTHTRm.js"
+      ],
+      "dynamicImports": [
+        "assets/nodalume_flow-DN4hjLZX.js"
+      ]
+    },
+    {
+      "file": "assets/Metodologia-C4vI7VLq.js",
+      "imports": [
+        "assets/index-BHyknxkY.js",
+        "assets/ProjectMessages-CH6kJp5S.js",
+        "assets/CaseStudy-BhGTHTRm.js"
+      ],
+      "dynamicImports": [
+        "assets/metodologia_problem_flow-XF2VCGA7.js",
+        "assets/metodologia_solution_flow-tenFG1Zf.js"
+      ]
+    }
+  ],
+  "flowFiles": [
+    "assets/style-D7DnZpRt.js"
+  ]
+}

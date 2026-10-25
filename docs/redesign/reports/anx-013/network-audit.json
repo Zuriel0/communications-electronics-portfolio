@@ -1,0 +1,906 @@
+{
+  "method": "Lighthouse navigation network-requests, before scrolling to deferred diagrams. Not a full-session request log.",
+  "candidateInitialFlowRequests": 0,
+  "reports": [
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/baseline-home-desktop-1.json.gz",
+      "url": "http://127.0.0.1:4186/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 842
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BTWOikn6.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 100115
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BQtJppzI.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8828
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/anxzu-480-D9Ta-Nth.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 157585
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/baseline-home-desktop-2.json.gz",
+      "url": "http://127.0.0.1:4186/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 842
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BTWOikn6.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 100115
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BQtJppzI.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8828
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/anxzu-480-D9Ta-Nth.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 157585
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/baseline-home-desktop-3.json.gz",
+      "url": "http://127.0.0.1:4186/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 842
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BTWOikn6.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 100115
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BQtJppzI.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8828
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/anxzu-480-D9Ta-Nth.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 157585
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/baseline-home-mobile-1.json.gz",
+      "url": "http://127.0.0.1:4186/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 842
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BTWOikn6.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 100115
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BQtJppzI.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8828
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/anxzu-768-DTErN6Kh.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 305721
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/baseline-home-mobile-2.json.gz",
+      "url": "http://127.0.0.1:4186/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 842
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BTWOikn6.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 100115
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BQtJppzI.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8828
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/anxzu-768-DTErN6Kh.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 305721
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/baseline-home-mobile-3.json.gz",
+      "url": "http://127.0.0.1:4186/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 842
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BTWOikn6.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 100115
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/index-BQtJppzI.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8828
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/anxzu-768-DTErN6Kh.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 305721
+        },
+        {
+          "url": "http://127.0.0.1:4186/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/candidate-home-desktop-1.json.gz",
+      "url": "http://127.0.0.1:4173/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 841
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/anxzu-480-D9Ta-Nth.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 157585
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/candidate-home-desktop-2.json.gz",
+      "url": "http://127.0.0.1:4173/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 841
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/anxzu-480-D9Ta-Nth.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 157585
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/candidate-home-desktop-3.json.gz",
+      "url": "http://127.0.0.1:4173/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 841
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/anxzu-480-D9Ta-Nth.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 157585
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/candidate-home-mobile-1.json.gz",
+      "url": "http://127.0.0.1:4173/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 841
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/anxzu-768-DTErN6Kh.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 305721
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/candidate-home-mobile-2.json.gz",
+      "url": "http://127.0.0.1:4173/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 841
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/anxzu-768-DTErN6Kh.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 305721
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-home/candidate-home-mobile-3.json.gz",
+      "url": "http://127.0.0.1:4173/",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 841
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/anxzu-768-DTErN6Kh.jpg",
+          "status": 200,
+          "resourceType": "Image",
+          "transferSize": 305721
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-nodalume/candidate-nodalume-desktop-1.json.gz",
+      "url": "http://127.0.0.1:4173/projects/nodalume",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/projects/nodalume",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 907
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-C2B20d8x.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 9840
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-BhGTHTRm.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 1874
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-D1a2x9k9.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2092
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-6U9CTy1k.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2058
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-nodalume/candidate-nodalume-desktop-2.json.gz",
+      "url": "http://127.0.0.1:4173/projects/nodalume",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/projects/nodalume",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 907
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-C2B20d8x.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 9840
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-BhGTHTRm.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 1874
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-D1a2x9k9.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2092
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-6U9CTy1k.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2058
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-nodalume/candidate-nodalume-desktop-3.json.gz",
+      "url": "http://127.0.0.1:4173/projects/nodalume",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/projects/nodalume",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 907
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-C2B20d8x.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 9840
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-BhGTHTRm.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 1874
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-D1a2x9k9.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2092
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-6U9CTy1k.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2058
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-nodalume/candidate-nodalume-mobile-1.json.gz",
+      "url": "http://127.0.0.1:4173/projects/nodalume",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/projects/nodalume",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 907
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-C2B20d8x.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 9840
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-BhGTHTRm.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 1874
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-D1a2x9k9.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2092
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-6U9CTy1k.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2058
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-nodalume/candidate-nodalume-mobile-2.json.gz",
+      "url": "http://127.0.0.1:4173/projects/nodalume",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/projects/nodalume",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 907
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-C2B20d8x.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 9840
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-BhGTHTRm.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 1874
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-D1a2x9k9.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2092
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-6U9CTy1k.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2058
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    },
+    {
+      "report": "docs/redesign/reports/anx-013/lighthouse-nodalume/candidate-nodalume-mobile-3.json.gz",
+      "url": "http://127.0.0.1:4173/projects/nodalume",
+      "runtimeError": null,
+      "warnings": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/projects/nodalume",
+          "status": 200,
+          "resourceType": "Document",
+          "transferSize": 907
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/inter-latin-8kRkwJBP.woff2",
+          "status": 200,
+          "resourceType": "Font",
+          "transferSize": 48752
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-BHyknxkY.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 101137
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/index-DQvQxips.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 8863
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-C2B20d8x.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 9840
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-BhGTHTRm.js",
+          "status": 200,
+          "resourceType": "Script",
+          "transferSize": 1874
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/CaseStudy-D1a2x9k9.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2092
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/Nodalume-6U9CTy1k.css",
+          "status": 200,
+          "resourceType": "Stylesheet",
+          "transferSize": 2058
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/AX-BL9tpoD4.svg",
+          "status": 200,
+          "resourceType": "Other",
+          "transferSize": 1576
+        }
+      ]
+    }
+  ]
+}

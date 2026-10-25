@@ -7,6 +7,12 @@ export const homeNavigation = [
 ];
 export function projectNavigation(pathname) {
   const path = pathname.replace(/\/+$/, '');
+  if (path === '/projects/nodalume') return [
+    { href: '/', label: 'Home' },
+    { href: '#nodalume-overview', label: 'Overview' },
+    { href: '#nodalume-architecture', label: 'Architecture' },
+    { href: '#nodalume-design', label: 'Design influences' },
+  ];
   return [
     { href: '/', label: 'Home' },
     { href: path === '/projects/metodologia' ? '#metodologia' : '#introduce', label: 'Overview' },

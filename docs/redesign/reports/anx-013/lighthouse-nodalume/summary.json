@@ -1,0 +1,79 @@
+{
+  "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+  "origins": {
+    "baseline": "http://127.0.0.1:4180",
+    "candidate": "http://127.0.0.1:4173"
+  },
+  "versions": [
+    "candidate"
+  ],
+  "profiles": [
+    "mobile",
+    "desktop"
+  ],
+  "repetitions": 3,
+  "groups": [
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 98,
+        "min": 98,
+        "max": 98
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2277.4428,
+        "min": 2277.3315000000002,
+        "max": 2277.65685
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 490.9466,
+        "min": 489.06780000000003,
+        "max": 493.95715
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ]
+}

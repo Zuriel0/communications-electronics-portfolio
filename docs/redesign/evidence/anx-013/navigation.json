@@ -1,0 +1,16 @@
+{
+  "entry": {
+    "heading": "Nodalume",
+    "lang": "es",
+    "path": "/projects/nodalume"
+  },
+  "open": "true",
+  "closed": {
+    "expanded": "false",
+    "focus": "button menu-toggle"
+  },
+  "architecture": {
+    "focus": "nodalume-architecture",
+    "hash": "#nodalume-architecture"
+  }
+}

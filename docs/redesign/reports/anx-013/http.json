@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "title": "ANXZU — The Art of Engineering",
+    "canonical": "https://anxzu.com/"
+  },
+  {
+    "path": "/projects/concurrencia",
+    "status": 200,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "canonical": "https://anxzu.com/projects/concurrencia"
+  },
+  {
+    "path": "/projects/metodologia",
+    "status": 200,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "canonical": "https://anxzu.com/projects/metodologia"
+  },
+  {
+    "path": "/projects/nodalume",
+    "status": 200,
+    "title": "Nodalume — Captive Portal Platform | ANXZU",
+    "canonical": "https://anxzu.com/projects/nodalume"
+  },
+  {
+    "path": "/projects/nodalume/",
+    "status": 200,
+    "title": "Nodalume — Captive Portal Platform | ANXZU",
+    "canonical": "https://anxzu.com/projects/nodalume"
+  }
+]

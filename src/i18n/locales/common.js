@@ -3,6 +3,14 @@ import { defineMessages } from '../catalog.js';
 // Edit each phrase in its source-language group; both catalogs are derived together.
 export default defineMessages({
   "fromEnglish": {
+    "Portal, services and network access: conceptual relationships in the Nodalume lab.": "Portal, servicios y acceso a la red: relaciones conceptuales del laboratorio Nodalume.",
+    "Docker Compose": "Docker Compose",
+    "Design influences": "Referencias de diseño",
+    "A platform of connected responsibilities.": "Una plataforma de responsabilidades conectadas.",
+    "A self-hosted captive portal platform project connecting backend services, network access and product design. Current lab implementation, visual builder concepts and future cloud direction are presented separately.": "Un proyecto de plataforma de portal cautivo autohospedada que conecta servicios backend, acceso a la red y diseño de producto. Separa la implementación en laboratorio, los conceptos del builder y la evolución cloud futura.",
+    "Nodalume": "Nodalume",
+    "Nodalume technical case study: a self-hosted captive portal lab, backend and AAA integration, product design influences and a clearly separated future cloud direction.": "Caso técnico Nodalume: laboratorio de portal cautivo autohospedado, integración backend y AAA, referencias de producto y evolución cloud claramente separada.",
+    "Nodalume — Captive Portal Platform | ANXZU": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "A command-line tool for monitoring remote logs in real time from Ubuntu, connecting concurrently via SSH to 6 web servers and 1 active RADIUS server. The system searches for a specific MAC address, identifies the source server, and applies differentiated execution rules for each group.": "Herramienta de línea de comandos para monitorear logs remotos en tiempo real desde Ubuntu, con conexiones SSH concurrentes a seis servidores web y un servidor RADIUS activo. Busca una dirección MAC específica, identifica el servidor de origen y aplica reglas de ejecución diferenciadas para cada grupo.",
     "A conceptual connection between systems.": "Una conexión conceptual entre sistemas.",
     "A reusable methodology for customizing restricted digital platforms without modifying the original source code. It combines external code injection, technical context documentation, and AI-assisted generation to reduce implementation time from 8–14 hours to 1–2 hours per project.": "Metodología reutilizable para personalizar plataformas restringidas sin modificar su código fuente original. Combina inyección externa de código, documentación del contexto técnico y generación asistida por IA. Según la experiencia reportada, el tiempo pasó de 8–14 a 1–2 horas por proyecto.",

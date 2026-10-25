@@ -63,3 +63,6 @@
   .project-story--featured .project-visual { animation: none; opacity: 1; transform: none; }
   .button-project:is(:hover, :focus-visible) svg { transform: none; }
 }
+
+.project-visual--nodalume { background: var(--background-secondary); }
+.project-visual--nodalume .nodalume-mark { color: var(--accent); width: 100%; max-height: 24rem; }

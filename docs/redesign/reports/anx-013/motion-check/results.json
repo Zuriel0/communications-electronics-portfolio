@@ -1,0 +1,107 @@
+[
+  {
+    "name": "home",
+    "path": "/",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": "true",
+      "heroControl": {
+        "disabled": true,
+        "text": "Motion reduced"
+      },
+      "diagrams": []
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-platform",
+    "path": "/projects/nodalume#diagram-nodalume-platform",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-platform",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-platform",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-builder",
+    "path": "/projects/nodalume#diagram-nodalume-builder",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-builder",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-builder",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-evolution",
+    "path": "/projects/nodalume#diagram-nodalume-evolution",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-evolution",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-evolution",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  }
+]

@@ -5,12 +5,12 @@ import { readFileSync } from 'node:fs';
 import { renderPageHead, routeMetadataPlugin } from '../scripts/page-head.mjs';
 import { projectNavigation } from '../src/data/navigation.js';
 
-test('the three public routes have distinct titles and descriptions in their content language', () => {
-  assert.equal(Object.keys(pageMetadata).length, 3);
-  assert.equal(new Set(Object.values(pageMetadata).map(page => page.title)).size, 3);
-  assert.equal(new Set(Object.values(pageMetadata).map(page => page.description)).size, 3);
+test('the four public routes have distinct titles and descriptions in their content language', () => {
+  assert.equal(Object.keys(pageMetadata).length, 4);
+  assert.equal(new Set(Object.values(pageMetadata).map(page => page.title)).size, 4);
+  assert.equal(new Set(Object.values(pageMetadata).map(page => page.description)).size, 4);
   assert.equal(getPageMetadata('/').lang, 'en');
-  for (const path of ['/projects/concurrencia', '/projects/metodologia']) {
+  for (const path of ['/projects/concurrencia', '/projects/metodologia', '/projects/nodalume']) {
     assert.equal(getPageMetadata(path).lang, 'en');
     assert.equal(getPageMetadata(`${path}/`).title, getPageMetadata(path).title);
     assert.ok(getPageMetadata(path).description.length >= 100);
@@ -27,7 +27,7 @@ test('unknown paths are not indexed as portfolio pages', () => {
 });
 
 test('static route directories preserve the project navigation when a host adds a trailing slash', () => {
-  for (const path of ['/projects/concurrencia', '/projects/metodologia']) {
+  for (const path of ['/projects/concurrencia', '/projects/metodologia', '/projects/nodalume']) {
     assert.deepEqual(projectNavigation(`${path}/`), projectNavigation(path));
   }
 });
@@ -52,6 +52,7 @@ test('Preview serves the static project head on the original public URLs without
   for (const [url, expected] of [
     ['/projects/concurrencia', '/projects/concurrencia/index.html'],
     ['/projects/metodologia/?review=1', '/projects/metodologia/index.html?review=1'],
+    ['/projects/nodalume/?review=1', '/projects/nodalume/index.html?review=1'],
     ['/', '/'],
     ['/assets/file.js', '/assets/file.js'],
   ]) {

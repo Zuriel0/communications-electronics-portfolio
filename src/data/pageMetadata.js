@@ -7,6 +7,12 @@ export const pageMetadata = {
     lang: 'en',
     locale: 'en_US',
   },
+  '/projects/nodalume': {
+    title: 'Nodalume — Captive Portal Platform | ANXZU',
+    description: 'Nodalume technical case study: a self-hosted captive portal lab, backend and AAA integration, product design influences and a clearly separated future cloud direction.',
+    lang: 'en',
+    locale: 'en_US',
+  },
   '/projects/concurrencia': {
     title: 'Concurrent Log Monitor via SSH | ANXZU',
     description: 'Engineering case study: Ubuntu, Bash and SSH log monitoring across six web servers and one active RADIUS target, with MAC search and independent supervision.',

@@ -20,7 +20,9 @@ export function uiMessages(root = 'src') {
       if (f === 'src/data/skills.js') continue;
       const ast = parse(readFileSync(f, 'utf8'), { sourceType: 'module', plugins: ['jsx'] });
       traverse(ast, {
-        JSXElement(p) { if (p.node.openingElement.name.name === 'Text') for (const c of p.node.children) if (c.type === 'JSXExpressionContainer') scalar(c.expression, f); },
+        JSXElement(p) {
+          if (p.node.openingElement.name.name === 'Copy') for (const c of p.node.children) if (c.type === 'JSXText') add(c.value.trim().replace(/\s+/g, ' '), f);
+          if (p.node.openingElement.name.name === 'Text') for (const c of p.node.children) if (c.type === 'JSXExpressionContainer') scalar(c.expression, f); },
         JSXAttribute(p) { if (['title','summary','contribution','reading','alt','aria-label','placeholder'].includes(p.node.name.name)) scalar(p.node.value, f); },
         CallExpression(p) { if (p.node.callee.name === 't') scalar(p.node.arguments[0], f); },
         StringLiteral(p) {

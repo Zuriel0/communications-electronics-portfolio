@@ -1,0 +1,75 @@
+{
+  "reference": "v1.1.0 / d4b92df",
+  "files": [
+    {
+      "file": "CaseStudy-D1a2x9k9.css",
+      "bytes": 6636,
+      "gzip9": 1720
+    },
+    {
+      "file": "CaseStudy-Ds426gH4.js",
+      "bytes": 41968,
+      "gzip9": 13857
+    },
+    {
+      "file": "Concurrencia-D4LmTub0.js",
+      "bytes": 11350,
+      "gzip9": 3718
+    },
+    {
+      "file": "Metodologia-zCGKFjCR.js",
+      "bytes": 8973,
+      "gzip9": 3006
+    },
+    {
+      "file": "bussiness_flow-c071WJDY.js",
+      "bytes": 8953,
+      "gzip9": 2776
+    },
+    {
+      "file": "flow_loadbalance-HKCWxbEb.js",
+      "bytes": 6171,
+      "gzip9": 2317
+    },
+    {
+      "file": "highlevel_flow-07E8VPCm.js",
+      "bytes": 11108,
+      "gzip9": 3251
+    },
+    {
+      "file": "index-BQtJppzI.css",
+      "bytes": 44204,
+      "gzip9": 8446
+    },
+    {
+      "file": "index-BTWOikn6.js",
+      "bytes": 316193,
+      "gzip9": 99520
+    },
+    {
+      "file": "logic_flow-CzJ0G_9O.js",
+      "bytes": 7273,
+      "gzip9": 2506
+    },
+    {
+      "file": "metodologia_problem_flow-DrJ2alVL.js",
+      "bytes": 4744,
+      "gzip9": 1920
+    },
+    {
+      "file": "metodologia_solution_flow-CZ9VsHBB.js",
+      "bytes": 4725,
+      "gzip9": 1905
+    },
+    {
+      "file": "style-BZV40eAE.css",
+      "bytes": 15851,
+      "gzip9": 2646
+    },
+    {
+      "file": "style-Bvy3m9XQ.js",
+      "bytes": 181485,
+      "gzip9": 59685
+    }
+  ]
+}

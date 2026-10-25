@@ -15,8 +15,12 @@ const profiles = (process.env.ANX_LH_PROFILES || 'mobile,desktop').split(',');
 const versions = (process.env.ANX_LH_VERSIONS || 'baseline,candidate').split(',');
 const repetitions = Number(process.env.ANX_LH_RUNS || 3);
 const extraConfig = process.env.ANX_LH_CONFIG;
-const total = profiles.length * 3 * repetitions * versions.length;
-for (const profile of profiles) for (const [route,path] of [['home','/'],['concurrencia','/projects/concurrencia'],['metodologia','/projects/metodologia']]) {
+const knownRoutes = { home:'/', concurrencia:'/projects/concurrencia', metodologia:'/projects/metodologia', nodalume:'/projects/nodalume' };
+const routeNames = (process.env.ANX_LH_ROUTES || 'home,concurrencia,metodologia').split(',');
+if (routeNames.some(name => !Object.hasOwn(knownRoutes, name))) throw new Error('Unknown Lighthouse route');
+const routes = routeNames.map(name => [name, knownRoutes[name]]);
+const total = profiles.length * routes.length * repetitions * versions.length;
+for (const profile of profiles) for (const [route,path] of routes) {
   for (let run = 1; run <= repetitions; run++) for (const version of run % 2 === 0 ? [...versions].reverse() : versions) {
     const id = `${version}-${route}-${profile}-${run}`;
     const temporary = resolve(output, `${id}.json`);
@@ -46,7 +50,7 @@ for (const profile of profiles) for (const [route,path] of [['home','/'],['concu
 }
 const median = values => [...values].sort((a,b)=>a-b)[Math.floor(values.length/2)];
 const groups=[];
-for (const version of versions) for (const profile of profiles) for (const route of ['home','concurrencia','metodologia']) {
+for (const version of versions) for (const profile of profiles) for (const route of routeNames) {
   const selected = rows.filter(x=>x.version===version && x.profile===profile && x.route===route);
   const group={version,profile,route,n:selected.length};
   for (const key of ['performance','accessibility','lcp','cls','tbt']) group[key]={median:median(selected.map(x=>x[key])),min:Math.min(...selected.map(x=>x[key])),max:Math.max(...selected.map(x=>x[key]))};

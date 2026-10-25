@@ -1,4 +1,4 @@
-import { getPageMetadata } from '../src/data/pageMetadata.js';
+import { getPageMetadata, pageMetadata } from '../src/data/pageMetadata.js';
 
 const escapeAttribute = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 
@@ -29,7 +29,7 @@ export function routeMetadataPlugin() {
       server.middlewares.use((request, _response, next) => {
         const url = new URL(request.url || '/', 'http://localhost');
         const path = url.pathname.replace(/\/+$/, '');
-        if (path === '/projects/concurrencia' || path === '/projects/metodologia') {
+        if (path.startsWith('/projects/') && Object.hasOwn(pageMetadata, path)) {
           request.url = `${path}/index.html${url.search}`;
         }
         next();
@@ -41,7 +41,7 @@ export function routeMetadataPlugin() {
         const index = bundle['index.html'];
         if (!index || index.type !== 'asset') throw new Error('Built index.html is required for route metadata.');
         index.source = renderPageHead(String(index.source), '/');
-        for (const route of ['/projects/concurrencia', '/projects/metodologia']) {
+        for (const route of Object.keys(pageMetadata).filter(path => path.startsWith('/projects/'))) {
           this.emitFile({ type: 'asset', fileName: `${route.slice(1)}/index.html`, source: renderPageHead(String(index.source), route) });
         }
       },
