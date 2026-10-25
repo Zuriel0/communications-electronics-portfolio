@@ -5,7 +5,7 @@
     "route": "home",
     "profile": "mobile",
     "run": 1,
-    "fetchTime": "2026-10-25T08:26:23.336Z",
+    "fetchTime": "2026-10-25T17:10:43.601Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -66,13 +66,13 @@
     },
     "performance": 99,
     "accessibility": 100,
-    "lcp": 2031.0837000000001,
+    "lcp": 2030.0743000000002,
     "cls": 0,
-    "tbt": 26.5,
+    "tbt": 19,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 10.786
+    "durationSeconds": 10.771
   },
   {
     "id": "candidate-home-mobile-1",
@@ -80,7 +80,7 @@
     "route": "home",
     "profile": "mobile",
     "run": 1,
-    "fetchTime": "2026-10-25T08:26:33.255Z",
+    "fetchTime": "2026-10-25T17:10:53.495Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -141,13 +141,13 @@
     },
     "performance": 99,
     "accessibility": 100,
-    "lcp": 2027.475,
+    "lcp": 2027.8099000000002,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.834
+    "durationSeconds": 9.814
   },
   {
     "id": "candidate-home-mobile-2",
@@ -155,7 +155,7 @@
     "route": "home",
     "profile": "mobile",
     "run": 2,
-    "fetchTime": "2026-10-25T08:26:43.102Z",
+    "fetchTime": "2026-10-25T17:11:03.303Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -216,13 +216,13 @@
     },
     "performance": 99,
     "accessibility": 100,
-    "lcp": 2029.7062,
+    "lcp": 2026.6826,
     "cls": 0,
-    "tbt": 3.5,
+    "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.868
+    "durationSeconds": 9.823
   },
   {
     "id": "baseline-home-mobile-2",
@@ -230,7 +230,7 @@
     "route": "home",
     "profile": "mobile",
     "run": 2,
-    "fetchTime": "2026-10-25T08:26:52.977Z",
+    "fetchTime": "2026-10-25T17:11:13.163Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -291,13 +291,13 @@
     },
     "performance": 99,
     "accessibility": 100,
-    "lcp": 2028.7714999999998,
+    "lcp": 2033.6637,
     "cls": 0,
-    "tbt": 3,
+    "tbt": 0.5,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.859
+    "durationSeconds": 9.845
   },
   {
     "id": "baseline-home-mobile-3",
@@ -305,7 +305,7 @@
     "route": "home",
     "profile": "mobile",
     "run": 3,
-    "fetchTime": "2026-10-25T08:27:02.821Z",
+    "fetchTime": "2026-10-25T17:11:22.983Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -366,13 +366,13 @@
     },
     "performance": 99,
     "accessibility": 100,
-    "lcp": 2027.2181,
+    "lcp": 2033.3652000000002,
     "cls": 0,
-    "tbt": 0.5,
+    "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.862
+    "durationSeconds": 9.829
   },
   {
     "id": "candidate-home-mobile-3",
@@ -380,7 +380,7 @@
     "route": "home",
     "profile": "mobile",
     "run": 3,
-    "fetchTime": "2026-10-25T08:27:12.679Z",
+    "fetchTime": "2026-10-25T17:11:32.809Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -441,13 +441,13 @@
     },
     "performance": 99,
     "accessibility": 100,
-    "lcp": 2028.1054,
+    "lcp": 2027.5596,
     "cls": 0,
-    "tbt": 0,
+    "tbt": 0.5,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.833
+    "durationSeconds": 9.82
   },
   {
     "id": "baseline-home-desktop-1",
@@ -455,7 +455,7 @@
     "route": "home",
     "profile": "desktop",
     "run": 1,
-    "fetchTime": "2026-10-25T08:27:22.515Z",
+    "fetchTime": "2026-10-25T17:11:42.625Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -516,13 +516,13 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 443.4156,
+    "lcp": 442.7318,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.84
+    "durationSeconds": 9.818
   },
   {
     "id": "candidate-home-desktop-1",
@@ -530,7 +530,7 @@
     "route": "home",
     "profile": "desktop",
     "run": 1,
-    "fetchTime": "2026-10-25T08:27:32.367Z",
+    "fetchTime": "2026-10-25T17:11:52.460Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -591,13 +591,13 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 442.3468,
+    "lcp": 442.1179,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.873
+    "durationSeconds": 9.852
   },
   {
     "id": "candidate-home-desktop-2",
@@ -605,7 +605,7 @@
     "route": "home",
     "profile": "desktop",
     "run": 2,
-    "fetchTime": "2026-10-25T08:27:42.220Z",
+    "fetchTime": "2026-10-25T17:12:02.296Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -666,13 +666,13 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 442.3747,
+    "lcp": 442.0703,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.817
+    "durationSeconds": 9.832
   },
   {
     "id": "baseline-home-desktop-2",
@@ -680,7 +680,7 @@
     "route": "home",
     "profile": "desktop",
     "run": 2,
-    "fetchTime": "2026-10-25T08:27:52.135Z",
+    "fetchTime": "2026-10-25T17:12:12.132Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -741,13 +741,13 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 443.7778,
+    "lcp": 442.2164,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.933
+    "durationSeconds": 9.824
   },
   {
     "id": "baseline-home-desktop-3",
@@ -755,7 +755,7 @@
     "route": "home",
     "profile": "desktop",
     "run": 3,
-    "fetchTime": "2026-10-25T08:28:01.997Z",
+    "fetchTime": "2026-10-25T17:12:21.966Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -816,13 +816,13 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 442.084,
+    "lcp": 442.8218,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.862
+    "durationSeconds": 9.846
   },
   {
     "id": "candidate-home-desktop-3",
@@ -830,7 +830,7 @@
     "route": "home",
     "profile": "desktop",
     "run": 3,
-    "fetchTime": "2026-10-25T08:28:11.839Z",
+    "fetchTime": "2026-10-25T17:12:31.799Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -891,12 +891,12 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 444.836,
+    "lcp": 442.0067,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.849
+    "durationSeconds": 9.805
   }
 ]

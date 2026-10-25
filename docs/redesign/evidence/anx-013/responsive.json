@@ -2,7 +2,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "en",
@@ -14,7 +14,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "es",
@@ -26,7 +26,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Concurrent log monitor via SSH.",
     "language": "en",
@@ -38,7 +38,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Monitor concurrente de logs vía SSH.",
     "language": "es",
@@ -50,7 +50,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "AI-assisted customization methodology.",
     "language": "en",
@@ -62,7 +62,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Metodología de personalización asistida por IA.",
     "language": "es",
@@ -74,31 +74,33 @@
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "en",
     "path": "/projects/nodalume",
     "scrollWidth": 305,
+    "sectionNavigation": "Case study sections",
     "title": "Nodalume — Captive Portal Platform | ANXZU",
     "width": 320
   },
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 305,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "es",
     "path": "/projects/nodalume",
     "scrollWidth": 305,
+    "sectionNavigation": "Secciones del caso de estudio",
     "title": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "width": 320
   },
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "en",
@@ -110,7 +112,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "es",
@@ -122,7 +124,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Concurrent log monitor via SSH.",
     "language": "en",
@@ -134,7 +136,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Monitor concurrente de logs vía SSH.",
     "language": "es",
@@ -146,7 +148,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "AI-assisted customization methodology.",
     "language": "en",
@@ -158,7 +160,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Metodología de personalización asistida por IA.",
     "language": "es",
@@ -170,31 +172,33 @@
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "en",
     "path": "/projects/nodalume",
     "scrollWidth": 360,
+    "sectionNavigation": "Case study sections",
     "title": "Nodalume — Captive Portal Platform | ANXZU",
     "width": 375
   },
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 360,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "es",
     "path": "/projects/nodalume",
     "scrollWidth": 360,
+    "sectionNavigation": "Secciones del caso de estudio",
     "title": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "width": 375
   },
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "en",
@@ -206,7 +210,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "es",
@@ -218,7 +222,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Concurrent log monitor via SSH.",
     "language": "en",
@@ -230,7 +234,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Monitor concurrente de logs vía SSH.",
     "language": "es",
@@ -242,7 +246,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "AI-assisted customization methodology.",
     "language": "en",
@@ -254,7 +258,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Metodología de personalización asistida por IA.",
     "language": "es",
@@ -266,31 +270,33 @@
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "en",
     "path": "/projects/nodalume",
     "scrollWidth": 753,
+    "sectionNavigation": "Case study sections",
     "title": "Nodalume — Captive Portal Platform | ANXZU",
     "width": 768
   },
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 753,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "es",
     "path": "/projects/nodalume",
     "scrollWidth": 753,
+    "sectionNavigation": "Secciones del caso de estudio",
     "title": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "width": 768
   },
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "en",
@@ -302,7 +308,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "es",
@@ -314,7 +320,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Concurrent log monitor via SSH.",
     "language": "en",
@@ -326,7 +332,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Monitor concurrente de logs vía SSH.",
     "language": "es",
@@ -338,7 +344,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "AI-assisted customization methodology.",
     "language": "en",
@@ -350,7 +356,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Metodología de personalización asistida por IA.",
     "language": "es",
@@ -362,31 +368,33 @@
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "en",
     "path": "/projects/nodalume",
     "scrollWidth": 1009,
+    "sectionNavigation": "Case study sections",
     "title": "Nodalume — Captive Portal Platform | ANXZU",
     "width": 1024
   },
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 1009,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "es",
     "path": "/projects/nodalume",
     "scrollWidth": 1009,
+    "sectionNavigation": "Secciones del caso de estudio",
     "title": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "width": 1024
   },
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "en",
@@ -398,7 +406,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "es",
@@ -410,7 +418,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Concurrent log monitor via SSH.",
     "language": "en",
@@ -422,7 +430,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Monitor concurrente de logs vía SSH.",
     "language": "es",
@@ -434,7 +442,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "AI-assisted customization methodology.",
     "language": "en",
@@ -446,7 +454,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Metodología de personalización asistida por IA.",
     "language": "es",
@@ -458,31 +466,33 @@
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "en",
     "path": "/projects/nodalume",
     "scrollWidth": 1425,
+    "sectionNavigation": "Case study sections",
     "title": "Nodalume — Captive Portal Platform | ANXZU",
     "width": 1440
   },
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 1425,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "es",
     "path": "/projects/nodalume",
     "scrollWidth": 1425,
+    "sectionNavigation": "Secciones del caso de estudio",
     "title": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "width": 1440
   },
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "en",
@@ -494,7 +504,7 @@
   {
     "canonical": "https://anxzu.com/",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "ANXZU",
     "language": "es",
@@ -506,7 +516,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Concurrent log monitor via SSH.",
     "language": "en",
@@ -518,7 +528,7 @@
   {
     "canonical": "https://anxzu.com/projects/concurrencia",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Monitor concurrente de logs vía SSH.",
     "language": "es",
@@ -530,7 +540,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "AI-assisted customization methodology.",
     "language": "en",
@@ -542,7 +552,7 @@
   {
     "canonical": "https://anxzu.com/projects/metodologia",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Metodología de personalización asistida por IA.",
     "language": "es",
@@ -554,24 +564,26 @@
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "en",
     "path": "/projects/nodalume",
     "scrollWidth": 1905,
+    "sectionNavigation": "Case study sections",
     "title": "Nodalume — Captive Portal Platform | ANXZU",
     "width": 1920
   },
   {
     "canonical": "https://anxzu.com/projects/nodalume",
     "documentWidth": 1905,
-    "entry": "/assets/index-BHyknxkY.js",
+    "entry": "/assets/index-OjOxA4fa.js",
     "h1": 1,
     "heading": "Nodalume",
     "language": "es",
     "path": "/projects/nodalume",
     "scrollWidth": 1905,
+    "sectionNavigation": "Secciones del caso de estudio",
     "title": "Nodalume — Plataforma de portal cautivo | ANXZU",
     "width": 1920
   }

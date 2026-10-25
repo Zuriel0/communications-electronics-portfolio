@@ -18,8 +18,9 @@ export async function checkNodalume(tab, viewport, width, saveImage) {
     const languages=[];
     for(const language of ['en','es']){
       await tab.playwright.locator(`button[lang="${language}"]`).press('Enter');await tab.getAXState({emit:false});
-      languages.push(await tab.playwright.locator(`#${id}`).evaluate(x=>({language:document.documentElement.lang,hash:location.hash,playing:x.dataset.playing,zoom:x.querySelector('.react-flow__viewport').style.transform,nodes:[...x.querySelectorAll('.nodalume-node strong')].map(n=>n.textContent),edges:x.querySelectorAll('.react-flow__edge').length,signalState:getComputedStyle(x.querySelector('.diagram-flow-signal')).animationPlayState,paused:document.querySelector(`button[aria-controls="${x.id}"]`).getAttribute('aria-pressed')})));
+      languages.push(await tab.playwright.locator(`#${id}`).evaluate(x=>({language:document.documentElement.lang,hash:location.hash,playing:x.dataset.playing,zoom:x.querySelector('.react-flow__viewport').style.transform,nodes:[...x.querySelectorAll('.nodalume-node strong')].map(n=>n.textContent),edges:x.querySelectorAll('.react-flow__edge').length,zoomLabels:[...x.querySelectorAll('.react-flow__controls button')].map(button=>button.getAttribute('aria-label')),signalState:getComputedStyle(x.querySelector('.diagram-flow-signal')).animationPlayState,paused:document.querySelector(`button[aria-controls="${x.id}"]`).getAttribute('aria-pressed')})));
     }
+    if(languages[1].zoomLabels.some(label=>['Zoom In','Zoom Out','Fit View'].includes(label)))throw new Error(`${kind}: untranslated controls`);
     if(languages.some(x=>x.playing!=='false'||x.signalState!=='paused'||x.paused!=='true'||x.edges!==4||x.nodes.length!==5)||languages[0].zoom!==languages[1].zoom)throw new Error(`${kind}: retained state`);
     await tab.playwright.locator(`#${id} .react-flow__controls-fitview`).press('Enter');await tab.getAXState({emit:false});
     await saveImage(`${kind}-es-${width}.jpg`,await tab.screenshot({fullPage:false}));

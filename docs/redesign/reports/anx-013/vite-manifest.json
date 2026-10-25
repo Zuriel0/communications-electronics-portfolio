@@ -1,6 +1,10 @@
 {
-  "_CaseStudy-BhGTHTRm.js": {
-    "file": "assets/CaseStudy-BhGTHTRm.js",
+  "_CaseStudy-D1a2x9k9.css": {
+    "file": "assets/CaseStudy-D1a2x9k9.css",
+    "src": "_CaseStudy-D1a2x9k9.css"
+  },
+  "_CaseStudy-VlnIJ33l.js": {
+    "file": "assets/CaseStudy-VlnIJ33l.js",
     "name": "CaseStudy",
     "imports": [
       "index.html"
@@ -9,21 +13,17 @@
       "assets/CaseStudy-D1a2x9k9.css"
     ]
   },
-  "_CaseStudy-D1a2x9k9.css": {
-    "file": "assets/CaseStudy-D1a2x9k9.css",
-    "src": "_CaseStudy-D1a2x9k9.css"
-  },
   "_Nodalume-6U9CTy1k.css": {
     "file": "assets/Nodalume-6U9CTy1k.css",
     "src": "_Nodalume-6U9CTy1k.css"
   },
-  "_Nodalume-C2B20d8x.js": {
-    "file": "assets/Nodalume-C2B20d8x.js",
+  "_Nodalume-Cs4u4oel.js": {
+    "file": "assets/Nodalume-Cs4u4oel.js",
     "name": "Nodalume",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_CaseStudy-BhGTHTRm.js"
+      "_CaseStudy-VlnIJ33l.js"
     ],
     "dynamicImports": [
       "src/components/ui/graphics/nodalume_flow.jsx"
@@ -32,8 +32,8 @@
       "assets/Nodalume-6U9CTy1k.css"
     ]
   },
-  "_ProjectMessages-CH6kJp5S.js": {
-    "file": "assets/ProjectMessages-CH6kJp5S.js",
+  "_ProjectMessages-BQ3Cj-S1.js": {
+    "file": "assets/ProjectMessages-BQ3Cj-S1.js",
     "name": "ProjectMessages",
     "imports": [
       "index.html"
@@ -43,33 +43,33 @@
     "file": "assets/style-BZV40eAE.css",
     "src": "_style-BZV40eAE.css"
   },
-  "_style-D7DnZpRt.js": {
-    "file": "assets/style-D7DnZpRt.js",
+  "_style-QSoYKWUs.js": {
+    "file": "assets/style-QSoYKWUs.js",
     "name": "style",
     "imports": [
       "index.html",
-      "_CaseStudy-BhGTHTRm.js"
+      "_CaseStudy-VlnIJ33l.js"
     ],
     "css": [
       "assets/style-BZV40eAE.css"
     ]
   },
-  "_useDiagramPlayback-DZ3-zZec.js": {
-    "file": "assets/useDiagramPlayback-DZ3-zZec.js",
+  "_useDiagramPlayback-BhV8TvDv.js": {
+    "file": "assets/useDiagramPlayback-BhV8TvDv.js",
     "name": "useDiagramPlayback",
     "imports": [
       "index.html",
-      "_style-D7DnZpRt.js"
+      "_style-QSoYKWUs.js"
     ]
   },
   "index.html": {
-    "file": "assets/index-BHyknxkY.js",
+    "file": "assets/index-OjOxA4fa.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
       "src/pages/projects/Concurrencia.jsx",
-      "_Nodalume-C2B20d8x.js",
+      "_Nodalume-Cs4u4oel.js",
       "src/pages/projects/Metodologia.jsx"
     ],
     "css": [
@@ -194,98 +194,98 @@
     "src": "src/assets/images/portrait/anxzu-768.jpg"
   },
   "src/components/ui/graphics/bussiness_flow.jsx": {
-    "file": "assets/bussiness_flow-RSEgqAO9.js",
+    "file": "assets/bussiness_flow-xgTwZVdb.js",
     "name": "bussiness_flow",
     "src": "src/components/ui/graphics/bussiness_flow.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useDiagramPlayback-DZ3-zZec.js",
-      "_style-D7DnZpRt.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_useDiagramPlayback-BhV8TvDv.js",
+      "_style-QSoYKWUs.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/components/ui/graphics/flow_loadbalance.jsx": {
-    "file": "assets/flow_loadbalance-CbyXi4Wg.js",
+    "file": "assets/flow_loadbalance-Dv2yDANK.js",
     "name": "flow_loadbalance",
     "src": "src/components/ui/graphics/flow_loadbalance.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useDiagramPlayback-DZ3-zZec.js",
-      "_style-D7DnZpRt.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_useDiagramPlayback-BhV8TvDv.js",
+      "_style-QSoYKWUs.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/components/ui/graphics/highlevel_flow.jsx": {
-    "file": "assets/highlevel_flow-CyTNhU_F.js",
+    "file": "assets/highlevel_flow-DjCTvobn.js",
     "name": "highlevel_flow",
     "src": "src/components/ui/graphics/highlevel_flow.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useDiagramPlayback-DZ3-zZec.js",
-      "_style-D7DnZpRt.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_useDiagramPlayback-BhV8TvDv.js",
+      "_style-QSoYKWUs.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/components/ui/graphics/logic_flow.jsx": {
-    "file": "assets/logic_flow-D57TWTZ8.js",
+    "file": "assets/logic_flow-yaFU84o6.js",
     "name": "logic_flow",
     "src": "src/components/ui/graphics/logic_flow.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useDiagramPlayback-DZ3-zZec.js",
-      "_style-D7DnZpRt.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_useDiagramPlayback-BhV8TvDv.js",
+      "_style-QSoYKWUs.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/components/ui/graphics/metodologia_problem_flow.jsx": {
-    "file": "assets/metodologia_problem_flow-XF2VCGA7.js",
+    "file": "assets/metodologia_problem_flow-BQ1_96NY.js",
     "name": "metodologia_problem_flow",
     "src": "src/components/ui/graphics/metodologia_problem_flow.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useDiagramPlayback-DZ3-zZec.js",
-      "_style-D7DnZpRt.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_useDiagramPlayback-BhV8TvDv.js",
+      "_style-QSoYKWUs.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/components/ui/graphics/metodologia_solution_flow.jsx": {
-    "file": "assets/metodologia_solution_flow-tenFG1Zf.js",
+    "file": "assets/metodologia_solution_flow-DZp_4mDg.js",
     "name": "metodologia_solution_flow",
     "src": "src/components/ui/graphics/metodologia_solution_flow.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_useDiagramPlayback-DZ3-zZec.js",
-      "_style-D7DnZpRt.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_useDiagramPlayback-BhV8TvDv.js",
+      "_style-QSoYKWUs.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/components/ui/graphics/nodalume_flow.jsx": {
-    "file": "assets/nodalume_flow-DN4hjLZX.js",
+    "file": "assets/nodalume_flow-DfUIHu06.js",
     "name": "nodalume_flow",
     "src": "src/components/ui/graphics/nodalume_flow.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_style-D7DnZpRt.js",
-      "_Nodalume-C2B20d8x.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_style-QSoYKWUs.js",
+      "_Nodalume-Cs4u4oel.js",
+      "_CaseStudy-VlnIJ33l.js"
     ]
   },
   "src/pages/projects/Concurrencia.jsx": {
-    "file": "assets/Concurrencia-CLqyCIJg.js",
+    "file": "assets/Concurrencia-DbrW7twK.js",
     "name": "Concurrencia",
     "src": "src/pages/projects/Concurrencia.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_ProjectMessages-CH6kJp5S.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_ProjectMessages-BQ3Cj-S1.js",
+      "_CaseStudy-VlnIJ33l.js"
     ],
     "dynamicImports": [
       "src/components/ui/graphics/flow_loadbalance.jsx",
@@ -295,14 +295,14 @@
     ]
   },
   "src/pages/projects/Metodologia.jsx": {
-    "file": "assets/Metodologia-C4vI7VLq.js",
+    "file": "assets/Metodologia-AJHYx2gq.js",
     "name": "Metodologia",
     "src": "src/pages/projects/Metodologia.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_ProjectMessages-CH6kJp5S.js",
-      "_CaseStudy-BhGTHTRm.js"
+      "_ProjectMessages-BQ3Cj-S1.js",
+      "_CaseStudy-VlnIJ33l.js"
     ],
     "dynamicImports": [
       "src/components/ui/graphics/metodologia_problem_flow.jsx",

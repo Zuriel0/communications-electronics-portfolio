@@ -6,32 +6,32 @@
     "gzip9": 99520
   },
   "candidateEntry": {
-    "file": "index-BHyknxkY.js",
+    "file": "index-OjOxA4fa.js",
     "bytes": 319727,
-    "gzip9": 100536
+    "gzip9": 100533
   },
   "deltaBytes": 3534,
-  "deltaGzip9": 1016,
+  "deltaGzip9": 1013,
   "files": [
-    {
-      "file": "CaseStudy-BhGTHTRm.js",
-      "bytes": 4221,
-      "gzip9": 1501
-    },
     {
       "file": "CaseStudy-D1a2x9k9.css",
       "bytes": 6636,
       "gzip9": 1720
     },
     {
-      "file": "Concurrencia-CLqyCIJg.js",
-      "bytes": 11447,
-      "gzip9": 3771
+      "file": "CaseStudy-VlnIJ33l.js",
+      "bytes": 4221,
+      "gzip9": 1501
     },
     {
-      "file": "Metodologia-C4vI7VLq.js",
+      "file": "Concurrencia-DbrW7twK.js",
+      "bytes": 11447,
+      "gzip9": 3766
+    },
+    {
+      "file": "Metodologia-AJHYx2gq.js",
       "bytes": 9060,
-      "gzip9": 3057
+      "gzip9": 3059
     },
     {
       "file": "Nodalume-6U9CTy1k.css",
@@ -39,34 +39,29 @@
       "gzip9": 1682
     },
     {
-      "file": "Nodalume-C2B20d8x.js",
-      "bytes": 33841,
-      "gzip9": 9466
+      "file": "Nodalume-Cs4u4oel.js",
+      "bytes": 34717,
+      "gzip9": 9812
     },
     {
-      "file": "ProjectMessages-CH6kJp5S.js",
+      "file": "ProjectMessages-BQ3Cj-S1.js",
       "bytes": 37794,
       "gzip9": 12504
     },
     {
-      "file": "bussiness_flow-RSEgqAO9.js",
+      "file": "bussiness_flow-xgTwZVdb.js",
       "bytes": 8999,
-      "gzip9": 2796
+      "gzip9": 2798
     },
     {
-      "file": "flow_loadbalance-CbyXi4Wg.js",
+      "file": "flow_loadbalance-Dv2yDANK.js",
       "bytes": 6217,
-      "gzip9": 2338
+      "gzip9": 2339
     },
     {
-      "file": "highlevel_flow-CyTNhU_F.js",
+      "file": "highlevel_flow-DjCTvobn.js",
       "bytes": 11154,
-      "gzip9": 3271
-    },
-    {
-      "file": "index-BHyknxkY.js",
-      "bytes": 319727,
-      "gzip9": 100536
+      "gzip9": 3274
     },
     {
       "file": "index-DQvQxips.css",
@@ -74,24 +69,29 @@
       "gzip9": 8482
     },
     {
-      "file": "logic_flow-D57TWTZ8.js",
+      "file": "index-OjOxA4fa.js",
+      "bytes": 319727,
+      "gzip9": 100533
+    },
+    {
+      "file": "logic_flow-yaFU84o6.js",
       "bytes": 7319,
-      "gzip9": 2528
+      "gzip9": 2529
     },
     {
-      "file": "metodologia_problem_flow-XF2VCGA7.js",
+      "file": "metodologia_problem_flow-BQ1_96NY.js",
       "bytes": 4790,
-      "gzip9": 1941
+      "gzip9": 1943
     },
     {
-      "file": "metodologia_solution_flow-tenFG1Zf.js",
+      "file": "metodologia_solution_flow-DZp_4mDg.js",
       "bytes": 4771,
-      "gzip9": 1926
+      "gzip9": 1928
     },
     {
-      "file": "nodalume_flow-DN4hjLZX.js",
+      "file": "nodalume_flow-DfUIHu06.js",
       "bytes": 2657,
-      "gzip9": 1356
+      "gzip9": 1355
     },
     {
       "file": "style-BZV40eAE.css",
@@ -99,12 +99,12 @@
       "gzip9": 2646
     },
     {
-      "file": "style-D7DnZpRt.js",
+      "file": "style-QSoYKWUs.js",
       "bytes": 180082,
-      "gzip9": 59100
+      "gzip9": 59099
     },
     {
-      "file": "useDiagramPlayback-DZ3-zZec.js",
+      "file": "useDiagramPlayback-BhV8TvDv.js",
       "bytes": 1487,
       "gzip9": 800
     }

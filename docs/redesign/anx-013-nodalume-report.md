@@ -72,26 +72,26 @@ El verificador recorre módulos e imports reales en lugar de depender exclusivam
 | JavaScript inicial | v1.1.0 | ANX-013 | Diferencia |
 | --- | ---: | ---: | ---: |
 | Bytes generados | 316.193 | 319.727 | +3.534, aproximadamente 1,1 % |
-| Gzip local nivel 9 | 99.520 | 100.536 | +1.016 |
+| Gzip local nivel 9 | 99.520 | 100.533 | +1.013 |
 
 El crecimiento inicial corresponde a la tercera ficha, SVG ligero, ruta y metadatos/traducciones comunes. El contenido extenso y el catálogo de Nodalume permanecen diferidos. [Inventario antes/después](reports/anx-013/bundles.json), [baseline](reports/anx-013/baseline-bundles.json), [manifiesto final](reports/anx-013/vite-manifest.json), [verificación de chunks](reports/anx-013/chunks.txt). Los tamaños generados/gzip local no son bytes reales de red ni Web Vitals.
 
 ## Rendimiento medido
 
-**18 navegaciones Lighthouse nuevas**: Home baseline y candidato, tres por perfil; Nodalume candidato, otras tres por perfil. Baseline: checkout limpio exacto de v1.1.0 servido en Preview 4186; candidato final estable en 4173. Orden alternado del baseline/candidato en la segunda repetición, Chrome fresco y ejecuciones seriales. Sin builds ni QA interactiva de navegador durante las series; una comprobación Node de cobertura de copia, de aproximadamente 0,6 s, se ejecutó durante la serie Home. No es un entorno de CPU totalmente aislado.
+**18 navegaciones Lighthouse nuevas**: Home baseline y candidato, tres por perfil; Nodalume candidato, otras tres por perfil. Baseline: checkout limpio exacto de v1.1.0 servido en Preview 4186; candidato final estable en 4173. Orden alternado del baseline/candidato en la segunda repetición, Chrome fresco y ejecuciones seriales. Sin builds ni QA interactiva de navegador durante las series finales. Se repitió la serie completa después de corregir las etiquetas ES de controles y carga; no es un entorno de CPU totalmente aislado.
 
 Lighthouse 13.5.0, Chrome 155.0.0.0, Node 24.19.0. Móvil simulado: 412×823, DPR 1,75, RTT 150 ms, throughput 1638,4 Kbps y CPU ×4; escritorio preset desktop. Métricas con idioma inicial EN; el contenido ES tiene validación funcional aparte.
 
 | Página / perfil | Performance mediana | Accessibility | LCP mediano (rango), ms | CLS | TBT mediano, ms |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Home v1.1.0 / móvil | 99 | 100 | 2029 (2027–2031) | 0 | 3 |
-| Home ANX-013 / móvil | 99 | 100 | 2028 (2027–2030) | 0 | 0 |
-| Home v1.1.0 / escritorio | 100 | 100 | 443 (442–444) | 0 | 0 |
-| Home ANX-013 / escritorio | 100 | 100 | 442 (442–445) | 0 | 0 |
-| Nodalume / móvil | 98 | 100 | 2277 (2277–2278) | 0 | 0 |
-| Nodalume / escritorio | 100 | 100 | 491 (489–494) | 0 | 0 |
+| Home v1.1.0 / móvil | 99 | 100 | 2033 (2030–2034) | 0 | 0,5 |
+| Home ANX-013 / móvil | 99 | 100 | 2028 (2027–2028) | 0 | 0 |
+| Home v1.1.0 / escritorio | 100 | 100 | 443 (442–443) | 0 | 0 |
+| Home ANX-013 / escritorio | 100 | 100 | 442 (442–442) | 0 | 0 |
+| Nodalume / móvil | 98 | 100 | 2283 (2277–2286) | 0 | 0 |
+| Nodalume / escritorio | 100 | 100 | 491 (491–492) | 0 | 0 |
 
-Home no muestra regresión apreciable en esta muestra; diferencias de 1 ms no se interpretan como mejora. Nodalume es una ruta nueva, sin baseline previo equivalente. No hubo warnings ni runtime errors en las 18 navegaciones, ni audits de accesibilidad fallidos. Los logs de red confirman **cero peticiones iniciales al runtime Flow** en las cargas editoriales candidatas. [Serie Home](reports/anx-013/lighthouse-home/summary.json), [serie Nodalume](reports/anx-013/lighthouse-nodalume/summary.json), [recursos observados](reports/anx-013/network-audit.json). Los LHR completos comprimidos y cada configuración están junto a esos resúmenes.
+Home no muestra regresión apreciable en esta muestra; diferencias de pocos milisegundos no se interpretan como mejora. Nodalume es una ruta nueva, sin baseline previo equivalente. No hubo warnings ni runtime errors en las 18 navegaciones, ni audits de accesibilidad fallidos. Los logs de red confirman **cero peticiones iniciales al runtime Flow** en las cargas editoriales candidatas. [Serie Home](reports/anx-013/lighthouse-home/summary.json), [serie Nodalume](reports/anx-013/lighthouse-nodalume/summary.json), [recursos observados](reports/anx-013/network-audit.json). Los LHR completos comprimidos y cada configuración están junto a esos resúmenes.
 
 Son pruebas de laboratorio local con simulación, no mediciones del dominio público, Web Vitals de campo, INP, FPS o CPU sostenida. No se publicaron cambios para obtenerlas.
 
@@ -102,7 +102,7 @@ Son pruebas de laboratorio local con simulación, no mediciones del dominio púb
 | `npm ci` | Correcto, 0 vulnerabilidades reportadas; [log](reports/anx-013/npm-ci.txt), manifiesto/lockfile sin cambios |
 | `npm run lint` | Correcto; [log](reports/anx-013/lint.txt) |
 | `npm run build -- --manifest` | Correcto; [log](reports/anx-013/build.txt) |
-| `node --test tests/*.test.js` | **42/42**; [log](reports/anx-013/tests.txt) |
+| `node --test tests/*.test.js` | **43/43**; [log](reports/anx-013/tests.txt) |
 | `node scripts/check-project-chunks.mjs` | Correcto: Home y los tres cierres editoriales sin motor Flow |
 | `git diff --check` | Correcto, incluidos archivos nuevos al preparar el commit |
 | Rutas HTTP | Las cuatro rutas y Nodalume con barra final responden 200 con head/canonical correctos; [evidencia](reports/anx-013/http.json) |
@@ -115,7 +115,7 @@ Son pruebas de laboratorio local con simulación, no mediciones del dominio púb
 
 Se añadieron pruebas de ruta/metadata/hash, relaciones válidas y estados de los tres modelos, traducción de sus labels y render SSR real EN/ES con tres placeholders y contenido completo antes de Flow. El extractor de cobertura incluye la nueva copia editorial `<Copy>`. Se actualizan las expectativas a cuatro rutas sin relajar la preservación de los modelos originales ni de credenciales, perfil y controladores.
 
-El primer ensayo móvil reutilizó una receta anterior que pulsaba el Hero inmediatamente después de recargar y falló en su aserción de pausa. Se añadió sincronización explícita del estado del botón al arnés y se repitió correctamente; no se modificó el Hero. El verificador de chunks también detectó el `facadeModuleId` ausente del nuevo chunk compartido: se corrigió su identificación por módulos, manteniendo las aserciones de aislamiento. Estos fallos de arnés no se ocultaron ni se resolvieron desactivando pruebas.
+El primer ensayo móvil reutilizó una receta anterior que pulsaba el Hero inmediatamente después de recargar y falló en su aserción de pausa. Se añadió sincronización explícita del estado del botón al arnés y se repitió correctamente; no se modificó el Hero. El verificador de chunks también detectó el `facadeModuleId` ausente del nuevo chunk compartido: se corrigió su identificación por módulos, manteniendo las aserciones de aislamiento. La revisión final del árbol accesible detectó además controles de zoom y estados de carga de Nodalume en inglés bajo ES: su catálogo independiente no heredaba las cadenas del catálogo de los casos anteriores. Se incorporaron únicamente las cadenas genéricas necesarias al catálogo de la ruta, sin cargar el catálogo completo de los otros proyectos. Se añadieron aserciones SSR de los tres placeholders y del nombre accesible del índice, cobertura de controles/recuperación y comprobación real de «Acercar / Alejar / Ajustar vista». Se reconstruyó y repitió QA y rendimiento sobre la corrección. Los hallazgos no se ocultaron ni se resolvieron desactivando pruebas.
 
 Recetas: [Nodalume](reports/anx-013/browser-qa.mjs), [regresión](reports/anx-013/regression-qa.mjs). El runner Lighthouse admite ahora `ANX_LH_ROUTES=home` o `nodalume`; los valores predeterminados de fases anteriores se conservan.
 

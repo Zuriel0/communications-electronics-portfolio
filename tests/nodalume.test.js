@@ -57,6 +57,9 @@ test('actual editorial page renders complete EN/ES before the deferred diagram r
       for(const brand of ['Elementor / Wix','Figma','Scratch / Zoho Flow','Postman'])assert.ok(html.includes(brand));
       assert.ok(html.includes('Docker Compose'));assert.ok(html.includes('MikroTik'));
       assert.equal((html.match(/class="diagram-load-frame"/g)||[]).length,3);
+      const loading=language==='en'?'Loading interactive diagram…':'Cargando diagrama interactivo…';
+      assert.equal(html.split(loading).length-1,3,'Each deferred figure uses the active route language');
+      assert.ok(html.includes(language==='en'?'aria-label="Case study sections"':'aria-label="Secciones del caso de estudio"'));
       assert.ok(!html.includes('react-flow__node'));
       for(const nav of projectNavigation('/projects/nodalume'))if(nav.href.startsWith('#'))assert.ok(html.includes(`id="${nav.href.slice(1)}"`));
       assert.ok(!/\bSaaS\b|99\.9%|customers served|production deployment achieved/i.test(html));
@@ -69,4 +72,11 @@ test('actual editorial page renders complete EN/ES before the deferred diagram r
     assert.ok(graph.includes('preventScrolling={false}'));
     assert.ok(!graph.includes('requestAnimationFrame'));
   }finally{await server.close();}
+});
+
+test('the route catalog independently translates shared graph controls and recovery states',()=>{
+  for(const key of ['Zoom In','Zoom Out','Fit View','Diagram controls','Case study sections','Loading interactive diagram…','Unable to load this diagram.','Check your connection and reload to try again. The case study remains available.','Reload diagram']){
+    assert.ok(messages.es[key],key);
+    assert.notEqual(messages.es[key],key,`${key} must not fall back to English in the route-local context`);
+  }
 });

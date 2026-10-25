@@ -5,7 +5,7 @@
     "route": "nodalume",
     "profile": "mobile",
     "run": 1,
-    "fetchTime": "2026-10-25T08:28:21.736Z",
+    "fetchTime": "2026-10-25T17:12:41.649Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -66,13 +66,13 @@
     },
     "performance": 98,
     "accessibility": 100,
-    "lcp": 2277.65685,
+    "lcp": 2286.2413500000002,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.725
+    "durationSeconds": 9.764
   },
   {
     "id": "candidate-nodalume-mobile-2",
@@ -80,7 +80,7 @@
     "route": "nodalume",
     "profile": "mobile",
     "run": 2,
-    "fetchTime": "2026-10-25T08:28:31.465Z",
+    "fetchTime": "2026-10-25T17:12:51.415Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -141,13 +141,13 @@
     },
     "performance": 98,
     "accessibility": 100,
-    "lcp": 2277.4428,
+    "lcp": 2283.0186000000003,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.731
+    "durationSeconds": 9.726
   },
   {
     "id": "candidate-nodalume-mobile-3",
@@ -155,7 +155,7 @@
     "route": "nodalume",
     "profile": "mobile",
     "run": 3,
-    "fetchTime": "2026-10-25T08:28:41.235Z",
+    "fetchTime": "2026-10-25T17:13:01.138Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -216,13 +216,13 @@
     },
     "performance": 98,
     "accessibility": 100,
-    "lcp": 2277.3315000000002,
+    "lcp": 2277.2913,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.739
+    "durationSeconds": 9.727
   },
   {
     "id": "candidate-nodalume-desktop-1",
@@ -230,7 +230,7 @@
     "route": "nodalume",
     "profile": "desktop",
     "run": 1,
-    "fetchTime": "2026-10-25T08:28:50.921Z",
+    "fetchTime": "2026-10-25T17:13:10.864Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -291,13 +291,13 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 489.06780000000003,
+    "lcp": 491.47685,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.712
+    "durationSeconds": 9.699
   },
   {
     "id": "candidate-nodalume-desktop-2",
@@ -305,7 +305,7 @@
     "route": "nodalume",
     "profile": "desktop",
     "run": 2,
-    "fetchTime": "2026-10-25T08:29:00.651Z",
+    "fetchTime": "2026-10-25T17:13:20.578Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -366,7 +366,7 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 493.95715,
+    "lcp": 491.68385,
     "cls": 0,
     "tbt": 0,
     "language": "en",
@@ -380,7 +380,7 @@
     "route": "nodalume",
     "profile": "desktop",
     "run": 3,
-    "fetchTime": "2026-10-25T08:29:10.386Z",
+    "fetchTime": "2026-10-25T17:13:30.312Z",
     "lighthouseVersion": "13.5.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
     "settings": {
@@ -441,12 +441,12 @@
     },
     "performance": 100,
     "accessibility": 100,
-    "lcp": 490.9466,
+    "lcp": 491.09465,
     "cls": 0,
     "tbt": 0,
     "language": "en",
     "warnings": [],
     "failedAccessibility": [],
-    "durationSeconds": 9.745
+    "durationSeconds": 9.717
   }
 ]

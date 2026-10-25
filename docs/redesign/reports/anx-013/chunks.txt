@@ -1,47 +1,47 @@
 PASS: home excludes React Flow/d3/zustand; editorial project chunks exclude React Flow; six original diagrams and the shared Nodalume diagram module retain their graph runtime.
 {
   "initialFiles": [
-    "assets/index-BHyknxkY.js"
+    "assets/index-OjOxA4fa.js"
   ],
   "routes": [
     {
-      "file": "assets/Concurrencia-CLqyCIJg.js",
+      "file": "assets/Concurrencia-DbrW7twK.js",
       "imports": [
-        "assets/index-BHyknxkY.js",
-        "assets/ProjectMessages-CH6kJp5S.js",
-        "assets/CaseStudy-BhGTHTRm.js"
+        "assets/index-OjOxA4fa.js",
+        "assets/ProjectMessages-BQ3Cj-S1.js",
+        "assets/CaseStudy-VlnIJ33l.js"
       ],
       "dynamicImports": [
-        "assets/flow_loadbalance-CbyXi4Wg.js",
-        "assets/bussiness_flow-RSEgqAO9.js",
-        "assets/logic_flow-D57TWTZ8.js",
-        "assets/highlevel_flow-CyTNhU_F.js"
+        "assets/flow_loadbalance-Dv2yDANK.js",
+        "assets/bussiness_flow-xgTwZVdb.js",
+        "assets/logic_flow-yaFU84o6.js",
+        "assets/highlevel_flow-DjCTvobn.js"
       ]
     },
     {
-      "file": "assets/Nodalume-C2B20d8x.js",
+      "file": "assets/Nodalume-Cs4u4oel.js",
       "imports": [
-        "assets/index-BHyknxkY.js",
-        "assets/CaseStudy-BhGTHTRm.js"
+        "assets/index-OjOxA4fa.js",
+        "assets/CaseStudy-VlnIJ33l.js"
       ],
       "dynamicImports": [
-        "assets/nodalume_flow-DN4hjLZX.js"
+        "assets/nodalume_flow-DfUIHu06.js"
       ]
     },
     {
-      "file": "assets/Metodologia-C4vI7VLq.js",
+      "file": "assets/Metodologia-AJHYx2gq.js",
       "imports": [
-        "assets/index-BHyknxkY.js",
-        "assets/ProjectMessages-CH6kJp5S.js",
-        "assets/CaseStudy-BhGTHTRm.js"
+        "assets/index-OjOxA4fa.js",
+        "assets/ProjectMessages-BQ3Cj-S1.js",
+        "assets/CaseStudy-VlnIJ33l.js"
       ],
       "dynamicImports": [
-        "assets/metodologia_problem_flow-XF2VCGA7.js",
-        "assets/metodologia_solution_flow-tenFG1Zf.js"
+        "assets/metodologia_problem_flow-BQ1_96NY.js",
+        "assets/metodologia_solution_flow-DZp_4mDg.js"
       ]
     }
   ],
   "flowFiles": [
-    "assets/style-D7DnZpRt.js"
+    "assets/style-QSoYKWUs.js"
   ]
 }

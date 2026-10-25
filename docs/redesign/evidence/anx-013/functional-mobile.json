@@ -5,11 +5,11 @@
       "width": 375,
       "before": {
         "active": "console-backend",
-        "offset": "9.95625%"
+        "offset": "13.1313%"
       },
       "after": {
         "active": "console-backend",
-        "offset": "11.8438%"
+        "offset": "15.0125%"
       },
       "languages": [
         {
@@ -26,7 +26,12 @@
           "paused": "true",
           "playing": "false",
           "signalState": "paused",
-          "zoom": "translate(14.625px, -26px) scale(0.9375)"
+          "zoom": "translate(14.625px, -26px) scale(0.9375)",
+          "zoomLabels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ]
         },
         {
           "edges": 4,
@@ -42,7 +47,12 @@
           "paused": "true",
           "playing": "false",
           "signalState": "paused",
-          "zoom": "translate(14.625px, -26px) scale(0.9375)"
+          "zoom": "translate(14.625px, -26px) scale(0.9375)",
+          "zoomLabels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ]
         }
       ],
       "resumed": true,
@@ -53,11 +63,11 @@
       "width": 375,
       "before": {
         "active": "portal-page",
-        "offset": "13.1125%"
+        "offset": "13.1938%"
       },
       "after": {
         "active": "portal-page",
-        "offset": "15.6125%"
+        "offset": "15.075%"
       },
       "languages": [
         {
@@ -74,7 +84,12 @@
           "paused": "true",
           "playing": "false",
           "signalState": "paused",
-          "zoom": "translate(16.17px, -26px) scale(0.927467)"
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ]
         },
         {
           "edges": 4,
@@ -90,7 +105,12 @@
           "paused": "true",
           "playing": "false",
           "signalState": "paused",
-          "zoom": "translate(16.17px, -26px) scale(0.927467)"
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ]
         }
       ],
       "resumed": true,
@@ -101,11 +121,11 @@
       "width": 375,
       "before": {
         "active": "lab-baseline",
-        "offset": "13.1313%"
+        "offset": "13.25%"
       },
       "after": {
         "active": "lab-baseline",
-        "offset": "18.1375%"
+        "offset": "17.0063%"
       },
       "languages": [
         {
@@ -122,7 +142,12 @@
           "paused": "true",
           "playing": "false",
           "signalState": "paused",
-          "zoom": "translate(16.17px, -26px) scale(0.927467)"
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ]
         },
         {
           "edges": 4,
@@ -138,7 +163,12 @@
           "paused": "true",
           "playing": "false",
           "signalState": "paused",
-          "zoom": "translate(16.17px, -26px) scale(0.927467)"
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ]
         }
       ],
       "resumed": true,

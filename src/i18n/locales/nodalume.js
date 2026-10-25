@@ -126,5 +126,19 @@ export default defineMessages({ fromEnglish: {
   "Explore options": "Explorar opciones",
   "Test assumptions": "Probar supuestos",
   "Future evaluation sequence. These are questions to resolve, not an implemented cloud topology. No infrastructure resources are provisioned by this case study.": "Secuencia futura de evaluación. Son preguntas por resolver, no una topología cloud implementada. Este caso de estudio no aprovisiona recursos de infraestructura.",
-  "Explore the SSH case study": "Explorar el caso de monitoreo SSH"
+  "Explore the SSH case study": "Explorar el caso de monitoreo SSH",
+  "Case study sections": "Secciones del caso de estudio",
+  "Zoom In": "Acercar",
+  "Zoom Out": "Alejar",
+  "Fit View": "Ajustar vista",
+  "Toggle Interactivity": "Alternar interacción",
+  "Diagram overview": "Vista general del diagrama",
+  "Connection handle": "Punto de conexión",
+  "Technical diagram node. Read its label and description.": "Nodo del diagrama técnico. Lee su etiqueta y descripción.",
+  "Directed connection between diagram components.": "Conexión dirigida entre componentes del diagrama.",
+  "Diagram controls": "Controles del diagrama",
+  "Loading interactive diagram…": "Cargando diagrama interactivo…",
+  "Unable to load this diagram.": "No se pudo cargar este diagrama.",
+  "Check your connection and reload to try again. The case study remains available.": "Comprueba tu conexión y recarga para volver a intentarlo. El caso de estudio sigue disponible.",
+  "Reload diagram": "Recargar diagrama"
 } });
