@@ -1,0 +1,39 @@
+{
+  "heroStates": [
+    {
+      "focus": "en",
+      "hash": "#hero",
+      "language": "en",
+      "pressed": "true",
+      "static": "true"
+    },
+    {
+      "focus": "es",
+      "hash": "#hero",
+      "language": "es",
+      "pressed": "true",
+      "static": "true"
+    }
+  ],
+  "menuOpen": {
+    "expanded": "true",
+    "focus": "Perfil",
+    "href": "#about"
+  },
+  "menuClosed": {
+    "expanded": "false",
+    "focus": "button menu-toggle"
+  },
+  "reloadState": {
+    "focus": "diagram-methodology-solution",
+    "hash": "#diagram-methodology-solution",
+    "language": "es",
+    "route": "/projects/metodologia"
+  },
+  "backState": {
+    "focus": "projects",
+    "hash": "#projects",
+    "language": "es",
+    "route": "/"
+  }
+}

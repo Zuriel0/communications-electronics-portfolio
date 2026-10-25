@@ -1,0 +1,390 @@
+{
+  "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+  "origins": {
+    "baseline": "http://127.0.0.1:4180",
+    "candidate": "http://127.0.0.1:4173"
+  },
+  "groups": [
+    {
+      "version": "baseline",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 99
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2108.0974,
+        "min": 2102.038,
+        "max": 2108.8572999999997
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 1,
+        "min": 0.5,
+        "max": 2
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "mobile",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 95,
+        "min": 95,
+        "max": 95
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2767.40965,
+        "min": 2728.7473,
+        "max": 2775.82165
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 3.5
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "mobile",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 95,
+        "min": 95,
+        "max": 95
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2754.28155,
+        "min": 2727.59445,
+        "max": 2754.6984
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "desktop",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 443.1653,
+        "min": 442.504,
+        "max": 444.0964
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "desktop",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 569.94665,
+        "min": 569.45975,
+        "max": 571.7827
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "desktop",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 569.9314999999999,
+        "min": 569.6636000000001,
+        "max": 570.17255
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 99
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2026.9807,
+        "min": 2026.8028,
+        "max": 2033.045
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 1,
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 98,
+        "min": 98,
+        "max": 98
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2276.60265,
+        "min": 2276.5825999999997,
+        "max": 2284.10185
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 98,
+        "min": 98,
+        "max": 98
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2277.13155,
+        "min": 2275.5584,
+        "max": 2277.1395
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 442.1182,
+        "min": 442.0016,
+        "max": 442.8853
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 490.9453,
+        "min": 489.174,
+        "max": 492.42064999999997
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 489.3498,
+        "min": 488.86665,
+        "max": 490.09875
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "versions": [
+    "baseline",
+    "candidate"
+  ],
+  "profiles": [
+    "mobile",
+    "desktop"
+  ],
+  "repetitions": 3
+}

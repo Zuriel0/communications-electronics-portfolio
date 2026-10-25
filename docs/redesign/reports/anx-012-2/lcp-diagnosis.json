@@ -1,0 +1,222 @@
+[
+  {
+    "id": "baseline-concurrencia-mobile-1",
+    "simulatedLCP": 2728.7473,
+    "lcpBreakdownObserved": {
+      "type": "list",
+      "items": [
+        {
+          "type": "table",
+          "headings": [
+            {
+              "key": "label",
+              "valueType": "text",
+              "label": "Subpart"
+            },
+            {
+              "key": "duration",
+              "valueType": "ms",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "subpart": "timeToFirstByte",
+              "label": "Time to first byte",
+              "duration": 1.779
+            },
+            {
+              "subpart": "elementRenderDelay",
+              "label": "Element render delay",
+              "duration": 349.691
+            }
+          ]
+        },
+        {
+          "type": "node",
+          "lhId": "page-0-P",
+          "path": "1,HTML,1,BODY,0,DIV,2,MAIN,0,ARTICLE,0,HEADER,0,DIV,1,DIV,1,DIV,0,DIV,0,P",
+          "selector": "div > div.case-brief > div.case-intro-copy > p.case-lead",
+          "boundingRect": {
+            "top": 305,
+            "bottom": 424,
+            "left": 20,
+            "right": 392,
+            "width": 372,
+            "height": 119
+          },
+          "snippet": "<p class=\"case-lead\">",
+          "nodeLabel": "One MAC address. Multiple possible destinations. A command-line tool that bring…"
+        }
+      ]
+    },
+    "requests": [
+      {
+        "asset": "concurrencia",
+        "resourceType": "Document",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 899,
+        "resourceSize": 1356
+      },
+      {
+        "asset": "inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 48752,
+        "resourceSize": 48432
+      },
+      {
+        "asset": "index-XDcRipZe.js",
+        "resourceType": "Script",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 102226,
+        "resourceSize": 321620
+      },
+      {
+        "asset": "index-DlaZ41Kf.css",
+        "resourceType": "Stylesheet",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 8880,
+        "resourceSize": 44625
+      },
+      {
+        "asset": "Concurrencia-XfPudlBa.js",
+        "resourceType": "Script",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 10288,
+        "resourceSize": 43058
+      },
+      {
+        "asset": "CaseStudy-BHSvw-EZ.js",
+        "resourceType": "Script",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 73242,
+        "resourceSize": 221176
+      },
+      {
+        "asset": "CaseStudy-DsM9Y4dG.css",
+        "resourceType": "Stylesheet",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 4406,
+        "resourceSize": 21769
+      }
+    ]
+  },
+  {
+    "id": "candidate-concurrencia-mobile-1",
+    "simulatedLCP": 2284.10185,
+    "lcpBreakdownObserved": {
+      "type": "list",
+      "items": [
+        {
+          "type": "table",
+          "headings": [
+            {
+              "key": "label",
+              "valueType": "text",
+              "label": "Subpart"
+            },
+            {
+              "key": "duration",
+              "valueType": "ms",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "subpart": "timeToFirstByte",
+              "label": "Time to first byte",
+              "duration": 1.864
+            },
+            {
+              "subpart": "elementRenderDelay",
+              "label": "Element render delay",
+              "duration": 346.201
+            }
+          ]
+        },
+        {
+          "type": "node",
+          "lhId": "page-0-P",
+          "path": "1,HTML,1,BODY,0,DIV,2,MAIN,0,ARTICLE,0,HEADER,0,DIV,1,DIV,1,DIV,0,DIV,0,P",
+          "selector": "div > div.case-brief > div.case-intro-copy > p.case-lead",
+          "boundingRect": {
+            "top": 305,
+            "bottom": 424,
+            "left": 20,
+            "right": 392,
+            "width": 372,
+            "height": 119
+          },
+          "snippet": "<p class=\"case-lead\">",
+          "nodeLabel": "One MAC address. Multiple possible destinations. A command-line tool that bring…"
+        }
+      ]
+    },
+    "requests": [
+      {
+        "asset": "concurrencia",
+        "resourceType": "Document",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 900,
+        "resourceSize": 1356
+      },
+      {
+        "asset": "inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 48752,
+        "resourceSize": 48432
+      },
+      {
+        "asset": "index-BTWOikn6.js",
+        "resourceType": "Script",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 100115,
+        "resourceSize": 316193
+      },
+      {
+        "asset": "index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 8828,
+        "resourceSize": 44204
+      },
+      {
+        "asset": "Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 4097,
+        "resourceSize": 11350
+      },
+      {
+        "asset": "CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 14237,
+        "resourceSize": 41968
+      },
+      {
+        "asset": "CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "startTime": null,
+        "endTime": null,
+        "transferSize": 2092,
+        "resourceSize": 6636
+      }
+    ]
+  }
+]

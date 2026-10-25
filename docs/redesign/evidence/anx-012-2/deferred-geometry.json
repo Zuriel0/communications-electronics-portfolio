@@ -1,0 +1,122 @@
+[
+  {
+    "width": 375,
+    "language": "en",
+    "id": "diagram-highlevel",
+    "before": {
+      "height": 704,
+      "pending": true,
+      "slot": 785.09375
+    },
+    "after": {
+      "height": 704,
+      "slot": 785.09375
+    },
+    "delta": 0
+  },
+  {
+    "width": 375,
+    "language": "es",
+    "id": "diagram-highlevel",
+    "before": {
+      "height": 704,
+      "pending": true,
+      "slot": 820.1875
+    },
+    "after": {
+      "height": 704,
+      "slot": 820.1875
+    },
+    "delta": 0
+  },
+  {
+    "width": 375,
+    "language": "en",
+    "id": "diagram-methodology-solution",
+    "before": {
+      "height": 704,
+      "pending": true,
+      "slot": 785.09375
+    },
+    "after": {
+      "height": 704,
+      "slot": 785.09375
+    },
+    "delta": 0
+  },
+  {
+    "width": 375,
+    "language": "es",
+    "id": "diagram-methodology-solution",
+    "before": {
+      "height": 704,
+      "pending": true,
+      "slot": 820.1875
+    },
+    "after": {
+      "height": 704,
+      "slot": 820.1875
+    },
+    "delta": 0
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "id": "diagram-highlevel",
+    "before": {
+      "height": 820,
+      "pending": true,
+      "slot": 904.390625
+    },
+    "after": {
+      "height": 820,
+      "slot": 904.390625
+    },
+    "delta": 0
+  },
+  {
+    "width": 1440,
+    "language": "es",
+    "id": "diagram-highlevel",
+    "before": {
+      "height": 820,
+      "pending": true,
+      "slot": 904.390625
+    },
+    "after": {
+      "height": 820,
+      "slot": 904.390625
+    },
+    "delta": 0
+  },
+  {
+    "width": 1440,
+    "language": "en",
+    "id": "diagram-methodology-solution",
+    "before": {
+      "height": 1180,
+      "pending": true,
+      "slot": 1264.390625
+    },
+    "after": {
+      "height": 1180,
+      "slot": 1264.390625
+    },
+    "delta": 0
+  },
+  {
+    "width": 1440,
+    "language": "es",
+    "id": "diagram-methodology-solution",
+    "before": {
+      "height": 1180,
+      "pending": true,
+      "slot": 1264.390625
+    },
+    "after": {
+      "height": 1180,
+      "slot": 1264.390625
+    },
+    "delta": 0
+  }
+]

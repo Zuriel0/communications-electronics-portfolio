@@ -1,0 +1,601 @@
+{
+  "method": "Real public UI, Enter/Space, direct hashes, all six autoplay/pause/zoom/Fit View/resume; assertions throw on failure.",
+  "rows": [
+    {
+      "route": "concurrencia",
+      "language": "en",
+      "visits": [
+        {
+          "id": "diagram-loadbalance",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(141.117px, 14px) scale(0.67583)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "false",
+                "playing": "false",
+                "zoom": "translate(219.692px, -193.833px) scale(0.490079)"
+              }
+            ],
+            "hash": "#diagram-loadbalance",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-business",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(219.692px, -193.833px) scale(0.490079)"
+              }
+            ],
+            "hash": "#diagram-business",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-logic",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+              },
+              {
+                "id": "diagram-logic",
+                "nodes": 7,
+                "paths": 6,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(2.91209px, 56.9077px) scale(0.602198)"
+              }
+            ],
+            "hash": "#diagram-logic",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-highlevel",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+              },
+              {
+                "id": "diagram-highlevel",
+                "nodes": 12,
+                "paths": 11,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(17.4615px, 1.76923px) scale(0.526923)"
+              },
+              {
+                "id": "diagram-logic",
+                "nodes": 7,
+                "paths": 6,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+              }
+            ],
+            "hash": "#diagram-highlevel",
+            "language": "es"
+          }
+        }
+      ],
+      "before": {
+        "frames": [
+          {
+            "id": "diagram-loadbalance",
+            "nodes": 6,
+            "paths": 4,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+          },
+          {
+            "id": "diagram-business",
+            "nodes": 9,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+          },
+          {
+            "id": "diagram-highlevel",
+            "nodes": 12,
+            "paths": 11,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+          },
+          {
+            "id": "diagram-logic",
+            "nodes": 7,
+            "paths": 6,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+          }
+        ],
+        "hash": "#diagram-highlevel",
+        "language": "es"
+      },
+      "after": {
+        "frames": [
+          {
+            "id": "diagram-loadbalance",
+            "nodes": 6,
+            "paths": 4,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+          },
+          {
+            "id": "diagram-business",
+            "nodes": 9,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+          },
+          {
+            "id": "diagram-highlevel",
+            "nodes": 12,
+            "paths": 11,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+          },
+          {
+            "id": "diagram-logic",
+            "nodes": 7,
+            "paths": 6,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+          }
+        ],
+        "hash": "#diagram-highlevel",
+        "language": "en"
+      }
+    },
+    {
+      "route": "concurrencia",
+      "language": "es",
+      "visits": [
+        {
+          "id": "diagram-loadbalance",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(141.117px, 14px) scale(0.67583)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "false",
+                "playing": "false",
+                "zoom": "translate(219.692px, -193.833px) scale(0.490079)"
+              }
+            ],
+            "hash": "#diagram-loadbalance",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-business",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(219.692px, -193.833px) scale(0.490079)"
+              }
+            ],
+            "hash": "#diagram-business",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-logic",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+              },
+              {
+                "id": "diagram-logic",
+                "nodes": 7,
+                "paths": 6,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(2.91209px, 56.9077px) scale(0.602198)"
+              }
+            ],
+            "hash": "#diagram-logic",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-highlevel",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-loadbalance",
+                "nodes": 6,
+                "paths": 4,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+              },
+              {
+                "id": "diagram-business",
+                "nodes": 9,
+                "paths": 5,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+              },
+              {
+                "id": "diagram-highlevel",
+                "nodes": 12,
+                "paths": 11,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(17.4615px, 1.76923px) scale(0.526923)"
+              },
+              {
+                "id": "diagram-logic",
+                "nodes": 7,
+                "paths": 6,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+              }
+            ],
+            "hash": "#diagram-highlevel",
+            "language": "es"
+          }
+        }
+      ],
+      "before": {
+        "frames": [
+          {
+            "id": "diagram-loadbalance",
+            "nodes": 6,
+            "paths": 4,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+          },
+          {
+            "id": "diagram-business",
+            "nodes": 9,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+          },
+          {
+            "id": "diagram-highlevel",
+            "nodes": 12,
+            "paths": 11,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+          },
+          {
+            "id": "diagram-logic",
+            "nodes": 7,
+            "paths": 6,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+          }
+        ],
+        "hash": "#diagram-highlevel",
+        "language": "es"
+      },
+      "after": {
+        "frames": [
+          {
+            "id": "diagram-loadbalance",
+            "nodes": 6,
+            "paths": 4,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+          },
+          {
+            "id": "diagram-business",
+            "nodes": 9,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+          },
+          {
+            "id": "diagram-highlevel",
+            "nodes": 12,
+            "paths": 11,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+          },
+          {
+            "id": "diagram-logic",
+            "nodes": 7,
+            "paths": 6,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+          }
+        ],
+        "hash": "#diagram-highlevel",
+        "language": "es"
+      }
+    },
+    {
+      "route": "metodologia",
+      "language": "en",
+      "visits": [
+        {
+          "id": "diagram-methodology-problem",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-methodology-problem",
+                "nodes": 6,
+                "paths": 5,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(256.748px, 36.1259px) scale(0.573427)"
+              }
+            ],
+            "hash": "#diagram-methodology-problem",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-methodology-solution",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-methodology-problem",
+                "nodes": 6,
+                "paths": 5,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+              },
+              {
+                "id": "diagram-methodology-solution",
+                "nodes": 6,
+                "paths": 5,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(-16.458px, 51.7413px) scale(0.620979)"
+              }
+            ],
+            "hash": "#diagram-methodology-solution",
+            "language": "es"
+          }
+        }
+      ],
+      "before": {
+        "frames": [
+          {
+            "id": "diagram-methodology-problem",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+          },
+          {
+            "id": "diagram-methodology-solution",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+          }
+        ],
+        "hash": "#diagram-methodology-solution",
+        "language": "es"
+      },
+      "after": {
+        "frames": [
+          {
+            "id": "diagram-methodology-problem",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+          },
+          {
+            "id": "diagram-methodology-solution",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+          }
+        ],
+        "hash": "#diagram-methodology-solution",
+        "language": "en"
+      }
+    },
+    {
+      "route": "metodologia",
+      "language": "es",
+      "visits": [
+        {
+          "id": "diagram-methodology-problem",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-methodology-problem",
+                "nodes": 6,
+                "paths": 5,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(256.748px, 36.1259px) scale(0.573427)"
+              }
+            ],
+            "hash": "#diagram-methodology-problem",
+            "language": "es"
+          }
+        },
+        {
+          "id": "diagram-methodology-solution",
+          "initial": {
+            "frames": [
+              {
+                "id": "diagram-methodology-problem",
+                "nodes": 6,
+                "paths": 5,
+                "paused": "true",
+                "playing": "false",
+                "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+              },
+              {
+                "id": "diagram-methodology-solution",
+                "nodes": 6,
+                "paths": 5,
+                "paused": "false",
+                "playing": "true",
+                "zoom": "translate(-16.458px, 51.7413px) scale(0.620979)"
+              }
+            ],
+            "hash": "#diagram-methodology-solution",
+            "language": "es"
+          }
+        }
+      ],
+      "before": {
+        "frames": [
+          {
+            "id": "diagram-methodology-problem",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+          },
+          {
+            "id": "diagram-methodology-solution",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+          }
+        ],
+        "hash": "#diagram-methodology-solution",
+        "language": "es"
+      },
+      "after": {
+        "frames": [
+          {
+            "id": "diagram-methodology-problem",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+          },
+          {
+            "id": "diagram-methodology-solution",
+            "nodes": 6,
+            "paths": 5,
+            "paused": "true",
+            "playing": "false",
+            "zoom": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+          }
+        ],
+        "hash": "#diagram-methodology-solution",
+        "language": "es"
+      }
+    }
+  ]
+}

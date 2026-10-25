@@ -1,0 +1,11 @@
+{
+  "node": "v24.19.0",
+  "cpu": "Apple M4 Pro",
+  "cores": 12,
+  "platform": "darwin",
+  "arch": "arm64",
+  "lighthouse": "13.5.0",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "baseline": "68e9d40",
+  "method": "Same profiles as ANX-012.1; configSettings retained in all 45 rows/LHR files."
+}

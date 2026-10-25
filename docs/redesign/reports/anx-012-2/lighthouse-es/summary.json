@@ -1,0 +1,109 @@
+{
+  "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+  "origins": {
+    "baseline": "http://127.0.0.1:4180",
+    "candidate": "http://127.0.0.1:4173"
+  },
+  "groups": [
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 99
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2027.388,
+        "min": 2027.2852000000003,
+        "max": 2027.9705
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 21.5
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 98,
+        "min": 98,
+        "max": 98
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2276.71625,
+        "min": 2274.8887,
+        "max": 2284.47355
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 98,
+        "min": 98,
+        "max": 98
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2275.17415,
+        "min": 2274.80755,
+        "max": 2282.1345499999998
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ],
+  "versions": [
+    "candidate"
+  ],
+  "profiles": [
+    "mobile"
+  ],
+  "repetitions": 3
+}

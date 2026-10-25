@@ -1,0 +1,13 @@
+{
+  "entry": "assets/index-BTWOikn6.js",
+  "responsiveViews": 36,
+  "graphViews": 72,
+  "graphs": 6,
+  "nodes": 46,
+  "modelEdges": 37,
+  "drawnPaths": 36,
+  "geometryComparisons": 8,
+  "reducedMotionNavigations": 7,
+  "result": "PASS",
+  "method": "Assertions over current-build real browser observations and real Chrome reduced-motion diagnostics; not an autonomous browser runner."
+}
