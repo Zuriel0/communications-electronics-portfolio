@@ -1,0 +1,26 @@
+{
+  "hero": [
+    {
+      "credentials": 18,
+      "entry": "/assets/index-BTWOikn6.js",
+      "language": "en",
+      "legacy": false,
+      "paused": "true",
+      "static": "true"
+    },
+    {
+      "credentials": 18,
+      "entry": "/assets/index-BTWOikn6.js",
+      "language": "es",
+      "legacy": false,
+      "paused": "true",
+      "static": "true"
+    }
+  ],
+  "navigation": {
+    "focus": "projects",
+    "hash": "#projects",
+    "language": "es"
+  },
+  "console": []
+}

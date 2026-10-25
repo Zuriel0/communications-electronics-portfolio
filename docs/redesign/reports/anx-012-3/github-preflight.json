@@ -1,0 +1,64 @@
+[
+  {
+    "endpoint": "hooks",
+    "status": 200,
+    "result": []
+  },
+  {
+    "endpoint": "actions/workflows",
+    "status": 200,
+    "result": {
+      "total_count": 0,
+      "workflows": []
+    }
+  },
+  {
+    "endpoint": "actions/runs",
+    "status": 200,
+    "result": {
+      "total_count": 0,
+      "runs": []
+    }
+  },
+  {
+    "endpoint": "deployments",
+    "status": 200,
+    "result": []
+  },
+  {
+    "endpoint": "environments",
+    "status": 200,
+    "result": {
+      "total_count": 0,
+      "environments": []
+    }
+  },
+  {
+    "endpoint": "pages",
+    "status": "404",
+    "message": "gh: Not Found (HTTP 404)"
+  },
+  {
+    "endpoint": "rulesets",
+    "status": 200,
+    "result": []
+  },
+  {
+    "endpoint": "branches/main/protection",
+    "status": "404",
+    "message": "gh: Branch not protected (HTTP 404)"
+  },
+  {
+    "endpoint": "releases",
+    "status": 200,
+    "result": [
+      {
+        "tag": "v1.0.0",
+        "url": "https://github.com/Zuriel0/communications-electronics-portfolio/releases/tag/v1.0.0",
+        "draft": false,
+        "prerelease": false,
+        "target": "5e388c925ec2a705bb1a019711452c72aa51c1ea"
+      }
+    ]
+  }
+]

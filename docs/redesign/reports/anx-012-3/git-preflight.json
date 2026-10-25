@@ -1,0 +1,34 @@
+{
+  "initialMain": "5e388c925ec2a705bb1a019711452c72aa51c1ea",
+  "development": "d6f51ce28fe2626c142b7e9ad555a6ece32eae51",
+  "integration": "codex/anx-012-release-integration",
+  "integrationRuntime": "d6f51ce28fe2626c142b7e9ad555a6ece32eae51",
+  "aheadBehind": "0\t6",
+  "commits": [
+    {
+      "sha": "9bf8301ae95a88f0451f7d3ca0cd7fd06ae2a061",
+      "subject": "feat: add bilingual professional capabilities and AWS preparation"
+    },
+    {
+      "sha": "0c28be37844f0e6131ebf688ee7ecd4300697835",
+      "subject": "docs: record ANX-012 bilingual validation and visual evidence"
+    },
+    {
+      "sha": "c3f17690420886ed6bf3d052e0aa5c9cdf81c6e2",
+      "subject": "perf: deduplicate bilingual catalogs and refine technical copy"
+    },
+    {
+      "sha": "68e9d40fafe9aafcc0398fe8515bc59ba93462f5",
+      "subject": "docs: record bilingual release-readiness audit and Lighthouse comparison"
+    },
+    {
+      "sha": "d6653699c5e38a3809dc7372d44b319c2e57c2c4",
+      "subject": "perf: defer case study diagrams and refine professional content"
+    },
+    {
+      "sha": "d6f51ce28fe2626c142b7e9ad555a6ece32eae51",
+      "subject": "docs: validate ANX-012.2 performance and bilingual experience"
+    }
+  ],
+  "strategy": "Integration branch created from origin/main; --ff-only of the ANX-012 branch; no conflicts and no duplicate dark-theme merge."
+}

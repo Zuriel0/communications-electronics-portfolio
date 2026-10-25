@@ -1,0 +1,78 @@
+{
+  "reference": "ANX-012.2 / d6f51ce28fe2626c142b7e9ad555a6ece32eae51",
+  "identical": true,
+  "files": [
+    {
+      "file": "assets/CaseStudy-D1a2x9k9.css",
+      "bytes": 6636,
+      "sha256": "2e410835ec202948785e4b30fcc54fa4cbce7cdbea4b857fc10afd38da3019b4"
+    },
+    {
+      "file": "assets/CaseStudy-Ds426gH4.js",
+      "bytes": 41968,
+      "sha256": "1a7bcc3670b10d032aabe828a4110e5711b93e59c65b22485fdf9b9b6bf9954e"
+    },
+    {
+      "file": "assets/style-BZV40eAE.css",
+      "bytes": 15851,
+      "sha256": "77eb229e70c7949e1d9e4f542afdf7b38d85eccc656a7c3ee9b8429a339872be"
+    },
+    {
+      "file": "assets/style-Bvy3m9XQ.js",
+      "bytes": 181485,
+      "sha256": "e841bf6ddda7191f472461128f55820cbca571daf9ca3a82d76f76c12e8ee3df"
+    },
+    {
+      "file": "assets/index-BTWOikn6.js",
+      "bytes": 316193,
+      "sha256": "1aae1f38b2e4ea373e97b51757fd35850dfa7ee85db50fb6fdf8b7c5a380efdf"
+    },
+    {
+      "file": "assets/bussiness_flow-c071WJDY.js",
+      "bytes": 8953,
+      "sha256": "1a1cf2680fc3e8d3b07ef8cadca2b908187fd76b71a47f6b8eb4ced4e7f6cd28"
+    },
+    {
+      "file": "assets/flow_loadbalance-HKCWxbEb.js",
+      "bytes": 6171,
+      "sha256": "182ce358bf4150c16862575f999a1dbc43e255dd831ec16cadbe6580c81e8f6a"
+    },
+    {
+      "file": "assets/highlevel_flow-07E8VPCm.js",
+      "bytes": 11108,
+      "sha256": "3a9390ffed07589a67c01b0552a422ae6ab3fe4cfa528073bcab2807c51451f8"
+    },
+    {
+      "file": "assets/logic_flow-CzJ0G_9O.js",
+      "bytes": 7273,
+      "sha256": "9aa13192a40ff911042a941c7523d2e2675813e0857e20b505860867f890b513"
+    },
+    {
+      "file": "assets/metodologia_problem_flow-DrJ2alVL.js",
+      "bytes": 4744,
+      "sha256": "a2fc33e3d7599790fec701629fb857489aa751d001e3e68ca9e385af2fdf0e81"
+    },
+    {
+      "file": "assets/metodologia_solution_flow-CZ9VsHBB.js",
+      "bytes": 4725,
+      "sha256": "f811e7611fd1b4f9f72242e08521db73fe5cc8538b94ba0f1d54afd286e7e6c3"
+    },
+    {
+      "file": "assets/Concurrencia-D4LmTub0.js",
+      "bytes": 11350,
+      "sha256": "43e3db306260301a3f67a5565d2e449451afdf515f8f5729fbca24570b933436"
+    },
+    {
+      "file": "assets/Metodologia-zCGKFjCR.js",
+      "bytes": 8973,
+      "sha256": "7a51f6c94f5d42d0d97d4a6f354a486afc0becff018aadcc212c614dac24926e"
+    },
+    {
+      "file": "assets/index-BQtJppzI.css",
+      "bytes": 44204,
+      "sha256": "8f8719951a23bd233ca09dbbd98627636d656bfe8c460b4b424a1d5c6eb126bb"
+    }
+  ],
+  "requiresNewLighthouse": false,
+  "reason": "All generated JS/CSS asset hashes match the approved ANX-012.2 build. Integration changes only release documentation."
+}

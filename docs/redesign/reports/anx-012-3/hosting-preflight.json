@@ -1,0 +1,32 @@
+{
+  "url": "https://anxzu.com/",
+  "httpStatus": 200,
+  "server": "GitHub.com",
+  "title": "AnxZu",
+  "script": "/assets/index-B8wHry4b.js",
+  "htmlSHA256": "fb5b2611a7633b385679ffcd9b24f0d8567775a505f42da07430097bb647fb5c",
+  "lastModified": "Thu, 22 Oct 2026 05:00:21 GMT",
+  "hostingRepository": "Zuriel0/page",
+  "cname": "anxzu.com",
+  "buildType": "legacy",
+  "source": {
+    "branch": "main",
+    "path": "/"
+  },
+  "lastBuild": {
+    "commit": "efed3f2434b2ad184a864bd8b0d5d6ce87d42fdd",
+    "createdAt": "2026-10-22T04:59:31Z",
+    "updatedAt": "2026-10-22T05:00:22Z",
+    "status": "built"
+  },
+  "releaseRepository": "Zuriel0/communications-electronics-portfolio",
+  "repositoryMechanisms": {
+    "workflows": 0,
+    "workflowRuns": 0,
+    "hooks": 0,
+    "deployments": 0,
+    "environments": 0,
+    "pages": false
+  },
+  "decision": "No identified automatic deployment path from the release repository. The domain is configured on a separate repository; do not modify that repository or manually deploy."
+}

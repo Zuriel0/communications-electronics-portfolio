@@ -1,0 +1,161 @@
+{
+  "method": "Fresh deep-route reload per graph; real Enter controls and EN/ES; AX state checks between dependent keyboard actions.",
+  "rows": [
+    {
+      "id": "diagram-loadbalance",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-loadbalance",
+          "language": "en",
+          "nodes": 6,
+          "paths": 4,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+        },
+        {
+          "hash": "#diagram-loadbalance",
+          "language": "es",
+          "nodes": 6,
+          "paths": 4,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(54.3402px, -45px) scale(0.810997)"
+        }
+      ],
+      "resumed": true,
+      "fitViewExercised": true
+    },
+    {
+      "id": "diagram-business",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-business",
+          "language": "en",
+          "nodes": 9,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+        },
+        {
+          "hash": "#diagram-business",
+          "language": "es",
+          "nodes": 9,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(148.631px, -284.4px) scale(0.588095)"
+        }
+      ],
+      "resumed": true,
+      "fitViewExercised": true
+    },
+    {
+      "id": "diagram-logic",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-logic",
+          "language": "en",
+          "nodes": 7,
+          "paths": 6,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+        },
+        {
+          "hash": "#diagram-logic",
+          "language": "es",
+          "nodes": 7,
+          "paths": 6,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-111.505px, 13.4892px) scale(0.722637)"
+        }
+      ],
+      "resumed": true,
+      "fitViewExercised": true
+    },
+    {
+      "id": "diagram-highlevel",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-highlevel",
+          "language": "en",
+          "nodes": 12,
+          "paths": 11,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+        },
+        {
+          "hash": "#diagram-highlevel",
+          "language": "es",
+          "nodes": 12,
+          "paths": 11,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-94.0462px, -65.6769px) scale(0.632308)"
+        }
+      ],
+      "resumed": true,
+      "fitViewExercised": true
+    },
+    {
+      "id": "diagram-methodology-problem",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-methodology-problem",
+          "language": "en",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+        },
+        {
+          "hash": "#diagram-methodology-problem",
+          "language": "es",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(193.098px, -55.049px) scale(0.688112)"
+        }
+      ],
+      "resumed": true,
+      "fitViewExercised": true
+    },
+    {
+      "id": "diagram-methodology-solution",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-methodology-solution",
+          "language": "en",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+        },
+        {
+          "hash": "#diagram-methodology-solution",
+          "language": "es",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-87.2497px, -44.3105px) scale(0.745175)"
+        }
+      ],
+      "resumed": true,
+      "fitViewExercised": true
+    }
+  ]
+}

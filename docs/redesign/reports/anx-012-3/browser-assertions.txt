@@ -1,0 +1,1 @@
+PASS: recorded real UI observations match the final build; responsive, autoplay, pause/zoom/language, geometry, focus and reduced motion.
