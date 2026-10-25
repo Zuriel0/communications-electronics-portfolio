@@ -36,13 +36,16 @@ for (const page of ['Concurrencia', 'Metodologia']) {
   const route = chunks.find(chunk => chunk.facade?.endsWith(`/pages/projects/${page}.jsx`));
   assert.ok(route, `${page} has its own dynamic chunk`);
   assert.ok(entry.dynamicImports.includes(route.file), `${page} is a dynamic import from the entry`);
-  assert.ok(closure(route).flatMap(chunk => chunk.modules).some(id => id.includes('/@xyflow/react/')), `${page} retains React Flow`);
+  assert.equal(closure(route).flatMap(chunk => chunk.modules).filter(id => flowOnly.test(id)).length, 0, `${page} editorial content does not wait for React Flow`);
+  const diagrams = closure(route).flatMap(chunk => chunk.dynamicImports).map(file => chunks.find(chunk => chunk.file === file)).filter(chunk => /\/graphics\//.test(chunk?.facade || ''));
+  assert.equal(diagrams.length, page === 'Concurrencia' ? 4 : 2, `${page} retains every lazy diagram`);
+  for (const diagram of diagrams) assert.ok(closure(diagram).flatMap(chunk => chunk.modules).some(id => id.includes('/@xyflow/react/')), `${diagram.facade} retains the graph runtime`);
 }
 const report = {
   initialFiles: initial.map(chunk => chunk.file),
-  routes: chunks.filter(chunk => /\/pages\/projects\//.test(chunk.facade || '')).map(chunk => ({ file: chunk.file, imports: chunk.imports })),
+  routes: chunks.filter(chunk => /\/pages\/projects\//.test(chunk.facade || '')).map(chunk => ({ file: chunk.file, imports: chunk.imports, dynamicImports: chunk.dynamicImports })),
   flowFiles: chunks.filter(chunk => chunk.modules.some(id => flowOnly.test(id))).map(chunk => chunk.file),
 };
 await writeFile('/tmp/anx004-chunks.json', JSON.stringify(report, null, 2));
-console.log('PASS: home excludes React Flow/d3/zustand; both dynamic project routes retain their diagrams.');
+console.log('PASS: home excludes React Flow/d3/zustand; editorial project chunks exclude React Flow; six lazy diagrams retain their graph runtime.');
 console.log(JSON.stringify(report, null, 2));

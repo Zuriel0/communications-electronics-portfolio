@@ -59,7 +59,7 @@ export default function Credentials() {
               <h4 lang="en"><Text>{item.name}</Text></h4>
               <p><Text>{item.issuer}</Text> <span aria-hidden="true"><Text>{"·"}</Text></span> <Text>{item.examCode}</Text></p>
               <p><Text>{"Hands-on AWS networking labs support this preparation. This certification has not been earned."}</Text></p>
-              <ActionLink href={item.url} target="_blank" className="credential-verify" aria-label={t("View AWS certification details (opens in a new tab)")}><Text>{"View certification details"}</Text><FiArrowUpRight aria-hidden="true" focusable="false" /></ActionLink>
+              <ActionLink href={item.url} target="_blank" className="credential-verify" aria-label={t("View certification details (opens in a new tab)")}><Text>{"View certification details"}</Text><FiArrowUpRight aria-hidden="true" focusable="false" /></ActionLink>
             </div>
           </article>)}</Text>
         </div>

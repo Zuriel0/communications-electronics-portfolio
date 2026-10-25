@@ -121,7 +121,6 @@ export default defineMessages({
     "The solution view refines the same sequence from native-page analysis to a reviewed, integration-ready change. Generation is one stage; it does not replace constraint analysis or manual validation.": "La vista de solución refina la misma secuencia desde el análisis de la página nativa hasta un cambio revisado y listo para integrar. La generación es una etapa; no sustituye el análisis de restricciones ni la validación manual.",
     "The tool runs in an Ubuntu terminal. Bash coordinates the documented workflow, SSH provides remote access, and external configuration defines the targets, connection parameters and optional Web policy. Matches return to a central console with their source identity.": "La herramienta se ejecuta en una terminal Ubuntu. Bash coordina el flujo documentado, SSH proporciona el acceso remoto y la configuración externa define destinos, parámetros de conexión y política web opcional. Las coincidencias regresan a una consola central con su identidad de origen.",
     "The two SSH branches represent independent observation. Their matches converge on a shared output. The optional Web policy is a reference rule, not an extra data-transfer path; the illustrative animation is not an execution log.": "Las dos ramas SSH representan observación independiente. Sus coincidencias convergen en una salida compartida. La política web opcional es una regla de referencia, no una transferencia adicional; la animación ilustrativa no es un registro de ejecución.",
-    "These ranges describe the owner-reported experience. They do not establish a verified percentage saving, comparable task complexity or a guaranteed result for another project.": "Estos rangos describen la experiencia reportada por el propietario. No establecen un porcentaje de ahorro verificado, una complejidad comparable entre tareas ni un resultado garantizado para otro proyecto.",
     "This is a qualitative outcome from my project account, rather than a timed diagnostic benchmark or a measured reliability claim.": "Es un resultado cualitativo del relato de mi proyecto, no una prueba cronometrada de diagnóstico ni una medición de confiabilidad.",
     "This is the constraint-led view of the method, not a separate algorithm. The endpoint is a customization ready to integrate; the illustration does not establish a production deployment.": "Esta es la vista del método desde sus restricciones, no un algoritmo distinto. El resultado es una personalización lista para integrar; la ilustración no demuestra un despliegue en producción.",
     "Toggle Interactivity": "Alternar interacción",
@@ -142,7 +141,12 @@ export default defineMessages({
     "retain server origin, source type and the matching log line in one console.": "conservar el servidor de origen, el tipo de fuente y la línea coincidente en una consola.",
     "the concurrent log monitor": "el monitor concurrente de logs",
     "the customization methodology": "la metodología de personalización",
-    "validate and normalize the MAC address before preparing the search.": "validar y normalizar la dirección MAC antes de preparar la búsqueda."
+    "validate and normalize the MAC address before preparing the search.": "validar y normalizar la dirección MAC antes de preparar la búsqueda.",
+    "Loading interactive diagram…": "Cargando diagrama interactivo…",
+    "Unable to load this diagram.": "No se pudo cargar este diagrama.",
+    "Check your connection and reload to try again. The case study remains available.": "Comprueba tu conexión y recarga para volver a intentarlo. El caso de estudio sigue disponible.",
+    "Reload diagram": "Recargar diagrama",
+    "These self-reported ranges describe my experience with the method. Task complexity varies; they are not a controlled benchmark or a guaranteed result for another project.": "Estos rangos reportados describen mi experiencia con el método. La complejidad de cada tarea varía; no son una prueba controlada ni garantizan resultados en otros proyectos."
   },
   "fromSpanish": {
     "1. interacción web": "1. web interaction",

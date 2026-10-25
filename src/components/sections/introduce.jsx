@@ -1,9 +1,10 @@
+import { lazy } from 'react';
 import Text from "../../i18n/Text.jsx";
 import useTranslation from "../../i18n/useTranslation.js";
-import LoadBalancerTraceabilityDiagram from '../ui/graphics/flow_loadbalance';
-import BusinessFlowDiagram from '../ui/graphics/bussiness_flow';
-import LogicFlow from '../ui/graphics/logic_flow';
-import HighLevelArchitecture from '../ui/graphics/highlevel_flow';
+const LoadBalancerTraceabilityDiagram = lazy(() => import('../ui/graphics/flow_loadbalance'));
+const BusinessFlowDiagram = lazy(() => import('../ui/graphics/bussiness_flow'));
+const LogicFlow = lazy(() => import('../ui/graphics/logic_flow'));
+const HighLevelArchitecture = lazy(() => import('../ui/graphics/highlevel_flow'));
 import { CaseIntro, CaseSection, CaseFigure, CaseDecisions, CaseClosing } from '../ui/CaseStudy.jsx';
 
 export default function Introduce() {
@@ -30,14 +31,14 @@ export default function Introduce() {
           <p><Text>{"A load balancer decides which web server handles an incoming request. When investigating a specific MAC address, the operator cannot know in advance which server holds the relevant event. Checking each machine separately divides the investigation across multiple log sources."}</Text></p>
           <aside className="case-aside"><h3><Text>{"The engineering challenge"}</Text></h3><p><Text>{"Observe every possible web destination while retaining visibility into authentication. A web match should identify the source without ending RADIUS supervision."}</Text></p></aside>
         </div>
-        <CaseFigure reading="Read this as destination uncertainty: one request reaches one selected web server. The three drawn destinations are representative; the monitoring scope in this project is six web servers. The animation illustrates routing, not live traffic.">
+        <CaseFigure diagramId="diagram-loadbalance" height={760} mobileHeight={550} reading="Read this as destination uncertainty: one request reaches one selected web server. The three drawn destinations are representative; the monitoring scope in this project is six web servers. The animation illustrates routing, not live traffic.">
           <LoadBalancerTraceabilityDiagram />
         </CaseFigure>
         <div className="case-diagram-context">
           <h3><Text>{"Business order and monitoring order are different."}</Text></h3>
           <p><Text>{"The documented business flow moves from a successful web operation to RADIUS authentication. Observation spans both domains concurrently, through independent Web and RADIUS monitoring groups. Starting both observers does not make the business transaction itself parallel."}</Text></p>
         </div>
-        <CaseFigure reading="The solid business path is conditional: authentication follows successful web processing. The separate observation branches explain why RADIUS monitoring can remain active while Web monitoring changes.">
+        <CaseFigure diagramId="diagram-business" height={660} mobileHeight={550} reading="The solid business path is conditional: authentication follows successful web processing. The separate observation branches explain why RADIUS monitoring can remain active while Web monitoring changes.">
           <BusinessFlowDiagram />
         </CaseFigure>
       </CaseSection>
@@ -52,7 +53,7 @@ export default function Introduce() {
         <div id="highLevel" tabIndex={-1} role="group" aria-labelledby="architecture-detail-title" className="case-diagram-context">
           <h3 id="architecture-detail-title"><Text>{"The boundary between the tool and its environment."}</Text></h3>
           <p><Text>{"The local side contains the operator, configuration, orchestrator and console. The remote side contains the SSH connections and log sources being observed. The monitored service infrastructure is the project’s operating context."}</Text></p>
-          <CaseFigure reading="Follow the local orchestrator to the two remote observation groups, then back to the console. The log paths are labels from the documented architecture; they do not independently establish a deployed product, version or administration responsibility."><HighLevelArchitecture /></CaseFigure>
+          <CaseFigure diagramId="diagram-highlevel" height={820} mobileHeight={550} reading="Follow the local orchestrator to the two remote observation groups, then back to the console. The log paths are labels from the documented architecture; they do not independently establish a deployed product, version or administration responsibility."><HighLevelArchitecture /></CaseFigure>
         </div>
       </CaseSection>
       <CaseSection id="flowSystem" title={t("From a MAC address to a traceable match.")}>
@@ -65,7 +66,7 @@ export default function Introduce() {
           </ol>
           <aside className="case-aside"><h3><Text>{"A policy for searches"}</Text></h3><p><Text>{"Narrowing the Web group concerns monitoring sessions, not shutting down web servers. It does not change the authentication service or imply automatic RADIUS failover."}</Text></p><p><Text>{"Input and configuration precede observation. Concurrency describes remote monitoring, rather than every operation in the tool."}</Text></p></aside>
         </div>
-        <CaseFigure reading="The two SSH branches represent independent observation. Their matches converge on a shared output. The optional Web policy is a reference rule, not an extra data-transfer path; the illustrative animation is not an execution log."><LogicFlow /></CaseFigure>
+        <CaseFigure diagramId="diagram-logic" height={690} mobileHeight={550} reading="The two SSH branches represent independent observation. Their matches converge on a shared output. The optional Web policy is a reference rule, not an extra data-transfer path; the illustrative animation is not an execution log."><LogicFlow /></CaseFigure>
       </CaseSection>
       <CaseSection id="decisions" title={t("Decisions that preserve visibility.")}>
         <CaseDecisions items={[

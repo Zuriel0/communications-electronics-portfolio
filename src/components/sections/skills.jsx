@@ -1,10 +1,8 @@
 import Text from "../../i18n/Text.jsx";
 import useTranslation from "../../i18n/useTranslation.js";
-import { skills } from '../../data/skills';
 import { capabilityAreas, evidenceContexts } from '../../data/capabilities';
 import Container from '../ui/Container';
 import SectionHeading from '../ui/SectionHeading';
-import TechnicalCards from '../ui/Technical_Cards';
 import ActionLink from '../ui/ActionLink';
 import { FiArrowDown } from 'react-icons/fi';
 import '../../style/skills.css';
@@ -29,11 +27,6 @@ export default function Skills() {
           </div>
         </div>)}</Text>
       </div>
-      <details className="capability-additional">
-        <summary><Text>{"Additional technologies & previous capabilities"}</Text></summary>
-        <p><Text>{"The original capability inventory remains available with its existing context."}</Text></p>
-        <ul className="capability-entries"><Text>{skills.map(skill => <TechnicalCards key={skill.id} {...skill} />)}</Text></ul>
-      </details>
       <div className="capabilities-next">
         <ActionLink href="#credentials"><Text>{"View credentials"}</Text>{' '}<FiArrowDown aria-hidden="true" focusable="false" /></ActionLink>
         <ActionLink href="#experience"><Text>{"View experience"}</Text>{' '}<FiArrowDown aria-hidden="true" focusable="false" /></ActionLink>

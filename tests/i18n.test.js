@@ -13,6 +13,8 @@ import projectEn from '../src/i18n/locales/projects.en.js';
 import projectEs from '../src/i18n/locales/projects.es.js';
 import { uiMessages } from './helpers/uiMessages.mjs';
 import { declaration, sha256 } from './helpers/modelIntegrity.mjs';
+import { capabilityAreas } from '../src/data/capabilities.js';
+import { isDiagramDestination } from '../src/utils/diagramLoading.js';
 import { formatCredentialDate } from '../src/utils/credentialStatus.js';
 const fixture = file => JSON.parse(readFileSync(new URL(`./fixtures/${file}`, import.meta.url)));
 
@@ -101,9 +103,28 @@ test('actual React pages render in both languages with one retained store across
     const {default:Provider} = await server.ssrLoadModule('/src/i18n/LanguageProvider.jsx');
     const {createLanguageStore:makeStore} = await server.ssrLoadModule('/src/i18n/languageStore.js');
     const store = makeStore(() => null);
+    const {default:ProjectMessages} = await server.ssrLoadModule('/src/i18n/ProjectMessages.jsx');
+    const {default:CredentialEntry} = await server.ssrLoadModule('/src/components/ui/CredentialEntry.jsx');
+    const {DiagramLoadState} = await server.ssrLoadModule('/src/components/ui/CaseStudy.jsx');
     const {ProjectRouteState} = await server.ssrLoadModule('/src/components/layout/ProjectRoute.jsx');
     for (const lang of ['en','es']) {
       store.setLanguage(lang);
+      for (const error of [true,false]) {
+        const html = renderToStaticMarkup(React.createElement(Provider,{store},React.createElement(ProjectMessages,null,React.createElement(DiagramLoadState,{id:'diagram-logic',error}))));
+        assert.ok(html.includes(error ? (lang==='en' ? 'Reload diagram' : 'Recargar diagrama') : (lang==='en' ? 'Loading interactive diagram…' : 'Cargando diagrama interactivo…')));
+      }
+      for (const [expiresOn,nonExpiringEvidence,label] of [
+        ['2029-09-09',null,lang==='en'?'Expires September 9, 2029.':'Vence el 9 de septiembre de 2029.'],
+        [null,null,lang==='en'?'No expiration date specified.':'Vencimiento no especificado.'],
+        [null,{confirmedByIssuer:true,url:'https://issuer.example/policy',statement:'Does not expire.'},lang==='en'?'Does not expire.':'Sin fecha de vencimiento.'],
+        ['2023-04-26',null,lang==='en'?'Expired.':'Vencida.'],
+      ]) {
+        const credential = {name:'Test credential',issuer:'Test issuer',image:'/badge.png',issuedOn:'2023-01-01',expiresOn,nonExpiringEvidence,url:'https://www.credly.com/badges/test'};
+        const html = renderToStaticMarkup(React.createElement(Provider,{store},React.createElement(CredentialEntry,{credential})));
+        assert.ok(html.includes(label),label);
+        assert.ok(html.includes(credential.url));
+        if (expiresOn) assert.ok(new RegExp(`datetime="${expiresOn}"`, 'i').test(html));
+      }
       for (const error of [false,true]) {
         const state = renderToStaticMarkup(React.createElement(MemoryRouter,{initialEntries:['/projects/concurrencia']},React.createElement(Provider,{store},React.createElement(ProjectRouteState,{error}))));
         assert.ok(state.includes(error ? (lang === 'es' ? 'Recargar proyecto' : 'Reload project') : (lang === 'es' ? 'Cargando proyecto…' : 'Loading project…')));
@@ -120,6 +141,17 @@ test('actual React pages render in both languages with one retained store across
         assert.ok(html.includes('aria-pressed="true"'));
         assert.ok(!html.includes(lang === 'en' ? esText : enText), `${route}: mixed-language main copy`);
         assert.equal(store.getSnapshot(),lang);
+        if (route === '/') {
+          assert.ok(!/Additional technologies|previous capabilities|Tecnologías adicionales|capacidades anteriores|original capability inventory|inventario original/i.test(html));
+          assert.equal((html.match(/class="capability-family"/g) || []).length,6);
+          assert.equal((html.match(/class="credential-entry/g) || []).length,18);
+          for (const technology of ['PHP','MariaDB','Bash','NAS','Apache','SAMBA']) assert.ok(html.includes(technology));
+          assert.ok(html.includes(lang === 'en' ? 'No expiration date specified.' : 'Vencimiento no especificado.'));
+          assert.ok(html.includes(lang === 'en' ? 'Expires September 9, 2029.' : 'Vence el 9 de septiembre de 2029.'));
+        } else {
+          assert.ok(html.includes('Loading interactive diagram…') || html.includes('Cargando diagrama interactivo…'));
+          assert.ok(!html.includes('react-flow__node'), 'Editorial SSR is complete without the graph runtime');
+        }
       }
     }
   } finally { await server.close(); }
@@ -130,4 +162,25 @@ test('compact catalogs derive source values, retain corrections and reject ambig
   const messages = defineMessages({ fromEnglish: { Hello:'Hola' }, fromSpanish: { Adiós:'Goodbye' }, spanishCorrections: { Adiós:'Hasta luego' } });
   assert.deepEqual(messages, { en:{ Hello:'Hello', Adiós:'Goodbye' }, es:{ Hello:'Hola', Adiós:'Hasta luego' } });
   assert.throws(() => defineMessages({ fromEnglish:{ Hello:'Hola' }, fromSpanish:{ Hello:'Hello' } }), /Duplicate message/);
+});
+
+test('redistributed skills retain their evidenced context without duplicate entries', () => {
+  const area = id => capabilityAreas.find(item => item.id === id);
+  const items = (id, context) => area(id).groups.find(group => group.context === context).items;
+  assert.equal(capabilityAreas.length,6);
+  for (const item of ['PHP','MariaDB','SQL Queries']) assert.ok(items('backend','professional').includes(item));
+  for (const item of ['NAS','SAMBA','Apache']) assert.ok(items('infrastructure','professional').includes(item));
+  assert.ok(items('software','project').includes('Bash'));
+  assert.ok(items('presales','professional').includes('Technical Support'));
+  const all = capabilityAreas.flatMap(area => area.groups.flatMap(group => group.items));
+  assert.equal(new Set(all).size,all.length);
+  for (const internal of ['WordPress','Shopify','Salesforce','Structured Cabling','OSPF','LAN-to-LAN']) assert.ok(!all.includes(internal));
+});
+
+test('deep diagram links bypass viewport deferral without depending on locale or malformed encoding', () => {
+  assert.ok(isDiagramDestination('#diagram-logic','diagram-logic'));
+  assert.ok(isDiagramDestination('#diagram%2Dlogic','diagram-logic'));
+  assert.ok(!isDiagramDestination('#solucion','diagram-logic'));
+  assert.ok(!isDiagramDestination('','diagram-logic'));
+  assert.ok(!isDiagramDestination('#%ZZ','diagram-logic'));
 });

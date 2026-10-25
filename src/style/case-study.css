@@ -80,3 +80,24 @@
 @media (prefers-reduced-motion: reduce) {
   .case-closing a:is(:hover, :focus-visible) span { transform: none; }
 }
+
+/* Match the existing graph geometry and playback toolbar without loading React Flow. */
+.diagram-slot { display: flow-root; --diagram-visible-height: var(--diagram-height); min-height: calc(var(--diagram-visible-height) + var(--touch-target) + 2 * var(--space-4)); }
+.diagram-load-frame {
+  height: var(--diagram-visible-height);
+  box-sizing: border-box;
+  padding: var(--space-6);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--background-secondary);
+  color: var(--text-primary);
+  scroll-margin-top: calc(var(--touch-target) + var(--space-7));
+}
+.diagram-load-frame p { max-width: var(--reading-width); }
+@media (max-width: 768px) {
+  .diagram-slot { --diagram-visible-height: var(--diagram-mobile-height); }
+}
+
+@media (max-width: 39.999rem) {
+  .diagram-slot { --diagram-visible-height: max(44rem, var(--diagram-mobile-height)); }
+}

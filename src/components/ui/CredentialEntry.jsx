@@ -23,8 +23,12 @@ export default function CredentialEntry({ credential, prominent = false }) {
         <dl className="credential-dates">
           <div><dt><Text>{"Issued"}</Text></dt><dd><time dateTime={credential.issuedOn}><Text>{formatCredentialDate(credential.issuedOn, language)}</Text></time></dd></div>
           <div>
-            <dt><Text>{status === 'expired' ? 'Expired' : 'Expiry'}</Text></dt>
-            <dd><Text>{credential.expiresOn ? <time dateTime={credential.expiresOn}><Text>{formatCredentialDate(credential.expiresOn, language)}</Text></time> : 'Not listed by issuer'}</Text></dd>
+            <dt><Text>{"Validity"}</Text></dt>
+            <dd>
+              {status === 'dated' ? <time dateTime={credential.expiresOn}>{t('Expires {0}.', [formatCredentialDate(credential.expiresOn, language, 'long')])}</time>
+                : status === 'expired' ? <><Text>{"Expired."}</Text>{' '}<time dateTime={credential.expiresOn}>{formatCredentialDate(credential.expiresOn, language, 'long')}</time></>
+                : <Text>{status === 'non-expiring' ? 'Does not expire.' : 'No expiration date specified.'}</Text>}
+            </dd>
           </div>
         </dl>
         <Text>{status === 'expired' && <p className="credential-expired"><Text>{"Expired credential. Retained as a record of learning."}</Text></p>}</Text>

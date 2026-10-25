@@ -1,7 +1,8 @@
+import { lazy } from 'react';
 import Text from "../../i18n/Text.jsx";
 import useTranslation from "../../i18n/useTranslation.js";
-import ProblemFlow from '../ui/graphics/metodologia_problem_flow.jsx';
-import SolutionFlow from '../ui/graphics/metodologia_solution_flow.jsx';
+const ProblemFlow = lazy(() => import('../ui/graphics/metodologia_problem_flow.jsx'));
+const SolutionFlow = lazy(() => import('../ui/graphics/metodologia_solution_flow.jsx'));
 import { CaseIntro, CaseSection, CaseFigure, CaseDecisions, CaseClosing } from '../ui/CaseStudy.jsx';
 
 const stages = [
@@ -38,13 +39,13 @@ export default function IntroduceMetodologia() {
           <aside className="case-aside"><h3><Text>{"The repeated work"}</Text></h3><p><Text>{"Each new customization involved manual analysis, adaptation and repeated checks. The existing account describes a process that depended heavily on technical memory and made knowledge difficult to reuse."}</Text></p></aside>
         </div>
         <div className="case-diagram-context"><h3><Text>{"The restriction shapes the method."}</Text></h3><p><Text>{"The first diagram shows why understanding the existing page comes before proposing a change. It carries the same six-stage sequence as the solution: a constrained starting point leads to analysis, contextual generation, manual review and an integration-ready customization."}</Text></p></div>
-        <CaseFigure reading="This is the constraint-led view of the method, not a separate algorithm. The endpoint is a customization ready to integrate; the illustration does not establish a production deployment."><ProblemFlow /></CaseFigure>
+        <CaseFigure diagramId="diagram-methodology-problem" height={1100} mobileHeight={650} reading="This is the constraint-led view of the method, not a separate algorithm. The endpoint is a customization ready to integrate; the illustration does not establish a production deployment."><ProblemFlow /></CaseFigure>
       </CaseSection>
       <CaseSection id="solucion" title={t("Six stages. One deliberate sequence.")}>
         <div className="case-prose"><p><Text>{"The method turns repeated analysis into explicit technical context. AI contributes an initial proposal within that context. Human refinement and validation remain between generation and integration."}</Text></p></div>
         <div className="case-process">
           <ol className="case-steps"><Text>{stages.map(([title, description]) => <li key={title}><h3><Text>{title}</Text></h3><p><Text>{description}</Text></p></li>)}</Text></ol>
-          <CaseFigure reading="The solution view refines the same sequence from native-page analysis to a reviewed, integration-ready change. Generation is one stage; it does not replace constraint analysis or manual validation."><SolutionFlow /></CaseFigure>
+          <CaseFigure diagramId="diagram-methodology-solution" height={1180} mobileHeight={650} reading="The solution view refines the same sequence from native-page analysis to a reviewed, integration-ready change. Generation is one stage; it does not replace constraint analysis or manual validation."><SolutionFlow /></CaseFigure>
         </div>
       </CaseSection>
       <CaseSection id="decisions" title={t("The context is part of the engineering.")}>
@@ -64,7 +65,7 @@ export default function IntroduceMetodologia() {
         <div className="case-prose"><p><Text>{"The existing project account reports less time per customization after adopting the methodology. The comparison is self-reported and is not a controlled benchmark."}</Text></p></div>
         <div className="case-split">
           <dl className="case-comparison"><div><dt><Text>{"Previous process"}</Text></dt><dd><Text>{"8–14 hours / project"}</Text></dd></div><div><dt><Text>{"With the methodology"}</Text></dt><dd><Text>{"1–2 hours / project"}</Text></dd></div></dl>
-          <div><h3><Text>{"Read the figures in context"}</Text></h3><p className="case-note"><Text>{"These ranges describe the owner-reported experience. They do not establish a verified percentage saving, comparable task complexity or a guaranteed result for another project."}</Text></p></div>
+          <div><h3><Text>{"Read the figures in context"}</Text></h3><p className="case-note"><Text>{"These self-reported ranges describe my experience with the method. Task complexity varies; they are not a controlled benchmark or a guaranteed result for another project."}</Text></p></div>
         </div>
         <p className="case-note"><Text>{"The documented process outcome is a repeatable path from native-interface analysis to a manually reviewed customization ready for integration."}</Text></p>
       </CaseSection>

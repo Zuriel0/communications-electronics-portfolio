@@ -16,6 +16,8 @@ export function uiMessages(root = 'src') {
       const f = `${dir}/${entry.name}`;
       if (entry.isDirectory()) { if (entry.name !== 'i18n') walk(f); continue; }
       if (!/\.(jsx|js)$/.test(f)) continue;
+      // Retained source inventory is internal evidence, no longer public UI.
+      if (f === 'src/data/skills.js') continue;
       const ast = parse(readFileSync(f, 'utf8'), { sourceType: 'module', plugins: ['jsx'] });
       traverse(ast, {
         JSXElement(p) { if (p.node.openingElement.name.name === 'Text') for (const c of p.node.children) if (c.type === 'JSXExpressionContainer') scalar(c.expression, f); },
