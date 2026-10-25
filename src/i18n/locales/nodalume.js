@@ -1,7 +1,8 @@
 import { defineMessages } from '../catalog.js';
+import engineeringMessages from './nodalumeEngineering.js';
 
 // Route-scoped: this catalog is not imported by Home.
-export default defineMessages({ fromEnglish: {
+const baseMessages = defineMessages({ fromEnglish: {
   "Nodalume": "Nodalume",
   "A portal. Your possibilities.": "Un portal. Tus posibilidades.",
   "Self-hosted captive portal platform": "Plataforma de portal cautivo autohospedada",
@@ -142,3 +143,5 @@ export default defineMessages({ fromEnglish: {
   "Check your connection and reload to try again. The case study remains available.": "Comprueba tu conexión y recarga para volver a intentarlo. El caso de estudio sigue disponible.",
   "Reload diagram": "Recargar diagrama"
 } });
+
+export default { en:{...baseMessages.en,...engineeringMessages.en}, es:{...baseMessages.es,...engineeringMessages.es} };

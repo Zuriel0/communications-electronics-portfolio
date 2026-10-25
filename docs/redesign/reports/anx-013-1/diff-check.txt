@@ -1,0 +1,2 @@
+Command: git diff --check
+Result: PASS (no output). Final staged diff checked before commit as well.

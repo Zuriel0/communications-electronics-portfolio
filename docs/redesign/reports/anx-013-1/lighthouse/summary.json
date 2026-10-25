@@ -1,0 +1,266 @@
+{
+  "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+  "origins": {
+    "baseline": "http://127.0.0.1:4187",
+    "candidate": "http://127.0.0.1:4173"
+  },
+  "versions": [
+    "baseline",
+    "candidate"
+  ],
+  "profiles": [
+    "mobile",
+    "desktop"
+  ],
+  "repetitions": 3,
+  "groups": [
+    {
+      "version": "baseline",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 99
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2027.7392,
+        "min": 2026.7457999999997,
+        "max": 2030.0367999999999
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 2,
+        "min": 0,
+        "max": 2.5
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "mobile",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 98,
+        "min": 98,
+        "max": 98
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2277.8116,
+        "min": 2277.59505,
+        "max": 2283.31965
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "desktop",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 442.1172,
+        "min": 441.9506,
+        "max": 443.6899
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "baseline",
+      "profile": "desktop",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 489.97035,
+        "min": 489.3414,
+        "max": 492.39305
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 99
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2027.2075,
+        "min": 2026.7756,
+        "max": 2033.4382
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 97,
+        "min": 97,
+        "max": 97
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 2434.0528,
+        "min": 2427.75175,
+        "max": 2434.7981
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 443.9578,
+        "min": 441.4993,
+        "max": 444.3156
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 529.0489,
+        "min": 529.0117,
+        "max": 529.75495
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ]
+}

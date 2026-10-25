@@ -1,0 +1,304 @@
+{
+  "rows": [
+    {
+      "kind": "authentication",
+      "width": 1440,
+      "before": {
+        "active": "context-registration",
+        "offset": "21.8625%"
+      },
+      "after": {
+        "active": "context-registration",
+        "offset": "25.0125%"
+      },
+      "stage": {
+        "paused": "true",
+        "stage": "2"
+      },
+      "inspection": "Respuesta RADIUS\n\nLa autenticación produce una respuesta; recibir credenciales por sí solo no acredita acceso a Internet. La aceptación física sigue siendo una validación independiente de cada despliegue.\n\nCódigo revisado: default",
+      "languages": [
+        {
+          "edges": 5,
+          "hash": "#diagram-nodalume-authentication",
+          "labels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ],
+          "language": "en",
+          "nodes": 6,
+          "overflow": false,
+          "playing": "false",
+          "selected": "reply",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, 112.176px) scale(1.22381)"
+        },
+        {
+          "edges": 5,
+          "hash": "#diagram-nodalume-authentication",
+          "labels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ],
+          "language": "es",
+          "nodes": 6,
+          "overflow": false,
+          "playing": "false",
+          "selected": "reply",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, 112.176px) scale(1.22381)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "kind": "sessions",
+      "width": 1440,
+      "before": {
+        "active": "policy-issued",
+        "offset": "14.7354%"
+      },
+      "after": {
+        "active": "policy-issued",
+        "offset": "18.0812%"
+      },
+      "stage": {
+        "paused": "true",
+        "stage": "2"
+      },
+      "inspection": "Solicitud de terminación\n\nLa operación administrativa registra una terminación solicitada con alcance tenant. La implementación revisada no envía Disconnect ni CoA y no establece la hora de cierre de accounting.\n\nCódigo revisado: tenant-sessions.repository.js",
+      "languages": [
+        {
+          "edges": 5,
+          "hash": "#diagram-nodalume-sessions",
+          "labels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ],
+          "language": "en",
+          "nodes": 6,
+          "overflow": false,
+          "playing": "false",
+          "selected": "audit",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, 112.176px) scale(1.22381)"
+        },
+        {
+          "edges": 5,
+          "hash": "#diagram-nodalume-sessions",
+          "labels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ],
+          "language": "es",
+          "nodes": 6,
+          "overflow": false,
+          "playing": "false",
+          "selected": "audit",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, 112.176px) scale(1.22381)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "kind": "tenancy",
+      "width": 1440,
+      "before": {
+        "active": "session-membership",
+        "offset": "15.6938%"
+      },
+      "after": {
+        "active": "session-membership",
+        "offset": "20.6812%"
+      },
+      "stage": {
+        "paused": "true",
+        "stage": "2"
+      },
+      "inspection": "Operaciones de plataforma\n\nLas operaciones de plataforma y de tenant se modelan por separado; el recorrido sigue la ruta tenant.\n\nCódigo revisado: admin-authorization.js",
+      "languages": [
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-tenancy",
+          "labels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ],
+          "language": "en",
+          "nodes": 6,
+          "overflow": false,
+          "playing": "false",
+          "selected": "platform-routes",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, 28.9704px) scale(1.11336)"
+        },
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-tenancy",
+          "labels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ],
+          "language": "es",
+          "nodes": 6,
+          "overflow": false,
+          "playing": "false",
+          "selected": "platform-routes",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, 28.9704px) scale(1.11336)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "kind": "deployment",
+      "width": 1440,
+      "before": {
+        "active": "db-api",
+        "offset": "12.5063%"
+      },
+      "after": {
+        "active": "db-api",
+        "offset": "16.225%"
+      },
+      "stage": {
+        "paused": "true",
+        "stage": "2"
+      },
+      "inspection": "Volumen de medios\n\nLos medios del portal tienen almacenamiento persistente separado montado por la API. La recuperación de archivos y base de datos requiere un procedimiento operativo consistente.\n\nCódigo revisado: compose.yaml",
+      "languages": [
+        {
+          "edges": 6,
+          "hash": "#diagram-nodalume-deployment",
+          "labels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ],
+          "language": "en",
+          "nodes": 7,
+          "overflow": false,
+          "playing": "false",
+          "selected": "media-volume",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(44.1692px, -23px) scale(1.16923)"
+        },
+        {
+          "edges": 6,
+          "hash": "#diagram-nodalume-deployment",
+          "labels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ],
+          "language": "es",
+          "nodes": 7,
+          "overflow": false,
+          "playing": "false",
+          "selected": "media-volume",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(44.1692px, -23px) scale(1.16923)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "kind": "editor",
+      "width": 1440,
+      "before": {
+        "active": "document-containers",
+        "offset": "13.1313%"
+      },
+      "after": {
+        "active": "document-containers",
+        "offset": "14.9625%"
+      },
+      "stage": {
+        "paused": "true",
+        "stage": "2"
+      },
+      "inspection": "Renderer público\n\nEl resolvedor de presentación utiliza el documento publicado. El borrador permanece como estado privado de edición hasta superar las comprobaciones de publicación.\n\nCódigo revisado: portal-presentation.service.js",
+      "languages": [
+        {
+          "edges": 6,
+          "hash": "#diagram-nodalume-editor",
+          "labels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ],
+          "language": "en",
+          "nodes": 7,
+          "overflow": false,
+          "playing": "false",
+          "selected": "renderer",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, -21.219px) scale(1.22381)"
+        },
+        {
+          "edges": 6,
+          "hash": "#diagram-nodalume-editor",
+          "labels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ],
+          "language": "es",
+          "nodes": 7,
+          "overflow": false,
+          "playing": "false",
+          "selected": "renderer",
+          "signal": "paused",
+          "stage": "2",
+          "width": 1440,
+          "zoom": "translate(-41.8px, -21.219px) scale(1.22381)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    }
+  ],
+  "away": {
+    "focus": "nodalume-philosophy",
+    "hash": "#nodalume-philosophy",
+    "states": [
+      {
+        "id": "diagram-nodalume-platform",
+        "playing": "false"
+      }
+    ]
+  },
+  "preference": {
+    "hash": "#nodalume-philosophy",
+    "language": "es"
+  },
+  "logs": []
+}

@@ -1,0 +1,100 @@
+{
+  "reference": "ANX-013 / 0796386",
+  "files": [
+    {
+      "file": "CaseStudy-D1a2x9k9.css",
+      "bytes": 6636,
+      "gzip9": 1722
+    },
+    {
+      "file": "CaseStudy-VlnIJ33l.js",
+      "bytes": 4221,
+      "gzip9": 1515
+    },
+    {
+      "file": "Concurrencia-DbrW7twK.js",
+      "bytes": 11447,
+      "gzip9": 3796
+    },
+    {
+      "file": "Metodologia-AJHYx2gq.js",
+      "bytes": 9060,
+      "gzip9": 3085
+    },
+    {
+      "file": "Nodalume-6U9CTy1k.css",
+      "bytes": 6747,
+      "gzip9": 1690
+    },
+    {
+      "file": "Nodalume-Cs4u4oel.js",
+      "bytes": 34717,
+      "gzip9": 9843
+    },
+    {
+      "file": "ProjectMessages-BQ3Cj-S1.js",
+      "bytes": 37794,
+      "gzip9": 12555
+    },
+    {
+      "file": "bussiness_flow-xgTwZVdb.js",
+      "bytes": 8999,
+      "gzip9": 2806
+    },
+    {
+      "file": "flow_loadbalance-Dv2yDANK.js",
+      "bytes": 6217,
+      "gzip9": 2338
+    },
+    {
+      "file": "highlevel_flow-DjCTvobn.js",
+      "bytes": 11154,
+      "gzip9": 3276
+    },
+    {
+      "file": "index-DQvQxips.css",
+      "bytes": 44358,
+      "gzip9": 8464
+    },
+    {
+      "file": "index-OjOxA4fa.js",
+      "bytes": 319727,
+      "gzip9": 100246
+    },
+    {
+      "file": "logic_flow-yaFU84o6.js",
+      "bytes": 7319,
+      "gzip9": 2533
+    },
+    {
+      "file": "metodologia_problem_flow-BQ1_96NY.js",
+      "bytes": 4790,
+      "gzip9": 1955
+    },
+    {
+      "file": "metodologia_solution_flow-DZp_4mDg.js",
+      "bytes": 4771,
+      "gzip9": 1940
+    },
+    {
+      "file": "nodalume_flow-DfUIHu06.js",
+      "bytes": 2657,
+      "gzip9": 1356
+    },
+    {
+      "file": "style-BZV40eAE.css",
+      "bytes": 15851,
+      "gzip9": 2643
+    },
+    {
+      "file": "style-QSoYKWUs.js",
+      "bytes": 180082,
+      "gzip9": 58856
+    },
+    {
+      "file": "useDiagramPlayback-BhV8TvDv.js",
+      "bytes": 1487,
+      "gzip9": 800
+    }
+  ]
+}

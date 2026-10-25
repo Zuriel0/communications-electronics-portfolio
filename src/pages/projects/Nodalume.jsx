@@ -5,6 +5,7 @@ import Text from '../../i18n/Text';
 import useTranslation from '../../i18n/useTranslation';
 import Navbar from '../../components/layout/navbar_project';
 import ActionLink from '../../components/ui/ActionLink';
+import { EvidenceLedger, SystemsExplorer, ProductDNA, OperationalEngineering, FutureRequirements } from '../../components/ui/NodalumeEngineering';
 import NodalumeMark from '../../components/ui/NodalumeMark';
 import { CaseFigure } from '../../components/ui/CaseStudy';
 import { nodalumeDiagrams } from '../../data/nodalume';
@@ -13,25 +14,25 @@ import '../../style/nodalume.css';
 const NodalumeDiagram = lazy(() => import('../../components/ui/graphics/nodalume_flow.jsx'));
 const sections = [
   ['nodalume-problem','Problem'],['nodalume-philosophy','Product philosophy'],
-  ['nodalume-current','Current implementation'],['nodalume-architecture','Architecture'],
+  ['nodalume-current','Current implementation'],['nodalume-architecture','Architecture'],['nodalume-systems','Engineering views'],
   ['nodalume-design','Design influences'],['nodalume-decisions','Engineering decisions'],
   ['nodalume-operations','Operations & cloud'],['nodalume-future','Future direction'],
 ];
 const implementation = [
-  ['Backend & administration','Node.js services and a React console connect application management with the network access domain. No public API contract or endpoint inventory is claimed here.'],
-  ['Persistence & tenancy','PostgreSQL and multitenant application design are reported. Isolation mechanisms, schema details and production-scale tenant guarantees are not established by the available material.'],
-  ['Access, sessions & accounting','FreeRADIUS and MikroTik integration support the lab’s access and session work. Accounting records usage; it is a distinct responsibility from deciding access. Packet sequences and session timing are not reconstructed without evidence.'],
+  ['Backend & administration','Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.'],
+  ['Persistence & tenancy','PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.'],
+  ['Access, sessions & accounting','FreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.'],
 ];
 const principles = [
   ['Creative flexibility','Separate the experience from rigid templates, so visual ideas can become useful portal interactions.'],
   ['Ownership & autonomy','Self-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.'],
-  ['Extensibility','Treat visual composition, policy logic and integrations as related responsibilities with clear boundaries. The editor’s broader capabilities remain design work.'],
+  ['Extensibility','The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.'],
 ];
 const influences = [
-  { name:'Elementor / Wix', topic:'Visual composition', text:'Pages assembled from reusable elements suggest a portal builder that gives users control over layout and content. The intended decision is composition over a fixed template.', sources:[['Elementor','https://elementor.com/help/add-elements-to-a-page/'],['Wix','https://support.wix.com/en/article/wix-editor-adding-and-deleting-elements']] },
-  { name:'Figma', topic:'Editing context', text:'A clear canvas, selection context and property panels suggest keeping the thing being edited close to its settings. This is an interaction principle, not a reproduction of Figma.', sources:[['Figma','https://help.figma.com/hc/en-us/articles/360039832014-Design-prototype-and-explore-layer-properties-in-the-right-sidebar']] },
-  { name:'Scratch / Zoho Flow', topic:'Approachable logic', text:'Blocks and visible decision paths suggest an approachable way to describe policy-driven behavior. A future logic editor would still need validation, branching rules and safe execution boundaries.', sources:[['Scratch','https://resources.scratch.mit.edu/www/guides/en/ScratchLearningResource_MyBlocks.pdf'],['Zoho Flow','https://www.zoho.com/flow/features/build-custom-workflows.html']] },
-  { name:'Postman', topic:'Explicit API actions', text:'Requests, inputs and responses suggest treating integrations as explicit actions with inspectable outcomes. Supported providers, secret handling and an execution engine remain to be evidenced or designed.', sources:[['Postman','https://learning.postman.com/docs/getting-started/quick-start/']] },
+  { name:'Elementor / Wix', sources:[['Elementor','https://elementor.com/help/add-elements-to-a-page/'],['Wix','https://support.wix.com/en/article/wix-editor-adding-and-deleting-elements']] },
+  { name:'Figma', sources:[['Figma','https://help.figma.com/hc/en-us/articles/360039832014-Design-prototype-and-explore-layer-properties-in-the-right-sidebar']] },
+  { name:'Scratch / Zoho Flow', sources:[['Scratch','https://resources.scratch.mit.edu/www/guides/en/ScratchLearningResource_MyBlocks.pdf'],['Zoho Flow','https://www.zoho.com/flow/features/build-custom-workflows.html']] },
+  { name:'Postman', sources:[['Postman','https://learning.postman.com/docs/getting-started/quick-start/']] },
 ];
 const decisions = [
   ['Compose for a lab, not a scaling guarantee','Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.'],
@@ -80,27 +81,27 @@ function Content() {
       <Copy className="nodalume-lead">A portal should be a starting point for an idea, not the limit of that idea. Nodalume’s product goal is to let users shape experiences, own their deployment and extend the platform without depending on a provider for every change.</Copy>
       <div className="nodalume-principles">{principles.map(([title,text])=><article key={title}><h3>{t(title)}</h3><Copy>{text}</Copy></article>)}</div>
     </Section>
-    <Section id="nodalume-current" title="What exists today. What still needs evidence.">
-      <span className="nodalume-status">{t('Implemented · owner-reported lab')}</span>
-      <Copy className="nodalume-lead">The owner reports a self-hosted lab using Node.js backend services, a React administration console, PostgreSQL, FreeRADIUS and MikroTik integration, with Docker Compose for local service orchestration. Session control, RADIUS accounting and multitenant design are part of that reported scope.</Copy>
+    <Section id="nodalume-current" title="Implementation with a traceable basis.">
+      <span className="nodalume-status">{t('Source reviewed · isolated tests reproduced')}</span>
+      <Copy className="nodalume-lead">The reviewed source snapshot contains five Compose services: PostgreSQL, Node.js API, FreeRADIUS, the React administration console and the captive portal. Eight original unit tests were reproduced offline; further integration evidence is identified separately.</Copy>
       <dl className="nodalume-decisions">{implementation.map(([title,text])=><div key={title}><dt>{t(title)}</dt><dd>{t(text)}</dd></div>)}</dl>
-      <aside className="nodalume-evidence-note"><h3>{t('Validated in this case study')}</h3><Copy>The portfolio route, bilingual content and illustrative diagrams are tested here. The Nodalume runtime and infrastructure were not independently inspected in this phase; no customer deployment, throughput or uptime result is asserted.</Copy></aside>
+      <aside className="nodalume-evidence-note"><h3>{t('Validation boundaries')}</h3><Copy>Source files were reviewed at a fixed commit. Eight original Nodalume unit tests were reproduced offline for CHAP, origin checks and temporary-access service behavior. Database suites were inspected, not rerun; current lab services and physical Internet access were not tested.</Copy></aside><EvidenceLedger />
     </Section>
     <Section id="nodalume-architecture" title="A system of responsibilities." className="nodalume-architecture">
-      <Copy className="nodalume-lead">Read the relationships, not a packet capture.</Copy><Copy>The map connects the components in the owner-reported scope. It shows conceptual integration boundaries, not container placement, protocol direction, database tables or measured traffic. MikroTik is a network integration, not a container in the Compose stack.</Copy><Diagram kind="platform" />
+      <Copy className="nodalume-lead">Explore the boundaries that make access possible.</Copy><Copy>The original overview remains a map of responsibilities. In the inspected implementation, the API issues access through SQL and FreeRADIUS reads the database. The source-backed views below separate actual dependencies and execution stages.</Copy><Diagram kind="platform" /><SystemsExplorer />
     </Section>
     <Section id="nodalume-design" title="References that shape the product.">
-      <Copy>These are design influences, not affiliations, endorsements or copied interfaces. They inform a direction for Nodalume; they do not prove that a comparable editor or automation engine is already implemented.</Copy>
-      <div className="nodalume-influences">{influences.map(item=><article key={item.name}><div><h3>{t(item.name)}</h3><Copy>{item.topic}</Copy></div><div><Copy>{item.text}</Copy><div className="nodalume-sources">{item.sources.map(([name,href])=><ActionLink key={name} href={href}>{t('Reference documentation')}: {name}</ActionLink>)}</div></div></article>)}</div>
-      <h3 className="nodalume-model-intro">{t('A composition model, not an editor screenshot.')}</h3><Copy>This proposed model separates pages, reusable blocks, policy logic and API actions. The connecting lines express a product concept. They do not assert a stored schema, working drag-and-drop editor or implemented automation engine.</Copy><Diagram kind="builder" />
+      <Copy>These product references inform specific choices in Nodalume. Source review distinguishes the implemented visual editor and REST operations from conceptual automation. Each reference is an inspiration, with no affiliation or endorsement.</Copy>
+      <ProductDNA references={influences} />
+      <h3 className="nodalume-model-intro">{t('How the product model connects.')}</h3><Copy>This original product model connects visual composition, policy logic and API actions. The source-backed editor view documents the implementation; general automation and external API-action composition remain conceptual.</Copy><Diagram kind="builder" />
     </Section>
     <Section id="nodalume-decisions" title="The choices behind the boundaries."><dl className="nodalume-decisions">{decisions.map(([title,text])=><div key={title}><dt>{t(title)}</dt><dd>{t(text)}</dd></div>)}</dl></Section>
     <Section id="nodalume-operations" title="Operate deliberately. Evolve with evidence.">
-      <div className="nodalume-two-columns"><article><h3>{t('Today: local service orchestration')}</h3><Copy>The current lab provides a place to integrate services and examine session behavior. Reproducible setup, documented service boundaries and configuration discipline are foundations to strengthen, not proof of an established production operations practice.</Copy></article><article><h3>{t('Future: cloud evaluation')}</h3><Copy>AWS is an option to investigate, not a deployed environment for Nodalume. Container compute such as Amazon ECS with AWS Fargate and managed PostgreSQL are possible evaluation candidates. Suitability depends on state, connectivity, RADIUS transport, secrets, backups, observability and cost.</Copy></article></div>
-      <Copy>There is no cloud migration, autoscaling policy, availability target or production benchmark claimed in this case study. These questions connect application work with infrastructure thinking without relabeling the project as a completed DevOps practice.</Copy>
+      <div className="nodalume-two-columns"><article><h3>{t('Today: local service orchestration')}</h3><Copy>Compose declares health-based dependencies, restricted API and web containers, service boundaries and separate volumes. The reviewed operational documentation covers installation, diagnosis, migrations and recovery. No lab service was started or changed in this phase.</Copy></article><article><h3>{t('Future: cloud evaluation')}</h3><Copy>AWS is an option to investigate, not a deployed environment for Nodalume. Container compute such as Amazon ECS with AWS Fargate and managed PostgreSQL are possible evaluation candidates. Suitability depends on state, connectivity, RADIUS transport, secrets, backups, observability and cost.</Copy></article></div>
+      <OperationalEngineering /><Copy>There is no cloud migration, autoscaling policy, availability target or production benchmark claimed in this case study. These questions connect application work with infrastructure thinking without relabeling the project as a completed DevOps practice.</Copy>
     </Section>
-    <Section id="nodalume-future" title="A direction to test, not a delivery promise.">
-      <Copy>The next design questions are deployment maturity, state separation, tenant isolation, operational visibility and broader integrations. A dedicated product experience at nodalume.anxzu.com is a later possibility; no product microsite or launch date is part of this phase.</Copy><Diagram kind="evolution" /><Copy>Future evaluation sequence. These are questions to resolve, not an implemented cloud topology. No infrastructure resources are provisioned by this case study.</Copy>
+    <Section id="nodalume-future" title="Requirements for the next environment.">
+      <Copy>The next design questions are deployment maturity, state separation, tenant isolation, operational visibility and broader integrations. A dedicated product experience at nodalume.anxzu.com is a later possibility; no product microsite or launch date is part of this phase.</Copy><FutureRequirements /><Diagram kind="evolution" /><Copy>Future evaluation sequence. These are questions to resolve, not an implemented cloud topology. No infrastructure resources are provisioned by this case study.</Copy>
     </Section>
     <footer className="nodalume-closing container"><ActionLink href="/#projects">{t('Back to projects')}</ActionLink><ActionLink href="/projects/concurrencia">{t('Explore the SSH case study')}</ActionLink></footer>
   </main></>;

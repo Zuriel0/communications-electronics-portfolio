@@ -1,0 +1,16 @@
+✔ matches known MD5 vectors (0.502958ms)
+✔ calculates MikroTik CHAP from id, password and challenge in order (0.129208ms)
+✔ accepts only HTTP(S) login URLs matching the configured origin (0.369458ms)
+✔ creates and submits a native POST form containing only username and CHAP (1.132ms)
+✔ does not create a form without valid context or configuration (0.070541ms)
+✔ service generates high-entropy-shaped credentials and returns them once (0.904084ms)
+✔ service retries username collisions with fresh credentials (0.185125ms)
+✔ service stops after three collisions and does not retry other errors (0.255458ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 51.418

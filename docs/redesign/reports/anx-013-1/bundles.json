@@ -1,0 +1,327 @@
+{
+  "method": "Generated build bytes; local gzip level 9. Static JS closures exclude deferred graph loads. Baseline 0796386, same lockfile and build tools. Not field Web Vitals.",
+  "versions": {
+    "baseline": {
+      "assets": {
+        "_CaseStudy-VlnIJ33l.js": {
+          "file": "assets/CaseStudy-VlnIJ33l.js",
+          "bytes": 4221,
+          "gzip9": 1501,
+          "sha256": "0ad998eae2ac41434ee28935bf10aafe2f37397f1d6c9c98bf441d68a5b987a0"
+        },
+        "_Nodalume-Cs4u4oel.js": {
+          "file": "assets/Nodalume-Cs4u4oel.js",
+          "bytes": 34717,
+          "gzip9": 9812,
+          "sha256": "9f9bed3847e5988777f2aea3e1c50bcc52c3e00895c7ed77426aa44de81abae3"
+        },
+        "_ProjectMessages-BQ3Cj-S1.js": {
+          "file": "assets/ProjectMessages-BQ3Cj-S1.js",
+          "bytes": 37794,
+          "gzip9": 12504,
+          "sha256": "b8d13059f282bb4291ba868dc3274b6591697d73784e4de7eee6b90370b0598a"
+        },
+        "_style-QSoYKWUs.js": {
+          "file": "assets/style-QSoYKWUs.js",
+          "bytes": 180082,
+          "gzip9": 59099,
+          "sha256": "a591a37ef1a65bf9f17faef7d4eb7692ef59fa38234e3a0cc84edc73d1b49cbf"
+        },
+        "_useDiagramPlayback-BhV8TvDv.js": {
+          "file": "assets/useDiagramPlayback-BhV8TvDv.js",
+          "bytes": 1487,
+          "gzip9": 800,
+          "sha256": "89b48d7c4138396f99838d459a3bc4421597ecbd41bb4f46dc479d2c6ce8b62b"
+        },
+        "index.html": {
+          "file": "assets/index-OjOxA4fa.js",
+          "bytes": 319727,
+          "gzip9": 100533,
+          "sha256": "c515542c17c319a47977c939f11b2af60abcb6732f98ad557a9b4e486452d1d5"
+        },
+        "src/components/ui/graphics/bussiness_flow.jsx": {
+          "file": "assets/bussiness_flow-xgTwZVdb.js",
+          "bytes": 8999,
+          "gzip9": 2798,
+          "sha256": "02022f6dffcea20ddc0a69a33db6392184f703b863b77c027d6a0222a9b672bb"
+        },
+        "src/components/ui/graphics/flow_loadbalance.jsx": {
+          "file": "assets/flow_loadbalance-Dv2yDANK.js",
+          "bytes": 6217,
+          "gzip9": 2339,
+          "sha256": "a471ff2a7e2e06fdae13a3e7ae6d9eeef1b3a0e41142d2a9fea49079926a907c"
+        },
+        "src/components/ui/graphics/highlevel_flow.jsx": {
+          "file": "assets/highlevel_flow-DjCTvobn.js",
+          "bytes": 11154,
+          "gzip9": 3274,
+          "sha256": "d1eba53e5e7641d102382a5c4ff8c027dcaea0561f1b8b4f7b98c9c2efcece52"
+        },
+        "src/components/ui/graphics/logic_flow.jsx": {
+          "file": "assets/logic_flow-yaFU84o6.js",
+          "bytes": 7319,
+          "gzip9": 2529,
+          "sha256": "632ccbec94471243122ea6f409ed1efbddfbb628b9442612e1a6809f624febb0"
+        },
+        "src/components/ui/graphics/metodologia_problem_flow.jsx": {
+          "file": "assets/metodologia_problem_flow-BQ1_96NY.js",
+          "bytes": 4790,
+          "gzip9": 1943,
+          "sha256": "8c0a859a434a87f61aec99521cf1d17d557b7021b7418240d4c047e35ea7ce6b"
+        },
+        "src/components/ui/graphics/metodologia_solution_flow.jsx": {
+          "file": "assets/metodologia_solution_flow-DZp_4mDg.js",
+          "bytes": 4771,
+          "gzip9": 1928,
+          "sha256": "c30ded4dbe231e724be7400d72c649773dcc5617307d076b7ec47a9995128ec0"
+        },
+        "src/components/ui/graphics/nodalume_flow.jsx": {
+          "file": "assets/nodalume_flow-DfUIHu06.js",
+          "bytes": 2657,
+          "gzip9": 1355,
+          "sha256": "2b588d7cfe5a828db254dfa9f01dba0e943b588d8eaefbe7989549700a1c729b"
+        },
+        "src/pages/projects/Concurrencia.jsx": {
+          "file": "assets/Concurrencia-DbrW7twK.js",
+          "bytes": 11447,
+          "gzip9": 3766,
+          "sha256": "0e5966e1a9f13f92129b4ec996c9237dc5be9372d344574a936fc52841e82d51"
+        },
+        "src/pages/projects/Metodologia.jsx": {
+          "file": "assets/Metodologia-AJHYx2gq.js",
+          "bytes": 9060,
+          "gzip9": 3059,
+          "sha256": "b5c4ceeb1ab65f9d482f243dac8e4e32793432267b9e0ff1276b43b982db1684"
+        }
+      },
+      "closures": {
+        "index.html": {
+          "bytes": 319727,
+          "gzip9": 100533,
+          "files": [
+            "assets/index-OjOxA4fa.js"
+          ]
+        },
+        "src/pages/projects/Concurrencia.jsx": {
+          "bytes": 373189,
+          "gzip9": 118304,
+          "files": [
+            "assets/Concurrencia-DbrW7twK.js",
+            "assets/index-OjOxA4fa.js",
+            "assets/ProjectMessages-BQ3Cj-S1.js",
+            "assets/CaseStudy-VlnIJ33l.js"
+          ]
+        },
+        "src/pages/projects/Metodologia.jsx": {
+          "bytes": 370802,
+          "gzip9": 117597,
+          "files": [
+            "assets/Metodologia-AJHYx2gq.js",
+            "assets/index-OjOxA4fa.js",
+            "assets/ProjectMessages-BQ3Cj-S1.js",
+            "assets/CaseStudy-VlnIJ33l.js"
+          ]
+        },
+        "src/pages/projects/Nodalume.jsx": {
+          "bytes": 358665,
+          "gzip9": 111846,
+          "files": [
+            "assets/Nodalume-Cs4u4oel.js",
+            "assets/index-OjOxA4fa.js",
+            "assets/CaseStudy-VlnIJ33l.js"
+          ]
+        },
+        "src/components/ui/graphics/nodalume_flow.jsx": {
+          "bytes": 541404,
+          "gzip9": 172300,
+          "files": [
+            "assets/nodalume_flow-DfUIHu06.js",
+            "assets/index-OjOxA4fa.js",
+            "assets/style-QSoYKWUs.js",
+            "assets/CaseStudy-VlnIJ33l.js",
+            "assets/Nodalume-Cs4u4oel.js"
+          ]
+        }
+      },
+      "css": {
+        "assets/CaseStudy-D1a2x9k9.css": {
+          "bytes": 6636,
+          "gzip9": 1720
+        },
+        "assets/Nodalume-6U9CTy1k.css": {
+          "bytes": 6747,
+          "gzip9": 1682
+        },
+        "assets/style-BZV40eAE.css": {
+          "bytes": 15851,
+          "gzip9": 2646
+        },
+        "assets/index-DQvQxips.css": {
+          "bytes": 44358,
+          "gzip9": 8482
+        }
+      }
+    },
+    "candidate": {
+      "assets": {
+        "_CaseStudy-QAuLaLvB.js": {
+          "file": "assets/CaseStudy-QAuLaLvB.js",
+          "bytes": 4221,
+          "gzip9": 1501,
+          "sha256": "bb4116c978bb6b9b3f46cd7ec934cce797327b774d5729aa41dca0d552d8e938"
+        },
+        "_Nodalume-DOTnK20M.js": {
+          "file": "assets/Nodalume-DOTnK20M.js",
+          "bytes": 92956,
+          "gzip9": 28309,
+          "sha256": "ff524b2fb17cd4b795d879b376009c84d66a38a60d1f378ff2f3ae287346e2a6"
+        },
+        "_ProjectMessages-DX-zEq09.js": {
+          "file": "assets/ProjectMessages-DX-zEq09.js",
+          "bytes": 37794,
+          "gzip9": 12505,
+          "sha256": "d3ef3189c25a75c5a56b39f4a71e63bc0240a1aed6d0db96bea19b639b4e76b3"
+        },
+        "_style-Cbh1BEAx.js": {
+          "file": "assets/style-Cbh1BEAx.js",
+          "bytes": 180277,
+          "gzip9": 59143,
+          "sha256": "26ddef288e6b44cd2f4e4514f4b13709181db5853eac635f1376c8a07fd660bf"
+        },
+        "_useDiagramPlayback-DxAJZRZw.js": {
+          "file": "assets/useDiagramPlayback-DxAJZRZw.js",
+          "bytes": 1487,
+          "gzip9": 796,
+          "sha256": "0cae675c27697d3b848665e84fa94225c9bfc0c84d63597dad7439d7f7449d82"
+        },
+        "index.html": {
+          "file": "assets/index-BijI_Mpx.js",
+          "bytes": 319735,
+          "gzip9": 100540,
+          "sha256": "b1f4c85d94c05bc33ae4f30f07f4496d6585b8a58cabdec33618e2168c7719d0"
+        },
+        "src/components/ui/graphics/bussiness_flow.jsx": {
+          "file": "assets/bussiness_flow-YWsFjdcE.js",
+          "bytes": 8999,
+          "gzip9": 2798,
+          "sha256": "d5d029b5488187464d2dc2b95f31b377dcc32772ab120be5542771c425d81b64"
+        },
+        "src/components/ui/graphics/flow_loadbalance.jsx": {
+          "file": "assets/flow_loadbalance-BGFH01aF.js",
+          "bytes": 6217,
+          "gzip9": 2339,
+          "sha256": "beeade5922afb7cc6214535c676e8180dc76a5205e81bdfc5c2b7e2edd6f21de"
+        },
+        "src/components/ui/graphics/highlevel_flow.jsx": {
+          "file": "assets/highlevel_flow-w5pSsZdc.js",
+          "bytes": 11154,
+          "gzip9": 3273,
+          "sha256": "535280c0850b69fa48771948602aafbbedb9e0c5c764a7c2351b7311532224c2"
+        },
+        "src/components/ui/graphics/logic_flow.jsx": {
+          "file": "assets/logic_flow-C355zTks.js",
+          "bytes": 7319,
+          "gzip9": 2528,
+          "sha256": "74ab9403f394d2146f87b4f3f9c93684ea24310be7540d555e9b6ace20fd2917"
+        },
+        "src/components/ui/graphics/metodologia_problem_flow.jsx": {
+          "file": "assets/metodologia_problem_flow-Bxp8iirR.js",
+          "bytes": 4790,
+          "gzip9": 1943,
+          "sha256": "eaf5bf8167775259be83295a92912ab4776b3eaaa9cf47a66358f0ed9a983c07"
+        },
+        "src/components/ui/graphics/metodologia_solution_flow.jsx": {
+          "file": "assets/metodologia_solution_flow-Bdihe_lx.js",
+          "bytes": 4771,
+          "gzip9": 1928,
+          "sha256": "223cdc99f755c63b2393038ac21cc4a28ba8572cdd3991e18990b9e94e82c073"
+        },
+        "src/components/ui/graphics/nodalume_flow.jsx": {
+          "file": "assets/nodalume_flow-DMuCyvJu.js",
+          "bytes": 5569,
+          "gzip9": 2542,
+          "sha256": "4388f1dd9cc0752be0689c4022ab0890c5d6ece327b4c78b20e0dbec06dc7652"
+        },
+        "src/pages/projects/Concurrencia.jsx": {
+          "file": "assets/Concurrencia-BIKJgZkr.js",
+          "bytes": 11447,
+          "gzip9": 3768,
+          "sha256": "3d21e5affb073ccbef45acef5943029b6aa5a28693c62a4af2d46b966d5b976e"
+        },
+        "src/pages/projects/Metodologia.jsx": {
+          "file": "assets/Metodologia-pofDIiyf.js",
+          "bytes": 9060,
+          "gzip9": 3052,
+          "sha256": "5ade78531d9ee02f87105589c808fb408ac1143a22a3364c20ed319c1315b76a"
+        }
+      },
+      "closures": {
+        "index.html": {
+          "bytes": 319735,
+          "gzip9": 100540,
+          "files": [
+            "assets/index-BijI_Mpx.js"
+          ]
+        },
+        "src/pages/projects/Concurrencia.jsx": {
+          "bytes": 373197,
+          "gzip9": 118314,
+          "files": [
+            "assets/Concurrencia-BIKJgZkr.js",
+            "assets/index-BijI_Mpx.js",
+            "assets/ProjectMessages-DX-zEq09.js",
+            "assets/CaseStudy-QAuLaLvB.js"
+          ]
+        },
+        "src/pages/projects/Metodologia.jsx": {
+          "bytes": 370810,
+          "gzip9": 117598,
+          "files": [
+            "assets/Metodologia-pofDIiyf.js",
+            "assets/index-BijI_Mpx.js",
+            "assets/ProjectMessages-DX-zEq09.js",
+            "assets/CaseStudy-QAuLaLvB.js"
+          ]
+        },
+        "src/pages/projects/Nodalume.jsx": {
+          "bytes": 416912,
+          "gzip9": 130350,
+          "files": [
+            "assets/Nodalume-DOTnK20M.js",
+            "assets/index-BijI_Mpx.js",
+            "assets/CaseStudy-QAuLaLvB.js"
+          ]
+        },
+        "src/components/ui/graphics/nodalume_flow.jsx": {
+          "bytes": 602758,
+          "gzip9": 192035,
+          "files": [
+            "assets/nodalume_flow-DMuCyvJu.js",
+            "assets/index-BijI_Mpx.js",
+            "assets/style-Cbh1BEAx.js",
+            "assets/CaseStudy-QAuLaLvB.js",
+            "assets/Nodalume-DOTnK20M.js"
+          ]
+        }
+      },
+      "css": {
+        "assets/CaseStudy-D1a2x9k9.css": {
+          "bytes": 6636,
+          "gzip9": 1720
+        },
+        "assets/Nodalume-BIBijbi2.css": {
+          "bytes": 12014,
+          "gzip9": 2500
+        },
+        "assets/style-BZV40eAE.css": {
+          "bytes": 15851,
+          "gzip9": 2646
+        },
+        "assets/index-DQvQxips.css": {
+          "bytes": 44358,
+          "gzip9": 8482
+        }
+      }
+    }
+  }
+}

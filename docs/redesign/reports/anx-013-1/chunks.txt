@@ -1,0 +1,48 @@
+PASS: home excludes React Flow/d3/zustand; editorial project chunks exclude React Flow; six original diagrams and the shared Nodalume diagram module retain their graph runtime.
+{
+  "initialFiles": [
+    "assets/index-BijI_Mpx.js"
+  ],
+  "routes": [
+    {
+      "file": "assets/Concurrencia-BIKJgZkr.js",
+      "imports": [
+        "assets/index-BijI_Mpx.js",
+        "assets/ProjectMessages-DX-zEq09.js",
+        "assets/CaseStudy-QAuLaLvB.js"
+      ],
+      "dynamicImports": [
+        "assets/flow_loadbalance-BGFH01aF.js",
+        "assets/bussiness_flow-YWsFjdcE.js",
+        "assets/logic_flow-C355zTks.js",
+        "assets/highlevel_flow-w5pSsZdc.js"
+      ]
+    },
+    {
+      "file": "assets/Nodalume-DOTnK20M.js",
+      "imports": [
+        "assets/index-BijI_Mpx.js",
+        "assets/CaseStudy-QAuLaLvB.js"
+      ],
+      "dynamicImports": [
+        "assets/nodalume_flow-DMuCyvJu.js",
+        "assets/nodalume_flow-DMuCyvJu.js"
+      ]
+    },
+    {
+      "file": "assets/Metodologia-pofDIiyf.js",
+      "imports": [
+        "assets/index-BijI_Mpx.js",
+        "assets/ProjectMessages-DX-zEq09.js",
+        "assets/CaseStudy-QAuLaLvB.js"
+      ],
+      "dynamicImports": [
+        "assets/metodologia_problem_flow-Bxp8iirR.js",
+        "assets/metodologia_solution_flow-Bdihe_lx.js"
+      ]
+    }
+  ],
+  "flowFiles": [
+    "assets/style-Cbh1BEAx.js"
+  ]
+}

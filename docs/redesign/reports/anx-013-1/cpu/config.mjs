@@ -1,0 +1,1 @@
+export default {extends:'lighthouse:default',artifacts:[{id:'ANXCPU',gatherer:new URL('./gatherer.mjs',import.meta.url).pathname}],audits:[{path:new URL('./audit.mjs',import.meta.url).pathname}],categories:{qa:{title:'ANX CPU sample',auditRefs:[{id:'anx-cpu',weight:1}]}}};

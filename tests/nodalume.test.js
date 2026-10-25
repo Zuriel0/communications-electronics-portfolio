@@ -53,12 +53,12 @@ test('actual editorial page renders complete EN/ES before the deferred diagram r
       assert.equal((html.match(/<h1/g)||[]).length,1);
       assert.ok(html.includes(messages[language]['A portal. Your possibilities.']));
       assert.ok(html.includes(messages[language]['Future direction']));
-      assert.ok(html.includes(messages[language]['Implemented · owner-reported lab']));
+      assert.ok(html.includes(messages[language]['Source reviewed · isolated tests reproduced']));
       for(const brand of ['Elementor / Wix','Figma','Scratch / Zoho Flow','Postman'])assert.ok(html.includes(brand));
       assert.ok(html.includes('Docker Compose'));assert.ok(html.includes('MikroTik'));
-      assert.equal((html.match(/class="diagram-load-frame"/g)||[]).length,3);
+      assert.equal((html.match(/class="diagram-load-frame"/g)||[]).length,4);
       const loading=language==='en'?'Loading interactive diagram…':'Cargando diagrama interactivo…';
-      assert.equal(html.split(loading).length-1,3,'Each deferred figure uses the active route language');
+      assert.equal(html.split(loading).length-1,4,'Each deferred figure uses the active route language');
       assert.ok(html.includes(language==='en'?'aria-label="Case study sections"':'aria-label="Secciones del caso de estudio"'));
       assert.ok(!html.includes('react-flow__node'));
       for(const nav of projectNavigation('/projects/nodalume'))if(nav.href.startsWith('#'))assert.ok(html.includes(`id="${nav.href.slice(1)}"`));

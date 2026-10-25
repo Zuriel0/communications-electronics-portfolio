@@ -28,7 +28,7 @@ export function uiMessages(root = 'src') {
         StringLiteral(p) {
           // Content arrays, profile fields and fixed diagram labels; exclude structural metadata.
           if (p.parent.type === 'ObjectProperty' && p.key !== 'key' && ['label','kicker','description','badge','summary','title','name','context'].includes(p.parent.key.name || p.parent.key.value) && !['professional','credential','project','lab'].includes(p.node.value)) add(p.node.value, f);
-          if (p.parent.type === 'ArrayExpression' && /src\/data\/|sections\/introduce/.test(f) && !p.node.value.startsWith('#')) add(p.node.value, f);
+          if (p.parent.type === 'ArrayExpression' && /src\/data\/|sections\/introduce|ui\/NodalumeEngineering/.test(f) && !p.node.value.startsWith('#')) add(p.node.value, f);
         },
       });
     }

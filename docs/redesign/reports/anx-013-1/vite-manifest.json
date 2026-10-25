@@ -1,0 +1,313 @@
+{
+  "_CaseStudy-D1a2x9k9.css": {
+    "file": "assets/CaseStudy-D1a2x9k9.css",
+    "src": "_CaseStudy-D1a2x9k9.css"
+  },
+  "_CaseStudy-QAuLaLvB.js": {
+    "file": "assets/CaseStudy-QAuLaLvB.js",
+    "name": "CaseStudy",
+    "imports": [
+      "index.html"
+    ],
+    "css": [
+      "assets/CaseStudy-D1a2x9k9.css"
+    ]
+  },
+  "_Nodalume-BIBijbi2.css": {
+    "file": "assets/Nodalume-BIBijbi2.css",
+    "src": "_Nodalume-BIBijbi2.css"
+  },
+  "_Nodalume-DOTnK20M.js": {
+    "file": "assets/Nodalume-DOTnK20M.js",
+    "name": "Nodalume",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_CaseStudy-QAuLaLvB.js"
+    ],
+    "dynamicImports": [
+      "src/components/ui/graphics/nodalume_flow.jsx",
+      "src/components/ui/graphics/nodalume_flow.jsx"
+    ],
+    "css": [
+      "assets/Nodalume-BIBijbi2.css"
+    ]
+  },
+  "_ProjectMessages-DX-zEq09.js": {
+    "file": "assets/ProjectMessages-DX-zEq09.js",
+    "name": "ProjectMessages",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_style-BZV40eAE.css": {
+    "file": "assets/style-BZV40eAE.css",
+    "src": "_style-BZV40eAE.css"
+  },
+  "_style-Cbh1BEAx.js": {
+    "file": "assets/style-Cbh1BEAx.js",
+    "name": "style",
+    "imports": [
+      "index.html",
+      "_CaseStudy-QAuLaLvB.js"
+    ],
+    "css": [
+      "assets/style-BZV40eAE.css"
+    ]
+  },
+  "_useDiagramPlayback-DxAJZRZw.js": {
+    "file": "assets/useDiagramPlayback-DxAJZRZw.js",
+    "name": "useDiagramPlayback",
+    "imports": [
+      "index.html",
+      "_style-Cbh1BEAx.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-BijI_Mpx.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/pages/projects/Concurrencia.jsx",
+      "_Nodalume-DOTnK20M.js",
+      "src/pages/projects/Metodologia.jsx"
+    ],
+    "css": [
+      "assets/index-DQvQxips.css"
+    ],
+    "assets": [
+      "assets/anxzu-480-D9Ta-Nth.jpg",
+      "assets/anxzu-768-DTErN6Kh.jpg",
+      "assets/anxzu-1024-bLlLDyaE.jpg",
+      "assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+      "assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+      "assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+      "assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+      "assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+      "assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+      "assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+      "assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+      "assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+      "assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+      "assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+      "assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+      "assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+      "assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+      "assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+      "assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+      "assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+      "assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+      "assets/inter-latin-8kRkwJBP.woff2",
+      "assets/AX-BL9tpoD4.svg"
+    ]
+  },
+  "src/assets/fonts/inter-latin.woff2": {
+    "file": "assets/inter-latin-8kRkwJBP.woff2",
+    "src": "src/assets/fonts/inter-latin.woff2"
+  },
+  "src/assets/icons/AX.svg": {
+    "file": "assets/AX-BL9tpoD4.svg",
+    "src": "src/assets/icons/AX.svg"
+  },
+  "src/assets/images/credentials/06a8654d-f93b-412e-bae7-59156fb14189.png": {
+    "file": "assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+    "src": "src/assets/images/credentials/06a8654d-f93b-412e-bae7-59156fb14189.png"
+  },
+  "src/assets/images/credentials/359ec1bd-5afd-4e86-ac6b-0516a337e8ec.png": {
+    "file": "assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+    "src": "src/assets/images/credentials/359ec1bd-5afd-4e86-ac6b-0516a337e8ec.png"
+  },
+  "src/assets/images/credentials/70fbf77b-7650-41d5-95cc-c6f1f492cff2.png": {
+    "file": "assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+    "src": "src/assets/images/credentials/70fbf77b-7650-41d5-95cc-c6f1f492cff2.png"
+  },
+  "src/assets/images/credentials/72a5814e-c56b-4e7c-b590-7fdda6b29453.png": {
+    "file": "assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+    "src": "src/assets/images/credentials/72a5814e-c56b-4e7c-b590-7fdda6b29453.png"
+  },
+  "src/assets/images/credentials/9713e1b5-af12-4bff-b04c-f82e4aca6387.png": {
+    "file": "assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+    "src": "src/assets/images/credentials/9713e1b5-af12-4bff-b04c-f82e4aca6387.png"
+  },
+  "src/assets/images/credentials/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d.png": {
+    "file": "assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+    "src": "src/assets/images/credentials/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d.png"
+  },
+  "src/assets/images/credentials/a6f95950-f997-4619-93bd-12ef2e803049.png": {
+    "file": "assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+    "src": "src/assets/images/credentials/a6f95950-f997-4619-93bd-12ef2e803049.png"
+  },
+  "src/assets/images/credentials/b331b024-6ee7-4b66-b904-a1a0c9f90309.png": {
+    "file": "assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+    "src": "src/assets/images/credentials/b331b024-6ee7-4b66-b904-a1a0c9f90309.png"
+  },
+  "src/assets/images/credentials/b536a83a-c05d-49f8-9290-ae87cc042b9e.png": {
+    "file": "assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+    "src": "src/assets/images/credentials/b536a83a-c05d-49f8-9290-ae87cc042b9e.png"
+  },
+  "src/assets/images/credentials/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1.png": {
+    "file": "assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+    "src": "src/assets/images/credentials/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1.png"
+  },
+  "src/assets/images/credentials/c6d728e5-93bf-4e18-9699-75f50775ab14.png": {
+    "file": "assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+    "src": "src/assets/images/credentials/c6d728e5-93bf-4e18-9699-75f50775ab14.png"
+  },
+  "src/assets/images/credentials/c8c68512-e2cc-4e49-80bd-3f2197afb2bf.png": {
+    "file": "assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+    "src": "src/assets/images/credentials/c8c68512-e2cc-4e49-80bd-3f2197afb2bf.png"
+  },
+  "src/assets/images/credentials/df1a5877-1721-47db-a196-ea4e17f3a745.png": {
+    "file": "assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+    "src": "src/assets/images/credentials/df1a5877-1721-47db-a196-ea4e17f3a745.png"
+  },
+  "src/assets/images/credentials/df473e2c-6a24-475a-8b94-49b17985c053.png": {
+    "file": "assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+    "src": "src/assets/images/credentials/df473e2c-6a24-475a-8b94-49b17985c053.png"
+  },
+  "src/assets/images/credentials/f15f1dee-8498-4e20-942f-7833f0486abe.png": {
+    "file": "assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+    "src": "src/assets/images/credentials/f15f1dee-8498-4e20-942f-7833f0486abe.png"
+  },
+  "src/assets/images/credentials/f9b4484a-3cad-4609-9856-f8c7cf66fc72.png": {
+    "file": "assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+    "src": "src/assets/images/credentials/f9b4484a-3cad-4609-9856-f8c7cf66fc72.png"
+  },
+  "src/assets/images/credentials/fb4349ee-b599-4ae1-88a8-902a545f063a.png": {
+    "file": "assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+    "src": "src/assets/images/credentials/fb4349ee-b599-4ae1-88a8-902a545f063a.png"
+  },
+  "src/assets/images/credentials/fc048a96-ef41-48c4-9943-16269ab6085c.png": {
+    "file": "assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+    "src": "src/assets/images/credentials/fc048a96-ef41-48c4-9943-16269ab6085c.png"
+  },
+  "src/assets/images/portrait/anxzu-1024.jpg": {
+    "file": "assets/anxzu-1024-bLlLDyaE.jpg",
+    "src": "src/assets/images/portrait/anxzu-1024.jpg"
+  },
+  "src/assets/images/portrait/anxzu-480.jpg": {
+    "file": "assets/anxzu-480-D9Ta-Nth.jpg",
+    "src": "src/assets/images/portrait/anxzu-480.jpg"
+  },
+  "src/assets/images/portrait/anxzu-768.jpg": {
+    "file": "assets/anxzu-768-DTErN6Kh.jpg",
+    "src": "src/assets/images/portrait/anxzu-768.jpg"
+  },
+  "src/components/ui/graphics/bussiness_flow.jsx": {
+    "file": "assets/bussiness_flow-YWsFjdcE.js",
+    "name": "bussiness_flow",
+    "src": "src/components/ui/graphics/bussiness_flow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_useDiagramPlayback-DxAJZRZw.js",
+      "_style-Cbh1BEAx.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/components/ui/graphics/flow_loadbalance.jsx": {
+    "file": "assets/flow_loadbalance-BGFH01aF.js",
+    "name": "flow_loadbalance",
+    "src": "src/components/ui/graphics/flow_loadbalance.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_useDiagramPlayback-DxAJZRZw.js",
+      "_style-Cbh1BEAx.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/components/ui/graphics/highlevel_flow.jsx": {
+    "file": "assets/highlevel_flow-w5pSsZdc.js",
+    "name": "highlevel_flow",
+    "src": "src/components/ui/graphics/highlevel_flow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_useDiagramPlayback-DxAJZRZw.js",
+      "_style-Cbh1BEAx.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/components/ui/graphics/logic_flow.jsx": {
+    "file": "assets/logic_flow-C355zTks.js",
+    "name": "logic_flow",
+    "src": "src/components/ui/graphics/logic_flow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_useDiagramPlayback-DxAJZRZw.js",
+      "_style-Cbh1BEAx.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/components/ui/graphics/metodologia_problem_flow.jsx": {
+    "file": "assets/metodologia_problem_flow-Bxp8iirR.js",
+    "name": "metodologia_problem_flow",
+    "src": "src/components/ui/graphics/metodologia_problem_flow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_useDiagramPlayback-DxAJZRZw.js",
+      "_style-Cbh1BEAx.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/components/ui/graphics/metodologia_solution_flow.jsx": {
+    "file": "assets/metodologia_solution_flow-Bdihe_lx.js",
+    "name": "metodologia_solution_flow",
+    "src": "src/components/ui/graphics/metodologia_solution_flow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_useDiagramPlayback-DxAJZRZw.js",
+      "_style-Cbh1BEAx.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/components/ui/graphics/nodalume_flow.jsx": {
+    "file": "assets/nodalume_flow-DMuCyvJu.js",
+    "name": "nodalume_flow",
+    "src": "src/components/ui/graphics/nodalume_flow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_style-Cbh1BEAx.js",
+      "_Nodalume-DOTnK20M.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ]
+  },
+  "src/pages/projects/Concurrencia.jsx": {
+    "file": "assets/Concurrencia-BIKJgZkr.js",
+    "name": "Concurrencia",
+    "src": "src/pages/projects/Concurrencia.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_ProjectMessages-DX-zEq09.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ],
+    "dynamicImports": [
+      "src/components/ui/graphics/flow_loadbalance.jsx",
+      "src/components/ui/graphics/bussiness_flow.jsx",
+      "src/components/ui/graphics/logic_flow.jsx",
+      "src/components/ui/graphics/highlevel_flow.jsx"
+    ]
+  },
+  "src/pages/projects/Metodologia.jsx": {
+    "file": "assets/Metodologia-pofDIiyf.js",
+    "name": "Metodologia",
+    "src": "src/pages/projects/Metodologia.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_ProjectMessages-DX-zEq09.js",
+      "_CaseStudy-QAuLaLvB.js"
+    ],
+    "dynamicImports": [
+      "src/components/ui/graphics/metodologia_problem_flow.jsx",
+      "src/components/ui/graphics/metodologia_solution_flow.jsx"
+    ]
+  }
+}

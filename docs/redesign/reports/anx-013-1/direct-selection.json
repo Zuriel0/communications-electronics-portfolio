@@ -1,0 +1,8 @@
+{
+  "pointerSelected": "radius",
+  "keyboardSequence": "Space, Down, Return on native selector",
+  "final": {
+    "paused": "true",
+    "selected": "reply"
+  }
+}

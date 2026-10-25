@@ -1,0 +1,18 @@
+{
+  "wheel": {
+    "before": {
+      "scroll": 7117,
+      "zoom": "translate(61px, 146.647px) scale(1.01984)"
+    },
+    "after": {
+      "scroll": 8117,
+      "zoom": "translate(61px, 146.647px) scale(1.01984)"
+    }
+  },
+  "mobileMenu": {
+    "focus": "nodalume-overview",
+    "hash": "#nodalume-overview",
+    "menu": "false",
+    "width": 375
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "name": "home",
+    "path": "/",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": "true",
+      "heroControl": {
+        "disabled": true,
+        "text": "Motion reduced"
+      },
+      "diagrams": []
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-platform",
+    "path": "/projects/nodalume#diagram-nodalume-platform",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-platform",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-platform",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-builder",
+    "path": "/projects/nodalume#diagram-nodalume-builder",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-builder",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-builder",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-evolution",
+    "path": "/projects/nodalume#diagram-nodalume-evolution",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-evolution",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-evolution",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-authentication",
+    "path": "/projects/nodalume#diagram-nodalume-authentication",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-authentication",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-sessions",
+    "path": "/projects/nodalume#diagram-nodalume-sessions",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-sessions",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-sessions",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-tenancy",
+    "path": "/projects/nodalume#diagram-nodalume-tenancy",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-tenancy",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-tenancy",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-deployment",
+    "path": "/projects/nodalume#diagram-nodalume-deployment",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-deployment",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-deployment",
+          "playing": "false",
+          "nodes": 7,
+          "edges": 6,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-editor",
+    "path": "/projects/nodalume#diagram-nodalume-editor",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-editor",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-editor",
+          "playing": "false",
+          "nodes": 7,
+          "edges": 6,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": []
+  }
+]

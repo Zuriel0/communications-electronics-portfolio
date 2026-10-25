@@ -1,0 +1,14 @@
+{
+  "before": {
+    "playing": "true",
+    "visibility": "visible"
+  },
+  "hidden": {
+    "playing": "true",
+    "visibility": "visible"
+  },
+  "restored": {
+    "playing": "true",
+    "visibility": "visible"
+  }
+}

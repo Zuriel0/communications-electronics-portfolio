@@ -1,0 +1,100 @@
+{
+  "baseline": {
+    "index.html": {
+      "bytes": 319727,
+      "gzip9": 100533,
+      "files": [
+        "assets/index-OjOxA4fa.js"
+      ]
+    },
+    "src/pages/projects/Concurrencia.jsx": {
+      "bytes": 373189,
+      "gzip9": 118304,
+      "files": [
+        "assets/Concurrencia-DbrW7twK.js",
+        "assets/index-OjOxA4fa.js",
+        "assets/ProjectMessages-BQ3Cj-S1.js",
+        "assets/CaseStudy-VlnIJ33l.js"
+      ]
+    },
+    "src/pages/projects/Metodologia.jsx": {
+      "bytes": 370802,
+      "gzip9": 117597,
+      "files": [
+        "assets/Metodologia-AJHYx2gq.js",
+        "assets/index-OjOxA4fa.js",
+        "assets/ProjectMessages-BQ3Cj-S1.js",
+        "assets/CaseStudy-VlnIJ33l.js"
+      ]
+    },
+    "src/pages/projects/Nodalume.jsx": {
+      "bytes": 358665,
+      "gzip9": 111846,
+      "files": [
+        "assets/Nodalume-Cs4u4oel.js",
+        "assets/index-OjOxA4fa.js",
+        "assets/CaseStudy-VlnIJ33l.js"
+      ]
+    },
+    "src/components/ui/graphics/nodalume_flow.jsx": {
+      "bytes": 541404,
+      "gzip9": 172300,
+      "files": [
+        "assets/nodalume_flow-DfUIHu06.js",
+        "assets/index-OjOxA4fa.js",
+        "assets/style-QSoYKWUs.js",
+        "assets/CaseStudy-VlnIJ33l.js",
+        "assets/Nodalume-Cs4u4oel.js"
+      ]
+    }
+  },
+  "candidate": {
+    "index.html": {
+      "bytes": 319735,
+      "gzip9": 100540,
+      "files": [
+        "assets/index-BijI_Mpx.js"
+      ]
+    },
+    "src/pages/projects/Concurrencia.jsx": {
+      "bytes": 373197,
+      "gzip9": 118314,
+      "files": [
+        "assets/Concurrencia-BIKJgZkr.js",
+        "assets/index-BijI_Mpx.js",
+        "assets/ProjectMessages-DX-zEq09.js",
+        "assets/CaseStudy-QAuLaLvB.js"
+      ]
+    },
+    "src/pages/projects/Metodologia.jsx": {
+      "bytes": 370810,
+      "gzip9": 117598,
+      "files": [
+        "assets/Metodologia-pofDIiyf.js",
+        "assets/index-BijI_Mpx.js",
+        "assets/ProjectMessages-DX-zEq09.js",
+        "assets/CaseStudy-QAuLaLvB.js"
+      ]
+    },
+    "src/pages/projects/Nodalume.jsx": {
+      "bytes": 416912,
+      "gzip9": 130350,
+      "files": [
+        "assets/Nodalume-DOTnK20M.js",
+        "assets/index-BijI_Mpx.js",
+        "assets/CaseStudy-QAuLaLvB.js"
+      ]
+    },
+    "src/components/ui/graphics/nodalume_flow.jsx": {
+      "bytes": 602758,
+      "gzip9": 192035,
+      "files": [
+        "assets/nodalume_flow-DMuCyvJu.js",
+        "assets/index-BijI_Mpx.js",
+        "assets/style-Cbh1BEAx.js",
+        "assets/CaseStudy-QAuLaLvB.js",
+        "assets/Nodalume-DOTnK20M.js"
+      ]
+    }
+  }
+}

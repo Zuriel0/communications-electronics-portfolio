@@ -1,0 +1,237 @@
+{
+  "repository": "Zuriel0/Nodalume",
+  "ref": "25c6897e5bf1878c3660e19dac397bda08f31f9a",
+  "method": "Read-only GitHub connector, pinned snapshot. No live lab services contacted.",
+  "reviewed": [
+    {
+      "path": "AGENTS.md",
+      "blob": "b62b1c1d0c2b9b22d650578e78d87de175f59053",
+      "lines": 14
+    },
+    {
+      "path": "README.md",
+      "blob": "8bf190d8777dc62093c5d594217122ca98aac536",
+      "lines": 620
+    },
+    {
+      "path": "graphify-out/GRAPH_REPORT.md",
+      "blob": "b7b8bc9c6228afd9a25dac9d7fbf7911db75aeb5",
+      "lines": 110
+    },
+    {
+      "path": "compose.yaml",
+      "blob": "6e4206c65f4accad733534f638a466e2b132cefc",
+      "lines": 196
+    },
+    {
+      "path": "docs/v2/modelo-editor.md",
+      "blob": "34d1c8d00cd8937fffe1fe74e6b17024fef825b7",
+      "lines": 158
+    },
+    {
+      "path": "docs/v2/api-editor.md",
+      "blob": "a14b98de244b8452e224a6ae14ef4a2087439cbb",
+      "lines": 146
+    },
+    {
+      "path": "docs/v2/ciclo-editorial.md",
+      "blob": "714f8175a101850e41408748d4830967766efc55",
+      "lines": 153
+    },
+    {
+      "path": "docs/v2/cierre.md",
+      "blob": "6c24a11303a1c498390f62fd8b609c7200c6a9ab",
+      "lines": 193
+    },
+    {
+      "path": "docs/deployment/tenant-session-timeout.md",
+      "blob": "c72af1c233d66468a4bdce284dd9c983a08bf73e",
+      "lines": 140
+    },
+    {
+      "path": "docs/deployment/phase9-accounting-attribution.md",
+      "blob": "cd4a14e2418b0a2ac0b022af548d865c90c5e08c",
+      "lines": 85
+    },
+    {
+      "path": "docs/releases/1.4.0-rc.1.md",
+      "blob": "a4ef4016ce4319b7e24881c19051fdae4832aee2",
+      "lines": 62
+    },
+    {
+      "path": "docs/v1.4.2/entrega.md",
+      "blob": "b708d1a39e648c3ebee64ed0e0dbb180770910ae",
+      "lines": 26
+    },
+    {
+      "path": "portal-api/src/modules/registrations/registration.service.js",
+      "blob": "43bb66e8d3c1fa24c82b76778fe985ff11d5512d",
+      "lines": 154
+    },
+    {
+      "path": "portal-api/src/modules/public-context/public-context.service.js",
+      "blob": "5fc38fdbb1f4b1f443f2f67cd0e1ce0ae2ca41a9",
+      "lines": 21
+    },
+    {
+      "path": "portal-api/src/modules/temporary-accesses/temporary-access.service.js",
+      "blob": "6d5cc32edf44623dd622bd5d8d24515313b2c75e",
+      "lines": 51
+    },
+    {
+      "path": "portal-api/src/modules/temporary-accesses/temporary-access.repository.js",
+      "blob": "f35bdd280c899b47e251481506c471f3ce58987e",
+      "lines": 55
+    },
+    {
+      "path": "portal-api/src/modules/tenant-sessions/tenant-sessions.repository.js",
+      "blob": "97e2136301d30647d5e910b345331f314b77af0f",
+      "lines": 82
+    },
+    {
+      "path": "portal-api/src/modules/admin-auth/admin-authorization.js",
+      "blob": "ce76a0110611462afc7210494cc795c65295dcef",
+      "lines": 44
+    },
+    {
+      "path": "portal-api/src/db/migrations/013_tenant_session_timeout.up.sql",
+      "blob": "75e29db61f2ebea42da2e5da04467d617f976b19",
+      "lines": 193
+    },
+    {
+      "path": "portal-api/src/db/migrations/014_portal_editor_model.up.sql",
+      "blob": "56fc3003d41704ebb635e2fbaf36af94147b8a26",
+      "lines": 203
+    },
+    {
+      "path": "portal-api/src/db/migrations/027_verified_presentations.up.sql",
+      "blob": "65b427c275b5d73867a148e0141e157c4aab786d",
+      "lines": 80
+    },
+    {
+      "path": "portal-api/src/modules/portal-documents/portal-document.contract.js",
+      "blob": "3d90d02c797d1cf9ba9632f96aed828a17252ac7",
+      "lines": 670
+    },
+    {
+      "path": "portal-api/src/modules/portal-documents/portal-document.service.js",
+      "blob": "9fcdfe0ad4ca9b762b68ee1f129a80a38afb59d4",
+      "lines": 319
+    },
+    {
+      "path": "portal-api/src/modules/portal-presentations/portal-presentation.service.js",
+      "blob": "409236434647776d76388ada9aebd0508a8894d9",
+      "lines": 185
+    },
+    {
+      "path": "captive-portal/src/registration-flow.js",
+      "blob": "8bef3f3d90a717c258d8265cdc684cd16a6e8074",
+      "lines": 181
+    },
+    {
+      "path": "captive-portal/src/hotspot-login.js",
+      "blob": "ffb31c9005589db0ca87d243b8ddd525ad2f6ada",
+      "lines": 81
+    },
+    {
+      "path": "captive-portal/src/chap-md5.js",
+      "blob": "e8f8dbab40046ec9272f2f52226cdb9e7d26a49f",
+      "lines": 105
+    },
+    {
+      "path": "admin-console/src/features/portal-editor/editor-tree.js",
+      "blob": "042124fa9651660c27bfe629a0b26be43ad4ee57",
+      "lines": 645
+    },
+    {
+      "path": "admin-console/src/features/portal-editor/EditorInspector.jsx",
+      "blob": "9361222010a46f95004a08b1aac05cc439d19ea8",
+      "lines": 707
+    },
+    {
+      "path": "admin-console/src/features/portal-editor/EditorPublishing.jsx",
+      "blob": "49bb194f3ca0f6660d222147c42b0f8132cce92e",
+      "lines": 179
+    },
+    {
+      "path": "portal-api/tests/unit/temporary-access.service.test.js",
+      "blob": "a7e1978b551e0efec4c91a1cb1fbb59cf914c86e",
+      "lines": 115
+    },
+    {
+      "path": "captive-portal/tests/hotspot-login.test.js",
+      "blob": "a03f994d06dcd33874d64c9516ac5b8c59dcd8fc",
+      "lines": 102
+    },
+    {
+      "path": "captive-portal/tests/chap-md5.test.js",
+      "blob": "a9d2841a862f3aa1746530ad815fcb86e189ba9f",
+      "lines": 33
+    },
+    {
+      "path": "portal-api/tests/integration/phase7-multitenant.db.test.js",
+      "blob": "3a81016f5a723e17825ce77565398b0f01f8f3ea",
+      "lines": 642
+    },
+    {
+      "path": "portal-api/tests/integration/phase8-accounting.db.test.js",
+      "blob": "dbf7d39a849038825b7134b855bcfc6e05b1425e",
+      "lines": 479
+    },
+    {
+      "path": "freeradius/config/sites-available/default",
+      "blob": "a364e06f38237fa4873c04feaa509a32754923c8",
+      "lines": 1235
+    },
+    {
+      "path": "freeradius/config/mods-config/sql/main/postgresql/queries.conf",
+      "blob": "a2c5e56b5d824079c7c7719833e7e8322412ce9e",
+      "lines": 735
+    }
+  ],
+  "offlineUnitValidation": {
+    "tests": 8,
+    "passed": 8,
+    "failed": 0,
+    "files": [
+      {
+        "path": "portal-api/src/modules/temporary-accesses/temporary-access.service.js",
+        "blob": "6d5cc32edf44623dd622bd5d8d24515313b2c75e"
+      },
+      {
+        "path": "portal-api/tests/unit/temporary-access.service.test.js",
+        "blob": "a7e1978b551e0efec4c91a1cb1fbb59cf914c86e"
+      },
+      {
+        "path": "captive-portal/src/hotspot-login.js",
+        "blob": "ffb31c9005589db0ca87d243b8ddd525ad2f6ada"
+      },
+      {
+        "path": "captive-portal/src/chap-md5.js",
+        "blob": "e8f8dbab40046ec9272f2f52226cdb9e7d26a49f"
+      },
+      {
+        "path": "captive-portal/tests/hotspot-login.test.js",
+        "blob": "a03f994d06dcd33874d64c9516ac5b8c59dcd8fc"
+      },
+      {
+        "path": "captive-portal/tests/chap-md5.test.js",
+        "blob": "a9d2841a862f3aa1746530ad815fcb86e189ba9f"
+      }
+    ],
+    "scope": "Isolated CHAP vectors, handoff URL/POST and temporary-access service with test doubles. No DB, RADIUS server, HTTP request or physical acceptance.",
+    "environment": "Minimal environment; no product installation or dependencies. Exact Git blob copies verified."
+  },
+  "excluded": [
+    "Environment files",
+    "Router backups and exports",
+    "RADIUS clients and private credentials",
+    "Deployment manifests with identifiers",
+    "Live services and lab infrastructure"
+  ],
+  "navigation": {
+    "graphifyCLI": "Not installed locally; no remote commands executed.",
+    "graphReport": "Read for navigation; freshness points to an earlier commit, not used as source truth."
+  },
+  "availableLocalMaterial": "Technical DOCX report filenames inventoried; contents and backups not copied. Code snapshot used as primary source."
+}

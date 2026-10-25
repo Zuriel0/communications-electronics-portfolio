@@ -1,0 +1,284 @@
+[
+  {
+    "id": "active-1",
+    "run": 1,
+    "reduced": false,
+    "lighthouseVersion": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "wallSeconds": 12.003,
+    "delta": {
+      "TaskDuration": 0.777136,
+      "ScriptDuration": 0.026321000000000004,
+      "LayoutDuration": 0.002901,
+      "RecalcStyleDuration": 0.10480300000000001,
+      "LayoutCount": 10,
+      "RecalcStyleCount": 725
+    },
+    "mainThreadBusyPercent": 6.474514704657169,
+    "beforeState": {
+      "visibility": "visible",
+      "reduced": false,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "true",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "afterState": {
+      "visibility": "visible",
+      "reduced": false,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "true",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "heapBytes": {
+      "before": 4884484,
+      "after": 5393932
+    }
+  },
+  {
+    "id": "static-1",
+    "run": 1,
+    "reduced": true,
+    "lighthouseVersion": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "wallSeconds": 12.003,
+    "delta": {
+      "TaskDuration": 0.000178,
+      "ScriptDuration": 0,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0,
+      "LayoutCount": 0,
+      "RecalcStyleCount": 0
+    },
+    "mainThreadBusyPercent": 0.001482962592685162,
+    "beforeState": {
+      "visibility": "visible",
+      "reduced": true,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "afterState": {
+      "visibility": "visible",
+      "reduced": true,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "heapBytes": {
+      "before": 4265332,
+      "after": 4265332
+    }
+  },
+  {
+    "id": "static-2",
+    "run": 2,
+    "reduced": true,
+    "lighthouseVersion": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "wallSeconds": 12.004,
+    "delta": {
+      "TaskDuration": 0.00015400000000000027,
+      "ScriptDuration": 0,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0,
+      "LayoutCount": 0,
+      "RecalcStyleCount": 0
+    },
+    "mainThreadBusyPercent": 0.0012829056981006354,
+    "beforeState": {
+      "visibility": "visible",
+      "reduced": true,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "afterState": {
+      "visibility": "visible",
+      "reduced": true,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "heapBytes": {
+      "before": 4265208,
+      "after": 4265208
+    }
+  },
+  {
+    "id": "active-2",
+    "run": 2,
+    "reduced": false,
+    "lighthouseVersion": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "wallSeconds": 12.004,
+    "delta": {
+      "TaskDuration": 0.809033,
+      "ScriptDuration": 0.028723,
+      "LayoutDuration": 0.0032579999999999996,
+      "RecalcStyleDuration": 0.108735,
+      "LayoutCount": 10,
+      "RecalcStyleCount": 725
+    },
+    "mainThreadBusyPercent": 6.7396951016327895,
+    "beforeState": {
+      "visibility": "visible",
+      "reduced": false,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "true",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "afterState": {
+      "visibility": "visible",
+      "reduced": false,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "true",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "heapBytes": {
+      "before": 5029432,
+      "after": 5393272
+    }
+  },
+  {
+    "id": "active-3",
+    "run": 3,
+    "reduced": false,
+    "lighthouseVersion": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "wallSeconds": 12.004,
+    "delta": {
+      "TaskDuration": 0.7927740000000001,
+      "ScriptDuration": 0.02808,
+      "LayoutDuration": 0.00286,
+      "RecalcStyleDuration": 0.106339,
+      "LayoutCount": 10,
+      "RecalcStyleCount": 725
+    },
+    "mainThreadBusyPercent": 6.604248583805399,
+    "beforeState": {
+      "visibility": "visible",
+      "reduced": false,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "true",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "afterState": {
+      "visibility": "visible",
+      "reduced": false,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "true",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "heapBytes": {
+      "before": 5040132,
+      "after": 5393036
+    }
+  },
+  {
+    "id": "static-3",
+    "run": 3,
+    "reduced": true,
+    "lighthouseVersion": "13.5.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "wallSeconds": 12.001,
+    "delta": {
+      "TaskDuration": 0.00009499999999999982,
+      "ScriptDuration": 0,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0,
+      "LayoutCount": 0,
+      "RecalcStyleCount": 0
+    },
+    "mainThreadBusyPercent": 0.00079160069994167,
+    "beforeState": {
+      "visibility": "visible",
+      "reduced": true,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "afterState": {
+      "visibility": "visible",
+      "reduced": true,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "active": "context-registration"
+        }
+      ]
+    },
+    "heapBytes": {
+      "before": 4265172,
+      "after": 4265172
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "cause": "An open Preview tab retained an asset URL from the preceding local build; that file was replaced by a rebuild.",
+  "recovery": "Reload served the final manifest; direct selection works after reload.",
+  "logs": [
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4173/assets/nodalume_flow-CtmXRhP5.js",
+      "timestamp": "2026-10-25T19:09:52.812Z",
+      "url": "http://127.0.0.1:4173/assets/index-eWigHzbG.js"
+    }
+  ]
+}
