@@ -1,0 +1,122 @@
+[
+  {
+    "requestedWidth": 375,
+    "canonical": "https://anxzu.com/",
+    "documentWidth": 360,
+    "language": "en",
+    "scrollWidth": 360,
+    "title": "ANXZU — The Art of Engineering",
+    "url": "https://anxzu.com/",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "canonical": "https://anxzu.com/",
+    "documentWidth": 360,
+    "language": "es",
+    "scrollWidth": 360,
+    "title": "ANXZU — El arte de la ingeniería",
+    "url": "https://anxzu.com/",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "canonical": "https://anxzu.com/projects/concurrencia",
+    "documentWidth": 360,
+    "language": "en",
+    "scrollWidth": 360,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "url": "https://anxzu.com/projects/concurrencia/",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "canonical": "https://anxzu.com/projects/concurrencia",
+    "documentWidth": 360,
+    "language": "es",
+    "scrollWidth": 360,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "url": "https://anxzu.com/projects/concurrencia/",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "canonical": "https://anxzu.com/projects/metodologia",
+    "documentWidth": 360,
+    "language": "en",
+    "scrollWidth": 360,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "url": "https://anxzu.com/projects/metodologia/",
+    "width": 375
+  },
+  {
+    "requestedWidth": 375,
+    "canonical": "https://anxzu.com/projects/metodologia",
+    "documentWidth": 360,
+    "language": "es",
+    "scrollWidth": 360,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "url": "https://anxzu.com/projects/metodologia/",
+    "width": 375
+  },
+  {
+    "requestedWidth": 1440,
+    "canonical": "https://anxzu.com/",
+    "documentWidth": 1425,
+    "language": "en",
+    "scrollWidth": 1425,
+    "title": "ANXZU — The Art of Engineering",
+    "url": "https://anxzu.com/",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "canonical": "https://anxzu.com/",
+    "documentWidth": 1425,
+    "language": "es",
+    "scrollWidth": 1425,
+    "title": "ANXZU — El arte de la ingeniería",
+    "url": "https://anxzu.com/",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "canonical": "https://anxzu.com/projects/concurrencia",
+    "documentWidth": 1425,
+    "language": "en",
+    "scrollWidth": 1425,
+    "title": "Concurrent Log Monitor via SSH | ANXZU",
+    "url": "https://anxzu.com/projects/concurrencia/",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "canonical": "https://anxzu.com/projects/concurrencia",
+    "documentWidth": 1425,
+    "language": "es",
+    "scrollWidth": 1425,
+    "title": "Monitor concurrente de logs vía SSH | ANXZU",
+    "url": "https://anxzu.com/projects/concurrencia/",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "canonical": "https://anxzu.com/projects/metodologia",
+    "documentWidth": 1425,
+    "language": "en",
+    "scrollWidth": 1425,
+    "title": "AI-Assisted Customization Methodology | ANXZU",
+    "url": "https://anxzu.com/projects/metodologia/",
+    "width": 1440
+  },
+  {
+    "requestedWidth": 1440,
+    "canonical": "https://anxzu.com/projects/metodologia",
+    "documentWidth": 1425,
+    "language": "es",
+    "scrollWidth": 1425,
+    "title": "Metodología de personalización asistida por IA | ANXZU",
+    "url": "https://anxzu.com/projects/metodologia/",
+    "width": 1440
+  }
+]

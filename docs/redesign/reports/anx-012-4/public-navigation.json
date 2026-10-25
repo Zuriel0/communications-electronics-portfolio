@@ -1,0 +1,42 @@
+{
+  "escape": {
+    "expanded": "false",
+    "focus": "Abrir menú"
+  },
+  "contact": {
+    "expanded": "false",
+    "focus": "contact",
+    "hash": "#contact",
+    "links": [
+      {
+        "href": "mailto:andres.macias@anxzu.com",
+        "text": "andres.macias@anxzu.com"
+      },
+      {
+        "href": "https://github.com/Zuriel0",
+        "text": "GitHub"
+      },
+      {
+        "href": "https://www.linkedin.com/in/andrés-zuriel-macías-ríos",
+        "text": "LinkedIn"
+      },
+      {
+        "href": "#hero",
+        "text": "Volver al inicio "
+      }
+    ]
+  },
+  "project": {
+    "canonical": "https://anxzu.com/projects/concurrencia",
+    "heading": "Monitor concurrente de logs vía SSH.",
+    "language": "es",
+    "path": "/projects/concurrencia"
+  },
+  "return": {
+    "focus": "projects",
+    "hash": "#projects",
+    "language": "es",
+    "path": "/"
+  },
+  "console": []
+}

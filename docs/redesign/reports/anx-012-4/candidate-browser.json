@@ -1,0 +1,195 @@
+{
+  "origin": "http://127.0.0.1:4184",
+  "graphs": [
+    {
+      "id": "diagram-loadbalance",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-loadbalance",
+          "language": "en",
+          "nodes": 6,
+          "paths": 4,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(22.5224px, -45.1px) scale(0.831419)"
+        },
+        {
+          "hash": "#diagram-loadbalance",
+          "language": "es",
+          "nodes": 6,
+          "paths": 4,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(22.5224px, -45.1px) scale(0.831419)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "id": "diagram-business",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-business",
+          "language": "en",
+          "nodes": 9,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(147.768px, -285px) scale(0.589286)"
+        },
+        {
+          "hash": "#diagram-business",
+          "language": "es",
+          "nodes": 9,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(147.768px, -285px) scale(0.589286)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "id": "diagram-logic",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-logic",
+          "language": "en",
+          "nodes": 7,
+          "paths": 6,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-111.505px, 13.9892px) scale(0.722637)"
+        },
+        {
+          "hash": "#diagram-logic",
+          "language": "es",
+          "nodes": 7,
+          "paths": 6,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-111.505px, 13.9892px) scale(0.722637)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "id": "diagram-highlevel",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-highlevel",
+          "language": "en",
+          "nodes": 12,
+          "paths": 11,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-94.0462px, -65.1769px) scale(0.632308)"
+        },
+        {
+          "hash": "#diagram-highlevel",
+          "language": "es",
+          "nodes": 12,
+          "paths": 11,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-94.0462px, -65.1769px) scale(0.632308)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "id": "diagram-methodology-problem",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-methodology-problem",
+          "language": "en",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(192.632px, -55.2161px) scale(0.688951)"
+        },
+        {
+          "hash": "#diagram-methodology-problem",
+          "language": "es",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(192.632px, -55.2161px) scale(0.688951)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "id": "diagram-methodology-solution",
+      "autoplay": true,
+      "states": [
+        {
+          "hash": "#diagram-methodology-solution",
+          "language": "en",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-87.728px, -45.6608px) scale(0.746014)"
+        },
+        {
+          "hash": "#diagram-methodology-solution",
+          "language": "es",
+          "nodes": 6,
+          "paths": 5,
+          "paused": "true",
+          "playing": "false",
+          "zoom": "translate(-87.728px, -45.6608px) scale(0.746014)"
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    }
+  ],
+  "home": [
+    {
+      "areas": 6,
+      "aws": "Currently PreparingCertification in Preparation / In preparationAWS Certified Solutions Architect – AssociateAmazon Web Services · SAA-C03Hands-on AWS networking labs support this preparation. This certification has not been earned.View certification details",
+      "canonical": "https://anxzu.com/",
+      "contact": "mailto:andres.macias@anxzu.com",
+      "credentials": 18,
+      "entry": "/assets/index-BTWOikn6.js",
+      "heroPaused": "true",
+      "language": "en",
+      "legacy": false,
+      "scrollWidth": 1265,
+      "width": 1265
+    },
+    {
+      "areas": 6,
+      "aws": "Preparación actualCertificación en preparación / En preparaciónAWS Certified Solutions Architect – AssociateAmazon Web Services · SAA-C03Los laboratorios prácticos de redes en AWS respaldan esta preparación. Esta certificación aún no se ha obtenido.Ver detalles de la certificación",
+      "canonical": "https://anxzu.com/",
+      "contact": "mailto:andres.macias@anxzu.com",
+      "credentials": 18,
+      "entry": "/assets/index-BTWOikn6.js",
+      "heroPaused": "true",
+      "language": "es",
+      "legacy": false,
+      "scrollWidth": 1265,
+      "width": 1265
+    }
+  ],
+  "preference": {
+    "focus": "projects",
+    "hash": "#projects",
+    "language": "es"
+  },
+  "console": []
+}

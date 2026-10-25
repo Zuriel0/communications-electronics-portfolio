@@ -1,0 +1,218 @@
+[
+  {
+    "name": "home",
+    "path": "/",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": "true",
+      "heroControl": {
+        "disabled": true,
+        "text": "Motion reduced"
+      },
+      "diagrams": []
+    },
+    "warnings": []
+  },
+  {
+    "name": "diagram-loadbalance",
+    "path": "/projects/concurrencia#diagram-loadbalance",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-loadbalance",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-loadbalance",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            },
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-loadbalance) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-business",
+    "path": "/projects/concurrencia#diagram-business",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-business",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-business",
+          "playing": "false",
+          "nodes": 9,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            },
+            {
+              "animation": "none",
+              "state": "running"
+            },
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-business) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-logic",
+    "path": "/projects/concurrencia#diagram-logic",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-logic",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-logic",
+          "playing": "false",
+          "nodes": 7,
+          "edges": 6,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-logic) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-highlevel",
+    "path": "/projects/concurrencia#diagram-highlevel",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-highlevel",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-highlevel",
+          "playing": "false",
+          "nodes": 12,
+          "edges": 11,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-highlevel) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-methodology-problem",
+    "path": "/projects/metodologia#diagram-methodology-problem",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-methodology-problem",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-methodology-problem",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia#diagram-methodology-problem) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-methodology-solution",
+    "path": "/projects/metodologia#diagram-methodology-solution",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-methodology-solution",
+      "reducedMotion": true,
+      "language": "en",
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-methodology-solution",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia#diagram-methodology-solution) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ]
+  }
+]

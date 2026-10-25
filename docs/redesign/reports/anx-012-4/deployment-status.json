@@ -1,0 +1,89 @@
+{
+  "recordedAt": "2026-10-25T02:12:03.520098+00:00",
+  "source": {
+    "remote": "https://github.com/Zuriel0/communications-electronics-portfolio.git",
+    "documentationBranch": "codex/anx-012-production-report",
+    "tag": "v1.1.0",
+    "tagObject": "26a528ca3406bbf8c360706900288c7e1c3a4628",
+    "tagCommit": "d4b92df0c28415098862333e491d2552efe594d0",
+    "remoteRefs": "d4b92df0c28415098862333e491d2552efe594d0\trefs/heads/main\n26a528ca3406bbf8c360706900288c7e1c3a4628\trefs/tags/v1.1.0\nd4b92df0c28415098862333e491d2552efe594d0\trefs/tags/v1.1.0^{}",
+    "exactTagCheckout": "/tmp/anx0124-source-20261024",
+    "tagCheckoutStatus": ""
+  },
+  "production": {
+    "remote": "https://github.com/Zuriel0/page.git",
+    "branch": "main",
+    "status": "",
+    "oldCommit": "efed3f2434b2ad184a864bd8b0d5d6ce87d42fdd",
+    "deploymentCommit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+    "remoteRefs": "efed3f2434b2ad184a864bd8b0d5d6ce87d42fdd\trefs/heads/backup/anxzu-pre-v1.1.0-20261024\n76138c5b1d8e82b651c1369ef468f023b58f67a6\trefs/heads/main",
+    "backupBranch": "backup/anxzu-pre-v1.1.0-20261024",
+    "cname": "anxzu.com"
+  },
+  "pages": {
+    "url": "https://api.github.com/repos/Zuriel0/page/pages",
+    "status": "built",
+    "cname": "anxzu.com",
+    "html_url": "http://anxzu.com/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "https_enforced": false,
+    "public": true
+  },
+  "build": {
+    "url": "https://api.github.com/repos/Zuriel0/page/pages/builds/1312143486",
+    "status": "built",
+    "error": {
+      "message": null
+    },
+    "pusher": {
+      "login": "Zuriel0",
+      "id": 50312846,
+      "node_id": "MDQ6VXNlcjUwMzEyODQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50312846?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Zuriel0",
+      "html_url": "https://github.com/Zuriel0",
+      "followers_url": "https://api.github.com/users/Zuriel0/followers",
+      "following_url": "https://api.github.com/users/Zuriel0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Zuriel0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Zuriel0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Zuriel0/subscriptions",
+      "organizations_url": "https://api.github.com/users/Zuriel0/orgs",
+      "repos_url": "https://api.github.com/users/Zuriel0/repos",
+      "events_url": "https://api.github.com/users/Zuriel0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Zuriel0/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "commit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+    "duration": 17892,
+    "created_at": "2026-10-25T02:03:45Z",
+    "updated_at": "2026-10-25T02:04:02Z"
+  },
+  "actionsRun": {
+    "id": 40153013134,
+    "html_url": "https://github.com/Zuriel0/page/actions/runs/40153013134",
+    "head_sha": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+    "event": "dynamic",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-25T02:03:46Z",
+    "updated_at": "2026-10-25T02:04:07Z"
+  },
+  "dns": {
+    "apexA": [
+      "185.199.111.153",
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153"
+    ],
+    "wwwCNAME": [
+      "Zuriel0.github.io."
+    ]
+  }
+}

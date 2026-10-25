@@ -1,0 +1,35 @@
+PASS: home excludes React Flow/d3/zustand; editorial project chunks exclude React Flow; six lazy diagrams retain their graph runtime.
+{
+  "initialFiles": [
+    "assets/index-BTWOikn6.js"
+  ],
+  "routes": [
+    {
+      "file": "assets/Concurrencia-D4LmTub0.js",
+      "imports": [
+        "assets/index-BTWOikn6.js",
+        "assets/CaseStudy-Ds426gH4.js"
+      ],
+      "dynamicImports": [
+        "assets/flow_loadbalance-HKCWxbEb.js",
+        "assets/bussiness_flow-c071WJDY.js",
+        "assets/logic_flow-CzJ0G_9O.js",
+        "assets/highlevel_flow-07E8VPCm.js"
+      ]
+    },
+    {
+      "file": "assets/Metodologia-zCGKFjCR.js",
+      "imports": [
+        "assets/index-BTWOikn6.js",
+        "assets/CaseStudy-Ds426gH4.js"
+      ],
+      "dynamicImports": [
+        "assets/metodologia_problem_flow-DrJ2alVL.js",
+        "assets/metodologia_solution_flow-CZ9VsHBB.js"
+      ]
+    }
+  ],
+  "flowFiles": [
+    "assets/style-Bvy3m9XQ.js"
+  ]
+}

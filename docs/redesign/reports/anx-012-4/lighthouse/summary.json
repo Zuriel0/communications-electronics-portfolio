@@ -1,0 +1,203 @@
+{
+  "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+  "origins": {
+    "baseline": "http://127.0.0.1:4180",
+    "candidate": "https://anxzu.com"
+  },
+  "versions": [
+    "candidate"
+  ],
+  "profiles": [
+    "mobile",
+    "desktop"
+  ],
+  "repetitions": 3,
+  "groups": [
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 98,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 1511.0014999999999,
+        "min": 1506.2235,
+        "max": 1604.4975
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 2.5,
+        "min": 2.5,
+        "max": 50.5
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 98,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 1653.892,
+        "min": 1652.844,
+        "max": 1729.874
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 1652.462,
+        "min": 1652.008,
+        "max": 1735.888
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 368.547,
+        "min": 362.062,
+        "max": 370.16499999999996
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "concurrencia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 369.69,
+        "min": 367.83000000000004,
+        "max": 370.573
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "metodologia",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 372.038,
+        "min": 369.6,
+        "max": 374.156
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "backupRef": "backup/anxzu-pre-v1.1.0-20261024",
+  "backupCommit": "efed3f2434b2ad184a864bd8b0d5d6ce87d42fdd",
+  "deploymentCommit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+  "localRevertCommit": "170ea3c9bf595ead4b95ccd06f8843f4a4eb9394",
+  "restoredTree": "675d7177038f2e110a41d2e4e20ee8649a2250e9",
+  "identicalToBackup": true,
+  "http": [
+    {
+      "file": "CNAME",
+      "status": 200,
+      "sha256": "79b3bef2e150b04dc003b14379794d8e4d60fc0509b3d3972deb443b51bcc787"
+    },
+    {
+      "file": "_redirects",
+      "status": 200,
+      "sha256": "a65d67108636cedd251c40c1fe62a8af14b5a0f420659810ec6a0a9f601b2794"
+    },
+    {
+      "file": "assets/AX-CeXz5PzS.svg",
+      "status": 200,
+      "sha256": "9da3ffcc9851497e0aa363020cd1a3c80a52ffcfcfe312113b61ff9708b6ae2a"
+    },
+    {
+      "file": "assets/anxzu-hDnGdcjS.png",
+      "status": 200,
+      "sha256": "b703cc8edcae9af7f0cb17019a09e51ea2bfd09156ce1d6619288a4fc165e69a"
+    },
+    {
+      "file": "assets/index-B4Jod5Qq.css",
+      "status": 200,
+      "sha256": "7e5a195d364cfb3e1a5403d7ecb402d5b74161f3860f782bb4ef9246a54562ac"
+    },
+    {
+      "file": "assets/index-B8wHry4b.js",
+      "status": 200,
+      "sha256": "6e5845f065eddc5fa7ccc4d0d4bf8c4e2e547e22495e0cbe0c3095ec474f5a05"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "fb5b2611a7633b385679ffcd9b24f0d8567775a505f42da07430097bb647fb5c"
+    }
+  ],
+  "productionRollbackPerformed": false,
+  "harnessNote": "Initial binary read exceeded Node default 1MB stdout buffer on the original 1.65MB portrait. Repeated with 10MB maxBuffer; all seven HTTP/hash checks passed. Git tree identity was confirmed before publishing."
+}

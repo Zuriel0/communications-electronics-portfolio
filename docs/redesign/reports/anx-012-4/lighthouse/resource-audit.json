@@ -1,0 +1,2990 @@
+[
+  {
+    "report": "candidate-concurrencia-desktop-1.json.gz",
+    "requestedURL": "https://anxzu.com/projects/concurrencia",
+    "finalURL": "https://anxzu.com/projects/concurrencia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/concurrencia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 376,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/concurrencia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 800,
+        "resourceSize": 1356
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48627,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100609,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8795,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3991,
+        "resourceSize": 11350
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14255,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1895,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1591,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +140 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 9 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 140,
+        "serverResponseTime": 9,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "F4B0EB0FE90F56DE47B69D87FAA568C8": {
+                "url": "https://anxzu.com/projects/concurrencia/",
+                "navStartToEndTime": 154,
+                "transferSize": 800,
+                "isLongest": true,
+                "children": {
+                  "F4B0EB0FE90F56DE47B69D87FAA568C8": {
+                    "url": "https://anxzu.com/projects/concurrencia/",
+                    "navStartToEndTime": 154,
+                    "transferSize": 800,
+                    "isLongest": true,
+                    "children": {
+                      "22366.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 188,
+                        "transferSize": 100609,
+                        "isLongest": true,
+                        "children": {
+                          "22366.9": {
+                            "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+                            "navStartToEndTime": 295,
+                            "transferSize": 3991,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22366.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 213,
+                            "transferSize": 14255,
+                            "children": {}
+                          },
+                          "22366.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 213,
+                            "transferSize": 1895,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22366.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 171,
+                        "transferSize": 8795,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 295
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-concurrencia-desktop-2.json.gz",
+    "requestedURL": "https://anxzu.com/projects/concurrencia",
+    "finalURL": "https://anxzu.com/projects/concurrencia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/concurrencia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 375,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/concurrencia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 789,
+        "resourceSize": 1356
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48625,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100500,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8928,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3928,
+        "resourceSize": 11350
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14397,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1901,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1465,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +60 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 12 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 60,
+        "serverResponseTime": 12,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "5BD5FB7A1D5056D03B31E134FEBB2145": {
+                "url": "https://anxzu.com/projects/concurrencia/",
+                "navStartToEndTime": 76,
+                "transferSize": 789,
+                "isLongest": true,
+                "children": {
+                  "5BD5FB7A1D5056D03B31E134FEBB2145": {
+                    "url": "https://anxzu.com/projects/concurrencia/",
+                    "navStartToEndTime": 76,
+                    "transferSize": 789,
+                    "isLongest": true,
+                    "children": {
+                      "22405.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 110,
+                        "transferSize": 100500,
+                        "isLongest": true,
+                        "children": {
+                          "22405.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 142,
+                            "transferSize": 14397,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22405.9": {
+                            "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+                            "navStartToEndTime": 140,
+                            "transferSize": 3928,
+                            "children": {}
+                          },
+                          "22405.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 140,
+                            "transferSize": 1901,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22405.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 94,
+                        "transferSize": 8928,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 142
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-concurrencia-desktop-3.json.gz",
+    "requestedURL": "https://anxzu.com/projects/concurrencia",
+    "finalURL": "https://anxzu.com/projects/concurrencia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/concurrencia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 376,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/concurrencia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 788,
+        "resourceSize": 1356
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48693,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100539,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8795,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3951,
+        "resourceSize": 11350
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14219,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1994,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1522,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +59 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 13 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 59,
+        "serverResponseTime": 13,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "BF7520588960E1BA0F80EA968018A85C": {
+                "url": "https://anxzu.com/projects/concurrencia/",
+                "navStartToEndTime": 76,
+                "transferSize": 788,
+                "isLongest": true,
+                "children": {
+                  "BF7520588960E1BA0F80EA968018A85C": {
+                    "url": "https://anxzu.com/projects/concurrencia/",
+                    "navStartToEndTime": 76,
+                    "transferSize": 788,
+                    "isLongest": true,
+                    "children": {
+                      "22525.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 111,
+                        "transferSize": 100539,
+                        "isLongest": true,
+                        "children": {
+                          "22525.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 134,
+                            "transferSize": 14219,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22525.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 134,
+                            "transferSize": 1994,
+                            "children": {}
+                          },
+                          "22525.9": {
+                            "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+                            "navStartToEndTime": 132,
+                            "transferSize": 3951,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22525.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 90,
+                        "transferSize": 8795,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 134
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-concurrencia-mobile-1.json.gz",
+    "requestedURL": "https://anxzu.com/projects/concurrencia",
+    "finalURL": "https://anxzu.com/projects/concurrencia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/concurrencia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 375,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/concurrencia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 798,
+        "resourceSize": 1356
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48726,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100489,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8798,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3900,
+        "resourceSize": 11350
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14339,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1948,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1482,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +139 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 73 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 139,
+        "serverResponseTime": 73,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "72151CF54382495DEDDD7483C1853529": {
+                "url": "https://anxzu.com/projects/concurrencia/",
+                "navStartToEndTime": 219,
+                "transferSize": 798,
+                "isLongest": true,
+                "children": {
+                  "72151CF54382495DEDDD7483C1853529": {
+                    "url": "https://anxzu.com/projects/concurrencia/",
+                    "navStartToEndTime": 219,
+                    "transferSize": 798,
+                    "isLongest": true,
+                    "children": {
+                      "21993.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 333,
+                        "transferSize": 100489,
+                        "isLongest": true,
+                        "children": {
+                          "21993.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 438,
+                            "transferSize": 14339,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "21993.9": {
+                            "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+                            "navStartToEndTime": 435,
+                            "transferSize": 3900,
+                            "children": {}
+                          },
+                          "21993.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 420,
+                            "transferSize": 1948,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "21993.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 311,
+                        "transferSize": 8798,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 438
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-concurrencia-mobile-2.json.gz",
+    "requestedURL": "https://anxzu.com/projects/concurrencia",
+    "finalURL": "https://anxzu.com/projects/concurrencia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/concurrencia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 374,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/concurrencia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 787,
+        "resourceSize": 1356
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48628,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100487,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8906,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3951,
+        "resourceSize": 11350
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14215,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 2036,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1469,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +61 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 11 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 61,
+        "serverResponseTime": 11,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "311F242AC20996A9DFFBACE0B46F7E40": {
+                "url": "https://anxzu.com/projects/concurrencia/",
+                "navStartToEndTime": 76,
+                "transferSize": 787,
+                "isLongest": true,
+                "children": {
+                  "311F242AC20996A9DFFBACE0B46F7E40": {
+                    "url": "https://anxzu.com/projects/concurrencia/",
+                    "navStartToEndTime": 76,
+                    "transferSize": 787,
+                    "isLongest": true,
+                    "children": {
+                      "22034.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 115,
+                        "transferSize": 100487,
+                        "isLongest": true,
+                        "children": {
+                          "22034.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 143,
+                            "transferSize": 14215,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22034.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 142,
+                            "transferSize": 2036,
+                            "children": {}
+                          },
+                          "22034.9": {
+                            "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+                            "navStartToEndTime": 140,
+                            "transferSize": 3951,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22034.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 96,
+                        "transferSize": 8906,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 143
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-concurrencia-mobile-3.json.gz",
+    "requestedURL": "https://anxzu.com/projects/concurrencia",
+    "finalURL": "https://anxzu.com/projects/concurrencia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/concurrencia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 373,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/concurrencia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 786,
+        "resourceSize": 1356
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48610,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100625,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8795,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3949,
+        "resourceSize": 11350
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14224,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1902,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1605,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +54 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 12 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 54,
+        "serverResponseTime": 12,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "54B7F964CBB3FCFB6932D2D29F9BCFE7": {
+                "url": "https://anxzu.com/projects/concurrencia/",
+                "navStartToEndTime": 71,
+                "transferSize": 786,
+                "isLongest": true,
+                "children": {
+                  "54B7F964CBB3FCFB6932D2D29F9BCFE7": {
+                    "url": "https://anxzu.com/projects/concurrencia/",
+                    "navStartToEndTime": 71,
+                    "transferSize": 786,
+                    "isLongest": true,
+                    "children": {
+                      "22072.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 108,
+                        "transferSize": 100625,
+                        "isLongest": true,
+                        "children": {
+                          "22072.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 132,
+                            "transferSize": 14224,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22072.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 132,
+                            "transferSize": 1902,
+                            "children": {}
+                          },
+                          "22072.9": {
+                            "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+                            "navStartToEndTime": 131,
+                            "transferSize": 3949,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22072.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 85,
+                        "transferSize": 8795,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 132
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-home-desktop-1.json.gz",
+    "requestedURL": "https://anxzu.com/",
+    "finalURL": "https://anxzu.com/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 967,
+        "resourceSize": 1298
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48636,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100619,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8771,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/anxzu-480-D9Ta-Nth.jpg",
+        "resourceType": "Image",
+        "statusCode": 200,
+        "transferSize": 157628,
+        "resourceSize": 157315
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1430,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Avoids redirects",
+          "value": true
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 12 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 0,
+        "serverResponseTime": 12,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "20AC26BD464CAD621B9074DB2CC215CA": {
+                "url": "https://anxzu.com/",
+                "navStartToEndTime": 64,
+                "transferSize": 967,
+                "isLongest": true,
+                "children": {
+                  "22230.3": {
+                    "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                    "navStartToEndTime": 97,
+                    "transferSize": 100619,
+                    "isLongest": true,
+                    "children": {}
+                  },
+                  "22230.4": {
+                    "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                    "navStartToEndTime": 87,
+                    "transferSize": 8771,
+                    "children": {}
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 97
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-home-desktop-2.json.gz",
+    "requestedURL": "https://anxzu.com/",
+    "finalURL": "https://anxzu.com/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 967,
+        "resourceSize": 1298
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48601,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100578,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8804,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/anxzu-480-D9Ta-Nth.jpg",
+        "resourceType": "Image",
+        "statusCode": 200,
+        "transferSize": 157641,
+        "resourceSize": 157315
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1458,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Avoids redirects",
+          "value": true
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 13 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 0,
+        "serverResponseTime": 13,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "EF01527CA6439069050CD6618DC196C1": {
+                "url": "https://anxzu.com/",
+                "navStartToEndTime": 63,
+                "transferSize": 967,
+                "isLongest": true,
+                "children": {
+                  "22268.3": {
+                    "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                    "navStartToEndTime": 98,
+                    "transferSize": 100578,
+                    "isLongest": true,
+                    "children": {}
+                  },
+                  "22268.4": {
+                    "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                    "navStartToEndTime": 76,
+                    "transferSize": 8804,
+                    "children": {}
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 98
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-home-desktop-3.json.gz",
+    "requestedURL": "https://anxzu.com/",
+    "finalURL": "https://anxzu.com/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 965,
+        "resourceSize": 1298
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48603,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100508,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8875,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/anxzu-480-D9Ta-Nth.jpg",
+        "resourceType": "Image",
+        "statusCode": 200,
+        "transferSize": 157639,
+        "resourceSize": 157315
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1473,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Avoids redirects",
+          "value": true
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 11 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 0,
+        "serverResponseTime": 11,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "C2E4D032F7E590BBD75712C15F9E2F5D": {
+                "url": "https://anxzu.com/",
+                "navStartToEndTime": 59,
+                "transferSize": 965,
+                "isLongest": true,
+                "children": {
+                  "22317.4": {
+                    "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                    "navStartToEndTime": 92,
+                    "transferSize": 8875,
+                    "isLongest": true,
+                    "children": {}
+                  },
+                  "22317.3": {
+                    "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                    "navStartToEndTime": 87,
+                    "transferSize": 100508,
+                    "children": {}
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 92
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-home-mobile-1.json.gz",
+    "requestedURL": "https://anxzu.com/",
+    "finalURL": "https://anxzu.com/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 966,
+        "resourceSize": 1298
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48603,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100610,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8816,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1431,
+        "resourceSize": 2241
+      },
+      {
+        "url": "https://anxzu.com/assets/anxzu-768-DTErN6Kh.jpg",
+        "resourceType": "Image",
+        "statusCode": 200,
+        "transferSize": 305854,
+        "resourceSize": 305451
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Avoids redirects",
+          "value": true
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 93 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 0,
+        "serverResponseTime": 93,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "CDB3166FCB669035A113AEFB8491B0BB": {
+                "url": "https://anxzu.com/",
+                "navStartToEndTime": 149,
+                "transferSize": 966,
+                "isLongest": true,
+                "children": {
+                  "21862.3": {
+                    "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                    "navStartToEndTime": 313,
+                    "transferSize": 100610,
+                    "isLongest": true,
+                    "children": {}
+                  },
+                  "21862.4": {
+                    "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                    "navStartToEndTime": 256,
+                    "transferSize": 8816,
+                    "children": {}
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 313
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-home-mobile-2.json.gz",
+    "requestedURL": "https://anxzu.com/",
+    "finalURL": "https://anxzu.com/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 967,
+        "resourceSize": 1298
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48601,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100504,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8818,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/anxzu-768-DTErN6Kh.jpg",
+        "resourceType": "Image",
+        "statusCode": 200,
+        "transferSize": 305915,
+        "resourceSize": 305451
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1474,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Avoids redirects",
+          "value": true
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 12 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 0,
+        "serverResponseTime": 12,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "50939ACF4227ECC040BA5D5F55E2B55D": {
+                "url": "https://anxzu.com/",
+                "navStartToEndTime": 65,
+                "transferSize": 967,
+                "isLongest": true,
+                "children": {
+                  "21917.3": {
+                    "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                    "navStartToEndTime": 101,
+                    "transferSize": 100504,
+                    "isLongest": true,
+                    "children": {}
+                  },
+                  "21917.4": {
+                    "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                    "navStartToEndTime": 95,
+                    "transferSize": 8818,
+                    "children": {}
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 101
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-home-mobile-3.json.gz",
+    "requestedURL": "https://anxzu.com/",
+    "finalURL": "https://anxzu.com/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 966,
+        "resourceSize": 1298
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48631,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100523,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8771,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/anxzu-768-DTErN6Kh.jpg",
+        "resourceType": "Image",
+        "statusCode": 200,
+        "transferSize": 305914,
+        "resourceSize": 305451
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1458,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Avoids redirects",
+          "value": true
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 13 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 0,
+        "serverResponseTime": 13,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "6929D2004C2330130BE6F402D0039BE5": {
+                "url": "https://anxzu.com/",
+                "navStartToEndTime": 64,
+                "transferSize": 966,
+                "isLongest": true,
+                "children": {
+                  "21955.3": {
+                    "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                    "navStartToEndTime": 100,
+                    "transferSize": 100523,
+                    "isLongest": true,
+                    "children": {}
+                  },
+                  "21955.4": {
+                    "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                    "navStartToEndTime": 90,
+                    "transferSize": 8771,
+                    "children": {}
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 100
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-metodologia-desktop-1.json.gz",
+    "requestedURL": "https://anxzu.com/projects/metodologia",
+    "finalURL": "https://anxzu.com/projects/metodologia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/metodologia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 374,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/metodologia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 792,
+        "resourceSize": 1360
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48630,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100610,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8799,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3277,
+        "resourceSize": 8973
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14217,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1922,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1595,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +145 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 9 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 145,
+        "serverResponseTime": 9,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "97D470FCC45596CBEE831B6B14818B9E": {
+                "url": "https://anxzu.com/projects/metodologia/",
+                "navStartToEndTime": 160,
+                "transferSize": 792,
+                "isLongest": true,
+                "children": {
+                  "97D470FCC45596CBEE831B6B14818B9E": {
+                    "url": "https://anxzu.com/projects/metodologia/",
+                    "navStartToEndTime": 160,
+                    "transferSize": 792,
+                    "isLongest": true,
+                    "children": {
+                      "22599.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 193,
+                        "transferSize": 100610,
+                        "isLongest": true,
+                        "children": {
+                          "22599.9": {
+                            "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+                            "navStartToEndTime": 308,
+                            "transferSize": 3277,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22599.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 222,
+                            "transferSize": 14217,
+                            "children": {}
+                          },
+                          "22599.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 217,
+                            "transferSize": 1922,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22599.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 183,
+                        "transferSize": 8799,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 308
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-metodologia-desktop-2.json.gz",
+    "requestedURL": "https://anxzu.com/projects/metodologia",
+    "finalURL": "https://anxzu.com/projects/metodologia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/metodologia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 374,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/metodologia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 782,
+        "resourceSize": 1360
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48625,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100622,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8801,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3210,
+        "resourceSize": 8973
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14398,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1913,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1485,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +57 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 11 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 57,
+        "serverResponseTime": 11,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "47353AEB7EB16F112DC4192F0786972B": {
+                "url": "https://anxzu.com/projects/metodologia/",
+                "navStartToEndTime": 72,
+                "transferSize": 782,
+                "isLongest": true,
+                "children": {
+                  "47353AEB7EB16F112DC4192F0786972B": {
+                    "url": "https://anxzu.com/projects/metodologia/",
+                    "navStartToEndTime": 72,
+                    "transferSize": 782,
+                    "isLongest": true,
+                    "children": {
+                      "22641.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 108,
+                        "transferSize": 100622,
+                        "isLongest": true,
+                        "children": {
+                          "22641.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 134,
+                            "transferSize": 14398,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22641.9": {
+                            "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+                            "navStartToEndTime": 134,
+                            "transferSize": 3210,
+                            "children": {}
+                          },
+                          "22641.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 133,
+                            "transferSize": 1913,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22641.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 86,
+                        "transferSize": 8801,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 134
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-metodologia-desktop-3.json.gz",
+    "requestedURL": "https://anxzu.com/projects/metodologia",
+    "finalURL": "https://anxzu.com/projects/metodologia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/metodologia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 374,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/metodologia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 782,
+        "resourceSize": 1360
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48631,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100503,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8915,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3222,
+        "resourceSize": 8973
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14241,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 2048,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1485,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +56 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 9 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 56,
+        "serverResponseTime": 9,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "28F3A03BDAE16E7F35B6D2113D988B63": {
+                "url": "https://anxzu.com/projects/metodologia/",
+                "navStartToEndTime": 70,
+                "transferSize": 782,
+                "isLongest": true,
+                "children": {
+                  "28F3A03BDAE16E7F35B6D2113D988B63": {
+                    "url": "https://anxzu.com/projects/metodologia/",
+                    "navStartToEndTime": 70,
+                    "transferSize": 782,
+                    "isLongest": true,
+                    "children": {
+                      "22678.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 107,
+                        "transferSize": 100503,
+                        "isLongest": true,
+                        "children": {
+                          "22678.9": {
+                            "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+                            "navStartToEndTime": 131,
+                            "transferSize": 3222,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22678.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 131,
+                            "transferSize": 14241,
+                            "children": {}
+                          },
+                          "22678.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 131,
+                            "transferSize": 2048,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22678.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 95,
+                        "transferSize": 8915,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 131
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-metodologia-mobile-1.json.gz",
+    "requestedURL": "https://anxzu.com/projects/metodologia",
+    "finalURL": "https://anxzu.com/projects/metodologia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/metodologia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 375,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/metodologia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 791,
+        "resourceSize": 1360
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48724,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100488,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8800,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3357,
+        "resourceSize": 8973
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14254,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1956,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1457,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +140 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 106 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 140,
+        "serverResponseTime": 106,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "E3B1E2DE0C9DD7E5F35BB01D2EF7D578": {
+                "url": "https://anxzu.com/projects/metodologia/",
+                "navStartToEndTime": 251,
+                "transferSize": 791,
+                "isLongest": true,
+                "children": {
+                  "E3B1E2DE0C9DD7E5F35BB01D2EF7D578": {
+                    "url": "https://anxzu.com/projects/metodologia/",
+                    "navStartToEndTime": 251,
+                    "transferSize": 791,
+                    "isLongest": true,
+                    "children": {
+                      "22112.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 290,
+                        "transferSize": 100488,
+                        "isLongest": true,
+                        "children": {
+                          "22112.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 473,
+                            "transferSize": 1956,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22112.9": {
+                            "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+                            "navStartToEndTime": 408,
+                            "transferSize": 3357,
+                            "children": {}
+                          },
+                          "22112.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 404,
+                            "transferSize": 14254,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22112.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 269,
+                        "transferSize": 8800,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 473
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-metodologia-mobile-2.json.gz",
+    "requestedURL": "https://anxzu.com/projects/metodologia",
+    "finalURL": "https://anxzu.com/projects/metodologia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/metodologia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 373,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/metodologia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 780,
+        "resourceSize": 1360
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48693,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100540,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8798,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3207,
+        "resourceSize": 8973
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14307,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1937,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1522,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +57 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 8 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 57,
+        "serverResponseTime": 8,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "F9C8A8CC4F7BCE800330E6084F839BCE": {
+                "url": "https://anxzu.com/projects/metodologia/",
+                "navStartToEndTime": 70,
+                "transferSize": 780,
+                "isLongest": true,
+                "children": {
+                  "F9C8A8CC4F7BCE800330E6084F839BCE": {
+                    "url": "https://anxzu.com/projects/metodologia/",
+                    "navStartToEndTime": 70,
+                    "transferSize": 780,
+                    "isLongest": true,
+                    "children": {
+                      "22152.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 104,
+                        "transferSize": 100540,
+                        "isLongest": true,
+                        "children": {
+                          "22152.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 126,
+                            "transferSize": 14307,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22152.9": {
+                            "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+                            "navStartToEndTime": 126,
+                            "transferSize": 3207,
+                            "children": {}
+                          },
+                          "22152.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 126,
+                            "transferSize": 1937,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22152.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 85,
+                        "transferSize": 8798,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 126
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "report": "candidate-metodologia-mobile-3.json.gz",
+    "requestedURL": "https://anxzu.com/projects/metodologia",
+    "finalURL": "https://anxzu.com/projects/metodologia/",
+    "lighthouseVersion": "13.5.0",
+    "runtimeError": null,
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ],
+    "failedAccessibility": [],
+    "resources": [
+      {
+        "url": "https://anxzu.com/projects/metodologia",
+        "resourceType": null,
+        "statusCode": 301,
+        "transferSize": 373,
+        "resourceSize": 0
+      },
+      {
+        "url": "https://anxzu.com/projects/metodologia/",
+        "resourceType": "Document",
+        "statusCode": 200,
+        "transferSize": 780,
+        "resourceSize": 1360
+      },
+      {
+        "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+        "resourceType": "Font",
+        "statusCode": 200,
+        "transferSize": 48624,
+        "resourceSize": 48432
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 100631,
+        "resourceSize": 316193
+      },
+      {
+        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 8798,
+        "resourceSize": 44204
+      },
+      {
+        "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 3390,
+        "resourceSize": 8973
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+        "resourceType": "Script",
+        "statusCode": 200,
+        "transferSize": 14216,
+        "resourceSize": 41968
+      },
+      {
+        "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+        "resourceType": "Stylesheet",
+        "statusCode": 200,
+        "transferSize": 1914,
+        "resourceSize": 6636
+      },
+      {
+        "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+        "resourceType": "Other",
+        "statusCode": 200,
+        "transferSize": 1481,
+        "resourceSize": 2241
+      }
+    ],
+    "documentLatency": {
+      "type": "checklist",
+      "items": {
+        "noRedirects": {
+          "label": "Had redirects (1 redirects, +56 ms)",
+          "value": false
+        },
+        "serverResponseIsFast": {
+          "label": "Server responds quickly (observed 9 ms)",
+          "value": true
+        },
+        "usesCompression": {
+          "label": "Applies text compression",
+          "value": true
+        }
+      },
+      "debugData": {
+        "type": "debugdata",
+        "redirectDuration": 56,
+        "serverResponseTime": 9,
+        "uncompressedResponseBytes": 0,
+        "wastedBytes": 0
+      }
+    },
+    "criticalDependencyTree": {
+      "type": "list",
+      "items": [
+        {
+          "type": "list-section",
+          "value": {
+            "type": "network-tree",
+            "chains": {
+              "C3E414FD7F68E0D396ED9D9DD7861045": {
+                "url": "https://anxzu.com/projects/metodologia/",
+                "navStartToEndTime": 69,
+                "transferSize": 780,
+                "isLongest": true,
+                "children": {
+                  "C3E414FD7F68E0D396ED9D9DD7861045": {
+                    "url": "https://anxzu.com/projects/metodologia/",
+                    "navStartToEndTime": 69,
+                    "transferSize": 780,
+                    "isLongest": true,
+                    "children": {
+                      "22189.3": {
+                        "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+                        "navStartToEndTime": 104,
+                        "transferSize": 100631,
+                        "isLongest": true,
+                        "children": {
+                          "22189.10": {
+                            "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+                            "navStartToEndTime": 128,
+                            "transferSize": 14216,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "22189.9": {
+                            "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+                            "navStartToEndTime": 127,
+                            "transferSize": 3390,
+                            "children": {}
+                          },
+                          "22189.11": {
+                            "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+                            "navStartToEndTime": 126,
+                            "transferSize": 1914,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "22189.4": {
+                        "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+                        "navStartToEndTime": 84,
+                        "transferSize": 8798,
+                        "children": {}
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "longestChain": {
+              "duration": 128
+            }
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnected origins",
+          "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+          "value": {
+            "type": "text",
+            "value": "no origins were preconnected"
+          }
+        },
+        {
+          "type": "list-section",
+          "title": "Preconnect candidates",
+          "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+          "value": {
+            "type": "text",
+            "value": "No additional origins are good candidates for preconnecting"
+          }
+        }
+      ]
+    }
+  }
+]

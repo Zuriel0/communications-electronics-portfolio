@@ -1,0 +1,35 @@
+{
+  "note": "Retrospective record of preflight facts; previous deployment files independently recoverable from the remote backup tree. Final Pages/DNS/API state is recorded separately in deployment-status.json.",
+  "productionBefore": {
+    "commit": "efed3f2434b2ad184a864bd8b0d5d6ce87d42fdd",
+    "files": [
+      "CNAME",
+      "_redirects",
+      "assets/AX-CeXz5PzS.svg",
+      "assets/anxzu-hDnGdcjS.png",
+      "assets/index-B4Jod5Qq.css",
+      "assets/index-B8wHry4b.js",
+      "index.html"
+    ],
+    "cnameHex": "616e787a752e636f6d",
+    "nojekyll": false,
+    "404": false,
+    "robots": false,
+    "sitemap": false,
+    "workflowFiles": []
+  },
+  "build": {
+    "sourceCommit": "d4b92df0c28415098862333e491d2552efe594d0",
+    "cleanCheckout": true,
+    "viteConfig": "import { defineConfig } from 'vite'\nimport react from '@vitejs/plugin-react'\nimport { routeMetadataPlugin } from './scripts/page-head.mjs'\n\n// https://vite.dev/config/\nexport default defineConfig({\n  plugins: [react(), routeMetadataPlugin()],\n  base: '/',\n})\n",
+    "node": "v24.19.0",
+    "npm": "11.17.0",
+    "directoryHTML": [
+      "index.html",
+      "projects/concurrencia/index.html",
+      "projects/metodologia/index.html"
+    ],
+    "privatePathScan": "Candidate paths checked for source, node_modules, .env, maps, .git, .agents and credential/key filenames; passed. This is bounded heuristic inspection, not a universal guarantee.",
+    "outputFileCount": 49
+  }
+}

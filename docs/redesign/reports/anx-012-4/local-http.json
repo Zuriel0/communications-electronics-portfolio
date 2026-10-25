@@ -1,0 +1,319 @@
+{
+  "files": [
+    {
+      "file": ".htaccess",
+      "status": 200,
+      "sha256": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258",
+      "mime": "application/octet-stream"
+    },
+    {
+      "file": ".nojekyll",
+      "status": 200,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mime": "application/octet-stream"
+    },
+    {
+      "file": "CNAME",
+      "status": 200,
+      "sha256": "79b3bef2e150b04dc003b14379794d8e4d60fc0509b3d3972deb443b51bcc787",
+      "mime": "application/octet-stream"
+    },
+    {
+      "file": "Inter-OFL.txt",
+      "status": 200,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "mime": "text/plain"
+    },
+    {
+      "file": "_redirects",
+      "status": 200,
+      "sha256": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c",
+      "mime": "application/octet-stream"
+    },
+    {
+      "file": "assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+      "status": 200,
+      "sha256": "9291d8941be6feea8a436784f90cb493c166b9e0e213bdc67f30cc295a56a260",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+      "status": 200,
+      "sha256": "961bca1da62fd2b80a2c0b1ccddad340c579b26acc5d16e5fe90e91e995d5e1b",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+      "status": 200,
+      "sha256": "65ce44cdd0f28bd48c2dc811dec95716f661f24e771ec02479991e2f29b35f51",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+      "status": 200,
+      "sha256": "5c18e9750eeeca4c448e6e6a86e9bddb749bd018ac65881061515458a00f89b3",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+      "status": 200,
+      "sha256": "665bd2010d04778b0f124a686ae30170fe7b6c25e5981637e7b91a217c8d603f",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/AX-BL9tpoD4.svg",
+      "status": 200,
+      "sha256": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7",
+      "mime": "image/svg+xml"
+    },
+    {
+      "file": "assets/CaseStudy-D1a2x9k9.css",
+      "status": 200,
+      "sha256": "2e410835ec202948785e4b30fcc54fa4cbce7cdbea4b857fc10afd38da3019b4",
+      "mime": "text/css"
+    },
+    {
+      "file": "assets/CaseStudy-Ds426gH4.js",
+      "status": 200,
+      "sha256": "1a7bcc3670b10d032aabe828a4110e5711b93e59c65b22485fdf9b9b6bf9954e",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/Concurrencia-D4LmTub0.js",
+      "status": 200,
+      "sha256": "43e3db306260301a3f67a5565d2e449451afdf515f8f5729fbca24570b933436",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/Metodologia-zCGKFjCR.js",
+      "status": 200,
+      "sha256": "7a51f6c94f5d42d0d97d4a6f354a486afc0becff018aadcc212c614dac24926e",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+      "status": 200,
+      "sha256": "7427d95f046ddcebbdc3459e7246253ef247ce3886701b8b1b088d0e18d6d07b",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+      "status": 200,
+      "sha256": "ffb4c3c56affce76cd1abef683a33773fe250f6e1ea414004b10354ab65bfa20",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/anxzu-1024-bLlLDyaE.jpg",
+      "status": 200,
+      "sha256": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac",
+      "mime": "image/jpeg"
+    },
+    {
+      "file": "assets/anxzu-480-D9Ta-Nth.jpg",
+      "status": 200,
+      "sha256": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac",
+      "mime": "image/jpeg"
+    },
+    {
+      "file": "assets/anxzu-768-DTErN6Kh.jpg",
+      "status": 200,
+      "sha256": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730",
+      "mime": "image/jpeg"
+    },
+    {
+      "file": "assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+      "status": 200,
+      "sha256": "655b2638d25ce39a93a21810ab90e9f9c4919d053ea2e42c70a862013cd17f18",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+      "status": 200,
+      "sha256": "fe459e260413ff2b3e263997f6ccd8f8daec806f1900b233b70b5795a7a3c6cc",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/bussiness_flow-c071WJDY.js",
+      "status": 200,
+      "sha256": "1a1cf2680fc3e8d3b07ef8cadca2b908187fd76b71a47f6b8eb4ced4e7f6cd28",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+      "status": 200,
+      "sha256": "3a8cd16bb8f64c497d185ee57291bbfbf2b0b76e6010bee916a5827870cd8ae4",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+      "status": 200,
+      "sha256": "3666e29ec2724576fd770b85ef3038e86831feba30703e05d805833a9fe0a0e7",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+      "status": 200,
+      "sha256": "b5ab58d38052e729c4c21f88a3b59a603c61b45057c5c00bd222944777993652",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+      "status": 200,
+      "sha256": "b101cb6e3dafc257fd8c1a7c5db97d86420a2355bbeaae4980442ae4c2290f24",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+      "status": 200,
+      "sha256": "cb01d98a3c7bf3f6f065598b664863211652b98edd345e508bdc18dfea462617",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+      "status": 200,
+      "sha256": "0b44cc6189cc170991c7dbb189a8f977745c8feb22c0d2dba1b66db50d1b1471",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+      "status": 200,
+      "sha256": "e0fd8e289e3c2c9be11cccb23ba9c9049b5bfc81dcc518b864174839fdebea67",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+      "status": 200,
+      "sha256": "c2f013a1cdf3de2b8021db543d426932b5d28fe7b34d3dd1a3b02f61d098e6ed",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+      "status": 200,
+      "sha256": "c4e66aece9b892c1eefec87c7c4237776d7d5bcfc93be9728605ab1a6ea5615d",
+      "mime": "image/png"
+    },
+    {
+      "file": "assets/flow_loadbalance-HKCWxbEb.js",
+      "status": 200,
+      "sha256": "182ce358bf4150c16862575f999a1dbc43e255dd831ec16cadbe6580c81e8f6a",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/highlevel_flow-07E8VPCm.js",
+      "status": 200,
+      "sha256": "3a9390ffed07589a67c01b0552a422ae6ab3fe4cfa528073bcab2807c51451f8",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/index-BQtJppzI.css",
+      "status": 200,
+      "sha256": "8f8719951a23bd233ca09dbbd98627636d656bfe8c460b4b424a1d5c6eb126bb",
+      "mime": "text/css"
+    },
+    {
+      "file": "assets/index-BTWOikn6.js",
+      "status": 200,
+      "sha256": "1aae1f38b2e4ea373e97b51757fd35850dfa7ee85db50fb6fdf8b7c5a380efdf",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/inter-latin-8kRkwJBP.woff2",
+      "status": 200,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "mime": "font/woff2"
+    },
+    {
+      "file": "assets/logic_flow-CzJ0G_9O.js",
+      "status": 200,
+      "sha256": "9aa13192a40ff911042a941c7523d2e2675813e0857e20b505860867f890b513",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/metodologia_problem_flow-DrJ2alVL.js",
+      "status": 200,
+      "sha256": "a2fc33e3d7599790fec701629fb857489aa751d001e3e68ca9e385af2fdf0e81",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/metodologia_solution_flow-CZ9VsHBB.js",
+      "status": 200,
+      "sha256": "f811e7611fd1b4f9f72242e08521db73fe5cc8538b94ba0f1d54afd286e7e6c3",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "assets/style-BZV40eAE.css",
+      "status": 200,
+      "sha256": "77eb229e70c7949e1d9e4f542afdf7b38d85eccc656a7c3ee9b8429a339872be",
+      "mime": "text/css"
+    },
+    {
+      "file": "assets/style-Bvy3m9XQ.js",
+      "status": 200,
+      "sha256": "e841bf6ddda7191f472461128f55820cbca571daf9ca3a82d76f76c12e8ee3df",
+      "mime": "text/javascript"
+    },
+    {
+      "file": "deployment.json",
+      "status": 200,
+      "sha256": "3458872229b422bb4f6d2488a8a218bbc15f11d4abc5332fac74742ebf34fb79",
+      "mime": "application/json"
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "c6712dabd256471399b1fbff7c488ed0862d1c2232b1c2231b8e91f69657dc42",
+      "mime": "text/html"
+    },
+    {
+      "file": "projects/concurrencia/index.html",
+      "status": 200,
+      "sha256": "850b6563ebd3d818d669910f4f0565efed09157f6b49cf13edf540968a287c1d",
+      "mime": "text/html"
+    },
+    {
+      "file": "projects/metodologia/index.html",
+      "status": 200,
+      "sha256": "32e361c47d43c9e1c0e07061ab54a6f1d639056be0f316f77b2bfd058f831da0",
+      "mime": "text/html"
+    },
+    {
+      "file": "robots.txt",
+      "status": 200,
+      "sha256": "2d0b448b86e71239f9452c6327065cdad41159f088810e88d2c671c1e37b8a92",
+      "mime": "text/plain"
+    },
+    {
+      "file": "sitemap.xml",
+      "status": 200,
+      "sha256": "45fbfa7bfceeea465489514e5fc6d862ba4b9e5ea08f8b94fce98697d67aeecf",
+      "mime": "application/xml"
+    },
+    {
+      "file": "vite.svg",
+      "status": 200,
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:4184/",
+      "title": "ANXZU — The Art of Engineering"
+    },
+    {
+      "path": "/projects/concurrencia",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:4184/projects/concurrencia/",
+      "title": "Concurrent Log Monitor via SSH | ANXZU"
+    },
+    {
+      "path": "/projects/metodologia",
+      "status": 200,
+      "finalURL": "http://127.0.0.1:4184/projects/metodologia/",
+      "title": "AI-Assisted Customization Methodology | ANXZU"
+    }
+  ],
+  "missing": 0
+}
