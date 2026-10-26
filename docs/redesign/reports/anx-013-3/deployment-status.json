@@ -1,0 +1,41 @@
+{
+  "productionCommit": "90cb00bb6ea9ac2ae6545d96d61afbd91a41cb56",
+  "pages": {
+    "status": "built",
+    "cname": "anxzu.com",
+    "build_type": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "html_url": "http://anxzu.com/",
+    "https_enforced": false,
+    "https_certificate": {
+      "state": "approved",
+      "description": "The certificate has been approved.",
+      "domains": [
+        "anxzu.com",
+        "www.anxzu.com"
+      ],
+      "expires_at": "2027-01-19"
+    }
+  },
+  "build": {
+    "commit": "90cb00bb6ea9ac2ae6545d96d61afbd91a41cb56",
+    "status": "built",
+    "error": {
+      "message": null
+    },
+    "duration": 22400,
+    "created_at": "2026-10-26T16:06:21Z",
+    "updated_at": "2026-10-26T16:06:43Z"
+  },
+  "workflow": {
+    "id": 40355864892,
+    "html_url": "https://github.com/Zuriel0/page/actions/runs/40355864892",
+    "name": "pages build and deployment",
+    "head_sha": "90cb00bb6ea9ac2ae6545d96d61afbd91a41cb56",
+    "status": "completed",
+    "conclusion": "success"
+  }
+}

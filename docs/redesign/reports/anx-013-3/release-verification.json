@@ -1,0 +1,17 @@
+{
+  "result": "NO-GO v1.2.0; verified v1.1.0 rollback",
+  "sourceMain": "e1235dc29a030e4bbdc1bc4919bc3b876e353fce",
+  "sourceTag": "v1.2.0",
+  "annotatedTag": "b1fc9ce8634f1631ab974e0333f833f4c6ac0cea",
+  "tagCommit": "e1235dc29a030e4bbdc1bc4919bc3b876e353fce",
+  "releaseTarget": "e1235dc29a030e4bbdc1bc4919bc3b876e353fce",
+  "releaseURL": "https://github.com/Zuriel0/communications-electronics-portfolio/releases/tag/v1.2.0",
+  "prerelease": true,
+  "productionCommit": "bd41427bdac1d7572120b54414b5171ea0a95129",
+  "backupCommit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+  "correctionBranch": "codex/anx-013-nodalume-technical",
+  "correctionCommit": "90e905871f2654f624e0b3bb1ef90424f6a1536c",
+  "correctionPublishedToProduction": false,
+  "publicLighthouse": "Not run: public bilingual QA failed; release rolled back.",
+  "rollbackEvidence": "docs/redesign/reports/anx-013-3/rollback-public-http.json"
+}

@@ -1,0 +1,15 @@
+{
+  "reason": "Public ES QA exposed untranslated Nodalume content arrays; publication is NO-GO.",
+  "commit": "bd41427bdac1d7572120b54414b5171ea0a95129",
+  "tree": "b53e1632efc7fcbc5e17c24e92c4d129582d2cc2",
+  "backupCommit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+  "restoredTreeMatchesBackup": true,
+  "force": false,
+  "publicVerificationPending": false,
+  "publicHTTP": {
+    "filesVerified": 47,
+    "routeForms": 5,
+    "markerVersion": "v1.1.0"
+  },
+  "pagesWorkflow": "https://github.com/Zuriel0/page/actions/runs/40357085590"
+}

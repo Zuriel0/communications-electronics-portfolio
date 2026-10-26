@@ -1,0 +1,54 @@
+{
+  "hostname": "anxzu.com",
+  "trustedCertificateAndHostnameVerified": true,
+  "tlsVersion": "TLSv1.2",
+  "certificate": {
+    "subject": [
+      [
+        [
+          "commonName",
+          "anxzu.com"
+        ]
+      ]
+    ],
+    "issuer": [
+      [
+        [
+          "countryName",
+          "US"
+        ]
+      ],
+      [
+        [
+          "organizationName",
+          "Let's Encrypt"
+        ]
+      ],
+      [
+        [
+          "commonName",
+          "YR2"
+        ]
+      ]
+    ],
+    "notBefore": "Oct 22 04:40:52 2026 GMT",
+    "notAfter": "Jan 20 04:40:51 2027 GMT",
+    "subjectAltName": [
+      [
+        "DNS",
+        "anxzu.com"
+      ],
+      [
+        "DNS",
+        "www.anxzu.com"
+      ]
+    ]
+  },
+  "apexIPv4": [
+    "185.199.108.153",
+    "185.199.109.153",
+    "185.199.110.153",
+    "185.199.111.153"
+  ],
+  "wwwCNAME": "Zuriel0.github.io."
+}

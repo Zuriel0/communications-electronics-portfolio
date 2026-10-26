@@ -1,0 +1,22 @@
+{
+  "deploymentCommit": "90cb00bb6ea9ac2ae6545d96d61afbd91a41cb56",
+  "result": "NO-GO",
+  "finding": {
+    "decisions": "Compose for a lab, not a scaling guarantee\nDocker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.\nSeparate services, keep integration visible\nApplication logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.\nTreat tenant context as a design constraint\nMultitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.\nDesign flexibility needs safe execution\nA visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.",
+    "implementation": "Backend & administration\nRegistration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.\nPersistence & tenancy\nPostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.\nAccess, sessions & accounting\nFreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.",
+    "language": "es",
+    "navigation": [
+      "Problem",
+      "Product philosophy",
+      "Current implementation",
+      "Arquitectura",
+      "Vistas de ingeniería",
+      "Referencias de diseño",
+      "Engineering decisions",
+      "Operations & cloud",
+      "Evolución futura"
+    ],
+    "principles": "Creative flexibility\n\nSeparate the experience from rigid templates, so visual ideas can become useful portal interactions.\n\nOwnership & autonomy\n\nSelf-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.\n\nExtensibility\n\nThe visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.",
+    "url": "https://anxzu.com/projects/nodalume/#nodalume-philosophy"
+  }
+}

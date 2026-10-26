@@ -1,0 +1,716 @@
+{
+  "origin": "https://anxzu.com",
+  "files": [
+    {
+      "file": "_redirects",
+      "url": "https://anxzu.com/_redirects",
+      "status": 200,
+      "sha256": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c",
+      "mime": "application/octet-stream",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+      "url": "https://anxzu.com/assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+      "status": 200,
+      "sha256": "9291d8941be6feea8a436784f90cb493c166b9e0e213bdc67f30cc295a56a260",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+      "url": "https://anxzu.com/assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+      "status": 200,
+      "sha256": "961bca1da62fd2b80a2c0b1ccddad340c579b26acc5d16e5fe90e91e995d5e1b",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+      "url": "https://anxzu.com/assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+      "status": 200,
+      "sha256": "65ce44cdd0f28bd48c2dc811dec95716f661f24e771ec02479991e2f29b35f51",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+      "url": "https://anxzu.com/assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+      "status": 200,
+      "sha256": "5c18e9750eeeca4c448e6e6a86e9bddb749bd018ac65881061515458a00f89b3",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+      "url": "https://anxzu.com/assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+      "status": 200,
+      "sha256": "665bd2010d04778b0f124a686ae30170fe7b6c25e5981637e7b91a217c8d603f",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+      "url": "https://anxzu.com/assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+      "status": 200,
+      "sha256": "7427d95f046ddcebbdc3459e7246253ef247ce3886701b8b1b088d0e18d6d07b",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+      "url": "https://anxzu.com/assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+      "status": 200,
+      "sha256": "ffb4c3c56affce76cd1abef683a33773fe250f6e1ea414004b10354ab65bfa20",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/anxzu-1024-bLlLDyaE.jpg",
+      "url": "https://anxzu.com/assets/anxzu-1024-bLlLDyaE.jpg",
+      "status": 200,
+      "sha256": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac",
+      "mime": "image/jpeg",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/anxzu-480-D9Ta-Nth.jpg",
+      "url": "https://anxzu.com/assets/anxzu-480-D9Ta-Nth.jpg",
+      "status": 200,
+      "sha256": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac",
+      "mime": "image/jpeg",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/anxzu-768-DTErN6Kh.jpg",
+      "url": "https://anxzu.com/assets/anxzu-768-DTErN6Kh.jpg",
+      "status": 200,
+      "sha256": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730",
+      "mime": "image/jpeg",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/AX-BL9tpoD4.svg",
+      "url": "https://anxzu.com/assets/AX-BL9tpoD4.svg",
+      "status": 200,
+      "sha256": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7",
+      "mime": "image/svg+xml",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+      "url": "https://anxzu.com/assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+      "status": 200,
+      "sha256": "655b2638d25ce39a93a21810ab90e9f9c4919d053ea2e42c70a862013cd17f18",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+      "url": "https://anxzu.com/assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+      "status": 200,
+      "sha256": "fe459e260413ff2b3e263997f6ccd8f8daec806f1900b233b70b5795a7a3c6cc",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/bussiness_flow-c071WJDY.js",
+      "url": "https://anxzu.com/assets/bussiness_flow-c071WJDY.js",
+      "status": 200,
+      "sha256": "1a1cf2680fc3e8d3b07ef8cadca2b908187fd76b71a47f6b8eb4ced4e7f6cd28",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/bussiness_flow-CsfUKDcH.js",
+      "url": "https://anxzu.com/assets/bussiness_flow-CsfUKDcH.js",
+      "status": 200,
+      "sha256": "ba71d1f6d6bc3f494f6df7248f16815fe750664daceaa9efb79d5e6f437b019d",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+      "url": "https://anxzu.com/assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+      "status": 200,
+      "sha256": "3a8cd16bb8f64c497d185ee57291bbfbf2b0b76e6010bee916a5827870cd8ae4",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+      "url": "https://anxzu.com/assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+      "status": 200,
+      "sha256": "3666e29ec2724576fd770b85ef3038e86831feba30703e05d805833a9fe0a0e7",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+      "url": "https://anxzu.com/assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+      "status": 200,
+      "sha256": "b5ab58d38052e729c4c21f88a3b59a603c61b45057c5c00bd222944777993652",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/CaseStudy-BW13vLUS.js",
+      "url": "https://anxzu.com/assets/CaseStudy-BW13vLUS.js",
+      "status": 200,
+      "sha256": "3e8b4f475cd0f2f2a9a1acd809660f0254c316eae7e94b256fa0987d1f22dc6b",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/CaseStudy-D1a2x9k9.css",
+      "url": "https://anxzu.com/assets/CaseStudy-D1a2x9k9.css",
+      "status": 200,
+      "sha256": "2e410835ec202948785e4b30fcc54fa4cbce7cdbea4b857fc10afd38da3019b4",
+      "mime": "text/css; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/CaseStudy-Ds426gH4.js",
+      "url": "https://anxzu.com/assets/CaseStudy-Ds426gH4.js",
+      "status": 200,
+      "sha256": "1a7bcc3670b10d032aabe828a4110e5711b93e59c65b22485fdf9b9b6bf9954e",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/Concurrencia-CR4NGJ0p.js",
+      "url": "https://anxzu.com/assets/Concurrencia-CR4NGJ0p.js",
+      "status": 200,
+      "sha256": "3ff7578285e70a2aa83b4f87ca9f69463de1e0295fbf46567024e872233aef98",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/Concurrencia-D4LmTub0.js",
+      "url": "https://anxzu.com/assets/Concurrencia-D4LmTub0.js",
+      "status": 200,
+      "sha256": "43e3db306260301a3f67a5565d2e449451afdf515f8f5729fbca24570b933436",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+      "url": "https://anxzu.com/assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+      "status": 200,
+      "sha256": "b101cb6e3dafc257fd8c1a7c5db97d86420a2355bbeaae4980442ae4c2290f24",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+      "url": "https://anxzu.com/assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+      "status": 200,
+      "sha256": "cb01d98a3c7bf3f6f065598b664863211652b98edd345e508bdc18dfea462617",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+      "url": "https://anxzu.com/assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+      "status": 200,
+      "sha256": "0b44cc6189cc170991c7dbb189a8f977745c8feb22c0d2dba1b66db50d1b1471",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+      "url": "https://anxzu.com/assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+      "status": 200,
+      "sha256": "e0fd8e289e3c2c9be11cccb23ba9c9049b5bfc81dcc518b864174839fdebea67",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+      "url": "https://anxzu.com/assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+      "status": 200,
+      "sha256": "c2f013a1cdf3de2b8021db543d426932b5d28fe7b34d3dd1a3b02f61d098e6ed",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+      "url": "https://anxzu.com/assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+      "status": 200,
+      "sha256": "c4e66aece9b892c1eefec87c7c4237776d7d5bcfc93be9728605ab1a6ea5615d",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/flow_loadbalance-DBaUHQdP.js",
+      "url": "https://anxzu.com/assets/flow_loadbalance-DBaUHQdP.js",
+      "status": 200,
+      "sha256": "f981409c8b69dccc77852a61d916dfa80a1098c76c9b52e70f0632744a6bd969",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/flow_loadbalance-HKCWxbEb.js",
+      "url": "https://anxzu.com/assets/flow_loadbalance-HKCWxbEb.js",
+      "status": 200,
+      "sha256": "182ce358bf4150c16862575f999a1dbc43e255dd831ec16cadbe6580c81e8f6a",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/highlevel_flow-07E8VPCm.js",
+      "url": "https://anxzu.com/assets/highlevel_flow-07E8VPCm.js",
+      "status": 200,
+      "sha256": "3a9390ffed07589a67c01b0552a422ae6ab3fe4cfa528073bcab2807c51451f8",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/highlevel_flow-DYjmf5ve.js",
+      "url": "https://anxzu.com/assets/highlevel_flow-DYjmf5ve.js",
+      "status": 200,
+      "sha256": "1944cde2cfb6376ff68c4f51d8e5ac2b9e567159f70dc3f2bf47c61e26eb5521",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/index-BQtJppzI.css",
+      "url": "https://anxzu.com/assets/index-BQtJppzI.css",
+      "status": 200,
+      "sha256": "8f8719951a23bd233ca09dbbd98627636d656bfe8c460b4b424a1d5c6eb126bb",
+      "mime": "text/css; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/index-BTWOikn6.js",
+      "url": "https://anxzu.com/assets/index-BTWOikn6.js",
+      "status": 200,
+      "sha256": "1aae1f38b2e4ea373e97b51757fd35850dfa7ee85db50fb6fdf8b7c5a380efdf",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/index-C8kQlsRn.js",
+      "url": "https://anxzu.com/assets/index-C8kQlsRn.js",
+      "status": 200,
+      "sha256": "6b6647adf88a53e63b743a1683698ae0b4ace9bf94bed4aa336e6741a34634bd",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/index-DQvQxips.css",
+      "url": "https://anxzu.com/assets/index-DQvQxips.css",
+      "status": 200,
+      "sha256": "b534a0ec7c5c2933c27de81b38d4ad5fe82bfe983cf5ee40a17db76229f345fe",
+      "mime": "text/css; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/inter-latin-8kRkwJBP.woff2",
+      "url": "https://anxzu.com/assets/inter-latin-8kRkwJBP.woff2",
+      "status": 200,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "mime": "font/woff2",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/logic_flow-CzJ0G_9O.js",
+      "url": "https://anxzu.com/assets/logic_flow-CzJ0G_9O.js",
+      "status": 200,
+      "sha256": "9aa13192a40ff911042a941c7523d2e2675813e0857e20b505860867f890b513",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/logic_flow-DItZFrMA.js",
+      "url": "https://anxzu.com/assets/logic_flow-DItZFrMA.js",
+      "status": 200,
+      "sha256": "daf855e2c737aa0ea26ef77fc175aadc415def5e4aa146dedbeff27abc3acf4b",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/metodologia_problem_flow-CrOaBN3S.js",
+      "url": "https://anxzu.com/assets/metodologia_problem_flow-CrOaBN3S.js",
+      "status": 200,
+      "sha256": "66b180e2f69b7a0d77df5efeef83c554bd5cbee51493ffa0a1e5e96134b81fef",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/metodologia_problem_flow-DrJ2alVL.js",
+      "url": "https://anxzu.com/assets/metodologia_problem_flow-DrJ2alVL.js",
+      "status": 200,
+      "sha256": "a2fc33e3d7599790fec701629fb857489aa751d001e3e68ca9e385af2fdf0e81",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/metodologia_solution_flow-BiJQKTPN.js",
+      "url": "https://anxzu.com/assets/metodologia_solution_flow-BiJQKTPN.js",
+      "status": 200,
+      "sha256": "a316fe9a463a137e49625a96465967f126840eb42062e4ed50abccfd2fe93274",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/metodologia_solution_flow-CZ9VsHBB.js",
+      "url": "https://anxzu.com/assets/metodologia_solution_flow-CZ9VsHBB.js",
+      "status": 200,
+      "sha256": "f811e7611fd1b4f9f72242e08521db73fe5cc8538b94ba0f1d54afd286e7e6c3",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/Metodologia-BueCTpCa.js",
+      "url": "https://anxzu.com/assets/Metodologia-BueCTpCa.js",
+      "status": 200,
+      "sha256": "7a48a57cad6d803f809bb7357e3acb77b4772008b4b15e62b7bf8993c7f5bde4",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/Metodologia-zCGKFjCR.js",
+      "url": "https://anxzu.com/assets/Metodologia-zCGKFjCR.js",
+      "status": 200,
+      "sha256": "7a51f6c94f5d42d0d97d4a6f354a486afc0becff018aadcc212c614dac24926e",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/nodalume_flow-BzdI7ZRA.js",
+      "url": "https://anxzu.com/assets/nodalume_flow-BzdI7ZRA.js",
+      "status": 200,
+      "sha256": "fed20e60bd0964a2aa7b61158818b4bfc7acf5ca498f8cb3fbe69e66ac5f559f",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/Nodalume-CtrbVyFH.css",
+      "url": "https://anxzu.com/assets/Nodalume-CtrbVyFH.css",
+      "status": 200,
+      "sha256": "3d229843f17dd708521aca868574a5b000d030d9d027646e332411da353add64",
+      "mime": "text/css; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/Nodalume-DkRFjJTe.js",
+      "url": "https://anxzu.com/assets/Nodalume-DkRFjJTe.js",
+      "status": 200,
+      "sha256": "e0b4a6e763905afd104306da9ef71e0e5eb9b3561b366b98083827f290c6bf68",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/ProjectMessages-DOCYXiNe.js",
+      "url": "https://anxzu.com/assets/ProjectMessages-DOCYXiNe.js",
+      "status": 200,
+      "sha256": "e32f978787ac9f14af2bc550b56680c28618f07852d684cc774557ec555d6bdc",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/style-Bvy3m9XQ.js",
+      "url": "https://anxzu.com/assets/style-Bvy3m9XQ.js",
+      "status": 200,
+      "sha256": "e841bf6ddda7191f472461128f55820cbca571daf9ca3a82d76f76c12e8ee3df",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/style-BZV40eAE.css",
+      "url": "https://anxzu.com/assets/style-BZV40eAE.css",
+      "status": 200,
+      "sha256": "77eb229e70c7949e1d9e4f542afdf7b38d85eccc656a7c3ee9b8429a339872be",
+      "mime": "text/css; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/style-oANeg7LK.js",
+      "url": "https://anxzu.com/assets/style-oANeg7LK.js",
+      "status": 200,
+      "sha256": "39a4570f6c8e576009c62312d3307985618e6adfaae7328e03e207428ff4785a",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "assets/useDiagramPlayback-B7SeXA7R.js",
+      "url": "https://anxzu.com/assets/useDiagramPlayback-B7SeXA7R.js",
+      "status": 200,
+      "sha256": "7e532d51ebe1b2d0e795f09be238e85125471b2b190cf11bcc551ad8398ce07e",
+      "mime": "application/javascript; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "CNAME",
+      "url": "https://anxzu.com/CNAME",
+      "status": 200,
+      "sha256": "79b3bef2e150b04dc003b14379794d8e4d60fc0509b3d3972deb443b51bcc787",
+      "mime": "application/octet-stream",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "deployment.json",
+      "url": "https://anxzu.com/deployment.json",
+      "status": 200,
+      "sha256": "602d41313bc38070acf538456ed9a23d3391fd3253a11186ef72bb3353097904",
+      "mime": "application/json; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "index.html",
+      "url": "https://anxzu.com/index.html",
+      "status": 200,
+      "sha256": "1bc62d75ce53dddf36ece6ffa9d3398b4471746b4432fdd5c639d3eeaf361ab3",
+      "mime": "text/html; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "Inter-OFL.txt",
+      "url": "https://anxzu.com/Inter-OFL.txt",
+      "status": 200,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "mime": "text/plain; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "projects/concurrencia/index.html",
+      "url": "https://anxzu.com/projects/concurrencia/index.html",
+      "status": 200,
+      "sha256": "5dba9e58725a16cb15063c375efac2fb30a02587e2e4d5f7e471e48cecc93059",
+      "mime": "text/html; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "projects/metodologia/index.html",
+      "url": "https://anxzu.com/projects/metodologia/index.html",
+      "status": 200,
+      "sha256": "e582f1380ad1b0f82d5ffcf7214bcd0b2c14833b368e56c05aa427076dcb88b7",
+      "mime": "text/html; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "projects/nodalume/index.html",
+      "url": "https://anxzu.com/projects/nodalume/index.html",
+      "status": 200,
+      "sha256": "d4afbd8c87c198dc63c0fdc530ff17a3609e511d080b4dae155bcbead59e8ca9",
+      "mime": "text/html; charset=utf-8",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://anxzu.com/robots.txt",
+      "status": 200,
+      "sha256": "2d0b448b86e71239f9452c6327065cdad41159f088810e88d2c671c1e37b8a92",
+      "mime": "text/plain; charset=utf-8",
+      "encoding": null,
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://anxzu.com/sitemap.xml",
+      "status": 200,
+      "sha256": "3eb7f543d65a488d3535370c1c42954689a046b26827bfb9d1ba42e896a4a7d3",
+      "mime": "application/xml",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    },
+    {
+      "file": "vite.svg",
+      "url": "https://anxzu.com/vite.svg",
+      "status": 200,
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+      "mime": "image/svg+xml",
+      "encoding": "gzip",
+      "cacheControl": "max-age=600",
+      "age": "0"
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "url": "https://anxzu.com/",
+      "status": 200,
+      "title": "ANXZU — The Art of Engineering",
+      "canonical": "https://anxzu.com/",
+      "language": "en"
+    },
+    {
+      "path": "/projects/concurrencia",
+      "url": "https://anxzu.com/projects/concurrencia/",
+      "status": 200,
+      "title": "Concurrent Log Monitor via SSH | ANXZU",
+      "canonical": "https://anxzu.com/projects/concurrencia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/concurrencia/",
+      "url": "https://anxzu.com/projects/concurrencia/",
+      "status": 200,
+      "title": "Concurrent Log Monitor via SSH | ANXZU",
+      "canonical": "https://anxzu.com/projects/concurrencia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/metodologia",
+      "url": "https://anxzu.com/projects/metodologia/",
+      "status": 200,
+      "title": "AI-Assisted Customization Methodology | ANXZU",
+      "canonical": "https://anxzu.com/projects/metodologia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/metodologia/",
+      "url": "https://anxzu.com/projects/metodologia/",
+      "status": 200,
+      "title": "AI-Assisted Customization Methodology | ANXZU",
+      "canonical": "https://anxzu.com/projects/metodologia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/nodalume",
+      "url": "https://anxzu.com/projects/nodalume/",
+      "status": 200,
+      "title": "Nodalume — Captive Portal Platform | ANXZU",
+      "canonical": "https://anxzu.com/projects/nodalume",
+      "language": "en"
+    },
+    {
+      "path": "/projects/nodalume/",
+      "url": "https://anxzu.com/projects/nodalume/",
+      "status": 200,
+      "title": "Nodalume — Captive Portal Platform | ANXZU",
+      "canonical": "https://anxzu.com/projects/nodalume",
+      "language": "en"
+    }
+  ],
+  "verifiedFiles": 65,
+  "missingOrMixed": 0,
+  "method": "Normal resource URLs, HTTPS certificate verification by Node when public, SHA-256 compared to the reviewed deployment artifact. Dot configuration files are verified in Git/local artifact rather than as public URLs."
+}

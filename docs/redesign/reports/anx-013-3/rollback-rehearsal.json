@@ -1,0 +1,10 @@
+{
+  "method": "Isolated local clone; git revert of deployment commit, not a production rollback.",
+  "deploymentCommit": "90cb00bb6ea9ac2ae6545d96d61afbd91a41cb56",
+  "rehearsalCommit": "45a219abfa1370aa6d42a34931978e02b0297b39",
+  "backupCommit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+  "oldTree": "b53e1632efc7fcbc5e17c24e92c4d129582d2cc2",
+  "revertedTree": "b53e1632efc7fcbc5e17c24e92c4d129582d2cc2",
+  "treesIdentical": true,
+  "productionChanged": false
+}

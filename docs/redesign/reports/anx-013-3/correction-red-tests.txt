@@ -1,0 +1,142 @@
+✔ eight semantic readings match their original models in EN/ES without importing canvas geometry (1.195958ms)
+✔ named editorial copy preserves every retained ANX-013.1 EN/ES message value (0.504083ms)
+✔ semantic generation fails closed on an incomplete locale instead of publishing mixed-language readings (0.148333ms)
+✖ Nodalume editorial arrays are covered by the route catalog itself, not an unrelated project catalog (73.073583ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 189.856417
+
+✖ failing tests:
+
+test at tests/nodalume-loading.test.js:24:1
+✖ Nodalume editorial arrays are covered by the route catalog itself, not an unrelated project catalog (73.073583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   [
+  +     'Back to projects',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Problem',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Product philosophy',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Current implementation',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Engineering decisions',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Operations & cloud',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Backend & administration',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Persistence & tenancy',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Access, sessions & accounting',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'FreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Creative flexibility',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Separate the experience from rigid templates, so visual ideas can become useful portal interactions.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Ownership & autonomy',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Self-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Extensibility',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Compose for a lab, not a scaling guarantee',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Separate services, keep integration visible',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Application logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Treat tenant context as a design constraint',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'Design flexibility needs safe execution',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ],
+  +   [
+  +     'A visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.',
+  +     'src/pages/projects/Nodalume.jsx'
+  +   ]
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///Users/zury/Documentos/communications-electronics-portfolio/tests/nodalume-loading.test.js:26:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ [ 'Back to projects', 'src/pages/projects/Nodalume.jsx' ], [ 'Problem', 'src/pages/projects/Nodalume.jsx' ], [ 'Product philosophy', 'src/pages/projects/Nodalume.jsx' ], [ 'Current implementation', 'src/pages/projects/Nodalume.jsx' ], [ 'Engineering decisions', 'src/pages/projects/Nodalume.jsx' ], [ 'Operations & cloud', 'src/pages/projects/Nodalume.jsx' ], [ 'Backend & administration', 'src/pages/projects/Nodalume.jsx' ], [ 'Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.', 'src/pages/projects/Nodalume.jsx' ], [ 'Persistence & tenancy', 'src/pages/projects/Nodalume.jsx' ], [ 'PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.', 'src/pages/projects/Nodalume.jsx' ], [ 'Access, sessions & accounting', 'src/pages/projects/Nodalume.jsx' ], [ 'FreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.', 'src/pages/projects/Nodalume.jsx' ], [ 'Creative flexibility', 'src/pages/projects/Nodalume.jsx' ], [ 'Separate the experience from rigid templates, so visual ideas can become useful portal interactions.', 'src/pages/projects/Nodalume.jsx' ], [ 'Ownership & autonomy', 'src/pages/projects/Nodalume.jsx' ], [ 'Self-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.', 'src/pages/projects/Nodalume.jsx' ], [ 'Extensibility', 'src/pages/projects/Nodalume.jsx' ], [ 'The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.', 'src/pages/projects/Nodalume.jsx' ], [ 'Compose for a lab, not a scaling guarantee', 'src/pages/projects/Nodalume.jsx' ], [ 'Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.', 'src/pages/projects/Nodalume.jsx' ], [ 'Separate services, keep integration visible', 'src/pages/projects/Nodalume.jsx' ], [ 'Application logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.', 'src/pages/projects/Nodalume.jsx' ], [ 'Treat tenant context as a design constraint', 'src/pages/projects/Nodalume.jsx' ], [ 'Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.', 'src/pages/projects/Nodalume.jsx' ], [ 'Design flexibility needs safe execution', 'src/pages/projects/Nodalume.jsx' ], [ 'A visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.', 'src/pages/projects/Nodalume.jsx' ] ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

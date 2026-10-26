@@ -1,0 +1,127 @@
+{
+  "sourceRepo": {
+    "full_name": "Zuriel0/communications-electronics-portfolio",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false,
+    "has_pages": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    }
+  },
+  "sourceMain": {
+    "name": "main",
+    "protected": false,
+    "sha": "d4b92df0c28415098862333e491d2552efe594d0"
+  },
+  "sourceRulesets": [],
+  "sourceReleases": [
+    {
+      "id": 423088985,
+      "tag_name": "v1.1.0",
+      "name": "v1.1.0 \u2014 Bilingual Engineering Portfolio",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/Zuriel0/communications-electronics-portfolio/releases/tag/v1.1.0",
+      "target_commitish": "d4b92df0c28415098862333e491d2552efe594d0"
+    },
+    {
+      "id": 422375080,
+      "tag_name": "v1.0.0",
+      "name": "ANXZU \u2014 The Art of Engineering",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/Zuriel0/communications-electronics-portfolio/releases/tag/v1.0.0",
+      "target_commitish": "5e388c925ec2a705bb1a019711452c72aa51c1ea"
+    }
+  ],
+  "sourceWorkflows": {
+    "total_count": 0,
+    "workflows": []
+  },
+  "sourceHooks": {
+    "count": 0,
+    "activeTypes": []
+  },
+  "productionRepo": {
+    "full_name": "Zuriel0/page",
+    "default_branch": "main",
+    "visibility": "public",
+    "archived": false,
+    "has_pages": true,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "push": true,
+      "triage": true,
+      "pull": true
+    }
+  },
+  "productionMain": {
+    "name": "main",
+    "protected": false,
+    "sha": "76138c5b1d8e82b651c1369ef468f023b58f67a6"
+  },
+  "productionRulesets": [],
+  "pages": {
+    "url": "https://api.github.com/repos/Zuriel0/page/pages",
+    "status": "built",
+    "cname": "anxzu.com",
+    "custom_404": false,
+    "html_url": "http://anxzu.com/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_certificate": {
+      "state": "approved",
+      "description": "The certificate has been approved.",
+      "domains": [
+        "anxzu.com",
+        "www.anxzu.com"
+      ],
+      "expires_at": "2027-01-19"
+    },
+    "https_enforced": false
+  },
+  "latestPagesBuild": {
+    "url": "https://api.github.com/repos/Zuriel0/page/pages/builds/1312143486",
+    "status": "built",
+    "error": {
+      "message": null
+    },
+    "pusher": {
+      "login": "Zuriel0",
+      "id": 50312846,
+      "node_id": "MDQ6VXNlcjUwMzEyODQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50312846?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Zuriel0",
+      "html_url": "https://github.com/Zuriel0",
+      "followers_url": "https://api.github.com/users/Zuriel0/followers",
+      "following_url": "https://api.github.com/users/Zuriel0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Zuriel0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Zuriel0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Zuriel0/subscriptions",
+      "organizations_url": "https://api.github.com/users/Zuriel0/orgs",
+      "repos_url": "https://api.github.com/users/Zuriel0/repos",
+      "events_url": "https://api.github.com/users/Zuriel0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Zuriel0/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "commit": "76138c5b1d8e82b651c1369ef468f023b58f67a6",
+    "duration": 17892,
+    "created_at": "2026-10-25T02:03:45Z",
+    "updated_at": "2026-10-25T02:04:02Z"
+  }
+}

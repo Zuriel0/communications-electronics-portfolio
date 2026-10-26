@@ -2,6 +2,8 @@
 
 ## v1.2.0 — Nodalume Engineering Case Study
 
+> **Publication withdrawn / NO-GO (2026-10-26):** Public Spanish QA exposed untranslated editorial arrays. Production was restored to v1.1.0 and verified. The v1.2.0 tag remains immutable; the correction is validated on the ANX-013 branch pending a replacement-version decision. See `docs/redesign/anx-013-3-release-report.md`.
+
 Third formal release, consolidating ANX-013, ANX-013.1 and ANX-013.2.
 
 ### Added

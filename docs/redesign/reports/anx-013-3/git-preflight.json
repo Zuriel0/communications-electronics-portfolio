@@ -1,0 +1,22 @@
+{
+  "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+  "initialBranch": "codex/anx-013-nodalume-technical",
+  "initialHead": "7958d3790bf17edaea6fbab3d8bfbe87a2a260e0",
+  "initialMain": "d4b92df0c28415098862333e491d2552efe594d0",
+  "integrationHead": "e1235dc29a030e4bbdc1bc4919bc3b876e353fce",
+  "integrationMethod": "Local fast-forward; remote main not yet updated.",
+  "commitsIntegrated": [
+    "63221c6adb4c92ba03b58e604affb8c84a247798 docs: record ANXZU v1.1.0 production deployment and verification",
+    "70e128a92db376fbb4bb85acfeb262f124f76437 feat: add bilingual Nodalume technical case study",
+    "07963866405a312a715bd454e79a20958419c986 fix: localize Nodalume diagram controls and loading states",
+    "85e81e5f06caa4d5d316557f5301b78e6b28aa73 feat: ground Nodalume case study in engineering evidence",
+    "82a1be4cc7673ef91410ff9db043953660e3a4b0 perf: streamline Nodalume delivery and engineering interactions",
+    "7958d3790bf17edaea6fbab3d8bfbe87a2a260e0 docs: record ANX-013.2 performance and publication readiness",
+    "e1235dc29a030e4bbdc1bc4919bc3b876e353fce release: prepare ANXZU v1.2.0 Nodalume engineering case study"
+  ],
+  "v1.1.0TagObject": "26a528ca3406bbf8c360706900288c7e1c3a4628",
+  "v1.1.0Commit": "d4b92df0c28415098862333e491d2552efe594d0",
+  "initialAheadBehind": "0 main-only / 6 branch-only before preparation commit",
+  "mainProtected": false,
+  "rulesets": []
+}
