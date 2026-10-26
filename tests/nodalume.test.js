@@ -56,6 +56,10 @@ test('actual editorial page renders complete EN/ES before the deferred diagram r
       assert.ok(html.includes(messages[language]['A portal. Your possibilities.']));
       assert.ok(html.includes(messages[language]['Future direction']));
       assert.ok(html.includes(messages[language]['Source reviewed · isolated tests reproduced']));
+      for(const item of JSON.parse(readFileSync('tests/fixtures/nodalume-restored-editorial.json')).messages){
+        const escape=text=>text.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
+        assert.ok(html.includes(escape(item[language])),`Editorial ${language}: ${item.key}`);
+      }
       for(const brand of ['Elementor / Wix','Figma','Scratch / Zoho Flow','Postman'])assert.ok(html.includes(brand));
       assert.ok(html.includes('Docker Compose'));assert.ok(html.includes('MikroTik'));
       assert.equal((html.match(/class="diagram-load-frame"/g)||[]).length,4);

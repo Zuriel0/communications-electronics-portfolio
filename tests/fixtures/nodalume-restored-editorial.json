@@ -1,0 +1,136 @@
+{
+  "source": "Exact Spanish translations restored from ANX-013.1 / 85e81e5; Back to projects also exists in the unchanged common catalog.",
+  "scope": "25 omitted editorial-array messages plus explicit route-local coverage for Back to projects.",
+  "messages": [
+    {
+      "key": "Back to projects",
+      "en": "Back to projects",
+      "es": "Volver a proyectos"
+    },
+    {
+      "key": "Problem",
+      "en": "Problem",
+      "es": "Problema"
+    },
+    {
+      "key": "Product philosophy",
+      "en": "Product philosophy",
+      "es": "Filosofía de producto"
+    },
+    {
+      "key": "Current implementation",
+      "en": "Current implementation",
+      "es": "Implementación actual"
+    },
+    {
+      "key": "Engineering decisions",
+      "en": "Engineering decisions",
+      "es": "Decisiones de ingeniería"
+    },
+    {
+      "key": "Operations & cloud",
+      "en": "Operations & cloud",
+      "es": "Operación y nube"
+    },
+    {
+      "key": "Backend & administration",
+      "en": "Backend & administration",
+      "es": "Backend y administración"
+    },
+    {
+      "key": "copy.restored-registration-and-administration-separate-publiccontext-validation",
+      "en": "Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.",
+      "es": "El registro y la administración separan la validación de contexto público, la emisión transaccional de accesos y la autorización tenant ligada a la sesión. El código de servicios y repositorios revisado hace explícitos esos límites."
+    },
+    {
+      "key": "Persistence & tenancy",
+      "en": "Persistence & tenancy",
+      "es": "Persistencia y multitenancy"
+    },
+    {
+      "key": "copy.restored-postgresql-stores-access-tenant-ownership-editor",
+      "en": "PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.",
+      "es": "PostgreSQL almacena accesos, propiedad tenant, borradores del editor y revisiones publicadas. Los predicados ligados al tenant y las claves foráneas compuestas conservan la propiedad entre registros relacionados."
+    },
+    {
+      "key": "Access, sessions & accounting",
+      "en": "Access, sessions & accounting",
+      "es": "Acceso, sesiones y accounting"
+    },
+    {
+      "key": "copy.restored-freeradius-runs-chap-sql-authorization-and",
+      "en": "FreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.",
+      "es": "FreeRADIUS ejecuta CHAP, autorización SQL y accounting. El emisor fija la duración tenant en el acceso y los atributos RADIUS; la terminación administrativa se registra como solicitud, separada del cierre de accounting."
+    },
+    {
+      "key": "Creative flexibility",
+      "en": "Creative flexibility",
+      "es": "Flexibilidad creativa"
+    },
+    {
+      "key": "copy.restored-separate-the-experience-from-rigid-templates",
+      "en": "Separate the experience from rigid templates, so visual ideas can become useful portal interactions.",
+      "es": "Separar la experiencia de plantillas rígidas para convertir ideas visuales en interacciones útiles del portal."
+    },
+    {
+      "key": "Ownership & autonomy",
+      "en": "Ownership & autonomy",
+      "es": "Control y autonomía"
+    },
+    {
+      "key": "copy.restored-selfhosting-puts-deployment-choices-in-the",
+      "en": "Self-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.",
+      "es": "El autohospedaje deja las decisiones de despliegue en manos del operador. También le asigna la responsabilidad de las actualizaciones, los respaldos y la seguridad."
+    },
+    {
+      "key": "Extensibility",
+      "en": "Extensibility",
+      "es": "Capacidad de ampliación"
+    },
+    {
+      "key": "copy.restored-the-visual-editor-has-typed-blocks",
+      "en": "The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.",
+      "es": "El editor visual tiene bloques tipados, propiedades contextuales y un ciclo de publicación versionado. La automatización visual general y los constructores de acciones API externas siguen como conceptos de producto."
+    },
+    {
+      "key": "Compose for a lab, not a scaling guarantee",
+      "en": "Compose for a lab, not a scaling guarantee",
+      "es": "Compose para un laboratorio, sin garantías de escala"
+    },
+    {
+      "key": "copy.restored-docker-compose-keeps-local-service-orchestration",
+      "en": "Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.",
+      "es": "Docker Compose hace explícita y repetible la orquestación local. Es práctico para integrar servicios, pero no establece alta disponibilidad, recuperación automática ni un despliegue cloud."
+    },
+    {
+      "key": "Separate services, keep integration visible",
+      "en": "Separate services, keep integration visible",
+      "es": "Separar servicios y hacer visible su integración"
+    },
+    {
+      "key": "copy.restored-application-logic-persistence-and-aaa-have",
+      "en": "Application logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.",
+      "es": "La lógica de aplicación, la persistencia y AAA tienen responsabilidades distintas. Los límites claros ayudan a analizar fallos, pero requieren gestionar configuración, conectividad y consistencia."
+    },
+    {
+      "key": "Treat tenant context as a design constraint",
+      "en": "Treat tenant context as a design constraint",
+      "es": "Tratar el contexto tenant como una restricción de diseño"
+    },
+    {
+      "key": "copy.restored-multitenancy-makes-ownership-and-access-boundaries",
+      "en": "Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.",
+      "es": "El diseño multitenant exige considerar la propiedad y los límites de acceso en cada acción. Se necesitan pruebas de aislamiento y un modelo de datos documentado antes de afirmar garantías de seguridad."
+    },
+    {
+      "key": "Design flexibility needs safe execution",
+      "en": "Design flexibility needs safe execution",
+      "es": "La flexibilidad necesita ejecución segura"
+    },
+    {
+      "key": "copy.restored-a-visual-builder-can-broaden-creative",
+      "en": "A visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.",
+      "es": "Un builder visual puede ampliar la libertad creativa, mientras las políticas y acciones de API necesitan validación y permisos acotados. El producto debe equilibrar la expresión con un acceso a la red predecible."
+    }
+  ]
+}

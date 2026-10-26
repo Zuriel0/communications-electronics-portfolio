@@ -93,7 +93,23 @@ const labels=defineMessages({fromEnglish:{
   "Validation boundaries": "Límites de la validación",
   "Explore the boundaries that make access possible.": "Explora los límites que hacen posible el acceso.",
   "How the product model connects.": "Cómo se conecta el modelo de producto.",
-  "Requirements for the next environment.": "Requisitos para el siguiente entorno."
+  "Requirements for the next environment.": "Requisitos para el siguiente entorno.",
+  "Back to projects": "Volver a proyectos",
+  "Problem": "Problema",
+  "Product philosophy": "Filosofía de producto",
+  "Current implementation": "Implementación actual",
+  "Engineering decisions": "Decisiones de ingeniería",
+  "Operations & cloud": "Operación y nube",
+  "Backend & administration": "Backend y administración",
+  "Persistence & tenancy": "Persistencia y multitenancy",
+  "Access, sessions & accounting": "Acceso, sesiones y accounting",
+  "Creative flexibility": "Flexibilidad creativa",
+  "Ownership & autonomy": "Control y autonomía",
+  "Extensibility": "Capacidad de ampliación",
+  "Compose for a lab, not a scaling guarantee": "Compose para un laboratorio, sin garantías de escala",
+  "Separate services, keep integration visible": "Separar servicios y hacer visible su integración",
+  "Treat tenant context as a design constraint": "Tratar el contexto tenant como una restricción de diseño",
+  "Design flexibility needs safe execution": "La flexibilidad necesita ejecución segura"
 }});
 const prose={
   "copy.connecting-network-access-backend-services-and-the": {
@@ -247,6 +263,46 @@ const prose={
   "copy.compose-declares-healthbased-dependencies-restricted-api-and": {
     "en": "Compose declares health-based dependencies, restricted API and web containers, service boundaries and separate volumes. The reviewed operational documentation covers installation, diagnosis, migrations and recovery. No lab service was started or changed in this phase.",
     "es": "Compose declara dependencias basadas en disponibilidad, contenedores API y web restringidos, límites de servicio y volúmenes separados. La documentación operativa revisada cubre instalación, diagnóstico, migraciones y recuperación. No se arrancó ni modificó ningún servicio del laboratorio en esta fase."
+  },
+  "copy.restored-registration-and-administration-separate-publiccontext-validation": {
+    "en": "Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.",
+    "es": "El registro y la administración separan la validación de contexto público, la emisión transaccional de accesos y la autorización tenant ligada a la sesión. El código de servicios y repositorios revisado hace explícitos esos límites."
+  },
+  "copy.restored-postgresql-stores-access-tenant-ownership-editor": {
+    "en": "PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.",
+    "es": "PostgreSQL almacena accesos, propiedad tenant, borradores del editor y revisiones publicadas. Los predicados ligados al tenant y las claves foráneas compuestas conservan la propiedad entre registros relacionados."
+  },
+  "copy.restored-freeradius-runs-chap-sql-authorization-and": {
+    "en": "FreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.",
+    "es": "FreeRADIUS ejecuta CHAP, autorización SQL y accounting. El emisor fija la duración tenant en el acceso y los atributos RADIUS; la terminación administrativa se registra como solicitud, separada del cierre de accounting."
+  },
+  "copy.restored-separate-the-experience-from-rigid-templates": {
+    "en": "Separate the experience from rigid templates, so visual ideas can become useful portal interactions.",
+    "es": "Separar la experiencia de plantillas rígidas para convertir ideas visuales en interacciones útiles del portal."
+  },
+  "copy.restored-selfhosting-puts-deployment-choices-in-the": {
+    "en": "Self-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.",
+    "es": "El autohospedaje deja las decisiones de despliegue en manos del operador. También le asigna la responsabilidad de las actualizaciones, los respaldos y la seguridad."
+  },
+  "copy.restored-the-visual-editor-has-typed-blocks": {
+    "en": "The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.",
+    "es": "El editor visual tiene bloques tipados, propiedades contextuales y un ciclo de publicación versionado. La automatización visual general y los constructores de acciones API externas siguen como conceptos de producto."
+  },
+  "copy.restored-docker-compose-keeps-local-service-orchestration": {
+    "en": "Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.",
+    "es": "Docker Compose hace explícita y repetible la orquestación local. Es práctico para integrar servicios, pero no establece alta disponibilidad, recuperación automática ni un despliegue cloud."
+  },
+  "copy.restored-application-logic-persistence-and-aaa-have": {
+    "en": "Application logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.",
+    "es": "La lógica de aplicación, la persistencia y AAA tienen responsabilidades distintas. Los límites claros ayudan a analizar fallos, pero requieren gestionar configuración, conectividad y consistencia."
+  },
+  "copy.restored-multitenancy-makes-ownership-and-access-boundaries": {
+    "en": "Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.",
+    "es": "El diseño multitenant exige considerar la propiedad y los límites de acceso en cada acción. Se necesitan pruebas de aislamiento y un modelo de datos documentado antes de afirmar garantías de seguridad."
+  },
+  "copy.restored-a-visual-builder-can-broaden-creative": {
+    "en": "A visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.",
+    "es": "Un builder visual puede ampliar la libertad creativa, mientras las políticas y acciones de API necesitan validación y permisos acotados. El producto debe equilibrar la expresión con un acceso a la red predecible."
   }
 };
 export default Object.fromEntries(['en','es'].map(language=>[language,{...labels[language],...Object.fromEntries(Object.entries(prose).map(([key,value])=>[key,value[language]]))}]));

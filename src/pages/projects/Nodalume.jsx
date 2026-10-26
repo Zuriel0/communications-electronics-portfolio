@@ -19,14 +19,14 @@ const sections = [
   ['nodalume-operations','Operations & cloud'],['nodalume-future','Future direction'],
 ];
 const implementation = [
-  ['Backend & administration','Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.'],
-  ['Persistence & tenancy','PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.'],
-  ['Access, sessions & accounting','FreeRADIUS runs CHAP, SQL authorization and accounting. The issuer freezes tenant duration into access and RADIUS attributes; administrative termination is recorded as a request, separately from accounting closure.'],
+  ['Backend & administration',"copy.restored-registration-and-administration-separate-publiccontext-validation"],
+  ['Persistence & tenancy',"copy.restored-postgresql-stores-access-tenant-ownership-editor"],
+  ['Access, sessions & accounting',"copy.restored-freeradius-runs-chap-sql-authorization-and"],
 ];
 const principles = [
-  ['Creative flexibility','Separate the experience from rigid templates, so visual ideas can become useful portal interactions.'],
-  ['Ownership & autonomy','Self-hosting puts deployment choices in the operator’s hands. It also makes updates, backups and security the operator’s responsibility.'],
-  ['Extensibility','The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.'],
+  ['Creative flexibility',"copy.restored-separate-the-experience-from-rigid-templates"],
+  ['Ownership & autonomy',"copy.restored-selfhosting-puts-deployment-choices-in-the"],
+  ['Extensibility',"copy.restored-the-visual-editor-has-typed-blocks"],
 ];
 const influences = [
   { name:'Elementor / Wix', sources:[['Elementor','https://elementor.com/help/add-elements-to-a-page/'],['Wix','https://support.wix.com/en/article/wix-editor-adding-and-deleting-elements']] },
@@ -35,10 +35,10 @@ const influences = [
   { name:'Postman', sources:[['Postman','https://learning.postman.com/docs/getting-started/quick-start/']] },
 ];
 const decisions = [
-  ['Compose for a lab, not a scaling guarantee','Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.'],
-  ['Separate services, keep integration visible','Application logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.'],
-  ['Treat tenant context as a design constraint','Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.'],
-  ['Design flexibility needs safe execution','A visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.'],
+  ['Compose for a lab, not a scaling guarantee',"copy.restored-docker-compose-keeps-local-service-orchestration"],
+  ['Separate services, keep integration visible',"copy.restored-application-logic-persistence-and-aaa-have"],
+  ['Treat tenant context as a design constraint',"copy.restored-multitenancy-makes-ownership-and-access-boundaries"],
+  ['Design flexibility needs safe execution',"copy.restored-a-visual-builder-can-broaden-creative"],
 ];
 function Copy({ children, className }) { return <p className={className}><Text>{children}</Text></p>; }
 function Section({ id, title, children, className='' }) {
