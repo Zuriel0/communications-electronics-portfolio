@@ -32,12 +32,13 @@ const entry = chunks.find(chunk => chunk.entry);
 assert.ok(entry, 'Entry chunk exists');
 const initial = closure(entry);
 assert.equal(initial.flatMap(chunk => chunk.modules).filter(id => flowOnly.test(id)).length, 0, 'React Flow and its graph-specific dependencies must stay out of home');
-assert.equal(initial.flatMap(chunk => chunk.modules).filter(id => /\/(?:locales\/nodalume(?:Engineering)?\.js|data\/nodalume(?:Engineering)?\.js|pages\/projects\/Nodalume\.jsx)$/.test(id)).length, 0, 'The Nodalume narrative, models and route catalog must stay out of home');
+assert.equal(initial.flatMap(chunk => chunk.modules).filter(id => /\/(?:locales\/nodalume(?:Engineering|Readings|Diagrams)?\.js|data\/nodalume(?:Engineering|Readings|Diagrams)?\.js|pages\/projects\/Nodalume\.jsx)$/.test(id)).length, 0, 'The Nodalume narrative, models and route catalog must stay out of home');
 for (const page of ['Concurrencia', 'Metodologia', 'Nodalume']) {
   const route = chunks.find(chunk => chunk.modules.some(id => id.endsWith(`/pages/projects/${page}.jsx`)));
   assert.ok(route, `${page} has its own dynamic chunk`);
   assert.ok(entry.dynamicImports.includes(route.file), `${page} is a dynamic import from the entry`);
   assert.equal(closure(route).flatMap(chunk => chunk.modules).filter(id => flowOnly.test(id)).length, 0, `${page} editorial content does not wait for React Flow`);
+  if(page==='Nodalume') assert.equal(closure(route).flatMap(chunk=>chunk.modules).filter(id=>/\/(?:data\/nodalume(?:Engineering)?\.js|locales\/nodalumeDiagrams\.js)$/.test(id)).length,0,'Nodalume editorial content excludes every full graph model and its inspection catalog');
   const diagrams = [...new Set(closure(route).flatMap(chunk => chunk.dynamicImports))].map(file => chunks.find(chunk => chunk.file === file)).filter(chunk => /\/graphics\//.test(chunk?.facade || ''));
   assert.equal(diagrams.length, page === 'Concurrencia' ? 4 : page === 'Metodologia' ? 2 : 1, `${page} retains every lazy diagram`);
   for (const diagram of diagrams) assert.ok(closure(diagram).flatMap(chunk => chunk.modules).some(id => id.includes('/@xyflow/react/')), `${diagram.facade} retains the graph runtime`);

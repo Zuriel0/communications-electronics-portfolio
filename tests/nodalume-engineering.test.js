@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {engineeringSystems} from '../src/data/nodalumeEngineering.js';
-import messages from '../src/i18n/locales/nodalume.js';
+import messages from '../src/i18n/locales/nodalumeDiagrams.js';
 import {walkthroughAt,walkthroughSteps,engineeringViewForHash} from '../src/utils/nodalumeWalkthrough.js';
 
 const byKind = kind => engineeringSystems.find(model=>model.kind===kind);

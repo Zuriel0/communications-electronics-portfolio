@@ -17,7 +17,7 @@ export function uiMessages(root = 'src') {
       if (entry.isDirectory()) { if (entry.name !== 'i18n') walk(f); continue; }
       if (!/\.(jsx|js)$/.test(f)) continue;
       // Retained source inventory is internal evidence, no longer public UI.
-      if (f === 'src/data/skills.js') continue;
+      if (f === 'src/data/skills.js' || f === 'src/data/nodalumeReadings.js') continue;
       const ast = parse(readFileSync(f, 'utf8'), { sourceType: 'module', plugins: ['jsx'] });
       traverse(ast, {
         JSXElement(p) {

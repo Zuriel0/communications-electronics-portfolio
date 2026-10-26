@@ -12,6 +12,7 @@ import es from '../src/i18n/locales/es.js';
 import projectEn from '../src/i18n/locales/projects.en.js';
 import projectEs from '../src/i18n/locales/projects.es.js';
 import nodalumeMessages from '../src/i18n/locales/nodalume.js';
+import nodalumeDiagramMessages from '../src/i18n/locales/nodalumeDiagrams.js';
 import { uiMessages } from './helpers/uiMessages.mjs';
 import { declaration, sha256 } from './helpers/modelIntegrity.mjs';
 import { capabilityAreas } from '../src/data/capabilities.js';
@@ -45,7 +46,7 @@ test('blocked storage and invalid saved languages retain an operable in-memory f
 });
 
 test('EN/ES keys and substitution slots match in both independently loaded catalogs', () => {
-  for (const [a,b] of [[en,es],[projectEn,projectEs],[nodalumeMessages.en,nodalumeMessages.es]]) {
+  for (const [a,b] of [[en,es],[projectEn,projectEs],[nodalumeMessages.en,nodalumeMessages.es],[nodalumeDiagramMessages.en,nodalumeDiagramMessages.es]]) {
     assert.deepEqual(Object.keys(a).sort(), Object.keys(b).sort());
     for (const key of Object.keys(a)) {
       assert.ok(a[key].trim() && b[key].trim(), key);
@@ -58,7 +59,7 @@ test('EN/ES keys and substitution slots match in both independently loaded catal
 
 test('application copy, content arrays and all diagram labels have translations or explicit invariant names', () => {
   const invariants = fixture('invariant-messages.json');
-  const missing = [...uiMessages()].filter(([s]) => !(s in en) && !(s in projectEn) && !(s in nodalumeMessages.en) && !invariants.includes(s));
+  const missing = [...uiMessages()].filter(([s]) => !(s in en) && !(s in projectEn) && !(s in nodalumeMessages.en) && !(s in nodalumeDiagramMessages.en) && !invariants.includes(s));
   assert.deepEqual(missing, []);
   assert.ok(uiMessages().size > 500);
 });

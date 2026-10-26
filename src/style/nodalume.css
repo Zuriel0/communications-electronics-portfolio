@@ -131,3 +131,35 @@
  .nodalume-flow--evidence { animation:nodalume-view-arrive var(--duration-hover) var(--ease-standard) both; }
  @keyframes nodalume-view-arrive { from { opacity:.7; } to { opacity:1; } }
 }
+
+/* Interaction principles have their own visual grammar, separate from product evidence. */
+.nodalume-principle { width:15rem; max-width:100%; height:auto; margin-block:var(--space-5); color:var(--accent); stroke:currentColor; stroke-width:1.5; }
+.nodalume-principle .dna-outline { stroke:var(--border); }
+.nodalume-principle .dna-guide { opacity:.35; stroke-dasharray:3 5; }
+.nodalume-principle .dna-link { opacity:.65; }
+.nodalume-principle .dna-form { fill:var(--interactive-active); }
+.nodalume-principle .dna-focus { fill:var(--accent); }
+.nodalume-dna-reference h4 { text-wrap:balance; }
+.nodalume-dna-reference .nodalume-sources { flex-direction:column; align-items:flex-start; margin-top:0; gap:var(--space-2); }
+.nodalume-dna-decisions { border-left:1px solid var(--border); padding-left:var(--space-6); align-self:center; }
+.nodalume-product-dna .nodalume-dna-decisions > div { position:relative; padding-block:var(--space-3); margin-bottom:var(--space-5); }
+.nodalume-dna-decisions > div::before { content:''; position:absolute; left:calc(-1 * var(--space-6) - 3px); top:1.15rem; width:5px; height:5px; border-radius:50%; background:var(--border); }
+.nodalume-dna-own dd { color:var(--text-primary); font-size:var(--text-body-lg); }
+.nodalume-dna-scope { border-top:1px solid var(--border); }
+.nodalume-dna-scope dt { color:var(--accent); }
+.nodalume-stage-title { display:flex; align-items:center; gap:var(--space-4); }
+.nodalume-stage-position { color:var(--accent); font-size:var(--text-h3); flex-shrink:0; }
+.nodalume-stage-position small { color:var(--text-secondary); font-size:var(--text-caption); margin-left:var(--space-1); }
+.nodalume-system-readings { margin-top:var(--space-6); border-top:1px solid var(--border); }
+@media (hover:hover) { .nodalume-dna-relation:hover .dna-link { opacity:1; } }
+.nodalume-dna-relation:focus-within .dna-link { opacity:1; }
+.nodalume-dna-relation:focus-within .dna-outline { stroke:var(--accent); }
+@media (prefers-reduced-motion:no-preference) {
+ .nodalume-principle .dna-link { transition:opacity var(--duration-hover) var(--ease-standard); }
+ .nodalume-principle .dna-form { transform-box:fill-box; transform-origin:center; transition:transform var(--duration-menu) var(--ease-standard); }
+ .nodalume-dna-relation:focus-within .dna-form { transform:translateY(-3px); }
+ .nodalume-stage-copy, .nodalume-inspection-detail { animation:nodalume-context var(--duration-hover) var(--ease-standard) both; }
+ @keyframes nodalume-context { from { opacity:.65; transform:translateX(3px); } to { opacity:1; transform:none; } }
+}
+@media (hover:hover) and (prefers-reduced-motion:no-preference) { .nodalume-dna-relation:hover .dna-form { transform:translateY(-3px); } }
+@media (max-width:59.999rem) { .nodalume-flow .nodalume-stage-title { min-height:4.8em; } }

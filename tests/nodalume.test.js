@@ -5,6 +5,8 @@ import { createRequire } from 'node:module';
 import { createServer } from 'vite';
 import { readFileSync } from 'node:fs';
 import messages from '../src/i18n/locales/nodalume.js';
+import diagramMessages from '../src/i18n/locales/nodalumeDiagrams.js';
+import { nodalumeReadings } from '../src/data/nodalumeReadings.js';
 import { nodalumeDiagrams } from '../src/data/nodalume.js';
 import { getPageMetadata } from '../src/data/pageMetadata.js';
 import { projects } from '../src/data/projects.js';
@@ -31,7 +33,7 @@ test('all three abstract models retain explicit scope and translate each relatio
     const ids=new Set(model.nodes.map(node=>node.id));assert.equal(ids.size,5);
     for(const edge of model.edges){assert.ok(ids.has(edge.source)&&ids.has(edge.target));}
     for(const key of [model.title,model.status,...model.nodes.flatMap(node=>[node.label,node.detail]),...model.edges.map(edge=>edge.label)]){
-      assert.ok(messages.en[key]&&messages.es[key],key);
+      assert.ok(diagramMessages.en[key]&&diagramMessages.es[key],key);
     }
     assert.ok(!/https?:|\b\d{1,3}(?:\.\d{1,3}){3}\b|token|password/i.test(JSON.stringify(model)));
   }
@@ -61,6 +63,9 @@ test('actual editorial page renders complete EN/ES before the deferred diagram r
       assert.equal(html.split(loading).length-1,4,'Each deferred figure uses the active route language');
       assert.ok(html.includes(language==='en'?'aria-label="Case study sections"':'aria-label="Secciones del caso de estudio"'));
       assert.ok(!html.includes('react-flow__node'));
+      assert.ok(!html.includes('copy.'),'Named prose identifiers must never leak into rendered copy');
+      assert.equal((html.match(/class="nodalume-text-model"/g)||[]).length,8);
+      for(const view of nodalumeReadings)for(const line of view[language].relationships)assert.ok(html.includes(line.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll("'",'&#x27;')),view.id+': complete semantic text');
       for(const nav of projectNavigation('/projects/nodalume'))if(nav.href.startsWith('#'))assert.ok(html.includes(`id="${nav.href.slice(1)}"`));
       assert.ok(!/\bSaaS\b|99\.9%|customers served|production deployment achieved/i.test(html));
       assert.equal(store.getSnapshot(),language);

@@ -22,6 +22,24 @@ export function renderPageHead(html, pathname) {
     .replace('</head>', `    ${meta.join('\n    ')}\n  </head>`);
 }
 
+// A direct Nodalume request already identifies its editorial route. Fetch its
+// static closure in parallel with React, while leaving every graph dynamic.
+export function preloadNodalumeEditorial(html, bundle) {
+  const route=Object.values(bundle).find(item=>item.type==='chunk' && Object.keys(item.modules).some(id=>id.endsWith('/pages/projects/Nodalume.jsx')));
+  if(!route) throw new Error('The Nodalume editorial chunk is required.');
+  const visited=new Set(),css=new Set(),scripts=[];
+  function visit(chunk) {
+    if(visited.has(chunk.fileName))return;
+    visited.add(chunk.fileName);
+    for(const file of chunk.imports)if(bundle[file]?.type==='chunk')visit(bundle[file]);
+    for(const file of chunk.viteMetadata?.importedCss || [])css.add(file);
+    scripts.push(chunk.fileName);
+  }
+  visit(route);
+  const links=[...scripts.filter(file=>!html.includes(`src="/${file}"`)).map(file=>`<link rel="modulepreload" crossorigin href="/${file}" />`),...Array.from(css).filter(file=>!html.includes(`href="/${file}"`)).map(file=>`<link rel="stylesheet" crossorigin href="/${file}" />`)];
+  return html.replace('</head>',`    ${links.join('\n    ')}\n  </head>`);
+}
+
 export function routeMetadataPlugin() {
   return {
     name: 'anxzu-route-metadata',
@@ -42,7 +60,8 @@ export function routeMetadataPlugin() {
         if (!index || index.type !== 'asset') throw new Error('Built index.html is required for route metadata.');
         index.source = renderPageHead(String(index.source), '/');
         for (const route of Object.keys(pageMetadata).filter(path => path.startsWith('/projects/'))) {
-          this.emitFile({ type: 'asset', fileName: `${route.slice(1)}/index.html`, source: renderPageHead(String(index.source), route) });
+          const html=renderPageHead(String(index.source), route);
+          this.emitFile({ type: 'asset', fileName: `${route.slice(1)}/index.html`, source: route==='/projects/nodalume' ? preloadNodalumeEditorial(html,bundle) : html });
         }
       },
     },

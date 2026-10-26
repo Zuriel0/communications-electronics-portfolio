@@ -2,6 +2,9 @@ import { memo, useEffect, useMemo, useRef, useState, useSyncExternalStore } from
 import { ReactFlow, ReactFlowProvider, Background, Controls, Handle, Position, BaseEdge, EdgeLabelRenderer, getSmoothStepPath, ViewportPortal, useViewport } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import { nodalumeDiagrams } from '../../../data/nodalume';
+import { engineeringSystems } from '../../../data/nodalumeEngineering';
+import { MessagesContext } from '../../../i18n/contexts';
+import diagramMessages from '../../../i18n/locales/nodalumeDiagrams';
 import { observeDiagramPlayback } from '../../../utils/diagramVisibility';
 import useReducedMotion from '../../../hooks/useReducedMotion';
 import useTranslation from '../../../i18n/useTranslation';
@@ -84,7 +87,7 @@ function Diagram({ kind, model: customModel }) {
   const edges = useMemo(()=>model.edges.map(edge=>({
     ...edge,type:'engineering',animated:false,
     ariaLabel:`${t(model.nodes.find(node=>node.id===edge.source).label)}: ${t(edge.label)}: ${t(model.nodes.find(node=>node.id===edge.target).label)}`,
-    // Relationship reading only: no packet arrows, decisions or fabricated transfers.
+    // Directional reading aid, not measured traffic or simultaneous decisions.
     data:{flowActive:edge.id===phase.edgeId,vertical},className:edge.id===phase.edgeId?'diagram-edge--flow':'',
     markerEnd:inspected?{type:'arrowclosed',width:12,height:12,color:'var(--accent)'}:undefined,
     style:{stroke:'var(--border)',strokeWidth:1.5,...(edge.conditional?{strokeDasharray:'5 5'}:{})},
@@ -93,7 +96,7 @@ function Diagram({ kind, model: customModel }) {
   })),[model,t,phase.edgeId,inspected,vertical]);
   return <div className={`nodalume-flow ${inspected?'nodalume-flow--evidence':''}`}>
     {inspected && <><p className="nodalume-reading-note">{t('Code-guided walkthrough. Selecting a stage or component pauses the motion.')}</p>
-      <p className="nodalume-stage-title">{t(phase.title)}</p><div className="nodalume-stage-controls" role="group" aria-label={t('Walkthrough stages')}>{steps.map((item,index)=><Button key={item.edge} aria-label={t('Stage {0}: {1}',[index+1,t(item.title)])} aria-pressed={index===phase.index} onClick={()=>selectStage(index)}>{index+1}</Button>)}</div>
+      <p className="nodalume-stage-title"><span className="nodalume-stage-position" aria-hidden="true">{phase.index+1}<small>/{count}</small></span><span key={phase.edgeId} className="nodalume-stage-copy">{t(phase.title)}</span></p><div className="nodalume-stage-controls" role="group" aria-label={t('Walkthrough stages')}>{steps.map((item,index)=><Button key={item.edge} aria-label={t('Stage {0}: {1}',[index+1,t(item.title)])} aria-pressed={index===phase.index} onClick={()=>selectStage(index)}>{index+1}</Button>)}</div>
     </>}
     <DiagramPlaybackControls id={model.id} title={model.title} playback={playback}/>
     <div ref={frame} id={model.id} tabIndex={-1} className="diagram-frame nodalume-flow-frame" data-playing={String(playback.playing)} aria-label={t(model.title)}>
@@ -109,8 +112,11 @@ function Diagram({ kind, model: customModel }) {
     </div>
     {inspected && <div className="nodalume-component-inspection">
       <label className="nodalume-component-list" htmlFor={`${model.id}-component`}>{t('Inspect a component')}<select id={`${model.id}-component`} aria-controls={`${model.id}-inspection`} value={selectedId} onChange={event=>selectComponent(event.target.value)}>{model.nodes.map(node=><option key={node.id} value={node.id}>{t(node.label)}</option>)}</select></label>
-      <div id={`${model.id}-inspection`} className="nodalume-inspection-copy" aria-live="polite" aria-atomic="true"><h4>{t(selected.label)}</h4><p>{t(selected.explanation)}</p><p className="nodalume-source-note">{t('Source inspected')}: <code>{selected.source.split('/').at(-1)}</code></p></div>
+      <div id={`${model.id}-inspection`} className="nodalume-inspection-copy" aria-live="polite" aria-atomic="true"><div key={selectedId} className="nodalume-inspection-detail"><h4>{t(selected.label)}</h4><p>{t(selected.explanation)}</p><p className="nodalume-source-note">{t('Source inspected')}: <code>{selected.source.split('/').at(-1)}</code></p></div></div>
     </div>}
   </div>;
 }
-export default function NodalumeFlow({kind,model}) {return <ReactFlowProvider><Diagram key={model?.id || kind} kind={kind} model={model}/></ReactFlowProvider>;}
+export default function NodalumeFlow({kind}) {
+  const model=nodalumeDiagrams[kind] || engineeringSystems.find(view=>view.kind===kind);
+  return <MessagesContext value={diagramMessages}><ReactFlowProvider><Diagram key={model.id} kind={kind} model={model}/></ReactFlowProvider></MessagesContext>;
+}
