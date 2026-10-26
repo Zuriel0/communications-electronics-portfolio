@@ -1,0 +1,486 @@
+{
+  "baseline": "85e81e5",
+  "method": "Byte comparison to the Git snapshot; no private product repository accessed in this phase.",
+  "files": [
+    {
+      "file": "docs/redesign/anx-013-1-diagram-validation.md",
+      "sha256": "1336517bfb86da57473d0e71d1106c95a2515ae0d72854becdc927731a09f306"
+    },
+    {
+      "file": "docs/redesign/anx-013-1-interaction-design.md",
+      "sha256": "58a54f6094039dcfc52cb423bcb1deefb642b47f9a1e73b39790cbd96a90af56"
+    },
+    {
+      "file": "docs/redesign/anx-013-1-report.md",
+      "sha256": "a2efb7f1190327004a662e58c1a60a0f8c0d056fd625deb6670c800608eb92da"
+    },
+    {
+      "file": "docs/redesign/anx-013-1-runtime-evidence.md",
+      "sha256": "51607e79c7634225e87c4824477260d08ba4ec4bc40eff2753e4e153accc72b7"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/authentication-1440-inspection.jpg",
+      "sha256": "32fec15343a7baf19e001a4d0b109f0a58c43aa72c0c461c5dcb0350e0e4b0c1"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/authentication-1440-motion.jpg",
+      "sha256": "cc8796f759f5040dd9c6a53f6af200f585dd84464f5dee76d294372ac8f8d67b"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/authentication-375-inspection.jpg",
+      "sha256": "023b9ac820a771d14f8d0819dadbfd5da54c42badc5878332174a1f7c4e6e081"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/authentication-375-motion.jpg",
+      "sha256": "38873d9657b6cb1198cfbf965f5500a9951333d4e61b9a5e9b910e15dd114e96"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/deployment-1440-inspection.jpg",
+      "sha256": "88b8afba37e49fd1b1266dc82f07b8ba4c94bab8a06e3fad0643af4cc22fa0d4"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/deployment-1440-motion.jpg",
+      "sha256": "0526b9df45213982c96011085971822e6a21c2f9486fba0fe13a9e6a0399c174"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/deployment-375-inspection.jpg",
+      "sha256": "49e362e442e0887aef9de091c0ce18eaa93ce644f1299125fe0dc9fd804abe98"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/deployment-375-motion.jpg",
+      "sha256": "16ac93ad99b00327cec36f6e8c59557a022aedf34813221f522f826293359312"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/design-dna-es-1440.jpg",
+      "sha256": "286e97d7557d0e61673acad43d939a9fd30fc3be4fb34b258cb17d5e308bc05e"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/design-dna-es-375.jpg",
+      "sha256": "7ac285fbeb00fec175e4c3190a1121b64726f45efddb5041cd49f9740f9c9a72"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/editor-1440-inspection.jpg",
+      "sha256": "cc57b76b4b3e9c90782f340dba214f0de213347be45ae4e8ad1ea541b02b104b"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/editor-1440-motion.jpg",
+      "sha256": "2f5cfb8556b6d305fa9b3beb7423f7aa94528f2f37886c335f49f09c51ab2fa3"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/editor-375-inspection.jpg",
+      "sha256": "4c3d374bd677839eb1e0df07b680e1d61e24f6c77c7bbc2d4f3f38cefff8c5c9"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/editor-375-motion.jpg",
+      "sha256": "9ffb460d2b63eb6fe705f78a4c7ba0a70205afc822b910776fcf8d9b1db7093e"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/sessions-1440-inspection.jpg",
+      "sha256": "9a3825fb557b42ae0271a4a2e971aa76b62bb6fffe2bf28e4f0398e48ab6c074"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/sessions-1440-motion.jpg",
+      "sha256": "12f47a8b36b5c2e73943c853e2e3540de9aa2edfe3b4e1cd1d14102e1a7b8c0c"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/sessions-375-inspection.jpg",
+      "sha256": "2ab4d325a73429595d6222005df55ddc45d68ab13775807bfd1719cc6b2af28c"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/sessions-375-motion.jpg",
+      "sha256": "854bca2585689930f9a46a8fd34b10d305935b3653ec41972cefe1003b7be387"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/systems-es-375.jpg",
+      "sha256": "fde80c1fa34b26d51981c33ed3f5499a4a345223976d77e1fe87024d7c35c0ac"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/tenancy-1440-inspection.jpg",
+      "sha256": "14e94af1ba9fe476e45c4878e78c5a706af2503c6ddd9f6429e72d3f95ee2c62"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/tenancy-1440-motion.jpg",
+      "sha256": "1d4323dc1369f12d68f9e5584b127df608eea0b786e84daaed4b297a2bee421f"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/tenancy-375-inspection.jpg",
+      "sha256": "c106f56a7ffa86eaa9a43d6d800dd623f55b6205d10431a3b6eea21128bc9d62"
+    },
+    {
+      "file": "docs/redesign/evidence/anx-013-1/tenancy-375-motion.jpg",
+      "sha256": "dcf7edc9fc4a36edace8cb1fab1734fcd7c71c67b38feec9a5845488f84800db"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/baseline-build.txt",
+      "sha256": "ed5ef86525809a76a4432562aa35710cc521ddf0af12a4e4c05f62b78e35fb61"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/baseline-bundles.json",
+      "sha256": "3f91676cc5a12072b6bb2ffb3461ace1002e7a16d0db255d011de3b1f9e2248a"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/browser-qa.mjs",
+      "sha256": "0f3318c8f3425dc6781dfbc0dc97fa447fed640b1e4e856144f737c94f5d4384"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/build.txt",
+      "sha256": "00df3cbf32931aae10ae6604c13ef3588bd5c0a9fec08f2ff64c72a720caa570"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/bundle-summary.txt",
+      "sha256": "4b93cbcb83ca836ed56422c1e743064acdf4dbfcc111c67ab3df61630da76def"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/bundles.json",
+      "sha256": "b37f70316c51119d4daeed18136e173b384c77c63fe3bcfec3399d06280dfa73"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/chunks.txt",
+      "sha256": "e6befa9f9e95be140cb90162cd211f6150423d0c1cc83e303bcd6d7daf7b6aaf"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/active-1.json.gz",
+      "sha256": "6d3182f7b3e9a05ebeb0edef8b2555fdb5f19bafefe1f982f0718159c2f8c1a2"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/active-2.json.gz",
+      "sha256": "78b918d0e522ec1866c7ceead1985f95469e4b16bc1524d30db1c4814f37f9ed"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/active-3.json.gz",
+      "sha256": "5d6d167a10b9275bcf566b634510686d0662cb322f2df5aa0ab93cf3d4a347e9"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/audit.mjs",
+      "sha256": "8c4fd350e8fa1ad74498408a30a50a7df5bb0569ad1af58ef395d350b698bb05"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/config.mjs",
+      "sha256": "556ee33c44cb26e1425241523926e47f1b1cf77a9bd9d8bcdf3726274f03f515"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/gatherer.mjs",
+      "sha256": "cc43e9bcbcbeee69b8fc0f4bb312e60dea2a1a096b8a3ecd3acedecac5ace003"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/results.json",
+      "sha256": "b1f160393302b136f466adbcb688c2d676e7d4a6f17499c7d0fe31393dc6b179"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/run.mjs",
+      "sha256": "3aa62f193f930efc0012f8b1a7bba3fea4cb3952109111cbf534496267e952dd"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/static-1.json.gz",
+      "sha256": "32f7ccf5d5ec68f638a47f4d5c0d8bdb0bf5d6cb1b31ee17a52e54a99d28cd5b"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/static-2.json.gz",
+      "sha256": "ecfde244cd6ef8709933814cfd815ab80e0eece8285f6e160cf1efc8b69f366a"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/cpu/static-3.json.gz",
+      "sha256": "9e3cdde4149c2dc82606515c618b1d180d3c96331df7718218379752fb956af5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/diff-check.txt",
+      "sha256": "717c8bdd2ca808a7a996f28ce018a0fd38c995eddbb5d9a6fdd032f0bfacf419"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/direct-selection.json",
+      "sha256": "680e6439018a9f494cc1e5f57fe637d3331248303053e43f784ca2a407b5a2fc"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/engineering-1440.json",
+      "sha256": "055c77160c2079bf635b101beb2d1ceb3767679d23452b4513dcd0fa62674551"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/engineering-375.json",
+      "sha256": "db09a0712541b2955ceebe4ff1e9a08342077745e9c68c488d2e7ed963ef6d8b"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/engineering-additional-widths.json",
+      "sha256": "b56a6eef9dccc2c5b91c14fd8e92a8b53eeab1d1fbd6952df848b6a3d22c260a"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/final-console.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-home-desktop-1.json.gz",
+      "sha256": "50036ce98629e07c1fbd1dec83eadebca9974b9801cddaf962365a671446a82d"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-home-desktop-2.json.gz",
+      "sha256": "e52e30e5882146e49635ca4471ba887b800124defcaf8929bb39c3a9fb74051d"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-home-desktop-3.json.gz",
+      "sha256": "3bfc9f6c2fb2443a1a230796f4014acbada87791c76b2d056d040eda32ab9a46"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-home-mobile-1.json.gz",
+      "sha256": "60bcf455e1c0657736acbc6fc7026ae01996bd3b00e0b863d5ac1a3d2aa0f68a"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-home-mobile-2.json.gz",
+      "sha256": "d38f1d45cac6fa23e86a3bc16e00dc5dd5965e92562fe6a50fbbf317a9586a68"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-home-mobile-3.json.gz",
+      "sha256": "f0c94c8b39f0814427b2d17e71990c3a82efbf461dd86c2c50270f06a9a2704d"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-nodalume-desktop-1.json.gz",
+      "sha256": "a1ef5bc5e29b58fd7f143db8acbf19b6c0e3b3895ffc2b996567db4593823438"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-nodalume-desktop-2.json.gz",
+      "sha256": "86621e8277165271631777c023f325bed52e5f32365666f9c4be8d073c994e75"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-nodalume-desktop-3.json.gz",
+      "sha256": "417f7779a91202e879cddffc4e0b2cac4779b364f5f81d1e49195b1ebe73f053"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-nodalume-mobile-1.json.gz",
+      "sha256": "03939b8e33391b706d2433ac79f7dbb192b19f64c97761301edb49f76e95e13e"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-nodalume-mobile-2.json.gz",
+      "sha256": "48b76d2dd24b22e69272c0f2d916bad351112306704403835370f5fd1d2e5cff"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/baseline-nodalume-mobile-3.json.gz",
+      "sha256": "5cea10f28623a70ff135a847eab80040d1c064f7daec1b30bed04e633a31aba5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-home-desktop-1.json.gz",
+      "sha256": "202d9b3403adff3b5fc60d5a8c9fea4265dd836fcddc21d3194cef56498e934f"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-home-desktop-2.json.gz",
+      "sha256": "15b4c5f4adad82ae9753af412c65dac05e0f1302340089da103251526a2927b1"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-home-desktop-3.json.gz",
+      "sha256": "1636f320fdeb69f555601469a518e25b2505d8652bb1417c9bb9d06d215d0351"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-home-mobile-1.json.gz",
+      "sha256": "9c68deb51339f4053205d7d1ca4b1b4053f842b206a63133e8777b912b292bb5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-home-mobile-2.json.gz",
+      "sha256": "c9a9faa9da4b3159f5a102f37ed0f9f249ed7a52db1aa1665ab39736553b245f"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-home-mobile-3.json.gz",
+      "sha256": "181efe29c714b1b5ab29c672c8ff3f2e0a797cf18b55b46fb689187df2600c26"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-nodalume-desktop-1.json.gz",
+      "sha256": "6bc4e90c012fd3d3b5f64c356d1b3ed447d3ca60fbb766f4d5796dd45c9923b5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-nodalume-desktop-2.json.gz",
+      "sha256": "1cbaccb81ee1a4f097aa848e8913526ea86837638403429b32cd690706a68e81"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-nodalume-desktop-3.json.gz",
+      "sha256": "384dc65813461fc72fcdf4d4629b1699b0b6a2580e1d02f182130e527fac1cb9"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-nodalume-mobile-1.json.gz",
+      "sha256": "98ef3f212375ce28e203a06162fe3b9f49f883664f3e466599328a7455ad4449"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-nodalume-mobile-2.json.gz",
+      "sha256": "9b9bca1952ae90e8c8d1220aa5b085b4d802d1a34ae5c62fb94eb046c452eae3"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/candidate-nodalume-mobile-3.json.gz",
+      "sha256": "1a25edca07a1585b20db897d78613317a9aea453bc731d23f86be228281690f5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/runs.json",
+      "sha256": "d7de0b49f9ec2032fd02836d502f8b1d734d19fc47e9a9d0a696ff52b3c6cd52"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lighthouse/summary.json",
+      "sha256": "b966f107d34e450f1a40f5fcf2b319aa0bb7d003c2bf64a8331b02ab013c7dc1"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/lint.txt",
+      "sha256": "9b805d48353618414b30a5c1d32554dfaae64f6e5d852bd1cdc74c9cd755738c"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/measure-bundles.mjs",
+      "sha256": "66e4ec0f12b3a2ae32adaaa14b626cca09a1c7d0ca9c4f1b11d5ade45a63d5a4"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/audit.mjs",
+      "sha256": "f85f3c35050cf8a1208dfa72ad93e04db1bfad926dffbe599ad64bf0114f6082"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/config.mjs",
+      "sha256": "28886e746fa3d0fd0981d8131a56c8c6bddf4c7e8243274d88d6bca3e7fd5d50"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/gatherer.mjs",
+      "sha256": "0b6c36d74bfe083a15cd63b3cf94771164086c3b5b1b5421b9d0e4d52aa8abfd"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/home.json.gz",
+      "sha256": "e4e56350d5b5c312ff736177d1ea5c65a35df43ab42decd25b43a5c336846e0c"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-authentication.json.gz",
+      "sha256": "de303ca3a56d191693c2ef6cc66d1c799628ed72887f624450fea63880159034"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-builder.json.gz",
+      "sha256": "e257cfe7acb2c938128a21bfd26f710200992ab678b9e6af04fb573e9265e556"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-deployment.json.gz",
+      "sha256": "8e1919213d8206b01bd92a8bee5b7b09957a3131777939c2356294fdb3a11d87"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-editor.json.gz",
+      "sha256": "83ea31e5bf5a03cc6fd3554d83de7d65a860430295c3ad23db670023f6aca8b5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-evolution.json.gz",
+      "sha256": "aa2944adf8c16738f8708e17fb072b757b44aba7ed36bc734c84220c996bcfa3"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-platform.json.gz",
+      "sha256": "10f21fa9db57cfe528150b59d0ffe8348973c382a4aec6e514126ccfc957aded"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-sessions.json.gz",
+      "sha256": "17dfb247efdcf429135e90f363fe5c9156f8960ffeda1d7f33010978595b95a5"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/nodalume-tenancy.json.gz",
+      "sha256": "e5a9b8623890d6362d857624bd80c0c8c3dbdaae44a4fe110ebe7ed0451ffab1"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/results.json",
+      "sha256": "b8e48e27543d6e60ff709908dafabfdafb3c52e3ea35b886ac7c6f969ae61b82"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/motion-check/run.mjs",
+      "sha256": "2c9ec10d33188dff965260754b9285d516a770764f8f5c9adae93f44126efb45"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/native-interactions.json",
+      "sha256": "1f6509b59e6bf0aa02433281741dc02f2d503c884169a003452718f02dc360d0"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/nodalume-unit-tests.txt",
+      "sha256": "92b9a3f81496da70887a63a47b0e34cbab11448d503f82b77d087c6a0207a178"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/npm-ci.txt",
+      "sha256": "f65ec18dce78f5170e1cfbf3ddfd5bc054807f28ad49c19552d2cb0701e879cf"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/original-nine-regression.json",
+      "sha256": "8da84d5d05adb1367df5845610f700373e80e55115f2c308eee66f08093d5600"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/preview-rebuild-note.json",
+      "sha256": "bbe366d4232a529a6662c138fc14de1f31b37cf94c0a30856f45a3b96fc5d1e9"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/responsive.json",
+      "sha256": "b73215cfeced6fcdec9f80d1f47315e1dbbe89816851e563a069d83d56ec06d3"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/source-index.json",
+      "sha256": "916a5fc4821b1ce71403b8e7457b7bb8c68896f890861241ec5ef75cd948848e"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/tests.txt",
+      "sha256": "b1578c7477e0ebb83dc237409db96f748885186a1c9873691a25b7c88aef39d8"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/visibility-attempt.json",
+      "sha256": "584627a68624bb5ffb67a353d850bec888d546e2c26b6521573df04c7b6dd21b"
+    },
+    {
+      "file": "docs/redesign/reports/anx-013-1/vite-manifest.json",
+      "sha256": "15441b1f04eb6f24da1c8ed4dae5c5adf36c8f651ac790d88ca49938c5994b92"
+    },
+    {
+      "file": "src/components/sections/hero.jsx",
+      "sha256": "0ac5539abdc109e88038a02c9b03598750651ab3f79c9057f726f95562c00ee0"
+    },
+    {
+      "file": "src/components/sections/heroMotion.js",
+      "sha256": "976ae0f11dfa474309648795f0fcdd23a17ad0274913d26b623d5dfe591f4902"
+    },
+    {
+      "file": "src/components/ui/graphics/bussiness_flow.jsx",
+      "sha256": "19e07a99640396e67b1c355174a3967c91a1834bd4e6fb04b8aad4fa858c9674"
+    },
+    {
+      "file": "src/components/ui/graphics/flow_loadbalance.jsx",
+      "sha256": "e24717dc83ed46106d5b35f83c8ab7c829a48dc22d4dd4571ce9d17a079d14d7"
+    },
+    {
+      "file": "src/components/ui/graphics/highlevel_flow.jsx",
+      "sha256": "a7769ce7223c3ff484dce7570b40a94c90d218317956e91a18b6e86152c6392b"
+    },
+    {
+      "file": "src/components/ui/graphics/logic_flow.jsx",
+      "sha256": "cea73db9402cd8bc2e9b75ce8aa23d1e9e8bd9ee02026f3524605411d2fec7ef"
+    },
+    {
+      "file": "src/components/ui/graphics/metodologia_problem_flow.jsx",
+      "sha256": "ad8fb9783a3ee2eac59d99f4b98dda25ebe1003868c51b11f26d81df7047846a"
+    },
+    {
+      "file": "src/components/ui/graphics/metodologia_solution_flow.jsx",
+      "sha256": "6b01c65dc5f50481f1fc4cdac4b235969e481c6f110805977ba7ac5591122a8e"
+    },
+    {
+      "file": "src/data/capabilities.js",
+      "sha256": "be6c6b6bb9f3122a746b9881bb2ebc8fa61944e53f2100378f65644c3b5e1d1e"
+    },
+    {
+      "file": "src/data/credentials.js",
+      "sha256": "16707eda029cf14dc44a062d06bf9e3580ad117b15973f7256a43555700ed66a"
+    },
+    {
+      "file": "src/data/nodalume.js",
+      "sha256": "d44b0b20b20a08891412c4101f08f58bd9df4c9c320593fc63861171bee29821"
+    },
+    {
+      "file": "src/data/nodalumeEngineering.js",
+      "sha256": "930185e19641c840bacb469513bd7f601d898207d8ed5c83a84c9cae8e12037d"
+    },
+    {
+      "file": "src/data/professionalProfile.js",
+      "sha256": "8cb3b6315c6caba4f179cf4deaaf032d357a2052db22e3ed3c6f23028b65930a"
+    },
+    {
+      "file": "src/pages/projects/Concurrencia.jsx",
+      "sha256": "76e6807df186960ea43d0e81f494d9ad4d59a6ed4786f490955c626242fd2ee6"
+    },
+    {
+      "file": "src/pages/projects/Metodologia.jsx",
+      "sha256": "2ee3ad4eb4d2e9ccaf804d60016100519c988975c6cf007ffda35130926e21be"
+    },
+    {
+      "file": "src/style/hero-immersive.css",
+      "sha256": "6fce9d95a998535c24a720768acbd3fbda22f14e4d083551170f6a6f94548d62"
+    },
+    {
+      "file": "src/style/hero.css",
+      "sha256": "dd758be68ec664d0003de0e08bf4c4cc5a4942847cd56be239dc638f7e4e5214"
+    }
+  ]
+}

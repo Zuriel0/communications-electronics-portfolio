@@ -1,0 +1,2 @@
+Command: git diff --check
+Result: PASS, no output. Prepared changes checked separately with git diff --cached --check before committing.

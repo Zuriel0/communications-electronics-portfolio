@@ -1,0 +1,25 @@
+{
+  "method": "SHA-256 of all measured JS/CSS assets before and after the final rebuild. The only intervening implementation change was a build-time missing-translation guard.",
+  "identical": true,
+  "files": {
+    "CaseStudy-BW13vLUS.js": "3e8b4f475cd0f2f2a9a1acd809660f0254c316eae7e94b256fa0987d1f22dc6b",
+    "CaseStudy-D1a2x9k9.css": "2e410835ec202948785e4b30fcc54fa4cbce7cdbea4b857fc10afd38da3019b4",
+    "Concurrencia-CR4NGJ0p.js": "3ff7578285e70a2aa83b4f87ca9f69463de1e0295fbf46567024e872233aef98",
+    "Metodologia-BueCTpCa.js": "7a48a57cad6d803f809bb7357e3acb77b4772008b4b15e62b7bf8993c7f5bde4",
+    "Nodalume-CtrbVyFH.css": "3d229843f17dd708521aca868574a5b000d030d9d027646e332411da353add64",
+    "Nodalume-DkRFjJTe.js": "e0b4a6e763905afd104306da9ef71e0e5eb9b3561b366b98083827f290c6bf68",
+    "ProjectMessages-DOCYXiNe.js": "e32f978787ac9f14af2bc550b56680c28618f07852d684cc774557ec555d6bdc",
+    "bussiness_flow-CsfUKDcH.js": "ba71d1f6d6bc3f494f6df7248f16815fe750664daceaa9efb79d5e6f437b019d",
+    "flow_loadbalance-DBaUHQdP.js": "f981409c8b69dccc77852a61d916dfa80a1098c76c9b52e70f0632744a6bd969",
+    "highlevel_flow-DYjmf5ve.js": "1944cde2cfb6376ff68c4f51d8e5ac2b9e567159f70dc3f2bf47c61e26eb5521",
+    "index-C8kQlsRn.js": "6b6647adf88a53e63b743a1683698ae0b4ace9bf94bed4aa336e6741a34634bd",
+    "index-DQvQxips.css": "b534a0ec7c5c2933c27de81b38d4ad5fe82bfe983cf5ee40a17db76229f345fe",
+    "logic_flow-DItZFrMA.js": "daf855e2c737aa0ea26ef77fc175aadc415def5e4aa146dedbeff27abc3acf4b",
+    "metodologia_problem_flow-CrOaBN3S.js": "66b180e2f69b7a0d77df5efeef83c554bd5cbee51493ffa0a1e5e96134b81fef",
+    "metodologia_solution_flow-BiJQKTPN.js": "a316fe9a463a137e49625a96465967f126840eb42062e4ed50abccfd2fe93274",
+    "nodalume_flow-BzdI7ZRA.js": "fed20e60bd0964a2aa7b61158818b4bfc7acf5ca498f8cb3fbe69e66ac5f559f",
+    "style-BZV40eAE.css": "77eb229e70c7949e1d9e4f542afdf7b38d85eccc656a7c3ee9b8429a339872be",
+    "style-oANeg7LK.js": "39a4570f6c8e576009c62312d3307985618e6adfaae7328e03e207428ff4785a",
+    "useDiagramPlayback-B7SeXA7R.js": "7e532d51ebe1b2d0e795f09be238e85125471b2b190cf11bcc551ad8398ce07e"
+  }
+}

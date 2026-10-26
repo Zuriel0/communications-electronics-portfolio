@@ -1,0 +1,641 @@
+{
+  "method": "LCP element and observed unthrottled local resource trace from the saved Lighthouse runs. Performance medians use Lighthouse simulation; these request timings are not field latency.",
+  "rows": [
+    {
+      "id": "baseline-nodalume-mobile-1",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-hero-copy > p",
+        "rect": {
+          "top": 686,
+          "bottom": 792,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 106
+        },
+        "label": "Connecting network access, backend services and the freedom to design the exper…"
+      },
+      "resources": [
+        {
+          "file": "index-BijI_Mpx.js",
+          "observedStartMs": 6.48199999332428,
+          "observedEndMs": 13.254000008106232,
+          "transferSize": 101140
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 6.672999978065491,
+          "observedEndMs": 8.833999991416931,
+          "transferSize": 8863
+        },
+        {
+          "file": "Nodalume-DOTnK20M.js",
+          "observedStartMs": 23.61599999666214,
+          "observedEndMs": 26.569999992847443,
+          "transferSize": 28710
+        },
+        {
+          "file": "CaseStudy-QAuLaLvB.js",
+          "observedStartMs": 23.722000002861023,
+          "observedEndMs": 25.282999992370605,
+          "transferSize": 1874
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 23.853999972343445,
+          "observedEndMs": 25.17299997806549,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-BIBijbi2.css",
+          "observedStartMs": 23.92900002002716,
+          "observedEndMs": 25.633999943733215,
+          "transferSize": 2881
+        }
+      ]
+    },
+    {
+      "id": "candidate-nodalume-mobile-1",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-hero-copy > p",
+        "rect": {
+          "top": 686,
+          "bottom": 792,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 106
+        },
+        "label": "Connecting network access, backend services and the freedom to design the exper…"
+      },
+      "resources": [
+        {
+          "file": "index-C8kQlsRn.js",
+          "observedStartMs": 6.438000023365021,
+          "observedEndMs": 13.558999955654144,
+          "transferSize": 101139
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 6.60999995470047,
+          "observedEndMs": 9.168999969959259,
+          "transferSize": 8863
+        },
+        {
+          "file": "CaseStudy-BW13vLUS.js",
+          "observedStartMs": 6.746999979019165,
+          "observedEndMs": 8.973999977111816,
+          "transferSize": 1874
+        },
+        {
+          "file": "Nodalume-DkRFjJTe.js",
+          "observedStartMs": 6.8549999594688416,
+          "observedEndMs": 10.05299997329712,
+          "transferSize": 16589
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 6.986999988555908,
+          "observedEndMs": 9.064999997615814,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-CtrbVyFH.css",
+          "observedStartMs": 7.441999971866608,
+          "observedEndMs": 9.393999993801117,
+          "transferSize": 3350
+        }
+      ]
+    },
+    {
+      "id": "candidate-nodalume-mobile-2",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-hero-copy > p",
+        "rect": {
+          "top": 686,
+          "bottom": 792,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 106
+        },
+        "label": "Connecting network access, backend services and the freedom to design the exper…"
+      },
+      "resources": [
+        {
+          "file": "index-C8kQlsRn.js",
+          "observedStartMs": 6.694000065326691,
+          "observedEndMs": 15.328000009059906,
+          "transferSize": 101139
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 6.89000004529953,
+          "observedEndMs": 8.719000041484833,
+          "transferSize": 8863
+        },
+        {
+          "file": "CaseStudy-BW13vLUS.js",
+          "observedStartMs": 7.026000022888184,
+          "observedEndMs": 9.192000031471252,
+          "transferSize": 1874
+        },
+        {
+          "file": "Nodalume-DkRFjJTe.js",
+          "observedStartMs": 7.127000033855438,
+          "observedEndMs": 10.776000022888184,
+          "transferSize": 16589
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 7.236000061035156,
+          "observedEndMs": 8.925000011920929,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-CtrbVyFH.css",
+          "observedStartMs": 7.711000025272369,
+          "observedEndMs": 9.606000065803528,
+          "transferSize": 3350
+        }
+      ]
+    },
+    {
+      "id": "baseline-nodalume-mobile-2",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-hero-copy > p",
+        "rect": {
+          "top": 686,
+          "bottom": 792,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 106
+        },
+        "label": "Connecting network access, backend services and the freedom to design the exper…"
+      },
+      "resources": [
+        {
+          "file": "index-BijI_Mpx.js",
+          "observedStartMs": 6.2989999651908875,
+          "observedEndMs": 12.638000011444092,
+          "transferSize": 101140
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 6.459999978542328,
+          "observedEndMs": 8.328999996185303,
+          "transferSize": 8863
+        },
+        {
+          "file": "Nodalume-DOTnK20M.js",
+          "observedStartMs": 22.975000023841858,
+          "observedEndMs": 25.824000000953674,
+          "transferSize": 28710
+        },
+        {
+          "file": "CaseStudy-QAuLaLvB.js",
+          "observedStartMs": 23.05900001525879,
+          "observedEndMs": 24.33899998664856,
+          "transferSize": 1874
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 23.16899996995926,
+          "observedEndMs": 24.42500001192093,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-BIBijbi2.css",
+          "observedStartMs": 23.236999988555908,
+          "observedEndMs": 24.528999984264374,
+          "transferSize": 2881
+        }
+      ]
+    },
+    {
+      "id": "baseline-nodalume-mobile-3",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-hero-copy > p",
+        "rect": {
+          "top": 686,
+          "bottom": 792,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 106
+        },
+        "label": "Connecting network access, backend services and the freedom to design the exper…"
+      },
+      "resources": [
+        {
+          "file": "index-BijI_Mpx.js",
+          "observedStartMs": 6.634999990463257,
+          "observedEndMs": 13.058999955654144,
+          "transferSize": 101140
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 6.803999960422516,
+          "observedEndMs": 8.700999915599823,
+          "transferSize": 8863
+        },
+        {
+          "file": "Nodalume-DOTnK20M.js",
+          "observedStartMs": 24.183999955654144,
+          "observedEndMs": 27.170999944210052,
+          "transferSize": 28710
+        },
+        {
+          "file": "CaseStudy-QAuLaLvB.js",
+          "observedStartMs": 24.278999984264374,
+          "observedEndMs": 25.619999945163727,
+          "transferSize": 1874
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 24.40499997138977,
+          "observedEndMs": 25.73299992084503,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-BIBijbi2.css",
+          "observedStartMs": 24.52999997138977,
+          "observedEndMs": 25.81199997663498,
+          "transferSize": 2881
+        }
+      ]
+    },
+    {
+      "id": "candidate-nodalume-mobile-3",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-hero-copy > p",
+        "rect": {
+          "top": 686,
+          "bottom": 792,
+          "left": 20,
+          "right": 392,
+          "width": 372,
+          "height": 106
+        },
+        "label": "Connecting network access, backend services and the freedom to design the exper…"
+      },
+      "resources": [
+        {
+          "file": "index-C8kQlsRn.js",
+          "observedStartMs": 6.378000020980835,
+          "observedEndMs": 13.129999935626984,
+          "transferSize": 101139
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 6.518999934196472,
+          "observedEndMs": 8.4549999833107,
+          "transferSize": 8863
+        },
+        {
+          "file": "CaseStudy-BW13vLUS.js",
+          "observedStartMs": 6.663999974727631,
+          "observedEndMs": 8.028999984264374,
+          "transferSize": 1874
+        },
+        {
+          "file": "Nodalume-DkRFjJTe.js",
+          "observedStartMs": 6.77099996805191,
+          "observedEndMs": 9.925999939441681,
+          "transferSize": 16589
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 6.898999929428101,
+          "observedEndMs": 8.087999999523163,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-CtrbVyFH.css",
+          "observedStartMs": 7.349999964237213,
+          "observedEndMs": 8.790999948978424,
+          "transferSize": 3350
+        }
+      ]
+    },
+    {
+      "id": "baseline-nodalume-desktop-1",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-identity > h1",
+        "rect": {
+          "top": 310,
+          "bottom": 461,
+          "left": 92,
+          "right": 800,
+          "width": 709,
+          "height": 151
+        },
+        "label": "Nodalume"
+      },
+      "resources": [
+        {
+          "file": "index-BijI_Mpx.js",
+          "observedStartMs": 5.439999997615814,
+          "observedEndMs": 12.385999977588654,
+          "transferSize": 101140
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 5.615000009536743,
+          "observedEndMs": 7.218999981880188,
+          "transferSize": 8863
+        },
+        {
+          "file": "Nodalume-DOTnK20M.js",
+          "observedStartMs": 22.45299994945526,
+          "observedEndMs": 25.28600001335144,
+          "transferSize": 28710
+        },
+        {
+          "file": "CaseStudy-QAuLaLvB.js",
+          "observedStartMs": 22.532999992370605,
+          "observedEndMs": 23.959999978542328,
+          "transferSize": 1874
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 22.647000014781952,
+          "observedEndMs": 23.812000036239624,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-BIBijbi2.css",
+          "observedStartMs": 22.714999973773956,
+          "observedEndMs": 24.326999962329865,
+          "transferSize": 2881
+        }
+      ]
+    },
+    {
+      "id": "candidate-nodalume-desktop-1",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-identity > h1",
+        "rect": {
+          "top": 310,
+          "bottom": 461,
+          "left": 92,
+          "right": 800,
+          "width": 709,
+          "height": 151
+        },
+        "label": "Nodalume"
+      },
+      "resources": [
+        {
+          "file": "index-C8kQlsRn.js",
+          "observedStartMs": 5.192000031471252,
+          "observedEndMs": 12.485000014305115,
+          "transferSize": 101139
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 5.35400003194809,
+          "observedEndMs": 8.379000008106232,
+          "transferSize": 8863
+        },
+        {
+          "file": "CaseStudy-BW13vLUS.js",
+          "observedStartMs": 5.500000059604645,
+          "observedEndMs": 8.20800006389618,
+          "transferSize": 1874
+        },
+        {
+          "file": "Nodalume-DkRFjJTe.js",
+          "observedStartMs": 5.587999999523163,
+          "observedEndMs": 9.428000032901764,
+          "transferSize": 16589
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 5.742000043392181,
+          "observedEndMs": 8.025000035762787,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-CtrbVyFH.css",
+          "observedStartMs": 5.858000040054321,
+          "observedEndMs": 8.491000056266785,
+          "transferSize": 3350
+        }
+      ]
+    },
+    {
+      "id": "candidate-nodalume-desktop-2",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-identity > h1",
+        "rect": {
+          "top": 310,
+          "bottom": 461,
+          "left": 92,
+          "right": 800,
+          "width": 709,
+          "height": 151
+        },
+        "label": "Nodalume"
+      },
+      "resources": [
+        {
+          "file": "index-C8kQlsRn.js",
+          "observedStartMs": 4.863999962806702,
+          "observedEndMs": 12.32200002670288,
+          "transferSize": 101139
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 5.03600001335144,
+          "observedEndMs": 7.508999943733215,
+          "transferSize": 8863
+        },
+        {
+          "file": "CaseStudy-BW13vLUS.js",
+          "observedStartMs": 5.239999949932098,
+          "observedEndMs": 7.24099999666214,
+          "transferSize": 1874
+        },
+        {
+          "file": "Nodalume-DkRFjJTe.js",
+          "observedStartMs": 5.361999988555908,
+          "observedEndMs": 8.879999995231628,
+          "transferSize": 16589
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 5.464999973773956,
+          "observedEndMs": 7.419999957084656,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-CtrbVyFH.css",
+          "observedStartMs": 5.539999961853027,
+          "observedEndMs": 7.875999987125397,
+          "transferSize": 3350
+        }
+      ]
+    },
+    {
+      "id": "baseline-nodalume-desktop-2",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-identity > h1",
+        "rect": {
+          "top": 310,
+          "bottom": 461,
+          "left": 92,
+          "right": 800,
+          "width": 709,
+          "height": 151
+        },
+        "label": "Nodalume"
+      },
+      "resources": [
+        {
+          "file": "index-BijI_Mpx.js",
+          "observedStartMs": 5.037000060081482,
+          "observedEndMs": 12.162000060081482,
+          "transferSize": 101140
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 5.323000013828278,
+          "observedEndMs": 7.505000054836273,
+          "transferSize": 8863
+        },
+        {
+          "file": "Nodalume-DOTnK20M.js",
+          "observedStartMs": 22.521000027656555,
+          "observedEndMs": 25.39400005340576,
+          "transferSize": 28710
+        },
+        {
+          "file": "CaseStudy-QAuLaLvB.js",
+          "observedStartMs": 22.603000044822693,
+          "observedEndMs": 24.087999999523163,
+          "transferSize": 1874
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 22.707000017166138,
+          "observedEndMs": 24.21799999475479,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-BIBijbi2.css",
+          "observedStartMs": 22.784000039100647,
+          "observedEndMs": 24.03300005197525,
+          "transferSize": 2881
+        }
+      ]
+    },
+    {
+      "id": "baseline-nodalume-desktop-3",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-identity > h1",
+        "rect": {
+          "top": 310,
+          "bottom": 461,
+          "left": 92,
+          "right": 800,
+          "width": 709,
+          "height": 151
+        },
+        "label": "Nodalume"
+      },
+      "resources": [
+        {
+          "file": "index-BijI_Mpx.js",
+          "observedStartMs": 4.929000020027161,
+          "observedEndMs": 11.538000047206879,
+          "transferSize": 101140
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 5.091000020503998,
+          "observedEndMs": 6.976000070571899,
+          "transferSize": 8863
+        },
+        {
+          "file": "Nodalume-DOTnK20M.js",
+          "observedStartMs": 22.353000044822693,
+          "observedEndMs": 25.0560000538826,
+          "transferSize": 28710
+        },
+        {
+          "file": "CaseStudy-QAuLaLvB.js",
+          "observedStartMs": 22.442000091075897,
+          "observedEndMs": 23.725000083446503,
+          "transferSize": 1874
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 22.562000036239624,
+          "observedEndMs": 23.490000009536743,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-BIBijbi2.css",
+          "observedStartMs": 22.625000059604645,
+          "observedEndMs": 23.646000027656555,
+          "transferSize": 2881
+        }
+      ]
+    },
+    {
+      "id": "candidate-nodalume-desktop-3",
+      "lcpElement": {
+        "selector": "header#nodalume-overview > div.nodalume-hero-composition > div.nodalume-identity > h1",
+        "rect": {
+          "top": 310,
+          "bottom": 461,
+          "left": 92,
+          "right": 800,
+          "width": 709,
+          "height": 151
+        },
+        "label": "Nodalume"
+      },
+      "resources": [
+        {
+          "file": "index-C8kQlsRn.js",
+          "observedStartMs": 5.459999978542328,
+          "observedEndMs": 12.762999951839447,
+          "transferSize": 101139
+        },
+        {
+          "file": "index-DQvQxips.css",
+          "observedStartMs": 5.614000022411346,
+          "observedEndMs": 7.782000005245209,
+          "transferSize": 8863
+        },
+        {
+          "file": "CaseStudy-BW13vLUS.js",
+          "observedStartMs": 5.743000030517578,
+          "observedEndMs": 7.614000022411346,
+          "transferSize": 1874
+        },
+        {
+          "file": "Nodalume-DkRFjJTe.js",
+          "observedStartMs": 5.827000021934509,
+          "observedEndMs": 9.192000031471252,
+          "transferSize": 16589
+        },
+        {
+          "file": "CaseStudy-D1a2x9k9.css",
+          "observedStartMs": 5.935000002384186,
+          "observedEndMs": 7.358999967575073,
+          "transferSize": 2092
+        },
+        {
+          "file": "Nodalume-CtrbVyFH.css",
+          "observedStartMs": 6.055000007152557,
+          "observedEndMs": 8.166000008583069,
+          "transferSize": 3350
+        }
+      ]
+    }
+  ]
+}

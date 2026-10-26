@@ -1,0 +1,24 @@
+{
+  "failed": {
+    "back": "/#projects",
+    "error": "No se pudo cargar este diagrama.Comprueba tu conexión y recarga para volver a intentarlo. El caso de estudio sigue disponible.Recargar diagrama",
+    "heading": "Nodalume",
+    "language": "es",
+    "openReading": "Versión textual del diagrama: Autenticación y autorizaciónRecorre la ruta de registro admitido. Las comprobaciones de contexto pueden detenerla antes de emitir el acceso; la respuesta RADIUS final depende de la autenticación y la política.Presentación verificada — Revalidar admisión — Transacción de registroTransacción de registro — Validar y emitir — Acceso temporalAcceso temporal — Devolver acceso temporal — Handoff al HotSpotHandoff al HotSpot — Autenticación del NAS — Comprobaciones FreeRADIUSComprobaciones FreeRADIUS — Evaluar credenciales y política — Respuesta RADIUS",
+    "readings": 8
+  },
+  "expectedConsoleErrors": [
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4192/assets/nodalume_flow-BzdI7ZRA.js",
+      "timestamp": "2026-10-26T06:18:44.491Z",
+      "url": "http://127.0.0.1:4192/assets/index-C8kQlsRn.js"
+    },
+    {
+      "level": "error",
+      "message": "TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4192/assets/nodalume_flow-BzdI7ZRA.js",
+      "timestamp": "2026-10-26T06:18:57.547Z",
+      "url": "http://127.0.0.1:4192/assets/index-C8kQlsRn.js"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "a": {
+    "animation": "nodalume-context",
+    "copy": "Bloques de contenido y formularioEl inspector edita el bloque seleccionado mediante propiedades permitidas. El contrato incluye contenido, formularios y bloques de preguntas compatibles, en lugar de markup ejecutable arbitrario.Código revisado: EditorInspector.jsx",
+    "selected": "blocks",
+    "stage": "2/6Seleccionar un bloque tipado"
+  },
+  "b": {
+    "animation": "nodalume-context",
+    "copy": "Revisión publicadaLa publicación añade una revisión, actualiza el puntero público y registra auditoría dentro de una transacción. Restaurar crea otra revisión y conserva el historial.Código revisado: portal-document.service.js",
+    "selected": "revision",
+    "stage": "5/6Añadir una revisión publicada"
+  }
+}

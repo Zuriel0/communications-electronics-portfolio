@@ -1,0 +1,54 @@
+[
+  {
+    "before": {
+      "opacity": "0.65",
+      "title": "Elementor / Wix",
+      "transform": "none"
+    },
+    "after": {
+      "focusWithin": true,
+      "opacity": "0.976689",
+      "outline": "solid",
+      "transform": "matrix(1, 0, 0, 1, 0, -2.49781)"
+    }
+  },
+  {
+    "before": {
+      "opacity": "0.65",
+      "title": "Figma",
+      "transform": "none"
+    },
+    "after": {
+      "focusWithin": true,
+      "opacity": "1",
+      "outline": "solid",
+      "transform": "matrix(1, 0, 0, 1, 0, -3)"
+    }
+  },
+  {
+    "before": {
+      "opacity": "0.65",
+      "title": "Scratch / Zoho Flow",
+      "transform": "none"
+    },
+    "after": {
+      "focusWithin": true,
+      "opacity": "0.999996",
+      "outline": "solid",
+      "transform": "matrix(1, 0, 0, 1, 0, -2.92305)"
+    }
+  },
+  {
+    "before": {
+      "opacity": "0.65",
+      "title": "Postman",
+      "transform": "none"
+    },
+    "after": {
+      "focusWithin": true,
+      "opacity": "1",
+      "outline": "solid",
+      "transform": "matrix(1, 0, 0, 1, 0, -2.99443)"
+    }
+  }
+]
