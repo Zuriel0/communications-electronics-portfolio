@@ -1,0 +1,50 @@
+deployment.json                  | 10 +++++-----
+ index.html                       |  4 ++--
+ projects/concurrencia/index.html |  4 ++--
+ projects/metodologia/index.html  |  4 ++--
+ sitemap.xml                      |  1 +
+ 5 files changed, 12 insertions(+), 11 deletions(-)
+diff --git a/deployment.json b/deployment.json
+index 97f9a48..7b89f9f 100644
+--- a/deployment.json
++++ b/deployment.json
+@@ -1,9 +1,9 @@
+ {
+-  "version": "v1.1.0",
++  "version": "v1.2.1",
+   "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+-  "sourceCommit": "d4b92df0c28415098862333e491d2552efe594d0",
+-  "sourceTag": "v1.1.0",
+-  "entry": "/assets/index-BTWOikn6.js",
+-  "artifactSHA256": "50b5de9969fb10e0b5c6a8bf19fa7cccefcb1a96296e19d4489d28e8b75dbd0b",
++  "sourceCommit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
++  "sourceTag": "v1.2.1",
++  "entry": "/assets/index-DT8od2Cy.js",
++  "artifactSHA256": "4e467a47ea95d52f0188a2137a32add65784b2ae9a6fc83cb1201e139da03f8c",
+   "artifactHashMethod": "SHA-256 of sorted compact JSON path-to-SHA256 map, excluding deployment.json"
+ }
+diff --git a/index.html b/index.html
+index 8561191..cbdc676 100644
+--- a/index.html
++++ b/index.html
+@@ -6,8 +6,8 @@
+     <link rel="preload" href="/assets/inter-latin-8kRkwJBP.woff2" as="font" type="font/woff2" crossorigin />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>ANXZU — The Art of Engineering</title>
+-    <script type="module" crossorigin src="/assets/index-BTWOikn6.js"></script>
+-    <link rel="stylesheet" crossorigin href="/assets/index-BQtJppzI.css">
++    <script type="module" crossorigin src="/assets/index-DT8od2Cy.js"></script>
++    <link rel="stylesheet" crossorigin href="/assets/index-DQvQxips.css">
+       <meta name="description" content="Andres Zuriel Macias Rios, Communications and Electronics Engineer. Explore projects in networking, Linux infrastructure, software and technical pre-sales." />
+     <meta property="og:title" content="ANXZU — The Art of Engineering" />
+     <meta property="og:description" content="Andres Zuriel Macias Rios, Communications and Electronics Engineer. Explore projects in networking, Linux infrastructure, software and technical pre-sales." />
+diff --git a/sitemap.xml b/sitemap.xml
+index b533af0..eec1217 100644
+--- a/sitemap.xml
++++ b/sitemap.xml
+@@ -3,4 +3,5 @@
+   <url><loc>https://anxzu.com/</loc></url>
+   <url><loc>https://anxzu.com/projects/concurrencia</loc></url>
+   <url><loc>https://anxzu.com/projects/metodologia</loc></url>
++  <url><loc>https://anxzu.com/projects/nodalume</loc></url>
+ </urlset>

@@ -1,0 +1,141 @@
+{
+  "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+  "origins": {
+    "baseline": "http://127.0.0.1:4180",
+    "candidate": "https://anxzu.com"
+  },
+  "versions": [
+    "candidate"
+  ],
+  "profiles": [
+    "mobile",
+    "desktop"
+  ],
+  "repetitions": 3,
+  "groups": [
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 1517.3944999999999,
+        "min": 1509.051,
+        "max": 1522.38
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 1.5,
+        "min": 0,
+        "max": 2.5
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "mobile",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 99,
+        "min": 99,
+        "max": 99
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 1670.145,
+        "min": 1658.7134999999998,
+        "max": 1675.6405
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "home",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 368.3315,
+        "min": 365.602,
+        "max": 371.7605
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "version": "candidate",
+      "profile": "desktop",
+      "route": "nodalume",
+      "n": 3,
+      "performance": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "accessibility": {
+        "median": 100,
+        "min": 100,
+        "max": 100
+      },
+      "lcp": {
+        "median": 374.094,
+        "min": 368.421,
+        "max": 378.005
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "tbt": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  ]
+}

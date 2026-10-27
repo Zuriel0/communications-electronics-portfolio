@@ -1,4 +1,106 @@
-# ANX-013.3 — Nodalume Engineering Release & Production Deployment
+# ANX-013.3 — Official v1.2.1 Release & Production Verification
+
+26 de octubre de 2026. **Resultado final: GO para v1.2.1. Nodalume publicado y verificado en [anxzu.com/projects/nodalume](https://anxzu.com/projects/nodalume/).**
+
+El propietario autorizó explícitamente la versión sustituta v1.2.1 después de la retirada y el rollback de v1.2.0. Se conserva el tag anterior inmutable, su estado NO-GO y toda la evidencia del incidente. No se volvió a publicar el artefacto con traducciones incompletas. La sección histórica al final registra el estado anterior a esta autorización; sus referencias a producción restaurada corresponden a ese momento.
+
+## Publicación corregida
+
+| Referencia | Resultado |
+| --- | --- |
+| main fuente, commit del tag y target del Release | `a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58` |
+| Tag anotado v1.2.1 | `67bc1d0da321a0e5487e14be0b824e06408a3f0d` |
+| Fuente inicial de esta continuación | `18100cb867f942dc73728974c8e50d9ab9d63804` |
+| Corrección | `90e905871f2654f624e0b3bb1ef90424f6a1536c` |
+| Preparación v1.2.1 | `a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58` |
+| Producción antes de v1.2.1 | `bd41427bdac1d7572120b54414b5171ea0a95129` |
+| Producción v1.2.1 | `a256bf8cf9805fdf7db912d0d7816adedd247e6b` |
+| Respaldo remoto nuevo | `Zuriel0/page:backup/anxzu-v1.1.0-before-v1.2.1-20261026` → `bd41427bdac1d7572120b54414b5171ea0a95129` |
+| Entry público | `/assets/index-DT8od2Cy.js` |
+| Digest del artefacto | `4e467a47ea95d52f0188a2137a32add65784b2ae9a6fc83cb1201e139da03f8c` |
+
+[GitHub Release v1.2.1](https://github.com/Zuriel0/communications-electronics-portfolio/releases/tag/v1.2.1) publicado como versión estable. [Pages](https://github.com/Zuriel0/page/actions/runs/40433964102) terminó correctamente para el commit exacto de producción. Los respaldos ANX-012.4 y anterior a v1.2.0 permanecen intactos. El respaldo nuevo también se comprobó remotamente.
+
+La integración fue fast-forward con pushes normales. Se consultaron nuevamente reglas/protección, refs y deployment.json; no había requisitos de PR ni cambios remotos inesperados. No se usó force push ni se movió un tag publicado. La documentación final se guarda posteriormente en la rama ANX-013, de modo que main, tag y target del Release siguen apuntando al mismo commit del código desplegado.
+
+## Validación final de código y artefacto
+
+- `npm ci`, `npm run lint`, `npm run build -- --manifest`, `node --test tests/*.test.js`, `node scripts/check-project-chunks.mjs`, `git diff --check` y `npm audit`: correctos. **53/53 pruebas; cero vulnerabilidades.**
+- Instalación, build y las 53 pruebas también se ejecutaron en un archivo limpio del tag v1.2.1. Se verificó el commit del archivo Git y la igualdad de los **19 assets JS/CSS** con el árbol integrado.
+- Artefacto Pages de 67 archivos: 18 adiciones, cinco modificaciones, cero eliminaciones frente al estado restaurado. Se conservaron 12 assets anteriores por compatibilidad con documentos en caché, CNAME sin cambios de bytes, .nojekyll, fuentes/licencia, robots, sitemap y los cuatro documentos HTML.
+- `deployment.json` identifica v1.2.1, repositorio, tag, commit, entry y digest. El digest es SHA-256 del mapa compacto ordenado ruta→SHA-256, excluyendo el propio marcador para evitar autorreferencia.
+- Los 67 archivos y siete formas de ruta pasaron la comprobación local. En HTTPS público se verificaron **65 archivos servibles y siete formas de ruta** contra el manifiesto. Los dos archivos de configuración con punto inicial se verificaron en Git/artefacto, no como recursos públicos.
+- Canonical, título único, descripción y Open Graph están presentes en los cuatro documentos. Las URLs de proyecto sin barra final redirigen a la forma con barra conservando la navegación y los hashes.
+
+## QA público EN/ES e interacción
+
+Las comprobaciones se ejecutaron contra el dominio real después del workflow de Pages:
+
+- Home, Concurrencia, Metodología y Nodalume: **48 comprobaciones** (EN/ES × seis anchos × cuatro rutas), a 320, 375, 768, 1024, 1440 y 1920 px, sin overflow horizontal.
+- Las 26 entradas restauradas del catálogo Nodalume aparecen en el texto renderizado en ambos idiomas a los seis anchos. El entry coincide con el artefacto corregido, descartando una mezcla con v1.2.0.
+- **14 diagramas revisados en escritorio**: ocho Nodalume y seis anteriores. Reproducción automática visible, movimiento observado, pausa/reanudación por teclado, zoom, Fit View y conservación de pausa/zoom/hash al cambiar idioma correctos. Las cinco vistas de ingeniería conservan selección de etapas y componentes; seleccionar manualmente pausa el recorrido.
+- **Ocho vistas Nodalume revisadas también a 375 px**, con los mismos controles. Los diagramas fuera de la escena activa dejan de reproducirse en las comprobaciones realizadas.
+- Menú móvil abre por teclado; Escape lo cierra y devuelve el foco al disparador. Preferencia ES, hash profundo y foco sobreviven a recarga. El Hero conserva su pausa al cambiar idioma.
+- Las ocho alternativas textuales contienen todas las relaciones originales EN/ES, independientemente de la carga del canvas; su apertura por teclado funciona.
+- Home conserva seis áreas, 18 enlaces individuales de Credly, contacto `mailto:andres.macias@anxzu.com` y AWS SAA-C03 explícitamente en preparación. Los casos anteriores mantienen sus rutas y controles.
+- No se registraron errores ni warnings de consola durante estas comprobaciones.
+
+**Reduced motion público:** 15 auditorías independientes (Home + cada uno de los 14 diagramas) con Chrome `--force-prefers-reduced-motion`. Se verificó el media query real, Hero estático, diagramas completos sin reproducción, señales pausadas, controles automáticos desactivados y ausencia de transformaciones/animaciones contextuales. Las 15 pasan, con Accessibility 100 en cada auditoría. Esto no acredita una prueba de cambio dinámico de la preferencia del sistema operativo ni una sesión manual de lector de pantalla.
+
+## Lighthouse público de v1.2.1
+
+Tres ejecuciones por ruta/perfil, 12 en total; Home y Nodalume públicos, inglés, movimiento normal, Chrome nuevo por ejecución, medición serial, Lighthouse 13.5.0. Chrome 156 headless. Móvil simulado 412×823, DPR 1.75, RTT 150 ms, 1638.4 Kbps y CPU ×4; escritorio con el preset estándar de Lighthouse; configuraciones, user agent, advertencias, rangos y JSON completos comprimidos se conservan en la evidencia. No hubo rediseño ni cambios de contenido para favorecer la puntuación.
+
+Medianas:
+
+| Ruta | Perfil | n | Performance | Accessibility | LCP ms | CLS | TBT ms |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| home | mobile | 3 | 100 | 100 | 1517 | 0.0000 | 1.5 |
+| nodalume | mobile | 3 | 99 | 100 | 1670 | 0.0000 | 0.0 |
+| home | desktop | 3 | 100 | 100 | 368 | 0.0000 | 0.0 |
+| nodalume | desktop | 3 | 100 | 100 | 374 | 0.0000 | 0.0 |
+
+En las 12 trazas se comprobó la solicitud del entry corregido `/assets/index-DT8od2Cy.js`. La única advertencia de Lighthouse fue la redirección esperada de `/projects/nodalume` a `/projects/nodalume/`; ambas formas se verificaron con sus bytes y canonical correctos. Los rangos completos por métrica están en `lighthouse/summary.json`.
+
+Estas son **mediciones de laboratorio sobre URLs de producción**, no Web Vitals de usuarios reales, INP, FPS, CPU/energía o garantías de alojamiento. No hay una serie pública válida de v1.2.0 para comparar: se retiró al fallar el QA. Los valores ANX-013.2 del changelog siguen siendo mediciones locales históricas; no se usan para afirmar una mejora pública de v1.2.1.
+
+Distribución del build del tag, bytes sin comprimir / gzip nivel 9 local:
+
+| Asset | Bytes | Gzip |
+| --- | ---: | ---: |
+| Entry inicial | 319,735 | 100,247 |
+| Editorial Nodalume | 55,961 | 17,345 |
+| Módulo diferido de diagramas Nodalume | 45,736 | 12,664 |
+| Runtime compartido de gráficos | 180,277 | 58,901 |
+
+React Flow permanece fuera de Home y de los chunks editoriales iniciales. Los tamaños gzip son cálculos del archivo, no tiempos de transferencia ni Web Vitals. Los 55,961 bytes de narrativa incluyen las traducciones restauradas; no se elimina contenido para reproducir el tamaño incorrecto anterior.
+
+## Dominio, recuperación y límites
+
+Certificado y hostname HTTPS validados; DNS A de GitHub Pages y CNAME de www correctos. No se cambió DNS ni se configuró un subdominio. La API conserva el ajuste previo `https_enforced: false`; se verificó acceso HTTPS con certificado válido, sin atribuirle una redirección HTTP forzada que no se haya comprobado.
+
+Se ensayó `git revert --no-commit` del commit nuevo en un clon aislado **antes del push**: produjo exactamente el árbol `b53e1632efc7fcbc5e17c24e92c4d129582d2cc2` del respaldo v1.1.0. No fue necesario ejecutar ese rollback en producción para v1.2.1. Si surge un fallo crítico: consultar HEAD remoto, revertir `a256bf8` conservando historial, verificar árbol contra el respaldo, hacer push normal y repetir confirmación Pages, marcador, hashes y revisión pública. Si hay cambios posteriores de otras personas, revisar el diff antes de revertir; no sobrescribirlos automáticamente.
+
+No se contactó ni modificó el repositorio privado, el laboratorio activo, base de datos, RADIUS ni routers de Nodalume. El caso continúa distinguiendo implementación, evidencia unitaria aislada, conceptos y futuro. No presenta AWS como desplegado ni influencias como afiliaciones. No se inició ANX-014.
+
+Límites: pruebas en Chromium de escritorio y emulación responsive, sin dispositivos físicos/Safari ni lector de pantalla nativo; sin nueva aceptación integral del producto Nodalume ni rendimiento de campo. No se cambió la lógica de visibilidad de pestañas: queda cubierta por las pruebas existentes; esta fase no añade una comprobación manual nueva de ocultar/mostrar pestaña.
+
+## Evidencia y cierre
+
+![Nodalume publicado, escritorio ES](reports/anx-013-3/v1.2.1/public-nodalume-desktop.jpg)
+
+![Nodalume publicado, móvil ES](reports/anx-013-3/v1.2.1/public-nodalume-mobile.jpg)
+
+[Manifiesto y recibos v1.2.1](reports/anx-013-3/v1.2.1/README.md) incluyen el preflight, respaldo, build del tag, resultados UI, hashes públicos, reduced motion, Lighthouse completo y verificación final. El Release contiene el ZIP Pages, manifiesto y recibo final sin sobrescribir sus assets originales.
+
+**GO v1.2.1. Publicación, Pages, dominio, QA bilingüe y mediciones públicas completados.** v1.2.0 permanece retirado/NO-GO, con su historial intacto. No quedan tareas de publicación autorizadas pendientes.
+
+---
+
+## Archivo: intento v1.2.0 y recuperación
+
+**Estado histórico anterior a la autorización de v1.2.1.** Las referencias siguientes a «producción actual», corrección sin desplegar o autorización pendiente describen ese momento, no el estado final resumido arriba.
+
 
 Fecha: 26 de octubre de 2026. **Resultado: NO-GO para v1.2.0. Producción restaurada y verificada en v1.1.0.**
 

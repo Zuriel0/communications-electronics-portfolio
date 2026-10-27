@@ -1,0 +1,76 @@
+{
+  "authorization": "Owner explicitly authorized v1.2.1 tag, Release and deployment after NO-GO v1.2.0 rollback.",
+  "sourceMain": "e1235dc29a030e4bbdc1bc4919bc3b876e353fce",
+  "workBranch": "18100cb867f942dc73728974c8e50d9ab9d63804",
+  "production": "bd41427bdac1d7572120b54414b5171ea0a95129",
+  "sourceMainProtected": false,
+  "productionMainProtected": false,
+  "sourceRulesets": [],
+  "productionRulesets": [],
+  "pages": {
+    "url": "https://api.github.com/repos/Zuriel0/page/pages",
+    "status": "built",
+    "cname": "anxzu.com",
+    "custom_404": false,
+    "html_url": "http://anxzu.com/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_certificate": {
+      "state": "approved",
+      "description": "The certificate has been approved.",
+      "domains": [
+        "anxzu.com",
+        "www.anxzu.com"
+      ],
+      "expires_at": "2027-01-19"
+    },
+    "https_enforced": false
+  },
+  "productionMarker": {
+    "version": "v1.1.0",
+    "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+    "sourceCommit": "d4b92df0c28415098862333e491d2552efe594d0",
+    "sourceTag": "v1.1.0",
+    "entry": "/assets/index-BTWOikn6.js",
+    "artifactSHA256": "50b5de9969fb10e0b5c6a8bf19fa7cccefcb1a96296e19d4489d28e8b75dbd0b",
+    "artifactHashMethod": "SHA-256 of sorted compact JSON path-to-SHA256 map, excluding deployment.json"
+  },
+  "existingTags": [
+    {
+      "name": "v1.2.0",
+      "zipball_url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/zipball/refs/tags/v1.2.0",
+      "tarball_url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/tarball/refs/tags/v1.2.0",
+      "commit": {
+        "sha": "e1235dc29a030e4bbdc1bc4919bc3b876e353fce",
+        "url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/commits/e1235dc29a030e4bbdc1bc4919bc3b876e353fce"
+      },
+      "node_id": "REF_kwDORuDvjbByZWZzL3RhZ3MvdjEuMi4w"
+    },
+    {
+      "name": "v1.1.0",
+      "zipball_url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/zipball/refs/tags/v1.1.0",
+      "tarball_url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/tarball/refs/tags/v1.1.0",
+      "commit": {
+        "sha": "d4b92df0c28415098862333e491d2552efe594d0",
+        "url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/commits/d4b92df0c28415098862333e491d2552efe594d0"
+      },
+      "node_id": "REF_kwDORuDvjbByZWZzL3RhZ3MvdjEuMS4w"
+    },
+    {
+      "name": "v1.0.0",
+      "zipball_url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/zipball/refs/tags/v1.0.0",
+      "tarball_url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/tarball/refs/tags/v1.0.0",
+      "commit": {
+        "sha": "5e388c925ec2a705bb1a019711452c72aa51c1ea",
+        "url": "https://api.github.com/repos/Zuriel0/communications-electronics-portfolio/commits/5e388c925ec2a705bb1a019711452c72aa51c1ea"
+      },
+      "node_id": "REF_kwDORuDvjbByZWZzL3RhZ3MvdjEuMC4w"
+    }
+  ]
+}

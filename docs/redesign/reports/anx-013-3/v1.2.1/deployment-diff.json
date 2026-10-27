@@ -1,0 +1,47 @@
+{
+  "beforeCommit": "bd41427bdac1d7572120b54414b5171ea0a95129",
+  "added": [
+    "assets/CaseStudy-CrHNK5o-.js",
+    "assets/Concurrencia-DQdwvV2R.js",
+    "assets/Metodologia-BN0R5jMF.js",
+    "assets/Nodalume-CtrbVyFH.css",
+    "assets/Nodalume-Cv1P58ht.js",
+    "assets/ProjectMessages-CrXjDdrL.js",
+    "assets/bussiness_flow-BaHrvYze.js",
+    "assets/flow_loadbalance-BIUi1bR-.js",
+    "assets/highlevel_flow-pAnDcuOT.js",
+    "assets/index-DQvQxips.css",
+    "assets/index-DT8od2Cy.js",
+    "assets/logic_flow-CKcK7SlJ.js",
+    "assets/metodologia_problem_flow-xXDZ1e_T.js",
+    "assets/metodologia_solution_flow-5aTRCfGV.js",
+    "assets/nodalume_flow-Cuhi8Mtp.js",
+    "assets/style-Crio-QVg.js",
+    "assets/useDiagramPlayback-Dl779EBp.js",
+    "projects/nodalume/index.html"
+  ],
+  "modified": [
+    "deployment.json",
+    "index.html",
+    "projects/concurrencia/index.html",
+    "projects/metodologia/index.html",
+    "sitemap.xml"
+  ],
+  "removed": [],
+  "retainedPreviousHashedAssets": [
+    "assets/CaseStudy-Ds426gH4.js",
+    "assets/Concurrencia-D4LmTub0.js",
+    "assets/Metodologia-zCGKFjCR.js",
+    "assets/bussiness_flow-c071WJDY.js",
+    "assets/flow_loadbalance-HKCWxbEb.js",
+    "assets/highlevel_flow-07E8VPCm.js",
+    "assets/index-BQtJppzI.css",
+    "assets/index-BTWOikn6.js",
+    "assets/logic_flow-CzJ0G_9O.js",
+    "assets/metodologia_problem_flow-DrJ2alVL.js",
+    "assets/metodologia_solution_flow-CZ9VsHBB.js",
+    "assets/style-Bvy3m9XQ.js"
+  ],
+  "cnameBytesPreserved": true,
+  "nojekyll": true
+}

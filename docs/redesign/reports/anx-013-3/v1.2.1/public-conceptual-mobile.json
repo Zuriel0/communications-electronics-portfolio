@@ -1,0 +1,194 @@
+{
+  "rows": [
+    {
+      "kind": "platform",
+      "width": 375,
+      "before": {
+        "active": "console-backend",
+        "offset": "16.975%"
+      },
+      "after": {
+        "active": "console-backend",
+        "offset": "24.3687%"
+      },
+      "languages": [
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-platform",
+          "language": "en",
+          "nodes": [
+            "React console",
+            "Node.js backend",
+            "PostgreSQL",
+            "FreeRADIUS",
+            "MikroTik"
+          ],
+          "paused": "true",
+          "playing": "false",
+          "signalState": "paused",
+          "zoom": "translate(14.625px, -26px) scale(0.9375)",
+          "zoomLabels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ]
+        },
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-platform",
+          "language": "es",
+          "nodes": [
+            "Consola React",
+            "Backend Node.js",
+            "PostgreSQL",
+            "FreeRADIUS",
+            "MikroTik"
+          ],
+          "paused": "true",
+          "playing": "false",
+          "signalState": "paused",
+          "zoom": "translate(14.625px, -26px) scale(0.9375)",
+          "zoomLabels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ]
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "kind": "builder",
+      "width": 375,
+      "before": {
+        "active": "portal-page",
+        "offset": "17.5063%"
+      },
+      "after": {
+        "active": "portal-page",
+        "offset": "21.2625%"
+      },
+      "languages": [
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-builder",
+          "language": "en",
+          "nodes": [
+            "Portal experience",
+            "Page composition",
+            "Reusable blocks",
+            "Policy logic",
+            "API actions"
+          ],
+          "paused": "true",
+          "playing": "false",
+          "signalState": "paused",
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ]
+        },
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-builder",
+          "language": "es",
+          "nodes": [
+            "Experiencia del portal",
+            "Composición de páginas",
+            "Bloques reutilizables",
+            "Lógica de políticas",
+            "Acciones de API"
+          ],
+          "paused": "true",
+          "playing": "false",
+          "signalState": "paused",
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ]
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    },
+    {
+      "kind": "evolution",
+      "width": 375,
+      "before": {
+        "active": "lab-baseline",
+        "offset": "16.2563%"
+      },
+      "after": {
+        "active": "lab-baseline",
+        "offset": "20.6187%"
+      },
+      "languages": [
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-evolution",
+          "language": "en",
+          "nodes": [
+            "Local lab",
+            "Document & reproduce",
+            "Separate state",
+            "Evaluate cloud",
+            "Validate operations"
+          ],
+          "paused": "true",
+          "playing": "false",
+          "signalState": "paused",
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Zoom In",
+            "Zoom Out",
+            "Fit View"
+          ]
+        },
+        {
+          "edges": 4,
+          "hash": "#diagram-nodalume-evolution",
+          "language": "es",
+          "nodes": [
+            "Laboratorio local",
+            "Documentar y reproducir",
+            "Separar el estado",
+            "Evaluar la nube",
+            "Validar la operación"
+          ],
+          "paused": "true",
+          "playing": "false",
+          "signalState": "paused",
+          "zoom": "translate(16.17px, -26px) scale(0.927467)",
+          "zoomLabels": [
+            "Acercar",
+            "Alejar",
+            "Ajustar vista"
+          ]
+        }
+      ],
+      "resumed": true,
+      "fitView": true
+    }
+  ],
+  "away": {
+    "diagrams": [
+      {
+        "id": "diagram-nodalume-evolution",
+        "playing": "false"
+      }
+    ],
+    "focus": "nodalume-philosophy",
+    "hash": "#nodalume-philosophy"
+  },
+  "preference": {
+    "focus": "nodalume-philosophy",
+    "hash": "#nodalume-philosophy",
+    "language": "es"
+  },
+  "console": []
+}

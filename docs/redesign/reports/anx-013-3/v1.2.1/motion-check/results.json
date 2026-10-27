@@ -1,0 +1,739 @@
+[
+  {
+    "name": "home",
+    "path": "/",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": "true",
+      "heroControl": {
+        "disabled": true,
+        "text": "Motion reduced"
+      },
+      "diagrams": []
+    },
+    "warnings": []
+  },
+  {
+    "name": "nodalume-platform",
+    "path": "/projects/nodalume#diagram-nodalume-platform",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-platform",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-platform",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-platform) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-builder",
+    "path": "/projects/nodalume#diagram-nodalume-builder",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-builder",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-builder",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-builder) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-evolution",
+    "path": "/projects/nodalume#diagram-nodalume-evolution",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-evolution",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-evolution",
+          "playing": "false",
+          "nodes": 5,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-evolution) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-authentication",
+    "path": "/projects/nodalume#diagram-nodalume-authentication",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-authentication",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-authentication",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-authentication) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-sessions",
+    "path": "/projects/nodalume#diagram-nodalume-sessions",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-sessions",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-sessions",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-sessions) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-tenancy",
+    "path": "/projects/nodalume#diagram-nodalume-tenancy",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-tenancy",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-tenancy",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-tenancy) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-deployment",
+    "path": "/projects/nodalume#diagram-nodalume-deployment",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-deployment",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-deployment",
+          "playing": "false",
+          "nodes": 7,
+          "edges": 6,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-deployment) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "nodalume-editor",
+    "path": "/projects/nodalume#diagram-nodalume-editor",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-nodalume-editor",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        },
+        {
+          "animation": "none",
+          "transitionDuration": "0s",
+          "transform": "none"
+        }
+      ],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-nodalume-editor",
+          "playing": "false",
+          "nodes": 7,
+          "edges": 6,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/nodalume#diagram-nodalume-editor) was redirected to https://anxzu.com/projects/nodalume/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-loadbalance",
+    "path": "/projects/concurrencia#diagram-loadbalance",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-loadbalance",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-loadbalance",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 4,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            },
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-loadbalance) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-business",
+    "path": "/projects/concurrencia#diagram-business",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-business",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-business",
+          "playing": "false",
+          "nodes": 9,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            },
+            {
+              "animation": "none",
+              "state": "running"
+            },
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-business) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-logic",
+    "path": "/projects/concurrencia#diagram-logic",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-logic",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-logic",
+          "playing": "false",
+          "nodes": 7,
+          "edges": 6,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-logic) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-highlevel",
+    "path": "/projects/concurrencia#diagram-highlevel",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-highlevel",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-highlevel",
+          "playing": "false",
+          "nodes": 12,
+          "edges": 11,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/concurrencia#diagram-highlevel) was redirected to https://anxzu.com/projects/concurrencia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-methodology-problem",
+    "path": "/projects/metodologia#diagram-methodology-problem",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-methodology-problem",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-methodology-problem",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia#diagram-methodology-problem) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ]
+  },
+  {
+    "name": "diagram-methodology-solution",
+    "path": "/projects/metodologia#diagram-methodology-solution",
+    "score": 1,
+    "accessibility": 100,
+    "state": {
+      "hash": "#diagram-methodology-solution",
+      "reducedMotion": true,
+      "language": "en",
+      "contextMotion": [],
+      "heroStatic": null,
+      "heroControl": null,
+      "diagrams": [
+        {
+          "id": "diagram-methodology-solution",
+          "playing": "false",
+          "nodes": 6,
+          "edges": 5,
+          "controlDisabled": true,
+          "signals": [
+            {
+              "animation": "none",
+              "state": "running"
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      "The page may not be loading as expected because your test URL (https://anxzu.com/projects/metodologia#diagram-methodology-solution) was redirected to https://anxzu.com/projects/metodologia/. Try testing the second URL directly."
+    ]
+  }
+]

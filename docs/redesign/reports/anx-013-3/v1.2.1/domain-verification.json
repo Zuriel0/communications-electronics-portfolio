@@ -1,0 +1,71 @@
+{
+  "hostname": "anxzu.com",
+  "trustedCertificateAndHostnameVerified": true,
+  "tlsVersion": "TLSv1.2",
+  "certificate": {
+    "subject": [
+      [
+        [
+          "commonName",
+          "anxzu.com"
+        ]
+      ]
+    ],
+    "issuer": [
+      [
+        [
+          "countryName",
+          "US"
+        ]
+      ],
+      [
+        [
+          "organizationName",
+          "Let's Encrypt"
+        ]
+      ],
+      [
+        [
+          "commonName",
+          "YR2"
+        ]
+      ]
+    ],
+    "version": 3,
+    "serialNumber": "058186C225F4FCEA41BFF39CCCF7D52AFDEF",
+    "notBefore": "Oct 22 04:40:52 2026 GMT",
+    "notAfter": "Jan 20 04:40:51 2027 GMT",
+    "subjectAltName": [
+      [
+        "DNS",
+        "anxzu.com"
+      ],
+      [
+        "DNS",
+        "www.anxzu.com"
+      ]
+    ],
+    "caIssuers": [
+      "http://yr2.i.lencr.org/"
+    ],
+    "crlDistributionPoints": [
+      "http://yr2.c.lencr.org/112.crl"
+    ]
+  },
+  "apexIPv4": [
+    "185.199.108.153",
+    "185.199.109.153",
+    "185.199.110.153",
+    "185.199.111.153"
+  ],
+  "wwwCNAME": "Zuriel0.github.io.",
+  "marker": {
+    "version": "v1.2.1",
+    "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+    "sourceCommit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+    "sourceTag": "v1.2.1",
+    "entry": "/assets/index-DT8od2Cy.js",
+    "artifactSHA256": "4e467a47ea95d52f0188a2137a32add65784b2ae9a6fc83cb1201e139da03f8c",
+    "artifactHashMethod": "SHA-256 of sorted compact JSON path-to-SHA256 map, excluding deployment.json"
+  }
+}

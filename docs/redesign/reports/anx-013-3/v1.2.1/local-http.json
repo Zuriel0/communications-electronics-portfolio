@@ -1,0 +1,736 @@
+{
+  "origin": "http://127.0.0.1:4194",
+  "files": [
+    {
+      "file": "_redirects",
+      "url": "http://127.0.0.1:4194/_redirects",
+      "status": 200,
+      "sha256": "66584af744075248a042165adbdbd6a0551fa708a85650ea1e3e777eee17080c",
+      "mime": "application/octet-stream",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": ".htaccess",
+      "url": "http://127.0.0.1:4194/.htaccess",
+      "status": 200,
+      "sha256": "c717ccca6bbd7f3b17f49805b8895fd2fbc5f67fe42cb86afe704f40d310f258",
+      "mime": "application/octet-stream",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": ".nojekyll",
+      "url": "http://127.0.0.1:4194/.nojekyll",
+      "status": 200,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mime": "application/octet-stream",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+      "url": "http://127.0.0.1:4194/assets/06a8654d-f93b-412e-bae7-59156fb14189-CuPj0Xoh.png",
+      "status": 200,
+      "sha256": "9291d8941be6feea8a436784f90cb493c166b9e0e213bdc67f30cc295a56a260",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+      "url": "http://127.0.0.1:4194/assets/359ec1bd-5afd-4e86-ac6b-0516a337e8ec-Bm8w_CNJ.png",
+      "status": 200,
+      "sha256": "961bca1da62fd2b80a2c0b1ccddad340c579b26acc5d16e5fe90e91e995d5e1b",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+      "url": "http://127.0.0.1:4194/assets/70fbf77b-7650-41d5-95cc-c6f1f492cff2-BMwvFcbd.png",
+      "status": 200,
+      "sha256": "65ce44cdd0f28bd48c2dc811dec95716f661f24e771ec02479991e2f29b35f51",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+      "url": "http://127.0.0.1:4194/assets/72a5814e-c56b-4e7c-b590-7fdda6b29453-BC2Z93Ds.png",
+      "status": 200,
+      "sha256": "5c18e9750eeeca4c448e6e6a86e9bddb749bd018ac65881061515458a00f89b3",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+      "url": "http://127.0.0.1:4194/assets/9713e1b5-af12-4bff-b04c-f82e4aca6387-SgOcx9UV.png",
+      "status": 200,
+      "sha256": "665bd2010d04778b0f124a686ae30170fe7b6c25e5981637e7b91a217c8d603f",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+      "url": "http://127.0.0.1:4194/assets/a68c18c9-8f5b-4e80-9fc0-f7eefd4f5f6d-p9PBAE0o.png",
+      "status": 200,
+      "sha256": "7427d95f046ddcebbdc3459e7246253ef247ce3886701b8b1b088d0e18d6d07b",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+      "url": "http://127.0.0.1:4194/assets/a6f95950-f997-4619-93bd-12ef2e803049-AiGISyO2.png",
+      "status": 200,
+      "sha256": "ffb4c3c56affce76cd1abef683a33773fe250f6e1ea414004b10354ab65bfa20",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/anxzu-1024-bLlLDyaE.jpg",
+      "url": "http://127.0.0.1:4194/assets/anxzu-1024-bLlLDyaE.jpg",
+      "status": 200,
+      "sha256": "dd0d204499714444a69ac90bc4c37db467eca4933a0e7eb8f0c28599e29a63ac",
+      "mime": "image/jpeg",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/anxzu-480-D9Ta-Nth.jpg",
+      "url": "http://127.0.0.1:4194/assets/anxzu-480-D9Ta-Nth.jpg",
+      "status": 200,
+      "sha256": "5645385c5e6234871466fe135384ee85bc270bfd5677d367e38f52867da60bac",
+      "mime": "image/jpeg",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/anxzu-768-DTErN6Kh.jpg",
+      "url": "http://127.0.0.1:4194/assets/anxzu-768-DTErN6Kh.jpg",
+      "status": 200,
+      "sha256": "6bd6d3f789212086da064a40e5f421f223dc51c9b5d4887d5cacbb1cdb5ac730",
+      "mime": "image/jpeg",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/AX-BL9tpoD4.svg",
+      "url": "http://127.0.0.1:4194/assets/AX-BL9tpoD4.svg",
+      "status": 200,
+      "sha256": "26af4d227e04406301efdf722c5f2d48f3c1676ea10a9c6e769561f7cedf81e7",
+      "mime": "image/svg+xml",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+      "url": "http://127.0.0.1:4194/assets/b331b024-6ee7-4b66-b904-a1a0c9f90309-BakEWcFm.png",
+      "status": 200,
+      "sha256": "655b2638d25ce39a93a21810ab90e9f9c4919d053ea2e42c70a862013cd17f18",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+      "url": "http://127.0.0.1:4194/assets/b536a83a-c05d-49f8-9290-ae87cc042b9e-CfTYXnew.png",
+      "status": 200,
+      "sha256": "fe459e260413ff2b3e263997f6ccd8f8daec806f1900b233b70b5795a7a3c6cc",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/bussiness_flow-BaHrvYze.js",
+      "url": "http://127.0.0.1:4194/assets/bussiness_flow-BaHrvYze.js",
+      "status": 200,
+      "sha256": "d26a88676bdfcf04a2da322aa0e8545339ba23ba1bdcbd85a386e51bbe973c91",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/bussiness_flow-c071WJDY.js",
+      "url": "http://127.0.0.1:4194/assets/bussiness_flow-c071WJDY.js",
+      "status": 200,
+      "sha256": "1a1cf2680fc3e8d3b07ef8cadca2b908187fd76b71a47f6b8eb4ced4e7f6cd28",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+      "url": "http://127.0.0.1:4194/assets/c2d24c7f-a905-4b9d-ae44-f174b20c1fd1-DrpwnOcD.png",
+      "status": 200,
+      "sha256": "3a8cd16bb8f64c497d185ee57291bbfbf2b0b76e6010bee916a5827870cd8ae4",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+      "url": "http://127.0.0.1:4194/assets/c6d728e5-93bf-4e18-9699-75f50775ab14-cCZ1mjRp.png",
+      "status": 200,
+      "sha256": "3666e29ec2724576fd770b85ef3038e86831feba30703e05d805833a9fe0a0e7",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+      "url": "http://127.0.0.1:4194/assets/c8c68512-e2cc-4e49-80bd-3f2197afb2bf-C9h3JWJ4.png",
+      "status": 200,
+      "sha256": "b5ab58d38052e729c4c21f88a3b59a603c61b45057c5c00bd222944777993652",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/CaseStudy-CrHNK5o-.js",
+      "url": "http://127.0.0.1:4194/assets/CaseStudy-CrHNK5o-.js",
+      "status": 200,
+      "sha256": "da78134b77f66ece0784a9eee1a49b064eb0e6addfc1718797df60eed259ec64",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/CaseStudy-D1a2x9k9.css",
+      "url": "http://127.0.0.1:4194/assets/CaseStudy-D1a2x9k9.css",
+      "status": 200,
+      "sha256": "2e410835ec202948785e4b30fcc54fa4cbce7cdbea4b857fc10afd38da3019b4",
+      "mime": "text/css",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/CaseStudy-Ds426gH4.js",
+      "url": "http://127.0.0.1:4194/assets/CaseStudy-Ds426gH4.js",
+      "status": 200,
+      "sha256": "1a7bcc3670b10d032aabe828a4110e5711b93e59c65b22485fdf9b9b6bf9954e",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/Concurrencia-D4LmTub0.js",
+      "url": "http://127.0.0.1:4194/assets/Concurrencia-D4LmTub0.js",
+      "status": 200,
+      "sha256": "43e3db306260301a3f67a5565d2e449451afdf515f8f5729fbca24570b933436",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/Concurrencia-DQdwvV2R.js",
+      "url": "http://127.0.0.1:4194/assets/Concurrencia-DQdwvV2R.js",
+      "status": 200,
+      "sha256": "cab49fd7ef73e36fff1b4196bd63360901fc36389470ddd68341f28cb6f5aeed",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+      "url": "http://127.0.0.1:4194/assets/df1a5877-1721-47db-a196-ea4e17f3a745-DVJB3cmc.png",
+      "status": 200,
+      "sha256": "b101cb6e3dafc257fd8c1a7c5db97d86420a2355bbeaae4980442ae4c2290f24",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+      "url": "http://127.0.0.1:4194/assets/df473e2c-6a24-475a-8b94-49b17985c053-YZ_Ykifn.png",
+      "status": 200,
+      "sha256": "cb01d98a3c7bf3f6f065598b664863211652b98edd345e508bdc18dfea462617",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+      "url": "http://127.0.0.1:4194/assets/f15f1dee-8498-4e20-942f-7833f0486abe-BsAfBDLg.png",
+      "status": 200,
+      "sha256": "0b44cc6189cc170991c7dbb189a8f977745c8feb22c0d2dba1b66db50d1b1471",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+      "url": "http://127.0.0.1:4194/assets/f9b4484a-3cad-4609-9856-f8c7cf66fc72-BmsPSfjS.png",
+      "status": 200,
+      "sha256": "e0fd8e289e3c2c9be11cccb23ba9c9049b5bfc81dcc518b864174839fdebea67",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+      "url": "http://127.0.0.1:4194/assets/fb4349ee-b599-4ae1-88a8-902a545f063a-CHX0eu3a.png",
+      "status": 200,
+      "sha256": "c2f013a1cdf3de2b8021db543d426932b5d28fe7b34d3dd1a3b02f61d098e6ed",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+      "url": "http://127.0.0.1:4194/assets/fc048a96-ef41-48c4-9943-16269ab6085c-CeqxjJRG.png",
+      "status": 200,
+      "sha256": "c4e66aece9b892c1eefec87c7c4237776d7d5bcfc93be9728605ab1a6ea5615d",
+      "mime": "image/png",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/flow_loadbalance-BIUi1bR-.js",
+      "url": "http://127.0.0.1:4194/assets/flow_loadbalance-BIUi1bR-.js",
+      "status": 200,
+      "sha256": "bf348beef1d03131fd0a9abb2123e7aacb70c64110b656dd29dc7fddf61627de",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/flow_loadbalance-HKCWxbEb.js",
+      "url": "http://127.0.0.1:4194/assets/flow_loadbalance-HKCWxbEb.js",
+      "status": 200,
+      "sha256": "182ce358bf4150c16862575f999a1dbc43e255dd831ec16cadbe6580c81e8f6a",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/highlevel_flow-07E8VPCm.js",
+      "url": "http://127.0.0.1:4194/assets/highlevel_flow-07E8VPCm.js",
+      "status": 200,
+      "sha256": "3a9390ffed07589a67c01b0552a422ae6ab3fe4cfa528073bcab2807c51451f8",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/highlevel_flow-pAnDcuOT.js",
+      "url": "http://127.0.0.1:4194/assets/highlevel_flow-pAnDcuOT.js",
+      "status": 200,
+      "sha256": "c5002d9605f02237155d5643ecc7138dae5c58e2a458878322c28b66e192fe78",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/index-BQtJppzI.css",
+      "url": "http://127.0.0.1:4194/assets/index-BQtJppzI.css",
+      "status": 200,
+      "sha256": "8f8719951a23bd233ca09dbbd98627636d656bfe8c460b4b424a1d5c6eb126bb",
+      "mime": "text/css",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/index-BTWOikn6.js",
+      "url": "http://127.0.0.1:4194/assets/index-BTWOikn6.js",
+      "status": 200,
+      "sha256": "1aae1f38b2e4ea373e97b51757fd35850dfa7ee85db50fb6fdf8b7c5a380efdf",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/index-DQvQxips.css",
+      "url": "http://127.0.0.1:4194/assets/index-DQvQxips.css",
+      "status": 200,
+      "sha256": "b534a0ec7c5c2933c27de81b38d4ad5fe82bfe983cf5ee40a17db76229f345fe",
+      "mime": "text/css",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/index-DT8od2Cy.js",
+      "url": "http://127.0.0.1:4194/assets/index-DT8od2Cy.js",
+      "status": 200,
+      "sha256": "14b9c0cb5f631324e243cdc7b0ce7acba5d227b679560e26730542a8bd4c638e",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/inter-latin-8kRkwJBP.woff2",
+      "url": "http://127.0.0.1:4194/assets/inter-latin-8kRkwJBP.woff2",
+      "status": 200,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "mime": "font/woff2",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/logic_flow-CKcK7SlJ.js",
+      "url": "http://127.0.0.1:4194/assets/logic_flow-CKcK7SlJ.js",
+      "status": 200,
+      "sha256": "a7608fd527d8ccedc7564f9eca1119657478f3bc2a899cb2eced447a980125cf",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/logic_flow-CzJ0G_9O.js",
+      "url": "http://127.0.0.1:4194/assets/logic_flow-CzJ0G_9O.js",
+      "status": 200,
+      "sha256": "9aa13192a40ff911042a941c7523d2e2675813e0857e20b505860867f890b513",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/metodologia_problem_flow-DrJ2alVL.js",
+      "url": "http://127.0.0.1:4194/assets/metodologia_problem_flow-DrJ2alVL.js",
+      "status": 200,
+      "sha256": "a2fc33e3d7599790fec701629fb857489aa751d001e3e68ca9e385af2fdf0e81",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/metodologia_problem_flow-xXDZ1e_T.js",
+      "url": "http://127.0.0.1:4194/assets/metodologia_problem_flow-xXDZ1e_T.js",
+      "status": 200,
+      "sha256": "a7ed1ff84ad089722ea8bc4fba4da8864c459936dfd8e8faf3c166e3b23c447f",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/metodologia_solution_flow-5aTRCfGV.js",
+      "url": "http://127.0.0.1:4194/assets/metodologia_solution_flow-5aTRCfGV.js",
+      "status": 200,
+      "sha256": "22ab0f44ab8e0c558f3d83bb18e8686aa9615a982e218e0521e2321f003e6bff",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/metodologia_solution_flow-CZ9VsHBB.js",
+      "url": "http://127.0.0.1:4194/assets/metodologia_solution_flow-CZ9VsHBB.js",
+      "status": 200,
+      "sha256": "f811e7611fd1b4f9f72242e08521db73fe5cc8538b94ba0f1d54afd286e7e6c3",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/Metodologia-BN0R5jMF.js",
+      "url": "http://127.0.0.1:4194/assets/Metodologia-BN0R5jMF.js",
+      "status": 200,
+      "sha256": "e962a2e151d0cb6504b930f3bad58b80a1e4b176f0d0d8fa041b1449cb1448eb",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/Metodologia-zCGKFjCR.js",
+      "url": "http://127.0.0.1:4194/assets/Metodologia-zCGKFjCR.js",
+      "status": 200,
+      "sha256": "7a51f6c94f5d42d0d97d4a6f354a486afc0becff018aadcc212c614dac24926e",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/nodalume_flow-Cuhi8Mtp.js",
+      "url": "http://127.0.0.1:4194/assets/nodalume_flow-Cuhi8Mtp.js",
+      "status": 200,
+      "sha256": "0787d4bc1c0025b46340b4b8d25b0cbe1b36ca2848a2a2d75d276d44e176252e",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/Nodalume-CtrbVyFH.css",
+      "url": "http://127.0.0.1:4194/assets/Nodalume-CtrbVyFH.css",
+      "status": 200,
+      "sha256": "3d229843f17dd708521aca868574a5b000d030d9d027646e332411da353add64",
+      "mime": "text/css",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/Nodalume-Cv1P58ht.js",
+      "url": "http://127.0.0.1:4194/assets/Nodalume-Cv1P58ht.js",
+      "status": 200,
+      "sha256": "5011776fef84a6cfd559e61931837d0c6b6c1d09b37e41af1935b3a13e163684",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/ProjectMessages-CrXjDdrL.js",
+      "url": "http://127.0.0.1:4194/assets/ProjectMessages-CrXjDdrL.js",
+      "status": 200,
+      "sha256": "8285aa563e74701b2f78d74ca37f8129a9d92fe26cf65b9f1f80f8b60c1316be",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/style-Bvy3m9XQ.js",
+      "url": "http://127.0.0.1:4194/assets/style-Bvy3m9XQ.js",
+      "status": 200,
+      "sha256": "e841bf6ddda7191f472461128f55820cbca571daf9ca3a82d76f76c12e8ee3df",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/style-BZV40eAE.css",
+      "url": "http://127.0.0.1:4194/assets/style-BZV40eAE.css",
+      "status": 200,
+      "sha256": "77eb229e70c7949e1d9e4f542afdf7b38d85eccc656a7c3ee9b8429a339872be",
+      "mime": "text/css",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/style-Crio-QVg.js",
+      "url": "http://127.0.0.1:4194/assets/style-Crio-QVg.js",
+      "status": 200,
+      "sha256": "2f5b346ce9d93a5d457c6fee010d954266cb6e4e14f67784858e3e689195a3cd",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "assets/useDiagramPlayback-Dl779EBp.js",
+      "url": "http://127.0.0.1:4194/assets/useDiagramPlayback-Dl779EBp.js",
+      "status": 200,
+      "sha256": "9b8c9b49e3322ab5c9303b44345ffe557af9814e161fa7e16cea151e3961eaac",
+      "mime": "text/javascript",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "CNAME",
+      "url": "http://127.0.0.1:4194/CNAME",
+      "status": 200,
+      "sha256": "79b3bef2e150b04dc003b14379794d8e4d60fc0509b3d3972deb443b51bcc787",
+      "mime": "application/octet-stream",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "deployment.json",
+      "url": "http://127.0.0.1:4194/deployment.json",
+      "status": 200,
+      "sha256": "af8ee0fa0d1005c85a352591cdf6806032099f0d9f764c678bdc1d6895bbc227",
+      "mime": "application/json",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "index.html",
+      "url": "http://127.0.0.1:4194/index.html",
+      "status": 200,
+      "sha256": "dbe63d4acd33130de3bb18e8cc2b82bd148b4256869cb8b66615ade8f8b7be1f",
+      "mime": "text/html",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "Inter-OFL.txt",
+      "url": "http://127.0.0.1:4194/Inter-OFL.txt",
+      "status": 200,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "mime": "text/plain",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "projects/concurrencia/index.html",
+      "url": "http://127.0.0.1:4194/projects/concurrencia/index.html",
+      "status": 200,
+      "sha256": "55f94882e3d766039542b5ff361425af574ad4bc6dd4dbc665b06d4ab5575ceb",
+      "mime": "text/html",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "projects/metodologia/index.html",
+      "url": "http://127.0.0.1:4194/projects/metodologia/index.html",
+      "status": 200,
+      "sha256": "06f86940099b78404cffb41a3aacded2edc0e22fbd02284b2af1b1321b3c0e32",
+      "mime": "text/html",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "projects/nodalume/index.html",
+      "url": "http://127.0.0.1:4194/projects/nodalume/index.html",
+      "status": 200,
+      "sha256": "08946d6fcf7c9495c47c33254d13120ba482c04d20538507a2b739f3f230b965",
+      "mime": "text/html",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "robots.txt",
+      "url": "http://127.0.0.1:4194/robots.txt",
+      "status": 200,
+      "sha256": "2d0b448b86e71239f9452c6327065cdad41159f088810e88d2c671c1e37b8a92",
+      "mime": "text/plain",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "http://127.0.0.1:4194/sitemap.xml",
+      "status": 200,
+      "sha256": "3eb7f543d65a488d3535370c1c42954689a046b26827bfb9d1ba42e896a4a7d3",
+      "mime": "application/xml",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    },
+    {
+      "file": "vite.svg",
+      "url": "http://127.0.0.1:4194/vite.svg",
+      "status": 200,
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+      "mime": "image/svg+xml",
+      "encoding": null,
+      "cacheControl": null,
+      "age": null
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "url": "http://127.0.0.1:4194/",
+      "status": 200,
+      "title": "ANXZU — The Art of Engineering",
+      "canonical": "https://anxzu.com/",
+      "language": "en"
+    },
+    {
+      "path": "/projects/concurrencia",
+      "url": "http://127.0.0.1:4194/projects/concurrencia/",
+      "status": 200,
+      "title": "Concurrent Log Monitor via SSH | ANXZU",
+      "canonical": "https://anxzu.com/projects/concurrencia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/concurrencia/",
+      "url": "http://127.0.0.1:4194/projects/concurrencia/",
+      "status": 200,
+      "title": "Concurrent Log Monitor via SSH | ANXZU",
+      "canonical": "https://anxzu.com/projects/concurrencia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/metodologia",
+      "url": "http://127.0.0.1:4194/projects/metodologia/",
+      "status": 200,
+      "title": "AI-Assisted Customization Methodology | ANXZU",
+      "canonical": "https://anxzu.com/projects/metodologia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/metodologia/",
+      "url": "http://127.0.0.1:4194/projects/metodologia/",
+      "status": 200,
+      "title": "AI-Assisted Customization Methodology | ANXZU",
+      "canonical": "https://anxzu.com/projects/metodologia",
+      "language": "en"
+    },
+    {
+      "path": "/projects/nodalume",
+      "url": "http://127.0.0.1:4194/projects/nodalume/",
+      "status": 200,
+      "title": "Nodalume — Captive Portal Platform | ANXZU",
+      "canonical": "https://anxzu.com/projects/nodalume",
+      "language": "en"
+    },
+    {
+      "path": "/projects/nodalume/",
+      "url": "http://127.0.0.1:4194/projects/nodalume/",
+      "status": 200,
+      "title": "Nodalume — Captive Portal Platform | ANXZU",
+      "canonical": "https://anxzu.com/projects/nodalume",
+      "language": "en"
+    }
+  ],
+  "verifiedFiles": 67,
+  "missingOrMixed": 0,
+  "method": "Normal resource URLs, HTTPS certificate verification by Node when public, SHA-256 compared to the reviewed deployment artifact. Dot configuration files are verified in Git/local artifact rather than as public URLs."
+}

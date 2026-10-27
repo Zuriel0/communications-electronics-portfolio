@@ -1,0 +1,197 @@
+{
+  "result": "GO",
+  "version": "v1.2.1",
+  "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+  "main": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "annotatedTag": "67bc1d0da321a0e5487e14be0b824e06408a3f0d",
+  "tagCommit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "releaseTarget": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "latestRelease": "v1.2.1",
+  "production": "a256bf8cf9805fdf7db912d0d7816adedd247e6b",
+  "backup": "bd41427bdac1d7572120b54414b5171ea0a95129",
+  "v120ImmutableAndPrerelease": true,
+  "productionRepository": "Zuriel0/page",
+  "pagesWorkflow": "https://github.com/Zuriel0/page/actions/runs/40433964102",
+  "marker": {
+    "version": "v1.2.1",
+    "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+    "sourceCommit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+    "sourceTag": "v1.2.1",
+    "entry": "/assets/index-DT8od2Cy.js",
+    "artifactSHA256": "4e467a47ea95d52f0188a2137a32add65784b2ae9a6fc83cb1201e139da03f8c",
+    "artifactHashMethod": "SHA-256 of sorted compact JSON path-to-SHA256 map, excluding deployment.json"
+  },
+  "publicVerifiedFiles": 65,
+  "publicVerifiedRouteForms": 7,
+  "tests": {
+    "passed": 53,
+    "failed": 0,
+    "npmAuditVulnerabilities": 0
+  },
+  "browser": {
+    "responsiveChecks": 48,
+    "widths": [
+      320,
+      375,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "restoredEditorialMessages": 26,
+    "desktopDiagrams": 14,
+    "mobileNodalumeDiagrams": 8,
+    "credentials": 18,
+    "capabilityAreas": 6,
+    "consoleErrorsOrWarnings": 0
+  },
+  "reducedMotion": {
+    "checks": 15,
+    "passed": 15,
+    "accessibility": 100
+  },
+  "publicLighthouse": {
+    "runs": 12,
+    "method": "Serial; reverse version order on even repetitions when comparing versions; default simulated mobile/desktop profiles; fresh Chrome per invocation; normal motion; no field Web Vitals or FPS claim.",
+    "groups": [
+      {
+        "version": "candidate",
+        "profile": "mobile",
+        "route": "home",
+        "n": 3,
+        "performance": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "lcp": {
+          "median": 1517.3944999999999,
+          "min": 1509.051,
+          "max": 1522.38
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "tbt": {
+          "median": 1.5,
+          "min": 0,
+          "max": 2.5
+        }
+      },
+      {
+        "version": "candidate",
+        "profile": "mobile",
+        "route": "nodalume",
+        "n": 3,
+        "performance": {
+          "median": 99,
+          "min": 99,
+          "max": 99
+        },
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "lcp": {
+          "median": 1670.145,
+          "min": 1658.7134999999998,
+          "max": 1675.6405
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "tbt": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "version": "candidate",
+        "profile": "desktop",
+        "route": "home",
+        "n": 3,
+        "performance": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "lcp": {
+          "median": 368.3315,
+          "min": 365.602,
+          "max": 371.7605
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "tbt": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "version": "candidate",
+        "profile": "desktop",
+        "route": "nodalume",
+        "n": 3,
+        "performance": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100
+        },
+        "lcp": {
+          "median": 374.094,
+          "min": 368.421,
+          "max": 378.005
+        },
+        "cls": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "tbt": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    ],
+    "warning": "Expected redirect to trailing slash for Nodalume. Both forms independently verified.",
+    "fieldMetrics": false
+  },
+  "rollback": {
+    "newIndependentBackup": "backup/anxzu-v1.1.0-before-v1.2.1-20261026",
+    "rehearsalTreeMatchesBackup": true,
+    "neededForV121": false
+  },
+  "report": "docs/redesign/anx-013-3-release-report.md",
+  "documentationBranch": "codex/anx-013-nodalume-technical",
+  "v120": "Withdrawn NO-GO prerelease; original tag and rollback history preserved."
+}

@@ -1,0 +1,10 @@
+{
+  "main": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "annotatedTag": "67bc1d0da321a0e5487e14be0b824e06408a3f0d",
+  "tagCommit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "releaseTarget": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "latestRelease": "v1.2.1",
+  "production": "a256bf8cf9805fdf7db912d0d7816adedd247e6b",
+  "backup": "bd41427bdac1d7572120b54414b5171ea0a95129",
+  "v120ImmutableAndPrerelease": true
+}

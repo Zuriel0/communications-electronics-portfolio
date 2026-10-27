@@ -1,0 +1,22 @@
+{
+  "menuOpen": "true",
+  "menuClosed": {
+    "expanded": "false",
+    "focus": "button menu-toggle",
+    "hash": "#nodalume-philosophy",
+    "language": "es"
+  },
+  "textChecks": [
+    {
+      "language": "en",
+      "diagrams": 8,
+      "completeRelationships": true
+    },
+    {
+      "language": "es",
+      "diagrams": 8,
+      "completeRelationships": true
+    }
+  ],
+  "keyboardDisclosure": true
+}

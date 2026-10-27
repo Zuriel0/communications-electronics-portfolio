@@ -1,0 +1,28 @@
+{
+  "tag": "v1.2.1",
+  "commit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "archiveCommitVerified": true,
+  "tagBuildAssetsMatchIntegrated": true,
+  "matchedJSAndCSS": 19,
+  "files": {
+    "Metodologia-BN0R5jMF.js": "e962a2e151d0cb6504b930f3bad58b80a1e4b176f0d0d8fa041b1449cb1448eb",
+    "logic_flow-CKcK7SlJ.js": "a7608fd527d8ccedc7564f9eca1119657478f3bc2a899cb2eced447a980125cf",
+    "flow_loadbalance-BIUi1bR-.js": "bf348beef1d03131fd0a9abb2123e7aacb70c64110b656dd29dc7fddf61627de",
+    "Nodalume-CtrbVyFH.css": "3d229843f17dd708521aca868574a5b000d030d9d027646e332411da353add64",
+    "style-BZV40eAE.css": "77eb229e70c7949e1d9e4f542afdf7b38d85eccc656a7c3ee9b8429a339872be",
+    "Nodalume-Cv1P58ht.js": "5011776fef84a6cfd559e61931837d0c6b6c1d09b37e41af1935b3a13e163684",
+    "ProjectMessages-CrXjDdrL.js": "8285aa563e74701b2f78d74ca37f8129a9d92fe26cf65b9f1f80f8b60c1316be",
+    "nodalume_flow-Cuhi8Mtp.js": "0787d4bc1c0025b46340b4b8d25b0cbe1b36ca2848a2a2d75d276d44e176252e",
+    "metodologia_solution_flow-5aTRCfGV.js": "22ab0f44ab8e0c558f3d83bb18e8686aa9615a982e218e0521e2321f003e6bff",
+    "CaseStudy-D1a2x9k9.css": "2e410835ec202948785e4b30fcc54fa4cbce7cdbea4b857fc10afd38da3019b4",
+    "Concurrencia-DQdwvV2R.js": "cab49fd7ef73e36fff1b4196bd63360901fc36389470ddd68341f28cb6f5aeed",
+    "CaseStudy-CrHNK5o-.js": "da78134b77f66ece0784a9eee1a49b064eb0e6addfc1718797df60eed259ec64",
+    "bussiness_flow-BaHrvYze.js": "d26a88676bdfcf04a2da322aa0e8545339ba23ba1bdcbd85a386e51bbe973c91",
+    "highlevel_flow-pAnDcuOT.js": "c5002d9605f02237155d5643ecc7138dae5c58e2a458878322c28b66e192fe78",
+    "index-DT8od2Cy.js": "14b9c0cb5f631324e243cdc7b0ce7acba5d227b679560e26730542a8bd4c638e",
+    "useDiagramPlayback-Dl779EBp.js": "9b8c9b49e3322ab5c9303b44345ffe557af9814e161fa7e16cea151e3961eaac",
+    "style-Crio-QVg.js": "2f5b346ce9d93a5d457c6fee010d954266cb6e4e14f67784858e3e689195a3cd",
+    "index-DQvQxips.css": "b534a0ec7c5c2933c27de81b38d4ad5fe82bfe983cf5ee40a17db76229f345fe",
+    "metodologia_problem_flow-xXDZ1e_T.js": "a7ed1ff84ad089722ea8bc4fba4da8864c459936dfd8e8faf3c166e3b23c447f"
+  }
+}

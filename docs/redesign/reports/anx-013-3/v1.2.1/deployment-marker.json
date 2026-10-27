@@ -1,0 +1,9 @@
+{
+  "version": "v1.2.1",
+  "sourceRepository": "Zuriel0/communications-electronics-portfolio",
+  "sourceCommit": "a2a6b1e725ccfc9c6c08ddf6ee7882be2703ac58",
+  "sourceTag": "v1.2.1",
+  "entry": "/assets/index-DT8od2Cy.js",
+  "artifactSHA256": "4e467a47ea95d52f0188a2137a32add65784b2ae9a6fc83cb1201e139da03f8c",
+  "artifactHashMethod": "SHA-256 of sorted compact JSON path-to-SHA256 map, excluding deployment.json"
+}
