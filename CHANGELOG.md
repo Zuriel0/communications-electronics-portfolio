@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.2.1 — Nodalume Engineering Case Study: Bilingual Correction
+
+Corrected replacement for the withdrawn v1.2.0 publication. It includes the Nodalume engineering case study described below while preserving the original v1.2.0 tag and the verified production rollback history.
+
+### Fixed
+
+- Restore 25 omitted Spanish editorial messages across internal navigation, product principles, implementation and engineering decisions, using their original ANX-013.1 wording. Make the existing Back to projects translation explicit in the route catalog.
+- Extend message extraction to the four editorial arrays and require coverage in Nodalume's own catalog. Verify all 26 restored route entries in the actual EN/ES server-rendered page while preserving the previous 131 entries.
+- Preserve the eight Nodalume views, six original diagrams, deferred React Flow runtime, technical scope distinctions, Confluence, 18 credential records and AWS preparation status without design or dependency changes.
+
+### Validation and publication boundaries
+
+- 53 Node tests pass, including regression coverage that fails on the omitted translations. Browser checks confirm restored copy at six viewport widths and all 14 diagram controls in both languages.
+- v1.2.0 remains an immutable, withdrawn prerelease marked NO-GO. Production was restored to v1.1.0 before this replacement was authorized.
+- ANX-013.2 Lighthouse figures below remain historical local measurements. Fresh v1.2.1 public QA, metrics, deployment/backup references and final result are recorded after deployment in `docs/redesign/anx-013-3-release-report.md`, without moving the published tag.
+
 ## v1.2.0 — Nodalume Engineering Case Study
 
 > **Publication withdrawn / NO-GO (2026-10-26):** Public Spanish QA exposed untranslated editorial arrays. Production was restored to v1.1.0 and verified. The v1.2.0 tag remains immutable; the correction is validated on the ANX-013 branch pending a replacement-version decision. See `docs/redesign/anx-013-3-release-report.md`.
