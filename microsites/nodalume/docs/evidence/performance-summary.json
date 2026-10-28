@@ -1,0 +1,128 @@
+[
+  {
+    "profile": "mobile",
+    "runs": [
+      {
+        "run": 1,
+        "formFactor": "mobile",
+        "performance": 100,
+        "accessibility": 100,
+        "lcpMs": 752.5922,
+        "cls": 0,
+        "tbtMs": 0,
+        "state": {
+          "reduced": false,
+          "motion": "active",
+          "triggers": "4",
+          "ambient": "playing",
+          "heading": "Tu portal.A tu manera.",
+          "motionDisabled": false,
+          "overflow": false,
+          "motionRequested": true
+        }
+      },
+      {
+        "run": 2,
+        "formFactor": "mobile",
+        "performance": 100,
+        "accessibility": 100,
+        "lcpMs": 752.3036,
+        "cls": 0,
+        "tbtMs": 0,
+        "state": {
+          "reduced": false,
+          "motion": "active",
+          "triggers": "4",
+          "ambient": "playing",
+          "heading": "Tu portal.A tu manera.",
+          "motionDisabled": false,
+          "overflow": false,
+          "motionRequested": true
+        }
+      },
+      {
+        "run": 3,
+        "formFactor": "mobile",
+        "performance": 100,
+        "accessibility": 100,
+        "lcpMs": 752.7470000000001,
+        "cls": 0,
+        "tbtMs": 0,
+        "state": {
+          "reduced": false,
+          "motion": "active",
+          "triggers": "4",
+          "ambient": "playing",
+          "heading": "Tu portal.A tu manera.",
+          "motionDisabled": false,
+          "overflow": false,
+          "motionRequested": true
+        }
+      }
+    ],
+    "medianLcpMs": 752.5922
+  },
+  {
+    "profile": "desktop",
+    "runs": [
+      {
+        "run": 1,
+        "formFactor": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "lcpMs": 202.2996,
+        "cls": 0,
+        "tbtMs": 0,
+        "state": {
+          "reduced": false,
+          "motion": "active",
+          "triggers": "4",
+          "ambient": "playing",
+          "heading": "Tu portal.A tu manera.",
+          "motionDisabled": false,
+          "overflow": false,
+          "motionRequested": true
+        }
+      },
+      {
+        "run": 2,
+        "formFactor": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "lcpMs": 202.31259999999997,
+        "cls": 0,
+        "tbtMs": 0,
+        "state": {
+          "reduced": false,
+          "motion": "active",
+          "triggers": "4",
+          "ambient": "playing",
+          "heading": "Tu portal.A tu manera.",
+          "motionDisabled": false,
+          "overflow": false,
+          "motionRequested": true
+        }
+      },
+      {
+        "run": 3,
+        "formFactor": "desktop",
+        "performance": 100,
+        "accessibility": 100,
+        "lcpMs": 324.5413,
+        "cls": 0,
+        "tbtMs": 0,
+        "state": {
+          "reduced": false,
+          "motion": "active",
+          "triggers": "4",
+          "ambient": "playing",
+          "heading": "Tu portal.A tu manera.",
+          "motionDisabled": false,
+          "overflow": false,
+          "motionRequested": true
+        }
+      }
+    ],
+    "medianLcpMs": 202.31259999999997
+  }
+]

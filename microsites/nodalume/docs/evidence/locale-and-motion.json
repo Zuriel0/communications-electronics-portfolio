@@ -1,0 +1,33 @@
+{
+  "locale": {
+    "focus": "English",
+    "hash": "#top",
+    "heading": "Your portal.\nYour way.",
+    "lang": "en",
+    "motion": {
+      "ambient": "paused",
+      "motion": "paused",
+      "triggers": "0"
+    }
+  },
+  "persistence": {
+    "hash": "#top",
+    "heading": "Your portal.\nYour way.",
+    "lang": "en"
+  },
+  "cursorA": {
+    "fine": true,
+    "point": [
+      "617.078857421875",
+      "257"
+    ],
+    "transform": "matrix(0.999962, -0.00870908, 0.00870908, 0.999962, -3.5999, -2.0137)"
+  },
+  "cursorB": {
+    "point": [
+      "55.549652099609375",
+      "438"
+    ],
+    "transform": "matrix(0.999964, 0.00852758, -0.00852758, 0.999964, 3.9278, -0.4757)"
+  }
+}

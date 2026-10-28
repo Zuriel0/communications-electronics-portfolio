@@ -1,0 +1,13 @@
+{
+  "english": {
+    "focus": "English",
+    "outline": "solid"
+  },
+  "menu": {
+    "focus": "Menú"
+  },
+  "escape": {
+    "expanded": "false",
+    "focus": "Menú"
+  }
+}

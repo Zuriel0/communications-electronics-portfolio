@@ -1,0 +1,52 @@
+[
+  {
+    "step": "pause-0",
+    "ambient": "paused",
+    "motion": "paused",
+    "triggers": "0"
+  },
+  {
+    "step": "resume-0",
+    "ambient": "playing",
+    "motion": "active",
+    "triggers": "4"
+  },
+  {
+    "step": "pause-1",
+    "ambient": "paused",
+    "motion": "paused",
+    "triggers": "0"
+  },
+  {
+    "step": "resume-1",
+    "ambient": "playing",
+    "motion": "active",
+    "triggers": "4"
+  },
+  {
+    "step": "pause-2",
+    "ambient": "paused",
+    "motion": "paused",
+    "triggers": "0"
+  },
+  {
+    "step": "resume-2",
+    "ambient": "playing",
+    "motion": "active",
+    "triggers": "4"
+  },
+  {
+    "step": "mobile-navigation",
+    "ambient": "playing",
+    "focus": "product",
+    "hash": "#product",
+    "menu": "false"
+  },
+  {
+    "step": "keyboard-details",
+    "ambient": "paused",
+    "focus": "SUMMARY",
+    "open": true,
+    "outline": "solid"
+  }
+]
