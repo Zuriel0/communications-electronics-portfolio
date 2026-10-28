@@ -1,6 +1,0 @@
-node_modules/
-dist/
-.agents/
-.env*
-!.env.example
-*.local
