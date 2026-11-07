@@ -39,7 +39,7 @@ export default function IntroduceMetodologia() {
           <aside className="case-aside"><h3><Text>{"The repeated work"}</Text></h3><p><Text>{"Each new customization involved manual analysis, adaptation and repeated checks. The existing account describes a process that depended heavily on technical memory and made knowledge difficult to reuse."}</Text></p></aside>
         </div>
         <div className="case-diagram-context"><h3><Text>{"The restriction shapes the method."}</Text></h3><p><Text>{"The first diagram shows why understanding the existing page comes before proposing a change. It carries the same six-stage sequence as the solution: a constrained starting point leads to analysis, contextual generation, manual review and an integration-ready customization."}</Text></p></div>
-        <CaseFigure diagramId="diagram-methodology-problem" height={1100} mobileHeight={650} reading="This is the constraint-led view of the method, not a separate algorithm. The endpoint is a customization ready to integrate; the illustration does not establish a production deployment."><ProblemFlow /></CaseFigure>
+        <CaseFigure diagramId="diagram-methodology-problem" height={1100} mobileHeight={650} reading="Follow the six-stage method from understanding the original platform to a customization ready for integration."><ProblemFlow /></CaseFigure>
       </CaseSection>
       <CaseSection id="solucion" title={t("Six stages. One deliberate sequence.")}>
         <div className="case-prose"><p><Text>{"The method turns repeated analysis into explicit technical context. AI contributes an initial proposal within that context. Human refinement and validation remain between generation and integration."}</Text></p></div>
@@ -57,12 +57,12 @@ export default function IntroduceMetodologia() {
       </CaseSection>
       <CaseSection id="implementation" title={t("An external layer, with a defined boundary.")}>
         <div className="case-split">
-          <div className="case-prose"><p><Text>{"The documented approach combines external code intervention, native-interface analysis, contextual documentation and assisted generation. It preserves the original source rather than replacing the platform’s base implementation."}</Text></p><p><Text>{"Manual adjustment and validation are part of the method. The diagrams describe this workflow; they are not records of an executed validation suite."}</Text></p></div>
-          <aside className="case-aside"><h3><Text>{"Contribution and scope"}</Text></h3><p><Text>{"My contribution described here is the methodology design. The case focuses on the engineering process without assigning it to a particular client, platform, programming language or AI provider."}</Text></p></aside>
+          <div className="case-prose"><p><Text>{"The documented approach combines external code intervention, native-interface analysis, contextual documentation and assisted generation. It preserves the original source rather than replacing the platform’s base implementation."}</Text></p><p><Text>{"Manual adjustment and validation connect the generated proposal with the integration step."}</Text></p></div>
+          <aside className="case-aside"><h3><Text>{"Contribution and scope"}</Text></h3><p><Text>{"I designed a reusable methodology that brings constraint analysis, technical context and human validation into the customization workflow."}</Text></p></aside>
         </div>
       </CaseSection>
       <CaseSection id="outcome" title={t("A reported change in the work required.")} className="case-outcome">
-        <div className="case-prose"><p><Text>{"The existing project account reports less time per customization after adopting the methodology. The comparison is self-reported and is not a controlled benchmark."}</Text></p></div>
+        <div className="case-prose"><p><Text>{"In my project experience, adopting the methodology reduced the time spent on repeated customization work."}</Text></p></div>
         <div className="case-split">
           <dl className="case-comparison"><div><dt><Text>{"Previous process"}</Text></dt><dd><Text>{"8–14 hours / project"}</Text></dd></div><div><dt><Text>{"With the methodology"}</Text></dt><dd><Text>{"1–2 hours / project"}</Text></dd></div></dl>
           <div><h3><Text>{"Read the figures in context"}</Text></h3><p className="case-note"><Text>{"These self-reported ranges describe my experience with the method. Task complexity varies; they are not a controlled benchmark or a guaranteed result for another project."}</Text></p></div>

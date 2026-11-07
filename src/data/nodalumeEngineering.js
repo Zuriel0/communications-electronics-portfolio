@@ -51,7 +51,7 @@ export const engineeringSystems = [
         "id": "handoff",
         "label": "HotSpot handoff",
         "detail": "Origin-bound CHAP POST",
-        "explanation": "The browser checks the configured login origin, computes CHAP and submits a native POST. Offline tests reproduce the URL checks and single submission. CHAP is separate from transport encryption.",
+        "explanation": "The browser checks the configured login origin, computes CHAP and submits a native POST. CHAP is separate from transport encryption.",
         "source": "captive-portal/src/hotspot-login.js",
         "position": {
           "x": 800,

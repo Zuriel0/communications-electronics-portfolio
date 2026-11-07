@@ -163,3 +163,15 @@
 }
 @media (hover:hover) and (prefers-reduced-motion:no-preference) { .nodalume-dna-relation:hover .dna-form { transform:translateY(-3px); } }
 @media (max-width:59.999rem) { .nodalume-flow .nodalume-stage-title { min-height:4.8em; } }
+
+/* The product site is the primary next step; the case remains available below. */
+.nodalume-actions .nodalume-product-cta, .nodalume-product-cta { display: inline-flex; justify-content: space-between; align-items: center; gap: var(--space-6); padding: var(--space-5) var(--space-6); min-height: 5rem; border-radius: var(--radius-sm); text-decoration: none; }
+.nodalume-product-cta strong, .nodalume-product-cta small { display: block; }
+.nodalume-product-cta strong { font-size: var(--text-body-lg); }
+.nodalume-product-cta small { font-size: var(--text-label); margin-top: var(--space-1); }
+.nodalume-product-cta svg { flex-shrink: 0; }
+.nodalume-product-close { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-6); width: 100%; padding-block: var(--space-6); }
+.nodalume-product-close h2 { font-size: var(--text-h2); letter-spacing: -.04em; margin-bottom: var(--space-4); }
+@media (max-width: 39.999rem) { .nodalume-product-cta { width: 100%; } }
+
+.nodalume-identity .nodalume-product-cta { margin-top: var(--space-6); }

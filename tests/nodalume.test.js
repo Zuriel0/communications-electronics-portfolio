@@ -55,7 +55,10 @@ test('actual editorial page renders complete EN/ES before the deferred diagram r
       assert.equal((html.match(/<h1/g)||[]).length,1);
       assert.ok(html.includes(messages[language]['A portal. Your possibilities.']));
       assert.ok(html.includes(messages[language]['Future direction']));
-      assert.ok(html.includes(messages[language]['Source reviewed · isolated tests reproduced']));
+      assert.ok(!html.includes(messages[language]['Source reviewed · isolated tests reproduced']));
+      assert.ok(!html.includes('nodalume-evidence-ledger'));
+      assert.equal((html.match(/href="https:\/\/nodalume\.anxzu\.com\/"/g)||[]).length,2);
+      assert.ok(html.includes(messages[language]['Explore Nodalume']));
       for(const item of JSON.parse(readFileSync('tests/fixtures/nodalume-restored-editorial.json')).messages){
         const escape=text=>text.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
         assert.ok(html.includes(escape(item[language])),`Editorial ${language}: ${item.key}`);

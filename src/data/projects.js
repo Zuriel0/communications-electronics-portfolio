@@ -19,8 +19,9 @@ export const projects = [
         id: 3,
         image: "Nodalume",
         title: "Nodalume",
-        description: "A self-hosted captive portal platform project connecting backend services, network access and product design. Current lab implementation, visual builder concepts and future cloud direction are presented separately.",
+        description: "A self-hosted captive portal platform project connecting backend services, network access and product design. It combines visual portal design with backend, database and RADIUS integration in a laboratory environment.",
         competences: ["Node.js", "PostgreSQL", "FreeRADIUS", "MikroTik", "Docker Compose"],
-        link: "/projects/nodalume"
+        link: "/projects/nodalume",
+        productUrl: "https://nodalume.anxzu.com/"
     }
 ]

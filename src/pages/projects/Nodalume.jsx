@@ -5,7 +5,7 @@ import Text from '../../i18n/Text';
 import useTranslation from '../../i18n/useTranslation';
 import Navbar from '../../components/layout/navbar_project';
 import ActionLink from '../../components/ui/ActionLink';
-import { EvidenceLedger, SystemsExplorer, ProductDNA, OperationalEngineering, FutureRequirements, DiagramReading } from '../../components/ui/NodalumeEngineering';
+import { SystemsExplorer, ProductDNA, OperationalEngineering, FutureRequirements, DiagramReading } from '../../components/ui/NodalumeEngineering';
 import NodalumeMark from '../../components/ui/NodalumeMark';
 import { CaseFigure } from '../../components/ui/CaseStudy';
 import { nodalumeReadings } from '../../data/nodalumeReadings';
@@ -35,11 +35,14 @@ const influences = [
   { name:'Postman', sources:[['Postman','https://learning.postman.com/docs/getting-started/quick-start/']] },
 ];
 const decisions = [
-  ['Compose for a lab, not a scaling guarantee',"copy.restored-docker-compose-keeps-local-service-orchestration"],
+  ['Repeatable local orchestration',"copy.restored-docker-compose-keeps-local-service-orchestration"],
   ['Separate services, keep integration visible',"copy.restored-application-logic-persistence-and-aaa-have"],
   ['Treat tenant context as a design constraint',"copy.restored-multitenancy-makes-ownership-and-access-boundaries"],
   ['Design flexibility needs safe execution',"copy.restored-a-visual-builder-can-broaden-creative"],
 ];
+function ProductLink({ t }) {
+  return <ActionLink href="https://nodalume.anxzu.com/" className="nodalume-primary nodalume-product-cta"><span><strong>{t('Explore Nodalume')}</strong><small>nodalume.anxzu.com</small></span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14" stroke="currentColor" strokeWidth="1.8" /></svg></ActionLink>;
+}
 function Copy({ children, className }) { return <p className={className}><Text>{children}</Text></p>; }
 function Section({ id, title, children, className='' }) {
   return <section id={id} tabIndex={-1} aria-labelledby={`${id}-title`} className={`nodalume-section ${className}`}>
@@ -50,7 +53,7 @@ function Diagram({ kind }) {
   const { language } = useTranslation();
   const model = nodalumeReadings.find(view=>view.kind===kind);
   return <div className="nodalume-diagram-story">
-    <div className="nodalume-figure-heading"><h3>{model[language].title}</h3><span className="nodalume-status">{model[language].status}</span></div>
+    <div className="nodalume-figure-heading"><h3>{model[language].title}</h3></div>
     <CaseFigure diagramId={model.id} height={560} mobileHeight={730} reading="copy.light-highlights-one-relationship-at-a-time">
       <NodalumeDiagram kind={kind} />
     </CaseFigure>
@@ -63,13 +66,13 @@ function Content() {
     <header id="nodalume-overview" tabIndex={-1} className="nodalume-hero container">
       <ActionLink href="/#projects" className="case-back">{t('Back to projects')}</ActionLink>
       <div className="nodalume-hero-composition">
-        <div className="nodalume-identity"><Copy className="nodalume-subtitle">Self-hosted captive portal platform</Copy><h1>Nodalume</h1><Copy className="nodalume-statement">A portal. Your possibilities.</Copy></div>
+        <div className="nodalume-identity"><Copy className="nodalume-subtitle">Self-hosted captive portal platform</Copy><h1>Nodalume</h1><Copy className="nodalume-statement">A portal. Your possibilities.</Copy><ProductLink t={t} /></div>
         <NodalumeMark />
         <div className="nodalume-hero-copy"><Copy>copy.connecting-network-access-backend-services-and-the</Copy>
-          <div className="nodalume-actions"><ActionLink href="#nodalume-architecture" className="nodalume-primary">{t('Explore the architecture')}</ActionLink><ActionLink href="#nodalume-philosophy">{t('Explore the product thinking')}</ActionLink></div>
+          <div className="nodalume-actions"><ActionLink href="#nodalume-architecture">{t('Explore the architecture')}</ActionLink><ActionLink href="#nodalume-philosophy">{t('Explore the product thinking')}</ActionLink></div>
         </div>
       </div>
-      <div className="nodalume-scope"><span>{t('Current lab implementation')}</span><span>{t('Product design in progress')}</span><span>{t('Future direction')}</span></div>
+      <div className="nodalume-scope"><span>{t('Visual portal design')}</span><span>{t('Network access & services')}</span><span>{t('Self-hosted project')}</span></div>
       <nav className="nodalume-index" aria-label={t('Case study sections')}>{sections.map(([id,label])=><ActionLink key={id} href={`#${id}`}>{t(label)}</ActionLink>)}</nav>
     </header>
     <Section id="nodalume-problem" title="When the platform becomes the constraint.">
@@ -79,11 +82,9 @@ function Content() {
       <Copy className="nodalume-lead">copy.a-portal-should-be-a-starting-point</Copy>
       <div className="nodalume-principles">{principles.map(([title,text])=><article key={title}><h3>{t(title)}</h3><Copy>{text}</Copy></article>)}</div>
     </Section>
-    <Section id="nodalume-current" title="Implementation with a traceable basis.">
-      <span className="nodalume-status">{t('Source reviewed · isolated tests reproduced')}</span>
+    <Section id="nodalume-current" title="How Nodalume is built.">
       <Copy className="nodalume-lead">copy.the-reviewed-source-snapshot-contains-five-compose</Copy>
       <dl className="nodalume-decisions">{implementation.map(([title,text])=><div key={title}><dt>{t(title)}</dt><dd>{t(text)}</dd></div>)}</dl>
-      <aside className="nodalume-evidence-note"><h3>{t('Validation boundaries')}</h3><Copy>copy.source-files-were-reviewed-at-a-fixed</Copy></aside><EvidenceLedger />
     </Section>
     <Section id="nodalume-architecture" title="A system of responsibilities." className="nodalume-architecture">
       <Copy className="nodalume-lead">Explore the boundaries that make access possible.</Copy><Copy>copy.the-original-overview-remains-a-map-of</Copy><Diagram kind="platform" /><SystemsExplorer />
@@ -94,14 +95,14 @@ function Content() {
       <h3 className="nodalume-model-intro">{t('How the product model connects.')}</h3><Copy>copy.this-original-product-model-connects-visual-composition</Copy><Diagram kind="builder" />
     </Section>
     <Section id="nodalume-decisions" title="The choices behind the boundaries."><dl className="nodalume-decisions">{decisions.map(([title,text])=><div key={title}><dt>{t(title)}</dt><dd>{t(text)}</dd></div>)}</dl></Section>
-    <Section id="nodalume-operations" title="Operate deliberately. Evolve with evidence.">
+    <Section id="nodalume-operations" title="From local services to future infrastructure.">
       <div className="nodalume-two-columns"><article><h3>{t('Today: local service orchestration')}</h3><Copy>copy.compose-declares-healthbased-dependencies-restricted-api-and</Copy></article><article><h3>{t('Future: cloud evaluation')}</h3><Copy>copy.aws-is-an-option-to-investigate-not</Copy></article></div>
-      <OperationalEngineering /><Copy>copy.there-is-no-cloud-migration-autoscaling-policy</Copy>
+      <OperationalEngineering />
     </Section>
     <Section id="nodalume-future" title="Requirements for the next environment.">
       <Copy>copy.the-next-design-questions-are-deployment-maturity</Copy><FutureRequirements /><Diagram kind="evolution" /><Copy>copy.future-evaluation-sequence-these-are-questions-to</Copy>
     </Section>
-    <footer className="nodalume-closing container"><ActionLink href="/#projects">{t('Back to projects')}</ActionLink><ActionLink href="/projects/concurrencia">{t('Explore the SSH case study')}</ActionLink></footer>
+    <footer className="nodalume-closing container"><div className="nodalume-product-close"><div><h2>{t('Explore the product experience.')}</h2><p>{t('Discover the Portal Builder, visual customization and connected journeys on the Nodalume website.')}</p></div><ProductLink t={t} /></div><ActionLink href="/#projects">{t('Back to projects')}</ActionLink><ActionLink href="/projects/concurrencia">{t('Explore the SSH case study')}</ActionLink></footer>
   </main></>;
 }
 export default function Nodalume() { return <MessagesContext value={messages}><Content /></MessagesContext>; }

@@ -1,5 +1,5 @@
 {
-  "source": "Exact Spanish translations restored from ANX-013.1 / 85e81e5; Back to projects also exists in the unchanged common catalog.",
+  "source": "Editorial-array coverage retained; owner-requested editorial cleanup on 2026-11-07.",
   "scope": "25 omitted editorial-array messages plus explicit route-local coverage for Back to projects.",
   "messages": [
     {
@@ -39,8 +39,8 @@
     },
     {
       "key": "copy.restored-registration-and-administration-separate-publiccontext-validation",
-      "en": "Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.",
-      "es": "El registro y la administración separan la validación de contexto público, la emisión transaccional de accesos y la autorización tenant ligada a la sesión. El código de servicios y repositorios revisado hace explícitos esos límites."
+      "en": "Registration validates the public context, issues access within a transaction and keeps tenant administration tied to the authenticated session.",
+      "es": "El registro valida el contexto público, emite accesos dentro de una transacción y vincula la administración del tenant a la sesión autenticada."
     },
     {
       "key": "Persistence & tenancy",
@@ -89,18 +89,18 @@
     },
     {
       "key": "copy.restored-the-visual-editor-has-typed-blocks",
-      "en": "The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.",
-      "es": "El editor visual tiene bloques tipados, propiedades contextuales y un ciclo de publicación versionado. La automatización visual general y los constructores de acciones API externas siguen como conceptos de producto."
+      "en": "The visual editor combines typed blocks, contextual properties and versioned publication. External integrations and broader automation remain in development.",
+      "es": "El editor visual combina bloques tipados, propiedades contextuales y publicación versionada. Las integraciones externas y la automatización general siguen en desarrollo."
     },
     {
-      "key": "Compose for a lab, not a scaling guarantee",
-      "en": "Compose for a lab, not a scaling guarantee",
-      "es": "Compose para un laboratorio, sin garantías de escala"
+      "key": "Repeatable local orchestration",
+      "en": "Repeatable local orchestration",
+      "es": "Orquestación local reproducible"
     },
     {
       "key": "copy.restored-docker-compose-keeps-local-service-orchestration",
-      "en": "Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.",
-      "es": "Docker Compose hace explícita y repetible la orquestación local. Es práctico para integrar servicios, pero no establece alta disponibilidad, recuperación automática ni un despliegue cloud."
+      "en": "Docker Compose keeps local service orchestration explicit and repeatable, making the laboratory environment easier to configure and reproduce.",
+      "es": "Docker Compose hace explícita y repetible la orquestación local, facilitando la configuración y reproducción del entorno de laboratorio."
     },
     {
       "key": "Separate services, keep integration visible",
@@ -119,8 +119,8 @@
     },
     {
       "key": "copy.restored-multitenancy-makes-ownership-and-access-boundaries",
-      "en": "Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.",
-      "es": "El diseño multitenant exige considerar la propiedad y los límites de acceso en cada acción. Se necesitan pruebas de aislamiento y un modelo de datos documentado antes de afirmar garantías de seguridad."
+      "en": "Tenant ownership and session context guide authorization and data access throughout the application.",
+      "es": "La propiedad tenant y el contexto de sesión orientan la autorización y el acceso a los datos en toda la aplicación."
     },
     {
       "key": "Design flexibility needs safe execution",
