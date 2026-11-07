@@ -3,6 +3,11 @@ import { defineMessages } from '../catalog.js';
 // Edit each phrase in its source-language group; both catalogs are derived together.
 export default defineMessages({
   "fromEnglish": {
+    "Explore Nodalume": "Explorar Nodalume",
+    "A self-hosted captive portal platform project connecting backend services, network access and product design. It combines visual portal design with backend, database and RADIUS integration in a laboratory environment.": "Un proyecto de plataforma de portal cautivo autohospedada que conecta servicios backend, acceso a la red y diseño de producto. Combina diseño visual de portales con backend, base de datos e integración RADIUS en un entorno de laboratorio.",
+    "Engineering practice grows through deliberate learning. Explore my certifications and completed courses, with links to their credentials.": "La práctica de ingeniería crece con el aprendizaje continuo. Explora mis certificaciones y cursos completados, con enlaces a sus credenciales.",
+    "My preparation for the SAA-C03 exam includes hands-on AWS networking labs.": "Mi preparación para el examen SAA-C03 incluye laboratorios prácticos de redes en AWS.",
+
     "Portal, services and network access: conceptual relationships in the Nodalume lab.": "Portal, servicios y acceso a la red: relaciones conceptuales del laboratorio Nodalume.",
     "Docker Compose": "Docker Compose",
     "Design influences": "Referencias de diseño",

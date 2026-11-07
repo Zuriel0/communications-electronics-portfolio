@@ -22,7 +22,7 @@ export default function Credentials() {
         <div className="credentials-introduction">
           <SectionHeading title={t("Credentials & continuous learning")} id="credentials-title" />
           <div className="credentials-intro-copy">
-            <p><Text>{"Engineering practice grows through deliberate learning. These issuer records document certifications and completed courses, each with its own scope and verification link."}</Text></p>
+            <p><Text>{"Engineering practice grows through deliberate learning. Explore my certifications and completed courses, with links to their credentials."}</Text></p>
             <ActionLink href={credlyProfileUrl} target="_blank" className="credential-verify"
               aria-label={t("View public Credly profile (opens in a new tab)")}><Text>{"View public Credly profile"}</Text>{' '}<FiArrowUpRight aria-hidden="true" focusable="false" />
             </ActionLink>
@@ -58,7 +58,7 @@ export default function Credentials() {
               <p className="preparation-status"><Text>{"Certification in Preparation"}</Text>{' '}<span aria-hidden="true"><Text>{"/"}</Text></span>{' '}<Text>{"In preparation"}</Text></p>
               <h4 lang="en"><Text>{item.name}</Text></h4>
               <p><Text>{item.issuer}</Text> <span aria-hidden="true"><Text>{"·"}</Text></span> <Text>{item.examCode}</Text></p>
-              <p><Text>{"Hands-on AWS networking labs support this preparation. This certification has not been earned."}</Text></p>
+              <p><Text>{"My preparation for the SAA-C03 exam includes hands-on AWS networking labs."}</Text></p>
               <ActionLink href={item.url} target="_blank" className="credential-verify" aria-label={t("View certification details (opens in a new tab)")}><Text>{"View certification details"}</Text><FiArrowUpRight aria-hidden="true" focusable="false" /></ActionLink>
             </div>
           </article>)}</Text>

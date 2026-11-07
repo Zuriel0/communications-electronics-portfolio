@@ -3,6 +3,15 @@ import { defineMessages } from '../catalog.js';
 // Edit each phrase in its source-language group; both catalogs are derived together.
 export default defineMessages({
   "fromEnglish": {
+    "I developed the monitoring tool to search across web and authentication logs from Ubuntu and bring their results into one operational view.": "Desarrollé la herramienta para buscar en logs web y de autenticación desde Ubuntu y reunir los resultados en una sola vista operativa.",
+    "A request reaches one selected web server. The three drawn destinations represent the six servers monitored by the tool.": "Una petición llega a un servidor web seleccionado. Los tres destinos del diagrama representan los seis servidores que monitorea la herramienta.",
+    "Follow the local orchestrator to the independent Web and RADIUS observation groups, then back to the shared console.": "Sigue el orquestador local hasta los grupos independientes de observación web y RADIUS y después hasta la consola compartida.",
+    "The two SSH branches observe Web and RADIUS independently. Their matches converge on the shared console; the optional policy narrows Web searches.": "Las dos ramas SSH observan web y RADIUS de forma independiente. Sus coincidencias llegan a la consola compartida; la política opcional acota las búsquedas web.",
+    "Follow the six-stage method from understanding the original platform to a customization ready for integration.": "Sigue las seis etapas del método, desde comprender la plataforma original hasta una personalización lista para integrar.",
+    "Manual adjustment and validation connect the generated proposal with the integration step.": "El ajuste y la validación manual conectan la propuesta generada con la etapa de integración.",
+    "I designed a reusable methodology that brings constraint analysis, technical context and human validation into the customization workflow.": "Diseñé una metodología reutilizable que reúne análisis de restricciones, contexto técnico y validación humana en el proceso de personalización.",
+    "In my project experience, adopting the methodology reduced the time spent on repeated customization work.": "En mi experiencia con los proyectos, adoptar la metodología redujo el tiempo dedicado a la personalización repetida.",
+
     "1–2 hours / project": "1–2 horas / proyecto",
     "8–14 hours / project": "8–14 horas / proyecto",
     "A fixed foundation. A different experience.": "Una base estable. Una experiencia distinta.",

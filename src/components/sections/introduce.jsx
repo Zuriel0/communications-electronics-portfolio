@@ -14,7 +14,7 @@ export default function Introduce() {
       <CaseIntro
         title={t("Concurrent log monitor via SSH.")}
         summary="One MAC address. Multiple possible destinations. A command-line tool that brings remote log searches into a single operational view."
-        contribution="I developed the monitoring tool to search across web and authentication logs from Ubuntu. This case study describes the design and workflow from my project account."
+        contribution="I developed the monitoring tool to search across web and authentication logs from Ubuntu and bring their results into one operational view."
         facts={[
           ['Environment', 'Ubuntu, Bash and SSH'],
           ['Monitoring scope', 'Six web servers; one active RADIUS server'],
@@ -31,7 +31,7 @@ export default function Introduce() {
           <p><Text>{"A load balancer decides which web server handles an incoming request. When investigating a specific MAC address, the operator cannot know in advance which server holds the relevant event. Checking each machine separately divides the investigation across multiple log sources."}</Text></p>
           <aside className="case-aside"><h3><Text>{"The engineering challenge"}</Text></h3><p><Text>{"Observe every possible web destination while retaining visibility into authentication. A web match should identify the source without ending RADIUS supervision."}</Text></p></aside>
         </div>
-        <CaseFigure diagramId="diagram-loadbalance" height={760} mobileHeight={550} reading="Read this as destination uncertainty: one request reaches one selected web server. The three drawn destinations are representative; the monitoring scope in this project is six web servers. The animation illustrates routing, not live traffic.">
+        <CaseFigure diagramId="diagram-loadbalance" height={760} mobileHeight={550} reading="A request reaches one selected web server. The three drawn destinations represent the six servers monitored by the tool.">
           <LoadBalancerTraceabilityDiagram />
         </CaseFigure>
         <div className="case-diagram-context">
@@ -53,7 +53,7 @@ export default function Introduce() {
         <div id="highLevel" tabIndex={-1} role="group" aria-labelledby="architecture-detail-title" className="case-diagram-context">
           <h3 id="architecture-detail-title"><Text>{"The boundary between the tool and its environment."}</Text></h3>
           <p><Text>{"The local side contains the operator, configuration, orchestrator and console. The remote side contains the SSH connections and log sources being observed. The monitored service infrastructure is the project’s operating context."}</Text></p>
-          <CaseFigure diagramId="diagram-highlevel" height={820} mobileHeight={550} reading="Follow the local orchestrator to the two remote observation groups, then back to the console. The log paths are labels from the documented architecture; they do not independently establish a deployed product, version or administration responsibility."><HighLevelArchitecture /></CaseFigure>
+          <CaseFigure diagramId="diagram-highlevel" height={820} mobileHeight={550} reading="Follow the local orchestrator to the independent Web and RADIUS observation groups, then back to the shared console."><HighLevelArchitecture /></CaseFigure>
         </div>
       </CaseSection>
       <CaseSection id="flowSystem" title={t("From a MAC address to a traceable match.")}>
@@ -66,7 +66,7 @@ export default function Introduce() {
           </ol>
           <aside className="case-aside"><h3><Text>{"A policy for searches"}</Text></h3><p><Text>{"Narrowing the Web group concerns monitoring sessions, not shutting down web servers. It does not change the authentication service or imply automatic RADIUS failover."}</Text></p><p><Text>{"Input and configuration precede observation. Concurrency describes remote monitoring, rather than every operation in the tool."}</Text></p></aside>
         </div>
-        <CaseFigure diagramId="diagram-logic" height={690} mobileHeight={550} reading="The two SSH branches represent independent observation. Their matches converge on a shared output. The optional Web policy is a reference rule, not an extra data-transfer path; the illustrative animation is not an execution log."><LogicFlow /></CaseFigure>
+        <CaseFigure diagramId="diagram-logic" height={690} mobileHeight={550} reading="The two SSH branches observe Web and RADIUS independently. Their matches converge on the shared console; the optional policy narrows Web searches."><LogicFlow /></CaseFigure>
       </CaseSection>
       <CaseSection id="decisions" title={t("Decisions that preserve visibility.")}>
         <CaseDecisions items={[
@@ -78,12 +78,12 @@ export default function Introduce() {
       </CaseSection>
       <CaseSection id="implementation" title={t("Implementation scope.")}>
         <div className="case-split">
-          <div className="case-prose"><p><Text>{"The project account describes a Bash tool on Ubuntu, with remote log observation over SSH and externally defined server selection and policy. My contribution described here is the monitoring tool."}</Text></p><p><Text>{"The diagrams explain that design. They are presentation artifacts, rather than executable scripts or records of a test run."}</Text></p></div>
+          <div className="case-prose"><p><Text>{"The project account describes a Bash tool on Ubuntu, with remote log observation over SSH and externally defined server selection and policy. My contribution described here is the monitoring tool."}</Text></p></div>
           <aside className="case-aside"><h3><Text>{"Technology in context"}</Text></h3><p><Text>{"Bash provides automation; Ubuntu is the local execution environment; SSH connects the local tool to remote sources. RADIUS identifies the authentication domain. React Flow powers this case study’s diagrams, rather than the command-line monitor."}</Text></p></aside>
         </div>
       </CaseSection>
       <CaseSection id="outcome" title={t("One operational view, with the source intact.")} className="case-outcome">
-        <div className="case-prose"><p><Text>{"The reported outcome is a centralized search workflow in place of separate manual server checks: MAC-related matches, their source servers and the Web/RADIUS context can be reviewed together."}</Text></p><p><Text>{"This is a qualitative outcome from my project account, rather than a timed diagnostic benchmark or a measured reliability claim."}</Text></p></div>
+        <div className="case-prose"><p><Text>{"The reported outcome is a centralized search workflow in place of separate manual server checks: MAC-related matches, their source servers and the Web/RADIUS context can be reviewed together."}</Text></p></div>
         <div className="case-split">
           <div><h3><Text>{"Skills demonstrated in the project"}</Text></h3><p className="case-note"><Text>{"Shell automation, remote observation over SSH, MAC-oriented troubleshooting, monitoring policy design and technical architecture communication."}</Text></p></div>
           <div><h3><Text>{"Design takeaway"}</Text></h3><p className="case-note"><Text>{"Business sequence, concurrent observation and independent supervision describe different responsibilities. Making those boundaries explicit is central to reading this architecture correctly."}</Text></p></div>

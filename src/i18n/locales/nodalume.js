@@ -1,6 +1,17 @@
 import {defineMessages} from '../catalog.js';
 // Route-only copy. Long prose uses stable identifiers to avoid serializing its English text twice.
 const labels=defineMessages({fromEnglish:{
+  "Explore Nodalume": "Explorar Nodalume",
+  "Visual portal design": "Diseño visual de portales",
+  "Network access & services": "Acceso a la red y servicios",
+  "Self-hosted project": "Proyecto autohospedado",
+  "How Nodalume is built.": "Cómo está construido Nodalume.",
+  "Repeatable local orchestration": "Orquestación local reproducible",
+  "From local services to future infrastructure.": "De servicios locales a infraestructura futura.",
+  "Service diagnostics": "Diagnóstico de servicios",
+  "Explore the product experience.": "Descubre la experiencia de producto.",
+  "Discover the Portal Builder, visual customization and connected journeys on the Nodalume website.": "Conoce el Portal Builder, la personalización visual y los recorridos conectados en el sitio de Nodalume.",
+
   "Nodalume": "Nodalume",
   "A portal. Your possibilities.": "Un portal. Tus posibilidades.",
   "Self-hosted captive portal platform": "Plataforma de portal cautivo autohospedada",
@@ -121,16 +132,16 @@ const prose={
     "es": "El punto de partida es una restricción recurrente de diseño: un portal cautivo puede dar acceso a la red y dejar poco margen para definir la experiencia. Los cambios pueden depender del proveedor, de plantillas predefinidas o de un conjunto limitado de integraciones."
   },
   "copy.nodalume-explores-a-different-boundary-keep-the": {
-    "en": "Nodalume explores a different boundary: keep the access and session responsibilities explicit, while giving the portal experience more room to evolve. This is the project’s motivation, not a claim about every commercial platform.",
-    "es": "Nodalume explora otro límite: mantener explícitas las responsabilidades de acceso y sesión, mientras la experiencia del portal tiene más espacio para evolucionar. Es la motivación del proyecto, no una afirmación sobre todas las plataformas comerciales."
+    "en": "Nodalume brings network access and portal design into one project: clear responsibilities for access and sessions, with room to shape how visitors experience the portal.",
+    "es": "Nodalume reúne el acceso a la red y el diseño del portal en un proyecto: responsabilidades claras para accesos y sesiones, con libertad para definir la experiencia de los visitantes."
   },
   "copy.a-portal-should-be-a-starting-point": {
     "en": "A portal should be a starting point for an idea, not the limit of that idea. Nodalume’s product goal is to let users shape experiences, own their deployment and extend the platform without depending on a provider for every change.",
     "es": "Un portal debería ser el punto de partida de una idea, no su límite. El objetivo de producto de Nodalume es permitir que las personas diseñen experiencias, controlen su despliegue y amplíen la plataforma sin depender del proveedor para cada cambio."
   },
   "copy.light-highlights-one-relationship-at-a-time": {
-    "en": "Light highlights one relationship at a time. It is a reading aid, not live telemetry or a runtime simulation. All relationships remain readable when paused.",
-    "es": "La luz destaca una relación a la vez. Es una ayuda de lectura, no telemetría ni una simulación del sistema. Todas las relaciones siguen siendo legibles en pausa."
+    "en": "Follow one relationship at a time, or pause to explore the complete diagram.",
+    "es": "Sigue una relación a la vez o pausa para explorar el diagrama completo."
   },
   "copy.aws-is-an-option-to-investigate-not": {
     "en": "AWS is an option to investigate, not a deployed environment for Nodalume. Container compute such as Amazon ECS with AWS Fargate and managed PostgreSQL are possible evaluation candidates. Suitability depends on state, connectivity, RADIUS transport, secrets, backups, observability and cost.",
@@ -141,12 +152,12 @@ const prose={
     "es": "Este caso no afirma una migración cloud, políticas de autoescalado, objetivos de disponibilidad ni benchmarks de producción. Estas preguntas conectan la aplicación con la infraestructura sin presentar el proyecto como una práctica DevOps consolidada."
   },
   "copy.the-next-design-questions-are-deployment-maturity": {
-    "en": "The next design questions are deployment maturity, state separation, tenant isolation, operational visibility and broader integrations. A dedicated product experience at nodalume.anxzu.com is a later possibility; no product microsite or launch date is part of this phase.",
-    "es": "Las siguientes preguntas de diseño son la madurez del despliegue, la separación del estado, el aislamiento de tenants, la visibilidad operativa y más integraciones. Una experiencia de producto en nodalume.anxzu.com es una posibilidad posterior; esta fase no incluye un micrositio ni una fecha de lanzamiento."
+    "en": "The next steps focus on deployment maturity, state separation, tenant isolation, operational visibility and broader integrations. These requirements guide the project’s evolution.",
+    "es": "Los siguientes pasos se centran en la madurez del despliegue, la separación del estado, el aislamiento de tenants, la visibilidad operativa y nuevas integraciones. Estos requisitos orientan la evolución del proyecto."
   },
   "copy.future-evaluation-sequence-these-are-questions-to": {
-    "en": "Future evaluation sequence. These are questions to resolve, not an implemented cloud topology. No infrastructure resources are provisioned by this case study.",
-    "es": "Secuencia futura de evaluación. Son preguntas por resolver, no una topología cloud implementada. Este caso de estudio no aprovisiona recursos de infraestructura."
+    "en": "An evaluation path for future infrastructure: establish a baseline, separate state, compare cloud options and validate operations.",
+    "es": "Una ruta de evaluación para la infraestructura futura: establecer una base, separar el estado, comparar opciones cloud y validar la operación."
   },
   "copy.source-snapshot-reviewed-25c6897-productunit-evidence-is": {
     "en": "Source snapshot reviewed: 25c6897. Product-unit evidence is separate from the tests of this portfolio.",
@@ -177,16 +188,16 @@ const prose={
     "es": "La ejecución, el estado, el acceso de red y el coste operativo siguen siendo requisitos por evaluar antes de elegir una topología cloud."
   },
   "copy.choose-a-system-view-the-animation-walks": {
-    "en": "Choose a system view. The animation walks source-backed relationships; it does not represent traffic from a running installation.",
-    "es": "Elige una vista del sistema. La animación recorre relaciones respaldadas por código; no representa tráfico de una instalación en ejecución."
+    "en": "Explore authentication, sessions, tenancy, deployment and the editor. Select a stage to follow the relationship between components.",
+    "es": "Explora autenticación, sesiones, tenancy, despliegue y editor. Selecciona una etapa para seguir la relación entre sus componentes."
   },
   "copy.dashed-connections-are-conditional-or-independent-paths": {
     "en": "Dashed connections are conditional or independent paths. The automatic walkthrough follows only its declared stages; all paths remain visible when paused.",
     "es": "Las conexiones discontinuas son rutas condicionales o independientes. El recorrido automático sigue únicamente sus etapas declaradas; todas las rutas permanecen visibles en pausa."
   },
   "copy.each-reference-addresses-an-interaction-problem-the": {
-    "en": "Each reference addresses an interaction problem. The implementation makes its own choices, with the current scope shown beside each principle.",
-    "es": "Cada referencia responde a un problema de interacción. La implementación toma decisiones propias y muestra el alcance actual junto a cada principio."
+    "en": "Each reference contributes a useful interaction principle. The decisions below show how it informs Nodalume’s product design.",
+    "es": "Cada referencia aporta un principio útil de interacción. Las decisiones siguientes muestran cómo orienta el diseño de Nodalume."
   },
   "copy.own-decision-a-block-inspector-applies-allowed": {
     "en": "Own decision: a block inspector applies allowed property changes to a stable selected block identity.",
@@ -197,20 +208,20 @@ const prose={
     "es": "Decisión propia: las operaciones del editor usan contratos explícitos de guardado, preview, publicación y restauración con controles de versión."
   },
   "copy.compose-expresses-service-configuration-and-mounts-secret": {
-    "en": "Compose expresses service configuration and mounts. Secret values remain outside this case study; laboratory and installation profiles must be evaluated separately.",
-    "es": "Compose expresa la configuración de servicios y sus montajes. Los valores secretos quedan fuera de este caso; los perfiles de laboratorio e instalación deben evaluarse por separado."
+    "en": "Service configuration and mounts are defined in Compose, with deployment-specific values managed outside the application code.",
+    "es": "La configuración de servicios y sus montajes se define en Compose, con los valores propios del despliegue gestionados fuera del código de la aplicación."
   },
   "copy.postgresql-health-gates-the-api-and-freeradius": {
     "en": "PostgreSQL health gates the API and FreeRADIUS. API health gates the web services. Readiness, functional authentication and physical Internet access are separate checks.",
     "es": "La disponibilidad de PostgreSQL condiciona la API y FreeRADIUS. La disponibilidad de la API condiciona los servicios web. La disponibilidad, la autenticación funcional y el acceso físico a Internet son comprobaciones distintas."
   },
   "copy.postgresql-data-and-portal-media-have-separate": {
-    "en": "PostgreSQL data and portal media have separate volumes. Migration history and coordinated restoration are operational concerns; recovery documents are evidence to inspect, not a restore performed in this phase.",
-    "es": "Los datos PostgreSQL y los medios del portal tienen volúmenes separados. El historial de migraciones y la restauración coordinada son asuntos operativos; los documentos de recuperación son evidencia inspeccionada, no una restauración ejecutada en esta fase."
+    "en": "PostgreSQL data and portal media use separate volumes. Migration history and coordinated backups support planning for recovery.",
+    "es": "Los datos PostgreSQL y los medios del portal usan volúmenes separados. El historial de migraciones y los respaldos coordinados permiten planificar la recuperación."
   },
   "copy.eight-dependencyfree-product-unit-tests-were-reproduced": {
-    "en": "Eight dependency-free product unit tests were reproduced offline. Database test sources and the RADIUS and browser implementation were inspected. No active lab API, database, router or service was contacted.",
-    "es": "Se reprodujeron sin red ocho pruebas unitarias del producto sin dependencias externas. Se inspeccionaron las pruebas de base de datos y la implementación RADIUS y del navegador. No se contactó ninguna API, base de datos, router o servicio activo del laboratorio."
+    "en": "Health checks, application errors and RADIUS accounting provide different views of service behavior and help guide diagnosis.",
+    "es": "Las comprobaciones de disponibilidad, los errores de aplicación y el accounting RADIUS aportan perspectivas distintas del comportamiento de los servicios y orientan el diagnóstico."
   },
   "copy.evaluate-process-lifecycle-health-checks-and-network": {
     "en": "Evaluate process lifecycle, health checks and network requirements before choosing a container execution service.",
@@ -241,32 +252,32 @@ const prose={
     "es": "Medir el uso de recursos y los supuestos de tráfico antes de estimar costes de cómputo, almacenamiento, red y operación."
   },
   "copy.the-reviewed-source-snapshot-contains-five-compose": {
-    "en": "The reviewed source snapshot contains five Compose services: PostgreSQL, Node.js API, FreeRADIUS, the React administration console and the captive portal. Eight original unit tests were reproduced offline; further integration evidence is identified separately.",
-    "es": "El código revisado contiene cinco servicios Compose: PostgreSQL, API Node.js, FreeRADIUS, consola administrativa React y portal cautivo. Se reprodujeron sin red ocho pruebas unitarias originales; la evidencia adicional de integración se identifica por separado."
+    "en": "Five services work together: PostgreSQL, a Node.js API, FreeRADIUS, the React administration console and the captive portal. Docker Compose coordinates them in the laboratory environment.",
+    "es": "Cinco servicios trabajan juntos: PostgreSQL, una API Node.js, FreeRADIUS, la consola administrativa React y el portal cautivo. Docker Compose coordina estos servicios en el entorno de laboratorio."
   },
   "copy.source-files-were-reviewed-at-a-fixed": {
     "en": "Source files were reviewed at a fixed commit. Eight original Nodalume unit tests were reproduced offline for CHAP, origin checks and temporary-access service behavior. Database suites were inspected, not rerun; current lab services and physical Internet access were not tested.",
     "es": "Los archivos fuente se revisaron en un commit fijo. Se reprodujeron sin red ocho pruebas unitarias originales de Nodalume sobre CHAP, controles de origen y comportamiento del servicio de accesos temporales. Las suites de base de datos se inspeccionaron, sin volver a ejecutarlas; no se probaron los servicios actuales del laboratorio ni el acceso físico a Internet."
   },
   "copy.the-original-overview-remains-a-map-of": {
-    "en": "The original overview remains a map of responsibilities. In the inspected implementation, the API issues access through SQL and FreeRADIUS reads the database. The source-backed views below separate actual dependencies and execution stages.",
-    "es": "La vista original conserva su función como mapa de responsabilidades. En la implementación inspeccionada, la API emite accesos mediante SQL y FreeRADIUS lee la base de datos. Las vistas respaldadas por código que siguen separan dependencias reales y etapas de ejecución."
+    "en": "The API manages access through SQL, FreeRADIUS handles AAA and the console provides administration. Explore how these responsibilities connect across the platform.",
+    "es": "La API gestiona los accesos mediante SQL, FreeRADIUS se ocupa de AAA y la consola ofrece la administración. Explora cómo se conectan estas responsabilidades en la plataforma."
   },
   "copy.these-product-references-inform-specific-choices-in": {
-    "en": "These product references inform specific choices in Nodalume. Source review distinguishes the implemented visual editor and REST operations from conceptual automation. Each reference is an inspiration, with no affiliation or endorsement.",
-    "es": "Estas referencias de producto orientan decisiones concretas de Nodalume. La revisión del código distingue el editor visual y las operaciones REST implementadas de la automatización conceptual. Cada referencia es una inspiración, sin afiliación ni aval."
+    "en": "These references inform specific interaction choices: visual composition, contextual properties, conditional journeys and explicit API operations. Nodalume adapts those principles to captive portals.",
+    "es": "Estas referencias orientan decisiones concretas de interacción: composición visual, propiedades contextuales, recorridos condicionales y operaciones API explícitas. Nodalume adapta esos principios a los portales cautivos."
   },
   "copy.this-original-product-model-connects-visual-composition": {
-    "en": "This original product model connects visual composition, policy logic and API actions. The source-backed editor view documents the implementation; general automation and external API-action composition remain conceptual.",
-    "es": "Este modelo original de producto conecta composición visual, lógica de políticas y acciones API. La vista del editor respaldada por código documenta la implementación; la automatización general y la composición de acciones API externas siguen siendo conceptuales."
+    "en": "Visual composition, policy logic and API actions form the product model. The editor organizes screens and blocks; broader automation and external integrations remain areas of development.",
+    "es": "La composición visual, la lógica de políticas y las acciones API forman el modelo de producto. El editor organiza pantallas y bloques; la automatización general y las integraciones externas siguen en desarrollo."
   },
   "copy.compose-declares-healthbased-dependencies-restricted-api-and": {
-    "en": "Compose declares health-based dependencies, restricted API and web containers, service boundaries and separate volumes. The reviewed operational documentation covers installation, diagnosis, migrations and recovery. No lab service was started or changed in this phase.",
-    "es": "Compose declara dependencias basadas en disponibilidad, contenedores API y web restringidos, límites de servicio y volúmenes separados. La documentación operativa revisada cubre instalación, diagnóstico, migraciones y recuperación. No se arrancó ni modificó ningún servicio del laboratorio en esta fase."
+    "en": "Docker Compose defines service dependencies, container boundaries and separate volumes. Installation, diagnosis, migrations and recovery are part of the operating model.",
+    "es": "Docker Compose define las dependencias de servicio, los límites de los contenedores y los volúmenes separados. La instalación, el diagnóstico, las migraciones y la recuperación forman parte del modelo operativo."
   },
   "copy.restored-registration-and-administration-separate-publiccontext-validation": {
-    "en": "Registration and administration separate public-context validation, transactional access issuance and session-bound tenant authorization. The reviewed service and repository code makes those boundaries explicit.",
-    "es": "El registro y la administración separan la validación de contexto público, la emisión transaccional de accesos y la autorización tenant ligada a la sesión. El código de servicios y repositorios revisado hace explícitos esos límites."
+    "en": "Registration validates the public context, issues access within a transaction and keeps tenant administration tied to the authenticated session.",
+    "es": "El registro valida el contexto público, emite accesos dentro de una transacción y vincula la administración del tenant a la sesión autenticada."
   },
   "copy.restored-postgresql-stores-access-tenant-ownership-editor": {
     "en": "PostgreSQL stores access, tenant ownership, editor drafts and published revisions. Tenant-qualified predicates and composite foreign keys retain ownership across related records.",
@@ -285,20 +296,20 @@ const prose={
     "es": "El autohospedaje deja las decisiones de despliegue en manos del operador. También le asigna la responsabilidad de las actualizaciones, los respaldos y la seguridad."
   },
   "copy.restored-the-visual-editor-has-typed-blocks": {
-    "en": "The visual editor has typed blocks, contextual properties and a versioned publication path. General visual automation and external API-action builders remain product concepts.",
-    "es": "El editor visual tiene bloques tipados, propiedades contextuales y un ciclo de publicación versionado. La automatización visual general y los constructores de acciones API externas siguen como conceptos de producto."
+    "en": "The visual editor combines typed blocks, contextual properties and versioned publication. External integrations and broader automation remain in development.",
+    "es": "El editor visual combina bloques tipados, propiedades contextuales y publicación versionada. Las integraciones externas y la automatización general siguen en desarrollo."
   },
   "copy.restored-docker-compose-keeps-local-service-orchestration": {
-    "en": "Docker Compose keeps local service orchestration explicit and repeatable. It is practical for integration work, but does not establish high availability, automated recovery or a cloud deployment.",
-    "es": "Docker Compose hace explícita y repetible la orquestación local. Es práctico para integrar servicios, pero no establece alta disponibilidad, recuperación automática ni un despliegue cloud."
+    "en": "Docker Compose keeps local service orchestration explicit and repeatable, making the laboratory environment easier to configure and reproduce.",
+    "es": "Docker Compose hace explícita y repetible la orquestación local, facilitando la configuración y reproducción del entorno de laboratorio."
   },
   "copy.restored-application-logic-persistence-and-aaa-have": {
     "en": "Application logic, persistence and AAA have different responsibilities. Clear boundaries help reason about failures, but introduce configuration, connectivity and consistency work.",
     "es": "La lógica de aplicación, la persistencia y AAA tienen responsabilidades distintas. Los límites claros ayudan a analizar fallos, pero requieren gestionar configuración, conectividad y consistencia."
   },
   "copy.restored-multitenancy-makes-ownership-and-access-boundaries": {
-    "en": "Multitenancy makes ownership and access boundaries important at every application action. Isolation tests and a documented data model are needed before making strong security claims.",
-    "es": "El diseño multitenant exige considerar la propiedad y los límites de acceso en cada acción. Se necesitan pruebas de aislamiento y un modelo de datos documentado antes de afirmar garantías de seguridad."
+    "en": "Tenant ownership and session context guide authorization and data access throughout the application.",
+    "es": "La propiedad tenant y el contexto de sesión orientan la autorización y el acceso a los datos en toda la aplicación."
   },
   "copy.restored-a-visual-builder-can-broaden-creative": {
     "en": "A visual builder can broaden creative freedom, while policy and API actions need validation and bounded permissions. The product direction must balance expression with predictable network access.",

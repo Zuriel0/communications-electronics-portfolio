@@ -38,7 +38,7 @@ export function SystemsExplorer() {
       {engineeringViews.map(item=><Button key={item.id} aria-pressed={item.id===model.id} aria-controls="nodalume-system-view" onClick={()=>navigate({pathname,hash:`#${item.id}`})}>{item[language].title}</Button>)}
     </div>
     <div id="nodalume-system-view" className="nodalume-system-view">
-      <div className="nodalume-figure-heading"><h4>{model[language].title}</h4><span className="nodalume-status">{model[language].status}</span></div>
+      <div className="nodalume-figure-heading"><h4>{model[language].title}</h4></div>
       <p>{model[language].summary}</p>
       <CaseFigure key={model.id} diagramId={model.id} height={model.height} mobileHeight={model.mobileHeight} reading="copy.dashed-connections-are-conditional-or-independent-paths">
         <EngineeringDiagram kind={model.kind}/>
@@ -63,11 +63,11 @@ const principleKinds={'Elementor / Wix':'composition',Figma:'context','Scratch /
 export function ProductDNA({ references }) {
   const { t } = useTranslation();
   return <div className="nodalume-product-dna"><h3>{t('Product Design DNA')}</h3><p>{t("copy.each-reference-addresses-an-interaction-problem-the")}</p>
-    {dna.map(([name,problem,principle,decision,status])=><article key={name} className="nodalume-dna-relation">
+    {dna.map(([name,problem,principle,decision])=><article key={name} className="nodalume-dna-relation">
       <div className="nodalume-dna-reference"><h4>{t(name)}</h4><p>{t(problem)}</p><NodalumePrinciple kind={principleKinds[name]}/>
         <div className="nodalume-sources">{(references.find(item=>item.name===name)?.sources || []).map(([brand,href])=><ActionLink key={brand} href={href}>{t('Reference documentation')}: {brand}</ActionLink>)}</div>
       </div>
-      <dl className="nodalume-dna-decisions"><div><dt>{t('Adapted principle')}</dt><dd>{t(principle)}</dd></div><div className="nodalume-dna-own"><dt>{t('Nodalume decision')}</dt><dd>{t(decision)}</dd></div><div className="nodalume-dna-scope"><dt>{t('Current scope')}</dt><dd>{t(status)}</dd></div></dl>
+      <dl className="nodalume-dna-decisions"><div><dt>{t('Adapted principle')}</dt><dd>{t(principle)}</dd></div><div className="nodalume-dna-own"><dt>{t('Nodalume decision')}</dt><dd>{t(decision)}</dd></div></dl>
     </article>)}
   </div>;
 }
@@ -75,7 +75,7 @@ const operations = [
   ['Environment configuration',"copy.compose-expresses-service-configuration-and-mounts-secret"],
   ['Dependencies & diagnosis',"copy.postgresql-health-gates-the-api-and-freeradius"],
   ['Persistence & recovery',"copy.postgresql-data-and-portal-media-have-separate"],
-  ['Testing boundaries',"copy.eight-dependencyfree-product-unit-tests-were-reproduced"],
+  ['Service diagnostics',"copy.eight-dependencyfree-product-unit-tests-were-reproduced"],
 ];
 export function OperationalEngineering() {
   const { t } = useTranslation();

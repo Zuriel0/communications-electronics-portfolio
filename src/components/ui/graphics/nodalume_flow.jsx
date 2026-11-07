@@ -95,7 +95,7 @@ function Diagram({ kind, model: customModel }) {
     labelBgStyle:{fill:'var(--background-secondary)'},labelBgPadding:[8,5],
   })),[model,t,phase.edgeId,inspected,vertical]);
   return <div className={`nodalume-flow ${inspected?'nodalume-flow--evidence':''}`}>
-    {inspected && <><p className="nodalume-reading-note">{t('Code-guided walkthrough. Selecting a stage or component pauses the motion.')}</p>
+    {inspected && <><p className="nodalume-reading-note">{t('Select a stage or component to explore its role. Selection pauses the motion.')}</p>
       <p className="nodalume-stage-title"><span className="nodalume-stage-position" aria-hidden="true">{phase.index+1}<small>/{count}</small></span><span key={phase.edgeId} className="nodalume-stage-copy">{t(phase.title)}</span></p><div className="nodalume-stage-controls" role="group" aria-label={t('Walkthrough stages')}>{steps.map((item,index)=><Button key={item.edge} aria-label={t('Stage {0}: {1}',[index+1,t(item.title)])} aria-pressed={index===phase.index} onClick={()=>selectStage(index)}>{index+1}</Button>)}</div>
     </>}
     <DiagramPlaybackControls id={model.id} title={model.title} playback={playback}/>
@@ -112,7 +112,7 @@ function Diagram({ kind, model: customModel }) {
     </div>
     {inspected && <div className="nodalume-component-inspection">
       <label className="nodalume-component-list" htmlFor={`${model.id}-component`}>{t('Inspect a component')}<select id={`${model.id}-component`} aria-controls={`${model.id}-inspection`} value={selectedId} onChange={event=>selectComponent(event.target.value)}>{model.nodes.map(node=><option key={node.id} value={node.id}>{t(node.label)}</option>)}</select></label>
-      <div id={`${model.id}-inspection`} className="nodalume-inspection-copy" aria-live="polite" aria-atomic="true"><div key={selectedId} className="nodalume-inspection-detail"><h4>{t(selected.label)}</h4><p>{t(selected.explanation)}</p><p className="nodalume-source-note">{t('Source inspected')}: <code>{selected.source.split('/').at(-1)}</code></p></div></div>
+      <div id={`${model.id}-inspection`} className="nodalume-inspection-copy" aria-live="polite" aria-atomic="true"><div key={selectedId} className="nodalume-inspection-detail"><h4>{t(selected.label)}</h4><p>{t(selected.explanation)}</p></div></div>
     </div>}
   </div>;
 }

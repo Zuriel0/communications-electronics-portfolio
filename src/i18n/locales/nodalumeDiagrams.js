@@ -1,6 +1,7 @@
 import { defineMessages } from '../catalog.js';
 // Canvas-only copy. Imported with the lazy graph, never by the editorial route.
 export default defineMessages({fromEnglish:{
+  "Select a stage or component to explore its role. Selection pauses the motion.": "Selecciona una etapa o un componente para explorar su función. La selección pausa el movimiento.",
   "Current lab implementation": "Implementación actual en laboratorio",
   "Product design in progress": "Diseño de producto en curso",
   "Future direction": "Evolución futura",
@@ -72,7 +73,7 @@ export default defineMessages({fromEnglish:{
   "The issuer persists access and RADIUS attributes using the tenant policy. The service retries username collisions at most three times.": "El emisor persiste el acceso y los atributos RADIUS según la política del tenant. El servicio reintenta colisiones de nombre hasta tres veces.",
   "HotSpot handoff": "Handoff al HotSpot",
   "Origin-bound CHAP POST": "POST CHAP ligado al origen",
-  "The browser checks the configured login origin, computes CHAP and submits a native POST. Offline tests reproduce the URL checks and single submission. CHAP is separate from transport encryption.": "El navegador comprueba el origen configurado, calcula CHAP y envía un POST nativo. Las pruebas aisladas reproducen los controles de URL y el envío único. CHAP es independiente del cifrado del transporte.",
+  "The browser checks the configured login origin, computes CHAP and submits a native POST. CHAP is separate from transport encryption.": "El navegador comprueba el origen configurado, calcula CHAP y envía un POST nativo. CHAP es independiente del cifrado del transporte.",
   "FreeRADIUS checks": "Comprobaciones FreeRADIUS",
   "CHAP, SQL & expiration": "CHAP, SQL y expiración",
   "The configured server invokes CHAP, SQL authorization and expiration checks. This source walkthrough does not contact a RADIUS server.": "El servidor configurado invoca CHAP, autorización SQL y comprobaciones de expiración. Este recorrido del código no contacta un servidor RADIUS.",
